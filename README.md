@@ -2,7 +2,7 @@
 
 An open-access scientific reference wiki for 328 non-avian dinosaur genera, spanning the full range of the Mesozoic Era (252–66 Ma). Built on data from the Natural History Museum London's Dinosaur Directory and peer-reviewed literature.
 
-![Dinosauria Wiki](dinosaur_design_wiki_header.png)
+![Dinosauria Wiki](header_readme.png)
 
 ---
 
