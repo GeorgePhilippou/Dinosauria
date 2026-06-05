@@ -2192,14 +2192,11 @@
     width: min(420px, 100%);
     height: 64px;
     object-fit: contain;
-    opacity: .7;
+    opacity: .86;
     pointer-events: none;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,.28));
   }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) .top-bar-scene-img { filter: brightness(0) invert(1); opacity: .52; }
-  }
-  :root[data-theme="dark"] .top-bar-scene-img { filter: brightness(0) invert(1); opacity: .52; }
-  :root[data-theme="light"] .top-bar-scene-img { filter: brightness(0) invert(1); opacity: .46; }
+  :root[data-theme="light"] .top-bar-scene-img { opacity: .42; }
   @media (max-width: 560px) {
     .top-bar-scene-img {
       width: min(260px, 100%);
@@ -3844,7 +3841,7 @@
       </nav>
     </div>
     <button class="top-bar-title" id="home-logo-btn" aria-label="Go to home page" title="Home">
-      <img class="top-bar-scene-img" src="dinosaur_design_wiki_header.png" alt="">
+      <img class="top-bar-scene-img" src="dinosaur_design_wiki_topbar.png" alt="">
     </button>
     <div class="top-bar-meta">
       <span class="top-bar-nhm-attr">Sourced from</span>
