@@ -5252,9 +5252,11 @@ window.NHM_IMPORTED_DINOSAUR_RECORDS = [
     "Not listed by NHM",
     "Not listed by NHM",
     "sauropod",
-    "Kotasaurus is known from a nearly complete skeleton that lacks the skull, so the reconstruction uses guesswork based on similar dinosaurs.",
+    "Kotasaurus is an early sauropod from the Kota Formation of India. Fossils from the Yamanpalli area of Telangana include extensive postcranial material from multiple individuals, but the skull is missing, so skull shape and the full life reconstruction remain partly inferred from related sauropods.",
     [
-      "NHM classification: Dinosauria > Saurischia > Sauropodomorpha > Sauropoda"
+      "NHM classification: Dinosauria > Saurischia > Sauropodomorpha > Sauropoda",
+      "PBDB occurrence data places sampled Kotasaurus records in the Sinemurian to Pliensbachian of the Early Jurassic, about 199.5–184.2 million years ago.",
+      "Yadagiri's osteological description reports well preserved material from more than twelve individuals recovered from the Kota Formation near Yamanpalli."
     ],
     "koht-a-sore-us",
     "https://www.nhm.ac.uk/discover/dino-directory/kotasaurus.html",

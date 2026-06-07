@@ -23,6 +23,7 @@ An open-access scientific reference wiki for 328 non-avian dinosaur genera, span
 | Source | Usage |
 |---|---|
 | [NHM London Dinosaur Directory](https://www.nhm.ac.uk/discover/dino-directory.html) | Species data, taxonomy, fossil records |
+| [Paleobiology Database](https://paleobiodb.org/classic) | Occurrence counts, formation-level records, stratigraphic ranges and taxonomy enrichment |
 | [International Geological Time Scale (IUGS)](https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf) | Period and stage ages |
 | [Wikimedia Commons](https://commons.wikimedia.org) | Reference images (individual Creative Commons licences — see each file page) |
 | [PALEOMAP Project — Scotese et al., CC BY 4.0](https://www.earthbyte.org/paleomap-paleoatlas-for-gplates/) | Paleogeographic maps |
@@ -50,7 +51,8 @@ No build step, no dependencies, no server required.
 ├── index.html                  # Main application
 ├── data/
 │   ├── existing-dinosaurs.js   # 67 fully curated genera with rich profiles
-│   └── nhm-imported-dinosaurs.js  # 261 NHM-imported genera
+│   ├── nhm-imported-dinosaurs.js  # 261 NHM-imported genera
+│   └── pbdb-enrichment.js      # PBDB occurrence/taxonomy enrichment
 ├── dinosaur_design_wiki_header.png
 └── Dinosaur_Wiki_Logo.png
 ```
