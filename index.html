@@ -120,8 +120,8 @@
 
   .view { display: none; min-width: 0; min-height: 0; }
   .view.active { display: flex; flex-direction: column; flex: 1; min-width: 0; min-height: 0; overflow: hidden; }
-  #home-view.active,
-  #glossary-view.active { overflow-y: auto; }
+  #home-view.active { overflow-y: auto; }
+  #glossary-view.active { overflow: hidden; }
   .home-main {
     flex: 1;
     min-height: 0;
@@ -3805,7 +3805,14 @@
   }
 
   /* § Glossary — dictionary redesign */
-  .glossary-search-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 16px 0 18px; }
+  .glossary-search-row {
+    display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+    flex-shrink: 0;
+    position: sticky; top: 0; z-index: 45;
+    padding: 14px 32px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+  }
   .glossary-search-wrap { position: relative; flex: 1; min-width: 220px; max-width: 360px; }
   .glossary-search-wrap input {
     width: 100%; min-height: 34px; padding: 0 12px 0 32px;
@@ -3832,6 +3839,21 @@
     box-shadow: 0 0 0 2px color-mix(in srgb, var(--cat, var(--text-3)) 20%, transparent);
   }
   .glossary-jump-chip:hover { background: var(--surface-3); color: var(--text); border-color: var(--cat, var(--line)); }
+
+  .back-to-top-btn {
+    position: fixed; right: 24px; bottom: 24px; z-index: 70;
+    display: flex; align-items: center; justify-content: center;
+    width: 42px; height: 42px; border-radius: 50%;
+    border: 1px solid var(--line-2); background: var(--surface-2); color: var(--text-2);
+    cursor: pointer; box-shadow: 0 8px 22px rgba(0,0,0,.35);
+    opacity: 0; visibility: hidden; transform: translateY(8px);
+    transition: opacity .16s ease, transform .16s ease, visibility 0s linear .16s, background .12s, color .12s, border-color .12s;
+  }
+  .back-to-top-btn.visible {
+    opacity: 1; visibility: visible; transform: translateY(0);
+    transition: opacity .16s ease, transform .16s ease, background .12s, color .12s, border-color .12s;
+  }
+  .back-to-top-btn:hover { background: var(--surface-3); color: var(--text); border-color: #c0622f; }
 
   /* Category colour coding — small "label" dot + accent rule on each glossary section header,
      reusing the established earthy wiki palette (PERIOD_COLORS family) per scientific domain */
@@ -3966,6 +3988,7 @@
   @media (min-width: 1100px) {
     .wiki-section-header { padding: 11px 48px; }
     .wiki-section-body { padding: 28px 48px; }
+    .glossary-search-row { padding: 14px 48px; }
     .wiki-abstract { max-width: none; }
     .wiki-ref-prose { max-width: none; }
     .wiki-ref-keydef { max-width: none; }
@@ -4018,6 +4041,7 @@
   @media (max-width: 760px) {
     .wiki-section-header { padding: 10px 18px; }
     .wiki-section-body { padding: 18px 18px; }
+    .glossary-search-row { padding: 14px 18px; }
     .wiki-contents-list { grid-template-columns: 1fr; }
 
   }
@@ -4909,30 +4933,32 @@
   </section>
 
   <section class="view" id="glossary-view">
+    <div class="wiki-page" id="glossary-page">
 
       <section class="wiki-section">
         <div class="wiki-section-header"><div class="wiki-section-label">Glossary and definitions</div></div>
         <div class="wiki-section-body">
         <h1 class="wiki-intro-title" style="margin-bottom:8px;">Scientific terminology</h1>
         <p class="wiki-intro-subtitle" style="margin-bottom:0;">A working dictionary of the words, names and concepts used throughout this wiki — organised by scientific domain. Search to filter every entry, or jump straight to a category.</p>
-        <div class="glossary-search-row">
-          <div class="glossary-search-wrap">
-            <input type="text" id="glossary-search" placeholder="Search terms and definitions…" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="glossary-search-results" aria-autocomplete="list">
-            <div class="glossary-search-results" id="glossary-search-results" role="listbox" aria-label="Search results"></div>
-          </div>
-          <nav class="glossary-jump-nav" aria-label="Jump to category">
-            <a class="glossary-jump-chip" data-cat="gloss-concepts" style="--cat:#c0622f" href="#gloss-concepts">Key concepts</a>
-            <a class="glossary-jump-chip" data-cat="gloss-taxonomy" style="--cat:#d4a027" href="#gloss-taxonomy">Taxonomy</a>
-            <a class="glossary-jump-chip" data-cat="gloss-phylogenetics" style="--cat:#8a7abf" href="#gloss-phylogenetics">Phylogenetics</a>
-            <a class="glossary-jump-chip" data-cat="gloss-groups" style="--cat:#4a7fb5" href="#gloss-groups">Major groups</a>
-            <a class="glossary-jump-chip" data-cat="gloss-anatomy" style="--cat:#c43020" href="#gloss-anatomy">Anatomy</a>
-            <a class="glossary-jump-chip" data-cat="gloss-geology" style="--cat:#5c9e6e" href="#gloss-geology">Geological time</a>
-            <a class="glossary-jump-chip" data-cat="gloss-fossils" style="--cat:#c87040" href="#gloss-fossils">Fossil record</a>
-            <a class="glossary-jump-chip" data-cat="gloss-geography" style="--cat:#3b93c5" href="#gloss-geography">Palaeogeography</a>
-          </nav>
-        </div>
       </div>
       </section>
+
+      <div class="glossary-search-row">
+        <div class="glossary-search-wrap">
+          <input type="text" id="glossary-search" placeholder="Search terms and definitions…" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="glossary-search-results" aria-autocomplete="list">
+          <div class="glossary-search-results" id="glossary-search-results" role="listbox" aria-label="Search results"></div>
+        </div>
+        <nav class="glossary-jump-nav" aria-label="Jump to category">
+          <a class="glossary-jump-chip" data-cat="gloss-concepts" style="--cat:#c0622f" href="#gloss-concepts">Key concepts</a>
+          <a class="glossary-jump-chip" data-cat="gloss-taxonomy" style="--cat:#d4a027" href="#gloss-taxonomy">Taxonomy</a>
+          <a class="glossary-jump-chip" data-cat="gloss-phylogenetics" style="--cat:#8a7abf" href="#gloss-phylogenetics">Phylogenetics</a>
+          <a class="glossary-jump-chip" data-cat="gloss-groups" style="--cat:#4a7fb5" href="#gloss-groups">Major groups</a>
+          <a class="glossary-jump-chip" data-cat="gloss-anatomy" style="--cat:#c43020" href="#gloss-anatomy">Anatomy</a>
+          <a class="glossary-jump-chip" data-cat="gloss-geology" style="--cat:#5c9e6e" href="#gloss-geology">Geological time</a>
+          <a class="glossary-jump-chip" data-cat="gloss-fossils" style="--cat:#c87040" href="#gloss-fossils">Fossil record</a>
+          <a class="glossary-jump-chip" data-cat="gloss-geography" style="--cat:#3b93c5" href="#gloss-geography">Palaeogeography</a>
+        </nav>
+      </div>
 
       <!-- Key Concepts — featured essays -->
       <section class="wiki-section gloss-cat-section" id="gloss-concepts" style="--cat:#c0622f">
@@ -5040,6 +5066,7 @@
           <div class="glossary-dict-entry" id="gdef-iczn"><span class="glossary-term">ICZN</span><div class="glossary-def">The International Code of Zoological Nomenclature (4th edition, 1999): the rulebook governing how animal names are formally published, validated and prioritised — see <a class="gloss-xref" data-gloss-target="gdef-principle-of-priority">Principle of Priority</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-nomen-dubium"><span class="glossary-term">Nomen dubium</span><div class="glossary-def">"Doubtful name": a formally valid name whose <a class="gloss-xref" data-gloss-target="gdef-holotype">type material</a> is too incomplete or non-diagnostic to reliably distinguish it from other taxa — see <a class="gloss-xref" data-gloss-target="gdef-diagnosis">diagnosis</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-nomen-nudum"><span class="glossary-term">Nomen nudum</span><div class="glossary-def">"Naked name": a name published without the description or <a class="gloss-xref" data-gloss-target="gdef-diagnosis">diagnosis</a> the Code requires to make it valid — in effect, no name at all under the <a class="gloss-xref" data-gloss-target="gdef-iczn">ICZN</a>.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-palaeontology"><span class="glossary-term">Palaeontology <span class="glossary-authority">from Gk. <em>palaios</em>, "ancient" + <em>on</em>, "being" + <em>logia</em>, "study"</span></span><div class="glossary-def">The scientific study of ancient life through fossils — distinct from archaeology, which studies human history through artefacts and material culture. A dinosaur palaeontologist typically draws on geology, anatomy and evolutionary biology together; see <a class="gloss-xref" data-gloss-target="gdef-taphonomy">taphonomy</a> and <a class="gloss-xref" data-gloss-target="gdef-stratigraphy">stratigraphy</a> for two of the field’s core toolkits.</div></div>
           <div class="glossary-dict-entry" id="gdef-principle-of-priority"><span class="glossary-term">Principle of Priority</span><div class="glossary-def">The <a class="gloss-xref" data-gloss-target="gdef-iczn">ICZN</a> rule that when two names have been applied to the same taxon, the name published earliest is the valid one (the "senior" <a class="gloss-xref" data-gloss-target="gdef-synonym">synonym</a>).</div></div>
           <div class="glossary-dict-entry" id="gdef-species"><span class="glossary-term">Species</span><div class="glossary-def">The basic unit of classification: a population — or, in palaeontology, a set of fossils — sharing a unique combination of diagnostic features. Written as the second part of a <a class="gloss-xref" data-gloss-target="gdef-binomial-nomenclature">binomial</a>, e.g. <em>rex</em> in <em>Tyrannosaurus rex</em>.</div></div>
           <div class="glossary-dict-entry" id="gdef-synonym"><span class="glossary-term">Synonym</span><div class="glossary-def">Two or more names that refer to the same <a class="gloss-xref" data-gloss-target="gdef-taxon">taxon</a>. Under the <a class="gloss-xref" data-gloss-target="gdef-principle-of-priority">Principle of Priority</a>, the earliest validly published name normally takes precedence over its junior synonyms.</div></div>
@@ -5056,15 +5083,19 @@
         <div class="wiki-section-body">
         <p class="wiki-term-intro" style="margin-bottom:0;">The vocabulary of cladistics — the framework Willi Hennig formalised in <cite>Phylogenetic Systematics</cite> (Hennig, 1966) and which now underpins virtually all dinosaur classification. See <a class="gloss-xref" data-gloss-target="gdef-cladogram">cladogram</a> for how to read the trees built with these concepts.</p>
         <div class="glossary-dict-grid">
+                    <div class="glossary-dict-entry" id="gdef-apomorphy"><span class="glossary-term">Apomorphy</span><div class="glossary-def">A derived character state — one that differs from the ancestral condition. The basic unit of cladistic evidence: an apomorphy shared by every member of a group is a <a class="gloss-xref" data-gloss-target="gdef-synapomorphy">synapomorphy</a>, while one unique to a single lineage is an <a class="gloss-xref" data-gloss-target="gdef-autapomorphy">autapomorphy</a>. Contrast <a class="gloss-xref" data-gloss-target="gdef-plesiomorphy">plesiomorphy</a>, the ancestral state from which an apomorphy departs.</div></div>
           <div class="glossary-dict-entry" id="gdef-autapomorphy"><span class="glossary-term">Autapomorphy</span><div class="glossary-def">A derived character unique to a single <a class="gloss-xref" data-gloss-target="gdef-taxon">taxon</a>, not shared with its relatives — useful for <a class="gloss-xref" data-gloss-target="gdef-diagnosis">diagnosing</a> a species but not for grouping it with others. Contrast <a class="gloss-xref" data-gloss-target="gdef-synapomorphy">synapomorphy</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-clade"><span class="glossary-term">Clade <span class="glossary-authority">from Gk. <em>klados</em>, "branch"</span></span><div class="glossary-def">A group consisting of a common ancestor and <em>all</em> of its descendants — the fundamental unit of modern classification, also called a <a class="gloss-xref" data-gloss-target="gdef-monophyletic-group">monophyletic group</a>. Diagnosed by shared <a class="gloss-xref" data-gloss-target="gdef-synapomorphy">synapomorphies</a>.<div class="glossary-seealso"><b>See also</b><a class="gloss-xref" data-gloss-target="gdef-monophyletic-group">Monophyletic group</a> · <a class="gloss-xref" data-gloss-target="gdef-crown-group">Crown group</a> · <a class="gloss-xref" data-gloss-target="gdef-cladogram">Cladogram</a></div></div></div>
+                    <div class="glossary-dict-entry" id="gdef-cladistics"><span class="glossary-term">Cladistics <span class="glossary-authority">Hennig, 1966</span></span><div class="glossary-def">The method of classifying organisms by shared derived characters (<a class="gloss-xref" data-gloss-target="gdef-synapomorphy">synapomorphies</a>) rather than overall similarity, producing branching diagrams called <a class="gloss-xref" data-gloss-target="gdef-cladogram">cladograms</a>. Formalised by the German entomologist Willi Hennig, it is now the standard framework behind this wiki’s own Phylogenetic Tree — and behind virtually all modern dinosaur classification.<div class="glossary-seealso"><b>See also</b><a class="gloss-xref" data-gloss-target="gdef-cladogram">Cladogram</a> · <a class="gloss-xref" data-gloss-target="gdef-synapomorphy">Synapomorphy</a> · <a class="gloss-xref" data-gloss-target="gdef-parsimony">Parsimony</a></div></div></div>
           <div class="glossary-dict-entry" id="gdef-cladogram"><span class="glossary-term">Cladogram</span><div class="glossary-def">A branching diagram (phylogenetic tree) depicting hypothesised evolutionary relationships, built from shared derived characters. Each branching point is a <a class="gloss-xref" data-gloss-target="gdef-node">node</a>; the branching pattern itself is the <a class="gloss-xref" data-gloss-target="gdef-topology">topology</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-crown-group"><span class="glossary-term">Crown group</span><div class="glossary-def">The smallest <a class="gloss-xref" data-gloss-target="gdef-clade">clade</a> containing all living members of a group, their most recent common ancestor, and all of that ancestor's descendants. Dinosauria is defined as a crown group anchored on <em>Triceratops</em> and birds. Compare <a class="gloss-xref" data-gloss-target="gdef-stem-group">stem group</a>.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-evolution-natural-selection"><span class="glossary-term">Evolution / Natural selection <span class="glossary-authority">Darwin &amp; Wallace, 1858</span></span><div class="glossary-def">Evolution is change in the heritable traits of populations across generations; natural selection is its principal mechanism — individuals whose traits improve survival or reproduction tend to leave more descendants, gradually reshaping lineages over deep time. The fossil record, including every specimen catalogued in this wiki, is direct physical evidence of that process at work across hundreds of millions of years.</div></div>
           <div class="glossary-dict-entry" id="gdef-homoplasy"><span class="glossary-term">Homoplasy</span><div class="glossary-def">Similarity that did not arise through common ancestry — including convergent evolution (e.g. the "bird-hipped" condition evolving independently in <a class="gloss-xref" data-gloss-target="gdef-ornithischia">ornithischians</a> and birds) and reversal. The opposite of a true <a class="gloss-xref" data-gloss-target="gdef-synapomorphy">synapomorphy</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-monophyletic-group"><span class="glossary-term">Monophyletic group</span><div class="glossary-def">A group containing an ancestor and <em>all</em> of its descendants — a true <a class="gloss-xref" data-gloss-target="gdef-clade">clade</a>, and the only kind of grouping accepted in modern cladistic classification. Contrast <a class="gloss-xref" data-gloss-target="gdef-paraphyletic-group">paraphyletic</a> and <a class="gloss-xref" data-gloss-target="gdef-polyphyletic-group">polyphyletic</a> groups.</div></div>
           <div class="glossary-dict-entry" id="gdef-node"><span class="glossary-term">Node</span><div class="glossary-def">A branching point on a <a class="gloss-xref" data-gloss-target="gdef-cladogram">cladogram</a>, representing a hypothesised common ancestor and the moment a lineage split into two descendant lineages — its two descendants are <a class="gloss-xref" data-gloss-target="gdef-sister-taxon">sister taxa</a>. An unresolved node with more than two branches is a <a class="gloss-xref" data-gloss-target="gdef-polytomy">polytomy</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-outgroup"><span class="glossary-term">Outgroup</span><div class="glossary-def">A <a class="gloss-xref" data-gloss-target="gdef-taxon">taxon</a> used for comparison in a phylogenetic analysis that is known to lie outside the group under study — a reference point for identifying which characters are ancestral (<a class="gloss-xref" data-gloss-target="gdef-plesiomorphy">plesiomorphic</a>) versus derived.</div></div>
           <div class="glossary-dict-entry" id="gdef-paraphyletic-group"><span class="glossary-term">Paraphyletic group</span><div class="glossary-def">A group containing an ancestor and only <em>some</em> of its descendants. "Reptiles" traditionally excluded birds, even though birds descend from reptilian ancestors — modern classification avoids such groupings in favour of <a class="gloss-xref" data-gloss-target="gdef-monophyletic-group">monophyletic</a> ones.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-parsimony"><span class="glossary-term">Parsimony</span><div class="glossary-def">The principle that, all else being equal, the simplest explanation is preferable — in <a class="gloss-xref" data-gloss-target="gdef-cladistics">cladistics</a>, the <a class="gloss-xref" data-gloss-target="gdef-cladogram">tree</a> requiring the fewest evolutionary changes to explain the observed <a class="gloss-xref" data-gloss-target="gdef-apomorphy">character</a> data. "Maximum parsimony" is the most widely used criterion for choosing between competing hypotheses of relationship.</div></div>
           <div class="glossary-dict-entry" id="gdef-plesiomorphy"><span class="glossary-term">Plesiomorphy</span><div class="glossary-def">An ancestral character state retained from an earlier common ancestor. Sharing a plesiomorphy does not, by itself, indicate close relationship — it is the inverse of a <a class="gloss-xref" data-gloss-target="gdef-synapomorphy">synapomorphy</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-polyphyletic-group"><span class="glossary-term">Polyphyletic group</span><div class="glossary-def">A group united by superficial similarity (<a class="gloss-xref" data-gloss-target="gdef-homoplasy">homoplasy</a>) rather than shared ancestry, excluding the most recent common ancestor of its members — generally an artificial, invalid grouping.</div></div>
           <div class="glossary-dict-entry" id="gdef-polytomy"><span class="glossary-term">Polytomy</span><div class="glossary-def">A <a class="gloss-xref" data-gloss-target="gdef-node">node</a> on a <a class="gloss-xref" data-gloss-target="gdef-cladogram">cladogram</a> with more than two branches, indicating that relationships among those lineages could not be confidently resolved with the available evidence.</div></div>
@@ -5083,16 +5114,24 @@
         <p class="wiki-term-intro" style="margin-bottom:0;">The clade names you'll meet most often when exploring the Phylogenetic Tree — see that view for how they branch from one another. Each is given with its <em>taxonomic authority</em>: the researcher(s) and year that formally erected the name, in the standard academic citation style.</p>
         <div class="glossary-dict-grid">
           <div class="glossary-dict-entry" id="gdef-ankylosauria"><span class="glossary-term">Ankylosauria <span class="glossary-authority">Osborn, 1923</span></span><div class="glossary-def">"Fused lizards": heavily armoured, quadrupedal <a class="gloss-xref" data-gloss-target="gdef-ornithischia">ornithischians</a> within <a class="gloss-xref" data-gloss-target="gdef-thyreophora">Thyreophora</a>, sister to <a class="gloss-xref" data-gloss-target="gdef-stegosauria">Stegosauria</a>. Split into the club-tailed Ankylosauridae and the spike-shouldered, clubless Nodosauridae — both bearing rows of bony <a class="gloss-xref" data-gloss-target="gdef-osteoderm">osteoderms</a> fused across the skull and back.<div class="glossary-seealso"><b>See also</b><a class="gloss-xref" data-gloss-target="gdef-thyreophora">Thyreophora</a> · <a class="gloss-xref" data-gloss-target="gdef-osteoderm">Osteoderm</a> · <a class="gloss-xref" data-gloss-target="gdef-stegosauria">Stegosauria</a></div></div></div>
-        <div class="glossary-dict-entry" id="gdef-ceratopsia"><span class="glossary-term">Ceratopsia <span class="glossary-authority">Marsh, 1890</span></span><div class="glossary-def">Horned, frilled herbivorous <a class="gloss-xref" data-gloss-target="gdef-ornithischia">ornithischians</a>, ranging from small bipedal forms to giants such as <em>Triceratops</em> — overwhelmingly a Late Cretaceous, predominantly Laurasian group. Sister to <a class="gloss-xref" data-gloss-target="gdef-pachycephalosauria">Pachycephalosauria</a> within <a class="gloss-xref" data-gloss-target="gdef-marginocephalia">Marginocephalia</a>.</div></div>
+                  <div class="glossary-dict-entry" id="gdef-avialae"><span class="glossary-term">Avialae <span class="glossary-authority">Gauthier, 1986</span></span><div class="glossary-def">The clade uniting living birds with their closest theropod relatives — broadly, the <a class="gloss-xref" data-gloss-target="gdef-maniraptora">maniraptorans</a> positioned nearer to modern birds than to <em>Deinonychus</em>. Nested deep within <a class="gloss-xref" data-gloss-target="gdef-maniraptora">Maniraptora</a>, <a class="gloss-xref" data-gloss-target="gdef-coelurosauria">Coelurosauria</a> and <a class="gloss-xref" data-gloss-target="gdef-theropoda">Theropoda</a>, Avialae is living proof that one dinosaur lineage survived the <a class="gloss-xref" data-gloss-target="gdef-k-pg-boundary">end-Cretaceous extinction</a> — birds are, in cladistic terms, dinosaurs. See also <a class="gloss-xref" data-gloss-target="gdef-crown-group">crown group</a>.</div></div>
+          <div class="glossary-dict-entry" id="gdef-ceratopsia"><span class="glossary-term">Ceratopsia <span class="glossary-authority">Marsh, 1890</span></span><div class="glossary-def">Horned, frilled herbivorous <a class="gloss-xref" data-gloss-target="gdef-ornithischia">ornithischians</a>, ranging from small bipedal forms to giants such as <em>Triceratops</em> — overwhelmingly a Late Cretaceous, predominantly Laurasian group. Sister to <a class="gloss-xref" data-gloss-target="gdef-pachycephalosauria">Pachycephalosauria</a> within <a class="gloss-xref" data-gloss-target="gdef-marginocephalia">Marginocephalia</a>.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-coelurosauria"><span class="glossary-term">Coelurosauria <span class="glossary-authority">von Huene, 1914</span></span><div class="glossary-def">A vast clade of mostly small-to-medium, often feathered <a class="gloss-xref" data-gloss-target="gdef-theropoda">theropods</a> uniting <a class="gloss-xref" data-gloss-target="gdef-tyrannosauridae">tyrannosaurids</a>, <a class="gloss-xref" data-gloss-target="gdef-dromaeosauridae">dromaeosaurids</a>, ornithomimosaurs ("ostrich-mimics") and <a class="gloss-xref" data-gloss-target="gdef-maniraptora">Maniraptora</a> (hence birds). Essentially every theropod more closely related to birds than to the carnosaurs — one of the richest and best-studied branches of the dinosaur family tree.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-dromaeosauridae"><span class="glossary-term">Dromaeosauridae <span class="glossary-authority">Matthew &amp; Brown, 1922</span></span><div class="glossary-def">The "raptor" family: small-to-medium, sickle-clawed <a class="gloss-xref" data-gloss-target="gdef-maniraptora">maniraptoran</a> predators typified by <em>Velociraptor</em> and <em>Deinonychus</em>. Close relatives of birds within <a class="gloss-xref" data-gloss-target="gdef-coelurosauria">Coelurosauria</a>, and among the best-evidenced feathered dinosaurs — quill knobs preserved on fossil forearms show that at least some species bore true wing feathers despite being flightless.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-hadrosauridae"><span class="glossary-term">Hadrosauridae <span class="glossary-authority">Cope, 1869</span></span><div class="glossary-def">The "duck-billed" dinosaurs: large, often crested <a class="gloss-xref" data-gloss-target="gdef-ornithopoda">ornithopods</a> with broad, flattened snouts and elaborate <a class="gloss-xref" data-gloss-target="gdef-dental-battery">dental batteries</a> for processing tough vegetation. Among the most abundant and best-preserved herbivores of the Late Cretaceous, frequently recovered from <a class="gloss-xref" data-gloss-target="gdef-bonebed">bonebeds</a> and occasionally with fossilised skin impressions intact (see <a class="gloss-xref" data-gloss-target="gdef-integument">integument</a>).</div></div>
+                    <div class="glossary-dict-entry" id="gdef-maniraptora"><span class="glossary-term">Maniraptora <span class="glossary-authority">Gauthier, 1986</span></span><div class="glossary-def">"Hand-snatchers": the <a class="gloss-xref" data-gloss-target="gdef-coelurosauria">coelurosaurian</a> clade containing <a class="gloss-xref" data-gloss-target="gdef-dromaeosauridae">dromaeosaurids</a>, oviraptorosaurs, troodontids and <a class="gloss-xref" data-gloss-target="gdef-avialae">Avialae</a> (birds) — united by long, grasping forelimbs among other features. The branch of the dinosaur tree where most of the classic "bird-like" traits (feathers, the <a class="gloss-xref" data-gloss-target="gdef-furcula">furcula</a>, brooding behaviour) are concentrated.<div class="glossary-seealso"><b>See also</b><a class="gloss-xref" data-gloss-target="gdef-avialae">Avialae</a> · <a class="gloss-xref" data-gloss-target="gdef-dromaeosauridae">Dromaeosauridae</a> · <a class="gloss-xref" data-gloss-target="gdef-furcula">Furcula</a></div></div></div>
           <div class="glossary-dict-entry" id="gdef-marginocephalia"><span class="glossary-term">Marginocephalia <span class="glossary-authority">Sereno, 1986</span></span><div class="glossary-def">The clade uniting the dome-headed <a class="gloss-xref" data-gloss-target="gdef-pachycephalosauria">pachycephalosaurs</a> and the horned <a class="gloss-xref" data-gloss-target="gdef-ceratopsia">ceratopsians</a> — <a class="gloss-xref" data-gloss-target="gdef-ornithischia">ornithischians</a> sharing a thickened shelf or dome at the rear of the skull.</div></div>
           <div class="glossary-dict-entry" id="gdef-ornithischia"><span class="glossary-term">Ornithischia <span class="glossary-authority">Seeley, 1888</span></span><div class="glossary-def">"Bird-hipped" dinosaurs: the <a class="gloss-xref" data-gloss-target="gdef-ilium-ischium-pubis">pubis</a> is rotated backward, parallel to the ischium. Includes <a class="gloss-xref" data-gloss-target="gdef-thyreophora">Thyreophora</a>, <a class="gloss-xref" data-gloss-target="gdef-ornithopoda">Ornithopoda</a>, <a class="gloss-xref" data-gloss-target="gdef-ceratopsia">Ceratopsia</a> and <a class="gloss-xref" data-gloss-target="gdef-pachycephalosauria">Pachycephalosauria</a> — all herbivorous, and, despite the name, not closely related to birds (a striking case of <a class="gloss-xref" data-gloss-target="gdef-homoplasy">convergent</a> hip anatomy). Contrast <a class="gloss-xref" data-gloss-target="gdef-saurischia">Saurischia</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-ornithopoda"><span class="glossary-term">Ornithopoda <span class="glossary-authority">Marsh, 1881</span></span><div class="glossary-def">A major group of bipedal-to-quadrupedal herbivorous <a class="gloss-xref" data-gloss-target="gdef-ornithischia">ornithischians</a>, including the duck-billed hadrosaurs — among the most numerically abundant dinosaurs of the Late Cretaceous, and frequently preserving <a class="gloss-xref" data-gloss-target="gdef-ossified-tendons">ossified tendons</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-pachycephalosauria"><span class="glossary-term">Pachycephalosauria <span class="glossary-authority">Maryańska &amp; Osmólska, 1974</span></span><div class="glossary-def">"Thick-headed lizards": bipedal <a class="gloss-xref" data-gloss-target="gdef-ornithischia">ornithischians</a> with a greatly thickened, often domed skull roof, thought to have been used in head-to-head or flank-butting display contests. Grouped with <a class="gloss-xref" data-gloss-target="gdef-ceratopsia">Ceratopsia</a> in <a class="gloss-xref" data-gloss-target="gdef-marginocephalia">Marginocephalia</a>.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-sauropoda"><span class="glossary-term">Sauropoda <span class="glossary-authority">Marsh, 1878</span></span><div class="glossary-def">The long-necked, long-tailed giants of <a class="gloss-xref" data-gloss-target="gdef-sauropodomorpha">Sauropodomorpha</a> — quadrupedal herbivores that include the largest land animals known to have existed, such as <em>Argentinosaurus</em> and <em>Patagotitan</em>. Their extraordinary size was made possible in part by extensive <a class="gloss-xref" data-gloss-target="gdef-pneumatization">pneumatization</a> of the skeleton and a highly efficient, bird-like respiratory system.<div class="glossary-seealso"><b>See also</b><a class="gloss-xref" data-gloss-target="gdef-sauropodomorpha">Sauropodomorpha</a> · <a class="gloss-xref" data-gloss-target="gdef-titanosauria">Titanosauria</a> · <a class="gloss-xref" data-gloss-target="gdef-pneumatization">Pneumatization</a></div></div></div>
           <div class="glossary-dict-entry" id="gdef-sauropodomorpha"><span class="glossary-term">Sauropodomorpha <span class="glossary-authority">von Huene, 1932</span></span><div class="glossary-def">The clade of long-necked, herbivorous <a class="gloss-xref" data-gloss-target="gdef-saurischia">saurischian</a> dinosaurs, including the giant sauropods (<em>Brachiosaurus</em>, <em>Diplodocus</em>, <em>Patagotitan</em>) — the largest land animals ever to have lived. Sister to <a class="gloss-xref" data-gloss-target="gdef-theropoda">Theropoda</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-saurischia"><span class="glossary-term">Saurischia <span class="glossary-authority">Seeley, 1888</span></span><div class="glossary-def">"Lizard-hipped" dinosaurs: the <a class="gloss-xref" data-gloss-target="gdef-ilium-ischium-pubis">pubis</a> points forward and downward. Includes <a class="gloss-xref" data-gloss-target="gdef-theropoda">Theropoda</a> and <a class="gloss-xref" data-gloss-target="gdef-sauropodomorpha">Sauropodomorpha</a> — and, despite the name, all birds. Contrast <a class="gloss-xref" data-gloss-target="gdef-ornithischia">Ornithischia</a>.<div class="glossary-seealso"><b>See also</b><a class="gloss-xref" data-gloss-target="gdef-theropoda">Theropoda</a> · <a class="gloss-xref" data-gloss-target="gdef-sauropodomorpha">Sauropodomorpha</a> · <a class="gloss-xref" data-gloss-target="gdef-ilium-ischium-pubis">Ilium / Ischium / Pubis</a></div></div></div>
           <div class="glossary-dict-entry" id="gdef-stegosauria"><span class="glossary-term">Stegosauria <span class="glossary-authority">Marsh, 1877</span></span><div class="glossary-def">"Roofed lizards": plated, quadrupedal <a class="gloss-xref" data-gloss-target="gdef-ornithischia">ornithischians</a> within <a class="gloss-xref" data-gloss-target="gdef-thyreophora">Thyreophora</a>, sister to <a class="gloss-xref" data-gloss-target="gdef-ankylosauria">Ankylosauria</a>. Best known for the paired plates and spikes running down the midline of the back and tail (e.g. <em>Stegosaurus</em>) — highly vascularised structures likely used for display, thermoregulation or, in the case of the tail's terminal "thagomizer" spikes, active defence.<div class="glossary-seealso"><b>See also</b><a class="gloss-xref" data-gloss-target="gdef-thyreophora">Thyreophora</a> · <a class="gloss-xref" data-gloss-target="gdef-ankylosauria">Ankylosauria</a> · <a class="gloss-xref" data-gloss-target="gdef-osteoderm">Osteoderm</a></div></div></div>
         <div class="glossary-dict-entry" id="gdef-theropoda"><span class="glossary-term">Theropoda <span class="glossary-authority">Marsh, 1881</span></span><div class="glossary-def">The clade of bipedal, mostly carnivorous <a class="gloss-xref" data-gloss-target="gdef-saurischia">saurischian</a> dinosaurs, ranging from <em>Compsognathus</em>-sized hunters to <em>Tyrannosaurus</em> — and including, as its only living members, the birds. Often diagnosed by features such as the <a class="gloss-xref" data-gloss-target="gdef-deltopectoral-crest">deltopectoral crest</a> and <a class="gloss-xref" data-gloss-target="gdef-gastralia">gastralia</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-thyreophora"><span class="glossary-term">Thyreophora <span class="glossary-authority">Nopcsa, 1915</span></span><div class="glossary-def">The "armoured dinosaurs": herbivorous <a class="gloss-xref" data-gloss-target="gdef-ornithischia">ornithischians</a> including the plated <a class="gloss-xref" data-gloss-target="gdef-stegosauria">stegosaurs</a> and the heavily armoured, club-tailed <a class="gloss-xref" data-gloss-target="gdef-ankylosauria">ankylosaurs</a>, both bearing rows of <a class="gloss-xref" data-gloss-target="gdef-osteoderm">osteoderms</a>.<div class="glossary-seealso"><b>See also</b><a class="gloss-xref" data-gloss-target="gdef-stegosauria">Stegosauria</a> · <a class="gloss-xref" data-gloss-target="gdef-ankylosauria">Ankylosauria</a> · <a class="gloss-xref" data-gloss-target="gdef-osteoderm">Osteoderm</a></div></div></div>
+          <div class="glossary-dict-entry" id="gdef-titanosauria"><span class="glossary-term">Titanosauria <span class="glossary-authority">Bonaparte &amp; Coria, 1993</span></span><div class="glossary-def">A diverse clade of <a class="gloss-xref" data-gloss-target="gdef-sauropoda">sauropods</a> that includes the largest known dinosaurs and dominated the giant-herbivore niche across the Southern Hemisphere through the Late Cretaceous. Unusually for sauropods, many titanosaurs bore <a class="gloss-xref" data-gloss-target="gdef-osteoderm">osteoderms</a> — bony armour plates embedded directly in the skin.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-tyrannosauridae"><span class="glossary-term">Tyrannosauridae <span class="glossary-authority">Osborn, 1906</span></span><div class="glossary-def">The family containing <em>Tyrannosaurus</em> and its close relatives: large-bodied, deep-skulled <a class="gloss-xref" data-gloss-target="gdef-coelurosauria">coelurosaurian</a> predators with proportionally tiny forelimbs and some of the most powerful bite forces ever measured in a land animal. Restricted to the Late Cretaceous of Asia and North America.</div></div>
         </div>
       </div>
       </section>
@@ -5107,10 +5146,13 @@
           <div class="glossary-dict-entry" id="gdef-caudal-vertebrae"><span class="glossary-term">Caudal vertebrae</span><div class="glossary-def">The bones of the tail. Their number, length and articulation reveal whether a tail was held stiffly off the ground, as in most <a class="gloss-xref" data-gloss-target="gdef-theropoda">theropods</a> (sometimes braced by <a class="gloss-xref" data-gloss-target="gdef-ossified-tendons">ossified tendons</a>), or used for balance, defence or display.</div></div>
           <div class="glossary-dict-entry" id="gdef-cranial-crest-frill"><span class="glossary-term">Cranial crest / Frill</span><div class="glossary-def">Bony or soft-tissue structures on the skull — crests in hadrosaurs (<a class="gloss-xref" data-gloss-target="gdef-ornithopoda">Ornithopoda</a>) and theropods like <em>Dilophosaurus</em>, frills in ceratopsians like <em>Triceratops</em> (<a class="gloss-xref" data-gloss-target="gdef-ceratopsia">Ceratopsia</a>) — thought to function in display, species recognition or thermoregulation.</div></div>
           <div class="glossary-dict-entry" id="gdef-cursorial"><span class="glossary-term">Cursorial</span><div class="glossary-def">Adapted for running: proportionally long hindlimbs, an elongated lower leg relative to the thigh, and reduced, compact feet — seen in many small <a class="gloss-xref" data-gloss-target="gdef-theropoda">theropods</a> and <a class="gloss-xref" data-gloss-target="gdef-ornithopoda">ornithopods</a>.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-dental-battery"><span class="glossary-term">Dental battery</span><div class="glossary-def">A densely packed bank of interlocking teeth, continuously replaced from below, found in <a class="gloss-xref" data-gloss-target="gdef-hadrosauridae">hadrosaurs</a> and <a class="gloss-xref" data-gloss-target="gdef-ceratopsia">ceratopsians</a>. The whole battery worked as a single grinding or shearing surface for processing tough, abrasive plant matter — among the most sophisticated chewing mechanisms ever evolved by a reptile. Compare the simpler <a class="gloss-xref" data-gloss-target="gdef-heterodonty">heterodont</a> dentitions of most other dinosaurs.</div></div>
           <div class="glossary-dict-entry" id="gdef-dentary"><span class="glossary-term">Dentary</span><div class="glossary-def">The main tooth-bearing bone of the lower jaw. Its shape and tooth arrangement are frequently used to identify and classify dinosaurs from fragmentary remains — see <a class="gloss-xref" data-gloss-target="gdef-completeness">completeness</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-deltopectoral-crest"><span class="glossary-term">Deltopectoral crest</span><div class="glossary-def">A prominent ridge on the upper-arm bone (humerus) anchoring the chest and shoulder muscles used in forelimb movement — well developed in many <a class="gloss-xref" data-gloss-target="gdef-theropoda">theropods</a>.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-furcula"><span class="glossary-term">Furcula <span class="glossary-authority">from Lat. <em>furcula</em>, "little fork"</span></span><div class="glossary-def">The fused "wishbone", formed from the two clavicles — long familiar in birds and now documented in many <a class="gloss-xref" data-gloss-target="gdef-theropoda">theropods</a>, including <em>Tyrannosaurus</em>. One of the clearest pieces of skeletal evidence linking birds to their <a class="gloss-xref" data-gloss-target="gdef-maniraptora">maniraptoran</a> ancestors, and a small bone that carries an outsized weight of evidence for the dinosaur–bird connection.</div></div>
           <div class="glossary-dict-entry" id="gdef-gastralia"><span class="glossary-term">Gastralia</span><div class="glossary-def">"Belly ribs": a basket of slender bones in the abdominal wall, unconnected to the spine, that supported and protected the internal organs in many archosaurs, including <a class="gloss-xref" data-gloss-target="gdef-theropoda">theropods</a>.</div></div>
         <div class="glossary-dict-entry" id="gdef-gastrolith"><span class="glossary-term">Gastrolith <span class="glossary-authority">Gk. <em>gaster</em>, "stomach" + <em>lithos</em>, "stone"</span></span><div class="glossary-def">A stone deliberately swallowed and retained in the gut to grind tough plant matter, substituting for chewing. Smooth, polished gastroliths are occasionally found clustered within the ribcage of <a class="gloss-xref" data-gloss-target="gdef-sauropodomorpha">sauropodomorph</a> and <a class="gloss-xref" data-gloss-target="gdef-ornithopoda">ornithopod</a> skeletons — rare direct evidence of digestive physiology preserved alongside the bones, and a useful clue to diet and <a class="gloss-xref" data-gloss-target="gdef-palaeoenvironment">palaeoenvironment</a>.<div class="glossary-seealso"><b>See also</b><a class="gloss-xref" data-gloss-target="gdef-sauropodomorpha">Sauropodomorpha</a> · <a class="gloss-xref" data-gloss-target="gdef-coprolite">Coprolite</a> · <a class="gloss-xref" data-gloss-target="gdef-fossil">Fossil</a></div></div></div>
+                    <div class="glossary-dict-entry" id="gdef-heterodonty"><span class="glossary-term">Heterodonty</span><div class="glossary-def">Possession of differently shaped teeth performing different functions within a single jaw — for instance, small nipping teeth at the front and broad shearing or grinding teeth toward the back. Contrast the comparatively uniform, conical, frequently-replaced teeth of most carnivorous theropods. See also <a class="gloss-xref" data-gloss-target="gdef-dental-battery">dental battery</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-ilium-ischium-pubis"><span class="glossary-term">Ilium / Ischium / Pubis</span><div class="glossary-def">The three bones forming each half of the pelvis, meeting at the <a class="gloss-xref" data-gloss-target="gdef-acetabulum">acetabulum</a>. The orientation of the pubis in particular defines the <a class="gloss-xref" data-gloss-target="gdef-saurischia">saurischian</a> ("lizard-hipped") and <a class="gloss-xref" data-gloss-target="gdef-ornithischia">ornithischian</a> ("bird-hipped") body plans.</div></div>
           <div class="glossary-dict-entry" id="gdef-integument"><span class="glossary-term">Integument</span><div class="glossary-def">An organism's outer covering — skin, scales, feathers, or any combination — known in dinosaurs chiefly from rare <a class="gloss-xref" data-gloss-target="gdef-lagerstatte">Lagerstätte</a> preservation.</div></div>
           <div class="glossary-dict-entry" id="gdef-manus-pes"><span class="glossary-term">Manus / Pes</span><div class="glossary-def">The hand and foot, respectively — terms used to describe the digits, claws and proportions of the fore- and hindlimbs in technical descriptions.</div></div>
@@ -5118,7 +5160,9 @@
           <div class="glossary-dict-entry" id="gdef-ossified-tendons"><span class="glossary-term">Ossified tendons</span><div class="glossary-def">Tendons that have turned to bone, forming stiffening rods along the spine and tail. Common in <a class="gloss-xref" data-gloss-target="gdef-ornithischia">ornithischians</a> such as hadrosaurs (<a class="gloss-xref" data-gloss-target="gdef-ornithopoda">Ornithopoda</a>), helping to brace the body during locomotion.</div></div>
           <div class="glossary-dict-entry" id="gdef-osteoderm"><span class="glossary-term">Osteoderm <span class="glossary-authority">Gk. <em>osteon</em>, "bone" + <em>derma</em>, "skin"</span></span><div class="glossary-def">A bony plate or scute that develops within the skin itself, sheathed in keratin, forming armour, spikes or plates in groups such as <a class="gloss-xref" data-gloss-target="gdef-ankylosauria">ankylosaurs</a> and <a class="gloss-xref" data-gloss-target="gdef-stegosauria">stegosaurs</a> (<a class="gloss-xref" data-gloss-target="gdef-thyreophora">Thyreophora</a>) and titanosaurian sauropods. Because they sit in the skin rather than anchoring to the skeleton, osteoderms are often found scattered and disarticulated even in otherwise well-preserved specimens.<div class="glossary-seealso"><b>See also</b><a class="gloss-xref" data-gloss-target="gdef-thyreophora">Thyreophora</a> · <a class="gloss-xref" data-gloss-target="gdef-ankylosauria">Ankylosauria</a> · <a class="gloss-xref" data-gloss-target="gdef-stegosauria">Stegosauria</a></div></div></div>
           <div class="glossary-dict-entry" id="gdef-pneumatization"><span class="glossary-term">Pneumatization <span class="glossary-authority">Gk. <em>pneuma</em>, "breath"</span></span><div class="glossary-def">The presence of air-filled cavities inside bone, connected to the lungs by the same one-way system of air sacs that powers bird respiration today. Extensively developed in the vertebrae, ribs and skulls of <a class="gloss-xref" data-gloss-target="gdef-theropoda">theropods</a> and especially sauropods, it dramatically lightened the skeleton without sacrificing strength — helping to explain how <a class="gloss-xref" data-gloss-target="gdef-sauropodomorpha">sauropods</a> reached such enormous body sizes. The resulting openings in bone (pleurocoels, pneumatic foramina) are themselves used as <a class="gloss-xref" data-gloss-target="gdef-synapomorphy">diagnostic characters</a> in classification.<div class="glossary-seealso"><b>See also</b><a class="gloss-xref" data-gloss-target="gdef-sauropodomorpha">Sauropodomorpha</a> · <a class="gloss-xref" data-gloss-target="gdef-caudal-vertebrae">Caudal vertebrae</a> · <a class="gloss-xref" data-gloss-target="gdef-theropoda">Theropoda</a></div></div></div>
+                    <div class="glossary-dict-entry" id="gdef-pubic-boot"><span class="glossary-term">Pubic boot</span><div class="glossary-def">An expanded, foot-like end on the <a class="gloss-xref" data-gloss-target="gdef-ilium-ischium-pubis">pubis</a>, present in many <a class="gloss-xref" data-gloss-target="gdef-theropoda">theropods</a> and ornithischians. It likely anchored major locomotor muscles and may have helped support the animal when resting on the ground — its distinctive shape often allows isolated pelvic bones to be identified at a glance.</div></div>
           <div class="glossary-dict-entry" id="gdef-sacrum"><span class="glossary-term">Sacrum</span><div class="glossary-def">The fused vertebrae anchoring the pelvis to the spine. The number of sacral vertebrae is a frequently cited <a class="gloss-xref" data-gloss-target="gdef-diagnosis">diagnostic</a> character.</div></div>
+          <div class="glossary-dict-entry" id="gdef-vertebrate"><span class="glossary-term">Vertebrate</span><div class="glossary-def">An animal with a backbone: a series of articulated vertebrae enclosing and protecting the spinal cord. Dinosaurs — like all reptiles, birds, mammals, amphibians and fish — are vertebrates, placing them within a relatively small slice of animal life; the great majority of animal species are invertebrates, lacking a backbone entirely. See also <a class="gloss-xref" data-gloss-target="gdef-caudal-vertebrae">caudal vertebrae</a>.</div></div>
         </div>
       </div>
       </section>
@@ -5138,8 +5182,10 @@
           <div class="glossary-dict-entry" id="gdef-mesozoic-era"><span class="glossary-term">Mesozoic Era</span><div class="glossary-def">"Middle life", 252–66 Ma — the "Age of Dinosaurs", spanning the <a class="gloss-xref" data-gloss-target="gdef-triassic-jurassic-cretaceous">Triassic, Jurassic and Cretaceous Periods</a>, bracketed by the end-Permian and end-Cretaceous (<a class="gloss-xref" data-gloss-target="gdef-k-pg-boundary">K–Pg</a>) mass extinctions.</div></div>
           <div class="glossary-dict-entry" id="gdef-radiometric-dating"><span class="glossary-term">Radiometric dating</span><div class="glossary-def">A technique for determining the absolute age of rocks by measuring the predictable decay of radioactive isotopes — the primary method for calibrating the geological timescale (see <a class="gloss-xref" data-gloss-target="gdef-ma-ka">Ma / Ka</a>) and anchoring formal <a class="gloss-xref" data-gloss-target="gdef-stage">stages</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-stage"><span class="glossary-term">Stage</span><div class="glossary-def">A formal subdivision of a <a class="gloss-xref" data-gloss-target="gdef-eon-era-period-epoch-age">period</a> (e.g. Maastrichtian, Campanian), defined by characteristic fossil assemblages and calibrated with <a class="gloss-xref" data-gloss-target="gdef-radiometric-dating">radiometric dates</a> — the finest-resolution unit in standard geological time.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-stratigraphy"><span class="glossary-term">Stratigraphy</span><div class="glossary-def">The branch of geology concerned with layers of rock (strata) — their order, composition, age and correlation from place to place. Stratigraphy underlies the entire geological time scale (see <a class="gloss-xref" data-gloss-target="gdef-eon-era-period-epoch-age">Eon / era / period / epoch / age</a>) and is the framework through which fossils are dated and compared between sites; see also <a class="gloss-xref" data-gloss-target="gdef-formation">Formation</a> and <a class="gloss-xref" data-gloss-target="gdef-type-locality">type locality</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-triassic-jurassic-cretaceous"><span class="glossary-term">Triassic / Jurassic / Cretaceous</span><div class="glossary-def">The three periods of the <a class="gloss-xref" data-gloss-target="gdef-mesozoic-era">Mesozoic Era</a>: Triassic (252–201 Ma, when dinosaurs first appeared), Jurassic (201–145 Ma, the rise of giant sauropods) and Cretaceous (145–66 Ma, peak dinosaur diversity, ending at the <a class="gloss-xref" data-gloss-target="gdef-k-pg-boundary">K–Pg boundary</a>).</div></div>
           <div class="glossary-dict-entry" id="gdef-type-locality"><span class="glossary-term">Type locality</span><div class="glossary-def">The specific geographic location where the <a class="gloss-xref" data-gloss-target="gdef-holotype">type specimen</a> of a species was collected — a key reference point for understanding its geological and geographic context.</div></div>
+          <div class="glossary-dict-entry" id="gdef-unconformity"><span class="glossary-term">Unconformity</span><div class="glossary-def">A gap in the rock record where deposition paused, or earlier layers were eroded away, before younger sediment was laid down on top. Unconformities mean that stratigraphic sequences are rarely complete — one of the fundamental reasons the fossil record itself is patchy (see <a class="gloss-xref" data-gloss-target="gdef-completeness">completeness</a>).</div></div>
         </div>
       </div>
       </section>
@@ -5152,17 +5198,23 @@
           <div class="glossary-dict-entry" id="gdef-articulated-disarticulated"><span class="glossary-term">Articulated / Disarticulated</span><div class="glossary-def">Whether a fossil skeleton's bones were preserved in their natural, connected positions (articulated) or scattered and separated, usually by transport or scavenging, before burial (disarticulated) — a core <a class="gloss-xref" data-gloss-target="gdef-taphonomy">taphonomic</a> distinction.</div></div>
           <div class="glossary-dict-entry" id="gdef-bonebed"><span class="glossary-term">Bonebed</span><div class="glossary-def">A concentrated accumulation of fossil bones from many individuals, often one species, in a single deposit — typically formed by mass-mortality events such as droughts, floods or predator traps. See also <a class="gloss-xref" data-gloss-target="gdef-lagerstatte">Lagerstätte</a> for sites of exceptional rather than mass preservation.</div></div>
           <div class="glossary-dict-entry" id="gdef-completeness"><span class="glossary-term">Completeness</span><div class="glossary-def">The proportion of an organism's skeleton that has been recovered, from a single <a class="gloss-xref" data-gloss-target="gdef-diagnosis">diagnostic</a> element to a fully <a class="gloss-xref" data-gloss-target="gdef-articulated-disarticulated">articulated</a> specimen — a major factor in how confidently a species can be described, named (see <a class="gloss-xref" data-gloss-target="gdef-holotype">holotype</a>) and compared.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-compression-fossil"><span class="glossary-term">Compression fossil</span><div class="glossary-def">A fossil formed when an organism — typically a leaf, feather or soft-bodied animal — is flattened under the weight of accumulating sediment, leaving a thin, carbon-rich film or impression. Especially common in fine-grained <a class="gloss-xref" data-gloss-target="gdef-lagerstatte">Lagerstätten</a> such as the Yixian Formation, where many feathered dinosaurs are preserved this way.</div></div>
           <div class="glossary-dict-entry" id="gdef-concretion"><span class="glossary-term">Concretion</span><div class="glossary-def">A hard, compact nodule that forms around a fossil during early burial as minerals precipitate from groundwater — part of <a class="gloss-xref" data-gloss-target="gdef-diagenesis">diagenesis</a>, and often shielding delicate remains from later compaction and weathering.</div></div>
           <div class="glossary-dict-entry" id="gdef-coprolite"><span class="glossary-term">Coprolite</span><div class="glossary-def">Fossilised dung — direct evidence of diet, gut contents and the wider food web of an ancient ecosystem; a <a class="gloss-xref" data-gloss-target="gdef-trace-fossil-ichnite">trace fossil</a> rather than a body fossil.</div></div>
           <div class="glossary-dict-entry" id="gdef-diagenesis"><span class="glossary-term">Diagenesis</span><div class="glossary-def">The physical and chemical changes that transform buried sediment and organic remains into rock over geological time — including <a class="gloss-xref" data-gloss-target="gdef-permineralisation">permineralisation</a> and <a class="gloss-xref" data-gloss-target="gdef-concretion">concretion</a> formation — the long process that ultimately produces a fossil.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-excavation"><span class="glossary-term">Excavation</span><div class="glossary-def">The careful, methodical removal of fossils from the rock that encloses them — typically involving mapping each bone’s position before lifting it, often within a protective plaster jacket for transport. Distinct from preparation: the laboratory work of cleaning, stabilising and assembling a fossil once it reaches the museum.</div></div>
           <div class="glossary-dict-entry" id="gdef-fad-lad"><span class="glossary-term">FAD / LAD</span><div class="glossary-def">First and Last Appearance Datum: the oldest and youngest confirmed occurrences of a <a class="gloss-xref" data-gloss-target="gdef-taxon">taxon</a> in the fossil record, defining its known — and probably minimum — stratigraphic range. The unrecorded remainder is a <a class="gloss-xref" data-gloss-target="gdef-ghost-lineage">ghost lineage</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-fossil"><span class="glossary-term">Fossil</span><div class="glossary-def">Any preserved evidence of past life — bones, shells, impressions, trackways (<a class="gloss-xref" data-gloss-target="gdef-trace-fossil-ichnite">trace fossils</a>) or chemical traces — typically more than 10,000 years old. How one forms is the subject of <a class="gloss-xref" data-gloss-target="gdef-taphonomy">taphonomy</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-ghost-lineage"><span class="glossary-term">Ghost lineage</span><div class="glossary-def">The portion of a lineage's history that phylogenetic analysis (see <a class="gloss-xref" data-gloss-target="gdef-cladogram">cladogram</a>) implies must have existed, but for which no fossils have yet been found — often longer than the range bracketed by its <a class="gloss-xref" data-gloss-target="gdef-fad-lad">FAD and LAD</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-lagerstatte"><span class="glossary-term">Lagerstätte</span><div class="glossary-def">(pl. <em>Lagerstätten</em>) German for "storage place": an exceptionally preserving fossil site that captures soft-tissue <a class="gloss-xref" data-gloss-target="gdef-integument">integument</a> — feathers, skin, stomach contents — far beyond the bones and teeth normally preserved. Examples include Ghost Ranch, the Solnhofen Limestone, and the Yixian Formation.<div class="glossary-seealso"><b>See also</b><a class="gloss-xref" data-gloss-target="gdef-integument">Integument</a> · <a class="gloss-xref" data-gloss-target="gdef-completeness">Completeness</a> · <a class="gloss-xref" data-gloss-target="gdef-taphonomy">Taphonomy</a></div></div></div>
           <div class="glossary-dict-entry" id="gdef-mould-and-cast"><span class="glossary-term">Mould and cast</span><div class="glossary-def">A mould is an impression left in rock after an organism dissolves away; a cast forms when that void later fills with sediment or minerals, reproducing the organism's external shape — one outcome of <a class="gloss-xref" data-gloss-target="gdef-diagenesis">diagenesis</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-permineralisation"><span class="glossary-term">Permineralisation</span><div class="glossary-def">A common fossilisation process in which mineral-rich groundwater fills the pores of buried hard tissue, gradually reinforcing or replacing it with stone — the source of most fossilised bone, and a key stage of <a class="gloss-xref" data-gloss-target="gdef-diagenesis">diagenesis</a>.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-replica-cast"><span class="glossary-term">Replica / Cast</span><div class="glossary-def">A reproduction of a fossil — usually moulded in resin or fibreglass from an original — used for display, study, or to complete a <a class="gloss-xref" data-gloss-target="gdef-skeletal-mount-life-restoration">skeletal mount</a> without risking the genuine material. Most dinosaur skeletons on public display incorporate at least some cast elements; compare the natural <a class="gloss-xref" data-gloss-target="gdef-mould-and-cast">mould-and-cast</a> process that can produce comparable shapes directly in rock.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-skeletal-mount-life-restoration"><span class="glossary-term">Skeletal mount / Life restoration</span><div class="glossary-def">A skeletal mount is an assembled, often free-standing display of a skeleton — commonly combining real bone with <a class="gloss-xref" data-gloss-target="gdef-replica-cast">cast elements</a>; a life restoration ("reconstruction") is an artist’s interpretation of the living animal, layering inferences about <a class="gloss-xref" data-gloss-target="gdef-integument">integument</a>, posture and behaviour on top of the skeletal evidence. Both are interpretations built on the underlying fossils, and both can change significantly as evidence — and scientific consensus — moves on.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-subfossil"><span class="glossary-term">Subfossil</span><div class="glossary-def">Remains that are partially fossilised: too old to retain most of their original organic material, but not old or mineralised enough to count as a true <a class="gloss-xref" data-gloss-target="gdef-fossil">fossil</a>. The term is generally reserved for material from roughly the last 10,000 years, so it has little application to non-avian dinosaurs — but it sharpens the question of what "fossil" actually means.</div></div>
           <div class="glossary-dict-entry" id="gdef-taphonomy"><span class="glossary-term">Taphonomy <span class="glossary-authority">from Gk. <em>taphos</em>, "burial"</span></span><div class="glossary-def">The study of how organisms decay, are transported, buried and preserved — or destroyed — before becoming part of the fossil record. Essential for interpreting what a fossil assemblage does and doesn't tell us, and for judging <a class="gloss-xref" data-gloss-target="gdef-completeness">completeness</a> fairly.<div class="glossary-seealso"><b>See also</b><a class="gloss-xref" data-gloss-target="gdef-fossil">Fossil</a> · <a class="gloss-xref" data-gloss-target="gdef-diagenesis">Diagenesis</a> · <a class="gloss-xref" data-gloss-target="gdef-lagerstatte">Lagerstätte</a></div></div></div>
           <div class="glossary-dict-entry" id="gdef-trace-fossil-ichnite"><span class="glossary-term">Trace fossil / Ichnite</span><div class="glossary-def">Indirect evidence of an organism's activity rather than its body — footprints (ichnites), burrows, feeding marks, nests and <a class="gloss-xref" data-gloss-target="gdef-coprolite">coprolites</a> — recording behaviour rather than anatomy.</div></div>
+          <div class="glossary-dict-entry" id="gdef-wastebasket-taxon"><span class="glossary-term">Wastebasket taxon</span><div class="glossary-def">A genus or other taxon that has accumulated a disproportionate, poorly-associated jumble of specimens over its taxonomic history — typically because 19th- or early-20th-century scientists lumped fragmentary, unrelated fossils under one convenient name. <em>Megalosaurus</em> is the textbook case: dozens of unrelated theropod remains were once referred to it before modern revision narrowed it back to its original Middle Jurassic English material. See also <a class="gloss-xref" data-gloss-target="gdef-nomen-dubium">nomen dubium</a>.</div></div>
         </div>
       </div>
       </section>
@@ -5172,17 +5224,23 @@
         <div class="wiki-section-header"><div class="wiki-section-label">Palaeogeography &amp; palaeoecology</div></div>
         <div class="wiki-section-body">
         <div class="glossary-dict-grid">
+                    <div class="glossary-dict-entry" id="gdef-apex-predator"><span class="glossary-term">Apex predator</span><div class="glossary-def">An animal at the very top of its local food web, with no natural predators of its own as an adult. Large theropods such as <em>Tyrannosaurus</em> and <em>Spinosaurus</em> filled this role in their respective ecosystems — though juveniles of even the largest species would still have been vulnerable to other predators. See also <a class="gloss-xref" data-gloss-target="gdef-trophic-level">trophic level</a> and <a class="gloss-xref" data-gloss-target="gdef-niche-partitioning">niche partitioning</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-biogeography"><span class="glossary-term">Biogeography</span><div class="glossary-def">The study of how organisms are distributed across geography and through time, and of the historical and environmental processes — <a class="gloss-xref" data-gloss-target="gdef-continental-drift-plate-tectonics">continental drift</a>, <a class="gloss-xref" data-gloss-target="gdef-palaeoclimate">climate</a>, sea level — that shaped those patterns. Explained chiefly by <a class="gloss-xref" data-gloss-target="gdef-vicariance">vicariance</a> and <a class="gloss-xref" data-gloss-target="gdef-dispersal">dispersal</a>.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-carnivore-herbivore-omnivore"><span class="glossary-term">Carnivore / Herbivore / Omnivore</span><div class="glossary-def">Three broad dietary categories: carnivores eat meat, herbivores eat plants, and omnivores eat both. Diet is almost always inferred indirectly — from tooth shape and wear (see <a class="gloss-xref" data-gloss-target="gdef-heterodonty">heterodonty</a>), jaw mechanics, <a class="gloss-xref" data-gloss-target="gdef-gastrolith">gastroliths</a>, gut contents and <a class="gloss-xref" data-gloss-target="gdef-coprolite">coprolites</a> — since soft tissues themselves rarely fossilise. Most non-avian dinosaurs sort fairly cleanly into one category, though a handful, such as some oviraptorosaurs, remain genuinely debated.</div></div>
           <div class="glossary-dict-entry" id="gdef-continental-drift-plate-tectonics"><span class="glossary-term">Continental drift / Plate tectonics</span><div class="glossary-def">The well-established theory that Earth's continents rest on rigid plates that move slowly over geological time — the driving force behind the breakup of <a class="gloss-xref" data-gloss-target="gdef-pangaea">Pangaea</a> into <a class="gloss-xref" data-gloss-target="gdef-laurasia-gondwana">Laurasia and Gondwana</a>, and the changing distribution of dinosaur faunas.</div></div>
           <div class="glossary-dict-entry" id="gdef-dispersal"><span class="glossary-term">Dispersal</span><div class="glossary-def">The movement of organisms across existing geographic barriers — <a class="gloss-xref" data-gloss-target="gdef-land-bridge">land bridges</a>, island chains, shallow seas — to colonise new regions; an alternative explanation to <a class="gloss-xref" data-gloss-target="gdef-vicariance">vicariance</a> for shared distributions.</div></div>
           <div class="glossary-dict-entry" id="gdef-endemism"><span class="glossary-term">Endemism</span><div class="glossary-def">The condition of a <a class="gloss-xref" data-gloss-target="gdef-taxon">taxon</a> being restricted to a single geographic region — common in groups isolated on separated continents, such as Gondwanan abelisaurids or Laurasian tyrannosaurs. The cumulative pattern across a fauna is <a class="gloss-xref" data-gloss-target="gdef-provincialism">provincialism</a>.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-extinction"><span class="glossary-term">Extinction</span><div class="glossary-def">The complete and permanent disappearance of a species or larger group. Most dinosaur lineages died out gradually, through ordinary evolutionary turnover — but the non-avian dinosaurs as a whole vanished abruptly at the <a class="gloss-xref" data-gloss-target="gdef-k-pg-boundary">K–Pg boundary</a>, 66 million years ago, in one of the "Big Five" mass extinctions of the Phanerozoic. Birds — themselves <a class="gloss-xref" data-gloss-target="gdef-avialae">avialan</a> dinosaurs — are the sole surviving lineage.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-insularity-island-dwarfism"><span class="glossary-term">Insularity / Island dwarfism</span><div class="glossary-def">The evolutionary tendency for large animals to shrink when isolated on islands with limited resources and few predators — and, in the related phenomenon of island gigantism, for small animals to grow larger. <em>Magyarosaurus</em>, a sauropod from Late Cretaceous island environments in what is now Romania, is a famous proposed dinosaurian example. See also <a class="gloss-xref" data-gloss-target="gdef-endemism">endemism</a> and <a class="gloss-xref" data-gloss-target="gdef-biogeography">biogeography</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-land-bridge"><span class="glossary-term">Land bridge</span><div class="glossary-def">A temporary connection between landmasses, often created by falling sea levels, that lets organisms <a class="gloss-xref" data-gloss-target="gdef-dispersal">disperse</a> between regions otherwise separated by water.</div></div>
           <div class="glossary-dict-entry" id="gdef-laurasia-gondwana"><span class="glossary-term">Laurasia / Gondwana</span><div class="glossary-def">The two great landmasses formed by the breakup of <a class="gloss-xref" data-gloss-target="gdef-pangaea">Pangaea</a>: Laurasia (North America, Europe, Asia) in the north and Gondwana (South America, Africa, India, Australia, Antarctica) in the south. Their separation drove <a class="gloss-xref" data-gloss-target="gdef-vicariance">vicariant</a> evolution of distinct, <a class="gloss-xref" data-gloss-target="gdef-endemism">endemic</a> dinosaur faunas.</div></div>
           <div class="glossary-dict-entry" id="gdef-niche-partitioning"><span class="glossary-term">Niche partitioning</span><div class="glossary-def">The process by which competing species sharing a habitat divide up limited resources — diet, hunting strategy, foraging height, habitat zone — to reduce direct competition and coexist. Often invoked to explain how several large predators or herbivores could share a single <a class="gloss-xref" data-gloss-target="gdef-palaeoenvironment">palaeoenvironment</a>: for instance, robust, deep-skulled tyrannosaurids may have targeted heavily armoured prey while more gracile contemporaries hunted smaller, lighter game. A useful lens for reconstructing ancient ecosystems from fossil assemblages.<div class="glossary-seealso"><b>See also</b><a class="gloss-xref" data-gloss-target="gdef-palaeoenvironment">Palaeoenvironment</a> · <a class="gloss-xref" data-gloss-target="gdef-endemism">Endemism</a> · <a class="gloss-xref" data-gloss-target="gdef-provincialism">Provincialism</a></div></div></div>
           <div class="glossary-dict-entry" id="gdef-palaeoclimate"><span class="glossary-term">Palaeoclimate</span><div class="glossary-def">The climate of a past geological interval, reconstructed from evidence such as rock types, fossil plant assemblages, isotope chemistry, and the geographic distribution of cold- or warmth-adapted organisms — a key input to reconstructing <a class="gloss-xref" data-gloss-target="gdef-palaeoenvironment">palaeoenvironments</a>.</div></div>
           <div class="glossary-dict-entry" id="gdef-palaeoenvironment"><span class="glossary-term">Palaeoenvironment</span><div class="glossary-def">The physical setting in which an organism lived and was preserved — floodplain, coastal plain, desert, forest — reconstructed from sedimentary rock, <a class="gloss-xref" data-gloss-target="gdef-palaeoclimate">palaeoclimate</a> evidence and associated fossils. See also <a class="gloss-xref" data-gloss-target="gdef-taphonomy">taphonomy</a> for how it shapes preservation.</div></div>
           <div class="glossary-dict-entry" id="gdef-pangaea"><span class="glossary-term">Pangaea</span><div class="glossary-def">The single supercontinent that existed at the start of the Mesozoic, surrounded by the global ocean Panthalassa, before <a class="gloss-xref" data-gloss-target="gdef-continental-drift-plate-tectonics">rifting</a> apart into <a class="gloss-xref" data-gloss-target="gdef-laurasia-gondwana">Laurasia and Gondwana</a> through the Jurassic and Cretaceous.<div class="glossary-seealso"><b>See also</b><a class="gloss-xref" data-gloss-target="gdef-laurasia-gondwana">Laurasia / Gondwana</a> · <a class="gloss-xref" data-gloss-target="gdef-continental-drift-plate-tectonics">Continental drift</a> · <a class="gloss-xref" data-gloss-target="gdef-vicariance">Vicariance</a></div></div></div>
+                    <div class="glossary-dict-entry" id="gdef-predator-prey"><span class="glossary-term">Predator / Prey</span><div class="glossary-def">The two roles in any act of predation: the predator hunts and kills, the prey is hunted and killed. Direct fossil evidence of predator–prey interaction is rare but spectacular when found — healed bite marks, preserved gut contents, or animals fossilised in the act, like the famous <em>Velociraptor</em>-and-<em>Protoceratops</em> "fighting dinosaurs" block from Mongolia.</div></div>
           <div class="glossary-dict-entry" id="gdef-provincialism"><span class="glossary-term">Provincialism</span><div class="glossary-def">The pattern in which different geographic regions develop distinct, characteristic faunas through long-term isolation — the aggregate expression of <a class="gloss-xref" data-gloss-target="gdef-endemism">endemism</a>, clearly visible in Late Cretaceous dinosaur assemblages from different continents.</div></div>
+                    <div class="glossary-dict-entry" id="gdef-trophic-level"><span class="glossary-term">Trophic level</span><div class="glossary-def">An organism’s position in a food chain, defined by how it obtains energy: producers (plants) at the base, herbivores above them, and successive tiers of carnivores rising to the <a class="gloss-xref" data-gloss-target="gdef-apex-predator">apex predator</a> at the top. Reconstructing trophic levels from fossils is genuinely difficult, and relies on indirect evidence such as tooth shape, <a class="gloss-xref" data-gloss-target="gdef-coprolite">coprolite</a> contents and bite-mark traces.</div></div>
           <div class="glossary-dict-entry" id="gdef-vicariance"><span class="glossary-term">Vicariance</span><div class="glossary-def">The splitting of a single widespread population into isolated groups by the appearance of a geographic barrier — such as a continent rifting apart — leading to independent evolution on each side. Contrast <a class="gloss-xref" data-gloss-target="gdef-dispersal">dispersal</a>.</div></div>
         </div>
 
@@ -5202,7 +5260,15 @@
       </div>
       </section>
 
+    </div>
   </section>
+
+    <button class="back-to-top-btn" id="back-to-top-btn" type="button" aria-label="Back to top" title="Back to top">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 19V5"/>
+        <path d="M5 12l7-7 7 7"/>
+      </svg>
+    </button>
 
     </main><!-- end .app-content -->
   </div><!-- end .app-body -->
@@ -11678,6 +11744,72 @@ function initScrollCollapse() {
   }, { passive: true, capture: true });
 }
 
+function getActiveScrollContainer() {
+  const activeView = document.querySelector('.view.active');
+  if (!activeView) return document.scrollingElement || document.documentElement;
+
+  const candidates = [
+    activeView,
+    ...activeView.querySelectorAll([
+      '.wiki-page',
+      '.home-main',
+      '.results',
+      '.tl-scroll',
+      '.mv-detail',
+      '.mv-detail-list',
+      '.mv-country-list',
+      '.clado-scroll',
+      '.ft-outer',
+      '.ft-scroll',
+      '.ft-tree-panel'
+    ].join(','))
+  ];
+
+  return candidates.find(el => {
+    const overflowY = getComputedStyle(el).overflowY;
+    return /(auto|scroll|overlay)/.test(overflowY) && el.scrollHeight > el.clientHeight + 1;
+  }) || document.scrollingElement || document.documentElement;
+}
+
+function scrollElementIntoContainer(target, container, options = {}) {
+  if (!target || !container) return;
+  const block = options.block || 'start';
+  const targetRect = target.getBoundingClientRect();
+  const containerRect = container.getBoundingClientRect();
+  const currentTop = container.scrollTop || 0;
+  let top = currentTop + targetRect.top - containerRect.top;
+
+  if (block === 'center') {
+    top -= (container.clientHeight - target.offsetHeight) / 2;
+  } else {
+    top -= options.offset || 0;
+  }
+
+  container.scrollTo({
+    top: Math.max(0, top),
+    behavior: options.behavior || 'smooth'
+  });
+}
+
+function initBackToTop() {
+  // "Back to top" button — appears once the user has scrolled some way down
+  // any view. Resolve the active scroll container at click time so switching
+  // views never leaves the button pointing at a previously scrolled panel.
+  const appContent = document.querySelector('.app-content');
+  const topBtn = document.getElementById('back-to-top-btn');
+  if (!appContent || !topBtn) return;
+
+  appContent.addEventListener('scroll', e => {
+    const activeView = document.querySelector('.view.active');
+    if (!activeView || !activeView.contains(e.target)) return;
+    topBtn.classList.toggle('visible', (e.target.scrollTop || 0) > 400);
+  }, { passive: true, capture: true });
+
+  topBtn.addEventListener('click', () => {
+    getActiveScrollContainer().scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+
 function initCatalogueGuideCollapse() {
   const view = document.getElementById('catalog-view');
   const instr = view?.querySelector('.view-instruction');
@@ -11774,20 +11906,27 @@ function init() {
   });
   const glossSearch = document.getElementById('glossary-search');
   const glossResults = document.getElementById('glossary-search-results');
-  // Scrolls to a glossary entry, clearing the search dropdown first, and flash-highlights it.
-  const jumpToGlossEntry = (id) => {
+  const jumpToGlossTarget = (id, options = {}) => {
     const target = document.getElementById(id);
     if (!target) return;
     if (glossSearch) glossSearch.value = '';
     if (glossResults) { glossResults.classList.remove('open'); glossResults.innerHTML = ''; }
     if (glossSearch) glossSearch.setAttribute('aria-expanded', 'false');
-    target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    const scroller = document.getElementById('glossary-page') || document.getElementById('glossary-view') || getActiveScrollContainer();
+    scrollElementIntoContainer(target, scroller, {
+      behavior: 'smooth',
+      block: options.block || 'center',
+      offset: options.offset || 12
+    });
+    if (!options.flash) return;
     target.classList.remove('gloss-flash');
     // restart the animation even if it was just played
     void target.offsetWidth;
     target.classList.add('gloss-flash');
     target.addEventListener('animationend', () => target.classList.remove('gloss-flash'), { once: true });
   };
+  // Scrolls to a glossary entry, clearing the search dropdown first, and flash-highlights it.
+  const jumpToGlossEntry = (id) => jumpToGlossTarget(id, { block: 'center', flash: true });
   if (glossSearch && glossResults) {
     const CATEGORY_LABELS = {
       'gloss-concepts': 'Key Concepts', 'gloss-taxonomy': 'Taxonomy', 'gloss-phylogenetics': 'Phylogenetics',
@@ -11905,6 +12044,12 @@ function init() {
       jumpToGlossEntry(link.dataset.glossTarget);
     });
   });
+  document.querySelectorAll('#glossary-view .glossary-jump-chip[href^="#"]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      jumpToGlossTarget(link.getAttribute('href').slice(1), { block: 'start', offset: 12 });
+    });
+  });
   // definition-section-head removed (content now in info panels) — guard against null
   const defHead = document.getElementById('definition-section-head');
   if (defHead) {
@@ -11959,6 +12104,7 @@ function init() {
     renderCards();
   });
   initCatalogueGuideCollapse();
+  initBackToTop();
   document.getElementById('panel-close').addEventListener('click', closePanel);
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel(); });
 
@@ -12025,6 +12171,7 @@ function setView(view) {
   document.querySelectorAll('.rail-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.view === view);
   });
+  document.getElementById('back-to-top-btn')?.classList.remove('visible');
   if (view === 'home') {
     closePanel();
   } else if (view === 'catalog') {
