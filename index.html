@@ -630,7 +630,7 @@
   /* Quick-facts bar */
   .quick-facts {
     display: grid;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 1px;
     margin-top: 10px;
     border: 1px solid var(--line);
@@ -725,10 +725,16 @@
     letter-spacing: .08em;
     text-transform: uppercase;
   }
-  .stat-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-  .stat-box { min-width: 0; padding: 9px 10px; border-radius: var(--radius); background: var(--surface-2); }
-  .stat-label { color: var(--text-3); font-size: 10px; margin-bottom: 3px; }
-  .stat-value { color: var(--text); font-size: 13px; font-weight: 650; line-height: 1.25; overflow-wrap: anywhere; }
+  .subsection-title {
+    margin: 14px 0 8px;
+    color: var(--text-3);
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    opacity: .75;
+  }
+  .subsection-title:first-child { margin-top: 0; }
   .map-card {
     position: relative;
     min-height: 270px;
@@ -1032,59 +1038,12 @@
     background: var(--accent);
   }
   .evidence-summary-copy,
-  .evidence-mode-copy,
   .evidence-mode-value {
     color: var(--text-2);
     font-size: 11.5px;
     line-height: 1.55;
   }
   .evidence-summary-copy { margin-top: 8px; }
-  .evidence-toggle {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4px;
-    padding: 4px;
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    background: var(--surface-2);
-  }
-  .evidence-toggle button {
-    min-height: 30px;
-    border: none;
-    border-radius: 6px;
-    background: transparent;
-    color: var(--text-2);
-    font-size: 11px;
-    font-weight: 750;
-  }
-  .evidence-toggle button.active {
-    background: var(--surface);
-    color: var(--text);
-    box-shadow: 0 1px 4px rgba(0,0,0,.08);
-  }
-  .evidence-mode-card {
-    display: grid;
-    gap: 10px;
-    padding: 10px 11px;
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    background: var(--surface-2);
-  }
-  .evidence-mode-kicker {
-    color: var(--text-3);
-    font-size: 9px;
-    font-weight: 850;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-  }
-  .evidence-mode-title {
-    margin-top: 2px;
-    color: var(--text);
-    font-size: 13px;
-    font-weight: 800;
-    line-height: 1.25;
-  }
-  .evidence-mode-copy { margin-top: 4px; }
   .evidence-mode-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1156,48 +1115,6 @@
     line-height: 1.45;
     overflow-wrap: anywhere;
   }
-  .confidence-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 8px;
-  }
-  .confidence-item {
-    min-width: 0;
-    padding: 9px 10px;
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    background: var(--surface-2);
-  }
-  .confidence-head {
-    display: flex;
-    justify-content: space-between;
-    gap: 8px;
-    align-items: center;
-  }
-  .confidence-label {
-    color: var(--text);
-    font-size: 12px;
-    font-weight: 750;
-    line-height: 1.25;
-  }
-  .confidence-chip {
-    flex-shrink: 0;
-    padding: 2px 7px;
-    border-radius: 999px;
-    border: 1px solid color-mix(in srgb, var(--confidence-col) 46%, var(--line));
-    color: var(--confidence-col);
-    background: color-mix(in srgb, var(--confidence-col) 10%, transparent);
-    font-size: 9px;
-    font-weight: 850;
-    letter-spacing: .05em;
-    text-transform: uppercase;
-  }
-  .confidence-copy {
-    margin-top: 6px;
-    color: var(--text-2);
-    font-size: 11px;
-    line-height: 1.45;
-  }
   .known-remains-card {
     display: grid;
     gap: 12px;
@@ -1248,24 +1165,11 @@
     gap: 8px;
     min-width: 0;
   }
-  .known-remains-title {
-    color: var(--text);
-    font-size: 16px;
-    font-weight: 850;
-    line-height: 1.2;
-  }
   .known-remains-summary,
-  .known-remains-material,
   .remains-legend {
     color: var(--text-2);
     font-size: 11.5px;
     line-height: 1.55;
-  }
-  .known-remains-material {
-    padding: 8px 9px;
-    border-left: 2px solid color-mix(in srgb, var(--accent) 52%, var(--line));
-    background: color-mix(in srgb, var(--surface) 72%, transparent);
-    border-radius: 0 6px 6px 0;
   }
   .remains-grid {
     display: grid;
@@ -1321,7 +1225,6 @@
     border: 1px solid color-mix(in srgb, var(--legend-col) 70%, var(--line));
   }
   @media (max-width: 520px) {
-    .confidence-grid,
     .evidence-mode-grid,
     .specimen-row,
     .remains-grid { grid-template-columns: 1fr; }
@@ -5277,6 +5180,7 @@
 <script src="data/existing-dinosaurs.js"></script>
 <script src="data/nhm-imported-dinosaurs.js"></script>
 <script src="data/pbdb-enrichment.js"></script>
+<script src="data/wiki-enrichment.js"></script>
 <script>
 const SOURCE_BASE = 'https://www.nhm.ac.uk/discover/dino-directory/';
 const DK_GUIDE_URL = 'https://www.nhm.ac.uk/discover/dinosaurs.html';
@@ -6538,6 +6442,7 @@ const RICH_PROFILES = {
 };
 
 const PBDB_ENRICHMENT = window.PBDB_DINOSAUR_ENRICHMENT || {};
+const WIKI_ENRICHMENT = window.WIKI_ENRICHMENT || {};
 
 const DINOS = [
   ...(window.EXISTING_DINOSAUR_RECORDS || []),
@@ -11529,10 +11434,18 @@ function dino(id, name, latin, meaning, type, period, mya, clade, subclade, diet
   const accent = diet === 'Omnivore' ? ACCENTS.omnivore : clade === 'Ornithischia' ? ACCENTS.ornithischia : periodKey === 'cretaceous' ? ACCENTS.cretaceous : periodKey === 'jurassic' ? ACCENTS.jurassic : ACCENTS.triassic;
   const imageFile = IMAGE_FILES[id];
   const pbdb = PBDB_ENRICHMENT[id] || null;
+  const wiki = WIKI_ENRICHMENT[id] || null;
+  if (/NHM records fossils from/i.test(description) && wiki?.extract) {
+    description = wiki.extract;
+  }
+  if (/^not listed by nhm$/i.test(locomotion) && pbdb?.ecospace?.locomotion) {
+    locomotion = pbdb.ecospace.locomotion;
+  }
   return {
     id, name, latin, meaning, type, period, mya, clade, subclade, diet, locomotion,
     length, massKg, mass: massKg ? formatMass(massKg) : 'Not listed by NHM',
     found, food, teeth, silhouette, description, facts, pronunciation, accent,
+    wiki,
     source: sourceUrl || SOURCE_BASE + id + '.html',
     dataOrigin: dataOrigin || 'Curated wiki record',
     sourceMeta: sourceMeta || null,
@@ -12421,16 +12334,10 @@ function openPanel(id) {
   body.innerHTML = '';
   body.append(
     heroNode(d),
+    atAGlanceNode(d),
     overviewNode(d, profile),
-    quickFactsNode(d),
-    evidenceConfidenceNode(d, profile),
-    knownRemainsNode(d, profile),
-    articleSectionsNode(d, profile),
-    lifestyleNode(d),
-    fossilRecordNode(d, profile),
-    fossilMapNode(d, profile),
+    fossilsNode(d, profile),
     cladogramNode(d, profile),
-    factsNode('Evidence and notes', d.facts),
     relatedDinosaursNode(d),
     sourceNode(d, profile)
   );
@@ -12469,7 +12376,9 @@ function renderPanelPills(d) {
   }
 }
 
-function quickFactsNode(d) {
+function atAGlanceNode(d) {
+  const section = document.createElement('section');
+  section.innerHTML = '<div class="section-title">At a glance</div>';
   const bar = document.createElement('div');
   bar.className = 'quick-facts';
   [
@@ -12477,7 +12386,6 @@ function quickFactsNode(d) {
     ['Mass',     qualifiedMeasurement(d, 'mass')],
     ['Diet',     nhmClean(d.diet)],
     ['Movement', nhmClean(d.locomotion)],
-    ['Found in', d.found.slice(0, 2).join(', ') + (d.found.length > 2 ? ` +${d.found.length - 2}` : '')],
     ['Group',    d.subclade],
   ].forEach(([label, value]) => {
     const item = document.createElement('div');
@@ -12487,7 +12395,8 @@ function quickFactsNode(d) {
     item.append(l, v);
     bar.appendChild(item);
   });
-  return bar;
+  section.appendChild(bar);
+  return section;
 }
 
 function heroNode(d) {
@@ -12546,13 +12455,20 @@ function missingImageNode(d) {
   return mark;
 }
 
-function evidenceConfidenceNode(d, profile) {
+function fossilsNode(d, profile) {
   const evidence = evidenceProfile(d, profile);
+  const remains = knownRemainsProfile(d, profile, evidence);
   const section = document.createElement('section');
-  section.innerHTML = '<div class="section-title">Evidence summary</div>';
+  section.innerHTML = '<div class="section-title">Fossils</div>';
 
   const wrap = document.createElement('div');
   wrap.className = 'evidence-confidence';
+
+  // --- Evidence ---
+  const evidenceTitle = document.createElement('div');
+  evidenceTitle.className = 'subsection-title';
+  evidenceTitle.textContent = 'Evidence';
+  wrap.appendChild(evidenceTitle);
 
   const summary = document.createElement('div');
   summary.className = 'evidence-summary-card';
@@ -12574,69 +12490,160 @@ function evidenceConfidenceNode(d, profile) {
     });
     summary.appendChild(chipRow);
   }
+  wrap.appendChild(summary);
 
-  const toggle = document.createElement('div');
-  toggle.className = 'evidence-toggle';
-  toggle.setAttribute('aria-label', 'Evidence view mode');
-  const reconstructionBtn = document.createElement('button');
-  reconstructionBtn.type = 'button';
-  reconstructionBtn.className = 'active';
-  reconstructionBtn.textContent = 'Reconstruction';
-  reconstructionBtn.setAttribute('aria-pressed', 'true');
-  const fossilBtn = document.createElement('button');
-  fossilBtn.type = 'button';
-  fossilBtn.textContent = 'Fossil material';
-  fossilBtn.setAttribute('aria-pressed', 'false');
-  const modePanel = document.createElement('div');
-  modePanel.className = 'evidence-mode-card';
-  const renderMode = mode => {
-    const view = mode === 'fossil' ? evidence.fossilView : evidence.reconstructionView;
-    reconstructionBtn.classList.toggle('active', mode === 'reconstruction');
-    fossilBtn.classList.toggle('active', mode === 'fossil');
-    reconstructionBtn.setAttribute('aria-pressed', String(mode === 'reconstruction'));
-    fossilBtn.setAttribute('aria-pressed', String(mode === 'fossil'));
-    modePanel.innerHTML = '';
-    const head = document.createElement('div');
-    head.innerHTML = `
-      <div class="evidence-mode-kicker">${escapeSvg(view.kicker)}</div>
-      <div class="evidence-mode-title">${escapeSvg(view.title)}</div>
-      <div class="evidence-mode-copy">${escapeSvg(view.copy)}</div>`;
-    const fieldGrid = document.createElement('div');
-    fieldGrid.className = 'evidence-mode-grid';
-    view.fields.forEach(field => {
-      const item = document.createElement('div');
-      item.className = 'evidence-mode-item';
-      item.innerHTML = `
-        <div class="evidence-mode-label">${escapeSvg(field.label)}</div>
-        <div class="evidence-mode-value">${escapeSvg(field.value)}</div>`;
-      fieldGrid.appendChild(item);
-    });
-    modePanel.append(head, fieldGrid);
-  };
-  reconstructionBtn.addEventListener('click', () => renderMode('reconstruction'));
-  fossilBtn.addEventListener('click', () => renderMode('fossil'));
-  toggle.append(reconstructionBtn, fossilBtn);
-  renderMode('reconstruction');
-
-  const grid = document.createElement('div');
-  grid.className = 'confidence-grid';
-  evidence.claims.forEach(claim => {
+  // Compact evidence notes: inferred anatomy + confidence limit
+  const notes = document.createElement('div');
+  notes.className = 'evidence-mode-grid';
+  const inferredAnatomy = evidence.reconstructionView.fields.find(f => f.label === 'Inferred anatomy')?.value;
+  const confidenceLimit = evidence.fossilView.fields.find(f => f.label === 'Confidence limit')?.value;
+  [['Inferred anatomy', inferredAnatomy], ['Confidence limit', confidenceLimit]].forEach(([label, value]) => {
+    if (!value) return;
     const item = document.createElement('div');
-    item.className = 'confidence-item';
-    item.style.setProperty('--confidence-col', confidenceColor(claim.level));
+    item.className = 'evidence-mode-item';
     item.innerHTML = `
-      <div class="confidence-head">
-        <div class="confidence-label">${escapeSvg(claim.label)}</div>
-        <span class="confidence-chip">${escapeSvg(claim.level)}</span>
-      </div>
-      <div class="confidence-copy">${escapeSvg(claim.reason)}</div>`;
-    grid.appendChild(item);
+      <div class="evidence-mode-label">${escapeSvg(label)}</div>
+      <div class="evidence-mode-value">${escapeSvg(value)}</div>`;
+    notes.appendChild(item);
+  });
+  if (notes.children.length) wrap.appendChild(notes);
+
+  // --- Known remains ---
+  const hasRegionSignal = remains.regions.some(r => r.state === 'known' || r.state === 'partial');
+  const specimenList = evidence.specimens?.length ? specimenEvidenceNode(evidence.specimens) : null;
+  if (hasRegionSignal || remains.image || specimenList) {
+    const remainsTitle = document.createElement('div');
+    remainsTitle.className = 'subsection-title';
+    remainsTitle.textContent = 'Known remains';
+    wrap.appendChild(remainsTitle);
+  }
+
+  if (hasRegionSignal || remains.image) {
+    const remainsCard = document.createElement('div');
+    remainsCard.className = 'known-remains-card';
+    const remainsLayout = document.createElement('div');
+    remainsLayout.className = 'known-remains-layout';
+
+    if (remains.image) {
+      const media = document.createElement('div');
+      media.className = 'remains-photo-card';
+      const img = document.createElement('img');
+      img.src = commonsImageUrl(remains.image.file, 900);
+      img.alt = remains.image.label;
+      img.loading = 'eager';
+      img.decoding = 'async';
+      img.addEventListener('error', () => media.remove(), { once: true });
+      const credit = document.createElement('div');
+      credit.className = 'remains-photo-credit';
+      credit.append(remains.image.label + '. ');
+      const link = document.createElement('a');
+      link.href = commonsFilePage(remains.image.file);
+      link.target = '_blank';
+      link.rel = 'noreferrer';
+      link.textContent = 'Wikimedia Commons';
+      credit.appendChild(link);
+      credit.append('. ' + remains.image.note);
+      media.append(img, credit);
+      remainsLayout.appendChild(media);
+    }
+
+    if (hasRegionSignal) {
+      const remainsCopy = document.createElement('div');
+      remainsCopy.className = 'known-remains-copy';
+      remainsCopy.innerHTML = `<div class="known-remains-summary">${escapeSvg(remains.summary)}</div>`;
+
+      const remainsGrid = document.createElement('div');
+      remainsGrid.className = 'remains-grid';
+      remains.regions.forEach(region => {
+        const chip = document.createElement('div');
+        chip.className = 'remains-chip';
+        chip.style.setProperty('--state-col', remainsStateColor(region.state));
+        chip.innerHTML = `
+          <div class="remains-chip-label">${escapeSvg(region.label)}</div>
+          <div class="remains-state">${escapeSvg(remainsStateLabel(region.state))}</div>`;
+        remainsGrid.appendChild(chip);
+      });
+
+      const legend = document.createElement('div');
+      legend.className = 'remains-legend';
+      legend.innerHTML = `
+        <span><i style="--legend-col:${remainsStateColor('known')}"></i>directly signalled</span>
+        <span><i style="--legend-col:${remainsStateColor('partial')}"></i>partial or fragmentary</span>
+        <span><i style="--legend-col:${remainsStateColor('inferred')}"></i>reconstructed from context</span>
+        <span><i style="--legend-col:${remainsStateColor('unknown')}"></i>not yet curated</span>`;
+
+      remainsCopy.append(remainsGrid, legend);
+      remainsLayout.appendChild(remainsCopy);
+    }
+
+    remainsCard.appendChild(remainsLayout);
+    wrap.appendChild(remainsCard);
+  }
+
+  if (specimenList) wrap.appendChild(specimenList);
+
+  // --- Locality & age ---
+  const localityTitle = document.createElement('div');
+  localityTitle.className = 'subsection-title';
+  localityTitle.textContent = 'Locality & age';
+  wrap.appendChild(localityTitle);
+
+  const fossilSummary = document.createElement('div');
+  fossilSummary.className = 'fossil-summary';
+
+  const record = FOSSIL_RECORDS[d.id];
+  const pbdb = d.pbdb;
+  const recordLevel = record?.completeness || (profile?.fossilSites
+    ? 'Formation and locality-level records in this wiki entry'
+    : pbdb
+      ? `PBDB occurrence-backed record (${pbdb.occurrenceCount} occurrences; ${pbdb.sampledOccurrences} sampled here)`
+      : 'Country-level NHM record; formation-level detail still to be added');
+  const paleo = record?.paleo || paleoenvironmentText(d, profile);
+
+  const fossilGrid = document.createElement('div');
+  fossilGrid.className = 'fossil-summary-grid';
+  [
+    ['Fossil record', recordLevel],
+    ['Age window', pbdbAgeWindowText(d, pbdb) || `${d.period} · ${d.mya}`]
+  ].forEach(([label, value]) => {
+    const item = document.createElement('div');
+    item.className = 'fossil-summary-item';
+    const l = document.createElement('div'); l.className = 'fossil-summary-label'; l.textContent = label;
+    const v = document.createElement('div'); v.className = 'fossil-summary-value'; v.textContent = value;
+    item.append(l, v);
+    fossilGrid.appendChild(item);
   });
 
-  const specimenList = evidence.specimens?.length ? specimenEvidenceNode(evidence.specimens) : null;
+  const note = document.createElement('p');
+  note.className = 'fossil-note';
+  note.textContent = paleo;
 
-  wrap.append(summary, toggle, modePanel, grid);
-  if (specimenList) wrap.appendChild(specimenList);
+  fossilSummary.append(fossilGrid, note);
+  wrap.appendChild(fossilSummary);
+
+  // Fossil localities: map + list
+  const locations = fossilLocations(d, profile);
+  const map = document.createElement('div');
+  map.className = 'map-card';
+  map.innerHTML = worldMapSvg(locations);
+  const places = document.createElement('div');
+  places.className = profile?.fossilSites ? 'locality-list' : 'map-list';
+  if (profile?.fossilSites) {
+    locations.forEach((loc, i) => {
+      const item = document.createElement('div'); item.className = 'locality-item';
+      const dot = document.createElement('span'); dot.className = 'locality-dot'; dot.textContent = i + 1;
+      const text = document.createElement('div');
+      const name = document.createElement('div'); name.className = 'locality-name'; name.textContent = loc.name;
+      const meta = document.createElement('div'); meta.className = 'locality-meta'; meta.textContent = `${loc.region}. ${loc.note}`;
+      text.append(name, meta);
+      item.append(dot, text);
+      places.appendChild(item);
+    });
+  } else {
+    places.textContent = `NHM records fossil finds from: ${d.found.join(', ')}.`;
+  }
+  wrap.append(map, places);
+
   section.appendChild(wrap);
   return section;
 }
@@ -12668,75 +12675,6 @@ function specimenEvidenceNode(specimens) {
     wrap.appendChild(row);
   });
   return wrap;
-}
-
-function knownRemainsNode(d, profile) {
-  const evidence = evidenceProfile(d, profile);
-  const remains = knownRemainsProfile(d, profile, evidence);
-  const section = document.createElement('section');
-  section.innerHTML = '<div class="section-title">Known remains</div>';
-
-  const card = document.createElement('div');
-  card.className = 'known-remains-card';
-
-  const layout = document.createElement('div');
-  layout.className = 'known-remains-layout';
-
-  if (remains.image) {
-    const media = document.createElement('div');
-    media.className = 'remains-photo-card';
-    const img = document.createElement('img');
-    img.src = commonsImageUrl(remains.image.file, 900);
-    img.alt = remains.image.label;
-    img.loading = 'eager';
-    img.decoding = 'async';
-    img.addEventListener('error', () => media.remove(), { once: true });
-    const credit = document.createElement('div');
-    credit.className = 'remains-photo-credit';
-    credit.append(remains.image.label + '. ');
-    const link = document.createElement('a');
-    link.href = commonsFilePage(remains.image.file);
-    link.target = '_blank';
-    link.rel = 'noreferrer';
-    link.textContent = 'Wikimedia Commons';
-    credit.appendChild(link);
-    credit.append('. ' + remains.image.note);
-    media.append(img, credit);
-    layout.appendChild(media);
-  }
-
-  const copy = document.createElement('div');
-  copy.className = 'known-remains-copy';
-  copy.innerHTML = `
-    <div class="known-remains-title">${escapeSvg(remains.title)}</div>
-    <div class="known-remains-summary">${escapeSvg(remains.summary)}</div>
-    <div class="known-remains-material">${escapeSvg(remains.material)}</div>`;
-
-  const grid = document.createElement('div');
-  grid.className = 'remains-grid';
-  remains.regions.forEach(region => {
-    const chip = document.createElement('div');
-    chip.className = 'remains-chip';
-    chip.style.setProperty('--state-col', remainsStateColor(region.state));
-    chip.innerHTML = `
-      <div class="remains-chip-label">${escapeSvg(region.label)}</div>
-      <div class="remains-state">${escapeSvg(remainsStateLabel(region.state))}</div>`;
-    grid.appendChild(chip);
-  });
-
-  const legend = document.createElement('div');
-  legend.className = 'remains-legend';
-  legend.innerHTML = `
-    <span><i style="--legend-col:${remainsStateColor('known')}"></i>directly signalled</span>
-    <span><i style="--legend-col:${remainsStateColor('partial')}"></i>partial or fragmentary</span>
-    <span><i style="--legend-col:${remainsStateColor('inferred')}"></i>reconstructed from context</span>
-    <span><i style="--legend-col:${remainsStateColor('unknown')}"></i>not yet curated</span>`;
-
-  copy.append(grid, legend);
-  layout.appendChild(copy);
-  card.appendChild(layout);
-  section.appendChild(card);
-  return section;
 }
 
 function knownRemainsProfile(d, profile, evidence) {
@@ -12882,13 +12820,6 @@ function evidenceProfile(d, profile) {
     : pbdb
       ? `${scoreLabel(score)} evidence score from PBDB occurrence data (${pbdb.occurrenceCount} records) plus current wiki fields. ${material}`
       : `${scoreLabel(score)} confidence from currently curated wiki data. ${material}`);
-  const evidenceBase = record
-    ? 'curated fossil-record notes in this wiki'
-    : pbdb
-      ? 'PBDB occurrence and taxonomy data plus current wiki fields'
-    : d.dataOrigin === 'NHM Dino Directory'
-      ? 'NHM profile fields and country-level occurrence data'
-      : 'curated profile notes in this wiki';
   return {
     curated: Boolean(curated),
     score,
@@ -12915,43 +12846,8 @@ function evidenceProfile(d, profile) {
         { label: 'Confidence limit', value: curated?.confidenceLimit || fossilLimitText(d, pbdb, record) },
         { label: 'Next curation step', value: curated?.nextStep || 'Add specimen-level material and a preserved-bone map where reliable published figures are available.' }
       ]
-    },
-    claims: [
-      curatedClaim(curated, 'bodySize', {
-        label: 'Body size',
-        level: d.length || d.massKg ? (record ? 'medium' : 'estimated') : 'limited',
-        reason: d.length || d.massKg
-          ? `Listed measurements are treated as ${record ? 'material-supported estimates' : 'source-listed estimates'} until specimen-level data is added.`
-          : 'No size measurement is currently listed in this wiki entry.'
-      }),
-      curatedClaim(curated, 'diet', {
-        label: 'Diet',
-        level: d.diet && d.diet !== 'Unknown' ? 'medium' : 'limited',
-        reason: d.teeth && !/not listed|—/i.test(d.teeth)
-          ? `Diet is inferred from anatomy noted in the source: ${d.teeth}`
-          : `Diet is currently source-listed as ${d.diet || 'unknown'}; direct feeding evidence has not been curated yet.`
-      }),
-      curatedClaim(curated, 'movement', {
-        label: 'Movement',
-        level: d.locomotion && !/not listed|—/i.test(d.locomotion) ? 'medium' : 'limited',
-        reason: d.locomotion && !/not listed|—/i.test(d.locomotion)
-          ? `Movement is inferred from body plan and limb anatomy, currently listed as ${d.locomotion}.`
-          : 'Locomotion evidence has not been curated beyond the source profile.'
-      }),
-      curatedClaim(curated, 'classification', {
-        label: 'Classification',
-        level: d.validity && d.validity !== 'valid' ? 'contested' : (classificationPath(d, profile).length > 4 ? 'medium' : 'limited'),
-        reason: d.validity && d.validity !== 'valid'
-          ? d.validityNote || 'This taxon has a non-standard validity status in the wiki.'
-          : `Placed as ${classificationPath(d, profile).join(' > ')} using ${evidenceBase}${pbdb?.family || pbdb?.parent ? `; PBDB context: ${[pbdb.family, pbdb.parent].filter(Boolean).join(' / ')}.` : '.'}`
-      })
-    ]
+    }
   };
-}
-
-function curatedClaim(curated, key, fallback) {
-  const claim = curated?.claims?.[key];
-  return claim ? { ...fallback, ...claim } : fallback;
 }
 
 function evidenceUncertainties(d, curated, quality, pbdb) {
@@ -12984,7 +12880,7 @@ function fossilLimitText(d, pbdb, record) {
   if (pbdb?.occurrenceCount) {
     return 'Occurrence coverage is useful for locality and age context, but it is not the same as skeletal completeness.';
   }
-  return 'Material-level confidence is limited until specimen descriptions are curated from published literature.';
+  return null;
 }
 
 function completenessScore(d, profile, record) {
@@ -13016,13 +12912,6 @@ function scoreLabel(score) {
   return 'Sparse';
 }
 
-function confidenceColor(level) {
-  if (level === 'high') return '#5c9e6e';
-  if (level === 'medium' || level === 'estimated') return '#d4a027';
-  if (level === 'contested') return '#d07050';
-  return '#8a9a8a';
-}
-
 function overviewNode(d, profile) {
   const section = document.createElement('section');
   section.innerHTML = '<div class="section-title">Overview</div>';
@@ -13034,73 +12923,44 @@ function overviewNode(d, profile) {
     if (i > 0) p.style.marginTop = '8px';
     section.appendChild(p);
   });
-  return section;
-}
 
-function statsNode(d) {
-  const wrap = document.createElement('section');
-  wrap.innerHTML = '<div class="section-title">At a glance</div>';
-  const grid = document.createElement('div');
-  grid.className = 'stat-grid';
-  [
-    ['Period', `${d.period} — ${d.mya}`],
-    ['Found in', d.found.join(', ')],
-    ['Group', d.subclade],
-  ].forEach(([label, value]) => {
-    const box = document.createElement('div');
-    box.className = 'stat-box';
-    const l = document.createElement('div'); l.className = 'stat-label'; l.textContent = label;
-    const v = document.createElement('div'); v.className = 'stat-value'; v.textContent = value;
-    box.append(l, v);
-    grid.appendChild(box);
-  });
-  wrap.appendChild(grid);
-  return wrap;
-}
+  const food = nhmClean(d.food);
+  if (food && food !== '—' && !/unknown/i.test(food)) {
+    const dietP = document.createElement('p');
+    dietP.className = 'description';
+    dietP.style.marginTop = '8px';
+    dietP.textContent = `Recorded diet: ${food}`;
+    section.appendChild(dietP);
+  }
 
-function fossilRecordNode(d, profile) {
-  const section = document.createElement('section');
-  section.innerHTML = '<div class="section-title">Fossil record</div>';
-  const summary = document.createElement('div');
-  summary.className = 'fossil-summary';
+  if (d.facts?.length) {
+    const factsTitle = document.createElement('div');
+    factsTitle.className = 'subsection-title';
+    factsTitle.textContent = 'Notable facts';
+    section.appendChild(factsTitle);
+    const list = document.createElement('div'); list.className = 'fact-list';
+    d.facts.forEach(fact => {
+      const item = document.createElement('div'); item.className = 'fact-item'; item.textContent = fact;
+      list.appendChild(item);
+    });
+    section.appendChild(list);
+  }
 
-  const record = FOSSIL_RECORDS[d.id];
-  const pbdb = d.pbdb;
-  const quality = DATA_QUALITY_OVERRIDES[d.id];
-  const locations = fossilLocations(d, profile);
-  const localityNames = locations.map(loc => loc.name).join(', ');
-  const recordLevel = record?.completeness || (profile?.fossilSites
-    ? 'Formation and locality-level records in this wiki entry'
-    : pbdb
-      ? `PBDB occurrence-backed record (${pbdb.occurrenceCount} occurrences; ${pbdb.sampledOccurrences} sampled here)`
-      : 'Country-level NHM record; formation-level detail still to be added');
-  const paleo = record?.paleo || paleoenvironmentText(d, profile);
-  const material = record?.material || evidenceMaterialText(d, profile);
-  const formations = record?.formations || (profile?.fossilSites ? localityNames : '') || pbdbFormationText(pbdb) || quality?.locality || localityNames || d.found.join(', ');
-  const evidence = record?.evidence || pbdbEvidenceText(d, pbdb) || `The anatomical evidence highlighted here is drawn from the current wiki entry: ${d.teeth}.`;
+  if (profile?.articles?.length) {
+    const artTitle = document.createElement('div');
+    artTitle.className = 'subsection-title';
+    artTitle.textContent = 'Field notes';
+    section.appendChild(artTitle);
+    const list = document.createElement('div'); list.className = 'article-list';
+    profile.articles.forEach(art => {
+      const item = document.createElement('article'); item.className = 'article-section';
+      const title = document.createElement('div'); title.className = 'article-title'; title.textContent = art.title;
+      const body = document.createElement('p'); body.className = 'article-copy'; body.textContent = art.body;
+      item.append(title, body); list.appendChild(item);
+    });
+    section.appendChild(list);
+  }
 
-  const grid = document.createElement('div');
-  grid.className = 'fossil-summary-grid';
-  [
-    ['Fossil record', recordLevel],
-    ['Formations / records', formations],
-    ['Age window', pbdbAgeWindowText(d, pbdb) || `${d.period} · ${d.mya}`],
-    ['Preserved evidence', material]
-  ].forEach(([label, value]) => {
-    const item = document.createElement('div');
-    item.className = 'fossil-summary-item';
-    const l = document.createElement('div'); l.className = 'fossil-summary-label'; l.textContent = label;
-    const v = document.createElement('div'); v.className = 'fossil-summary-value'; v.textContent = value;
-    item.append(l, v);
-    grid.appendChild(item);
-  });
-
-  const note = document.createElement('p');
-  note.className = 'fossil-note';
-  note.textContent = `${paleo} ${evidence}`;
-
-  summary.append(grid, note);
-  section.appendChild(summary);
   return section;
 }
 
@@ -13120,11 +12980,6 @@ function evidenceMaterialText(d, profile) {
   if (text.includes('eggs') || text.includes('hatchling') || text.includes('baby')) signals.push('growth or reproductive evidence');
   if (profile?.fossilSites) signals.push('mapped formation/locality records');
   return signals.length ? unique(signals).join('; ') : 'body fossils recorded in NHM source data';
-}
-
-function pbdbFormationText(pbdb) {
-  if (!pbdb?.formations?.length) return '';
-  return `${pbdb.formations.join('; ')}${pbdb.occurrenceCount ? ` — PBDB occurrence count: ${pbdb.occurrenceCount}` : ''}`;
 }
 
 function pbdbRawTimeText(pbdb) {
@@ -13160,19 +13015,6 @@ function pbdbRangeMatchesWikiPeriod(d, pbdb) {
   return pbdb.firstAppearanceMa >= end && pbdb.lastAppearanceMa <= start;
 }
 
-function pbdbEvidenceText(d, pbdb) {
-  if (!pbdb) return '';
-  const parts = [];
-  if ((pbdb.acceptedName || '').toLowerCase() !== d.name.toLowerCase()) {
-    parts.push(`PBDB lists the matched taxon as ${pbdb.acceptedName}, so this record should be treated as a taxonomy-linked enrichment rather than a direct one-to-one name match.`);
-  }
-  if (pbdb.occurrenceCount) parts.push(`PBDB currently lists ${pbdb.occurrenceCount} fossil occurrences for ${d.name}.`);
-  if (pbdb.formations?.length) parts.push(`Sampled records include ${pbdb.formations.slice(0, 4).join(', ')}.`);
-  if (!pbdbRangeMatchesWikiPeriod(d, pbdb)) parts.push(`PBDB sampled ages differ from the NHM period label; both source signals are shown pending manual curation.`);
-  if (pbdb.parent || pbdb.family) parts.push(`PBDB taxonomic context: ${[pbdb.family, pbdb.parent].filter(Boolean).join(' / ')}.`);
-  return parts.join(' ');
-}
-
 function paleoenvironmentText(d, profile) {
   if (d.dataOrigin === 'NHM Dino Directory') {
     return `${d.name} is recorded by NHM from ${d.found.join(', ') || 'an unspecified location'}; formation-level paleoenvironment context has not yet been independently verified for this imported profile.`;
@@ -13186,33 +13028,6 @@ function paleoenvironmentText(d, profile) {
   if (text.includes('ischigualasto')) return `${d.name} comes from one of the key Late Triassic records near the early radiation of dinosaurs.`;
   if (text.includes('tendaguru')) return `${d.name} belongs to the Late Jurassic Tendaguru record of East Africa.`;
   return `${d.name} is recorded from ${d.found.join(', ')} in ${d.period}; more formation-level paleoenvironment detail can be added as the dataset is expanded.`;
-}
-
-function fossilMapNode(d, profile) {
-  const section = document.createElement('section');
-  section.innerHTML = '<div class="section-title">Fossil localities</div>';
-  const locations = fossilLocations(d, profile);
-  const map = document.createElement('div');
-  map.className = 'map-card';
-  map.innerHTML = worldMapSvg(locations);
-  const places = document.createElement('div');
-  places.className = profile?.fossilSites ? 'locality-list' : 'map-list';
-  if (profile?.fossilSites) {
-    locations.forEach((loc, i) => {
-      const item = document.createElement('div'); item.className = 'locality-item';
-      const dot = document.createElement('span'); dot.className = 'locality-dot'; dot.textContent = i + 1;
-      const text = document.createElement('div');
-      const name = document.createElement('div'); name.className = 'locality-name'; name.textContent = loc.name;
-      const meta = document.createElement('div'); meta.className = 'locality-meta'; meta.textContent = `${loc.region}. ${loc.note}`;
-      text.append(name, meta);
-      item.append(dot, text);
-      places.appendChild(item);
-    });
-  } else {
-    places.textContent = `NHM records fossil finds from: ${d.found.join(', ')}.`;
-  }
-  section.append(map, places);
-  return section;
 }
 
 function fossilLocations(d, profile) {
@@ -13429,7 +13244,6 @@ function taxonomyDetails(d, profile) {
   const siblingLabels = focusedClassificationTree(d, profile).sideBranches?.map(sb => sb.label).slice(0, 3).join('; ') || 'Not shown';
   return [
     ['Major branch', d.clade],
-    ['Working group', d.subclade],
     ['Immediate placement', parent],
     ['Nearby branches shown', siblingLabels]
   ];
@@ -13453,47 +13267,6 @@ function findTreePath(node, id, path=[]) {
   if (!node.children) return null;
   for (const child of node.children) { const f = findTreePath(child, id, np); if (f) return f; }
   return null;
-}
-
-function lifestyleNode(d) {
-  const section = document.createElement('section');
-  section.innerHTML = '<div class="section-title">Anatomy and lifestyle</div>';
-  const grid = document.createElement('div'); grid.className = 'evidence-grid';
-  [['Food',nhmClean(d.food)],['Teeth and jaws',nhmClean(d.teeth)],['Body plan',d.type]].forEach(([label,value]) => {
-    const item = document.createElement('div'); item.className = 'evidence-item';
-    const l = document.createElement('div'); l.className = 'evidence-label'; l.textContent = label;
-    const v = document.createElement('div'); v.className = 'evidence-value'; v.textContent = value;
-    item.append(l,v); grid.appendChild(item);
-  });
-  section.appendChild(grid);
-  return section;
-}
-
-function articleSectionsNode(d, profile) {
-  if (!profile?.articles) return document.createDocumentFragment();
-  const section = document.createElement('section');
-  section.innerHTML = '<div class="section-title">Field notes</div>';
-  const list = document.createElement('div'); list.className = 'article-list';
-  profile.articles.forEach(art => {
-    const item = document.createElement('article'); item.className = 'article-section';
-    const title = document.createElement('div'); title.className = 'article-title'; title.textContent = art.title;
-    const body = document.createElement('p'); body.className = 'article-copy'; body.textContent = art.body;
-    item.append(title,body); list.appendChild(item);
-  });
-  section.appendChild(list);
-  return section;
-}
-
-function factsNode(title, facts) {
-  const section = document.createElement('section');
-  section.innerHTML = `<div class="section-title">${title}</div>`;
-  const list = document.createElement('div'); list.className = 'fact-list';
-  facts.forEach(fact => {
-    const item = document.createElement('div'); item.className = 'fact-item'; item.textContent = fact;
-    list.appendChild(item);
-  });
-  section.appendChild(list);
-  return section;
 }
 
 function relatedDinosaursNode(d) {
@@ -13570,14 +13343,28 @@ function sourceNode(d, profile) {
     wrap.appendChild(il);
   }
   if (d.pbdb?.source) {
-    const pl = document.createElement('a'); pl.className = 'source-link'; pl.href = d.pbdb.source; pl.target = '_blank'; pl.rel = 'noreferrer'; pl.textContent = 'Open PBDB taxon page';
+    // PBDB's classic taxon page (basicTaxonInfo) 403s for direct browser
+    // requests with no Referer header (e.g. opening this file via file://),
+    // so link to the Navigator app instead, which PBDB serves without one.
+    const taxonNo = d.pbdb.taxonId ? d.pbdb.taxonId.replace(/^txn:/, '') : '';
+    const pbdbUrl = taxonNo ? `https://paleobiodb.org/navigator/?taxon_id=${taxonNo}` : d.pbdb.source;
+    const pl = document.createElement('a'); pl.className = 'source-link'; pl.href = pbdbUrl; pl.target = '_blank'; pl.rel = 'noopener'; pl.textContent = 'Open PBDB taxon page';
     wrap.appendChild(pl);
   }
   if (d.pbdb?.occurrenceApi) {
     const ol = document.createElement('a'); ol.className = 'source-link'; ol.href = d.pbdb.occurrenceApi; ol.target = '_blank'; ol.rel = 'noreferrer'; ol.textContent = 'PBDB occurrence data';
     wrap.appendChild(ol);
   }
+  if (d.wiki?.url) {
+    const wl = document.createElement('a'); wl.className = 'source-link'; wl.href = d.wiki.url; wl.target = '_blank'; wl.rel = 'noreferrer'; wl.textContent = 'Open Wikipedia article';
+    wrap.appendChild(wl);
+  }
   section.appendChild(wrap);
+  if (d.wiki?.url) {
+    const attribution = document.createElement('div'); attribution.className = 'citation-item'; attribution.style.marginTop = '10px';
+    attribution.textContent = 'Description adapted from Wikipedia, available under the Creative Commons Attribution-ShareAlike License.';
+    section.appendChild(attribution);
+  }
   if (profile?.citations) {
     const citations = document.createElement('div'); citations.className = 'citation-list'; citations.style.marginTop = '10px';
     profile.citations.forEach(src => {

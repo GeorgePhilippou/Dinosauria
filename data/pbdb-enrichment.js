@@ -27,7 +27,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Tuvalian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=57453",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eoraptor&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eoraptor&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "coelophysis": {
     "taxonId": "txn:38520",
@@ -72,7 +75,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Carnian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38520",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Coelophysis&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Coelophysis&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "plateosaurus": {
     "taxonId": "txn:38644",
@@ -131,7 +139,11 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Hettangian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38644",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Plateosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Plateosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile"
+    }
   },
   "herrerasaurus": {
     "taxonId": "txn:38511",
@@ -160,7 +172,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Carnian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38511",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Herrerasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Herrerasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "megalosaurus": {
     "taxonId": "txn:38583",
@@ -226,7 +241,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Tithonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38583",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Megalosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Megalosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "dilophosaurus": {
     "taxonId": "txn:38522",
@@ -261,7 +281,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Pliensbachian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38522",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dilophosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dilophosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "ceratosaurus": {
     "taxonId": "txn:38600",
@@ -309,7 +334,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Tithonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38600",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ceratosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ceratosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "camptosaurus": {
     "taxonId": "txn:38748",
@@ -354,7 +384,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Kimmeridgian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38748",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Camptosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Camptosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "camarasaurus": {
     "taxonId": "txn:38697",
@@ -397,7 +432,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Tithonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38697",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Camarasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Camarasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "kentrosaurus": {
     "taxonId": "txn:38811",
@@ -427,7 +467,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Oxfordian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38811",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Kentrosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Kentrosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "allosaurus": {
     "taxonId": "txn:38590",
@@ -467,7 +512,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Tithonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38590",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Allosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Allosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "apatosaurus": {
     "taxonId": "txn:38665",
@@ -506,7 +556,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Oxfordian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38665",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Apatosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Apatosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "brachiosaurus": {
     "taxonId": "txn:38677",
@@ -551,7 +606,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Kimmeridgian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38677",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Brachiosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Brachiosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "diplodocus": {
     "taxonId": "txn:38669",
@@ -589,7 +649,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Oxfordian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38669",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Diplodocus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Diplodocus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "stegosaurus": {
     "taxonId": "txn:38814",
@@ -630,7 +695,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38814",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Stegosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Stegosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "hypsilophodon": {
     "taxonId": "txn:38736",
@@ -680,7 +750,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Tithonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38736",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Hypsilophodon&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Hypsilophodon&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "baryonyx": {
     "taxonId": "txn:58891",
@@ -730,7 +805,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Berriasian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=58891",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Baryonyx&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Baryonyx&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "iguanodon": {
     "taxonId": "txn:38749",
@@ -791,7 +871,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38749",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Iguanodon&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Iguanodon&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "ouranosaurus": {
     "taxonId": "txn:38751",
@@ -831,7 +916,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38751",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ouranosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ouranosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "psittacosaurus": {
     "taxonId": "txn:38844",
@@ -889,7 +979,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38844",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Psittacosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Psittacosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "microraptor": {
     "taxonId": "txn:68238",
@@ -917,7 +1012,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68238",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Microraptor&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Microraptor&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "yutyrannus": {
     "taxonId": "txn:230946",
@@ -945,7 +1045,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=230946",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yutyrannus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yutyrannus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "suchomimus": {
     "taxonId": "txn:53367",
@@ -973,7 +1078,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=53367",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Suchomimus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Suchomimus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "deinonychus": {
     "taxonId": "txn:38562",
@@ -1018,7 +1128,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38562",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Deinonychus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Deinonychus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "spinosaurus": {
     "taxonId": "txn:38598",
@@ -1078,7 +1193,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38598",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Spinosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Spinosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "carcharodontosaurus": {
     "taxonId": "txn:38576",
@@ -1137,7 +1257,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38576",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Carcharodontosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Carcharodontosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "gallimimus": {
     "taxonId": "txn:38547",
@@ -1171,7 +1296,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Turonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38547",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gallimimus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gallimimus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "giganotosaurus": {
     "taxonId": "txn:54540",
@@ -1202,7 +1332,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=54540",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Giganotosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Giganotosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "argentinosaurus": {
     "taxonId": "txn:66645",
@@ -1230,7 +1365,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66645",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Argentinosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Argentinosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "therizinosaurus": {
     "taxonId": "txn:38553",
@@ -1258,7 +1398,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38553",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Therizinosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Therizinosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "carnotaurus": {
     "taxonId": "txn:54533",
@@ -1286,7 +1431,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=54533",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Carnotaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Carnotaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "corythosaurus": {
     "taxonId": "txn:38760",
@@ -1322,7 +1472,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38760",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Corythosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Corythosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "lambeosaurus": {
     "taxonId": "txn:38763",
@@ -1353,7 +1508,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38763",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lambeosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lambeosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "styracosaurus": {
     "taxonId": "txn:38860",
@@ -1381,7 +1541,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38860",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Styracosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Styracosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "edmontosaurus": {
     "taxonId": "txn:38761",
@@ -1430,7 +1595,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Coniacian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38761",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Edmontosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Edmontosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "pachyrhinosaurus": {
     "taxonId": "txn:38858",
@@ -1467,7 +1637,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38858",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pachyrhinosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pachyrhinosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "ornithomimus": {
     "taxonId": "txn:38544",
@@ -1519,7 +1694,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Judithian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38544",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ornithomimus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ornithomimus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "dreadnoughtus": {
     "taxonId": "txn:304823",
@@ -1547,7 +1727,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=304823",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dreadnoughtus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dreadnoughtus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "troodon": {
     "taxonId": "txn:38572",
@@ -1596,7 +1781,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38572",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Troodon&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Troodon&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "alioramus": {
     "taxonId": "txn:38609",
@@ -1629,7 +1819,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38609",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Alioramus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Alioramus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "amargasaurus": {
     "taxonId": "txn:53960",
@@ -1657,7 +1852,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=53960",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Amargasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Amargasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "sauropelta": {
     "taxonId": "txn:38827",
@@ -1693,7 +1893,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38827",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sauropelta&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sauropelta&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "maiasaura": {
     "taxonId": "txn:38765",
@@ -1722,7 +1927,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38765",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Maiasaura&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Maiasaura&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "oviraptor": {
     "taxonId": "txn:38559",
@@ -1756,7 +1966,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38559",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Oviraptor&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Oviraptor&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "parasaurolophus": {
     "taxonId": "txn:38766",
@@ -1791,7 +2006,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38766",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Parasaurolophus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Parasaurolophus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "pachycephalosaurus": {
     "taxonId": "txn:38786",
@@ -1834,7 +2054,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38786",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pachycephalosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pachycephalosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "protoceratops": {
     "taxonId": "txn:38848",
@@ -1878,7 +2103,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Cretaceous"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38848",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Protoceratops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Protoceratops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "velociraptor": {
     "taxonId": "txn:38564",
@@ -1925,7 +2155,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38564",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Velociraptor&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Velociraptor&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "ankylosaurus": {
     "taxonId": "txn:38837",
@@ -1967,7 +2202,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38837",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ankylosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ankylosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "triceratops": {
     "taxonId": "txn:38862",
@@ -2012,7 +2252,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38862",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Triceratops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Triceratops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "tyrannosaurus": {
     "taxonId": "txn:38613",
@@ -2061,7 +2306,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38613",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tyrannosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tyrannosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "abelisaurus": {
     "taxonId": "txn:53946",
@@ -2089,7 +2339,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=53946",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Abelisaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Abelisaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "acrocanthosaurus": {
     "taxonId": "txn:38597",
@@ -2133,7 +2388,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38597",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Acrocanthosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Acrocanthosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "albertosaurus": {
     "taxonId": "txn:38607",
@@ -2183,7 +2443,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Santonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38607",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Albertosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Albertosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "archaeopteryx": {
     "taxonId": "txn:39240",
@@ -2220,7 +2485,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Tithonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=39240",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Archaeopteryx&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Archaeopteryx&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "piscivore, insectivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "volant"
+    }
   },
   "avimimus": {
     "taxonId": "txn:38615",
@@ -2256,7 +2526,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38615",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Avimimus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Avimimus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, depth=surface"
+    }
   },
   "barosaurus": {
     "taxonId": "txn:38666",
@@ -2294,7 +2569,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Oxfordian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38666",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Barosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Barosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "brachylophosaurus": {
     "taxonId": "txn:38757",
@@ -2328,7 +2608,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38757",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Brachylophosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Brachylophosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "caudipteryx": {
     "taxonId": "txn:66065",
@@ -2356,7 +2641,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66065",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Caudipteryx&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Caudipteryx&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, depth=surface"
+    }
   },
   "centrosaurus": {
     "taxonId": "txn:38854",
@@ -2393,7 +2683,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38854",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Centrosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Centrosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "chasmosaurus": {
     "taxonId": "txn:38855",
@@ -2428,7 +2723,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38855",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chasmosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chasmosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "compsognathus": {
     "taxonId": "txn:38538",
@@ -2464,7 +2764,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Kimmeridgian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38538",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Compsognathus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Compsognathus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore, insectivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "concavenator": {
     "taxonId": "txn:170753",
@@ -2492,7 +2797,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=170753",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Concavenator&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Concavenator&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "daspletosaurus": {
     "taxonId": "txn:38608",
@@ -2534,7 +2844,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Judithian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38608",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Daspletosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Daspletosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "dryosaurus": {
     "taxonId": "txn:38731",
@@ -2577,7 +2892,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Tithonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38731",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dryosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dryosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "einiosaurus": {
     "taxonId": "txn:53952",
@@ -2605,7 +2925,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=53952",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Einiosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Einiosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "euoplocephalus": {
     "taxonId": "txn:38838",
@@ -2647,7 +2972,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38838",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Euoplocephalus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Euoplocephalus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "gasparinisaura": {
     "taxonId": "txn:65253",
@@ -2675,7 +3005,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=65253",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gasparinisaura&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gasparinisaura&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "giraffatitan": {
     "taxonId": "txn:67847",
@@ -2705,7 +3040,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Oxfordian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=67847",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Giraffatitan&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Giraffatitan&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "gorgosaurus": {
     "taxonId": "txn:53193",
@@ -2749,7 +3089,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Lancian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=53193",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gorgosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gorgosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "gryposaurus": {
     "taxonId": "txn:53014",
@@ -2790,7 +3135,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=53014",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gryposaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gryposaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "heterodontosaurus": {
     "taxonId": "txn:38725",
@@ -2826,7 +3176,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Pliensbachian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38725",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Heterodontosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Heterodontosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "hypacrosaurus": {
     "taxonId": "txn:56405",
@@ -2863,7 +3218,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=56405",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Hypacrosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Hypacrosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "irritator": {
     "taxonId": "txn:64272",
@@ -2891,7 +3251,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64272",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Irritator&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Irritator&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "liliensternus": {
     "taxonId": "txn:55542",
@@ -2927,7 +3292,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Rhaetian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=55542",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Liliensternus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Liliensternus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "majungasaurus": {
     "taxonId": "txn:38582",
@@ -2955,7 +3325,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38582",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Majungasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Majungasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "minmi": {
     "taxonId": "txn:52879",
@@ -2986,7 +3361,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=52879",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Minmi&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Minmi&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "muttaburrasaurus": {
     "taxonId": "txn:38750",
@@ -3016,7 +3396,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38750",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Muttaburrasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Muttaburrasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "neovenator": {
     "taxonId": "txn:64119",
@@ -3044,7 +3429,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64119",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Neovenator&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Neovenator&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "nigersaurus": {
     "taxonId": "txn:57366",
@@ -3073,7 +3463,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=57366",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nigersaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nigersaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "nothronychus": {
     "taxonId": "txn:66507",
@@ -3104,7 +3499,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Turonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66507",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nothronychus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nothronychus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "ornitholestes": {
     "taxonId": "txn:38529",
@@ -3135,7 +3535,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Oxfordian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38529",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ornitholestes&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ornitholestes&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "polacanthus": {
     "taxonId": "txn:52784",
@@ -3179,7 +3584,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Valanginian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=52784",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Polacanthus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Polacanthus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "rajasaurus": {
     "taxonId": "txn:54432",
@@ -3207,7 +3617,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=54432",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rajasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rajasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "riojasaurus": {
     "taxonId": "txn:38649",
@@ -3235,7 +3650,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Norian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38649",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Riojasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Riojasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "saltasaurus": {
     "taxonId": "txn:38693",
@@ -3263,7 +3681,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38693",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Saltasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Saltasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "saurolophus": {
     "taxonId": "txn:38768",
@@ -3304,7 +3727,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38768",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Saurolophus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Saurolophus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "scelidosaurus": {
     "taxonId": "txn:38801",
@@ -3343,7 +3771,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Jurassic"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38801",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Scelidosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Scelidosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "sinosauropteryx": {
     "taxonId": "txn:54548",
@@ -3372,7 +3805,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=54548",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sinosauropteryx&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sinosauropteryx&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "struthiomimus": {
     "taxonId": "txn:38545",
@@ -3417,7 +3855,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38545",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Struthiomimus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Struthiomimus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "supersaurus": {
     "taxonId": "txn:56456",
@@ -3447,7 +3890,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Kimmeridgian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=56456",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Supersaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Supersaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "tarbosaurus": {
     "taxonId": "txn:53224",
@@ -3492,7 +3940,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Coniacian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=53224",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tarbosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tarbosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "torosaurus": {
     "taxonId": "txn:38861",
@@ -3538,7 +3991,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38861",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Torosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Torosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "tsintaosaurus": {
     "taxonId": "txn:38778",
@@ -3566,7 +4024,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38778",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tsintaosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tsintaosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "tuojiangosaurus": {
     "taxonId": "txn:38806",
@@ -3594,7 +4057,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Bathonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38806",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tuojiangosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tuojiangosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "utahraptor": {
     "taxonId": "txn:54557",
@@ -3622,7 +4090,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Valanginian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=54557",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Utahraptor&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Utahraptor&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "wuerhosaurus": {
     "taxonId": "txn:38815",
@@ -3652,7 +4125,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Valanginian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38815",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Wuerhosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Wuerhosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "yangchuanosaurus": {
     "taxonId": "txn:38594",
@@ -3684,7 +4162,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38594",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yangchuanosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yangchuanosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "pentaceratops": {
     "taxonId": "txn:38859",
@@ -3717,7 +4200,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38859",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pentaceratops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pentaceratops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "eodromaeus": {
     "taxonId": "txn:174878",
@@ -3745,7 +4233,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Carnian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=174878",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eodromaeus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eodromaeus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "aardonyx": {
     "taxonId": "txn:157362",
@@ -3773,7 +4264,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Hettangian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=157362",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Aardonyx&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Aardonyx&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "achelousaurus": {
     "taxonId": "txn:53956",
@@ -3801,7 +4295,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=53956",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Achelousaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Achelousaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "achillobator": {
     "taxonId": "txn:68417",
@@ -3829,7 +4328,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68417",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Achillobator&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Achillobator&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "aegyptosaurus": {
     "taxonId": "txn:38681",
@@ -3866,7 +4370,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38681",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Aegyptosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Aegyptosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "afrovenator": {
     "taxonId": "txn:56398",
@@ -3897,7 +4406,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Bajocian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=56398",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Afrovenator&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Afrovenator&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "agilisaurus": {
     "taxonId": "txn:57222",
@@ -3925,7 +4439,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Bajocian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=57222",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Agilisaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Agilisaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "alamosaurus": {
     "taxonId": "txn:38683",
@@ -3967,7 +4486,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38683",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Alamosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Alamosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "albertaceratops": {
     "taxonId": "txn:94775",
@@ -3998,7 +4522,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=94775",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Albertaceratops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Albertaceratops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "alectrosaurus": {
     "taxonId": "txn:38610",
@@ -4048,7 +4577,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38610",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Alectrosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Alectrosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "alvarezsaurus": {
     "taxonId": "txn:64774",
@@ -4076,7 +4610,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Santonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64774",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Alvarezsaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Alvarezsaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "ammosaurus": {
     "taxonId": "txn:38636",
@@ -4104,7 +4643,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Hettangian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38636",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ammosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ammosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "ampelosaurus": {
     "taxonId": "txn:65139",
@@ -4140,7 +4684,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=65139",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ampelosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ampelosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "amygdalodon": {
     "taxonId": "txn:38655",
@@ -4168,7 +4717,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Pliensbachian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38655",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Amygdalodon&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Amygdalodon&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "anchiceratops": {
     "taxonId": "txn:38852",
@@ -4198,7 +4752,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38852",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Anchiceratops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Anchiceratops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "anchiornis": {
     "taxonId": "txn:155058",
@@ -4227,7 +4786,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Bathonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=155058",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Anchiornis&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Anchiornis&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "anchisaurus": {
     "taxonId": "txn:38637",
@@ -4256,7 +4820,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Hettangian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38637",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Anchisaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Anchisaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "anserimimus": {
     "taxonId": "txn:66671",
@@ -4284,7 +4851,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66671",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Anserimimus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Anserimimus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "antarctosaurus": {
     "taxonId": "txn:38685",
@@ -4327,7 +4899,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38685",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Antarctosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Antarctosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "aquilops": {
     "taxonId": "txn:310995",
@@ -4355,7 +4932,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=310995",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Aquilops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Aquilops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "aragosaurus": {
     "taxonId": "txn:70636",
@@ -4383,7 +4965,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Kimmeridgian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=70636",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Aragosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Aragosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "aralosaurus": {
     "taxonId": "txn:38769",
@@ -4411,7 +4998,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Santonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38769",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Aralosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Aralosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "archaeoceratops": {
     "taxonId": "txn:55575",
@@ -4441,7 +5033,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=55575",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Archaeoceratops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Archaeoceratops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "archaeornithomimus": {
     "taxonId": "txn:38540",
@@ -4473,7 +5070,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Coniacian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38540",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Archaeornithomimus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Archaeornithomimus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "arrhinoceratops": {
     "taxonId": "txn:38853",
@@ -4502,7 +5104,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38853",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Arrhinoceratops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Arrhinoceratops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "atlascopcosaurus": {
     "taxonId": "txn:57103",
@@ -4532,7 +5139,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=57103",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Atlascopcosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Atlascopcosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "atrociraptor": {
     "taxonId": "txn:132125",
@@ -4561,7 +5173,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=132125",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Atrociraptor&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Atrociraptor&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "aucasaurus": {
     "taxonId": "txn:54523",
@@ -4589,7 +5206,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=54523",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Aucasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Aucasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "austrosaurus": {
     "taxonId": "txn:38675",
@@ -4617,7 +5239,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38675",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Austrosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Austrosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "avaceratops": {
     "taxonId": "txn:55538",
@@ -4648,7 +5275,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=55538",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Avaceratops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Avaceratops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "bactrosaurus": {
     "taxonId": "txn:38770",
@@ -4687,7 +5319,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Turonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38770",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Bactrosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Bactrosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "bagaceratops": {
     "taxonId": "txn:38846",
@@ -4724,7 +5361,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38846",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Bagaceratops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Bagaceratops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "bambiraptor": {
     "taxonId": "txn:68419",
@@ -4752,7 +5394,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68419",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Bambiraptor&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Bambiraptor&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "barapasaurus": {
     "taxonId": "txn:38656",
@@ -4781,7 +5428,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Sinemurian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38656",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Barapasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Barapasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "becklespinax": {
     "taxonId": "txn:68130",
@@ -4809,7 +5461,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Berriasian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68130",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Becklespinax&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Becklespinax&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "beipiaosaurus": {
     "taxonId": "txn:68240",
@@ -4837,7 +5494,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68240",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Beipiaosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Beipiaosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "bellusaurus": {
     "taxonId": "txn:54863",
@@ -4865,7 +5527,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Oxfordian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=54863",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Bellusaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Bellusaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "borogovia": {
     "taxonId": "txn:64790",
@@ -4893,7 +5560,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64790",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Borogovia&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Borogovia&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "brachytrachelopan": {
     "taxonId": "txn:66114",
@@ -4921,7 +5593,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Kimmeridgian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66114",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Brachytrachelopan&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Brachytrachelopan&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "buitreraptor": {
     "taxonId": "txn:68201",
@@ -4950,7 +5627,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68201",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Buitreraptor&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Buitreraptor&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "cedarpelta": {
     "taxonId": "txn:81293",
@@ -4978,7 +5660,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=81293",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cedarpelta&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cedarpelta&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "cetiosauriscus": {
     "taxonId": "txn:38667",
@@ -5006,7 +5693,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Callovian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38667",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cetiosauriscus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cetiosauriscus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "cetiosaurus": {
     "taxonId": "txn:38657",
@@ -5054,7 +5746,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Aalenian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38657",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cetiosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cetiosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "chaoyangsaurus": {
     "taxonId": "txn:55579",
@@ -5082,7 +5779,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Kimmeridgian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=55579",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chaoyangsaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chaoyangsaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "chindesaurus": {
     "taxonId": "txn:66908",
@@ -5111,7 +5813,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Norian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66908",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chindesaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chindesaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "chinshakiangosaurus": {
     "taxonId": "txn:68151",
@@ -5139,7 +5844,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Hettangian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68151",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chinshakiangosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chinshakiangosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "chirostenotes": {
     "taxonId": "txn:38555",
@@ -5178,7 +5888,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38555",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chirostenotes&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chirostenotes&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, depth=surface"
+    }
   },
   "chubutisaurus": {
     "taxonId": "txn:38688",
@@ -5206,7 +5921,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38688",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chubutisaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chubutisaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "chungkingosaurus": {
     "taxonId": "txn:38805",
@@ -5234,7 +5954,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Bathonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38805",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chungkingosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chungkingosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "citipati": {
     "taxonId": "txn:57023",
@@ -5263,7 +5988,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=57023",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Citipati&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Citipati&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, depth=surface"
+    }
   },
   "coelurus": {
     "taxonId": "txn:38528",
@@ -5299,7 +6029,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Oxfordian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38528",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Coelurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Coelurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "coloradisaurus": {
     "taxonId": "txn:68583",
@@ -5327,7 +6062,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Norian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68583",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Coloradisaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Coloradisaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "conchoraptor": {
     "taxonId": "txn:67258",
@@ -5355,7 +6093,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=67258",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Conchoraptor&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Conchoraptor&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, depth=surface"
+    }
   },
   "confuciusornis": {
     "taxonId": "txn:67260",
@@ -5386,7 +6129,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=67260",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Confuciusornis&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Confuciusornis&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "cryolophosaurus": {
     "taxonId": "txn:64371",
@@ -5412,7 +6160,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Sinemurian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64371",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cryolophosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cryolophosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "dacentrurus": {
     "taxonId": "txn:38808",
@@ -5467,7 +6220,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Berriasian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38808",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dacentrurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dacentrurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "datousaurus": {
     "taxonId": "txn:52769",
@@ -5496,7 +6254,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Jurassic"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=52769",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Datousaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Datousaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "deinocheirus": {
     "taxonId": "txn:38551",
@@ -5526,7 +6289,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38551",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Deinocheirus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Deinocheirus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "deltadromeus": {
     "taxonId": "txn:65366",
@@ -5559,7 +6327,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=65366",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Deltadromeus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Deltadromeus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "dicraeosaurus": {
     "taxonId": "txn:38668",
@@ -5592,7 +6365,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Oxfordian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38668",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dicraeosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dicraeosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "dracorex": {
     "taxonId": "txn:90168",
@@ -5622,7 +6400,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=90168",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dracorex&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dracorex&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "dromaeosaurus": {
     "taxonId": "txn:38566",
@@ -5675,7 +6458,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Edmontonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38566",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dromaeosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dromaeosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "dromiceiomimus": {
     "taxonId": "txn:38542",
@@ -5703,7 +6491,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38542",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dromiceiomimus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dromiceiomimus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "dryptosaurus": {
     "taxonId": "txn:38605",
@@ -5744,7 +6537,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38605",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dryptosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dryptosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "dubreuillosaurus": {
     "taxonId": "txn:71332",
@@ -5772,7 +6570,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Bathonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=71332",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dubreuillosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dubreuillosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore, piscivore",
+      "locomotion": "facultatively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "edmontonia": {
     "taxonId": "txn:63919",
@@ -5818,7 +6621,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=63919",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Edmontonia&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Edmontonia&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "elaphrosaurus": {
     "taxonId": "txn:38546",
@@ -5854,7 +6662,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38546",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Elaphrosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Elaphrosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "emausaurus": {
     "taxonId": "txn:64405",
@@ -5880,7 +6693,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Tenuicostatum"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64405",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Emausaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Emausaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "enigmacursor": {
     "taxonId": "txn:510407",
@@ -5908,7 +6726,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Kimmeridgian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=510407",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Enigmacursor&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Enigmacursor&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "eolambia": {
     "taxonId": "txn:66499",
@@ -5937,7 +6760,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66499",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eolambia&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eolambia&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "eotyrannus": {
     "taxonId": "txn:68315",
@@ -5965,7 +6793,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Hauterivian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68315",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eotyrannus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eotyrannus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "equijubus": {
     "taxonId": "txn:58926",
@@ -5993,7 +6826,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=58926",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Equijubus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Equijubus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "erketu": {
     "taxonId": "txn:72376",
@@ -6025,7 +6863,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=72376",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Erketu&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Erketu&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "erlikosaurus": {
     "taxonId": "txn:66666",
@@ -6053,7 +6896,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Turonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66666",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Erlikosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Erlikosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "euhelopus": {
     "taxonId": "txn:38701",
@@ -6089,7 +6937,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38701",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Euhelopus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Euhelopus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "europasaurus": {
     "taxonId": "txn:81696",
@@ -6117,7 +6970,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Kimmeridgian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=81696",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Europasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Europasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "eustreptospondylus": {
     "taxonId": "txn:38580",
@@ -6145,7 +7003,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Callovian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38580",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eustreptospondylus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eustreptospondylus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "fukuiraptor": {
     "taxonId": "txn:66356",
@@ -6176,7 +7039,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Hauterivian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66356",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Fukuiraptor&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Fukuiraptor&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "fukuisaurus": {
     "taxonId": "txn:68188",
@@ -6204,7 +7072,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68188",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Fukuisaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Fukuisaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "gargoyleosaurus": {
     "taxonId": "txn:63703",
@@ -6232,7 +7105,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Kimmeridgian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=63703",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gargoyleosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gargoyleosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "garudimimus": {
     "taxonId": "txn:38548",
@@ -6260,7 +7138,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Turonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38548",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Garudimimus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Garudimimus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "gasosaurus": {
     "taxonId": "txn:52766",
@@ -6288,7 +7171,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Bajocian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=52766",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gasosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gasosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "gastonia": {
     "taxonId": "txn:63700",
@@ -6317,7 +7205,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=63700",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gastonia&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gastonia&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "gigantoraptor": {
     "taxonId": "txn:103707",
@@ -6345,7 +7238,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=103707",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gigantoraptor&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gigantoraptor&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, depth=surface"
+    }
   },
   "gilmoreosaurus": {
     "taxonId": "txn:38772",
@@ -6373,7 +7271,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38772",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gilmoreosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gilmoreosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "gobisaurus": {
     "taxonId": "txn:84234",
@@ -6403,7 +7306,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=84234",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gobisaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gobisaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "goyocephale": {
     "taxonId": "txn:38794",
@@ -6429,7 +7337,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Santonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38794",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Goyocephale&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Goyocephale&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "graciliceratops": {
     "taxonId": "txn:67673",
@@ -6457,7 +7370,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=67673",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Graciliceratops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Graciliceratops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "guaibasaurus": {
     "taxonId": "txn:66570",
@@ -6485,7 +7403,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Norian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66570",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Guaibasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Guaibasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "guanlong": {
     "taxonId": "txn:71190",
@@ -6513,7 +7434,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Oxfordian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=71190",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Guanlong&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Guanlong&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "hadrosaurus": {
     "taxonId": "txn:38762",
@@ -6559,7 +7485,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Santonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38762",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Hadrosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Hadrosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "hagryphus": {
     "taxonId": "txn:71334",
@@ -6587,7 +7518,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=71334",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Hagryphus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Hagryphus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, depth=surface"
+    }
   },
   "haplocanthosaurus": {
     "taxonId": "txn:38658",
@@ -6620,7 +7556,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Tithonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38658",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Haplocanthosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Haplocanthosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "harpymimus": {
     "taxonId": "txn:66669",
@@ -6648,7 +7589,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66669",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Harpymimus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Harpymimus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "hesperosaurus": {
     "taxonId": "txn:68158",
@@ -6678,7 +7624,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Oxfordian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68158",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Hesperosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Hesperosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "heyuannia": {
     "taxonId": "txn:68047",
@@ -6710,7 +7661,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68047",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Heyuannia&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Heyuannia&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, depth=surface"
+    }
   },
   "homalocephale": {
     "taxonId": "txn:38795",
@@ -6738,7 +7694,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38795",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Homalocephale&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Homalocephale&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "huayangosaurus": {
     "taxonId": "txn:38810",
@@ -6766,7 +7727,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Bajocian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38810",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Huayangosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Huayangosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "hylaeosaurus": {
     "taxonId": "txn:38822",
@@ -6807,7 +7773,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38822",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Hylaeosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Hylaeosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "indosuchus": {
     "taxonId": "txn:38612",
@@ -6835,7 +7806,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38612",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Indosuchus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Indosuchus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "isisaurus": {
     "taxonId": "txn:64313",
@@ -6869,7 +7845,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64313",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Isisaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Isisaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "janenschia": {
     "taxonId": "txn:66641",
@@ -6897,7 +7878,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Tithonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66641",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Janenschia&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Janenschia&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "jaxartosaurus": {
     "taxonId": "txn:38773",
@@ -6929,7 +7915,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Cretaceous"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38773",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Jaxartosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Jaxartosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "jingshanosaurus": {
     "taxonId": "txn:64137",
@@ -6957,7 +7948,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Hettangian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64137",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Jingshanosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Jingshanosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "jinzhousaurus": {
     "taxonId": "txn:90096",
@@ -6985,7 +7979,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=90096",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Jinzhousaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Jinzhousaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "jobaria": {
     "taxonId": "txn:57435",
@@ -7013,7 +8012,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Jurassic"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=57435",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Jobaria&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Jobaria&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "juravenator": {
     "taxonId": "txn:72320",
@@ -7041,7 +8045,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Kimmeridgian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=72320",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Juravenator&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Juravenator&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "khaan": {
     "taxonId": "txn:57025",
@@ -7069,7 +8078,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=57025",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Khaan&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Khaan&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, depth=surface"
+    }
   },
   "kotasaurus": {
     "taxonId": "txn:66497",
@@ -7097,7 +8111,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Sinemurian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66497",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Kotasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Kotasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "kritosaurus": {
     "taxonId": "txn:53195",
@@ -7140,7 +8159,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Judithian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=53195",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Kritosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Kritosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "lapparentosaurus": {
     "taxonId": "txn:65915",
@@ -7168,7 +8192,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Bathonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=65915",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lapparentosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lapparentosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "leaellynasaura": {
     "taxonId": "txn:57101",
@@ -7196,7 +8225,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=57101",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Leaellynasaura&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Leaellynasaura&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "leptoceratops": {
     "taxonId": "txn:38849",
@@ -7232,7 +8266,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38849",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Leptoceratops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Leptoceratops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "lesothosaurus": {
     "taxonId": "txn:57573",
@@ -7264,7 +8303,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Hettangian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=57573",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lesothosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lesothosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "liaoceratops": {
     "taxonId": "txn:55581",
@@ -7292,7 +8336,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=55581",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Liaoceratops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Liaoceratops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "ligabuesaurus": {
     "taxonId": "txn:81714",
@@ -7320,7 +8369,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=81714",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ligabuesaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ligabuesaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "lophorhothon": {
     "taxonId": "txn:38764",
@@ -7349,7 +8403,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38764",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lophorhothon&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lophorhothon&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "lophostropheus": {
     "taxonId": "txn:96663",
@@ -7377,7 +8436,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Rhaetian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=96663",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lophostropheus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lophostropheus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "lufengosaurus": {
     "taxonId": "txn:38641",
@@ -7412,7 +8476,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Aalenian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38641",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lufengosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lufengosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "lurdusaurus": {
     "taxonId": "txn:64410",
@@ -7440,7 +8507,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64410",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lurdusaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lurdusaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "lusotitan": {
     "taxonId": "txn:65343",
@@ -7468,7 +8540,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Kimmeridgian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=65343",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lusotitan&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lusotitan&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "lycorhinus": {
     "taxonId": "txn:38727",
@@ -7502,7 +8579,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Pliensbachian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38727",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lycorhinus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lycorhinus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "magyarosaurus": {
     "taxonId": "txn:52883",
@@ -7535,7 +8617,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=52883",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Magyarosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Magyarosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "malawisaurus": {
     "taxonId": "txn:57455",
@@ -7563,7 +8650,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=57455",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Malawisaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Malawisaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "mamenchisaurus": {
     "taxonId": "txn:38670",
@@ -7612,7 +8704,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Oxfordian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38670",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Mamenchisaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Mamenchisaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "mapusaurus": {
     "taxonId": "txn:77205",
@@ -7640,7 +8737,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=77205",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Mapusaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Mapusaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "marshosaurus": {
     "taxonId": "txn:38628",
@@ -7671,7 +8773,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Kimmeridgian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38628",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Marshosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Marshosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "masiakasaurus": {
     "taxonId": "txn:56388",
@@ -7699,7 +8806,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=56388",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Masiakasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Masiakasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "massospondylus": {
     "taxonId": "txn:38642",
@@ -7748,7 +8860,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Carnian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38642",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Massospondylus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Massospondylus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "maxakalisaurus": {
     "taxonId": "txn:89499",
@@ -7776,7 +8891,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=89499",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Maxakalisaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Maxakalisaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "melanorosaurus": {
     "taxonId": "txn:38648",
@@ -7811,7 +8931,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Hettangian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38648",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Melanorosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Melanorosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "metriacanthosaurus": {
     "taxonId": "txn:38584",
@@ -7839,7 +8962,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Oxfordian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38584",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Metriacanthosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Metriacanthosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "microceratus": {
     "taxonId": "txn:119495",
@@ -7859,7 +8987,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
     "formations": [],
     "intervals": [],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=119495",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Microceratus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Microceratus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "micropachycephalosaurus": {
     "taxonId": "txn:38796",
@@ -7887,7 +9020,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Coniacian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38796",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Micropachycephalosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Micropachycephalosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "monolophosaurus": {
     "taxonId": "txn:64121",
@@ -7915,7 +9053,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Callovian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64121",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Monolophosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Monolophosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "mononykus": {
     "taxonId": "txn:53210",
@@ -7946,7 +9089,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=53210",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Mononykus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Mononykus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "mussaurus": {
     "taxonId": "txn:38643",
@@ -7974,7 +9122,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Sinemurian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38643",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Mussaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Mussaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "nanshiungosaurus": {
     "taxonId": "txn:54831",
@@ -8005,7 +9156,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=54831",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nanshiungosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nanshiungosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "nedoceratops": {
     "taxonId": "txn:139255",
@@ -8025,7 +9181,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
     "formations": [],
     "intervals": [],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=139255",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nedoceratops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nedoceratops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "nemegtosaurus": {
     "taxonId": "txn:38671",
@@ -8061,7 +9222,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38671",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nemegtosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nemegtosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "neuquensaurus": {
     "taxonId": "txn:64317",
@@ -8103,7 +9269,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64317",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Neuquensaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Neuquensaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "nipponosaurus": {
     "taxonId": "txn:38775",
@@ -8131,7 +9302,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Santonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38775",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nipponosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nipponosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "noasaurus": {
     "taxonId": "txn:38630",
@@ -8159,7 +9335,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38630",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Noasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Noasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "nodosaurus": {
     "taxonId": "txn:38823",
@@ -8193,7 +9374,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38823",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nodosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nodosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "nomingia": {
     "taxonId": "txn:67256",
@@ -8221,7 +9407,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=67256",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nomingia&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nomingia&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, depth=surface"
+    }
   },
   "nqwebasaurus": {
     "taxonId": "txn:66505",
@@ -8249,7 +9440,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Berriasian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66505",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nqwebasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Nqwebasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "omeisaurus": {
     "taxonId": "txn:38702",
@@ -8287,7 +9483,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Jurassic"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38702",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Omeisaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Omeisaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "opisthocoelicaudia": {
     "taxonId": "txn:38698",
@@ -8315,7 +9516,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38698",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Opisthocoelicaudia&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Opisthocoelicaudia&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "orodromeus": {
     "taxonId": "txn:64337",
@@ -8347,7 +9553,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64337",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Orodromeus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Orodromeus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "oryctodromeus": {
     "taxonId": "txn:103709",
@@ -8377,7 +9588,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=103709",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Oryctodromeus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Oryctodromeus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "othnielia": {
     "taxonId": "txn:38737",
@@ -8408,7 +9624,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Kimmeridgian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38737",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Othnielia&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Othnielia&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "panoplosaurus": {
     "taxonId": "txn:38825",
@@ -8450,7 +9671,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38825",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Panoplosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Panoplosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "pantydraco": {
     "taxonId": "txn:117152",
@@ -8476,7 +9702,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Carnian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=117152",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pantydraco&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pantydraco&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "paralititan": {
     "taxonId": "txn:64373",
@@ -8506,7 +9735,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64373",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Paralititan&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Paralititan&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "parksosaurus": {
     "taxonId": "txn:38739",
@@ -8534,7 +9768,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38739",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Parksosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Parksosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "patagosaurus": {
     "taxonId": "txn:38662",
@@ -8563,7 +9802,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Toarcian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38662",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Patagosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Patagosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "patagotitan": {
     "taxonId": "txn:358623",
@@ -8591,7 +9835,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=358623",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Patagotitan&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Patagotitan&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "pelecanimimus": {
     "taxonId": "txn:64117",
@@ -8619,7 +9868,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64117",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pelecanimimus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pelecanimimus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "pelorosaurus": {
     "taxonId": "txn:38678",
@@ -8652,7 +9906,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Valanginian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38678",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pelorosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pelorosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "piatnitzkysaurus": {
     "taxonId": "txn:38592",
@@ -8680,7 +9939,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Toarcian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38592",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Piatnitzkysaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Piatnitzkysaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "pinacosaurus": {
     "taxonId": "txn:38833",
@@ -8728,7 +9992,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Santonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38833",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pinacosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pinacosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "podokesaurus": {
     "taxonId": "txn:38521",
@@ -8756,7 +10025,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Hettangian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38521",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Podokesaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Podokesaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "poekilopleuron": {
     "taxonId": "txn:38585",
@@ -8784,7 +10058,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Bathonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38585",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Poekilopleuron&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Poekilopleuron&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "prenocephale": {
     "taxonId": "txn:38790",
@@ -8818,7 +10097,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38790",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Prenocephale&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Prenocephale&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "probactrosaurus": {
     "taxonId": "txn:38752",
@@ -8846,7 +10130,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38752",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Probactrosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Probactrosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "proceratosaurus": {
     "taxonId": "txn:38602",
@@ -8874,7 +10163,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Bathonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38602",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Proceratosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Proceratosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "procompsognathus": {
     "taxonId": "txn:38517",
@@ -8902,7 +10196,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Alaunian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38517",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Procompsognathus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Procompsognathus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "prosaurolophus": {
     "taxonId": "txn:38767",
@@ -8937,7 +10236,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38767",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Prosaurolophus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Prosaurolophus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "protarchaeopteryx": {
     "taxonId": "txn:66067",
@@ -8965,7 +10269,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66067",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Protarchaeopteryx&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Protarchaeopteryx&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, depth=surface"
+    }
   },
   "protohadros": {
     "taxonId": "txn:64526",
@@ -8993,7 +10302,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64526",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Protohadros&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Protohadros&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "puertasaurus": {
     "taxonId": "txn:83419",
@@ -9021,7 +10335,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=83419",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Puertasaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Puertasaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "pyroraptor": {
     "taxonId": "txn:65133",
@@ -9055,7 +10374,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=65133",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pyroraptor&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pyroraptor&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "quaesitosaurus": {
     "taxonId": "txn:38672",
@@ -9083,7 +10407,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38672",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Quaesitosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Quaesitosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "rebbachisaurus": {
     "taxonId": "txn:38679",
@@ -9114,7 +10443,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38679",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rebbachisaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rebbachisaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "rhabdodon": {
     "taxonId": "txn:38753",
@@ -9169,7 +10503,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38753",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rhabdodon&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rhabdodon&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "rhoetosaurus": {
     "taxonId": "txn:38659",
@@ -9197,7 +10536,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Oxfordian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38659",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rhoetosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rhoetosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "rinchenia": {
     "taxonId": "txn:68396",
@@ -9225,7 +10569,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68396",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rinchenia&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rinchenia&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, depth=surface"
+    }
   },
   "rugops": {
     "taxonId": "txn:71394",
@@ -9253,7 +10602,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=71394",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rugops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rugops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "saichania": {
     "taxonId": "txn:38834",
@@ -9285,7 +10639,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38834",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Saichania&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Saichania&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "sarcosaurus": {
     "taxonId": "txn:55544",
@@ -9318,7 +10677,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Sinemurian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=55544",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sarcosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sarcosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "saurophaganax": {
     "taxonId": "txn:65370",
@@ -9346,7 +10710,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Kimmeridgian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=65370",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Saurophaganax&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Saurophaganax&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "saurornithoides": {
     "taxonId": "txn:38573",
@@ -9393,7 +10762,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38573",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Saurornithoides&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Saurornithoides&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "scutellosaurus": {
     "taxonId": "txn:38802",
@@ -9422,7 +10796,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Hettangian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38802",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Scutellosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Scutellosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "secernosaurus": {
     "taxonId": "txn:38781",
@@ -9450,7 +10829,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38781",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Secernosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Secernosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "segisaurus": {
     "taxonId": "txn:38524",
@@ -9478,7 +10862,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Pliensbachian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38524",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Segisaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Segisaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "segnosaurus": {
     "taxonId": "txn:38711",
@@ -9512,7 +10901,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Turonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38711",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Segnosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Segnosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "shamosaurus": {
     "taxonId": "txn:52794",
@@ -9542,7 +10936,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=52794",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Shamosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Shamosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "shanag": {
     "taxonId": "txn:96499",
@@ -9570,7 +10969,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Cretaceous"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=96499",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Shanag&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Shanag&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "shantungosaurus": {
     "taxonId": "txn:38776",
@@ -9604,7 +11008,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38776",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Shantungosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Shantungosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "shunosaurus": {
     "taxonId": "txn:38660",
@@ -9636,7 +11045,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Jurassic"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38660",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Shunosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Shunosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "shuvuuia": {
     "taxonId": "txn:66043",
@@ -9665,7 +11079,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66043",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Shuvuuia&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Shuvuuia&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "silvisaurus": {
     "taxonId": "txn:38828",
@@ -9694,7 +11113,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Cretaceous"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38828",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Silvisaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Silvisaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "sinocalliopteryx": {
     "taxonId": "txn:98810",
@@ -9722,7 +11146,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=98810",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sinocalliopteryx&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sinocalliopteryx&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "sinornithosaurus": {
     "taxonId": "txn:68204",
@@ -9750,7 +11179,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68204",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sinornithosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sinornithosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "sinovenator": {
     "taxonId": "txn:64888",
@@ -9778,7 +11212,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64888",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sinovenator&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sinovenator&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "sinraptor": {
     "taxonId": "txn:54820",
@@ -9809,7 +11248,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Bathonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=54820",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sinraptor&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sinraptor&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "sonidosaurus": {
     "taxonId": "txn:84657",
@@ -9837,7 +11281,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=84657",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sonidosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sonidosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "spicomellus": {
     "taxonId": "txn:443991",
@@ -9865,7 +11314,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Bathonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=443991",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Spicomellus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Spicomellus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "staurikosaurus": {
     "taxonId": "txn:38508",
@@ -9894,7 +11348,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Carnian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38508",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Staurikosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Staurikosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "stegoceras": {
     "taxonId": "txn:38787",
@@ -9938,7 +11395,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Judithian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38787",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Stegoceras&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Stegoceras&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "stenonychosaurus": {
     "taxonId": "txn:38571",
@@ -9974,7 +11436,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38571",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Stenonychosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Stenonychosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "stenopelix": {
     "taxonId": "txn:38863",
@@ -10002,7 +11469,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Berriasian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38863",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Stenopelix&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Stenopelix&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "struthiosaurus": {
     "taxonId": "txn:38830",
@@ -10050,7 +11522,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Early Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38830",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Struthiosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Struthiosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "stygimoloch": {
     "taxonId": "txn:38788",
@@ -10086,7 +11563,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38788",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Stygimoloch&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Stygimoloch&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "talarurus": {
     "taxonId": "txn:38835",
@@ -10116,7 +11598,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38835",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Talarurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Talarurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "tanius": {
     "taxonId": "txn:38777",
@@ -10146,7 +11633,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38777",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tanius&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tanius&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "tarchia": {
     "taxonId": "txn:38836",
@@ -10176,7 +11668,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38836",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tarchia&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tarchia&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "telmatosaurus": {
     "taxonId": "txn:64068",
@@ -10215,7 +11712,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64068",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Telmatosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Telmatosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "tenontosaurus": {
     "taxonId": "txn:38741",
@@ -10254,7 +11756,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38741",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tenontosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tenontosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "thecodontosaurus": {
     "taxonId": "txn:53022",
@@ -10302,7 +11809,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Triassic"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=53022",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Thecodontosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Thecodontosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "thescelosaurus": {
     "taxonId": "txn:38742",
@@ -10351,7 +11861,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Turonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38742",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Thescelosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Thescelosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "torvosaurus": {
     "taxonId": "txn:38587",
@@ -10407,7 +11922,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Callovian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38587",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Torvosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Torvosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "tsagantegia": {
     "taxonId": "txn:68198",
@@ -10435,7 +11955,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Cenomanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68198",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tsagantegia&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tsagantegia&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "tylocephale": {
     "taxonId": "txn:38791",
@@ -10463,7 +11988,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38791",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tylocephale&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tylocephale&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "tyrannotitan": {
     "taxonId": "txn:77207",
@@ -10491,7 +12021,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Albian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=77207",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tyrannotitan&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Tyrannotitan&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, solitary"
+    }
   },
   "udanoceratops": {
     "taxonId": "txn:66584",
@@ -10519,7 +12054,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66584",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Udanoceratops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Udanoceratops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "unenlagia": {
     "taxonId": "txn:65421",
@@ -10547,7 +12087,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Late Turonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=65421",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Unenlagia&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Unenlagia&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "urbacodon": {
     "taxonId": "txn:96667",
@@ -10585,7 +12130,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Campanian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=96667",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Urbacodon&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Urbacodon&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "carnivore, omnivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "valdosaurus": {
     "taxonId": "txn:38733",
@@ -10625,7 +12175,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Barremian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38733",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Valdosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Valdosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "vulcanodon": {
     "taxonId": "txn:38650",
@@ -10653,7 +12208,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Sinemurian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38650",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Vulcanodon&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Vulcanodon&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "yandusaurus": {
     "taxonId": "txn:52891",
@@ -10681,7 +12241,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Bajocian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=52891",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yandusaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yandusaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "yimenosaurus": {
     "taxonId": "txn:68585",
@@ -10709,7 +12274,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Hettangian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=68585",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yimenosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yimenosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "yingshanosaurus": {
     "taxonId": "txn:153286",
@@ -10737,7 +12307,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Bathonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=153286",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yingshanosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yingshanosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "yinlong": {
     "taxonId": "txn:90117",
@@ -10765,7 +12340,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Oxfordian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=90117",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yinlong&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yinlong&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   },
   "yuanmousaurus": {
     "taxonId": "txn:84655",
@@ -10793,7 +12373,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Jurassic"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=84655",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yuanmousaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yuanmousaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "yunnanosaurus": {
     "taxonId": "txn:56630",
@@ -10824,7 +12409,10 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Pliensbachian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=56630",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yunnanosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Yunnanosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "locomotion": "actively mobile"
+    }
   },
   "zalmoxes": {
     "taxonId": "txn:66740",
@@ -10870,7 +12458,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Maastrichtian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66740",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Zalmoxes&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Zalmoxes&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "zephyrosaurus": {
     "taxonId": "txn:38743",
@@ -10900,7 +12493,12 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Aptian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38743",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Zephyrosaurus&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Zephyrosaurus&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling, gregarious"
+    }
   },
   "zuniceratops": {
     "taxonId": "txn:66590",
@@ -10928,6 +12526,11 @@ window.PBDB_DINOSAUR_ENRICHMENT = {
       "Middle Turonian"
     ],
     "source": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66590",
-    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Zuniceratops&show=loc,time,strat,ident,phylo"
+    "occurrenceApi": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Zuniceratops&show=loc,time,strat,ident,phylo",
+    "ecospace": {
+      "diet": "herbivore",
+      "locomotion": "actively mobile",
+      "lifeHabit": "ground dwelling"
+    }
   }
 };
