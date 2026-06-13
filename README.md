@@ -43,6 +43,46 @@ No build step, no dependencies, no server required.
 > ```
 > Then open `http://localhost:8080` in your browser.
 
+### Shareable links
+
+Main views and species profiles can be opened directly with URL hashes:
+
+- `#catalog`
+- `#timeline`
+- `#map`
+- `#clado`
+- `#glossary` (Field Guide)
+- `#dino/tyrannosaurus`
+
+## Smoke Tests
+
+Run the browser smoke tests with Node.js:
+
+```bash
+node tools/smoke-test.mjs
+```
+
+In Codex Desktop, if `node` is not on your shell path, use the bundled runtime:
+
+```bash
+PLAYWRIGHT_NODE_MODULES=/Users/georgephilippou/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules \
+  /Users/georgephilippou/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node tools/smoke-test.mjs
+```
+
+## Content Audit
+
+Rank profiles by content completeness and generate an improvement queue:
+
+```bash
+node tools/content-audit.mjs --out=content-audit.md --top=50
+```
+
+Generate profile content overrides for imported entries that do not yet have hand-written rich content:
+
+```bash
+node tools/generate-content-overrides.mjs
+```
+
 ---
 
 ## Project Structure
