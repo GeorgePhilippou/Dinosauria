@@ -122,6 +122,7 @@
   .view.active { display: flex; flex-direction: column; flex: 1; min-width: 0; min-height: 0; overflow: hidden; }
   #home-view.active { overflow-y: auto; }
   #glossary-view.active { overflow: hidden; }
+  #period-view.active { overflow: hidden; }
   .home-main {
     flex: 1;
     min-height: 0;
@@ -145,7 +146,8 @@
   .ft-scroll,
   .wiki-page,
   #home-view.active,
-  #glossary-view.active {
+  #glossary-view.active,
+  #period-view.active {
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
   }
@@ -453,6 +455,34 @@
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 10px;
   }
+  .catalog-load {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 14px;
+    padding: 12px 0 4px;
+  }
+  .catalog-load.visible { display: flex; }
+  .catalog-load-meta {
+    color: var(--text-3);
+    font-size: 12px;
+  }
+  .catalog-load-btn {
+    min-height: 34px;
+    padding: 7px 13px;
+    border: 1px solid var(--line-2);
+    border-radius: var(--radius);
+    background: var(--surface-2);
+    color: var(--text-2);
+    font-size: 12px;
+    font-weight: 750;
+  }
+  .catalog-load-btn:hover {
+    color: var(--text);
+    border-color: currentColor;
+    background: var(--surface);
+  }
   .dino-card {
     min-height: 268px;
     display: flex;
@@ -669,6 +699,35 @@
   @media (max-width: 520px) {
     .quick-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   }
+  .data-gaps {
+    margin-top: 10px;
+    display: grid;
+    gap: 6px;
+  }
+  .data-gap-item {
+    display: grid;
+    grid-template-columns: minmax(84px, 132px) 1fr;
+    gap: 8px;
+    padding: 8px 10px;
+    border: 1px solid color-mix(in srgb, var(--gap-col, var(--text-3)) 30%, var(--line));
+    border-radius: var(--radius);
+    background: color-mix(in srgb, var(--gap-col, var(--text-3)) 7%, var(--surface));
+  }
+  .data-gap-label {
+    color: var(--gap-col, var(--text-3));
+    font-size: 9px;
+    font-weight: 850;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+  }
+  .data-gap-reason {
+    color: var(--text-2);
+    font-size: 11px;
+    line-height: 1.4;
+  }
+  @media (max-width: 560px) {
+    .data-gap-item { grid-template-columns: 1fr; gap: 3px; }
+  }
 
   /* Period stripe on hero */
   .hero-period-stripe {
@@ -680,7 +739,71 @@
     border-radius: 0 0 var(--radius) var(--radius);
   }
 
-  .panel-body { min-width: 0; padding: 16px; display: flex; flex-direction: column; gap: 20px; }
+  .panel-body { min-width: 0; padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+  .profile-section-nav {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 8px 0;
+    background: color-mix(in srgb, var(--surface) 94%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .profile-section-link {
+    --section-col: var(--line-2);
+    min-height: 28px;
+    padding: 5px 9px;
+    border: 1px solid color-mix(in srgb, var(--section-col) 42%, var(--line));
+    border-radius: var(--radius);
+    background: color-mix(in srgb, var(--section-col) 8%, var(--surface-2));
+    color: var(--text-2);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .profile-section-link:hover {
+    color: var(--text);
+    border-color: var(--section-col);
+  }
+  .profile-section-card {
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--section-col, color-mix(in srgb, var(--accent) 72%, var(--line-2)));
+    border-radius: var(--radius);
+    background: linear-gradient(90deg, color-mix(in srgb, var(--section-col, var(--accent)) 8%, transparent), transparent 36%),
+                color-mix(in srgb, var(--surface-2) 72%, var(--surface));
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 10px 24px color-mix(in srgb, #000 12%, transparent);
+  }
+  .profile-section-card > .section-title {
+    margin: 0;
+    padding: 10px 13px;
+    border-bottom: 1px solid var(--line);
+    background: color-mix(in srgb, var(--section-col, var(--accent)) 12%, var(--surface-2));
+  }
+  .profile-section-card > :not(.section-title) {
+    margin-left: 13px;
+    margin-right: 13px;
+  }
+  .profile-section-card > :last-child {
+    margin-bottom: 13px;
+  }
+  .profile-section-card > .quick-facts,
+  .profile-section-card > .description,
+  .profile-section-card > .evidence-confidence,
+  .profile-section-card > .clade-card,
+  .profile-section-card > .taxonomy-grid,
+  .profile-section-card > .source-links {
+    margin-top: 13px;
+  }
+  .profile-section-card > .subsection-title {
+    margin-top: 13px;
+  }
   .hero-silhouette {
     min-height: 230px;
     position: relative;
@@ -725,6 +848,10 @@
     letter-spacing: .08em;
     text-transform: uppercase;
   }
+  .section-title .section-index {
+    color: var(--section-col, var(--accent));
+    margin-right: 8px;
+  }
   .subsection-title {
     margin: 14px 0 8px;
     color: var(--text-3);
@@ -746,6 +873,16 @@
     overflow: hidden;
   }
   .map-svg { width: 100%; display: block; }
+  .map-empty {
+    padding: 11px 13px;
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius);
+    background: var(--surface-2);
+    color: var(--text-3);
+    font-size: 12px;
+    line-height: 1.5;
+  }
   .map-ocean { fill: color-mix(in srgb, var(--surface-3) 58%, var(--surface)); }
   .map-base { opacity: .45; filter: saturate(.3) contrast(.95); }
   .map-graticule { stroke: color-mix(in srgb, var(--text-3) 18%, transparent); stroke-width: .4; fill: none; }
@@ -1334,15 +1471,43 @@
     background: var(--surface);
     border-bottom: 1px solid var(--line);
   }
+  .period-explorer-shell {
+    display: grid;
+    gap: 14px;
+  }
+  .period-metric-row {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(110px, 1fr));
+    gap: 8px;
+  }
+  .period-metric {
+    padding: 9px 10px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+  .period-metric-value {
+    color: var(--text);
+    font-size: 18px;
+    font-weight: 850;
+    line-height: 1;
+  }
+  .period-metric-label {
+    margin-top: 4px;
+    color: var(--text-3);
+    font-size: 9.5px;
+    font-weight: 750;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
 
   /* Header bar */
   .dash-topbar {
-    height: 52px;
+    min-height: 44px;
     display: flex;
     align-items: center;
-    padding: 0 20px;
-    gap: 16px;
-    border-bottom: 1px solid var(--line);
+    padding: 0;
+    gap: 10px;
   }
   .dash-era-badge {
     font-size: 10px;
@@ -1415,7 +1580,10 @@
 
   /* ── Timeline ──────────────────────────────────────────────── */
   .dash-timeline-wrap {
-    padding: 14px 20px 0;
+    padding: 14px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
   }
   .dash-row-label {
     margin: 7px 0 5px;
@@ -1444,48 +1612,99 @@
   .dash-era-bar-seg { height: 100%; border-radius: 2px; }
 
   .dash-period-row {
-    display: flex;
-    gap: 3px;
-    height: 54px;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 6px;
+    min-height: 126px;
   }
   .dash-period-seg {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    border-radius: 7px;
-    cursor: default;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: var(--radius);
+    cursor: pointer;
     overflow: hidden;
-    transition: opacity .15s;
+    transition: opacity .15s, transform .15s, border-color .15s;
     position: relative;
-    min-width: 80px; /* prevent collapse on narrow periods */
+    min-width: 0;
+    padding: 12px 11px 10px;
+    border: 1px solid color-mix(in srgb, var(--period-col) 40%, var(--line));
+    background: linear-gradient(160deg, color-mix(in srgb, var(--period-col) 52%, var(--surface-2)), color-mix(in srgb, var(--period-col) 18%, var(--surface)));
   }
-  .dash-period-seg:hover { filter: none; transform: none; }
-  .dash-period-seg.active { outline: 2px solid rgba(255,255,255,.55); outline-offset: -2px; }
+  .dash-period-seg:hover { transform: translateY(-1px); border-color: var(--period-col); }
+  .dash-period-seg.active { outline: 2px solid color-mix(in srgb, var(--period-col) 78%, #fff); outline-offset: -2px; }
   .dash-period-seg.dimmed { opacity: .28; }
   .dash-period-seg-name {
-    font-size: 11px;
-    font-weight: 700;
-    color: rgba(255,255,255,.95);
-    padding: 0 9px 5px;
-    white-space: nowrap;
+    font-size: 12.5px;
+    font-weight: 850;
+    color: var(--text);
+    padding: 0;
+    white-space: normal;
     overflow: hidden;
-    text-overflow: ellipsis;
-    text-shadow: 0 1px 3px rgba(0,0,0,.45);
-    line-height: 1.3;
+    line-height: 1.25;
   }
   .dash-period-seg-ma {
-    font-size: 9.5px;
-    color: rgba(255,255,255,.62);
-    padding: 0 9px 5px;
-    white-space: nowrap;
-    text-shadow: 0 1px 2px rgba(0,0,0,.4);
-    line-height: 1.2;
+    margin-top: 3px;
+    font-size: 10px;
+    color: var(--text-3);
+    padding: 0;
+    white-space: normal;
+    line-height: 1.25;
+  }
+  .dash-period-seg-count {
+    color: var(--text);
+    font-size: 18px;
+    font-weight: 850;
+    line-height: 1.15;
+  }
+  .dash-period-seg-signal {
+    color: var(--text-2);
+    font-size: 10px;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+  }
+  .dash-stage-disclosure {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+    overflow: hidden;
+  }
+  .dash-stage-summary {
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 13px;
+    cursor: pointer;
+    color: var(--text-2);
+    font-size: 11.5px;
+    font-weight: 750;
+  }
+  .dash-stage-summary::-webkit-details-marker { display: none; }
+  .dash-stage-summary::after {
+    content: "+";
+    color: var(--text-3);
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .dash-stage-disclosure[open] .dash-stage-summary::after { content: "-"; }
+  .dash-stage-explain {
+    margin: 0 13px 10px;
+    padding: 10px 12px;
+    border-left: 3px solid var(--line-2);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    background: var(--surface-2);
+    color: var(--text-2);
+    font-size: 11.5px;
+    line-height: 1.55;
   }
   .dash-stage-row {
     display: flex;
     gap: 3px;
     min-height: 32px;
-    margin-top: 4px;
+    padding: 0 13px 13px;
   }
   .dash-stage-group {
     display: flex;
@@ -1508,6 +1727,7 @@
     line-height: 1;
     padding: 0 3px;
     cursor: pointer;
+    text-decoration: none;
     outline: none;
   }
   .dash-stage:hover,
@@ -1573,8 +1793,8 @@
     margin-top: 4px;
     overflow: visible;
   }
-  #dashboard.events-hidden .dash-events-wrap { display: none; }
-  #dashboard.events-hidden .dash-timeline-wrap { padding-bottom: 14px; }
+  #period-dashboard.events-hidden .dash-events-wrap { display: none; }
+  #period-dashboard.events-hidden .dash-timeline-wrap { padding-bottom: 14px; }
   .dash-event {
     position: absolute;
     transform: translateX(-50%);
@@ -1616,6 +1836,59 @@
     border-color: rgba(196,48,32,.3);
     color: #c43020;
     font-weight: 700;
+  }
+  .dash-event-tip {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 10px);
+    z-index: 8;
+    width: min(260px, 78vw);
+    transform: translateX(-50%);
+    padding: 10px 11px;
+    border: 1px solid var(--line-2);
+    border-radius: var(--radius);
+    background: color-mix(in srgb, var(--surface) 97%, #000);
+    box-shadow: var(--shadow);
+    color: var(--text-2);
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.45;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .12s, visibility .12s;
+  }
+  .dash-event-tip strong {
+    display: block;
+    color: var(--text);
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+  .dash-event-tip-meta {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--text-3);
+    font-size: 10px;
+    font-weight: 750;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .dash-event-tip::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 8px;
+    height: 8px;
+    border-right: 1px solid var(--line-2);
+    border-bottom: 1px solid var(--line-2);
+    background: color-mix(in srgb, var(--surface) 97%, #000);
+    transform: translate(-50%, -4px) rotate(45deg);
+  }
+  .dash-event:hover .dash-event-tip,
+  .dash-event:focus-visible .dash-event-tip {
+    opacity: 1;
+    visibility: visible;
   }
 
   /* ── Selected period context ───────────────────────────────── */
@@ -2152,6 +2425,11 @@
     font-weight: 750;
   }
   @media (max-width: 760px) {
+    .period-metric-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .dash-topbar { align-items: flex-start; flex-direction: column; }
+    .dash-pills { width: 100%; }
+    .dash-period-row { display: flex; overflow-x: auto; padding-bottom: 2px; }
+    .dash-period-seg { min-width: 210px; }
     .period-info-top { display: block; }
     .period-info-age { margin-top: 5px; white-space: normal; }
     .period-world-head,
@@ -2519,6 +2797,17 @@
   .top-bar.tbar-hidden {
     transform: translateY(-100%);
   }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
   .top-bar-title {
     cursor: pointer;
     background: none;
@@ -2621,6 +2910,68 @@
 
   /* ─── TIMELINE VIEW ──────────────────────────────────────── */
   #timeline-view.active { overflow: hidden; }
+  #timeline-view .view-instruction {
+    padding: 9px 14px 8px;
+  }
+  #timeline-view .view-instr-top {
+    align-items: center;
+  }
+  #timeline-view .view-instr-title {
+    font-size: 13px;
+    margin-top: 2px;
+  }
+  #timeline-view .view-instr-desc,
+  #timeline-view .view-instr-tips {
+    display: none;
+  }
+  #timeline-view .tl-stat-strip {
+    margin-top: 0;
+    margin-left: auto;
+    justify-content: flex-end;
+  }
+  #timeline-view .tl-stat-chip {
+    min-height: 23px;
+    padding: 3px 8px;
+    font-size: 10px;
+  }
+  #timeline-view .tl-stat-chip strong {
+    font-size: 11px;
+  }
+  #timeline-view .tl-read-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 6px;
+    margin-top: 7px;
+  }
+  #timeline-view .tl-read-card {
+    padding: 6px 8px;
+  }
+  #timeline-view .tl-read-card-title {
+    font-size: 10px;
+  }
+  #timeline-view .tl-read-card-copy {
+    margin-top: 2px;
+    font-size: 9.5px;
+    line-height: 1.35;
+  }
+  #timeline-view.tl-guide-collapsed .tl-read-grid {
+    display: none;
+  }
+  .tl-guide-toggle {
+    flex-shrink: 0;
+    min-height: 24px;
+    padding: 3px 8px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface-2);
+    color: var(--text-2);
+    font-size: 10px;
+    font-weight: 750;
+    cursor: pointer;
+  }
+  .tl-guide-toggle:hover {
+    color: var(--text);
+    border-color: var(--line-2);
+  }
   .tl-outer {
     flex: 1; overflow: auto;
     scrollbar-width: thin; scrollbar-color: var(--surface-3) transparent;
@@ -2679,25 +3030,46 @@
     display: grid; grid-template-columns: 172px 1fr;
     border-bottom: 1px solid var(--line);
     background: color-mix(in srgb, var(--surface-2) 80%, var(--surface));
+    cursor: pointer;
   }
+  .tl-group-hdr:hover { filter: brightness(1.05); }
+  .tl-group-hdr:focus-visible { outline: 2px solid var(--text-2); outline-offset: -2px; }
   .tl-group-hdr-name {
     position: sticky; left: 0; z-index: 4;
-    padding: 6px 10px; border-right: 1px solid var(--line-2);
+    padding: 1px 10px; border-right: 1px solid var(--line-2);
     background: color-mix(in srgb, var(--surface-2) 80%, var(--surface));
+    line-height: 1.15;
   }
-  .tl-group-title { display: block; font-size: 11px; font-weight: 800; font-style: italic; color: var(--text); }
-  .tl-group-count { display: block; font-size: 9.5px; color: var(--text-3); margin-top: 1px; }
-  .tl-group-hdr-track { min-height: 32px; background-image: var(--tl-bg); }
+  .tl-group-toggle {
+    display: inline-block; width: 9px; margin-right: 4px;
+    font-size: 9px; line-height: 1.15; color: var(--text-3);
+    transition: transform .15s;
+  }
+  .tl-group-expanded .tl-group-toggle { transform: rotate(90deg); }
+  .tl-group-title { display: block; font-size: 11px; font-weight: 800; font-style: italic; color: var(--text); line-height: 1.15; }
+  .tl-group-count { display: block; font-size: 9.5px; color: var(--text-3); margin-top: 1px; line-height: 1.15; }
+  .tl-group-hdr-track { min-height: 32px; position: relative; background-image: var(--tl-bg); }
+  .tl-density-bar {
+    position: absolute; border-radius: 2px; box-sizing: border-box;
+    border: 1px solid var(--surface); padding: 0;
+    cursor: pointer; opacity: .85;
+    transition: opacity .1s, filter .1s;
+  }
+  .tl-density-bar:hover, .tl-density-bar:focus-visible {
+    opacity: 1; filter: brightness(1.2) saturate(1.15); z-index: 2; outline: none;
+  }
+  .tl-group-body { display: none; }
+  .tl-group.tl-group-expanded .tl-group-body { display: block; }
 
   .tl-row {
     display: grid; grid-template-columns: 172px 1fr;
-    height: 27px;
+    height: 23px;
     border-bottom: 1px solid color-mix(in srgb, var(--line) 40%, transparent);
   }
   .tl-row-name {
     position: sticky; left: 0; z-index: 3;
     display: flex; align-items: center;
-    padding: 0 8px 0 10px; font-size: 10.5px; color: var(--text-2);
+    padding: 0 8px 0 10px; font-size: 10px; color: var(--text-2);
     border-right: 1px solid var(--line-2);
     background: var(--surface);
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
@@ -2708,7 +3080,7 @@
     background-image: var(--tl-bg);
   }
   .tl-bar {
-    position: absolute; top: 4px; bottom: 4px; min-width: 4px;
+    position: absolute; top: 3px; bottom: 3px; min-width: 4px;
     border-radius: 3px; border: none; padding: 0; cursor: pointer;
     transition: filter .1s, transform .1s;
   }
@@ -3642,7 +4014,7 @@
   .wiki-intro-sub-text { font-size: 12.5px; color: var(--text-2); line-height: 1.75; }
   .wiki-intro-sub-text a { color: var(--text-2); text-decoration: underline; text-underline-offset: 3px; }
 
-  /* § Glossary */
+  /* § Field Guide */
   /* ─── UNIFIED TERMINOLOGY SECTION ───────────────────────── */
   .wiki-term-section { margin-top: 14px; }
   .wiki-term-intro { font-size: 12.5px; color: var(--text-2); line-height: 1.7; margin-bottom: 20px; max-width: 780px; }
@@ -3707,7 +4079,90 @@
     font-weight: 850; font-style: normal;
   }
 
-  /* § Glossary — dictionary redesign */
+  .field-guide-system {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+    margin-top: 14px;
+  }
+  .field-guide-card {
+    padding: 12px 14px;
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--fg-col, var(--line-2));
+    border-radius: var(--radius);
+    background: var(--surface-2);
+  }
+  .field-guide-card-title {
+    color: var(--text);
+    font-size: 12.5px;
+    font-weight: 780;
+    line-height: 1.25;
+  }
+  .field-guide-card-body {
+    margin-top: 5px;
+    color: var(--text-2);
+    font-size: 11.5px;
+    line-height: 1.6;
+  }
+  .field-guide-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 9px;
+  }
+  .field-guide-links a,
+  .field-guide-action {
+    display: inline-flex;
+    align-items: center;
+    min-height: 24px;
+    padding: 4px 8px;
+    border: 1px solid color-mix(in srgb, var(--fg-col, var(--line-2)) 45%, var(--line));
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--text-2);
+    font-size: 10.5px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .field-guide-action {
+    cursor: pointer;
+    font: inherit;
+    font-size: 10.5px;
+    font-weight: 700;
+  }
+  .field-guide-links a:hover,
+  .field-guide-action:hover {
+    color: var(--text);
+    border-color: var(--fg-col, var(--line-2));
+  }
+  .profile-guide-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1px;
+    margin-top: 12px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--line);
+  }
+  .profile-guide-item {
+    padding: 12px 14px;
+    background: var(--surface);
+  }
+  .profile-guide-label {
+    color: var(--text);
+    font-size: 12px;
+    font-weight: 780;
+    line-height: 1.3;
+  }
+  .profile-guide-copy {
+    margin-top: 4px;
+    color: var(--text-2);
+    font-size: 11.5px;
+    line-height: 1.6;
+  }
+
+  /* § Field Guide — dictionary redesign */
   .glossary-search-row {
     display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
     flex-shrink: 0;
@@ -4076,6 +4531,59 @@
     white-space: normal;
     line-height: 1.35;
   }
+  .tl-read-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    gap: 8px;
+    margin-top: 11px;
+  }
+  .tl-read-card {
+    padding: 9px 10px;
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--tl-col, var(--line-2));
+    border-radius: var(--radius);
+    background: var(--surface-2);
+  }
+  .tl-read-card-title {
+    color: var(--text);
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 1.25;
+  }
+  .tl-read-card-copy {
+    margin-top: 4px;
+    color: var(--text-2);
+    font-size: 10.5px;
+    line-height: 1.45;
+  }
+  .tl-stat-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-top: 9px;
+  }
+  .tl-stat-chip {
+    min-height: 26px;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+    padding: 5px 9px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface-2);
+    color: var(--text-2);
+    font-size: 10.5px;
+  }
+  .tl-stat-chip strong {
+    color: var(--text);
+    font-size: 12px;
+  }
+  @media (max-width: 920px) {
+    .tl-read-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 560px) {
+    .tl-read-grid { grid-template-columns: 1fr; }
+  }
   #catalog-view .view-instruction,
   #clado-view .view-instruction {
     transition: padding .28s cubic-bezier(.2,.8,.2,1), background .28s cubic-bezier(.2,.8,.2,1);
@@ -4398,19 +4906,23 @@
       <nav class="nav-dropdown" id="nav-dropdown" aria-label="Main navigation">
         <button class="rail-btn active" data-view="home" type="button">
           <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5L10 3l7 6.5V17a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path d="M7 18v-6h6v6"/></svg>
-          <span>Reference Overview</span>
+          <span>Home</span>
         </button>
         <button class="rail-btn" data-view="catalog" type="button">
           <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="11" y="3" width="6" height="6" rx="1"/><rect x="3" y="11" width="6" height="6" rx="1"/><rect x="11" y="11" width="6" height="6" rx="1"/></svg>
           <span>Taxonomic Catalogue</span>
         </button>
-        <button class="rail-btn" data-view="map" type="button">
-          <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="1,4 7,2 13,4 19,2 19,16 13,18 7,16 1,18"/><line x1="7" y1="2" x2="7" y2="16"/><line x1="13" y1="4" x2="13" y2="18"/></svg>
-          <span>Palaeobiogeography</span>
+        <button class="rail-btn" data-view="period" type="button">
+          <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="8"/><ellipse cx="10" cy="10" rx="3.5" ry="8"/><line x1="2" y1="10" x2="18" y2="10"/></svg>
+          <span>Ancient Earth</span>
         </button>
         <button class="rail-btn" data-view="timeline" type="button">
           <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="3" y1="6" x2="17" y2="6"/><circle cx="7" cy="6" r="2" fill="currentColor" stroke="none"/><line x1="3" y1="11" x2="17" y2="11"/><circle cx="13" cy="11" r="2" fill="currentColor" stroke="none"/><line x1="3" y1="16" x2="17" y2="16"/><circle cx="9" cy="16" r="2" fill="currentColor" stroke="none"/></svg>
           <span>Chronostratigraphy</span>
+        </button>
+        <button class="rail-btn" data-view="map" type="button">
+          <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="1,4 7,2 13,4 19,2 19,16 13,18 7,16 1,18"/><line x1="7" y1="2" x2="7" y2="16"/><line x1="13" y1="4" x2="13" y2="18"/></svg>
+          <span>Palaeobiogeography</span>
         </button>
         <button class="rail-btn" data-view="clado" type="button">
           <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="10" y1="2" x2="10" y2="8"/><line x1="10" y1="8" x2="5" y2="13"/><line x1="10" y1="8" x2="15" y2="13"/><line x1="5" y1="13" x2="3" y2="17"/><line x1="5" y1="13" x2="7" y2="17"/><line x1="15" y1="13" x2="13" y2="17"/><line x1="15" y1="13" x2="17" y2="17"/></svg>
@@ -4418,7 +4930,7 @@
         </button>
         <button class="rail-btn" data-view="glossary" type="button">
           <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="12" height="16" rx="1"/><line x1="7" y1="7" x2="13" y2="7"/><line x1="7" y1="10" x2="13" y2="10"/><line x1="7" y1="13" x2="11" y2="13"/></svg>
-          <span>Glossary</span>
+          <span>Field Guide</span>
         </button>
         <button class="theme-toggle nav-theme-toggle" id="theme-toggle" type="button" aria-label="Toggle colour theme">
           <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><circle cx="10" cy="10" r="4"/><line x1="10" y1="2" x2="10" y2="0" stroke="currentColor" stroke-width="2"/><line x1="10" y1="20" x2="10" y2="18" stroke="currentColor" stroke-width="2"/><line x1="2" y1="10" x2="0" y2="10" stroke="currentColor" stroke-width="2"/><line x1="20" y1="10" x2="18" y2="10" stroke="currentColor" stroke-width="2"/></svg>
@@ -4429,6 +4941,7 @@
     </div>
     <button class="top-bar-title" id="home-logo-btn" aria-label="Go to home page" title="Home">
       <img class="top-bar-scene-img" src="dinosaur_design_wiki_topbar.png" alt="">
+      <span class="sr-only">Dinosauria home</span>
     </button>
     <div class="top-bar-meta">
       <span class="top-bar-nhm-attr">Sourced from</span>
@@ -4458,7 +4971,7 @@
           </div>
           <div class="wiki-intro-sub-section">
             <div class="wiki-intro-sub-title">How to use this wiki</div>
-            <p class="wiki-intro-sub-text">The <strong>Scientific Context</strong> section immediately below explains what a dinosaur is, how geological time works, and defines the key terms used throughout. Below that, the <strong>Period Explorer</strong> lets you browse species and paleogeographic maps by geological period. The main views — <strong>Taxonomic Catalogue</strong>, <strong>Chronostratigraphy</strong>, <strong>Palaeobiogeography</strong> and <strong>Phylogenetic Tree</strong> — are listed at the bottom of this page once you're ready to explore the full collection.</p>
+            <p class="wiki-intro-sub-text">Use the views below to jump straight into the collection — the <strong>Taxonomic Catalogue</strong> covers the full dataset of 328 genera, <strong>Ancient Earth</strong> lets you browse species and paleogeographic maps by geological period, <strong>Chronostratigraphy</strong>, <strong>Palaeobiogeography</strong> and <strong>Phylogenetic Tree</strong> present that same dataset by time, place and relationships, and the <strong>Field Guide</strong> defines the key terms used throughout. The <strong>Scientific Context</strong> and <strong>Collection at a Glance</strong> sections further down explain what a dinosaur is, how geological time works, and summarise the dataset itself.</p>
           </div>
           <div class="wiki-intro-sub-section">
             <div class="wiki-intro-sub-title">Sources</div>
@@ -4466,6 +4979,52 @@
           </div>
         </div>
       </div>
+      </div>
+    </section>
+
+    <!-- § 1b — Explore the collection ──────────────────────── -->
+    <section class="wiki-section">
+      <div class="wiki-section-header"><div class="wiki-section-label">Explore the collection</div></div>
+      <div class="wiki-section-body">
+      <p class="wiki-explore-desc" data-dino-count style="margin-bottom:12px;">Ready to explore? Use the views below to navigate the full collection of 328 genera.</p>
+      <nav class="wiki-contents-list" aria-label="Wiki views">
+        <button class="wiki-contents-item" type="button" data-view="catalog">
+          <span class="wiki-contents-icon">
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="11" y="3" width="6" height="6" rx="1"/><rect x="3" y="11" width="6" height="6" rx="1"/><rect x="11" y="11" width="6" height="6" rx="1"/></svg>
+          </span>
+          <div class="wiki-contents-body"><div class="wiki-contents-name">Taxonomic Catalogue</div><div class="wiki-contents-desc" data-dino-count>Browse, search and filter all 328 dinosaurian genera — full taxon profile on click</div></div>
+        </button>
+        <button class="wiki-contents-item" type="button" data-view="period">
+          <span class="wiki-contents-icon">
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="8"/><ellipse cx="10" cy="10" rx="3.5" ry="8"/><line x1="2" y1="10" x2="18" y2="10"/></svg>
+          </span>
+          <div class="wiki-contents-body"><div class="wiki-contents-name">Ancient Earth</div><div class="wiki-contents-desc">Browse dinosaur time interval by interval, with paleogeographic maps and climate context for each period</div></div>
+        </button>
+        <button class="wiki-contents-item" type="button" data-view="timeline">
+          <span class="wiki-contents-icon">
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><line x1="3" y1="6" x2="17" y2="6"/><circle cx="7" cy="6" r="2" fill="currentColor" stroke="none"/><line x1="3" y1="11" x2="17" y2="11"/><circle cx="13" cy="11" r="2" fill="currentColor" stroke="none"/><line x1="3" y1="16" x2="17" y2="16"/><circle cx="9" cy="16" r="2" fill="currentColor" stroke="none"/></svg>
+          </span>
+          <div class="wiki-contents-body"><div class="wiki-contents-name">Chronostratigraphy</div><div class="wiki-contents-desc">Dated genera plotted against the Mesozoic time scale; bar width reflects temporal range from the fossil record</div></div>
+        </button>
+        <button class="wiki-contents-item" type="button" data-view="map">
+          <span class="wiki-contents-icon">
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polygon points="1,4 7,2 13,4 19,2 19,16 13,18 7,16 1,18"/><line x1="7" y1="2" x2="7" y2="16"/><line x1="13" y1="4" x2="13" y2="18"/></svg>
+          </span>
+          <div class="wiki-contents-body"><div class="wiki-contents-name">Palaeobiogeography</div><div class="wiki-contents-desc">Fossil localities and geographic occurrence records worldwide; filterable by geological period</div></div>
+        </button>
+        <button class="wiki-contents-item" type="button" data-view="clado">
+          <span class="wiki-contents-icon">
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="10" y1="2" x2="10" y2="8"/><line x1="10" y1="8" x2="5" y2="13"/><line x1="10" y1="8" x2="15" y2="13"/><line x1="5" y1="13" x2="3" y2="17"/><line x1="5" y1="13" x2="7" y2="17"/><line x1="15" y1="13" x2="13" y2="17"/><line x1="15" y1="13" x2="17" y2="17"/></svg>
+          </span>
+          <div class="wiki-contents-body"><div class="wiki-contents-name">Phylogenetic Tree</div><div class="wiki-contents-desc">Curated dinosaurian cladogram with additional catalogue records listed separately</div></div>
+        </button>
+        <button class="wiki-contents-item" type="button" data-view="glossary">
+          <span class="wiki-contents-icon">
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="12" height="16" rx="1"/><line x1="7" y1="7" x2="13" y2="7"/><line x1="7" y1="10" x2="13" y2="10"/><line x1="7" y1="13" x2="11" y2="13"/></svg>
+          </span>
+          <div class="wiki-contents-body"><div class="wiki-contents-name">Field Guide</div><div class="wiki-contents-desc">Concepts, terminology and evidence notes for reading the catalogue scientifically</div></div>
+        </button>
+      </nav>
       </div>
     </section>
 
@@ -4633,81 +5192,69 @@
       </div>
     </section>
 
-    <!-- § 3 — Explore by geological period ──────────────────── -->
+    <!-- § 3 — Collection overview ───────────────────────────── -->
     <section class="wiki-section">
-      <div class="wiki-section-header"><div class="wiki-section-label">Explore by geological period</div></div>
+      <div class="wiki-section-header"><div class="wiki-section-label">Collection at a glance</div></div>
       <div class="wiki-section-body">
-      <div class="wiki-period-intro">
-        <p class="wiki-period-intro-text" data-dino-count>The 328 genera in this wiki are distributed across six intervals of the Mesozoic. Select an interval below to see the paleogeographic map for that time, the climate conditions, and the dinosaurs from this collection that lived then. Each interval represents a distinct chapter in dinosaur evolution — from the first small dinosaurs of the Late Triassic to the towering diversity of the Late Cretaceous.</p>
+        <section class="period-world" id="collection-overview" aria-live="polite"></section>
       </div>
-
-      <!-- Period selector — full width, controls both columns -->
-      <div class="dash-topbar">
-        <span class="dash-era-badge">Mesozoic era</span>
-        <div class="dash-pills" id="dash-pills"></div>
-        <button class="dash-toggle-btn" id="dash-events-toggle" type="button">Events</button>
-      </div>
-      <div class="dash-timeline-wrap" id="dash-timeline-wrap">
-        <div class="dash-row-label">Periods</div>
-        <div class="dash-era-bar" id="dash-era-bar"></div>
-        <div class="dash-period-row" id="dash-period-row"></div>
-        <div class="dash-row-label">Stages</div>
-        <div class="dash-stage-row" id="dash-stage-row"></div>
-        <div class="dash-events-wrap" id="dash-events-wrap"></div>
-      </div>
-
-      <!-- Paleogeographic world map — full width, just below the timeline -->
-      <section class="period-world" id="period-world" aria-live="polite"></section>
-
-      <!-- Species preview — full width below the world panel -->
-      <section class="period-preview" id="period-preview" aria-live="polite"></section>
-      <!-- period-info: hidden element kept for JS compatibility; content merged into period-world -->
-      <section id="period-info" style="display:none"></section>
-      </div>
-    </section>
-
-
-    <!-- § 4 — Explore the collection ───────────────────────── -->
-    <section class="wiki-section">
-      <div class="wiki-section-header"><div class="wiki-section-label">Explore the collection</div></div>
-      <div class="wiki-section-body">
-      <p class="wiki-explore-desc" data-dino-count style="margin-bottom:12px;">Ready to explore? Use the four views to navigate the full collection of 328 genera.</p>
-      <nav class="wiki-contents-list" aria-label="Wiki views">
-        <button class="wiki-contents-item" type="button" data-view="catalog">
-          <span class="wiki-contents-icon">
-            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="11" y="3" width="6" height="6" rx="1"/><rect x="3" y="11" width="6" height="6" rx="1"/><rect x="11" y="11" width="6" height="6" rx="1"/></svg>
-          </span>
-          <div class="wiki-contents-body"><div class="wiki-contents-name">Taxonomic Catalogue</div><div class="wiki-contents-desc" data-dino-count>Browse, search and filter all 328 dinosaurian genera — full taxon profile on click</div></div>
-        </button>
-        <button class="wiki-contents-item" type="button" data-view="timeline">
-          <span class="wiki-contents-icon">
-            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><line x1="3" y1="6" x2="17" y2="6"/><circle cx="7" cy="6" r="2" fill="currentColor" stroke="none"/><line x1="3" y1="11" x2="17" y2="11"/><circle cx="13" cy="11" r="2" fill="currentColor" stroke="none"/><line x1="3" y1="16" x2="17" y2="16"/><circle cx="9" cy="16" r="2" fill="currentColor" stroke="none"/></svg>
-          </span>
-          <div class="wiki-contents-body"><div class="wiki-contents-name">Chronostratigraphy</div><div class="wiki-contents-desc">Dated genera plotted against the Mesozoic time scale; bar width reflects temporal range from the fossil record</div></div>
-        </button>
-        <button class="wiki-contents-item" type="button" data-view="map">
-          <span class="wiki-contents-icon">
-            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polygon points="1,4 7,2 13,4 19,2 19,16 13,18 7,16 1,18"/><line x1="7" y1="2" x2="7" y2="16"/><line x1="13" y1="4" x2="13" y2="18"/></svg>
-          </span>
-          <div class="wiki-contents-body"><div class="wiki-contents-name">Palaeobiogeography</div><div class="wiki-contents-desc">Fossil localities and geographic occurrence records worldwide; filterable by geological period</div></div>
-        </button>
-        <button class="wiki-contents-item" type="button" data-view="clado">
-          <span class="wiki-contents-icon">
-            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="10" y1="2" x2="10" y2="8"/><line x1="10" y1="8" x2="5" y2="13"/><line x1="10" y1="8" x2="15" y2="13"/><line x1="5" y1="13" x2="3" y2="17"/><line x1="5" y1="13" x2="7" y2="17"/><line x1="15" y1="13" x2="13" y2="17"/><line x1="15" y1="13" x2="17" y2="17"/></svg>
-          </span>
-          <div class="wiki-contents-body"><div class="wiki-contents-name">Phylogenetic Tree</div><div class="wiki-contents-desc">Curated dinosaurian cladogram with additional catalogue records listed separately</div></div>
-        </button>
-        <button class="wiki-contents-item" type="button" data-view="glossary">
-          <span class="wiki-contents-icon">
-            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="12" height="16" rx="1"/><line x1="7" y1="7" x2="13" y2="7"/><line x1="7" y1="10" x2="13" y2="10"/><line x1="7" y1="13" x2="11" y2="13"/></svg>
-          </span>
-          <div class="wiki-contents-body"><div class="wiki-contents-name">Glossary</div><div class="wiki-contents-desc">Key scientific terms explained as questions — taxonomy, time, fossils and palaeogeography</div></div>
-        </button>
-      </nav>
     </section>
 
     </div><!-- end dashboard -->
 
+  </section>
+
+  <section class="view" id="period-view">
+    <div class="view-instruction">
+      <div class="view-instr-top">
+        <div>
+          <div class="view-instr-eyebrow">Ancient Earth</div>
+          <div class="view-instr-title">How the world changed across the Mesozoic · 252–66 Ma</div>
+          <div class="view-instr-desc" data-dino-count>Choose a geological interval to see how dinosaur evolution connects to continental breakup, climate, fossil preservation and the 328 genera in this wiki.</div>
+        </div>
+      </div>
+      <div class="view-instr-tips">
+        <span class="view-tip">Use the period pills or timeline row to choose an interval</span>
+        <span class="view-tip">Each interval shows a paleogeographic map, climate and fossil-record context</span>
+        <span class="view-tip">Browse a sample of genera from that interval, or open the full catalogue filtered to it</span>
+        <span class="view-tip">Show geological stages for finer-grained subdivisions</span>
+      </div>
+    </div>
+    <div class="wiki-page" id="period-dashboard">
+      <section class="wiki-section">
+        <div class="wiki-section-body">
+        <div class="period-explorer-shell">
+          <div class="period-metric-row" aria-label="Collection summary">
+            <div class="period-metric"><div class="period-metric-value" data-count-value>328</div><div class="period-metric-label">Genera</div></div>
+            <div class="period-metric"><div class="period-metric-value">252–66 Ma</div><div class="period-metric-label">Time span</div></div>
+            <div class="period-metric"><div class="period-metric-value">6</div><div class="period-metric-label">Intervals</div></div>
+            <div class="period-metric"><div class="period-metric-value" id="largest-period-metric">Late Cretaceous</div><div class="period-metric-label">Largest sample</div></div>
+          </div>
+
+          <div class="dash-topbar">
+            <span class="dash-era-badge">Period filter</span>
+            <div class="dash-pills" id="dash-pills"></div>
+            <button class="dash-toggle-btn" id="dash-events-toggle" type="button">Events</button>
+          </div>
+          <div class="dash-timeline-wrap" id="dash-timeline-wrap">
+            <div class="dash-row-label">Periods</div>
+            <div class="dash-era-bar" id="dash-era-bar"></div>
+            <div class="dash-period-row" id="dash-period-row"></div>
+            <details class="dash-stage-disclosure">
+              <summary class="dash-stage-summary">Show geological stages</summary>
+              <p class="dash-stage-explain">Stages are finer subdivisions of geological periods. They are useful because fossil formations often date to a stage, not just a broad period, so stages let palaeontologists compare rocks and faunas more precisely across regions. Click a stage to open its Wikipedia summary.</p>
+              <div class="dash-stage-row" id="dash-stage-row"></div>
+            </details>
+            <div class="dash-events-wrap" id="dash-events-wrap"></div>
+          </div>
+
+          <section class="period-world" id="period-world" aria-live="polite"></section>
+          <section class="period-preview" id="period-preview" aria-live="polite"></section>
+          <section id="period-info" style="display:none"></section>
+        </div>
+        </div>
+      </section>
+    </div>
   </section>
 
   <section class="view" id="catalog-view">
@@ -4790,6 +5337,10 @@
         </div>
         <div class="card-list" id="card-list"></div>
         <div class="no-results" id="no-results">No dinosaurs match those filters.</div>
+        <div class="catalog-load" id="catalog-load">
+          <span class="catalog-load-meta" id="catalog-load-meta"></span>
+          <button class="catalog-load-btn" id="catalog-load-btn" type="button">Load more</button>
+        </div>
       </section>
 
       <aside class="side-panel" id="side-panel" aria-live="polite" aria-label="Species profile" tabindex="-1">
@@ -4839,10 +5390,27 @@
     <div class="wiki-page" id="glossary-page">
 
       <section class="wiki-section">
-        <div class="wiki-section-header"><div class="wiki-section-label">Glossary and definitions</div></div>
+        <div class="wiki-section-header"><div class="wiki-section-label">Field guide</div></div>
         <div class="wiki-section-body">
-        <h1 class="wiki-intro-title" style="margin-bottom:8px;">Scientific terminology</h1>
-        <p class="wiki-intro-subtitle" style="margin-bottom:0;">A working dictionary of the words, names and concepts used throughout this wiki — organised by scientific domain. Search to filter every entry, or jump straight to a category.</p>
+        <h1 class="wiki-intro-title" style="margin-bottom:8px;">Field Guide to Dinosaur Palaeontology</h1>
+        <p class="wiki-intro-subtitle" style="margin-bottom:0;">A conceptual guide to the terms, evidence, methods and source caveats needed to read the Dinosauria catalogue scientifically.</p>
+        <div class="field-guide-system" aria-label="Field guide structure">
+          <div class="field-guide-card" style="--fg-col:#c0622f">
+            <div class="field-guide-card-title">Foundational frameworks</div>
+            <div class="field-guide-card-body">Start with the systems: what counts as a dinosaur, how geological time works, why cladograms matter and how fossil evidence constrains interpretation.</div>
+            <div class="field-guide-links"><a href="#gloss-concepts">Read frameworks</a></div>
+          </div>
+          <div class="field-guide-card" style="--fg-col:#5c9e6e">
+            <div class="field-guide-card-title">Reading the catalogue</div>
+            <div class="field-guide-card-body">Understand measurements, localities, known remains, uncertainty labels, data sources and reconstruction limits in each genus profile.</div>
+            <div class="field-guide-links"><a href="#profile-guide">Read profile guide</a></div>
+          </div>
+          <div class="field-guide-card" style="--fg-col:#8a7abf">
+            <div class="field-guide-card-title">Technical glossary</div>
+            <div class="field-guide-card-body">Search or browse the working dictionary by scientific domain: taxonomy, phylogenetics, anatomy, geological time, fossils and palaeogeography.</div>
+            <div class="field-guide-links"><a href="#technical-glossary">Browse terms</a></div>
+          </div>
+        </div>
       </div>
       </section>
 
@@ -4852,7 +5420,8 @@
           <div class="glossary-search-results" id="glossary-search-results" role="listbox" aria-label="Search results"></div>
         </div>
         <nav class="glossary-jump-nav" aria-label="Jump to category">
-          <a class="glossary-jump-chip" data-cat="gloss-concepts" style="--cat:#c0622f" href="#gloss-concepts">Key concepts</a>
+          <a class="glossary-jump-chip" data-cat="gloss-concepts" style="--cat:#c0622f" href="#gloss-concepts">Frameworks</a>
+          <a class="glossary-jump-chip" data-cat="profile-guide" style="--cat:#5c9e6e" href="#profile-guide">Profile guide</a>
           <a class="glossary-jump-chip" data-cat="gloss-taxonomy" style="--cat:#d4a027" href="#gloss-taxonomy">Taxonomy</a>
           <a class="glossary-jump-chip" data-cat="gloss-phylogenetics" style="--cat:#8a7abf" href="#gloss-phylogenetics">Phylogenetics</a>
           <a class="glossary-jump-chip" data-cat="gloss-groups" style="--cat:#4a7fb5" href="#gloss-groups">Major groups</a>
@@ -4863,11 +5432,11 @@
         </nav>
       </div>
 
-      <!-- Key Concepts — featured essays -->
+      <!-- Foundational Frameworks — featured essays -->
       <section class="wiki-section gloss-cat-section" id="gloss-concepts" style="--cat:#c0622f">
-        <div class="wiki-section-header"><div class="wiki-section-label">Key concepts</div></div>
+        <div class="wiki-section-header"><div class="wiki-section-label">Foundational frameworks</div></div>
         <div class="wiki-section-body">
-        <p class="wiki-term-intro" style="margin-bottom:12px;">Six foundational ideas worth reading in full before diving into the dictionary below — expand any entry for the complete explanation.</p>
+        <p class="wiki-term-intro" style="margin-bottom:12px;">Six foundational systems worth reading before treating the catalogue as data. Each one explains a core layer of palaeontology and how it appears elsewhere in the wiki.</p>
         <div class="wiki-term-list">
 
           <div class="wiki-term-item">
@@ -4954,6 +5523,56 @@
 
         </div>
       </div>
+      </section>
+
+      <!-- How to read a profile -->
+      <section class="wiki-section gloss-cat-section" id="profile-guide" style="--cat:#5c9e6e">
+        <div class="wiki-section-header"><div class="wiki-section-label">How to read a dinosaur profile</div></div>
+        <div class="wiki-section-body">
+          <p class="wiki-term-intro" style="margin-bottom:0;">Each genus profile is a compact evidence file, not just a fact card. Read the sections together: measurements, taxonomy, fossil localities, preserved material, source quality and uncertainty all constrain what can responsibly be said about the animal.</p>
+          <div class="profile-guide-grid">
+            <div class="profile-guide-item">
+              <div class="profile-guide-label">At a glance</div>
+              <div class="profile-guide-copy">The quick facts show the imported headline fields: period, diet, locomotion, size, mass and discovery region. Missing-data labels below this bar explain why a field is absent or provisional.</div>
+            </div>
+            <div class="profile-guide-item">
+              <div class="profile-guide-label">Overview</div>
+              <div class="profile-guide-copy">The narrative summary gives the best current interpretation from curated text or generated NHM/PBDB context. Treat generated baseline profiles as readable starting points that still need manual review.</div>
+            </div>
+            <div class="profile-guide-item">
+              <div class="profile-guide-label">Evidence view</div>
+              <div class="profile-guide-copy">This separates reconstruction from fossil support. It clarifies whether the visible profile is based on direct material, related animals, occurrence records or broader anatomical inference.</div>
+            </div>
+            <div class="profile-guide-item">
+              <div class="profile-guide-label">Known remains</div>
+              <div class="profile-guide-copy">The body-region map marks anatomical regions as directly signalled, partial, inferred or not yet curated. It is an evidence map, not a complete specimen registry.</div>
+            </div>
+            <div class="profile-guide-item">
+              <div class="profile-guide-label">Locality and age</div>
+              <div class="profile-guide-copy">Formation names, country records and PBDB age ranges locate a genus in rock and time. If coordinates are missing, the locality can still be stratigraphically useful even when it cannot be plotted precisely.</div>
+            </div>
+            <div class="profile-guide-item">
+              <div class="profile-guide-label">Cladogram path</div>
+              <div class="profile-guide-copy">The classification path places the genus inside a hypothesis of evolutionary relationships. Branch position is about shared ancestry, not progress or superiority.</div>
+            </div>
+            <div class="profile-guide-item">
+              <div class="profile-guide-label">Related dinosaurs</div>
+              <div class="profile-guide-copy">Related entries are comparison prompts. Use them to see how similar animals differ by time, geography, anatomy, ecology or evidence quality.</div>
+            </div>
+            <div class="profile-guide-item">
+              <div class="profile-guide-label">Sources and data gaps</div>
+              <div class="profile-guide-copy">Source links show where profile facts came from. Data-gap labels are not failures; they flag where fossil incompleteness, source coverage or taxonomic uncertainty limits interpretation.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Technical glossary -->
+      <section class="wiki-section gloss-cat-section" id="technical-glossary" style="--cat:#8a7abf">
+        <div class="wiki-section-header"><div class="wiki-section-label">Technical glossary</div></div>
+        <div class="wiki-section-body">
+          <p class="wiki-term-intro" style="margin-bottom:0;">The searchable dictionary below is organised by scientific domain. Use it as a reference while reading profiles, maps, timelines and cladograms.</p>
+        </div>
       </section>
 
       <!-- Dictionary: Taxonomy & Nomenclature -->
@@ -5149,7 +5768,7 @@
 
         <div class="glossary-sources">
           <div class="glossary-sources-label">Sources &amp; further reading</div>
-          <p style="margin:0 0 8px;">The definitions in this glossary draw on standard reference works in vertebrate palaeontology and on the formal codes and frameworks that govern taxonomic and phylogenetic practice. For deeper reading:</p>
+          <p style="margin:0 0 8px;">The definitions in this Field Guide draw on standard reference works in vertebrate palaeontology and on the formal codes and frameworks that govern taxonomic and phylogenetic practice. For deeper reading:</p>
           <ol>
             <li>Weishampel, D. B., Dodson, P. &amp; Osmólska, H. (eds.) (2004). <cite>The Dinosauria</cite> (2nd ed.). University of California Press.</li>
             <li>Benton, M. J. (2014). <cite>Vertebrate Palaeontology</cite> (4th ed.). Wiley-Blackwell.</li>
@@ -5181,6 +5800,7 @@
 <script src="data/nhm-imported-dinosaurs.js"></script>
 <script src="data/pbdb-enrichment.js"></script>
 <script src="data/wiki-enrichment.js"></script>
+<script src="data/content-overrides.js"></script>
 <script>
 const SOURCE_BASE = 'https://www.nhm.ac.uk/discover/dino-directory/';
 const DK_GUIDE_URL = 'https://www.nhm.ac.uk/discover/dinosaurs.html';
@@ -10418,15 +11038,209 @@ Object.assign(RICH_CONTENT, {
 
 });
 
+// ── CONTENT AUDIT REWRITE BATCH 1 ─────────────────────────────
+Object.assign(RICH_CONTENT, {
+  emausaurus: {
+    overview:[
+      'Emausaurus was a small early armoured dinosaur from northern Germany, known from Toarcian rocks of the Early Jurassic. It sits close to the base of Thyreophora, the lineage that later produced stegosaurs and ankylosaurs, so even fragmentary material is useful for understanding how dinosaur body armour first evolved.',
+      'The fossil record is limited, but the animal is important because it is the only formally named dinosaur from its local Toarcian zone and one of the few early Jurassic thyreophorans from Europe. PBDB records it from Mecklenburg-Vorpommern, while Wikipedia notes the Lehmhagen Member as the source unit.'
+    ],
+    fossilSites:[
+      { name:'Lehmhagen Member', region:'Mecklenburg-Vorpommern, Germany', lat:54.1, lon:13.4, note:'Early Jurassic Toarcian deposits; the only named dinosaur from this local zone.' }
+    ],
+    articles:[
+      { title:'Why it matters', body:'Emausaurus helps fill the early history of armoured dinosaurs before the spectacular plates of stegosaurs and heavy ankylosaur armour evolved.' },
+      { title:'Evidence limit', body:'The genus is based on sparse material, so body size, detailed armour arrangement and ecology should be treated cautiously.' }
+    ],
+    citations:[
+      {label:'NHM: Emausaurus profile',url:SOURCE_BASE+'emausaurus.html'},
+      {label:'Wikipedia: Emausaurus',url:'https://en.wikipedia.org/wiki/Emausaurus'},
+      {label:'PBDB: Emausaurus',url:'https://paleobiodb.org/navigator/?taxon_id=64405'}
+    ]
+  },
+  goyocephale: {
+    overview:[
+      'Goyocephale was a small pachycephalosaurian ornithischian from Late Cretaceous Mongolia. Unlike many dome-headed dinosaurs known mainly from skull roofs, it is represented by a disarticulated skeleton including much of the skull, limbs, pelvis and vertebrae, giving a broader view of pachycephalosaur anatomy.',
+      'Its name means "decorated head", combining Mongolian and Greek roots, and the species name honours Owen Lattimore. PBDB records it from Omnogov, Mongolia, but formation-level data still needs manual confirmation in this dataset.'
+    ],
+    fossilSites:[
+      { name:'Mongolian Late Cretaceous deposits', region:'Omnogov, Mongolia', lat:43.5, lon:104.0, note:'PBDB records the genus from Omnogov; formation-level context is not yet resolved in the local enrichment.' }
+    ],
+    articles:[
+      { title:'Why it matters', body:'Goyocephale gives useful postcranial information for pachycephalosaurs, a group often represented by skull domes rather than fuller skeletons.' },
+      { title:'Evidence limit', body:'The local PBDB record lacks formation detail, so ecological comparisons should stay regional until the source locality is manually verified.' }
+    ],
+    citations:[
+      {label:'NHM: Goyocephale profile',url:SOURCE_BASE+'goyocephale.html'},
+      {label:'Wikipedia: Goyocephale',url:'https://en.wikipedia.org/wiki/Goyocephale'},
+      {label:'PBDB: Goyocephale',url:'https://paleobiodb.org/navigator/?taxon_id=38794'}
+    ]
+  },
+  nedoceratops: {
+    overview:[
+      'Nedoceratops is one of the most controversial ceratopsid names in the wiki. It is based on a single skull from the Lance Formation of Wyoming and has been interpreted either as a distinct chasmosaurine genus or as an unusual individual of Triceratops.',
+      'That uncertainty is the point of the profile: Nedoceratops is less a well-sampled animal than a case study in how palaeontologists decide whether differences in horns, frills and skull openings represent species, growth stage, injury or individual variation.'
+    ],
+    fossilSites:[
+      { name:'Lance Formation', region:'Wyoming, USA', lat:43.0, lon:-105.5, note:'Latest Cretaceous unit cited for the single skull historically assigned to Nedoceratops.' }
+    ],
+    articles:[
+      { title:'Why it matters', body:'The genus sits at the centre of debates over Triceratops variation and whether some named ceratopsids are distinct taxa or unusual specimens.' },
+      { title:'Taxonomic caution', body:'Treat Nedoceratops as provisionally distinct in the catalogue, but read its profile as a taxonomic problem rather than a stable, well-sampled dinosaur.' }
+    ],
+    citations:[
+      {label:'NHM: Nedoceratops profile',url:SOURCE_BASE+'nedoceratops.html'},
+      {label:'Wikipedia: Nedoceratops',url:'https://en.wikipedia.org/wiki/Nedoceratops'},
+      {label:'PBDB: Nedoceratops',url:'https://paleobiodb.org/navigator/?taxon_id=139255'}
+    ]
+  },
+  achelousaurus: {
+    overview:[
+      'Achelousaurus was a centrosaurine ceratopsid from Late Cretaceous Montana, named for the shape-changing Greek river deity Achelous. It had a thickened nasal boss rather than a long nasal horn, placing it among the unusual short-frilled ceratopsids close to Pachyrhinosaurus.',
+      'The genus is known from a small number of skull-dominated specimens from the Two Medicine Formation. Its anatomy is important because it may document part of an evolutionary sequence among centrosaurines in Montana, linking horned forms such as Einiosaurus with the boss-nosed condition seen in Pachyrhinosaurus.'
+    ],
+    fossilSites:[
+      { name:'Two Medicine Formation', region:'Montana, USA', lat:47.7, lon:-112.7, note:'Campanian deposits preserving Achelousaurus and other centrosaurine ceratopsids.' }
+    ],
+    articles:[
+      { title:'Why it matters', body:'Achelousaurus is useful for studying horn and nasal-boss evolution in centrosaurines, one of the most visually specialised ceratopsid lineages.' },
+      { title:'Evidence limit', body:'PBDB currently samples only a small number of occurrences, so population-level claims should be avoided.' }
+    ],
+    citations:[
+      {label:'NHM: Achelousaurus profile',url:SOURCE_BASE+'achelousaurus.html'},
+      {label:'Wikipedia: Achelousaurus',url:'https://en.wikipedia.org/wiki/Achelousaurus'},
+      {label:'PBDB: Achelousaurus',url:'https://paleobiodb.org/navigator/?taxon_id=53956'}
+    ]
+  },
+  achillobator: {
+    overview:[
+      'Achillobator was a large dromaeosaurid from the Late Cretaceous of Mongolia, known from the Baynshire Formation. At roughly five metres long in the NHM dataset, it was far larger than the small bird-like dromaeosaurs often used to represent the group.',
+      'The genus is important because it shows that dromaeosaurids were not just small agile predators: some lineages produced robust, large-bodied hunters. PBDB records a single sampled occurrence from Dornogov, so its abundance and precise ecological role remain uncertain.'
+    ],
+    fossilSites:[
+      { name:'Baynshire Formation', region:'Dornogov, Mongolia', lat:44.0, lon:109.0, note:'Cenomanian record for the type material of this large dromaeosaurid.' }
+    ],
+    articles:[
+      { title:'Why it matters', body:'Achillobator broadens the ecological range of dromaeosaurs, showing that the sickle-clawed lineage included sizeable predators as well as small bird-like forms.' },
+      { title:'Evidence limit', body:'The known material is limited, so reconstructions depend heavily on comparison with better-known dromaeosaurids.' }
+    ],
+    citations:[
+      {label:'NHM: Achillobator profile',url:SOURCE_BASE+'achillobator.html'},
+      {label:'Wikipedia: Achillobator',url:'https://en.wikipedia.org/wiki/Achillobator'},
+      {label:'PBDB: Achillobator',url:'https://paleobiodb.org/navigator/?taxon_id=68417'}
+    ]
+  }
+});
+
+Object.assign(RICH_CONTENT, {
+  aegyptosaurus: {
+    overview:[
+      'Aegyptosaurus was a titanosaurian sauropod from Cretaceous North Africa. The wiki dataset records it from Egypt and Niger, and PBDB links it to several units including the Baharije Formation and Tegama-related deposits.',
+      'Its scientific history is shaped by loss as much as discovery: early North African dinosaur material described by Ernst Stromer was heavily affected by wartime destruction. As a result, Aegyptosaurus remains a useful but incomplete signal of sauropod diversity in northern Africa.'
+    ],
+    fossilSites:[
+      { name:'Baharije Formation', region:'Matruh, Egypt', lat:29.2, lon:25.5, note:'PBDB-listed Egyptian record for Aegyptosaurus.' },
+      { name:'Tegama-related deposits', region:'Niger', lat:16.5, lon:8.0, note:'PBDB lists Nigerien records from Tegama and associated units.' }
+    ],
+    articles:[
+      { title:'Why it matters', body:'Aegyptosaurus helps document African titanosaur distribution before the latest Cretaceous, even though its material is incomplete.' },
+      { title:'Evidence limit', body:'Because historical material was lost and the taxon is not represented by abundant complete skeletons, size and anatomy should be treated as approximate.' }
+    ],
+    citations:[
+      {label:'NHM: Aegyptosaurus profile',url:SOURCE_BASE+'aegyptosaurus.html'},
+      {label:'Wikipedia: Aegyptosaurus',url:'https://en.wikipedia.org/wiki/Aegyptosaurus'},
+      {label:'PBDB: Aegyptosaurus',url:'https://paleobiodb.org/navigator/?taxon_id=38681'}
+    ]
+  },
+  afrovenator: {
+    overview:[
+      'Afrovenator was a megalosaurid theropod from Niger, named by Paul Sereno and colleagues in 1994. The local data places it in the Early Cretaceous, while PBDB records Tiouraren and Irhazer-related formations and a wider Middle-to-Late Jurassic age signal that should be treated as needing stratigraphic review.',
+      'It is one of the key named large theropods from the Sahara region and is especially useful for comparing African predator faunas with European megalosaurids and later Gondwanan giant theropods.'
+    ],
+    fossilSites:[
+      { name:'Tiouraren / Irhazer formations', region:'Agadez region, Niger', lat:16.9, lon:8.0, note:'PBDB-listed source units for Afrovenator material in Niger.' }
+    ],
+    articles:[
+      { title:'Why it matters', body:'Afrovenator gives North Africa a named mid-Mesozoic large theropod outside the better-known later spinosaurid and carcharodontosaurid faunas.' },
+      { title:'Stratigraphic caution', body:'The NHM period label and PBDB age range do not perfectly align, so the profile should flag the age as a point for manual source review.' }
+    ],
+    citations:[
+      {label:'NHM: Afrovenator profile',url:SOURCE_BASE+'afrovenator.html'},
+      {label:'Wikipedia: Afrovenator',url:'https://en.wikipedia.org/wiki/Afrovenator'},
+      {label:'PBDB: Afrovenator',url:'https://paleobiodb.org/navigator/?taxon_id=56398'}
+    ]
+  },
+  alectrosaurus: {
+    overview:[
+      'Alectrosaurus was a mid-sized tyrannosauroid from Late Cretaceous Asia. PBDB records a broad Central Asian distribution including Inner Mongolia, Kazakhstan, Uzbekistan and Tajikistan, with formations such as Iren Dabasu, Bissekty, Khodzhakul and Bostobe.',
+      'Its importance lies in the pre-Tyrannosaurus phase of tyrannosauroid history: Alectrosaurus documents a more gracile, geographically widespread Asian predator before the deepest-skulled tyrannosaurids dominated latest Cretaceous ecosystems.'
+    ],
+    fossilSites:[
+      { name:'Iren Dabasu Formation', region:'Inner Mongolia, China', lat:43.6, lon:111.7, note:'One of several PBDB-listed formations for Alectrosaurus-like tyrannosauroid material.' },
+      { name:'Bissekty and Khodzhakul formations', region:'Uzbekistan', lat:42.0, lon:62.0, note:'Central Asian records contributing to the broad PBDB range for the taxon.' }
+    ],
+    articles:[
+      { title:'Why it matters', body:'Alectrosaurus helps bridge the gap between early tyrannosauroids and the later giant tyrannosaurids of Asia and North America.' },
+      { title:'Evidence limit', body:'The PBDB occurrence spread is broad, so some referred material may need taxonomic review rather than being treated as equally secure.' }
+    ],
+    citations:[
+      {label:'NHM: Alectrosaurus profile',url:SOURCE_BASE+'alectrosaurus.html'},
+      {label:'Wikipedia: Alectrosaurus',url:'https://en.wikipedia.org/wiki/Alectrosaurus'},
+      {label:'PBDB: Alectrosaurus',url:'https://paleobiodb.org/navigator/?taxon_id=38610'}
+    ]
+  },
+  anchiceratops: {
+    overview:[
+      'Anchiceratops was a chasmosaurine ceratopsid from Alberta, Canada, living near the end of the Cretaceous. It had the familiar chasmosaurine plan of long brow horns and a large frill, with a rectangular frill margin ornamented by coarse triangular projections.',
+      'About a dozen skulls have been attributed to the genus, making it better represented than many of the imported profiles. PBDB lists records from the Horseshoe Canyon / Edmonton and St. Mary River formations, spanning late Campanian to early Maastrichtian time.'
+    ],
+    fossilSites:[
+      { name:'Horseshoe Canyon / Edmonton formations', region:'Alberta, Canada', lat:51.5, lon:-112.8, note:'PBDB-listed source units for Anchiceratops records.' },
+      { name:'St. Mary River Formation', region:'Alberta, Canada', lat:49.5, lon:-113.0, note:'Additional PBDB-listed formation in the regional record.' }
+    ],
+    articles:[
+      { title:'Why it matters', body:'Anchiceratops documents chasmosaurine diversity after the classic Dinosaur Park Formation faunas and before the final Triceratops-dominated latest Cretaceous.' },
+      { title:'Evidence strength', body:'Skull material is comparatively good, but postcranial anatomy and population biology remain less clear than in better-sampled ceratopsids.' }
+    ],
+    citations:[
+      {label:'NHM: Anchiceratops profile',url:SOURCE_BASE+'anchiceratops.html'},
+      {label:'Wikipedia: Anchiceratops',url:'https://en.wikipedia.org/wiki/Anchiceratops'},
+      {label:'PBDB: Anchiceratops',url:'https://paleobiodb.org/navigator/?taxon_id=38852'}
+    ]
+  },
+  anchisaurus: {
+    overview:[
+      'Anchisaurus was a small early sauropodomorph from the Early Jurassic of northeastern North America. It lived before the gigantic sauropods, at a stage when sauropodomorphs were still relatively light-bodied animals that could move actively on land.',
+      'The genus has a tangled naming history, replacing earlier names that were already occupied. PBDB records it from the Portland / Agawam unit in Connecticut and Massachusetts, making it part of the early Jurassic rift-basin dinosaur record of eastern North America.'
+    ],
+    fossilSites:[
+      { name:'Portland / Agawam Formation', region:'Connecticut and Massachusetts, USA', lat:41.8, lon:-72.7, note:'PBDB-listed Early Jurassic source unit for Anchisaurus.' }
+    ],
+    articles:[
+      { title:'Why it matters', body:'Anchisaurus captures sauropodomorphs before the full sauropod body plan: still small, active and close to the evolutionary transition toward giant quadrupedal herbivores.' },
+      { title:'Naming history', body:'Its history includes replacement names and taxonomic housekeeping, a reminder that early North American dinosaur nomenclature was often unstable.' }
+    ],
+    citations:[
+      {label:'NHM: Anchisaurus profile',url:SOURCE_BASE+'anchisaurus.html'},
+      {label:'Wikipedia: Anchisaurus',url:'https://en.wikipedia.org/wiki/Anchisaurus'},
+      {label:'PBDB: Anchisaurus',url:'https://paleobiodb.org/navigator/?taxon_id=38637'}
+    ]
+  }
+});
+
+Object.entries(window.CONTENT_OVERRIDES || {}).forEach(([id, profile]) => {
+  if (!RICH_CONTENT[id]) RICH_CONTENT[id] = profile;
+});
+
 // ── DASHBOARD ───────────────────────────────────────────────────
 
 const MESO_PERIODS = [
-  { id:'Late Triassic',    label:'Late Triassic',    ma:'252–201 million years ago', col:'#1f9b78', cls:'p-triassic',          w:18 },
-  { id:'Early Jurassic',   label:'Early Jurassic',   ma:'201–174 million years ago', col:'#3b93c5', cls:'p-early-jurassic',   w:10 },
-  { id:'Mid Jurassic',     label:'Mid Jurassic',     ma:'174–163 million years ago', col:'#2d84c7', cls:'p-mid-jurassic',     w:6 },
-  { id:'Late Jurassic',    label:'Late Jurassic',    ma:'163–145 million years ago', col:'#1a6aad', cls:'p-late-jurassic',    w:12 },
-  { id:'Early Cretaceous', label:'Early Cretaceous', ma:'145–101 million years ago', col:'#c05a31', cls:'p-early-cretaceous', w:16 },
-  { id:'Late Cretaceous',  label:'Late Cretaceous',  ma:'101–66 million years ago',  col:'#9c3d1e', cls:'p-late-cretaceous',  w:14 },
+  { id:'Late Triassic',    label:'Late Triassic',    ma:'252–201 million years ago', col:'#1f9b78', cls:'p-triassic',          w:18, signal:'Origin of early dinosaur lineages' },
+  { id:'Early Jurassic',   label:'Early Jurassic',   ma:'201–174 million years ago', col:'#3b93c5', cls:'p-early-jurassic',   w:10, signal:'Expansion after the end-Triassic extinction' },
+  { id:'Mid Jurassic',     label:'Mid Jurassic',     ma:'174–163 million years ago', col:'#2d84c7', cls:'p-mid-jurassic',     w:6, signal:'Important but patchier body-fossil record' },
+  { id:'Late Jurassic',    label:'Late Jurassic',    ma:'163–145 million years ago', col:'#1a6aad', cls:'p-late-jurassic',    w:12, signal:'Classic sauropod, stegosaur and theropod faunas' },
+  { id:'Early Cretaceous', label:'Early Cretaceous', ma:'145–101 million years ago', col:'#c05a31', cls:'p-early-cretaceous', w:16, signal:'Regional faunas and feathered dinosaur records' },
+  { id:'Late Cretaceous',  label:'Late Cretaceous',  ma:'101–66 million years ago',  col:'#9c3d1e', cls:'p-late-cretaceous',  w:14, signal:'Peak sampled diversity before the K-Pg extinction' },
 ];
 const PERIOD_W_TOTAL = MESO_PERIODS.reduce((s,p)=>s+p.w,0);
 
@@ -10437,20 +11251,20 @@ function periodColor(period) {
 // Events with pre-assigned rows: a=top, b=mid, c=bottom
 // Spread across 3 rows so nothing overlaps at any typical viewport
 const EVENTS = [
-  { ma:252, label:'Permian extinction',          cls:'extinction', row:'a', url:'https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event' },
-  { ma:230, label:'First dinosaurs',             cls:'',           row:'b', url:'https://en.wikipedia.org/wiki/Dinosaur#Evolutionary_history' },
-  { ma:225, label:'First mammals',               cls:'',           row:'c', url:'https://en.wikipedia.org/wiki/Evolution_of_mammals' },
-  { ma:215, label:'Pangaea begins to split',     cls:'',           row:'b', url:'https://en.wikipedia.org/wiki/Pangaea' },
-  { ma:201, label:'Triassic extinction',         cls:'extinction', row:'a', url:'https://en.wikipedia.org/wiki/Triassic%E2%80%93Jurassic_extinction_event' },
-  { ma:180, label:'Atlantic Ocean opens',        cls:'',           row:'c', url:'https://en.wikipedia.org/wiki/Opening_of_the_North_Atlantic_Ocean' },
-  { ma:165, label:'First feathered dinosaurs',   cls:'',           row:'b', url:'https://en.wikipedia.org/wiki/Feathered_dinosaur' },
-  { ma:155, label:'Morrison Formation fauna',    cls:'',           row:'c', url:'https://en.wikipedia.org/wiki/Morrison_Formation' },
-  { ma:150, label:'First birds',                 cls:'',           row:'a', url:'https://en.wikipedia.org/wiki/Origin_of_birds' },
-  { ma:130, label:'Gondwana breaks up',          cls:'',           row:'b', url:'https://en.wikipedia.org/wiki/Gondwana' },
-  { ma:125, label:'Flowering plants appear',     cls:'',           row:'c', url:'https://en.wikipedia.org/wiki/Fossil_history_of_flowering_plants' },
-  { ma:100, label:'Peak dinosaur diversity',     cls:'',           row:'a', url:'https://en.wikipedia.org/wiki/Dinosaur#Evolutionary_history' },
-  { ma:80,  label:'Giant hadrosaur herds',       cls:'',           row:'b', url:'https://en.wikipedia.org/wiki/Hadrosauridae' },
-  { ma:66,  label:'K-Pg extinction',             cls:'extinction', row:'c', url:'https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction_event' },
+  { ma:252, label:'Permian extinction',          cls:'extinction', row:'a', url:'https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event', note:'The largest known mass extinction reset terrestrial and marine ecosystems before dinosaur origins.' },
+  { ma:230, label:'First dinosaurs',             cls:'',           row:'b', url:'https://en.wikipedia.org/wiki/Dinosaur#Evolutionary_history', note:'The earliest dinosaurs appeared within archosaur-dominated Late Triassic ecosystems.' },
+  { ma:225, label:'First mammals',               cls:'',           row:'c', url:'https://en.wikipedia.org/wiki/Evolution_of_mammals', note:'Early mammaliaforms evolved alongside dinosaurs rather than after them.' },
+  { ma:215, label:'Pangaea begins to split',     cls:'',           row:'b', url:'https://en.wikipedia.org/wiki/Pangaea', note:'Rifting started to reshape habitats, dispersal routes and fossil-bearing basins.' },
+  { ma:201, label:'Triassic extinction',         cls:'extinction', row:'a', url:'https://en.wikipedia.org/wiki/Triassic%E2%80%93Jurassic_extinction_event', note:'This extinction removed many competing reptile groups and helped dinosaurs expand in the Jurassic.' },
+  { ma:180, label:'Atlantic Ocean opens',        cls:'',           row:'c', url:'https://en.wikipedia.org/wiki/Opening_of_the_North_Atlantic_Ocean', note:'The young Atlantic marked a major stage in the separation of Laurasia and Gondwana.' },
+  { ma:165, label:'First feathered dinosaurs',   cls:'',           row:'b', url:'https://en.wikipedia.org/wiki/Feathered_dinosaur', note:'Feathers show that insulation, display and flight-related structures evolved within theropods.' },
+  { ma:155, label:'Morrison Formation fauna',    cls:'',           row:'c', url:'https://en.wikipedia.org/wiki/Morrison_Formation', note:'A classic Late Jurassic record preserving sauropods, stegosaurs, ornithopods and large theropods.' },
+  { ma:150, label:'First birds',                 cls:'',           row:'a', url:'https://en.wikipedia.org/wiki/Origin_of_birds', note:'Bird-line theropods show the evolutionary transition from non-avian dinosaurs to avialans.' },
+  { ma:130, label:'Gondwana breaks up',          cls:'',           row:'b', url:'https://en.wikipedia.org/wiki/Gondwana', note:'Southern continents became more isolated, encouraging regional dinosaur faunas.' },
+  { ma:125, label:'Flowering plants appear',     cls:'',           row:'c', url:'https://en.wikipedia.org/wiki/Fossil_history_of_flowering_plants', note:'Angiosperms became an increasingly important part of Cretaceous terrestrial ecosystems.' },
+  { ma:100, label:'Peak dinosaur diversity',     cls:'',           row:'a', url:'https://en.wikipedia.org/wiki/Dinosaur#Evolutionary_history', note:'The Cretaceous fossil record preserves many highly regional dinosaur communities.' },
+  { ma:80,  label:'Giant hadrosaur herds',       cls:'',           row:'b', url:'https://en.wikipedia.org/wiki/Hadrosauridae', note:'Hadrosaurs became major large herbivores in many Late Cretaceous ecosystems.' },
+  { ma:66,  label:'K-Pg extinction',             cls:'extinction', row:'c', url:'https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction_event', note:'The asteroid-linked mass extinction ended non-avian dinosaurs; birds survived as living dinosaurs.' },
 ];
 
 const GEO_SCALE = [
@@ -10500,10 +11314,10 @@ const PALEO_IMAGES = {
     alt:'Mollweide paleogeographic map of Earth 170 million years ago in the Bajocian Age'
   },
   'early-jurassic': {
-    src:'https://commons.wikimedia.org/wiki/Special:FilePath/Mollweide%20Paleographic%20Map%20of%20Earth%2C%20170%20Ma%20%28Bajocian%20Age%29.png?width=900',
+    src:'https://commons.wikimedia.org/wiki/Special:FilePath/Mollweide%20Paleographic%20Map%20of%20Earth%2C%20190%20Ma%20%28Pliensbachian%20Age%29.png?width=900',
     credit:'PALEOMAP Project / Scotese et al., CC BY 4.0, via Wikimedia Commons',
-    page:'https://commons.wikimedia.org/wiki/File:Mollweide_Paleographic_Map_of_Earth,_170_Ma_(Bajocian_Age).png',
-    alt:'Jurassic paleogeographic map used as regional context for the Early Jurassic interval'
+    page:'https://commons.wikimedia.org/wiki/File:Mollweide_Paleographic_Map_of_Earth,_190_Ma_(Pliensbachian_Age).png',
+    alt:'Mollweide paleogeographic map of Earth 190 million years ago in the Pliensbachian Age'
   },
   'late-jurassic': {
     src:'https://commons.wikimedia.org/wiki/Special:FilePath/Mollweide%20Paleographic%20Map%20of%20Earth%2C%20155%20Ma%20%28Oxfordian%20Age%29.png?width=900',
@@ -10664,13 +11478,27 @@ const PERIOD_DETAILS = {
 };
 
 PERIOD_DETAILS['Early Jurassic'] = {
-  ...PERIOD_DETAILS['Mid Jurassic'],
   title:'Early Jurassic',
   age:'201.4–174.7 million years ago',
   accent:'#3b93c5',
-  summary:'The Early Jurassic followed the end-Triassic extinction and records the expansion of dinosaur-dominated terrestrial ecosystems, including diverse early theropods and sauropodomorphs.',
+  summary:'The Early Jurassic followed the end-Triassic mass extinction. Dinosaur faunas expanded into ecosystems where many competing archosaur groups had declined, with early sauropodomorphs, theropods and armoured ornithischians becoming more visible in the fossil record.',
+  paleogeography:'Pangaea was still largely connected, but rifting was underway. The Central Atlantic rift system and associated basins created new sedimentary environments that preserved tracks and body fossils, while Laurasia and Gondwana were beginning a long separation.',
+  climate:'The interval began with environmental disturbance linked to the Triassic-Jurassic extinction. Later Early Jurassic climates were generally warm, but the record includes major fluctuations, including the Toarcian Oceanic Anoxic Event near the end of the epoch.',
+  fossilSignal:'Early Jurassic dinosaur records include important trackways and body fossils from rift basins and floodplain deposits. The wiki sample is smaller than the Late Jurassic and Cretaceous, so it should be read as a recovery-and-expansion signal rather than a complete census.',
   figureTitle:'Early Jurassic continental context',
-  figure:'early-jurassic'
+  figureCopy:'This 190 Ma Pliensbachian reconstruction sits within the Early Jurassic. It shows a world where Pangaea was still recognisable, but rifting and new basins were already changing dispersal routes, habitats and fossil preservation.',
+  figure:'early-jurassic',
+  points:[
+    'The end-Triassic extinction opened ecological space for dinosaurs to become more dominant on land.',
+    'Early Jurassic records are especially important for tracking the transition from early dinosaur origins to later Jurassic diversity.',
+    'Rift basins and track-bearing deposits can preserve abundant evidence even where complete skeletons are scarce.'
+  ],
+  sources:[
+    { label:'ICS Jurassic stages', url:'https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf' },
+    { label:'Early Jurassic overview', url:'https://en.wikipedia.org/wiki/Early_Jurassic' },
+    { label:'NPS Jurassic dinosaurs', url:'https://home.nps.gov/subjects/fossils/jurassic-dinosaurs.htm' },
+    { label:'Jurassic Pangaea breakup record', url:'https://nora.nerc.ac.uk/id/eprint/539114/' }
+  ]
 };
 PERIOD_DETAILS['Mid Jurassic'] = {
   ...PERIOD_DETAILS['Mid Jurassic'],
@@ -10818,21 +11646,28 @@ function renderPeriodPreview(pid) {
   section.appendChild(scroll);
 }
 
-function buildDashboard() {
+function buildHomeOverview() {
+  renderCollectionOverview();
+  buildGeoContext();
+}
+
+let periodViewBuilt = false;
+function buildPeriodView() {
+  if (periodViewBuilt) return;
+  periodViewBuilt = true;
   buildPills();
   buildEraBar();
   buildPeriodRow();
   buildStageRow();
   buildEvents();
   // Apply initial hidden state to match eventsVisible = false
-  document.getElementById('dashboard').classList.add('events-hidden');
+  document.getElementById('period-dashboard').classList.add('events-hidden');
   renderPeriodInfo('all');
   renderPeriodPreview('all');
-  buildGeoContext();
   const eventsToggle = document.getElementById('dash-events-toggle');
   if (eventsToggle) eventsToggle.addEventListener('click', () => {
     eventsVisible = !eventsVisible;
-    document.getElementById('dashboard').classList.toggle('events-hidden', !eventsVisible);
+    document.getElementById('period-dashboard').classList.toggle('events-hidden', !eventsVisible);
     eventsToggle.classList.toggle('active', eventsVisible);
   });
   const compareToggle = document.getElementById('dash-compare-toggle');
@@ -10863,6 +11698,7 @@ function buildPills() {
 }
 
 function setPeriod(pid) {
+  resetCatalogBatch();
   document.querySelectorAll('.dash-pill').forEach(b =>
     b.classList.toggle('active', b.dataset.pid === pid));
   document.querySelectorAll('.dash-period-seg').forEach(b => {
@@ -10874,7 +11710,11 @@ function setPeriod(pid) {
   if (sel) sel.value = state.period;
   renderPeriodInfo(pid);
   renderPeriodPreview(pid);
-  renderCards();
+  if (document.getElementById('catalog-view')?.classList.contains('active')) {
+    renderCards();
+  } else {
+    markCatalogDirty();
+  }
 }
 
 function buildEraBar() {
@@ -10890,11 +11730,21 @@ function buildEraBar() {
 function buildPeriodRow() {
   const el = document.getElementById('dash-period-row');
   MESO_PERIODS.forEach(p => {
+    const count = collectionCount('period', p.id);
     const seg = document.createElement('div');
     seg.className = 'dash-period-seg';
     seg.dataset.pid = p.id;
-    seg.style.cssText = `flex:${p.w}; background:linear-gradient(160deg,${p.col}f0,${p.col}80);`;
-    seg.innerHTML = `<div class="dash-period-seg-name">${p.label}</div><div class="dash-period-seg-ma">${p.ma}</div>`;
+    seg.style.cssText = `flex:${p.w}; --period-col:${p.col};`;
+    seg.innerHTML = `
+      <div>
+        <div class="dash-period-seg-name">${p.label}</div>
+        <div class="dash-period-seg-ma">${p.ma}</div>
+      </div>
+      <div>
+        <div class="dash-period-seg-count">${count}</div>
+        <div class="dash-period-seg-signal">${p.signal}</div>
+      </div>`;
+    seg.addEventListener('click', () => setPeriod(p.id));
     el.appendChild(seg);
   });
 }
@@ -10919,18 +11769,23 @@ function buildStageRow() {
     group.style.flex = period.w;
     const rawTotal = stages.reduce((sum, s) => sum + stageFlex(s.age), 0);
     stages.forEach(stage => {
-      const btn = document.createElement('button');
-      btn.className = 'dash-stage';
-      btn.type = 'button';
+      const link = document.createElement('a');
+      link.className = 'dash-stage';
+      link.href = stageWikiUrl(stage.name);
+      link.target = '_blank';
+      link.rel = 'noreferrer';
       const f = Math.max(2, +(stageFlex(stage.age) / rawTotal * 100).toFixed(2));
-      btn.style.cssText = `flex:${f}; --stage-col:${period.col};`;
-      btn.setAttribute('aria-label', `${stage.name}, ${stage.age}. ${stage.note}`);
-      btn.innerHTML = `<span class="dash-stage-abbr">${stage.abbr}</span><span class="dash-stage-tip"><strong>${stage.name}</strong>${stage.age}<br>${stage.note}</span>`;
-      btn.style.pointerEvents = 'none';
-      group.appendChild(btn);
+      link.style.cssText = `flex:${f}; --stage-col:${period.col};`;
+      link.setAttribute('aria-label', `Open Wikipedia page for ${stage.name}, ${stage.age}. ${stage.note}`);
+      link.innerHTML = `<span class="dash-stage-abbr">${stage.abbr}</span><span class="dash-stage-tip"><strong>${stage.name}</strong>${stage.age}<br>${stage.note}<br><em>Open Wikipedia</em></span>`;
+      group.appendChild(link);
     });
     el.appendChild(group);
   });
+}
+
+function stageWikiUrl(name) {
+  return `https://en.wikipedia.org/wiki/${encodeURIComponent(name.replaceAll(' ', '_'))}`;
 }
 
 function stageFlex(age) {
@@ -11110,7 +11965,7 @@ function buildGlancePanels() {
       <div style="margin-top:10px;padding:11px 13px;border-radius:8px;background:var(--surface-3);border-left:3px solid #c0622f">
         <div style="font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--text-3);margin-bottom:5px">Reading this diagram</div>
         <div style="font-size:11px;color:var(--text-2);line-height:1.65">
-          Read left to right as time and right as branching relationships: a split marks where two groups last shared a common ancestor, and the horizontal bars show roughly how long each lineage persisted. Notice how few groups existed in the Triassic compared with the sheer diversity unlocked by the Cretaceous — and how <strong style="color:var(--text)">Aves (birds)</strong>, nested deep within the dromaeosaur-adjacent theropods, are simply the one branch of this tree that never stopped growing. See <em>What is a phylogenetic tree?</em> in the Glossary for how to read branching diagrams like this one, or open the <strong style="color:var(--text)">Phylogenetic Tree</strong> view below for the wiki's full interactive cladogram.
+          Read left to right as time and right as branching relationships: a split marks where two groups last shared a common ancestor, and the horizontal bars show roughly how long each lineage persisted. Notice how few groups existed in the Triassic compared with the sheer diversity unlocked by the Cretaceous — and how <strong style="color:var(--text)">Aves (birds)</strong>, nested deep within the dromaeosaur-adjacent theropods, are simply the one branch of this tree that never stopped growing. See <em>What is a phylogenetic tree?</em> in the Field Guide for how to read branching diagrams like this one, or open the <strong style="color:var(--text)">Phylogenetic Tree</strong> view below for the wiki's full interactive cladogram.
         </div>
       </div>
     </div>
@@ -11167,11 +12022,26 @@ function buildGlancePanels() {
       <div style="margin-top:10px;padding:11px 13px;border-radius:8px;background:var(--surface-3);border-left:3px solid #5c9e6e">
         <div style="font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--text-3);margin-bottom:5px">A note on these "records"</div>
         <div style="font-size:11px;color:var(--text-2);line-height:1.65">
-          These are records of <em>preservation and study</em>, not necessarily of biology — the longest, heaviest or most-recorded genus is simply the one that happened to fossilise well, get found, and get described. A larger, older, or more abundant animal may be sitting undiscovered in the rock right now. See <em>How do fossils form?</em> in the Glossary — it explains why the fossil record is incomplete, and how to interpret that fairly.
+          These are records of <em>preservation and study</em>, not necessarily of biology — the longest, heaviest or most-recorded genus is simply the one that happened to fossilise well, get found, and get described. A larger, older, or more abundant animal may be sitting undiscovered in the rock right now. See <em>How do fossils form?</em> in the Field Guide — it explains why the fossil record is incomplete, and how to interpret that fairly.
         </div>
       </div>
     </div>
   </div>`;
+}
+
+function renderCollectionOverview() {
+  const overview = document.getElementById('collection-overview');
+  if (!overview) return;
+  overview.innerHTML = `
+    <div class="period-world-head" style="border-left:4px solid #6b8e6e;padding-left:14px">
+      <div>
+        <div class="section-eyebrow" style="font-size:9px;font-weight:850;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3);margin-bottom:4px">Collection overview · ${DINOS.length} genera</div>
+        <div class="section-heading" style="font-size:22px;font-weight:800;line-height:1.15">The collection at a glance</div>
+        <p style="margin-top:8px;font-size:13px;color:var(--text-2);line-height:1.7;max-width:780px">These charts summarise the wiki dataset itself: how the ${DINOS.length} genera are distributed by period, clade, diet, geography and body size. Treat them as collection coverage, not a perfect picture of real dinosaur diversity.</p>
+      </div>
+      <div class="period-world-meta">Dataset structure</div>
+    </div>
+    ${buildGlancePanels()}`;
 }
 
 function renderPeriodInfo(pid = 'all') {
@@ -11179,19 +12049,37 @@ function renderPeriodInfo(pid = 'all') {
   const world = document.getElementById('period-world');
   if (!el || !world) return;
 
-  // When "All periods" is selected — put the overview in the world panel (full-width), hide the dossier
   if (pid === 'all') {
-    el.innerHTML = '';  // hide dossier
+    const detail = PERIOD_DETAILS.all;
+    const paleoImage = PALEO_IMAGES[detail.figure] || PALEO_IMAGES.all;
+    el.innerHTML = '';
     world.innerHTML = `
-      <div class="period-world-head" style="border-left:4px solid #6b8e6e;padding-left:14px">
+      <div class="period-world-head" style="border-left:4px solid ${detail.accent};padding-left:14px">
         <div>
-          <div class="section-eyebrow" style="font-size:9px;font-weight:850;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3);margin-bottom:4px">Collection overview · ${DINOS.length} species</div>
-          <div class="section-heading" style="font-size:22px;font-weight:800;line-height:1.15">The collection at a glance</div>
-          <p style="margin-top:8px;font-size:13px;color:var(--text-2);line-height:1.7;max-width:780px">${DINOS.length} non-avian dinosaur genera drawn from the full span of the Mesozoic. Select a period above to filter the collection by geological interval and see its paleogeographic map and climate context.</p>
+          <div class="section-eyebrow" style="font-size:9px;font-weight:850;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3);margin-bottom:4px">${detail.title} · ${detail.age}</div>
+          <div class="section-heading" style="font-size:22px;font-weight:800;line-height:1.15">How to read the Mesozoic timeline</div>
+          <p style="margin-top:8px;font-size:13px;color:var(--text-2);line-height:1.7;max-width:820px">${detail.summary}</p>
         </div>
         <div class="period-world-meta">252–66 Ma · Mesozoic Era</div>
       </div>
-      ${buildGlancePanels()}`;
+      <div style="display:grid;grid-template-columns:minmax(360px,1.1fr) minmax(280px,.9fr);gap:14px;align-items:stretch">
+        <div style="border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:var(--surface-2)">
+          <img src="${paleoImage.src}" alt="${paleoImage.alt}" loading="lazy" style="width:100%;height:280px;object-fit:cover;display:block">
+          <div style="padding:8px 10px;border-top:1px solid var(--line)">
+            <div style="font-size:10px;color:var(--text-3);line-height:1.4">${paleoImage.credit} · <a href="${paleoImage.page}" target="_blank" rel="noreferrer" style="color:var(--text-3);text-decoration:underline;text-underline-offset:2px">Source</a></div>
+          </div>
+        </div>
+        <div style="display:grid;gap:10px">
+          ${[
+            ['Continental context', detail.paleogeography],
+            ['Climate frame', detail.climate],
+            ['Fossil-record caution', detail.fossilSignal]
+          ].map(([label, copy]) => `<div style="border:1px solid var(--line);border-radius:var(--radius);padding:12px;background:var(--surface-2)">
+            <div style="font-size:9px;font-weight:850;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3);margin-bottom:6px">${label}</div>
+            <p style="font-size:12.5px;color:var(--text-2);line-height:1.65;margin:0">${copy}</p>
+          </div>`).join('')}
+        </div>
+      </div>`;
     return;
   }
   const detail = PERIOD_DETAILS[pid] || PERIOD_DETAILS.all;
@@ -11218,7 +12106,7 @@ function renderPeriodInfo(pid = 'all') {
         </div>
         <div style="text-align:right;flex-shrink:0">
           <div style="font-size:28px;font-weight:800;color:${detail.accent};line-height:1">${periodDinos.length}</div>
-          <div style="font-size:10px;color:var(--text-3);text-transform:uppercase;letter-spacing:.08em;margin-top:2px">species</div>
+          <div style="font-size:10px;color:var(--text-3);text-transform:uppercase;letter-spacing:.08em;margin-top:2px">genera</div>
           <div style="font-size:10px;color:var(--text-3);margin-top:2px">in this collection</div>
         </div>
       </div>
@@ -11297,8 +12185,11 @@ function buildEvents() {
       link.target = '_blank';
       link.rel = 'noreferrer';
       link.title = `${ev.label} — ${ev.ma} million years ago`;
-      link.setAttribute('aria-label', `${ev.label}, ${ev.ma} million years ago. Opens Wikipedia.`);
-      link.innerHTML = `<div class="dash-event-line"></div><div class="dash-event-chip">${ev.label}</div>`;
+      link.setAttribute('aria-label', `${ev.label}, ${ev.ma} million years ago. ${ev.note} Opens Wikipedia.`);
+      link.innerHTML = `
+        <div class="dash-event-tip"><strong>${escapeSvg(ev.label)}</strong><span class="dash-event-tip-meta">${ev.ma} million years ago</span>${escapeSvg(ev.note)}</div>
+        <div class="dash-event-line"></div>
+        <div class="dash-event-chip">${escapeSvg(ev.label)}</div>`;
       wrap.appendChild(link);
     });
 
@@ -11472,6 +12363,12 @@ function formatMass(kg) {
 function nhmClean(value) {
   if (!value || /not listed by nhm/i.test(value)) return '—';
   return value;
+}
+
+function specificLocomotion(value) {
+  const clean = nhmClean(value);
+  if (clean === '—' || /^actively mobile$/i.test(clean)) return '—';
+  return clean;
 }
 
 function qualifiedMeasurement(d, kind) {
@@ -11963,6 +12860,12 @@ function init() {
       jumpToGlossTarget(link.getAttribute('href').slice(1), { block: 'start', offset: 12 });
     });
   });
+  document.querySelectorAll('#glossary-view .field-guide-links a[href^="#"]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      jumpToGlossTarget(link.getAttribute('href').slice(1), { block: 'start', offset: 12 });
+    });
+  });
   // definition-section-head removed (content now in info panels) — guard against null
   const defHead = document.getElementById('definition-section-head');
   if (defHead) {
@@ -12006,15 +12909,22 @@ function init() {
   });
   document.getElementById('search').addEventListener('input', e => {
     state.q = e.target.value.trim().toLowerCase();
+    resetCatalogBatch();
     renderCards();
   });
   document.getElementById('sort-select').addEventListener('change', e => {
     state.sort = e.target.value;
+    resetCatalogBatch();
     renderCards();
   });
   document.getElementById('validity-filter').addEventListener('change', e => {
     state.validity = e.target.value;
+    resetCatalogBatch();
     renderCards();
+  });
+  document.getElementById('catalog-load-btn')?.addEventListener('click', () => {
+    catalogVisibleCount += CATALOG_BATCH_SIZE;
+    renderCards({ preserveScroll: true });
   });
   initCatalogueGuideCollapse();
   initBackToTop();
@@ -12072,15 +12982,49 @@ function init() {
     });
   });
 
-  renderCards();
+  markCatalogDirty();
 }
 
-function setView(view) {
-  ['home', 'catalog', 'map', 'timeline', 'clado', 'glossary'].forEach(v => {
+let catalogRendered = false;
+let catalogDirty = true;
+let routeApplying = false;
+let catalogVisibleCount = 60;
+
+const ROUTE_VIEWS = new Set(['home', 'catalog', 'period', 'map', 'timeline', 'clado', 'glossary']);
+const CATALOG_BATCH_SIZE = 60;
+
+function markCatalogDirty() {
+  catalogDirty = true;
+}
+
+function renderCatalogIfNeeded() {
+  if (!catalogRendered || catalogDirty) renderCards();
+}
+
+function resetCatalogBatch() {
+  catalogVisibleCount = CATALOG_BATCH_SIZE;
+}
+
+function routeForView(view) {
+  return view === 'home' ? '#' : `#${view}`;
+}
+
+function setRoute(hash, mode = 'push') {
+  if (routeApplying) return;
+  const next = hash === '#' ? location.pathname + location.search : hash;
+  if (hash === '#' && !location.hash) return;
+  if (location.hash === hash) return;
+  history[mode === 'replace' ? 'replaceState' : 'pushState'](null, '', next);
+}
+
+function setView(view, options = {}) {
+  if (!ROUTE_VIEWS.has(view)) view = 'home';
+  ['home', 'catalog', 'period', 'map', 'timeline', 'clado', 'glossary'].forEach(v => {
     const el = document.getElementById(v + '-view');
     el.classList.toggle('active', v === view);
     if (v === view) { el.scrollTop = 0; const wp = el.querySelector('.wiki-page'); if (wp) wp.scrollTop = 0; }
   });
+  if (!options.skipRoute) setRoute(routeForView(view), options.routeMode);
   document.querySelectorAll('.rail-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.view === view);
   });
@@ -12099,13 +13043,32 @@ function setView(view) {
       catalogToggle.textContent = 'Hide guide';
       catalogToggle.setAttribute('aria-expanded', 'true');
     }
-    renderCards();
+    renderCatalogIfNeeded();
+  } else if (view === 'period') {
+    buildPeriodView();
   } else if (view === 'timeline') {
     buildTimeline();
   } else if (view === 'map') {
     buildMapView();
   } else if (view === 'clado') {
     buildCladoView();
+  }
+}
+
+function applyRoute() {
+  const rawHash = decodeURIComponent(location.hash || '#');
+  routeApplying = true;
+  try {
+    if (rawHash.startsWith('#dino/')) {
+      const id = rawHash.slice(6);
+      setView('catalog', { skipRoute: true });
+      openPanel(id, { skipRoute: true, skipCardExpansion: true });
+      return;
+    }
+    const view = rawHash.replace(/^#/, '') || 'home';
+    setView(ROUTE_VIEWS.has(view) ? view : 'home', { skipRoute: true });
+  } finally {
+    routeApplying = false;
   }
 }
 
@@ -12125,6 +13088,7 @@ function buildSelect(id, key, values, onChange) {
   select.addEventListener('change', e => {
     if (onChange) { onChange(e.target.value); return; }
     state[key] = e.target.value;
+    resetCatalogBatch();
     renderCards();
   });
 }
@@ -12224,18 +13188,34 @@ const SORT_FNS = {
   'time-desc': (a, b) => { const ar = tlParseMya(a.mya), br = tlParseMya(b.mya); return (ar ? ar.start : 0) - (br ? br.start : 0); },
 };
 
-function renderCards() {
+function renderCards(options = {}) {
   const list     = document.getElementById('card-list');
   const filtered = DINOS.filter(matches);
   const sortFn   = SORT_FNS[state.sort] || SORT_FNS['name-asc'];
   const sorted   = [...filtered].sort(sortFn);
+  const visible  = sorted.slice(0, catalogVisibleCount);
+  const results = document.querySelector('#catalog-view .results');
+  const previousScrollTop = options.preserveScroll ? results?.scrollTop || 0 : 0;
   list.innerHTML = '';
-  sorted.forEach(d => list.appendChild(cardNode(d)));
+  visible.forEach(d => list.appendChild(cardNode(d)));
   document.getElementById('result-count').textContent = `${filtered.length} of ${DINOS.length} dinosaurs`;
   document.getElementById('no-results').style.display = filtered.length ? 'none' : 'block';
+  const load = document.getElementById('catalog-load');
+  const loadMeta = document.getElementById('catalog-load-meta');
+  const loadBtn = document.getElementById('catalog-load-btn');
+  const hasMore = visible.length < sorted.length;
+  if (load) load.classList.toggle('visible', filtered.length > 0);
+  if (loadMeta) loadMeta.textContent = `Showing ${visible.length} of ${filtered.length}`;
+  if (loadBtn) {
+    loadBtn.hidden = !hasMore;
+    loadBtn.textContent = `Load ${Math.min(CATALOG_BATCH_SIZE, sorted.length - visible.length)} more`;
+  }
   const sizeSection = document.getElementById('catalog-size-section');
   if (sizeSection && !sizeSection.classList.contains('collapsed')) buildSizeChart();
   renderFilterChips();
+  catalogRendered = true;
+  catalogDirty = false;
+  if (options.preserveScroll && results) results.scrollTop = previousScrollTop;
 }
 
 function cardNode(d) {
@@ -12293,9 +13273,12 @@ function clearAllFilters() {
 
 let profileReturnFocus = null;
 
-function openPanel(id) {
+function openPanel(id, options = {}) {
   const d = DINOS.find(item => item.id === id);
   if (!d) return;
+  if (!document.getElementById('catalog-view')?.classList.contains('active')) {
+    setView('catalog', { skipRoute: true });
+  }
   const panel = document.getElementById('side-panel');
   const panelWasOpen = panel.classList.contains('open');
   if (!panelWasOpen) profileReturnFocus = document.activeElement;
@@ -12304,8 +13287,20 @@ function openPanel(id) {
 
   // Ensure the card is visible — if filtered out, clear filters first
   let selectedCard = document.getElementById(`card-${id}`);
-  if (!selectedCard) {
-    clearAllFilters();
+  if (!selectedCard && !options.skipCardExpansion) {
+    let sortFn = SORT_FNS[state.sort] || SORT_FNS['name-asc'];
+    let sortedMatches = DINOS.filter(matches).sort(sortFn);
+    let selectedIndex = sortedMatches.findIndex(item => item.id === id);
+    if (selectedIndex < 0) {
+      clearAllFilters();
+      resetCatalogBatch();
+      sortFn = SORT_FNS[state.sort] || SORT_FNS['name-asc'];
+      sortedMatches = DINOS.filter(matches).sort(sortFn);
+      selectedIndex = sortedMatches.findIndex(item => item.id === id);
+    }
+    if (selectedIndex >= catalogVisibleCount) {
+      catalogVisibleCount = Math.ceil((selectedIndex + 1) / CATALOG_BATCH_SIZE) * CATALOG_BATCH_SIZE;
+    }
     renderCards();
     selectedCard = document.getElementById(`card-${id}`);
   }
@@ -12332,17 +13327,49 @@ function openPanel(id) {
   renderPanelPills(d);
   const body = document.getElementById('p-body');
   body.innerHTML = '';
-  body.append(
-    heroNode(d),
-    atAGlanceNode(d),
-    overviewNode(d, profile),
-    fossilsNode(d, profile),
-    cladogramNode(d, profile),
-    relatedDinosaursNode(d),
-    sourceNode(d, profile)
-  );
+  const sectionSpecs = [
+    { id: 'profile-overview', label: 'Overview', color: '#c0622f', build: index => atAGlanceNode(d, profile, index) },
+    { id: 'profile-evidence', label: 'Evidence', color: '#9a7a34', build: index => fossilsNode(d, profile, index) },
+    { id: 'profile-locality', label: 'Locality', color: '#4f8f6b', build: index => localityNode(d, profile, index) },
+    { id: 'profile-classification', label: 'Classification', color: '#7c72b0', build: index => cladogramNode(d, profile, index) },
+    { id: 'profile-ecology', label: 'Biology', color: '#4c7fa7', build: index => ecologyNode(d, index) },
+    { id: 'profile-sources', label: 'Sources', color: '#8a8170', build: index => sourceNode(d, profile, index) }
+  ];
+  const profileSections = sectionSpecs
+    .map(spec => ({ ...spec, node: spec.build(0) }))
+    .filter(spec => spec.node?.nodeType === Node.ELEMENT_NODE);
+  profileSections.forEach((spec, i) => {
+    spec.node.querySelector('.section-index').textContent = String(i + 1).padStart(2, '0');
+  });
+  body.append(heroNode(d), profileSectionNavNode(profileSections), ...profileSections.map(spec => spec.node));
   panel.classList.add('open');
   panel.focus({ preventScroll: true });
+  if (!options.skipRoute) setRoute(`#dino/${encodeURIComponent(d.id)}`);
+}
+
+function sectionTitle(index, label) {
+  return `<div class="section-title"><span class="section-index">${String(index).padStart(2, '0')}</span> ${label}</div>`;
+}
+
+function setProfileSectionTheme(section, color) {
+  section.className = 'profile-section-card';
+  section.style.setProperty('--section-col', color);
+}
+
+function profileSectionNavNode(sections) {
+  const nav = document.createElement('nav');
+  nav.className = 'profile-section-nav';
+  nav.setAttribute('aria-label', 'Profile sections');
+  sections.forEach(({ id: target, label, color }) => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'profile-section-link';
+    btn.style.setProperty('--section-col', color);
+    btn.textContent = label;
+    btn.addEventListener('click', () => document.getElementById(target)?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+    nav.appendChild(btn);
+  });
+  return nav;
 }
 
 function renderPanelPills(d) {
@@ -12376,18 +13403,20 @@ function renderPanelPills(d) {
   }
 }
 
-function atAGlanceNode(d) {
+function atAGlanceNode(d, profile, index = 1) {
   const section = document.createElement('section');
-  section.innerHTML = '<div class="section-title">At a glance</div>';
+  setProfileSectionTheme(section, '#c0622f');
+  section.id = 'profile-overview';
+  section.innerHTML = sectionTitle(index, 'Overview');
   const bar = document.createElement('div');
   bar.className = 'quick-facts';
   [
     ['Length',   qualifiedMeasurement(d, 'length')],
     ['Mass',     qualifiedMeasurement(d, 'mass')],
     ['Diet',     nhmClean(d.diet)],
-    ['Movement', nhmClean(d.locomotion)],
+    ['Locomotion', specificLocomotion(d.locomotion)],
     ['Group',    d.subclade],
-  ].forEach(([label, value]) => {
+  ].filter(([, value]) => value && value !== '—').forEach(([label, value]) => {
     const item = document.createElement('div');
     item.className = 'qf-item';
     const l = document.createElement('div'); l.className = 'qf-label'; l.textContent = label;
@@ -12396,7 +13425,67 @@ function atAGlanceNode(d) {
     bar.appendChild(item);
   });
   section.appendChild(bar);
+  appendOverviewContent(section, d, profile);
+  const gaps = dataGapNotes(d);
+  if (gaps.length) {
+    const gapWrap = document.createElement('div');
+    gapWrap.className = 'data-gaps';
+    gaps.forEach(gap => {
+      const item = document.createElement('div');
+      item.className = 'data-gap-item';
+      item.style.setProperty('--gap-col', gap.color);
+      const label = document.createElement('div');
+      label.className = 'data-gap-label';
+      label.textContent = gap.label;
+      const reason = document.createElement('div');
+      reason.className = 'data-gap-reason';
+      reason.textContent = gap.reason;
+      item.append(label, reason);
+      gapWrap.appendChild(item);
+    });
+    section.appendChild(gapWrap);
+  }
   return section;
+}
+
+function dataGapNotes(d) {
+  const notes = [];
+  const add = (label, reason, color = '#8a8170') => notes.push({ label, reason, color });
+  const pbdb = d.pbdb;
+  const profile = { ...(RICH_PROFILES[d.id] || {}), ...(RICH_CONTENT[d.id] || {}) };
+  const sourceMeta = d.sourceMeta || {};
+  const notListed = value => /^not listed by nhm$/i.test(String(value || ''));
+  const generated = profile.generated;
+
+  if (!d.massKg) {
+    add('Mass unknown', 'No mass estimate is listed in the current NHM import. This usually means the preserved material is too incomplete for a reliable public estimate.', '#8a8170');
+  }
+  if (notListed(d.locomotion) && !pbdb?.ecospace?.locomotion) {
+    add('Movement not listed', 'NHM does not list locomotion for this genus, and PBDB does not provide an ecospace movement field.', '#7d8790');
+  }
+  if (notListed(d.food) || notListed(d.teeth)) {
+    add('Feeding detail missing', 'Specific food or tooth information is not listed by NHM for this profile. Diet is therefore shown at broad herbivore/carnivore/omnivore level only.', '#7d8790');
+  }
+  if (!pbdb) {
+    add('Needs PBDB review', 'No PBDB enrichment is currently attached, so fossil occurrences, formation names and stratigraphic checks need manual review.', '#9a6a35');
+  } else if (!pbdb.formations?.length && !profile.fossilSites?.length) {
+    add('Formation unresolved', 'PBDB has no formation names sampled here and no curated locality override is available yet.', '#9a6a35');
+  }
+  if (pbdb && !pbdbRangeMatchesWikiPeriod(d, pbdb)) {
+    add('Age needs review', 'PBDB sampled ages differ from the wiki period label. The headline age should not be changed until the source records are checked.', '#b0623a');
+  }
+  if (d.validity && d.validity !== 'valid') {
+    add('Taxonomy disputed', d.validityNote || 'The validity or naming status of this genus is not straightforward.', '#b0623a');
+  }
+  if (!sourceMeta.namedYear || !sourceMeta.namedBy) {
+    add('Naming metadata missing', 'The imported metadata lacks a complete naming authority or year. This can be filled from the original description or a vetted secondary source.', '#7d8790');
+  }
+  if (!d.wiki?.url && generated) {
+    add('Summary generated', 'This profile uses local NHM and PBDB fields to create a baseline narrative, but still needs an independent manually reviewed summary.', '#7d8790');
+  } else if (generated) {
+    add('Generated baseline', 'This profile has been upgraded from imported fields automatically. It is readable, but should still be manually reviewed for scientific nuance.', '#6f7f55');
+  }
+  return notes.slice(0, 4);
 }
 
 function heroNode(d) {
@@ -12455,20 +13544,15 @@ function missingImageNode(d) {
   return mark;
 }
 
-function fossilsNode(d, profile) {
+function fossilsNode(d, profile, index = 2) {
   const evidence = evidenceProfile(d, profile);
-  const remains = knownRemainsProfile(d, profile, evidence);
   const section = document.createElement('section');
-  section.innerHTML = '<div class="section-title">Fossils</div>';
+  setProfileSectionTheme(section, '#9a7a34');
+  section.id = 'profile-evidence';
+  section.innerHTML = sectionTitle(index, 'Fossil evidence');
 
   const wrap = document.createElement('div');
   wrap.className = 'evidence-confidence';
-
-  // --- Evidence ---
-  const evidenceTitle = document.createElement('div');
-  evidenceTitle.className = 'subsection-title';
-  evidenceTitle.textContent = 'Evidence';
-  wrap.appendChild(evidenceTitle);
 
   const summary = document.createElement('div');
   summary.className = 'evidence-summary-card';
@@ -12508,86 +13592,20 @@ function fossilsNode(d, profile) {
   });
   if (notes.children.length) wrap.appendChild(notes);
 
-  // --- Known remains ---
-  const hasRegionSignal = remains.regions.some(r => r.state === 'known' || r.state === 'partial');
   const specimenList = evidence.specimens?.length ? specimenEvidenceNode(evidence.specimens) : null;
-  if (hasRegionSignal || remains.image || specimenList) {
-    const remainsTitle = document.createElement('div');
-    remainsTitle.className = 'subsection-title';
-    remainsTitle.textContent = 'Known remains';
-    wrap.appendChild(remainsTitle);
-  }
-
-  if (hasRegionSignal || remains.image) {
-    const remainsCard = document.createElement('div');
-    remainsCard.className = 'known-remains-card';
-    const remainsLayout = document.createElement('div');
-    remainsLayout.className = 'known-remains-layout';
-
-    if (remains.image) {
-      const media = document.createElement('div');
-      media.className = 'remains-photo-card';
-      const img = document.createElement('img');
-      img.src = commonsImageUrl(remains.image.file, 900);
-      img.alt = remains.image.label;
-      img.loading = 'eager';
-      img.decoding = 'async';
-      img.addEventListener('error', () => media.remove(), { once: true });
-      const credit = document.createElement('div');
-      credit.className = 'remains-photo-credit';
-      credit.append(remains.image.label + '. ');
-      const link = document.createElement('a');
-      link.href = commonsFilePage(remains.image.file);
-      link.target = '_blank';
-      link.rel = 'noreferrer';
-      link.textContent = 'Wikimedia Commons';
-      credit.appendChild(link);
-      credit.append('. ' + remains.image.note);
-      media.append(img, credit);
-      remainsLayout.appendChild(media);
-    }
-
-    if (hasRegionSignal) {
-      const remainsCopy = document.createElement('div');
-      remainsCopy.className = 'known-remains-copy';
-      remainsCopy.innerHTML = `<div class="known-remains-summary">${escapeSvg(remains.summary)}</div>`;
-
-      const remainsGrid = document.createElement('div');
-      remainsGrid.className = 'remains-grid';
-      remains.regions.forEach(region => {
-        const chip = document.createElement('div');
-        chip.className = 'remains-chip';
-        chip.style.setProperty('--state-col', remainsStateColor(region.state));
-        chip.innerHTML = `
-          <div class="remains-chip-label">${escapeSvg(region.label)}</div>
-          <div class="remains-state">${escapeSvg(remainsStateLabel(region.state))}</div>`;
-        remainsGrid.appendChild(chip);
-      });
-
-      const legend = document.createElement('div');
-      legend.className = 'remains-legend';
-      legend.innerHTML = `
-        <span><i style="--legend-col:${remainsStateColor('known')}"></i>directly signalled</span>
-        <span><i style="--legend-col:${remainsStateColor('partial')}"></i>partial or fragmentary</span>
-        <span><i style="--legend-col:${remainsStateColor('inferred')}"></i>reconstructed from context</span>
-        <span><i style="--legend-col:${remainsStateColor('unknown')}"></i>not yet curated</span>`;
-
-      remainsCopy.append(remainsGrid, legend);
-      remainsLayout.appendChild(remainsCopy);
-    }
-
-    remainsCard.appendChild(remainsLayout);
-    wrap.appendChild(remainsCard);
-  }
-
   if (specimenList) wrap.appendChild(specimenList);
 
-  // --- Locality & age ---
-  const localityTitle = document.createElement('div');
-  localityTitle.className = 'subsection-title';
-  localityTitle.textContent = 'Locality & age';
-  wrap.appendChild(localityTitle);
+  section.appendChild(wrap);
+  return section;
+}
 
+function localityNode(d, profile, index = 3) {
+  const section = document.createElement('section');
+  setProfileSectionTheme(section, '#4f8f6b');
+  section.id = 'profile-locality';
+  section.innerHTML = sectionTitle(index, 'Locality and age');
+  const wrap = document.createElement('div');
+  wrap.className = 'evidence-confidence';
   const fossilSummary = document.createElement('div');
   fossilSummary.className = 'fossil-summary';
 
@@ -12623,13 +13641,11 @@ function fossilsNode(d, profile) {
 
   // Fossil localities: map + list
   const locations = fossilLocations(d, profile);
-  const map = document.createElement('div');
-  map.className = 'map-card';
-  map.innerHTML = worldMapSvg(locations);
+  const listedSites = profile?.fossilSites || locations;
   const places = document.createElement('div');
   places.className = profile?.fossilSites ? 'locality-list' : 'map-list';
   if (profile?.fossilSites) {
-    locations.forEach((loc, i) => {
+    listedSites.forEach((loc, i) => {
       const item = document.createElement('div'); item.className = 'locality-item';
       const dot = document.createElement('span'); dot.className = 'locality-dot'; dot.textContent = i + 1;
       const text = document.createElement('div');
@@ -12642,7 +13658,17 @@ function fossilsNode(d, profile) {
   } else {
     places.textContent = `NHM records fossil finds from: ${d.found.join(', ')}.`;
   }
-  wrap.append(map, places);
+  if (locations.length) {
+    const map = document.createElement('div');
+    map.className = 'map-card';
+    map.innerHTML = worldMapSvg(locations);
+    wrap.append(map, places);
+  } else {
+    const mapNote = document.createElement('div');
+    mapNote.className = 'map-empty';
+    mapNote.textContent = 'Formation or regional fossil records are listed below; precise map coordinates have not been curated yet.';
+    wrap.append(mapNote, places);
+  }
 
   section.appendChild(wrap);
   return section;
@@ -12912,9 +13938,11 @@ function scoreLabel(score) {
   return 'Sparse';
 }
 
-function overviewNode(d, profile) {
-  const section = document.createElement('section');
-  section.innerHTML = '<div class="section-title">Overview</div>';
+function appendOverviewContent(section, d, profile) {
+  const summaryTitle = document.createElement('div');
+  summaryTitle.className = 'subsection-title';
+  summaryTitle.textContent = 'Summary';
+  section.appendChild(summaryTitle);
   const paras = profile?.overview || [d.description];
   paras.forEach((text, i) => {
     const p = document.createElement('p');
@@ -12946,7 +13974,7 @@ function overviewNode(d, profile) {
     section.appendChild(list);
   }
 
-  if (profile?.articles?.length) {
+  if (profile?.articles?.length && !profile.generated) {
     const artTitle = document.createElement('div');
     artTitle.className = 'subsection-title';
     artTitle.textContent = 'Field notes';
@@ -12961,7 +13989,6 @@ function overviewNode(d, profile) {
     section.appendChild(list);
   }
 
-  return section;
 }
 
 function evidenceMaterialText(d, profile) {
@@ -13031,10 +14058,14 @@ function paleoenvironmentText(d, profile) {
 }
 
 function fossilLocations(d, profile) {
-  if (profile?.fossilSites) return profile.fossilSites;
+  if (profile?.fossilSites) return profile.fossilSites.filter(hasCoordinates);
   return d.found
     .map(c => COUNTRY_POINTS[c] ? { name: c.replace('United Kingdom','UK'), region: c, note: 'Country-level fossil record from NHM.', lat: COUNTRY_POINTS[c].lat, lon: COUNTRY_POINTS[c].lon } : null)
     .filter(Boolean);
+}
+
+function hasCoordinates(loc) {
+  return Number.isFinite(loc?.lat) && Number.isFinite(loc?.lon);
 }
 
 function spreadClusteredDots(markers, minDist = 24) {
@@ -13134,9 +14165,11 @@ function truncateMapLabel(label) {
 }
 function escapeSvg(t) { return String(t).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;'); }
 
-function cladogramNode(d, profile) {
+function cladogramNode(d, profile, index = 4) {
   const section = document.createElement('section');
-  section.innerHTML = '<div class="section-title">Classification and relationships</div>';
+  setProfileSectionTheme(section, '#7c72b0');
+  section.id = 'profile-classification';
+  section.innerHTML = sectionTitle(index, 'Classification');
   const card = document.createElement('div');
   card.className = 'clade-card';
   card.innerHTML = focusedCladogramSvg(d, profile);
@@ -13157,13 +14190,14 @@ function cladogramNode(d, profile) {
   copy.style.marginTop = '8px';
   copy.textContent = `${d.name} is placed within ${classificationPath(d, profile).join(' > ')}. This is a simplified wiki classification, not a full phylogenetic matrix; detailed placements can vary between studies.`;
   section.append(card, taxonomy, copy);
+  const related = relatedDinosaursNode(d);
+  if (related) section.appendChild(related);
   return section;
 }
 
 function focusedCladogramSvg(d, profile) {
   const tree  = focusedClassificationTree(d, profile);
   const trunk = tree.trunk;
-  const sideBranches = tree.sideBranches || [];
   const accent = d.accent || 'var(--text)';
 
   // ── 1. Breadcrumb classification path ──────────────────────
@@ -13175,33 +14209,8 @@ function focusedCladogramSvg(d, profile) {
     return `<span class="clado-path-group">${escapeSvg(name)}</span>`;
   }).join('<span class="clado-path-sep">›</span>');
 
-  // ── 2. Related lineages grouped by branch point ─────────────
-  let relHtml = '';
-  if (sideBranches.length) {
-    // Group by "from" node, preserving order
-    const seen = new Map();
-    sideBranches.forEach(sb => {
-      if (!seen.has(sb.from)) seen.set(sb.from, []);
-      seen.get(sb.from).push(sb.label);
-    });
-
-    relHtml = `<div class="clado-relatives">
-      <div class="clado-rel-eyebrow">Related lineages</div>`;
-    seen.forEach((labels, from) => {
-      const chips = labels.map(l =>
-        `<span class="clado-rel-chip">${escapeSvg(l)}</span>`
-      ).join('');
-      relHtml += `<div class="clado-rel-group">
-        <div class="clado-rel-from">Branching from <em>${escapeSvg(from)}</em></div>
-        <div class="clado-rel-chips">${chips}</div>
-      </div>`;
-    });
-    relHtml += '</div>';
-  }
-
   return `<div class="clado-redesign">
     <div class="clado-path">${pathParts}</div>
-    ${relHtml}
   </div>`;
 }
 
@@ -13241,11 +14250,11 @@ function classificationSideBranches(d, trunk) {
 function taxonomyDetails(d, profile) {
   const path = classificationPath(d, profile);
   const parent = path.length > 1 ? path[path.length - 2] : d.subclade;
-  const siblingLabels = focusedClassificationTree(d, profile).sideBranches?.map(sb => sb.label).slice(0, 3).join('; ') || 'Not shown';
+  const terminal = path[path.length - 1] || d.subclade;
   return [
     ['Major branch', d.clade],
-    ['Immediate placement', parent],
-    ['Nearby branches shown', siblingLabels]
+    ['Parent clade', parent],
+    ['Profile group', terminal]
   ];
 }
 
@@ -13271,10 +14280,10 @@ function findTreePath(node, id, path=[]) {
 
 function relatedDinosaursNode(d) {
   const related = relatedDinosaurs(d).slice(0, 3);
-  if (!related.length) return document.createDocumentFragment();
+  if (!related.length) return null;
 
-  const section = document.createElement('section');
-  section.innerHTML = '<div class="section-title">Related dinosaurs</div>';
+  const section = document.createElement('div');
+  section.innerHTML = '<div class="subsection-title">Related dinosaurs</div>';
   const grid = document.createElement('div');
   grid.className = 'related-grid';
 
@@ -13332,9 +14341,38 @@ function relatedDinosaurs(d) {
     .sort((a, b) => b.score - a.score || a.dino.name.localeCompare(b.dino.name));
 }
 
-function sourceNode(d, profile) {
+function ecologyNode(d, index = 5) {
+  const fields = [
+    ['Food note', nhmClean(d.food)],
+    ['Teeth / feeding', nhmClean(d.teeth)],
+    ['Locomotion', specificLocomotion(d.locomotion)],
+    ['Body mass', qualifiedMeasurement(d, 'mass')]
+  ].filter(([, value]) => value && value !== '—' && !/^not listed by nhm$/i.test(value));
+  if (!fields.length) return document.createDocumentFragment();
+
   const section = document.createElement('section');
-  section.innerHTML = '<div class="section-title">Sources</div>';
+  setProfileSectionTheme(section, '#4c7fa7');
+  section.id = 'profile-ecology';
+  section.innerHTML = sectionTitle(index, 'Biology notes');
+  const grid = document.createElement('div');
+  grid.className = 'taxonomy-grid';
+  fields.forEach(([label, value]) => {
+    const item = document.createElement('div');
+    item.className = 'taxonomy-item';
+    const l = document.createElement('div'); l.className = 'taxonomy-label'; l.textContent = label;
+    const v = document.createElement('div'); v.className = 'taxonomy-value'; v.textContent = value;
+    item.append(l, v);
+    grid.appendChild(item);
+  });
+  section.appendChild(grid);
+  return section;
+}
+
+function sourceNode(d, profile, index = 6) {
+  const section = document.createElement('section');
+  setProfileSectionTheme(section, '#8a8170');
+  section.id = 'profile-sources';
+  section.innerHTML = sectionTitle(index, 'Sources');
   const wrap = document.createElement('div'); wrap.className = 'source-links';
   const link = document.createElement('a'); link.className = 'source-link'; link.href = d.source; link.target = '_blank'; link.rel = 'noreferrer'; link.textContent = 'Open NHM source page';
   wrap.appendChild(link);
@@ -13348,7 +14386,7 @@ function sourceNode(d, profile) {
     // so link to the Navigator app instead, which PBDB serves without one.
     const taxonNo = d.pbdb.taxonId ? d.pbdb.taxonId.replace(/^txn:/, '') : '';
     const pbdbUrl = taxonNo ? `https://paleobiodb.org/navigator/?taxon_id=${taxonNo}` : d.pbdb.source;
-    const pl = document.createElement('a'); pl.className = 'source-link'; pl.href = pbdbUrl; pl.target = '_blank'; pl.rel = 'noopener'; pl.textContent = 'Open PBDB taxon page';
+    const pl = document.createElement('a'); pl.className = 'source-link'; pl.href = pbdbUrl; pl.target = '_blank'; pl.rel = 'noreferrer'; pl.textContent = 'Open PBDB taxon page';
     wrap.appendChild(pl);
   }
   if (d.pbdb?.occurrenceApi) {
@@ -13391,6 +14429,7 @@ function closePanel() {
   document.querySelectorAll('.dino-card').forEach(c => c.classList.remove('selected'));
   if (shouldRestoreFocus && profileReturnFocus?.isConnected) profileReturnFocus.focus({ preventScroll: true });
   profileReturnFocus = null;
+  if (shouldRestoreFocus && location.hash.startsWith('#dino/')) setRoute('#catalog', 'replace');
 }
 
 // ── TIMELINE VIEW ────────────────────────────────────────────
@@ -13422,6 +14461,20 @@ function tlParseMya(mya) {
 
 function tlPct(ma) {
   return ((TL_START - ma) / TL_SPAN * 100).toFixed(3);
+}
+
+function timelineStats() {
+  const ranged = DINOS
+    .map(d => ({ d, range: tlParseMya(d.mya) }))
+    .filter(item => item.range);
+  const longest = ranged.reduce((best, item) => {
+    const span = item.range.start - item.range.end;
+    const bestSpan = best ? best.range.start - best.range.end : -1;
+    return span > bestSpan ? item : best;
+  }, null);
+  const oldest = ranged.reduce((best, item) => !best || item.range.start > best.range.start ? item : best, null);
+  const latest = ranged.reduce((best, item) => !best || item.range.end < best.range.end ? item : best, null);
+  return { ranged, longest, oldest, latest };
 }
 
 function buildTimeline() {
@@ -13459,13 +14512,14 @@ function buildTimeline() {
     const dur = range && range.start !== range.end
       ? `${range.start}–${range.end} Ma (${(range.start - range.end).toFixed(0)} Myr range)`
       : `${range ? range.start : '?'} Ma`;
+    const meta = [d.type, d.diet, specificLocomotion(d.locomotion)].filter(value => value && value !== '—').join(' · ');
     tlTip.innerHTML = `
       <div class="tl-tip-name">${escapeSvg(d.name)}</div>
       <div class="tl-tip-latin">${escapeSvg(d.latin)}</div>
       <div class="tl-tip-mya">${dur}</div>
-      <div class="tl-tip-meta">${escapeSvg(d.type)} · ${escapeSvg(d.diet)} · ${escapeSvg(d.locomotion)}</div>
+      <div class="tl-tip-meta">${escapeSvg(meta)}</div>
       <div class="tl-tip-found">${d.found.map(escapeSvg).join(', ')}</div>
-      <div class="tl-tip-cta">Click to open species profile →</div>
+      <div class="tl-tip-cta">Click to open genus profile →</div>
     `;
     tlTip.style.display = 'block';
     moveTip(e);
@@ -13482,6 +14536,8 @@ function buildTimeline() {
 
   // ── Build DOM ────────────────────────────────────────────
   const outer = document.createElement('div');
+  const tlStats = timelineStats();
+  const longestSpan = tlStats.longest ? (tlStats.longest.range.start - tlStats.longest.range.end).toFixed(0) : '0';
   // Instruction header
   const tlInstr = document.createElement('div');
   tlInstr.className = 'view-instruction';
@@ -13490,16 +14546,42 @@ function buildTimeline() {
       <div>
         <div class="view-instr-eyebrow">Chronostratigraphy</div>
         <div class="view-instr-title">Dated genera plotted against the Mesozoic time scale · 252–66 Ma</div>
-        <div class="view-instr-desc">Each horizontal bar shows the known temporal range of a species from the fossil record. Bar width is proportional to duration. Species are grouped by phylogenetic clade and sorted oldest-first within each group. Bars are coloured by geological period.</div>
+        <div class="view-instr-desc">This view treats the catalogue as time data. Each bar shows the known temporal range attached to a genus, grouped by broad phylogenetic lineage and plotted against the Mesozoic geological scale.</div>
+      </div>
+      <button class="tl-guide-toggle" id="tl-guide-toggle" type="button" aria-pressed="false">Hide guide</button>
+      <div class="tl-stat-strip">
+        <span class="tl-stat-chip"><strong>${tlStats.ranged.length}</strong> dated genera</span>
+        <span class="tl-stat-chip"><strong>${TL_SPAN}</strong> Myr shown</span>
+        <span class="tl-stat-chip"><strong>${longestSpan}</strong> Myr widest range</span>
+        <span class="tl-stat-chip"><strong>${escapeSvg(tlStats.oldest?.d.name || '—')}</strong> oldest start</span>
+        <span class="tl-stat-chip"><strong>${escapeSvg(tlStats.latest?.d.name || '—')}</strong> latest end</span>
       </div>
     </div>
+    <div class="tl-read-grid" aria-label="How to read the chronostratigraphy chart">
+      <div class="tl-read-card" style="--tl-col:#8a8170"><div class="tl-read-card-title">Time runs left to right</div><div class="tl-read-card-copy">Older time is on the left near 252 Ma; younger time moves right toward the K–Pg boundary at 66 Ma.</div></div>
+      <div class="tl-read-card" style="--tl-col:#4a7fb5"><div class="tl-read-card-title">Bars are fossil ranges</div><div class="tl-read-card-copy">A bar shows the known age range in this dataset, not the exact biological origin or extinction of the genus.</div></div>
+      <div class="tl-read-card" style="--tl-col:#7c72b0"><div class="tl-read-card-title">Rows are grouped by lineage</div><div class="tl-read-card-copy">Genera are grouped by major clade so you can compare when different dinosaur branches are sampled.</div></div>
+      <div class="tl-read-card" style="--tl-col:#c0622f"><div class="tl-read-card-title">Narrow can mean uncertain</div><div class="tl-read-card-copy">Short bars may reflect a genuinely short range, limited fossils, or coarse source dating. Use profiles for evidence detail.</div></div>
+    </div>
     <div class="view-instr-tips">
-      <span class="view-tip">Click any bar to open the species profile panel on the right</span>
+      <span class="view-tip">Click any bar to open the genus profile panel on the right</span>
       <span class="view-tip">Use the clade buttons to isolate a single lineage</span>
       <span class="view-tip">Narrow bars = short or poorly constrained temporal range</span>
       <span class="view-tip">K–Pg extinction marker shown at 66.0 Ma</span>
     </div>`;
   view.appendChild(tlInstr);
+  const guideToggle = tlInstr.querySelector('#tl-guide-toggle');
+  guideToggle?.addEventListener('click', () => {
+    const collapsed = view.classList.toggle('tl-guide-collapsed');
+    guideToggle.textContent = collapsed ? 'Show guide' : 'Hide guide';
+    guideToggle.setAttribute('aria-pressed', String(collapsed));
+  });
+  // Start collapsed so the clade overview fits on one screen without scrolling
+  view.classList.add('tl-guide-collapsed');
+  if (guideToggle) {
+    guideToggle.textContent = 'Show guide';
+    guideToggle.setAttribute('aria-pressed', 'true');
+  }
 
   outer.className = 'tl-outer';
 
@@ -13600,24 +14682,71 @@ function buildTimeline() {
     groupEl.className = 'tl-group';
     groupEl.dataset.sub = group.sub || 'other';
 
-    // Group header
+    // Group header — collapsed by default; click toggles the per-genus rows below
     const hdr = document.createElement('div');
     hdr.className = 'tl-group-hdr';
+    hdr.setAttribute('role', 'button');
+    hdr.setAttribute('tabindex', '0');
+    hdr.setAttribute('aria-expanded', 'false');
+    hdr.setAttribute('aria-label', `${group.label}: ${members.length} genera. Toggle to show individual genus rows.`);
 
     const hdrName = document.createElement('div');
     hdrName.className = 'tl-group-hdr-name';
     hdrName.innerHTML = `
+      <span class="tl-group-toggle" aria-hidden="true">▸</span>
       <span class="tl-group-title">${group.label}</span>
-      <span class="tl-group-count">${members.length} taxa · ${group.clade}</span>
+      <span class="tl-group-count">${members.length} genera · ${group.clade}</span>
     `;
 
     const hdrTrack = document.createElement('div');
     hdrTrack.className = 'tl-group-hdr-track';
 
+    // Density strip — one compact bar per genus, lane-packed to limit overlap
+    const DENSITY_LANES = 3;
+    const laneRight = new Array(DENSITY_LANES).fill(-Infinity);
+    [...members]
+      .map(d => ({ d, range: tlParseMya(d.mya) }))
+      .filter(item => item.range)
+      .sort((a, b) => +tlPct(a.range.start) - +tlPct(b.range.start))
+      .forEach(({ d, range }) => {
+        const leftPct = +tlPct(range.start);
+        const width = Math.max((range.start - range.end) / TL_SPAN * 100, 0.6);
+        let lane = laneRight.findIndex(r => leftPct >= r);
+        if (lane === -1) lane = laneRight.indexOf(Math.min(...laneRight));
+        laneRight[lane] = leftPct + width;
+        const dbar = document.createElement('button');
+        dbar.type = 'button';
+        dbar.className = 'tl-density-bar';
+        dbar.setAttribute('aria-label', `${d.name}: ${d.mya}`);
+        dbar.style.cssText = `left:${leftPct.toFixed(3)}%;width:${width.toFixed(3)}%;top:${(lane * 100 / DENSITY_LANES).toFixed(2)}%;height:${(100 / DENSITY_LANES).toFixed(2)}%;background:${periodColor(d.period)};`;
+        dbar.addEventListener('mouseenter', e => showTip(e, d));
+        dbar.addEventListener('mousemove', moveTip);
+        dbar.addEventListener('mouseleave', hideTip);
+        dbar.addEventListener('click', e => {
+          e.stopPropagation();
+          hideTip();
+          document.querySelectorAll('.tl-bar-selected').forEach(b => b.classList.remove('tl-bar-selected'));
+          openTlMiniPanel(d);
+        });
+        hdrTrack.appendChild(dbar);
+      });
+
     hdr.append(hdrName, hdrTrack);
+    hdr.addEventListener('click', () => {
+      const expanded = groupEl.classList.toggle('tl-group-expanded');
+      hdr.setAttribute('aria-expanded', String(expanded));
+    });
+    hdr.addEventListener('keydown', e => {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      e.preventDefault();
+      hdr.click();
+    });
     groupEl.appendChild(hdr);
 
-    // One row per dinosaur
+    // One row per dinosaur, hidden until the group is expanded
+    const body = document.createElement('div');
+    body.className = 'tl-group-body';
+
     members.forEach(d => {
       const range = tlParseMya(d.mya);
       if (!range) return;
@@ -13641,7 +14770,7 @@ function buildTimeline() {
       bar.className = 'tl-bar';
       bar.type = 'button';
       bar.setAttribute('aria-label', `${d.name}: ${d.mya}`);
-      bar.style.cssText = `left:${leftPct.toFixed(3)}%;width:${width.toFixed(3)}%;background:${d.accent};`;
+      bar.style.cssText = `left:${leftPct.toFixed(3)}%;width:${width.toFixed(3)}%;background:${periodColor(d.period)};`;
 
       bar.addEventListener('mouseenter', e => showTip(e, d));
       bar.addEventListener('mousemove', moveTip);
@@ -13656,9 +14785,10 @@ function buildTimeline() {
 
       track.appendChild(bar);
       row.append(nameCol, track);
-      groupEl.appendChild(row);
+      body.appendChild(row);
     });
 
+    groupEl.appendChild(body);
     inner.appendChild(groupEl);
   });
 
@@ -13684,6 +14814,20 @@ function buildTimeline() {
     const sub = pill.dataset.sub;
     cladeFilter.querySelectorAll('.tl-clade-pill').forEach(p => p.classList.toggle('active', p === pill));
     builtGroups.forEach(g => g.classList.toggle('tl-hidden', sub !== 'all' && g.dataset.sub !== sub));
+    if (sub !== 'all') {
+      // Isolating a single clade implies wanting its detail rows too
+      const target = builtGroups.find(g => g.dataset.sub === sub);
+      if (target && !target.classList.contains('tl-group-expanded')) {
+        target.classList.add('tl-group-expanded');
+        target.querySelector('.tl-group-hdr')?.setAttribute('aria-expanded', 'true');
+      }
+    } else {
+      // Returning to "All clades" restores the compact collapsed overview
+      builtGroups.forEach(g => {
+        g.classList.remove('tl-group-expanded');
+        g.querySelector('.tl-group-hdr')?.setAttribute('aria-expanded', 'false');
+      });
+    }
   });
 
   outer.appendChild(inner);
@@ -13744,7 +14888,7 @@ function openTlMiniPanel(d) {
     ['Period',     d.period],
     ['Type',       d.type],
     ['Length',     d.length ? `${d.length} m` : '—'],
-    ['Mass',       d.mass || '—'],
+    ['Mass',       qualifiedMeasurement(d, 'mass')],
     ['Diet',       d.diet],
     ['Found in',   d.found.slice(0,2).join(', ') + (d.found.length > 2 ? '…' : '')]
   ].forEach(([label, value]) => {
@@ -14971,7 +16115,9 @@ document.addEventListener('keydown', e => {
 });
 
 init();
-buildDashboard();
+buildHomeOverview();
+applyRoute();
+window.addEventListener('popstate', applyRoute);
 </script>
 </body>
 </html>
