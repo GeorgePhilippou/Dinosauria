@@ -1658,34 +1658,16 @@
     line-height: 1.3;
     overflow-wrap: anywhere;
   }
-  .dash-stage-disclosure {
+  .dash-stage-wrap {
     border: 1px solid var(--line);
     border-radius: var(--radius);
     background: var(--surface);
     overflow: hidden;
+    margin-top: 8px;
   }
-  .dash-stage-summary {
-    min-height: 42px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    padding: 10px 13px;
-    cursor: pointer;
-    color: var(--text-2);
-    font-size: 11.5px;
-    font-weight: 750;
-  }
-  .dash-stage-summary::-webkit-details-marker { display: none; }
-  .dash-stage-summary::after {
-    content: "+";
-    color: var(--text-3);
-    font-size: 15px;
-    font-weight: 700;
-  }
-  .dash-stage-disclosure[open] .dash-stage-summary::after { content: "-"; }
+  #period-dashboard.stages-hidden .dash-stage-wrap { display: none; }
   .dash-stage-explain {
-    margin: 0 13px 10px;
+    margin: 13px 13px 10px;
     padding: 10px 12px;
     border-left: 3px solid var(--line-2);
     border-radius: 0 var(--radius) var(--radius) 0;
@@ -5211,7 +5193,7 @@
         <span class="view-tip">Use the period pills or timeline row to choose an interval</span>
         <span class="view-tip">Each interval shows a paleogeographic map, climate and fossil-record context</span>
         <span class="view-tip">Browse a sample of genera from that interval, or open the full catalogue filtered to it</span>
-        <span class="view-tip">Show geological stages for finer-grained subdivisions</span>
+        <span class="view-tip">Use the Stages toggle for finer-grained subdivisions</span>
       </div>
     </div>
     <div class="wiki-page" id="period-dashboard">
@@ -5228,17 +5210,17 @@
           <div class="dash-topbar">
             <span class="dash-era-badge">Period filter</span>
             <div class="dash-pills" id="dash-pills"></div>
+            <button class="dash-toggle-btn" id="dash-stages-toggle" type="button">Stages</button>
             <button class="dash-toggle-btn" id="dash-events-toggle" type="button">Events</button>
           </div>
           <div class="dash-timeline-wrap" id="dash-timeline-wrap">
             <div class="dash-row-label">Periods</div>
             <div class="dash-era-bar" id="dash-era-bar"></div>
             <div class="dash-period-row" id="dash-period-row"></div>
-            <details class="dash-stage-disclosure">
-              <summary class="dash-stage-summary">Show geological stages</summary>
+            <div class="dash-stage-wrap">
               <p class="dash-stage-explain">Stages are finer subdivisions of geological periods. They are useful because fossil formations often date to a stage, not just a broad period, so stages let palaeontologists compare rocks and faunas more precisely across regions. Click a stage to open its Wikipedia summary.</p>
               <div class="dash-stage-row" id="dash-stage-row"></div>
-            </details>
+            </div>
             <div class="dash-events-wrap" id="dash-events-wrap"></div>
           </div>
 
@@ -11545,6 +11527,7 @@ function maPct(ma) {
 
 let compareOpen = false;
 let eventsVisible = false;
+let stagesVisible = false;
 
 // Curated featured lists for the home preview strip
 const FEATURED_ALL = [
@@ -11654,8 +11637,8 @@ function buildPeriodView() {
   buildPeriodRow();
   buildStageRow();
   buildEvents();
-  // Apply initial hidden state to match eventsVisible = false
-  document.getElementById('period-dashboard').classList.add('events-hidden');
+  // Apply initial hidden state to match eventsVisible = false / stagesVisible = false
+  document.getElementById('period-dashboard').classList.add('events-hidden', 'stages-hidden');
   renderPeriodInfo('all');
   renderPeriodPreview('all');
   const eventsToggle = document.getElementById('dash-events-toggle');
@@ -11663,6 +11646,12 @@ function buildPeriodView() {
     eventsVisible = !eventsVisible;
     document.getElementById('period-dashboard').classList.toggle('events-hidden', !eventsVisible);
     eventsToggle.classList.toggle('active', eventsVisible);
+  });
+  const stagesToggle = document.getElementById('dash-stages-toggle');
+  if (stagesToggle) stagesToggle.addEventListener('click', () => {
+    stagesVisible = !stagesVisible;
+    document.getElementById('period-dashboard').classList.toggle('stages-hidden', !stagesVisible);
+    stagesToggle.classList.toggle('active', stagesVisible);
   });
   const compareToggle = document.getElementById('dash-compare-toggle');
   if (compareToggle) compareToggle.addEventListener('click', () => {
