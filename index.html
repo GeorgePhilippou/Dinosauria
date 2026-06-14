@@ -13946,15 +13946,6 @@ function appendOverviewContent(section, d, profile) {
     section.appendChild(p);
   });
 
-  const food = nhmClean(d.food);
-  if (food && food !== '—' && !/unknown/i.test(food)) {
-    const dietP = document.createElement('p');
-    dietP.className = 'description';
-    dietP.style.marginTop = '8px';
-    dietP.textContent = `Recorded diet: ${food}`;
-    section.appendChild(dietP);
-  }
-
   if (d.facts?.length) {
     const factsTitle = document.createElement('div');
     factsTitle.className = 'subsection-title';
@@ -14338,9 +14329,7 @@ function relatedDinosaurs(d) {
 function ecologyNode(d, index = 5) {
   const fields = [
     ['Food note', nhmClean(d.food)],
-    ['Teeth / feeding', nhmClean(d.teeth)],
-    ['Locomotion', specificLocomotion(d.locomotion)],
-    ['Body mass', qualifiedMeasurement(d, 'mass')]
+    ['Teeth / feeding', nhmClean(d.teeth)]
   ].filter(([, value]) => value && value !== '—' && !/^not listed by nhm$/i.test(value));
   if (!fields.length) return document.createDocumentFragment();
 
