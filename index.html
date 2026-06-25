@@ -11438,12 +11438,12 @@ const PERIOD_DETAILS = {
   },
   'Mid Jurassic': {
     title:'Early to Middle Jurassic',
-    age:'201.4–161.5 million years ago',
+    age:'201.4–163.5 million years ago',
     accent:'#2d84c7',
     summary:'This wiki filter groups Early and Middle Jurassic time. It covers recovery after the end-Triassic extinction, the early breakup of Pangaea, and the expansion of sauropodomorph, theropod and ornithischian lineages.',
     paleogeography:'Pangaea was separating into northern Laurasia and southern Gondwana. Rifting helped initiate the Central Atlantic and created new coastlines, basins and marine connections.',
     climate:'Jurassic climate was generally warm, but rifting, ocean gateways and regional geography produced strong local environmental differences.',
-    fossilSignal:'North American Early and Middle Jurassic dinosaur body fossils are relatively rare compared with tracks and later body-fossil records, so absence in the dataset should not be read as biological absence.',
+    fossilSignal:'Early and Middle Jurassic dinosaur body fossils are globally sparse compared with the Late Jurassic and Cretaceous. Key windows include England (Stonesfield Slate), China (Yimen, lower Shangshaximiao), Argentina (Cañadón Asfalto, La Junta) and southern Africa; absence in the dataset should not be read as biological absence.',
     figureTitle:'Early-Middle Jurassic continental state',
     figureCopy:'This 170 Ma Bajocian reconstruction shows Pangaea no longer functioning as one simple supercontinent. New rift basins, coastlines and seaways were forming, which matters because dinosaur faunas were beginning to diverge regionally while some land connections still allowed movement between areas.',
     figure:'mid-jurassic',
@@ -11461,7 +11461,7 @@ const PERIOD_DETAILS = {
   },
   'Late Jurassic': {
     title:'Late Jurassic',
-    age:'161.5–145.0 million years ago',
+    age:'163.5–145.0 million years ago',
     accent:'#1a6aad',
     summary:'The Late Jurassic includes the Oxfordian, Kimmeridgian and Tithonian stages. Many classic dinosaur assemblages come from this interval, but the global picture still reflects uneven rock exposure and collecting history.',
     paleogeography:'Laurasia and Gondwana were partly separated, the Central Atlantic was widening, and the Tethys region remained a major marine corridor. Gondwana was still comparatively coherent.',
@@ -11554,36 +11554,47 @@ PERIOD_DETAILS['Early Jurassic'] = {
 PERIOD_DETAILS['Mid Jurassic'] = {
   ...PERIOD_DETAILS['Mid Jurassic'],
   title:'Middle Jurassic',
-  age:'174.7–161.5 million years ago',
-  summary:'The Middle Jurassic records continued dinosaur diversification during the breakup of Pangaea, including increasingly large sauropods, varied theropods and expanding ornithischian lineages.'
+  age:'174.7–163.5 million years ago',
+  summary:'The Middle Jurassic records continued dinosaur diversification during the breakup of Pangaea, including increasingly large sauropods, varied theropod lineages and expanding ornithischian groups.',
+  paleogeography:'Pangaea continued to fragment. The Central Atlantic was widening between North America and northwestern Africa, while new rift basins and Tethyan seaways created dispersal barriers that promoted increasingly distinct regional faunas.',
+  climate:'Warm greenhouse conditions prevailed across the Middle Jurassic, but ocean gateways opened by rifting introduced stronger regional climatic gradients as monsoonal patterns that characterised Pangaea weakened.',
+  fossilSignal:'Middle Jurassic body-fossil records are globally sparse. Key windows are the Bajocian–Bathonian of England (Stonesfield Slate, Forest Marble), the Callovian of China (lower Shangshaximiao Formation), and scattered records from Argentina, Madagascar and Africa; absence in the dataset should not be read as biological absence.',
+  figureTitle:'Middle Jurassic continental state',
+  figureCopy:'This 170 Ma Bajocian reconstruction shows Pangaea clearly breaking into Laurasia and Gondwana. Emerging seaways and new rift basins were beginning to separate dinosaur faunas regionally, while many forms still shared broadly common ancestry — reflected in the similar theropod and sauropod types found across England, China and Argentina.',
+  points:[
+    'Middle Jurassic records are globally underrepresented — the period is less well sampled than the Late Jurassic or Cretaceous.',
+    'Sauropod body size was increasing substantially through the Jurassic, with giants well established by Bathonian time.',
+    'The English Stonesfield assemblage and Chinese Shangshaximiao faunas give complementary windows into a broadly Laurasian dinosaur community.'
+  ]
 };
 
 const GEO_STAGES = [
-  { abbr:'Nor.', name:'Norian', period:'Late Triassic', age:'227–208.5 Ma', note:'A Late Triassic stage. Some of the oldest well-known dinosaur faunas occur around this interval.' },
-  { abbr:'Rha.', name:'Rhaetian', period:'Late Triassic', age:'208.5–201.4 Ma', note:'The final Triassic stage, ending at the Triassic-Jurassic extinction.' },
-  { abbr:'Ht', name:'Hettangian', period:'Early Jurassic', age:'201.4–199.5 Ma', note:'Earliest Jurassic stage, shortly after the end-Triassic extinction.' },
-  { abbr:'Sin.', name:'Sinemurian', period:'Early Jurassic', age:'199.5–192.9 Ma', note:'Early Jurassic stage in which early theropods and sauropodomorphs continued diversifying.' },
-  { abbr:'Pl.', name:'Pliensbachian', period:'Early Jurassic', age:'192.9–184.2 Ma', note:'Early Jurassic stage, part of the recovery and radiation after the Triassic-Jurassic extinction.' },
-  { abbr:'Toa.', name:'Toarcian', period:'Early Jurassic', age:'184.2–174.7 Ma', note:'Late Early Jurassic stage, known for major marine environmental change.' },
-  { abbr:'Aal.', name:'Aalenian', period:'Mid Jurassic', age:'174.7–170.9 Ma', note:'Early Middle Jurassic stage.' },
-  { abbr:'Bj', name:'Bajocian', period:'Mid Jurassic', age:'170.9–168.2 Ma', note:'Middle Jurassic stage with important dinosaur faunas in several regions.' },
-  { abbr:'Bt', name:'Bathonian', period:'Mid Jurassic', age:'168.2–165.3 Ma', note:'Middle Jurassic stage; some classic early dinosaur discoveries come from rocks around this interval.' },
-  { abbr:'Cal.', name:'Callovian', period:'Mid Jurassic', age:'165.3–161.5 Ma', note:'Final Middle Jurassic stage before the Late Jurassic.' },
-  { abbr:'Oxf.', name:'Oxfordian', period:'Late Jurassic', age:'161.5–154.8 Ma', note:'Early Late Jurassic stage.' },
-  { abbr:'Kim.', name:'Kimmeridgian', period:'Late Jurassic', age:'154.8–149.2 Ma', note:'Late Jurassic stage that includes much of the Morrison Formation dinosaur fauna.' },
-  { abbr:'Tit.', name:'Tithonian', period:'Late Jurassic', age:'149.2–145.0 Ma', note:'Final Jurassic stage before the Cretaceous.' },
-  { abbr:'Ber.', name:'Berriasian', period:'Early Cretaceous', age:'145.0–139.8 Ma', note:'Earliest Cretaceous stage.' },
-  { abbr:'Val.', name:'Valanginian', period:'Early Cretaceous', age:'139.8–132.6 Ma', note:'Early Cretaceous stage.' },
-  { abbr:'Hau.', name:'Hauterivian', period:'Early Cretaceous', age:'132.6–125.8 Ma', note:'Early Cretaceous stage.' },
-  { abbr:'Bar.', name:'Barremian', period:'Early Cretaceous', age:'125.8–121.4 Ma', note:'Early Cretaceous stage.' },
-  { abbr:'Apt.', name:'Aptian', period:'Early Cretaceous', age:'121.4–113.0 Ma', note:'Early Cretaceous stage that includes several famous spinosaurid and ornithopod records.' },
-  { abbr:'Alb.', name:'Albian', period:'Early Cretaceous', age:'113.0–100.5 Ma', note:'Final Early Cretaceous stage.' },
-  { abbr:'Cen.', name:'Cenomanian', period:'Late Cretaceous', age:'100.5–93.9 Ma', note:'Earliest Late Cretaceous stage; includes major North African predator faunas.' },
-  { abbr:'Tur.', name:'Turonian', period:'Late Cretaceous', age:'93.9–89.8 Ma', note:'Late Cretaceous stage following the Cenomanian.' },
-  { abbr:'Cn', name:'Coniacian', period:'Late Cretaceous', age:'89.8–86.3 Ma', note:'Late Cretaceous stage.' },
-  { abbr:'Sn', name:'Santonian', period:'Late Cretaceous', age:'86.3–83.6 Ma', note:'Late Cretaceous stage.' },
-  { abbr:'Cam.', name:'Campanian', period:'Late Cretaceous', age:'83.6–72.1 Ma', note:'Stage with many classic hadrosaur, ceratopsian and tyrannosaur records.' },
-  { abbr:'Maa.', name:'Maastrichtian', period:'Late Cretaceous', age:'72.1–66.0 Ma', note:'Final Cretaceous stage, ending with the K-Pg extinction.' }
+  { abbr:'Car.', name:'Carnian', period:'Late Triassic', age:'237–227 Ma', note:'Earliest Late Triassic stage. Dinosaurs first appeared around 231–233 Ma in South America and Africa — records include the Ischigualasto Formation of Argentina, which yields Eoraptor, Herrerasaurus and Eodromaeus.' },
+  { abbr:'Nor.', name:'Norian', period:'Late Triassic', age:'227–208.5 Ma', note:'The longest Late Triassic stage. Early dinosaur faunas spread widely across Pangaea; important records from the Chinle Formation (southwestern North America), European rift basins and southern Africa.' },
+  { abbr:'Rha.', name:'Rhaetian', period:'Late Triassic', age:'208.5–201.4 Ma', note:'The final Triassic stage, ending at the Triassic–Jurassic extinction (~201.4 Ma) driven by CAMP volcanism. Many competing archosaur groups declined, opening ecological space for dinosaurs.' },
+  { abbr:'Het.', name:'Hettangian', period:'Early Jurassic', age:'201.4–199.5 Ma', note:'Earliest Jurassic stage, immediately following the end-Triassic extinction. A short interval of ecological recovery; early Jurassic dinosaur records from rift basins of Laurasia and Gondwana.' },
+  { abbr:'Sin.', name:'Sinemurian', period:'Early Jurassic', age:'199.5–192.9 Ma', note:'Early Jurassic stage in which early theropods and sauropodomorphs spread across former Pangaean landmasses; includes Dilophosaurus from the Kayenta Formation of western North America.' },
+  { abbr:'Pl.', name:'Pliensbachian', period:'Early Jurassic', age:'192.9–184.2 Ma', note:'Early Jurassic stage recording continued dinosaur radiation; rich track assemblages in North America and Europe complement sparse skeletal records.' },
+  { abbr:'Toa.', name:'Toarcian', period:'Early Jurassic', age:'184.2–174.7 Ma', note:'Closing Early Jurassic stage. The Toarcian Oceanic Anoxic Event (~183 Ma), driven by Karoo–Ferrar volcanism, caused major marine and terrestrial environmental disturbance.' },
+  { abbr:'Aal.', name:'Aalenian', period:'Mid Jurassic', age:'174.7–170.9 Ma', note:'Opening Middle Jurassic stage. Sauropods were diversifying across Laurasia and Gondwana; early megalosauroid and spinosauroid theropods appear in European and Chinese records.' },
+  { abbr:'Baj.', name:'Bajocian', period:'Mid Jurassic', age:'170.9–168.2 Ma', note:'Middle Jurassic stage with important dinosaur faunas; Megalosaurus bucklandii (England) is among the best-known records, alongside early sauropod material from China.' },
+  { abbr:'Bat.', name:'Bathonian', period:'Mid Jurassic', age:'168.2–165.3 Ma', note:'Middle Jurassic stage; the Stonesfield Slate (England) and Forest Marble yield some of the earliest well-documented European dinosaur material, including Megalosaurus and early sauropods.' },
+  { abbr:'Cal.', name:'Callovian', period:'Mid Jurassic', age:'165.3–163.5 Ma', note:'Final Middle Jurassic stage. The lower Shangshaximiao Formation of Sichuan, China, begins to preserve the diverse sauropod-dominated faunas that continue into the Late Jurassic.' },
+  { abbr:'Oxf.', name:'Oxfordian', period:'Late Jurassic', age:'163.5–157.3 Ma', note:'Earliest Late Jurassic stage. Sauropod and theropod diversity was high across Laurasia; Morrison Formation deposition began in western North America.' },
+  { abbr:'Kim.', name:'Kimmeridgian', period:'Late Jurassic', age:'157.3–152.1 Ma', note:'Late Jurassic stage preserving the core Morrison Formation fauna of western North America — Allosaurus, Brachiosaurus, Stegosaurus, Diplodocus and Camarasaurus are all Kimmeridgian or straddle this stage.' },
+  { abbr:'Tit.', name:'Tithonian', period:'Late Jurassic', age:'152.1–145.0 Ma', note:'Final Jurassic stage. The Solnhofen Limestone (Bavaria) preserves Archaeopteryx and exceptional soft-tissue fossils from a shallow tropical lagoon; Morrison Formation deposition also continued.' },
+  { abbr:'Ber.', name:'Berriasian', period:'Early Cretaceous', age:'145.0–139.8 Ma', note:'Earliest Cretaceous stage; marks the Jurassic–Cretaceous transition as Pangaean breakup continued and new continental seaways developed, increasingly isolating regional faunas.' },
+  { abbr:'Val.', name:'Valanginian', period:'Early Cretaceous', age:'139.8–132.6 Ma', note:'Early Cretaceous stage; Wealden Group deposition in Europe records iguanodontian ornithopods and early spinosaurids in riverine and deltaic environments.' },
+  { abbr:'Hau.', name:'Hauterivian', period:'Early Cretaceous', age:'132.6–125.8 Ma', note:'Early Cretaceous stage; Gondwanan dinosaur faunas were diverging from Laurasian ones as the South Atlantic began opening between South America and Africa.' },
+  { abbr:'Bar.', name:'Barremian', period:'Early Cretaceous', age:'125.8–121.4 Ma', note:'Early Cretaceous stage including Baryonyx and spinosaurids in Europe, and the earliest records of the Jehol Biota — remarkable feathered dinosaurs preserved in northeastern China\'s volcanic lake deposits.' },
+  { abbr:'Apt.', name:'Aptian', period:'Early Cretaceous', age:'121.4–113.0 Ma', note:'Early Cretaceous stage encompassing the main Jehol Biota interval (Yixian Formation), which preserves feathered paravians, early angiosperms and exceptional soft-tissue detail; also includes several famous spinosaurid records.' },
+  { abbr:'Alb.', name:'Albian', period:'Early Cretaceous', age:'113.0–100.5 Ma', note:'Final Early Cretaceous stage. Iguanodontians and sauropods were diverse across Gondwana and Laurasia; this interval immediately precedes the explosive Late Cretaceous radiation of hadrosaurs and ceratopsians.' },
+  { abbr:'Cen.', name:'Cenomanian', period:'Late Cretaceous', age:'100.5–93.9 Ma', note:'Earliest Late Cretaceous stage; includes major North African theropod faunas (Spinosaurus, Carcharodontosaurus) and the peak of Cretaceous sea-level rise, which split North America via the Western Interior Seaway.' },
+  { abbr:'Tur.', name:'Turonian', period:'Late Cretaceous', age:'93.9–89.8 Ma', note:'Late Cretaceous stage following a significant marine extinction event at the Cenomanian–Turonian boundary; early tyrannosauroid lineages diversified in North America and Asia.' },
+  { abbr:'Con.', name:'Coniacian', period:'Late Cretaceous', age:'89.8–86.3 Ma', note:'Late Cretaceous stage; hadrosaur and ceratopsian diversity was expanding rapidly in North America and Asia as sea levels remained high and provincial faunas became increasingly distinct.' },
+  { abbr:'San.', name:'Santonian', period:'Late Cretaceous', age:'86.3–83.6 Ma', note:'Late Cretaceous stage; the Dinosaur Park Formation (Alberta) records over 30 dinosaur genera from a single formation — one of the highest-diversity assemblages known from any single unit.' },
+  { abbr:'Cam.', name:'Campanian', period:'Late Cretaceous', age:'83.6–72.1 Ma', note:'The longest Late Cretaceous stage, with many classic hadrosaur, ceratopsian and tyrannosaur records from western North America, central Asia and eastern Asia.' },
+  { abbr:'Maa.', name:'Maastrichtian', period:'Late Cretaceous', age:'72.1–66.0 Ma', note:'Final Cretaceous stage, ending at the Chicxulub impact and K–Pg mass extinction (66 Ma), which ended all non-avian dinosaur lineages while birds — avian dinosaurs — survived.' }
 ];
 
 function maPct(ma) {
@@ -11612,7 +11623,7 @@ const FEATURED_ALL = [
 const PERIOD_FEATURED = {
   'Late Triassic':    ['herrerasaurus','coelophysis','plateosaurus','eoraptor','liliensternus','eodromaeus'],
   'Early Jurassic':   ['aardonyx','cryolophosaurus','massospondylus','scelidosaurus','dilophosaurus','heterodontosaurus'],
-  'Mid Jurassic':     ['megalosaurus','dilophosaurus','yangchuanosaurus','scelidosaurus','heterodontosaurus'],
+  'Mid Jurassic':     ['megalosaurus','cetiosaurus','datousaurus','monolophosaurus','scelidosaurus'],
   'Late Jurassic':    ['allosaurus','stegosaurus','brachiosaurus','diplodocus','apatosaurus','ceratosaurus','kentrosaurus','camarasaurus','compsognathus','archaeopteryx'],
   'Early Cretaceous': ['spinosaurus','baryonyx','iguanodon','deinonychus','microraptor','yutyrannus','psittacosaurus','acrocanthosaurus','utahraptor','carcharodontosaurus'],
   'Late Cretaceous':  ['tyrannosaurus','triceratops','velociraptor','parasaurolophus','ankylosaurus','edmontosaurus','pachycephalosaurus','giganotosaurus','tarbosaurus','maiasaura']
@@ -14081,8 +14092,8 @@ function pbdbRangeMatchesWikiPeriod(d, pbdb) {
   const bounds = {
     'Late Triassic': [237, 201.3],
     'Early Jurassic': [201.3, 174.7],
-    'Mid Jurassic': [174.7, 161.5],
-    'Late Jurassic': [161.5, 145],
+    'Mid Jurassic': [174.7, 163.5],
+    'Late Jurassic': [163.5, 145],
     'Early Cretaceous': [145, 100.5],
     'Late Cretaceous': [100.5, 66]
   }[d.period];
