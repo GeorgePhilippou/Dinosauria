@@ -740,16 +740,10 @@
 
   .panel-body { min-width: 0; padding: 16px; display: flex; flex-direction: column; gap: 14px; }
   .profile-section-nav {
-    position: sticky;
-    top: 0;
-    z-index: 3;
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
-    padding: 8px 0;
-    background: color-mix(in srgb, var(--surface) 94%, transparent);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--line);
+    padding: 8px 0 0;
   }
   .profile-section-link {
     --section-col: var(--line-2);
@@ -13418,7 +13412,12 @@ function openPanel(id, options = {}) {
   profileSections.forEach((spec, i) => {
     spec.node.querySelector('.section-index').textContent = String(i + 1).padStart(2, '0');
   });
-  body.append(heroNode(d), profileSectionNavNode(profileSections), ...profileSections.map(spec => spec.node));
+  // Put the section nav in the panel-header so it stays visible while scrolling
+  const panelHeader = panel.querySelector('.panel-header');
+  const existingNav = panelHeader.querySelector('.profile-section-nav');
+  if (existingNav) existingNav.remove();
+  panelHeader.appendChild(profileSectionNavNode(profileSections));
+  body.append(heroNode(d), ...profileSections.map(spec => spec.node));
   panel.classList.add('open');
   panel.focus({ preventScroll: true });
   if (!options.skipRoute) setRoute(`#dino/${encodeURIComponent(d.id)}`);
