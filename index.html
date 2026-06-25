@@ -646,6 +646,45 @@
   }
   .panel-close:hover, .panel-expand:hover { color: var(--text); border-color: var(--line-2); }
   .panel-expand { font-size: 14px; }
+  .side-panel.expanded {
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important;
+    z-index: 200;
+    border-left: none;
+  }
+  /* Collapsible validity note box */
+  #validity-note-box {
+    margin-top: 8px;
+    border-radius: var(--radius);
+    font-size: 11px;
+    line-height: 1.55;
+    color: var(--text-2);
+    border-left: 3px solid;
+    background: color-mix(in srgb, var(--surface-2) 80%, transparent);
+  }
+  #validity-note-box .vnote-toggle {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 7px 11px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    color: var(--text-3);
+    gap: 6px;
+  }
+  #validity-note-box .vnote-toggle:hover { color: var(--text-2); }
+  #validity-note-box .vnote-arrow { margin-left: auto; transition: transform .2s; font-style: normal; }
+  #validity-note-box:not(.vnote-collapsed) .vnote-arrow { transform: rotate(90deg); }
+  #validity-note-box .vnote-body { padding: 0 11px 9px; display: none; }
+  #validity-note-box:not(.vnote-collapsed) .vnote-body { display: block; }
   .panel-name { padding-right: 72px; font-size: 21px; font-weight: 700; line-height: 1.15; }
   .panel-latin-row { display: flex; align-items: baseline; flex-wrap: wrap; gap: 0; margin-top: 4px; }
   .panel-latin { color: var(--text-3); font-size: 12px; font-style: italic; }
@@ -5384,6 +5423,7 @@
       <aside class="side-panel" id="side-panel" aria-live="polite" aria-label="Species profile" tabindex="-1">
         <div class="panel-header">
           <div class="panel-controls">
+            <button class="panel-expand" id="panel-expand" title="Full screen" aria-label="Expand panel">⤢</button>
             <button class="panel-close" id="panel-close" aria-label="Close">&times;</button>
           </div>
           <div class="panel-name" id="p-name"></div>
@@ -13000,6 +13040,15 @@ function init() {
   initCatalogueGuideCollapse();
   initBackToTop();
   document.getElementById('panel-close').addEventListener('click', closePanel);
+  document.getElementById('panel-expand').addEventListener('click', () => {
+    const panel = document.getElementById('side-panel');
+    const btn = document.getElementById('panel-expand');
+    const expanding = !panel.classList.contains('expanded');
+    panel.classList.toggle('expanded', expanding);
+    btn.textContent = expanding ? '⤡' : '⤢';
+    btn.title = expanding ? 'Exit full screen' : 'Full screen';
+    btn.setAttribute('aria-label', expanding ? 'Exit full screen' : 'Expand panel');
+  });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel(); });
 
   // ── Theme toggle ────────────────────────────────────────────
@@ -13462,15 +13511,19 @@ function renderPanelPills(d) {
     badge.textContent = VALIDITY_LABELS[d.validity] || d.validity;
     wrap.appendChild(badge);
 
-    // Add a note box below the pills
+    // Add a collapsible note box below the pills
     const existingNote = document.getElementById('validity-note-box');
     if (existingNote) existingNote.remove();
     if (d.validityNote) {
       const note = document.createElement('div');
       note.id = 'validity-note-box';
-      note.style.cssText = 'margin-top:10px;padding:9px 11px;border-radius:var(--radius);font-size:11px;line-height:1.55;color:var(--text-2);border-left:3px solid;background:color-mix(in srgb,var(--surface-2) 80%,transparent);';
+      note.className = 'vnote-collapsed';
       note.style.borderColor = d.validity === 'nomen_dubium' ? '#c8870a' : '#d04010';
-      note.innerHTML = `<strong style="display:block;margin-bottom:3px;font-size:10px;text-transform:uppercase;letter-spacing:.07em;color:var(--text-3)">${VALIDITY_LABELS[d.validity]}</strong>${escapeSvg(d.validityNote)}`;
+      note.innerHTML = `<button class="vnote-toggle" type="button" aria-expanded="false"><span class="vnote-label">${VALIDITY_LABELS[d.validity]}</span><span class="vnote-arrow">&#9658;</span></button><div class="vnote-body">${escapeSvg(d.validityNote)}</div>`;
+      note.querySelector('.vnote-toggle').addEventListener('click', () => {
+        const collapsed = note.classList.toggle('vnote-collapsed');
+        note.querySelector('.vnote-toggle').setAttribute('aria-expanded', String(!collapsed));
+      });
       wrap.parentNode.insertBefore(note, wrap.nextSibling);
     }
   } else {
