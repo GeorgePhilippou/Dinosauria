@@ -6,6 +6,7 @@
 <title>Dinosauria</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  img { max-width: 100%; }
   :root {
     --bg: #fbfbf8;
     --surface: #ffffff;
@@ -59,11 +60,12 @@
     --shadow: 0 18px 44px rgba(25, 31, 23, 0.12);
   }
   html, body { height: 100%; }
-  html { overflow: hidden; }
+  html { overflow: hidden; overscroll-behavior-x: none; }
   body {
     min-height: 100vh;
     min-height: 100dvh;
     overflow: hidden;
+    overscroll-behavior-x: none;
     background: var(--bg);
     color: var(--text);
     font-family: var(--font);
@@ -127,6 +129,7 @@
     flex: 1;
     min-height: 0;
     overflow-y: auto;
+    overflow-x: hidden;
     padding: 18px 20px 28px;
   }
   .home-main,
@@ -432,6 +435,7 @@
     flex: 1;
     min-width: 0;
     overflow-y: auto;
+    overflow-x: hidden;
     padding: 14px 16px;
   }
   .results-meta {
@@ -610,6 +614,7 @@
     background: var(--surface);
     box-shadow: var(--shadow);
     overflow-y: auto;
+    overflow-x: hidden;
     scrollbar-width: thin;
     scrollbar-color: var(--surface-3) transparent;
   }
@@ -1426,12 +1431,29 @@
     .geo-context-grid { grid-template-columns: 1fr; }
     .side-panel { width: 100%; max-width: 72vw; }
   }
+  /* On tablets (portrait iPad and below), open the detail panel full-screen
+     so the card list behind it isn't crushed to ~200px. */
+  @media (max-width: 900px) {
+    .side-panel.open {
+      position: fixed;
+      inset: 0;
+      z-index: 10;
+      width: 100%;
+      max-width: none;
+      height: 100vh;
+      height: 100dvh;
+      overflow-y: auto;
+      overflow-x: hidden;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
   @media (max-width: 680px) {
     html,
     body {
       height: auto;
       min-height: 100%;
-      overflow: auto;
+      overflow-y: auto;
+      overflow-x: hidden;
     }
     .app-shell { min-height: 100vh; min-height: 100dvh; height: auto; }
     .app-body { min-height: 100vh; min-height: 100dvh; padding-top: 80px; }
@@ -2770,6 +2792,11 @@
     .nav-toggle-sub { display: none; }
     .nav-dropdown { min-width: 210px; }
   }
+  @media (max-width: 480px) {
+    .top-bar-nhm-attr { display: none; }
+    .top-bar-nhm-logo { height: 32px; }
+    .top-bar { gap: 6px; }
+  }
   .top-bar.tbar-hidden {
     transform: translateY(-100%);
   }
@@ -3844,7 +3871,7 @@
   .geo-section-collapsed .geo-scale { display: none; }
 
   /* ─── WIKI PAGE (new homepage) ──────────────────────────── */
-  .wiki-page { display: flex; flex-direction: column; flex: 1; min-height: 0; overflow-y: auto; }
+  .wiki-page { display: flex; flex-direction: column; flex: 1; min-height: 0; overflow-y: auto; overflow-x: hidden; }
   .glossary-page { display: block; width: 100%; }
 
   .wiki-section {
@@ -4864,6 +4891,25 @@
     outline: 2px solid rgba(255,255,255,.6);
     outline-offset: 1px;
   }
+
+  /* ─── RESPONSIVE GLANCE GRIDS ───────────────────────────────── */
+  /* These replace inline grid styles in buildGlancePanels() and   */
+  /* the world-overview section so media queries can override them. */
+  .glance-r1 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 18px; }
+  .glance-r2 { display: grid; grid-template-columns: auto 1fr 1fr; gap: 12px; margin-top: 12px; align-items: stretch; }
+  .glance-r2-diet { min-width: 170px; }
+  .glance-r3 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
+  .world-glance-grid { display: grid; grid-template-columns: minmax(300px, 1.1fr) minmax(240px, .9fr); gap: 14px; align-items: stretch; }
+
+  @media (max-width: 760px) {
+    .world-glance-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 640px) {
+    .glance-r1,
+    .glance-r2,
+    .glance-r3 { grid-template-columns: 1fr; }
+    .glance-r2-diet { min-width: 0; }
+  }
 </style>
 </head>
 <body>
@@ -5062,7 +5108,7 @@
                 <figcaption class="figure-caption">Crocodylia and Pterosauria branch outside Dinosauria; Aves are nested deep within Theropoda. Roy E. Plotnick et al., CC BY 4.0. <a href="https://commons.wikimedia.org/wiki/File:Birds_and_dinosaurs.webp" target="_blank" rel="noreferrer">Source</a>.</figcaption>
               </figure>
             </div>
-            <div class="wiki-info-panel-keydef" style="margin-top:12px"><strong>Key fact</strong>Dinosauria is a crown group including all ~10,500 living bird species alongside the extinct genera covered in this wiki. The K–Pg extinction ended non-avian dinosaurs — not the lineage itself.</div>
+            <div class="wiki-info-panel-keydef" style="margin-top:12px"><strong>Key fact</strong>Dinosauria is a node-based clade that includes all ~10,500 living bird species alongside the extinct genera covered in this wiki. The K–Pg extinction ended non-avian dinosaurs — not the lineage itself.</div>
             <div class="period-source-links" style="margin-top:12px" aria-label="Sources">
               <a href="https://www.nhm.ac.uk/discover/what-are-dinosaurs.html" target="_blank" rel="noreferrer">NHM: what are dinosaurs</a>
               <a href="https://www.amnh.org/explore/videos/dinosaurs-and-fossils/what-is-and-is-not-a-dinosaur" target="_blank" rel="noreferrer">AMNH: what is not a dinosaur</a>
@@ -5423,9 +5469,9 @@
               <span class="wiki-term-chevron">▾</span>
             </button>
             <div class="wiki-term-body">
-              <p>Dinosauria is a formal scientific clade, not a colloquial label. It is defined as a <em>node-based crown group</em>: the most recent common ancestor of <em>Triceratops horridus</em> and <em>Passer domesticus</em> (the house sparrow), and all their descendants, living and extinct. Because birds (Aves) are nested within Theropoda within Saurischia within Dinosauria, every living bird is unconditionally a dinosaur.</p>
+              <p>Dinosauria is a formal scientific clade, not a colloquial label. It is defined as a <em>node-based clade</em>: the most recent common ancestor of <em>Triceratops horridus</em> and <em>Passer domesticus</em> (the house sparrow), and all their descendants, living and extinct. Because birds (Aves) are nested within Theropoda within Saurischia within Dinosauria, every living bird is unconditionally a dinosaur.</p>
               <p>The anatomical diagnosis includes: a perforate acetabulum (open hip socket); hindlimbs held directly beneath the body in an erect posture; a supra-acetabular crest on the ilium; and a fully developed deltopectoral crest on the humerus. These characters distinguish dinosaurs from pterosaurs and crocodilians — closely related archosaurs that lie outside Dinosauria.</p>
-              <div class="wiki-term-keydef"><strong>Crown group</strong> A crown group includes the last common ancestor of its living members and all extinct descendants. Because birds are living dinosaurs, Dinosauria encompasses ~10,500 living bird species alongside the extinct genera in this wiki.</div>
+              <div class="wiki-term-keydef"><strong>Node-based clade</strong> Dinosauria is defined by the node (most recent common ancestor) of <em>Triceratops horridus</em> and <em>Passer domesticus</em>. A true crown group would be anchored only on living taxa; because <em>Triceratops</em> is extinct, Dinosauria is properly a node-based definition that extends deeper than birds alone, encompassing ~10,500 living bird species alongside all the extinct genera in this wiki.</div>
             </div>
           </div>
 
@@ -5776,6 +5822,9 @@
 <script src="data/nhm-imported-dinosaurs.js"></script>
 <script src="data/pbdb-enrichment.js"></script>
 <script src="data/wiki-enrichment.js"></script>
+<script src="data/ai-enriched-profiles.js"></script>
+<script src="data/ai-fossil-records.js"></script>
+<script src="data/ai-curated-evidence.js"></script>
 <script src="data/content-overrides.js"></script>
 <script>
 const SOURCE_BASE = 'https://www.nhm.ac.uk/discover/dino-directory/';
@@ -10303,7 +10352,7 @@ Object.assign(RICH_CONTENT, {
     articles:[
       {title:'The Brontosaurus saga',body:'"Brontosaurus" was named by Marsh in 1879; Apatosaurus had been named by the same scientist in 1877 from a different specimen. When the two were recognised as the same genus in 1903, Apatosaurus took priority. The name Brontosaurus was used informally for decades before Emmanuel Tschopp and colleagues in 2015 demonstrated that the species previously called Brontosaurus excelsus differs enough from A. ajax to merit its own genus — so Brontosaurus is now partially rehabilitated for that species.'},
       {title:'Neck biomechanics',body:'The neck of Apatosaurus was extraordinarily thick and robust — more so than in Diplodocus for a similar body length. Air sacs inflated chambers in the vertebrae (pneumatisation), reducing mass without sacrificing structural strength. Computer models suggest the neck was carried near-horizontally rather than upright, and was used for sweeping through low-growing ferns and ground vegetation.'},
-      {title:'Tail mechanics',body:'The slender whip-like distal tail may have been capable of supersonic crack. Modelling by Myhrvold and Currie (1997) suggests the tail tip could have reached velocities exceeding the speed of sound, generating a sonic boom used for communication or defence — analogous to a bullwhip. This remains the leading hypothesis though direct evidence is unavailable.'}
+      {title:'Tail mechanics',body:'The slender whip-like distal tail has long been proposed as a "whip-crack" weapon or signalling device. Modelling by Myhrvold and Currie (1997) suggested the tail tip could reach supersonic velocities, generating a sonic boom. However, later biomechanical work argues that soft-tissue constraints — tendons, muscles, and skin — would have limited tip speed to well below the speed of sound, making a true sonic boom implausible. The tail was almost certainly used for defence or display, but the supersonic hypothesis is now contested.'}
     ],
     citations:[{label:'NHM: Apatosaurus profile',url:SOURCE_BASE+'apatosaurus.html'}]
   },
@@ -11204,6 +11253,18 @@ Object.assign(RICH_CONTENT, {
   }
 });
 
+Object.entries(window.AI_ENRICHED_PROFILES || {}).forEach(([id, profile]) => {
+  if (!RICH_CONTENT[id]) RICH_CONTENT[id] = profile;
+});
+
+Object.entries(window.AI_FOSSIL_RECORDS || {}).forEach(([id, record]) => {
+  if (!FOSSIL_RECORDS[id]) FOSSIL_RECORDS[id] = record;
+});
+
+Object.entries(window.AI_CURATED_EVIDENCE || {}).forEach(([id, ev]) => {
+  if (!CURATED_EVIDENCE[id]) CURATED_EVIDENCE[id] = ev;
+});
+
 Object.entries(window.CONTENT_OVERRIDES || {}).forEach(([id, profile]) => {
   if (!RICH_CONTENT[id]) RICH_CONTENT[id] = profile;
 });
@@ -11894,7 +11955,7 @@ function buildGlancePanels() {
 
   return `
   <!-- Row 1: period + clade -->
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px">
+  <div class="glance-r1">
     <div style="${panelStyle}">
       <div style="${titleStyle}">By geological period</div>
       <div style="display:flex;flex-direction:column;gap:7px">
@@ -11910,8 +11971,8 @@ function buildGlancePanels() {
   </div>
 
   <!-- Row 2: diet + continent + size -->
-  <div style="display:grid;grid-template-columns:auto 1fr 1fr;gap:12px;margin-top:12px;align-items:stretch">
-    <div style="${panelStyle};min-width:170px">
+  <div class="glance-r2">
+    <div class="glance-r2-diet" style="${panelStyle}">
       <div style="${titleStyle}">By diet</div>
       <div style="display:flex;flex-direction:column;gap:8px">
         ${dietRows.map(r=>`<div style="display:flex;align-items:baseline;gap:8px">
@@ -11936,7 +11997,7 @@ function buildGlancePanels() {
   </div>
 
   <!-- Row 3: size across time + stage spotlight -->
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px">
+  <div class="glance-r3">
     <div style="${panelStyle}">
       <div style="${titleStyle}">How dinosaur groups are distributed through time</div>
       <figure style="margin:0">
@@ -12045,7 +12106,7 @@ function renderPeriodInfo(pid = 'all') {
         </div>
         <div class="period-world-meta">252–66 Ma · Mesozoic Era</div>
       </div>
-      <div style="display:grid;grid-template-columns:minmax(360px,1.1fr) minmax(280px,.9fr);gap:14px;align-items:stretch">
+      <div class="world-glance-grid">
         <div style="border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:var(--surface-2)">
           <img src="${paleoImage.src}" alt="${paleoImage.alt}" loading="lazy" style="width:100%;height:280px;object-fit:cover;display:block">
           <div style="padding:8px 10px;border-top:1px solid var(--line)">
