@@ -613,13 +613,15 @@
     border-left: 1px solid var(--line);
     background: var(--surface);
     box-shadow: var(--shadow);
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
     scrollbar-width: thin;
     scrollbar-color: var(--surface-3) transparent;
   }
   .side-panel.open { display: flex; }
   .panel-header {
-    flex-shrink: 0;
+    position: sticky;
+    top: 0;
     z-index: 2;
     padding: 15px 16px 12px;
     border-bottom: 1px solid var(--line);
@@ -736,7 +738,7 @@
     border-radius: 0 0 var(--radius) var(--radius);
   }
 
-  .panel-body { flex: 1; min-height: 0; min-width: 0; padding: 16px; display: flex; flex-direction: column; gap: 14px; overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch; scrollbar-width: thin; scrollbar-color: var(--surface-3) transparent; }
+  .panel-body { min-width: 0; padding: 16px; display: flex; flex-direction: column; gap: 14px; }
   .profile-section-nav {
     position: sticky;
     top: 0;
@@ -1440,6 +1442,19 @@
       max-width: none;
       height: calc(100vh - 80px);
       height: calc(100dvh - 80px);
+      overflow: hidden;
+    }
+    /* iOS Safari doesn't honour position:sticky inside position:fixed.
+       Fix: make only panel-body scroll; panel-header is always in view. */
+    .side-panel.open .panel-header {
+      position: relative;
+    }
+    .side-panel.open .panel-body {
+      flex: 1;
+      min-height: 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+      -webkit-overflow-scrolling: touch;
     }
   }
   @media (max-width: 680px) {
@@ -1472,6 +1487,15 @@
       max-width: none;
       height: calc(100vh - 80px);
       height: calc(100dvh - 80px);
+      overflow: hidden;
+    }
+    .side-panel.open .panel-header { position: relative; }
+    .side-panel.open .panel-body {
+      flex: 1;
+      min-height: 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+      -webkit-overflow-scrolling: touch;
     }
   }
 
