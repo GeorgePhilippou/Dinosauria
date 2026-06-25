@@ -613,15 +613,13 @@
     border-left: 1px solid var(--line);
     background: var(--surface);
     box-shadow: var(--shadow);
-    overflow-y: auto;
-    overflow-x: hidden;
+    overflow: hidden;
     scrollbar-width: thin;
     scrollbar-color: var(--surface-3) transparent;
   }
   .side-panel.open { display: flex; }
   .panel-header {
-    position: sticky;
-    top: 0;
+    flex-shrink: 0;
     z-index: 2;
     padding: 15px 16px 12px;
     border-bottom: 1px solid var(--line);
@@ -738,7 +736,7 @@
     border-radius: 0 0 var(--radius) var(--radius);
   }
 
-  .panel-body { min-width: 0; padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+  .panel-body { flex: 1; min-height: 0; min-width: 0; padding: 16px; display: flex; flex-direction: column; gap: 14px; overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch; scrollbar-width: thin; scrollbar-color: var(--surface-3) transparent; }
   .profile-section-nav {
     position: sticky;
     top: 0;
@@ -1442,23 +1440,7 @@
       max-width: none;
       height: calc(100vh - 80px);
       height: calc(100dvh - 80px);
-      overflow-y: auto;
-      overflow-x: hidden;
-      -webkit-overflow-scrolling: touch;
     }
-    /* Collapse the period-world layout grids on tablet portrait (768–900px) — the
-       760px breakpoint just misses iPad (768px), leaving a cramped 2-col layout. */
-    .period-world-grid,
-    .period-info-grid,
-    .period-info-points { grid-template-columns: 1fr; }
-    .period-info-stat.wide,
-    .period-info-stat.full { grid-column: auto; }
-    .period-info-top { display: block; }
-    .period-info-age { margin-top: 5px; white-space: normal; }
-    .period-world-head,
-    .section-heading-row,
-    .period-info-intro { display: block; }
-    .period-world-meta { margin-top: 6px; text-align: left; }
   }
   @media (max-width: 680px) {
     html,
@@ -1490,9 +1472,6 @@
       max-width: none;
       height: calc(100vh - 80px);
       height: calc(100dvh - 80px);
-      overflow-y: auto;
-      overflow-x: hidden;
-      -webkit-overflow-scrolling: touch;
     }
   }
 
@@ -2436,7 +2415,7 @@
     color: var(--text);
     font-weight: 750;
   }
-  @media (max-width: 760px) {
+  @media (max-width: 900px) {
     .period-metric-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .dash-topbar { align-items: flex-start; flex-direction: column; }
     .dash-pills { width: 100%; }
