@@ -620,6 +620,7 @@
   }
   .side-panel.open { display: flex; }
   .panel-header {
+    flex-shrink: 0;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -778,6 +779,7 @@
   }
 
   .panel-body { min-width: 0; padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+  .panel-body > * { flex-shrink: 0; }
   .profile-section-nav {
     display: flex;
     flex-wrap: wrap;
@@ -1540,11 +1542,19 @@
   .period-explorer-shell {
     display: grid;
     gap: 14px;
+    min-width: 0;
+    overflow-x: hidden;
+  }
+  .period-explorer-shell > * {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
   .period-metric-row {
     display: grid;
     grid-template-columns: repeat(4, minmax(110px, 1fr));
     gap: 8px;
+    min-width: 0;
   }
   .period-metric {
     padding: 9px 10px;
@@ -1569,11 +1579,14 @@
 
   /* Header bar */
   .dash-topbar {
+    width: 100%;
+    max-width: 100%;
     min-height: 44px;
     display: flex;
     align-items: center;
     padding: 0;
     gap: 10px;
+    min-width: 0;
   }
   .dash-era-badge {
     font-size: 10px;
@@ -1590,6 +1603,7 @@
     flex-wrap: nowrap;
     overflow-x: auto;
     flex: 1;
+    min-width: 0;
     scrollbar-width: none;
   }
   .dash-pills::-webkit-scrollbar { display: none; }
@@ -1646,6 +1660,10 @@
 
   /* ── Timeline ──────────────────────────────────────────────── */
   .dash-timeline-wrap {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow-x: hidden;
     padding: 14px;
     border: 1px solid var(--line);
     border-radius: var(--radius);
@@ -1669,6 +1687,7 @@
 
   .dash-era-bar {
     display: flex;
+    min-width: 0;
     height: 4px;
     border-radius: 3px;
     overflow: hidden;
@@ -1681,6 +1700,7 @@
     display: grid;
     grid-template-columns: repeat(6, minmax(0, 1fr));
     gap: 6px;
+    min-width: 0;
     min-height: 126px;
   }
   .dash-period-seg {
@@ -1735,6 +1755,7 @@
     border-radius: var(--radius);
     background: var(--surface);
     overflow: hidden;
+    min-width: 0;
     margin-top: 8px;
   }
   #period-dashboard.stages-hidden .dash-stage-wrap { display: none; }
@@ -1752,6 +1773,8 @@
     display: flex;
     gap: 3px;
     min-height: 32px;
+    min-width: 0;
+    overflow-x: auto;
     padding: 0 13px 13px;
   }
   .dash-stage-group {
@@ -1839,7 +1862,8 @@
   .dash-events-wrap {
     position: relative;
     margin-top: 4px;
-    overflow: visible;
+    overflow: hidden;
+    min-width: 0;
   }
   #period-dashboard.events-hidden .dash-events-wrap { display: none; }
   #period-dashboard.events-hidden .dash-timeline-wrap { padding-bottom: 14px; }
@@ -2014,10 +2038,14 @@
   }
   .period-world {
     margin: 14px 20px 0;
+    width: auto;
+    max-width: calc(100% - 40px);
     padding: 14px;
     border: 1px solid var(--line);
     border-radius: var(--radius);
     background: var(--surface);
+    min-width: 0;
+    overflow-x: hidden;
   }
   .period-world-head,
   .section-heading-row {
@@ -2059,6 +2087,7 @@
     grid-template-columns: minmax(360px, 1.2fr) minmax(260px, .8fr);
     gap: 12px;
     align-items: stretch;
+    min-width: 0;
   }
   .paleo-map {
     width: 100%;
@@ -2474,10 +2503,11 @@
   }
   @media (max-width: 900px) {
     .period-metric-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .dash-topbar { align-items: flex-start; flex-direction: column; }
+    .dash-topbar { align-items: stretch; flex-direction: column; }
     .dash-pills { width: 100%; }
     .dash-period-row { display: flex; overflow-x: auto; padding-bottom: 2px; }
     .dash-period-seg { min-width: 210px; }
+    .dash-stage-row { padding-bottom: 13px; }
     .period-info-top { display: block; }
     .period-info-age { margin-top: 5px; white-space: normal; }
     .period-world-head,
@@ -2492,6 +2522,14 @@
     .definition-tag { display: inline-flex; margin-top: 9px; }
     .period-info-stat.wide,
     .period-info-stat.full { grid-column: auto; }
+  }
+  @media (max-width: 760px) {
+    #period-dashboard .wiki-section-body { padding-left: 14px; padding-right: 14px; }
+    #period-dashboard .period-world,
+    #period-dashboard .period-preview,
+    #period-dashboard .period-info { margin-left: 0; margin-right: 0; }
+    #period-dashboard .dash-timeline-wrap { padding: 12px; }
+    #period-dashboard .dash-period-seg { min-width: 190px; }
   }
   @media (max-width: 620px) {
     .narrative-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -3777,10 +3815,14 @@
   /* ─── PERIOD PREVIEW STRIP ──────────────────────────────── */
   .period-preview {
     margin: 14px 20px 0;
+    width: auto;
+    max-width: calc(100% - 40px);
     padding: 14px;
     border: 1px solid var(--line);
     border-radius: var(--radius);
     background: var(--surface);
+    min-width: 0;
+    overflow-x: hidden;
   }
   .period-preview-head {
     display: flex;
