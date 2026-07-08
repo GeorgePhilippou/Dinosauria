@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import vm from 'node:vm';
-const files = ['data/existing-dinosaurs.js','data/nhm-imported-dinosaurs.js','data/pbdb-enrichment.js','data/wiki-enrichment.js','data/ai-enriched-profiles.js','data/ai-fossil-records.js','data/ai-curated-evidence.js','data/content-overrides.js','data/curated-content.js'];
+const files = ['data/existing-dinosaurs.js','data/nhm-imported-dinosaurs.js','data/pbdb-enrichment.js','data/wiki-enrichment.js','data/ai-enriched-profiles.js','data/ai-fossil-records.js','data/ai-curated-evidence.js','data/content-overrides.js'];
 const win = {}; const ctx = vm.createContext({ window: win, console });
 for (const f of files) vm.runInContext(readFileSync(new URL('../'+f,import.meta.url),'utf8'), ctx, {filename:f});
 const all = [...(win.EXISTING_DINOSAUR_RECORDS||[]), ...(win.NHM_IMPORTED_DINOSAUR_RECORDS||[])];

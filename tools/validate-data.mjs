@@ -11,7 +11,6 @@ const files = [
   'data/ai-fossil-records.js',
   'data/ai-curated-evidence.js',
   'data/content-overrides.js',
-  'data/curated-content.js',
 ];
 
 const win = {};
@@ -26,17 +25,10 @@ const existing = win.EXISTING_DINOSAUR_RECORDS || [];
 const nhm = win.NHM_IMPORTED_DINOSAUR_RECORDS || [];
 const all = [...existing, ...nhm];
 console.log('existing:', existing.length, 'nhm:', nhm.length, 'total:', all.length);
-console.log('RICH_PROFILES:', Object.keys(win.RICH_PROFILES).length);
-console.log('RICH_CONTENT:', Object.keys(win.RICH_CONTENT).length);
-console.log('CLASSIFICATION_PATHS:', Object.keys(win.CLASSIFICATION_PATHS).length);
-console.log('CLADOGRAM_TREE root children:', win.CLADOGRAM_TREE.children.length);
-console.log('IMAGE_FILES:', Object.keys(win.IMAGE_FILES).length);
 console.log('PBDB:', Object.keys(win.PBDB_DINOSAUR_ENRICHMENT).length);
 console.log('AI_ENRICHED_PROFILES:', Object.keys(win.AI_ENRICHED_PROFILES).length);
 console.log('AI_CURATED_EVIDENCE:', Object.keys(win.AI_CURATED_EVIDENCE).length);
 console.log('CONTENT_OVERRIDES:', Object.keys(win.CONTENT_OVERRIDES).length);
-console.log('MESO_PERIODS:', win.MESO_PERIODS.length, 'EVENTS:', win.EVENTS.length, 'PALEO_IMAGES:', Object.keys(win.PALEO_IMAGES).length);
-console.log('COUNTRY_POINTS:', Object.keys(win.COUNTRY_POINTS).length);
 
 // field index reference
 const FI = ['id','name','latin','meaning','type','period','mya','clade','subclade','diet','locomotion','length','massKg','found','food','teeth','silhouette','description','facts','pronunciation'];
