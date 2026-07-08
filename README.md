@@ -62,16 +62,35 @@ Run the browser smoke tests with Node.js:
 node tools/smoke-test.mjs
 ```
 
+Or, if you use npm:
+
+```bash
+npm test
+```
+
 In Codex Desktop, if `node` is not on your shell path, use the bundled runtime:
 
 ```bash
-PLAYWRIGHT_NODE_MODULES=/Users/georgephilippou/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules \
-  /Users/georgephilippou/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node tools/smoke-test.mjs
+/Users/georgephilippou/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node tools/smoke-test.mjs
 ```
+
+The smoke test will use a local Playwright install when available, fall back to the Codex Desktop bundled Playwright package, and use `PLAYWRIGHT_EXECUTABLE_PATH` if you need to point it at a specific Chromium/Chrome executable.
 
 ## Content Audit
 
-Rank profiles by content completeness and generate an improvement queue:
+Run the full local audit suite:
+
+```bash
+node tools/run-audit.mjs
+```
+
+This runs data validation, fact-check scanning, content-audit generation, and browser smoke tests. If your environment cannot bind a local browser test server, run the non-browser checks only:
+
+```bash
+node tools/run-audit.mjs --skip-smoke
+```
+
+Rank profiles by content completeness and generate an improvement queue directly:
 
 ```bash
 node tools/content-audit.mjs --out=content-audit.md --top=50

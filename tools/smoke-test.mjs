@@ -1,11 +1,18 @@
 import { createServer } from 'node:http';
+import { existsSync, readdirSync } from 'node:fs';
 import { readFile } from 'node:fs/promises';
+import { homedir } from 'node:os';
 import { extname, join, resolve } from 'node:path';
 
 const ROOT = resolve(new URL('..', import.meta.url).pathname);
 const PORT = Number(process.env.PORT || 8766);
 const BASE_URL = `http://127.0.0.1:${PORT}`;
-const FALLBACK_NODE_MODULES = process.env.PLAYWRIGHT_NODE_MODULES || process.env.NODE_PATH || '';
+const CODEX_NODE_MODULES = `${homedir()}/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules`;
+const FALLBACK_NODE_MODULES = [
+  process.env.PLAYWRIGHT_NODE_MODULES,
+  process.env.NODE_PATH,
+  existsSync(CODEX_NODE_MODULES) ? CODEX_NODE_MODULES : ''
+].filter(Boolean);
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
@@ -26,9 +33,30 @@ async function loadPlaywright() {
   try {
     return await import('playwright');
   } catch (error) {
-    if (!FALLBACK_NODE_MODULES) throw error;
-    return await import(`${FALLBACK_NODE_MODULES.replace(/\/$/, '')}/playwright/index.mjs`);
+    for (const moduleDir of FALLBACK_NODE_MODULES) {
+      try {
+        return await import(`${moduleDir.replace(/\/$/, '')}/playwright/index.mjs`);
+      } catch {
+        // Try the next configured module path.
+      }
+    }
+    throw error;
   }
+}
+
+function cachedChromiumExecutable() {
+  if (process.env.PLAYWRIGHT_EXECUTABLE_PATH) return process.env.PLAYWRIGHT_EXECUTABLE_PATH;
+
+  const cacheRoot = `${homedir()}/Library/Caches/ms-playwright`;
+  if (!existsSync(cacheRoot)) return '';
+
+  const candidates = readdirSync(cacheRoot)
+    .filter(name => name.startsWith('chromium_headless_shell-'))
+    .sort()
+    .reverse()
+    .map(name => join(cacheRoot, name, 'chrome-headless-shell-mac-arm64', 'chrome-headless-shell'));
+
+  return candidates.find(executable => existsSync(executable)) || '';
 }
 
 function staticServer() {
@@ -88,7 +116,8 @@ async function main() {
   let browser;
 
   try {
-    browser = await chromium.launch();
+    const executablePath = cachedChromiumExecutable();
+    browser = await chromium.launch(executablePath ? { executablePath } : {});
     const page = await browser.newPage({ viewport: { width: 1280, height: 720 } });
     const consoleProblems = [];
     page.on('console', msg => {
