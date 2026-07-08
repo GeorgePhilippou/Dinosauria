@@ -4259,6 +4259,68 @@
   .wiki-abstract p { font-size: 13px; line-height: 1.85; color: var(--text-2); margin-bottom: 12px; }
   .wiki-abstract p:last-child { margin-bottom: 0; }
 
+  /* HOMEPAGE HERO EXPERIMENT */
+  .home-editorial-hero {
+    max-width: 1040px;
+    padding: clamp(10px, 2vw, 22px) 0 clamp(18px, 3vw, 32px);
+    border-bottom: 1px solid var(--line);
+  }
+  .home-editorial-hero-eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    color: #d27745;
+    font-size: 10px;
+    font-weight: 850;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+  }
+  .home-editorial-hero-eyebrow::before {
+    content: '';
+    width: 28px;
+    height: 2px;
+    border-radius: 999px;
+    background: #d27745;
+  }
+  .home-editorial-hero-title {
+    max-width: 920px;
+    margin: 0;
+    color: var(--text);
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(40px, 6.7vw, 82px);
+    font-weight: 600;
+    letter-spacing: -.045em;
+    line-height: .96;
+    text-wrap: balance;
+  }
+  .home-editorial-hero-accent { color: #d27745; }
+  .home-editorial-hero-deck {
+    max-width: 720px;
+    margin-top: 20px;
+    color: var(--text-2);
+    font-size: clamp(13px, 1.5vw, 16px);
+    line-height: 1.65;
+  }
+  @media (max-width: 520px) {
+    .home-editorial-hero {
+      padding-top: 4px;
+      padding-bottom: 20px;
+    }
+    .home-editorial-hero-eyebrow {
+      margin-bottom: 12px;
+      font-size: 8.5px;
+      letter-spacing: .14em;
+    }
+    .home-editorial-hero-eyebrow::before { width: 20px; }
+    .home-editorial-hero-title {
+      font-size: clamp(38px, 12.4vw, 52px);
+      line-height: 1;
+    }
+    .home-editorial-hero-deck { margin-top: 16px; }
+  }
+  /* END HOMEPAGE HERO EXPERIMENT */
+
   .wiki-meta-nhm {
     display: inline-flex; text-decoration: none;
     transition: opacity .14s, transform .14s;
@@ -5265,9 +5327,62 @@
     .glance-r2-diet { min-width: 0; }
   }
 
+  /* EDITORIAL SITE THEME EXPERIMENT */
+  body.editorial-site-theme {
+    --font: Georgia, 'Times New Roman', serif;
+    --editorial-orange: #d27745;
+    --editorial-orange-soft: color-mix(in srgb, var(--editorial-orange) 12%, transparent);
+    font-family: var(--font);
+  }
+  body.editorial-site-theme button,
+  body.editorial-site-theme input,
+  body.editorial-site-theme select,
+  body.editorial-site-theme textarea,
+  body.editorial-site-theme .focused-label,
+  body.editorial-site-theme .known-remains-svg text,
+  body.editorial-site-theme .family-tree-svg text {
+    font-family: var(--font);
+  }
+  body.editorial-site-theme .nav-toggle-label,
+  body.editorial-site-theme .wiki-section-label,
+  body.editorial-site-theme .wiki-intro-sub-title,
+  body.editorial-site-theme .view-instr-title {
+    color: var(--editorial-orange);
+  }
+  body.editorial-site-theme .rail-btn.active {
+    color: var(--editorial-orange);
+    background: var(--editorial-orange-soft);
+    box-shadow: inset 3px 0 0 var(--editorial-orange);
+  }
+  body.editorial-site-theme .wiki-section-header {
+    border-left: 3px solid var(--editorial-orange);
+  }
+  body.editorial-site-theme .wiki-intro-sub-text a,
+  body.editorial-site-theme .wiki-abstract a,
+  body.editorial-site-theme .source-note a,
+  body.editorial-site-theme .source-link:hover,
+  body.editorial-site-theme .image-credit a,
+  body.editorial-site-theme .age-range-source,
+  body.editorial-site-theme .gloss-xref {
+    color: var(--editorial-orange);
+  }
+  body.editorial-site-theme .wiki-inline-link:hover,
+  body.editorial-site-theme .wiki-contents-item:hover,
+  body.editorial-site-theme .source-link:hover {
+    border-color: var(--editorial-orange);
+  }
+  body.editorial-site-theme :focus-visible {
+    outline-color: var(--editorial-orange);
+  }
+  body.editorial-site-theme ::selection {
+    color: var(--text);
+    background: color-mix(in srgb, var(--editorial-orange) 32%, transparent);
+  }
+  /* END EDITORIAL SITE THEME EXPERIMENT */
+
 </style>
 </head>
-<body>
+<body class="editorial-site-theme">
 <div class="app-shell">
 
   <header class="top-bar" role="banner">
@@ -5340,8 +5455,13 @@
       <div class="wiki-intro-layout">
         <!-- Left: title + abstract -->
         <div>
-          <h1 class="wiki-intro-title">Dinosauria</h1>
-          <div class="wiki-intro-subtitle">An interactive reference to dinosaur evolution, diversity and deep time</div>
+          <!-- HOMEPAGE HERO EXPERIMENT -->
+          <div class="home-editorial-hero">
+            <div class="home-editorial-hero-eyebrow">Dinosauria · 252–66 million years ago</div>
+            <h1 class="home-editorial-hero-title">Dinosaur <span class="home-editorial-hero-accent">evolution</span><br>through deep time.</h1>
+            <p class="home-editorial-hero-deck" data-dino-count>Explore 328 non-avian dinosaur genera through fossil evidence, geological time, palaeogeography and evolutionary relationships.</p>
+          </div>
+          <!-- END HOMEPAGE HERO EXPERIMENT -->
           <div class="wiki-abstract">
             <p data-dino-count>Dinosauria makes fundamental scientific knowledge about non-avian dinosaurs accessible through interactive exploration. Its 328 genus profiles place dinosaurs within the broader history of life—showing when and where they lived, their evolutionary relationships, and what fossil evidence reveals about their biology.</p>
             <p>Dinosaurs were among the most diverse and persistent groups of terrestrial vertebrates, occupying ecosystems worldwide for more than 160 million years. Their fossil record provides evidence for studying evolution, adaptation, biogeography, environmental change and mass extinction.</p>
