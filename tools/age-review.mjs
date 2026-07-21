@@ -5,7 +5,15 @@ const context = vm.createContext({ window: {}, console });
 for (const file of [
   'data/existing-dinosaurs.js',
   'data/nhm-imported-dinosaurs.js',
-  'data/pbdb-enrichment.js'
+  'data/pbdb-enrichment.js',
+  'data/scientific-reviews.js',
+  'data/scientific-baseline-audit.js',
+  'data/review-batches/reviews-a-c.js',
+  'data/review-batches/reviews-d-l.js',
+  'data/review-batches/reviews-m-r.js',
+  'data/review-batches/reviews-s-z.js',
+  'data/review-batches/reviews-s-z-remainder.js',
+  'data/review-batches/merge-reviews.js'
 ]) {
   vm.runInContext(readFileSync(new URL(`../${file}`, import.meta.url), 'utf8'), context, { filename: file });
 }
@@ -16,6 +24,7 @@ const records = [
   ...(context.window.NHM_IMPORTED_DINOSAUR_RECORDS || [])
 ];
 const pbdb = context.window.PBDB_DINOSAUR_ENRICHMENT || {};
+const reviews = context.window.SCIENTIFIC_REVIEWS || {};
 const threshold = 8;
 
 function parseAge(value) {
@@ -25,6 +34,9 @@ function parseAge(value) {
 
 const queue = records.flatMap(record => {
   const d = Object.fromEntries(fields.map((field, index) => [field, record[index]]));
+  const review = reviews[d.id] || null;
+  if (review?.record?.period) d.period = review.record.period;
+  if (review?.record?.mya) d.mya = review.record.mya;
   const occurrence = pbdb[d.id];
   const profile = parseAge(d.mya);
   if (!profile || !occurrence?.firstAppearanceMa || !occurrence?.lastAppearanceMa) return [];
@@ -39,10 +51,10 @@ const queue = records.flatMap(record => {
     maximumDifferenceMa: Math.max(olderDifference, youngerDifference),
     nhmSource: record[20] || `https://www.nhm.ac.uk/discover/dino-directory/${d.id}.html`,
     pbdbSource: occurrence.source,
-    status: 'unreviewed',
-    reviewedRange: null,
-    reviewedSource: null,
-    reviewNote: null
+    status: review?.status || 'unreviewed',
+    reviewedRange: review?.record?.mya || null,
+    reviewedSource: review?.sources?.map(source => source.url) || [],
+    reviewNote: review?.ageReviewNote || null
   }];
 }).sort((a, b) => b.maximumDifferenceMa - a.maximumDifferenceMa);
 

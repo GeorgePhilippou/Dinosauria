@@ -1,6 +1,6 @@
 # Dinosauria
 
-An open-access scientific reference wiki for 328 non-avian dinosaur genera, spanning the full range of the Mesozoic Era (252–66 Ma). Built on data from the Natural History Museum London's Dinosaur Directory and peer-reviewed literature.
+An open-access scientific reference wiki with 328 dinosaur and early-avialan catalogue profiles. The collection is principally non-avian dinosaurs, with a small number of early avialans and explicitly labelled disputed or historical names, sampled from the Late Triassic to the end of the Cretaceous (about 237–66 Ma). It combines the Natural History Museum London's Dino Directory, occurrence context from the Paleobiology Database, and taxon-specific scientific literature.
 
 ![Dinosauria Wiki](dinosaur_design_wiki_header.png)
 
@@ -8,9 +8,9 @@ An open-access scientific reference wiki for 328 non-avian dinosaur genera, span
 
 ## Features
 
-- **Catalogue** — browse and filter all 328 genera by geological period, diet, body type and fossil location
-- **Species profiles** — length, mass, diet, movement, fossil record, classification, paleogeographic map and field notes for each genus
-- **Family tree** — collapsible phylogenetic cladogram with scientifically accurate placement across Saurischia and Ornithischia
+- **Catalogue** — browse and filter all 328 profiles by geological period, diet, body type and fossil location
+- **Taxon profiles** — reviewed age, material, classification, uncertainty, source links and retained biological estimates
+- **Family tree** — collapsible, editorially curated phylogenetic overview across Saurischia and Ornithischia
 - **World map** — fossil locality distribution plotted across 30+ countries
 - **Timeline** — geological period and stage explorer with paleogeographic reconstructions and climate context
 - **Collection overview** — statistics on diversity, geography, size distribution, and collection records (longest, heaviest, most widespread, and more)
@@ -24,7 +24,8 @@ An open-access scientific reference wiki for 328 non-avian dinosaur genera, span
 |---|---|
 | [NHM London Dinosaur Directory](https://www.nhm.ac.uk/discover/dino-directory.html) | Species data, taxonomy, fossil records |
 | [Paleobiology Database](https://paleobiodb.org/classic) | Occurrence counts, formation-level records, stratigraphic ranges and taxonomy enrichment |
-| [International Geological Time Scale (IUGS)](https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf) | Period and stage ages |
+| Taxon-specific primary and systematic literature | Taxonomy, fossil material, age, anatomy and active scientific disagreements |
+| [International Chronostratigraphic Chart, June 2026](https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf) | Period and stage boundaries |
 | [Wikimedia Commons](https://commons.wikimedia.org) | Reference images (individual Creative Commons licences — see each file page) |
 | [PALEOMAP Project — Scotese et al., CC BY 4.0](https://www.earthbyte.org/paleomap-paleoatlas-for-gplates/) | Paleogeographic maps |
 
@@ -84,7 +85,7 @@ Run the full local audit suite:
 node tools/run-audit.mjs
 ```
 
-This runs data validation, fact-check scanning, content-audit generation, and browser smoke tests. If your environment cannot bind a local browser test server, run the non-browser checks only:
+This runs scientific-review consistency checks, data validation, fact-check scanning, content-audit generation, and browser smoke tests. If your environment cannot bind a local browser test server, run the non-browser checks only:
 
 ```bash
 node tools/run-audit.mjs --skip-smoke
@@ -96,11 +97,15 @@ Rank profiles by content completeness and generate an improvement queue directly
 node tools/content-audit.mjs --out=content-audit.md --top=50
 ```
 
-Generate profile content overrides for imported entries that do not yet have hand-written rich content:
+Validate the review coverage, check DOI citations against registry metadata, and regenerate the public review ledger:
 
 ```bash
-node tools/generate-content-overrides.mjs
+node tools/validate-scientific-reviews.mjs
+node tools/validate-review-sources.mjs
+node tools/scientific-review-ledger.mjs
 ```
+
+The DOI check requires an internet connection. A profile is not marked fully reviewed merely because it exists in the source catalogues: the review layer records its literature trail and any residual uncertainty. Particularly fragmentary or taxonomically unstable entries remain visibly queued for specialist confirmation.
 
 ---
 
@@ -109,9 +114,14 @@ node tools/generate-content-overrides.mjs
 ```
 ├── index.html                  # Main application
 ├── data/
-│   ├── existing-dinosaurs.js   # 67 fully curated genera with rich profiles
-│   ├── nhm-imported-dinosaurs.js  # 261 NHM-imported genera
-│   └── pbdb-enrichment.js      # PBDB occurrence/taxonomy enrichment
+│   ├── existing-dinosaurs.js   # 100 original catalogue records
+│   ├── nhm-imported-dinosaurs.js  # 228 NHM-imported catalogue records
+│   ├── pbdb-enrichment.js      # PBDB occurrence/taxonomy context
+│   ├── scientific-reviews.js   # Individually authored core reviews
+│   ├── scientific-baseline-audit.js # Conservative safety fallback
+│   └── review-batches/         # Catalogue-wide taxon-specific reviews
+├── tools/                      # Scientific, source, data and browser checks
+├── SCIENTIFIC-REVIEW.md        # Generated review ledger
 ├── dinosaur_design_wiki_header.png
 └── Dinosaur_Wiki_Logo.png
 ```

@@ -11,7 +11,15 @@ const DATA_FILES = [
   'data/nhm-imported-dinosaurs.js',
   'data/pbdb-enrichment.js',
   'data/wiki-enrichment.js',
-  'data/content-overrides.js'
+  'data/content-overrides.js',
+  'data/scientific-reviews.js',
+  'data/scientific-baseline-audit.js',
+  'data/review-batches/reviews-a-c.js',
+  'data/review-batches/reviews-d-l.js',
+  'data/review-batches/reviews-m-r.js',
+  'data/review-batches/reviews-s-z.js',
+  'data/review-batches/reviews-s-z-remainder.js',
+  'data/review-batches/merge-reviews.js'
 ];
 
 function assert(condition, message) {
@@ -76,10 +84,11 @@ function sourceMetaText(d) {
   return [named, taxonomy].filter(Boolean).join(' · ');
 }
 
-function scoreRecord(d, pbdb, wiki, hasCuratedOverride, hasGeneratedOverride) {
+function scoreRecord(d, pbdb, wiki, hasCuratedOverride, hasGeneratedOverride, scientificReview) {
   const flags = [];
   let score = 100;
   const hasOverride = hasCuratedOverride || hasGeneratedOverride;
+  const isScientificallyReviewed = scientificReview?.status === 'reviewed';
 
   const generic = isGenericDescription(d);
   if (generic && !hasOverride) { score -= 24; flags.push('generic imported description'); }
@@ -87,6 +96,7 @@ function scoreRecord(d, pbdb, wiki, hasCuratedOverride, hasGeneratedOverride) {
   if (hasTruncatedFact(d) && !hasOverride) { score -= 16; flags.push('truncated NHM facts'); }
   if (hasCuratedOverride) { score += 12; flags.push('curated profile override'); }
   if (hasGeneratedOverride) { score += 6; flags.push('generated profile override'); }
+  if (isScientificallyReviewed) { score += 20; flags.push('scientifically reviewed'); }
   if ((d.facts || []).length < 3) { score -= 8; flags.push('few notable facts'); }
   if (!d.massKg) { score -= 8; flags.push('missing mass estimate'); }
   if (hasPlaceholder(d.food)) { score -= 7; flags.push('missing diet detail'); }
@@ -101,8 +111,8 @@ function scoreRecord(d, pbdb, wiki, hasCuratedOverride, hasGeneratedOverride) {
   if (!d.meaning || /^unknown$/i.test(d.meaning)) { score -= 4; flags.push('weak name meaning'); }
 
   const priorities = [];
-  if ((generic || hasTruncatedFact(d)) && !hasOverride) priorities.push('Rewrite profile copy');
-  if (hasGeneratedOverride) priorities.push('Review generated copy manually');
+  if ((generic || hasTruncatedFact(d)) && !hasOverride && !isScientificallyReviewed) priorities.push('Rewrite profile copy');
+  if (hasGeneratedOverride && !isScientificallyReviewed) priorities.push('Review generated copy manually');
   if (!pbdb || !(pbdb.formations || []).length) priorities.push('Add fossil formation/locality context');
   if (!d.massKg || hasPlaceholder(d.food) || hasPlaceholder(d.teeth) || hasPlaceholder(d.locomotion)) priorities.push('Complete biological quick facts');
   if (!d.sourceMeta?.namedYear || !d.sourceMeta?.namedBy) priorities.push('Add discovery/naming metadata');
@@ -115,7 +125,8 @@ function scoreRecord(d, pbdb, wiki, hasCuratedOverride, hasGeneratedOverride) {
     priorities: [...new Set(priorities)],
     pbdb,
     wiki,
-    sourceMetaText: sourceMetaText(d)
+    sourceMetaText: sourceMetaText(d),
+    scientificReview
   };
 }
 
@@ -127,7 +138,8 @@ function summarize(records) {
     missingMass: records.filter(d => d.flags.includes('missing mass estimate')).length,
     noFormationData: records.filter(d => d.flags.includes('no formation data') || d.flags.includes('no PBDB enrichment')).length,
     missingNaming: records.filter(d => d.flags.includes('missing named year') || d.flags.includes('missing naming authority')).length,
-    noWiki: records.filter(d => d.flags.includes('no Wikipedia summary')).length
+    noWiki: records.filter(d => d.flags.includes('no Wikipedia summary')).length,
+    scientificallyReviewed: records.filter(d => d.flags.includes('scientifically reviewed')).length
   };
   const average = records.reduce((sum, d) => sum + d.score, 0) / total;
   return { total, average: average.toFixed(1), counts };
@@ -150,6 +162,7 @@ function markdownReport(records) {
   lines.push(`- Missing formation/PBDB context: ${summary.counts.noFormationData}`);
   lines.push(`- Missing naming metadata: ${summary.counts.missingNaming}`);
   lines.push(`- Missing Wikipedia summaries: ${summary.counts.noWiki}`);
+  lines.push(`- Fully scientifically reviewed: ${summary.counts.scientificallyReviewed}`);
   lines.push('');
   lines.push(`## Weakest ${weakest.length} Profiles`);
   lines.push('');
@@ -178,11 +191,17 @@ async function main() {
   const imported = data.NHM_IMPORTED_DINOSAUR_RECORDS || [];
   const pbdb = data.PBDB_DINOSAUR_ENRICHMENT || {};
   const wiki = data.WIKI_ENRICHMENT || {};
+  const reviews = data.SCIENTIFIC_REVIEWS || {};
   assert(curated.length && imported.length, 'Could not load dinosaur data.');
 
   const records = [...curated, ...imported]
     .map(recordFromArray)
-    .map(d => scoreRecord(d, pbdb[d.id], wiki[d.id], curatedOverrideIds.has(d.id), generatedIds.has(d.id)));
+    .map(d => {
+      const review = reviews[d.id];
+      if (review?.record?.period) d.period = review.record.period;
+      if (review?.record?.mya) d.mya = review.record.mya;
+      return scoreRecord(d, pbdb[d.id], wiki[d.id], curatedOverrideIds.has(d.id), generatedIds.has(d.id), review);
+    });
 
   const report = markdownReport(records);
   if (OUT) {

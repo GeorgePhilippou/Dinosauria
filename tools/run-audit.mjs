@@ -23,6 +23,7 @@ function run(label, args) {
   return true;
 }
 
+run('Scientific review coverage and consistency', ['tools/validate-scientific-reviews.mjs']);
 run('Data validation', ['tools/validate-data.mjs']);
 run('Fact-check scan', ['tools/factcheck-scan.mjs']);
 run('Age-range review queue', ['tools/age-review.mjs']);

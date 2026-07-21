@@ -10,7 +10,10 @@
     "validate": "node tools/validate-data.mjs",
     "content:audit": "node tools/content-audit.mjs --out=content-audit.md --top=80",
     "factcheck": "node tools/factcheck-scan.mjs",
-    "age:review": "node tools/age-review.mjs"
+    "age:review": "node tools/age-review.mjs",
+    "review:ledger": "node tools/scientific-review-ledger.mjs",
+    "review:validate": "node tools/validate-scientific-reviews.mjs",
+    "review:sources": "node tools/validate-review-sources.mjs"
   },
   "devDependencies": {
     "playwright": "^1.61.1"

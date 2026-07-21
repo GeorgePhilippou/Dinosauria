@@ -12,6 +12,14 @@ const files = [
   'data/ai-curated-evidence.js',
   'data/content-overrides.js',
   'data/curated-content.js',
+  'data/scientific-reviews.js',
+  'data/scientific-baseline-audit.js',
+  'data/review-batches/reviews-a-c.js',
+  'data/review-batches/reviews-d-l.js',
+  'data/review-batches/reviews-m-r.js',
+  'data/review-batches/reviews-s-z.js',
+  'data/review-batches/reviews-s-z-remainder.js',
+  'data/review-batches/merge-reviews.js'
 ];
 
 const win = {};
@@ -24,8 +32,25 @@ for (const f of files) {
 
 const existing = win.EXISTING_DINOSAUR_RECORDS || [];
 const nhm = win.NHM_IMPORTED_DINOSAUR_RECORDS || [];
-const all = [...existing, ...nhm];
+const rawAll = [...existing, ...nhm];
+const reviews = win.SCIENTIFIC_REVIEWS || {};
+const FIELD_INDEXES = {
+  latin: 2, meaning: 3, type: 4, period: 5, mya: 6, clade: 7, subclade: 8,
+  diet: 9, locomotion: 10, length: 11, massKg: 12, found: 13, food: 14,
+  teeth: 15, silhouette: 16, description: 17, facts: 18
+};
+const all = rawAll.map(row => {
+  const merged = [...row];
+  const override = reviews[row[0]]?.record || {};
+  Object.entries(FIELD_INDEXES).forEach(([field, index]) => {
+    if (override[field] !== undefined) merged[index] = override[field];
+  });
+  return merged;
+});
 console.log('existing:', existing.length, 'nhm:', nhm.length, 'total:', all.length);
+console.log('SCIENTIFIC_REVIEWS:', Object.keys(reviews).length,
+  'fully reviewed:', Object.values(reviews).filter(review => review.status === 'reviewed').length,
+  'specialist pending:', Object.values(reviews).filter(review => review.scientificDisposition === 'needs-specialist-review').length);
 console.log('RICH_PROFILES:', Object.keys(win.RICH_PROFILES).length);
 console.log('RICH_CONTENT:', Object.keys(win.RICH_CONTENT).length);
 console.log('CLASSIFICATION_PATHS:', Object.keys(win.CLASSIFICATION_PATHS).length);
