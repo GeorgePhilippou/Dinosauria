@@ -2567,6 +2567,44 @@
     display: block;
     object-fit: cover;
   }
+  .period-map-zoom {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: var(--paleo-ground);
+    color: var(--text);
+    cursor: zoom-in;
+    overflow: hidden;
+  }
+  .period-map-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2 / 1;
+    object-fit: contain;
+    background: var(--paleo-ground);
+  }
+  .period-map-zoom-label {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px 9px;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: var(--radius-pill);
+    background: rgba(20,24,20,.76);
+    color: rgba(255,255,255,.9);
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-bold);
+    letter-spacing: .04em;
+    pointer-events: none;
+    backdrop-filter: blur(8px);
+  }
+  @media (hover: hover) {
+    .period-map-zoom:hover .period-map-image { filter: brightness(.96); }
+    .period-map-zoom:hover .period-map-zoom-label { background: rgba(20,24,20,.9); }
+  }
   .paleo-caption {
     padding: 11px 12px;
     border: 1px solid var(--line);
@@ -4895,6 +4933,7 @@
     align-items: center;
     gap: clamp(28px, 5vw, 72px);
     width: min(100%, 1360px);
+    margin-inline: auto;
   }
   .home-editorial-eyebrow {
     color: var(--accent-ink);
@@ -5004,6 +5043,7 @@
   #dashboard > .view-footer { order: 4; }
   .home-section-intro {
     width: min(100%, 1360px);
+    margin-inline: auto;
     margin-bottom: 20px;
     padding-left: 14px;
     border-left: 4px solid var(--section-col, var(--line-2));
@@ -5038,7 +5078,7 @@
   .home-collection-section #collection-overview {
     width: min(100%, 1360px);
     max-width: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     border: 0;
     border-radius: 0;
@@ -5052,7 +5092,12 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
     align-items: stretch;
     gap: 12px;
-    margin: 0;
+    width: min(100%, 1360px);
+    margin: 0 auto;
+  }
+  .home-explore-section .wiki-contents-list {
+    width: min(100%, 1360px);
+    margin-inline: auto;
   }
   .home-foundations-section .wiki-info-panel {
     min-width: 0;
@@ -14460,7 +14505,10 @@ function renderPeriodInfo(pid = 'all') {
       </div>
       <div class="world-glance-grid">
         <div style="border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:var(--surface-2)">
-          <img src="${paleoImage.src}" alt="${paleoImage.alt}" loading="lazy" style="width:100%;height:280px;object-fit:cover;display:block">
+          <button class="period-map-zoom" type="button" aria-label="Enlarge map: ${escapeSvg(paleoImage.alt)}">
+            <img src="${paleoImage.src}" alt="${paleoImage.alt}" loading="lazy" class="period-map-image figure-zoomable" data-lightbox-title="${escapeSvg(detail.figureTitle)}" data-lightbox-caption="${escapeSvg(paleoImage.credit)}" data-lightbox-original="${paleoImage.page}">
+            <span class="period-map-zoom-label">↗ Enlarge map</span>
+          </button>
           <div style="padding:8px 10px;border-top:1px solid var(--line)">
             <div style="font-size:var(--fs-xs);color:var(--text-3);line-height:1.4">${paleoImage.credit} · <a href="${paleoImage.page}" target="_blank" rel="noreferrer" style="color:var(--text-3);text-decoration:underline;text-underline-offset:2px">Source</a></div>
           </div>
@@ -14509,7 +14557,10 @@ function renderPeriodInfo(pid = 'all') {
     </div>
     <div class="period-map-grid">
       <div style="border-radius:var(--radius);overflow:hidden;border:1px solid var(--line)">
-        <img src="${paleoImage.src}" alt="${paleoImage.alt}" loading="lazy" style="width:100%;height:260px;object-fit:cover;display:block">
+        <button class="period-map-zoom" type="button" aria-label="Enlarge map: ${escapeSvg(paleoImage.alt)}">
+          <img src="${paleoImage.src}" alt="${paleoImage.alt}" loading="lazy" class="period-map-image figure-zoomable" data-lightbox-title="${escapeSvg(detail.figureTitle)}" data-lightbox-caption="${escapeSvg(paleoImage.credit)}" data-lightbox-original="${paleoImage.page}">
+          <span class="period-map-zoom-label">↗ Enlarge map</span>
+        </button>
         <div style="padding:8px 10px;background:var(--surface-2);border-top:1px solid var(--line)">
           <div style="font-size:var(--fs-xs);color:var(--text-3);line-height:1.4">${paleoImage.credit} · <a href="${paleoImage.page}" target="_blank" rel="noreferrer" style="color:var(--text-3);text-decoration:underline;text-underline-offset:2px">Source</a></div>
         </div>
@@ -19787,12 +19838,11 @@ document.addEventListener('keydown', e => {
 function openFigureLightbox(img) {
   const figure = img.closest('.definition-figure');
   const isDinosaurImage = img.dataset.lightboxType === 'dinosaur';
-  const caption = isDinosaurImage
-    ? img.dataset.lightboxCaption || ''
-    : figure?.querySelector('.figure-caption')?.innerHTML || '';
-  const title = isDinosaurImage
-    ? img.dataset.lightboxTitle || img.alt || 'Expanded dinosaur image'
-    : figure?.querySelector('.figure-title')?.textContent || 'Expanded figure';
+  const caption = img.dataset.lightboxCaption
+    || figure?.querySelector('.figure-caption')?.innerHTML
+    || '';
+  const title = img.dataset.lightboxTitle
+    || (isDinosaurImage ? img.alt || 'Expanded dinosaur image' : figure?.querySelector('.figure-title')?.textContent || 'Expanded figure');
   // Some figures are colour-inverted for dark-mode display (e.g. white-on-transparent line art);
   // those expose a data-lightbox-src pointing at the original (dark-on-transparent) version, which
   // reads correctly against the lightbox's light stage background.
@@ -19811,7 +19861,8 @@ function openFigureLightbox(img) {
 }
 
 document.addEventListener('click', e => {
-  const img = e.target.closest('.figure-zoomable, .dino-zoomable');
+  const mapTrigger = e.target.closest('.period-map-zoom');
+  const img = e.target.closest('.figure-zoomable, .dino-zoomable') || mapTrigger?.querySelector('.period-map-image');
   if (!img) return;
   e.preventDefault();
   e.stopPropagation();

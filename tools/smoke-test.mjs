@@ -253,12 +253,36 @@ async function main() {
     const footerBottomSpace = await page.locator('#dashboard > .view-footer').evaluate(footer => Number.parseFloat(getComputedStyle(footer).marginBottom));
     assert(footerBottomSpace >= 32, 'The footer should retain breathing room below its contents.');
 
+    await page.setViewportSize({ width: 1920, height: 1080 });
+    const wideHomepageAlignment = await page.locator('#collection-overview').evaluate(overview => {
+      const rect = overview.getBoundingClientRect();
+      return {
+        centreOffset: Math.abs(rect.left + rect.width / 2 - window.innerWidth / 2),
+        leftSpace: rect.left,
+        rightSpace: window.innerWidth - rect.right
+      };
+    });
+    assert(wideHomepageAlignment.centreOffset <= 1 && Math.abs(wideHomepageAlignment.leftSpace - wideHomepageAlignment.rightSpace) <= 1, 'Constrained homepage content should remain centred on wide screens.');
+    await page.setViewportSize({ width: 1280, height: 720 });
+
     await page.locator('#global-search').fill('afrovenator');
     assert(await page.locator('#global-search-suggest .search-suggest-item').count() > 0, 'The masthead search should suggest matching dinosaur profiles.');
     await page.locator('#global-search-suggest .search-suggest-item').first().click();
     await page.waitForFunction(() => document.querySelector('#p-name')?.textContent === 'Afrovenator');
     const globalSearchProfile = await pageState(page);
     assert(globalSearchProfile.panelOpen && globalSearchProfile.panelName === 'Afrovenator', 'Selecting a masthead search result should open that profile directly.');
+
+    await page.goto(`${BASE_URL}/index.html?smoke=ancient-earth-map#period`, { waitUntil: 'load' });
+    assert(await page.locator('.period-map-zoom').count() === 1, 'Ancient Earth should expose its palaeogeographic map as an enlargement control.');
+    const ancientEarthMapStyle = await page.locator('.period-map-image').evaluate(image => {
+      const style = getComputedStyle(image);
+      return { objectFit: style.objectFit, aspectRatio: style.aspectRatio };
+    });
+    assert(ancientEarthMapStyle.objectFit === 'contain', 'Ancient Earth maps should preserve the full projection instead of cropping it.');
+    await page.locator('.period-map-zoom').click();
+    assert(await page.locator('.lightbox.open').count() === 1, 'Clicking an Ancient Earth map should open it in the figure lightbox.');
+    assert(((await page.locator('.lightbox-title').textContent()) || '').includes('Paleogeographic map'), 'The enlarged map should retain a descriptive title.');
+    await page.locator('.lightbox-close').click();
 
     await page.goto(`${BASE_URL}/index.html?smoke=catalog#catalog`, { waitUntil: 'load' });
     const catalog = await pageState(page);
