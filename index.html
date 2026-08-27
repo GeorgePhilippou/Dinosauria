@@ -6451,7 +6451,6 @@
   }
   .profile-dossier-hero .quick-facts {
     margin-top: 0;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .profile-dossier {
@@ -6546,23 +6545,18 @@
     grid-area: note;
     margin-top: 5px;
   }
+  /* Base layout is the narrow, always-visible digest — stacked image over copy.
+     The wide two-column reading layout only applies once the panel is actually
+     wide enough to hold it (.side-panel.expanded), never by viewport width
+     alone: the side panel can be much narrower than the browser window. */
   .profile-dossier-hero {
     display: grid;
-    grid-template-columns: minmax(0, 1.18fr) minmax(320px, .82fr);
-    gap: clamp(24px, 3vw, 42px);
-    align-items: center;
-  }
-  .profile-dossier-hero .hero-silhouette {
+    gap: 16px;
     width: 100%;
-    min-height: clamp(240px, 24vw, 340px);
-  }
-  .profile-dossier-hero .hero-silhouette img {
-    max-height: clamp(215px, 22vw, 305px);
   }
   .profile-dossier-intro {
     display: grid;
     gap: 13px;
-    align-content: center;
     min-width: 0;
   }
   .profile-dossier-kicker {
@@ -6587,6 +6581,24 @@
   }
   .side-panel.expanded .profile-accordion {
     gap: 14px;
+  }
+  .side-panel.expanded .profile-dossier-hero {
+    grid-template-columns: minmax(0, 1.18fr) minmax(320px, .82fr);
+    gap: clamp(24px, 3vw, 42px);
+    align-items: center;
+  }
+  .side-panel.expanded .profile-dossier-hero .hero-silhouette {
+    width: 100%;
+    min-height: clamp(240px, 24vw, 340px);
+  }
+  .side-panel.expanded .profile-dossier-hero .hero-silhouette img {
+    max-height: clamp(215px, 22vw, 305px);
+  }
+  .side-panel.expanded .profile-dossier-intro {
+    align-content: center;
+  }
+  .side-panel.expanded .profile-dossier-hero .quick-facts {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .side-panel.expanded #profile-evidence .evidence-mode-grid,
@@ -6741,7 +6753,7 @@
     .side-panel.expanded .panel-body {
       padding: 0 clamp(12px, 3vw, 22px) 42px;
     }
-    .profile-dossier-hero {
+    .side-panel.expanded .profile-dossier-hero {
       grid-template-columns: minmax(0, 1.08fr) minmax(280px, .92fr);
       gap: 24px;
     }
@@ -6778,7 +6790,7 @@
     .side-panel.expanded .panel-body {
       padding: 0 12px max(32px, env(safe-area-inset-bottom));
     }
-    .profile-dossier-hero {
+    .side-panel.expanded .profile-dossier-hero {
       grid-template-columns: minmax(0, 1fr);
       gap: 18px;
       padding: 22px 0 30px;
@@ -6792,7 +6804,8 @@
     .profile-dossier-intro .profile-lead {
       font-size: var(--fs-lg);
     }
-    .profile-dossier-hero .quick-facts {
+    .profile-dossier-hero .quick-facts,
+    .side-panel.expanded .profile-dossier-hero .quick-facts {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
     .side-panel.expanded .panel-header > .pills .pill {
