@@ -347,24 +347,34 @@ async function main() {
     assert(!afrovenatorText.includes('PBDB age differs from NHM label'), 'A literature-reviewed age must not be labelled as the NHM range.');
 
     const compactPanel = await profileLayoutState(page);
-    assert(!await page.locator('#side-panel').evaluate(panel => panel.classList.contains('expanded')), 'Afrovenator should open as a compact preview on desktop.');
-    assert(await page.locator('.profile-preview').count() === 1, 'The compact profile preview should be mounted.');
-    assert(await page.locator('.profile-dossier').count() === 1, 'The full research dossier should be mounted separately from the preview.');
-    assert(await visible(page, '.profile-preview'), 'The compact profile preview should be visible when the panel first opens.');
-    assert(!await visible(page, '.profile-dossier'), 'The full research dossier should stay hidden until requested on desktop.');
+    assert(!await page.locator('#side-panel').evaluate(panel => panel.classList.contains('expanded')), 'Afrovenator should open as a compact side panel on desktop.');
+    assert(await page.locator('.profile-dossier').count() === 1, 'The research dossier should be mounted.');
+    assert(await visible(page, '.profile-dossier-hero'), 'The digest hero should be visible when the panel first opens.');
+    assert(await page.locator('.profile-accordion-item').count() === 7, 'The dossier should expose all seven chapters as accordion items.');
+    assert(
+      await page.locator('.profile-accordion-item.open').count() === 1,
+      'Only the first chapter should start expanded.'
+    );
     assert(
       compactPanel.panelWidth < compactPanel.viewportWidth - 80,
-      `Desktop preview should remain compact (${compactPanel.panelWidth}px in ${compactPanel.viewportWidth}px viewport).`
+      `Desktop side panel should remain compact (${compactPanel.panelWidth}px in ${compactPanel.viewportWidth}px viewport).`
     );
 
+    // Chapters not open by default should be reachable without expanding to full screen.
+    const evidenceHead = page.locator('#profile-evidence .profile-accordion-head');
+    const localityHead = page.locator('#profile-locality .profile-accordion-head');
+    await evidenceHead.click();
+    await localityHead.click();
+    assert(await visible(page, '#profile-evidence .profile-accordion-body'), 'Opening the Fossil evidence chapter should reveal its body.');
+    assert(await visible(page, '#profile-locality .profile-accordion-body'), 'Opening the Where & when chapter should reveal its body.');
+
     const headerFullProfileControl = page.locator('#panel-expand');
-    assert(await headerFullProfileControl.count() === 1, 'The compact preview should offer a persistent full-profile control.');
+    assert(await headerFullProfileControl.count() === 1, 'The side panel should offer a persistent full-profile control.');
     assert(await visible(page, '#panel-expand'), 'The persistent full-profile control should be visible.');
-    assert(await page.locator('.profile-preview-open').count() === 0, 'The compact preview should not duplicate the persistent full-profile control.');
     await headerFullProfileControl.click();
     await page.locator('#side-panel.expanded').waitFor();
-    assert(!await visible(page, '.profile-preview'), 'Expanding should hide the compact preview.');
-    assert(await visible(page, '.profile-dossier'), 'Expanding should reveal the dedicated research dossier.');
+    assert(await visible(page, '.profile-dossier-hero'), 'Expanding should keep the digest hero visible.');
+    assert(await visible(page, '#profile-locality .profile-accordion-body'), 'Expanding should not collapse chapters the reader already opened.');
 
     const desktopDossier = await profileLayoutState(page);
     assert(
@@ -557,10 +567,11 @@ async function main() {
     const mobileProfile = await pageState(page);
     assert(mobileProfile.panelOpen, 'Afrovenator profile should open at 390px.');
     assert(mobileProfile.panelName === 'Afrovenator', `Expected mobile Afrovenator profile, saw ${mobileProfile.panelName}.`);
-    assert(!await visible(page, '.profile-preview'), 'Mobile should move directly into the reading dossier rather than squeeze the compact desktop preview.');
     assert(await visible(page, '.profile-dossier'), 'The full Afrovenator dossier should be visible at 390px.');
-    assert(await visible(page, '.profile-dossier .map-card'), 'The fossil-locality map should remain visible at 390px.');
-    assert(await visible(page, '.profile-dossier .evidence-bar'), 'The fossil-evidence band should remain visible at 390px.');
+    await page.locator('#profile-evidence .profile-accordion-head').click();
+    await page.locator('#profile-locality .profile-accordion-head').click();
+    assert(await visible(page, '.profile-dossier .map-card'), 'The fossil-locality map should be reachable at 390px.');
+    assert(await visible(page, '.profile-dossier .evidence-bar'), 'The fossil-evidence band should be reachable at 390px.');
     const mobileDossier = await profileLayoutState(page);
     assert(
       mobileDossier.panelWidth <= mobileDossier.viewportWidth + 1,

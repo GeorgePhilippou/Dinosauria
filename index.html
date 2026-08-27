@@ -1017,33 +1017,6 @@
   .side-panel.expanded .panel-body {
     padding: 20px clamp(16px, 3vw, 34px) 34px;
   }
-  .profile-section-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    padding: 8px 0 0;
-  }
-  .profile-section-link {
-    --section-col: var(--line-2);
-    min-height: 34px;
-    padding: 7px 10px;
-    border: 1px solid color-mix(in srgb, var(--section-col) 42%, var(--line));
-    border-radius: var(--radius);
-    background: color-mix(in srgb, var(--section-col) 8%, var(--surface-2));
-    color: var(--text-2);
-    font-size: var(--fs-xs);
-    font-weight: var(--fw-extrabold);
-    letter-spacing: .05em;
-    text-transform: uppercase;
-    cursor: pointer;
-  }
-  @media (hover: hover) {
-  .profile-section-link:hover {
-    color: var(--text);
-    border-color: var(--section-col);
-  }
-  }
-
   .profile-section-card {
     width: min(100%, var(--profile-card-max));
     align-self: center;
@@ -1056,16 +1029,13 @@
     overflow: hidden;
     box-shadow: 0 10px 24px color-mix(in srgb, #000 12%, transparent);
   }
-  .profile-section-card > .section-title {
-    margin: 0;
-    padding: 10px 13px;
-    border-bottom: 1px solid var(--line);
-    background: color-mix(in srgb, var(--section-col, var(--accent)) 12%, var(--surface-2));
-  }
-  .profile-section-card > :not(.section-title) {
+  .profile-section-card > * {
     width: min(calc(100% - 26px), var(--profile-copy-max));
     margin-left: auto;
     margin-right: auto;
+  }
+  .profile-section-card > :first-child {
+    margin-top: 15px;
   }
   .profile-section-card > :last-child {
     margin-bottom: 13px;
@@ -1143,17 +1113,76 @@
   }
   .description { color: var(--text-2); font-size: var(--fs-base); line-height: 1.65; }
   .section-copy { color: var(--text-2); font-size: var(--fs-md); line-height: 1.55; }
-  .section-title {
-    margin-bottom: 8px;
-    color: var(--text-3);
+  .profile-accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: min(100%, var(--profile-card-max));
+    align-self: center;
+  }
+  .profile-accordion-item {
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--section-col, var(--accent));
+    border-radius: var(--radius);
+    background: var(--surface);
+    overflow: hidden;
+  }
+  .profile-accordion-head {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    width: 100%;
+    min-height: var(--tap);
+    padding: 12px 13px;
+    border: 0;
+    background: color-mix(in srgb, var(--section-col, var(--accent)) 10%, var(--surface-2));
+    color: var(--text);
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+  }
+  @media (hover: hover) {
+    .profile-accordion-head:hover {
+      background: color-mix(in srgb, var(--section-col, var(--accent)) 16%, var(--surface-2));
+    }
+  }
+  .acc-index {
+    flex-shrink: 0;
+    color: var(--section-col, var(--accent));
     font-size: var(--fs-xs);
     font-weight: var(--fw-bold);
-    letter-spacing: .08em;
+    letter-spacing: .06em;
+  }
+  .acc-label {
+    flex: 1;
+    min-width: 0;
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-bold);
+    letter-spacing: .04em;
     text-transform: uppercase;
   }
-  .section-title .section-index {
-    color: var(--section-col, var(--accent));
-    margin-right: 8px;
+  .acc-chevron {
+    flex-shrink: 0;
+    color: var(--text-3);
+    transition: transform .18s ease;
+  }
+  .profile-accordion-item.open .acc-chevron {
+    transform: rotate(90deg);
+  }
+  .profile-accordion-item:not(.open) .profile-accordion-body {
+    display: none;
+  }
+  /* The accordion item already supplies the boxed frame — its body reuses
+     .profile-section-card purely for the internal copy spacing rules. */
+  .profile-accordion-body.profile-section-card {
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+  }
+  .profile-accordion-body.profile-section-card > :first-child {
+    margin-top: 13px;
   }
   .subsection-title {
     margin: 14px 0 8px;
@@ -1927,20 +1956,9 @@
     .panel-pronunciation {
       font-size: var(--fs-md);
     }
-    .profile-section-nav {
-      gap: 8px;
-      padding-top: 12px;
-      overflow-x: auto;
-      flex-wrap: nowrap;
-      scrollbar-width: none;
-    }
-    .profile-section-nav::-webkit-scrollbar {
-      display: none;
-    }
-    .profile-section-link {
+    .profile-accordion-head {
       min-height: 44px;
-      padding: 10px 12px;
-      flex: 0 0 auto;
+      padding: 12px;
     }
     .hero-silhouette {
       min-height: 190px;
@@ -1953,7 +1971,10 @@
       width: 100%;
       border-left-width: 3px;
     }
-    .profile-section-card > :not(.section-title),
+    .profile-accordion-item {
+      border-left-width: 3px;
+    }
+    .profile-section-card > *,
     .profile-section-card > .quick-facts,
     .profile-section-card > .data-gaps,
     .profile-section-card > .evidence-confidence,
@@ -1967,9 +1988,6 @@
     .profile-section-card > .taxonomy-grid,
     .profile-section-card > .source-links {
       width: calc(100% - 20px);
-    }
-    .profile-section-card > .section-title {
-      padding: 11px 10px;
     }
     .quick-facts {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -6279,7 +6297,7 @@
     .catalog-load-btn,
     .panel-close,
     .panel-expand,
-    .profile-section-link,
+    .profile-accordion-head,
     .ft-instr-collapse-btn,
     .dash-toggle-btn,
     .dash-pill,
@@ -6388,9 +6406,7 @@
     overflow-wrap: anywhere;
   }
 
-  .profile-preview,
   .profile-dossier,
-  .profile-preview > *,
   .profile-dossier > *,
   .profile-dossier-hero > *,
   .locality-map-layout > * {
@@ -6406,24 +6422,6 @@
   .profile-image-figure .image-credit {
     width: 100%;
     margin: 0;
-  }
-  .profile-preview {
-    display: grid;
-    gap: 18px;
-    width: 100%;
-    margin: 0 auto;
-  }
-  .profile-preview .hero-silhouette {
-    width: 100%;
-    min-height: 220px;
-  }
-  .profile-preview .hero-silhouette img {
-    max-height: 190px;
-  }
-  .profile-preview-copy {
-    display: grid;
-    gap: 12px;
-    min-width: 0;
   }
   .profile-review-status {
     display: inline-flex;
@@ -6451,54 +6449,18 @@
     font-size: var(--fs-lg);
     line-height: 1.65;
   }
-  .profile-preview .quick-facts,
   .profile-dossier-hero .quick-facts {
     margin-top: 0;
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
-  .profile-preview-open {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    justify-self: start;
-    min-height: 42px;
-    padding: 9px 14px;
-    border: 1px solid color-mix(in srgb, var(--accent) 58%, var(--line));
-    border-radius: var(--radius);
-    background: color-mix(in srgb, var(--accent) 14%, var(--surface-2));
-    color: var(--text);
-    font-size: var(--fs-sm);
-    font-weight: var(--fw-extrabold);
-    letter-spacing: .015em;
-  }
-  @media (hover: hover) {
-    .profile-preview-open:hover {
-      border-color: var(--accent);
-      background: color-mix(in srgb, var(--accent) 21%, var(--surface-2));
-    }
-  }
 
   .profile-dossier {
-    display: none;
-  }
-  .side-panel.expanded .profile-preview {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
   }
   .side-panel.expanded .profile-dossier {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr);
-    grid-template-areas:
-      "nav"
-      "hero"
-      "overview"
-      "evidence"
-      "ecology"
-      "locality"
-      "classification"
-      "debates"
-      "sources";
-    row-gap: 0;
-    align-items: start;
     width: min(100%, 1180px);
     margin: 0 auto;
   }
@@ -6584,47 +6546,11 @@
     grid-area: note;
     margin-top: 5px;
   }
-  .side-panel.expanded .panel-body {
-    display: block;
-    padding: 0 clamp(16px, 3vw, 34px) 52px;
-  }
-
-  .profile-dossier-nav {
-    grid-area: nav;
-    position: sticky;
-    top: 0;
-    z-index: 5;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-self: stretch;
-    align-self: stretch;
-    justify-content: flex-start;
-    gap: 7px;
-    width: 100%;
-    max-width: none;
-    padding: 11px 0;
-    border-bottom: 1px solid var(--line);
-    background: color-mix(in srgb, var(--surface) 95%, transparent);
-    backdrop-filter: blur(14px);
-    overflow-x: auto;
-    overflow-y: hidden;
-    mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent);
-  }
-  .profile-dossier-nav .profile-section-link {
-    flex: 0 0 auto;
-  }
-  .profile-dossier-nav .profile-section-link[aria-current="true"] {
-    border-color: var(--section-col);
-    background: color-mix(in srgb, var(--section-col) 20%, var(--surface-2));
-    color: var(--text);
-  }
   .profile-dossier-hero {
-    grid-area: hero;
     display: grid;
     grid-template-columns: minmax(0, 1.18fr) minmax(320px, .82fr);
     gap: clamp(24px, 3vw, 42px);
     align-items: center;
-    padding: clamp(20px, 2.7vw, 34px) 0 clamp(24px, 3vw, 38px);
   }
   .profile-dossier-hero .hero-silhouette {
     width: 100%;
@@ -6654,69 +6580,15 @@
     line-height: 1.5;
   }
 
-  .side-panel.expanded .profile-section-card {
-    width: 100%;
-    max-width: none;
-    min-width: 0;
-    align-self: start;
-    padding: clamp(26px, 3vw, 40px) 0;
-    border: 0;
-    border-top: 1px solid var(--line);
-    border-radius: 0;
-    background: transparent;
-    box-shadow: none;
-    overflow: visible;
-    scroll-margin-top: 58px;
-  }
-  .side-panel.expanded .profile-section-card,
-  .side-panel.expanded .profile-dossier-hero {
+  .side-panel.expanded .profile-dossier-hero,
+  .side-panel.expanded .profile-accordion {
     width: min(100%, 1080px);
     margin-inline: auto;
   }
-  .side-panel.expanded .profile-section-card > .section-title {
-    margin: 0 0 18px;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    font-size: var(--fs-sm);
+  .side-panel.expanded .profile-accordion {
+    gap: 14px;
   }
-  .side-panel.expanded .profile-section-card > :not(.section-title),
-  .side-panel.expanded .profile-section-card > .quick-facts,
-  .side-panel.expanded .profile-section-card > .data-gaps,
-  .side-panel.expanded .profile-section-card > .description,
-  .side-panel.expanded .profile-section-card > .evidence-confidence,
-  .side-panel.expanded .profile-section-card > .fossil-summary,
-  .side-panel.expanded .profile-section-card > .locality-list,
-  .side-panel.expanded .profile-section-card > .map-list,
-  .side-panel.expanded .profile-section-card > .map-card,
-  .side-panel.expanded .profile-section-card > .specimen-list,
-  .side-panel.expanded .profile-section-card > .related-grid,
-  .side-panel.expanded .profile-section-card > .clade-card,
-  .side-panel.expanded .profile-section-card > .taxonomy-grid,
-  .side-panel.expanded .profile-section-card > .source-links {
-    width: 100%;
-    max-width: none;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .side-panel.expanded .profile-section-card > :last-child {
-    margin-bottom: 0;
-  }
-  .side-panel.expanded #profile-overview { grid-area: overview; }
-  .side-panel.expanded #profile-evidence { grid-area: evidence; }
-  .side-panel.expanded #profile-ecology { grid-area: ecology; }
-  .side-panel.expanded #profile-debates { grid-area: debates; }
-  .side-panel.expanded #profile-locality { grid-area: locality; }
-  .side-panel.expanded #profile-classification { grid-area: classification; }
-  .side-panel.expanded #profile-sources { grid-area: sources; }
 
-  /* The chapters now form one continuous museum-style reading sequence. */
-  .side-panel.expanded #profile-evidence {
-    margin-top: 0;
-  }
-  .side-panel.expanded #profile-evidence > .section-title {
-    margin-bottom: 14px;
-  }
   .side-panel.expanded #profile-evidence .evidence-mode-grid,
   .side-panel.expanded #profile-evidence .remains-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -6869,25 +6741,9 @@
     .side-panel.expanded .panel-body {
       padding: 0 clamp(12px, 3vw, 22px) 42px;
     }
-    .side-panel.expanded .profile-dossier {
-      grid-template-columns: minmax(0, 1fr);
-      grid-template-areas:
-        "nav"
-        "hero"
-        "overview"
-        "evidence"
-        "ecology"
-        "locality"
-        "classification"
-        "debates"
-        "sources";
-    }
     .profile-dossier-hero {
       grid-template-columns: minmax(0, 1.08fr) minmax(280px, .92fr);
       gap: 24px;
-    }
-    .side-panel.expanded #profile-evidence {
-      margin-top: 0;
     }
     .side-panel.expanded #profile-evidence .evidence-mode-grid {
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -6922,14 +6778,6 @@
     .side-panel.expanded .panel-body {
       padding: 0 12px max(32px, env(safe-area-inset-bottom));
     }
-    .profile-dossier-nav {
-      gap: 6px;
-      padding: 8px 0;
-    }
-    .profile-dossier-nav .profile-section-link {
-      min-height: 40px;
-      padding: 8px 10px;
-    }
     .profile-dossier-hero {
       grid-template-columns: minmax(0, 1fr);
       gap: 18px;
@@ -6944,7 +6792,6 @@
     .profile-dossier-intro .profile-lead {
       font-size: var(--fs-lg);
     }
-    .profile-preview .quick-facts,
     .profile-dossier-hero .quick-facts {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -6955,14 +6802,6 @@
     }
     .side-panel.expanded .panel-header > .pills .pill.period {
       display: none;
-    }
-    .side-panel.expanded .profile-section-card {
-      padding: 26px 0;
-      border-left: 0;
-      scroll-margin-top: 54px;
-    }
-    .side-panel.expanded #profile-evidence {
-      padding-inline: 0;
     }
     .interpretation-grid,
     .side-panel.expanded #profile-evidence .evidence-mode-grid,
@@ -16137,7 +15976,6 @@ function setPanelExpanded(expanding) {
   const panel = document.getElementById('side-panel');
   const btn = document.getElementById('panel-expand');
   if (!panel || !btn) return;
-  const focusWasInPreview = Boolean(document.activeElement?.closest?.('.profile-preview'));
   panel.classList.toggle('expanded', expanding);
   if (!expanding) panel.classList.remove('profile-header-compact');
   const icon = btn.querySelector('.panel-expand-icon');
@@ -16150,28 +15988,13 @@ function setPanelExpanded(expanding) {
   panel.scrollTop = 0;
   document.getElementById('p-body')?.scrollTo?.({ top: 0, behavior: 'auto' });
   requestAnimationFrame(() => panel._updateProfileReadingHeader?.());
-  if (expanding && focusWasInPreview) btn.focus({ preventScroll: true });
 }
 
-function initProfileReadingHeader(panel, body, sections) {
-  const status = document.getElementById('p-chapter-status');
-  const links = [...panel.querySelectorAll('.profile-dossier-nav .profile-section-link')];
+function initProfileReadingHeader(panel, body) {
   const update = () => {
-    const y = body.scrollTop || 0;
     if (panel.classList.contains('expanded')) {
-      panel.classList.toggle('profile-header-compact', y > 56);
+      panel.classList.toggle('profile-header-compact', (body.scrollTop || 0) > 56);
     }
-    const navHeight = panel.querySelector('.profile-dossier-nav')?.offsetHeight || 0;
-    const marker = y + navHeight + 84;
-    let active = sections[0];
-    sections.forEach(section => {
-      if (section.node.offsetTop <= marker) active = section;
-    });
-    if (status) status.textContent = active?.label || 'Profile';
-    links.forEach((link, index) => {
-      if (index === sections.indexOf(active)) link.setAttribute('aria-current', 'true');
-      else link.removeAttribute('aria-current');
-    });
   };
   body.onscroll = update;
   panel._updateProfileReadingHeader = update;
@@ -16245,23 +16068,14 @@ function openPanel(id, options = {}) {
   const profileSections = sectionSpecs
     .map(spec => ({ ...spec, node: spec.build(0) }))
     .filter(spec => spec.node?.nodeType === Node.ELEMENT_NODE);
-  profileSections.forEach((spec, i) => {
-    spec.node.querySelector('.section-index').textContent = String(i + 1).padStart(2, '0');
-  });
-  // The full dossier owns its chapter navigation. Keeping it out of the identity
-  // header prevents the name, status, controls and seven chapter buttons from
-  // competing for the same narrow row on large screens.
-  const panelHeader = panel.querySelector('.panel-header');
-  const existingNav = panelHeader.querySelector('.profile-section-nav');
-  if (existingNav) existingNav.remove();
   const dossier = document.createElement('article');
   dossier.className = 'profile-dossier';
   dossier.setAttribute('aria-label', `${d.name} full scientific profile`);
-  const dossierNav = profileSectionNavNode(profileSections);
-  dossierNav.classList.add('profile-dossier-nav');
-  dossier.append(dossierNav, dossierHeroNode(d, profile), ...profileSections.map(spec => spec.node), dinosauriaFooterNode());
-  body.append(profilePreviewNode(d, profile), dossier);
-  initProfileReadingHeader(panel, body, profileSections);
+  dossier.append(profileDigestNode(d, profile), profileAccordionNode(profileSections), dinosauriaFooterNode());
+  body.append(dossier);
+  initProfileReadingHeader(panel, body);
+  const chapterStatus = document.getElementById('p-chapter-status');
+  if (chapterStatus) chapterStatus.textContent = profileSections[0]?.label || '';
   panel.classList.add('open');
   if (window.matchMedia('(max-width: 680px)').matches) setPanelExpanded(true);
   panel.focus({ preventScroll: true });
@@ -16277,29 +16091,56 @@ function setProfileSectionTheme(section, color) {
   section.style.setProperty('--section-col', color);
 }
 
-function profileSectionNavNode(sections) {
-  const nav = document.createElement('nav');
-  nav.className = 'profile-section-nav';
-  nav.setAttribute('aria-label', 'Profile sections');
-  sections.forEach(({ id: target, label, color }) => {
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'profile-section-link';
-    btn.style.setProperty('--section-col', color);
-    btn.textContent = label;
-    btn.addEventListener('click', () => {
-      const targetNode = document.getElementById(target);
-      const panelBody = document.getElementById('p-body');
-      if (targetNode && panelBody?.contains(targetNode)) {
-        const navHeight = btn.closest('.profile-dossier-nav')?.offsetHeight || 0;
-        scrollElementIntoContainer(targetNode, panelBody, { behavior: 'smooth', block: 'start', offset: navHeight + 12 });
-      } else {
-        targetNode?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+// Each chapter starts collapsed except the first — a reader after a quick
+// lookup sees only the digest and seven closed headings, and opens whichever
+// chapter their question actually needs.
+function profileAccordionNode(sections) {
+  const wrap = document.createElement('div');
+  wrap.className = 'profile-accordion';
+  sections.forEach((spec, i) => {
+    const item = document.createElement('section');
+    item.id = spec.id;
+    item.className = 'profile-accordion-item' + (i === 0 ? ' open' : '');
+    item.style.setProperty('--section-col', spec.color);
+
+    const bodyId = `${spec.id}-body`;
+    const head = document.createElement('button');
+    head.type = 'button';
+    head.className = 'profile-accordion-head';
+    head.setAttribute('aria-expanded', String(i === 0));
+    head.setAttribute('aria-controls', bodyId);
+    head.innerHTML = `<span class="acc-index">${String(i + 1).padStart(2, '0')}</span><span class="acc-label">${escapeSvg(spec.label)}</span><span class="acc-chevron" aria-hidden="true">›</span>`;
+
+    const body = document.createElement('div');
+    body.id = bodyId;
+    body.className = 'profile-accordion-body profile-section-card';
+    body.style.setProperty('--section-col', spec.color);
+    spec.node.querySelector('.section-title')?.remove();
+    Array.from(spec.node.childNodes).forEach(node => body.appendChild(node));
+
+    head.addEventListener('click', () => {
+      const willOpen = !item.classList.contains('open');
+      item.classList.toggle('open', willOpen);
+      head.setAttribute('aria-expanded', String(willOpen));
+      if (willOpen) {
+        const status = document.getElementById('p-chapter-status');
+        if (status) status.textContent = spec.label;
       }
     });
-    nav.appendChild(btn);
+
+    item.append(head, body);
+    wrap.appendChild(item);
   });
-  return nav;
+  return wrap;
+}
+
+// Opens a chapter by id (used for cross-links like the "AI-drafted text" pill)
+// and scrolls it into view, whether or not it was already expanded.
+function openProfileAccordionSection(id) {
+  const item = document.getElementById(id);
+  if (!item) return;
+  if (!item.classList.contains('open')) item.querySelector('.profile-accordion-head')?.click();
+  item.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function renderPanelPills(d) {
@@ -16319,7 +16160,7 @@ function renderPanelPills(d) {
     ai.title = 'The written summary on this profile was drafted by a language model from NHM and PBDB records and has not been individually verified. Tap for detail.';
     ai.addEventListener('click', e => {
       e.preventDefault();
-      document.getElementById('profile-sources')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      openProfileAccordionSection('profile-sources');
     });
     wrap.appendChild(ai);
   }
@@ -16508,23 +16349,7 @@ function profileReviewLabel(d) {
   return 'Editorial profile';
 }
 
-function profilePreviewNode(d, profile) {
-  const preview = document.createElement('section');
-  preview.className = 'profile-preview';
-  const copy = document.createElement('div');
-  copy.className = 'profile-preview-copy';
-  const status = document.createElement('div');
-  status.className = 'profile-review-status';
-  status.textContent = profileReviewLabel(d);
-  const lead = document.createElement('p');
-  lead.className = 'profile-lead';
-  lead.textContent = d.description;
-  copy.append(status, lead, quickFactsNode(d));
-  preview.append(profileImageFigureNode(d, true), copy);
-  return preview;
-}
-
-function dossierHeroNode(d, profile) {
+function profileDigestNode(d, profile) {
   const hero = document.createElement('section');
   hero.className = 'profile-dossier-hero';
   const copy = document.createElement('div');
@@ -16539,6 +16364,8 @@ function dossierHeroNode(d, profile) {
   lead.className = 'profile-lead';
   lead.textContent = profileIdentityLine(d);
   copy.append(kicker, status, lead, quickFactsNode(d));
+  const gaps = dataGapsNode(d);
+  if (gaps) copy.appendChild(gaps);
   hero.append(profileImageFigureNode(d), copy);
   return hero;
 }
