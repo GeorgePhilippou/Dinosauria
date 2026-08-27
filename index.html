@@ -1347,14 +1347,9 @@
     color: color-mix(in srgb, var(--evidence-ok-ink) 82%, var(--text));
     background: color-mix(in srgb, var(--evidence-ok) 10%, transparent);
   }
-  .age-range-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 8px;
-  }
   .age-range {
     min-width: 0;
-    padding: 8px 9px;
+    padding: 9px 11px;
     border-left: 2px solid color-mix(in srgb, var(--accent) 48%, var(--line));
     background: var(--surface);
     border-radius: 0 6px 6px 0;
@@ -1369,7 +1364,7 @@
   .age-range-value {
     margin-top: 3px;
     color: var(--text);
-    font-size: var(--fs-md);
+    font-size: var(--fs-lg);
     font-weight: var(--fw-bold);
     line-height: 1.35;
   }
@@ -1783,8 +1778,7 @@
   @media (max-width: 520px) {
     .evidence-mode-grid,
     .specimen-row,
-    .remains-grid,
-    .age-range-grid { grid-template-columns: 1fr; }
+    .remains-grid { grid-template-columns: 1fr; }
     .age-comparison-head { align-items: flex-start; }
     .known-remains-layout.has-photo { grid-template-columns: 1fr; }
   }
@@ -17165,71 +17159,73 @@ function ageComparisonNode(d, pbdb) {
   const hasScientificReview = ['reviewed', 'audited'].includes(d.sourceMeta?.scientificReviewStatus);
   const pbdbRange = hasPbdbRange
     ? `${pbdb.firstAppearanceMa}–${pbdb.lastAppearanceMa} million years ago`
-    : 'No sampled occurrence range available';
+    : '';
 
   const head = document.createElement('div');
   head.className = 'age-comparison-head';
   const title = document.createElement('div');
   title.className = 'age-comparison-title';
-  title.textContent = 'Age ranges by source';
-  const status = document.createElement('span');
-  status.className = `age-review-status${needsReview && !isReviewed ? '' : ' consistent'}`;
-  status.textContent = needsReview
-    ? isReviewed ? 'Reviewed difference' : 'Review recommended'
-    : hasPbdbRange ? 'Broadly consistent' : 'PBDB unavailable';
-  head.append(title, status);
+  title.textContent = hasScientificReview ? 'Reviewed age' : 'Age';
+  head.appendChild(title);
+  if (needsReview) {
+    const status = document.createElement('span');
+    status.className = `age-review-status${isReviewed ? ' consistent' : ''}`;
+    status.textContent = isReviewed ? 'Reviewed difference' : 'Review recommended';
+    head.appendChild(status);
+  }
 
-  const ranges = document.createElement('div');
-  ranges.className = 'age-range-grid';
-  [
-    {
-      label: hasScientificReview ? 'Reviewed profile range' : 'NHM / profile range',
-      value: d.mya,
-      // Reviewed ages may deliberately supersede the catalogue range. Their
-      // supporting papers are listed in the profile's Sources chapter; linking
-      // the old catalogue page here would falsely imply it supports the update.
-      url: hasScientificReview ? '' : d.source,
-      source: d.dataOrigin === 'NHM Dino Directory' ? 'View NHM profile' : 'View profile source'
-    },
-    {
-      label: 'PBDB sampled occurrences',
-      value: pbdbRange,
-      url: pbdb?.source,
-      source: 'View PBDB taxon record'
-    }
-  ].forEach(range => {
-    const item = document.createElement('div');
-    item.className = 'age-range';
-    const label = document.createElement('div');
-    label.className = 'age-range-label';
-    label.textContent = range.label;
-    const value = document.createElement('div');
-    value.className = 'age-range-value';
-    value.textContent = range.value;
-    item.append(label, value);
-    if (range.url) {
-      const source = document.createElement('a');
-      source.className = 'age-range-source';
-      source.href = range.url;
-      source.target = '_blank';
-      source.rel = 'noreferrer';
-      source.textContent = range.source;
-      item.appendChild(source);
-    }
-    ranges.appendChild(item);
-  });
+  // One genus, one headline age: the taxon-specific reviewed/profile range,
+  // since that's what's pinned to this genus's actual type material — not the
+  // coarser PBDB occurrence span, which blends every dated occurrence across
+  // however many formations share the name. PBDB stays visible as a footnote
+  // only when the two disagree, rather than as a second co-equal date.
+  const primary = document.createElement('div');
+  primary.className = 'age-range';
+  const primaryLabel = document.createElement('div');
+  primaryLabel.className = 'age-range-label';
+  primaryLabel.textContent = hasScientificReview ? 'Reviewed profile range' : 'NHM / profile range';
+  const primaryValue = document.createElement('div');
+  primaryValue.className = 'age-range-value';
+  primaryValue.textContent = d.mya;
+  primary.append(primaryLabel, primaryValue);
+  // Reviewed ages may deliberately supersede the catalogue range. Their
+  // supporting papers are listed in the profile's Sources chapter; linking
+  // the old catalogue page here would falsely imply it supports the update.
+  if (!hasScientificReview && d.source) {
+    const source = document.createElement('a');
+    source.className = 'age-range-source';
+    source.href = d.source;
+    source.target = '_blank';
+    source.rel = 'noreferrer';
+    source.textContent = d.dataOrigin === 'NHM Dino Directory' ? 'View NHM profile' : 'View profile source';
+    primary.appendChild(source);
+  }
 
   const explanation = document.createElement('p');
   explanation.className = 'age-comparison-note';
-  explanation.textContent = needsReview
-    ? isReviewed
+  if (needsReview) {
+    explanation.textContent = (isReviewed
       ? d.sourceMeta.ageReviewNote || 'The differing ranges have been reviewed and are retained because they describe source records with different scopes or age resolution.'
-      : 'These values describe different source records and differ by more than 8 million years at one or both boundaries. Neither value is changed automatically; this genus is queued for manual source review.'
-    : hasPbdbRange
-      ? 'The profile estimate and sampled PBDB occurrence span are broadly consistent within the current 8-million-year review threshold.'
-      : 'The profile range is retained, but no PBDB occurrence range is currently available for comparison.';
+      : 'This differs from the sampled PBDB occurrence range by more than 8 million years at one or both boundaries; this genus is queued for manual source review.'
+    ) + ' ';
+    if (pbdb?.source) {
+      const link = document.createElement('a');
+      link.className = 'age-range-source';
+      link.href = pbdb.source;
+      link.target = '_blank';
+      link.rel = 'noreferrer';
+      link.textContent = `PBDB sampled range: ${pbdbRange}`;
+      explanation.appendChild(link);
+    } else {
+      explanation.append(`PBDB sampled range: ${pbdbRange}`);
+    }
+  } else if (hasPbdbRange) {
+    explanation.textContent = 'Broadly consistent with the sampled PBDB occurrence range.';
+  } else {
+    explanation.textContent = 'No PBDB occurrence range is currently available for comparison.';
+  }
 
-  comparison.append(head, ranges, explanation);
+  comparison.append(head, primary, explanation);
   return comparison;
 }
 
