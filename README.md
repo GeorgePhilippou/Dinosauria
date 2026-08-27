@@ -107,6 +107,14 @@ node tools/scientific-review-ledger.mjs
 
 The DOI check requires an internet connection. A profile is not marked fully reviewed merely because it exists in the source catalogues: the review layer records its literature trail and any residual uncertainty. Particularly fragmentary or taxonomically unstable entries remain visibly queued for specialist confirmation.
 
+Once a genus's structured record (age, mass, diet, etc.) has been through review, its older curated or AI-drafted narrative paragraphs are only shown if they don't contradict that record. Re-check narrative text against the record and regenerate the allow-list after editing any profile's write-up:
+
+```bash
+node tools/narrative-consistency-check.mjs --out=data/narrative-review-queue.md
+```
+
+This is an internal-consistency check against data already in the repository, not a substitute for a primary-literature review — an AI-drafted profile that passes still carries its "AI-drafted text" pill.
+
 ---
 
 ## Project Structure

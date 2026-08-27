@@ -13,7 +13,8 @@
     "age:review": "node tools/age-review.mjs",
     "review:ledger": "node tools/scientific-review-ledger.mjs",
     "review:validate": "node tools/validate-scientific-reviews.mjs",
-    "review:sources": "node tools/validate-review-sources.mjs"
+    "review:sources": "node tools/validate-review-sources.mjs",
+    "narrative:check": "node tools/narrative-consistency-check.mjs --out=data/narrative-review-queue.md"
   },
   "devDependencies": {
     "playwright": "^1.61.1"

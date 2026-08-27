@@ -7777,6 +7777,7 @@
 <script src="data/review-batches/reviews-s-z.js"></script>
 <script src="data/review-batches/reviews-s-z-remainder.js"></script>
 <script src="data/review-batches/merge-reviews.js"></script>
+<script src="data/narrative-consistent-ids.js"></script>
 <script>
 const SOURCE_BASE = 'https://www.nhm.ac.uk/discover/dino-directory/';
 const DK_GUIDE_URL = 'https://www.nhm.ac.uk/discover/dinosaurs.html';
@@ -14966,13 +14967,28 @@ function flattenSearchValue(value) {
 function profileForDinosaur(d) {
   const manualProfile = RICH_CONTENT[d.id] || null;
   const profile = { ...(RICH_PROFILES[d.id] || {}), ...(manualProfile || {}) };
-  // A completed scientific review must not keep presenting older AI-authored
-  // narrative as though it had been checked. Until a bespoke long-form profile
-  // is written, use the reviewed record and evidence text only.
+  // A completed scientific review must not keep presenting older narrative
+  // that actively disagrees with the reviewed record (wrong age, wrong diet,
+  // an unacknowledged validity dispute, etc). tools/narrative-consistency-check.mjs
+  // checks every profile's prose against its own reviewed record and lists
+  // genus ids that raise no contradiction in data/narrative-consistent-ids.js;
+  // those are shown as-is (an AI-drafted one keeps its "AI-drafted text" pill —
+  // passing this check means "doesn't contradict the record", not "verified
+  // against the literature"). Anything not on that list, or written after the
+  // check last ran, falls back to the reviewed record and evidence text only.
   const reviewStatus = d.sourceMeta?.scientificReviewStatus;
   const explicitlyReviewedProfile = profile.provenance === 'scientifically-reviewed';
-  if (['reviewed', 'audited'].includes(reviewStatus) && !explicitlyReviewedProfile) {
+  const narrativeConsistent = window.NARRATIVE_CONSISTENT_IDS?.has(d.id);
+  const isReviewed = ['reviewed', 'audited'].includes(reviewStatus);
+  if (isReviewed && !explicitlyReviewedProfile) {
+    // The reviewed literature trail is independent of whether the narrative
+    // prose gets shown or falls back below — a reviewed genus always cites
+    // the sources its review actually used, not whatever an older curated or
+    // AI-drafted entry happened to link before the review existed.
     const review = window.SCIENTIFIC_REVIEWS?.[d.id];
+    profile.citations = (review?.sources || []).map(source => ({ label: source.citation, url: source.url }));
+  }
+  if (isReviewed && !explicitlyReviewedProfile && !narrativeConsistent) {
     profile.overview = [d.description];
     profile.articles = [];
     // `null` means that no claim-level reviewed locality coordinates are
@@ -14982,7 +14998,17 @@ function profileForDinosaur(d) {
     profile.fossilSites = null;
     profile.generated = false;
     profile.provenance = reviewStatus === 'reviewed' ? 'scientifically-reviewed' : 'baseline-audited';
-    profile.citations = (review?.sources || []).map(source => ({ label: source.citation, url: source.url }));
+  }
+  if (isReviewed && !explicitlyReviewedProfile && narrativeConsistent && profile.overview?.length
+      && d.description && profile.overview[0] !== d.description) {
+    // The one-line reviewed description sometimes carries a specific,
+    // hard-won correction (e.g. "the former catalogue label of carnivore was
+    // misleading") that a passing consistency check can't detect is missing
+    // from the older narrative paragraphs — it isn't a contradiction, just a
+    // loss of precision. Leading with it, rather than letting the richer
+    // narrative replace it outright, keeps that correction in front of the
+    // reader either way.
+    profile.overview = [d.description, ...profile.overview];
   }
   return profile;
 }
@@ -16060,7 +16086,7 @@ function openPanel(id, options = {}) {
   }
   const meaningEl = document.getElementById('p-meaning');
   meaningEl.textContent = d.meaning || '';
-  renderPanelPills(d);
+  renderPanelPills(d, profile);
   const body = document.getElementById('p-body');
   body.innerHTML = '';
   body.scrollTop = 0;
@@ -16151,7 +16177,7 @@ function openProfileAccordionSection(id) {
   item.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-function renderPanelPills(d) {
+function renderPanelPills(d, profile) {
   const wrap = document.getElementById('p-pills');
   wrap.innerHTML = '';
   const periodPill = document.createElement('span');
@@ -16159,8 +16185,11 @@ function renderPanelPills(d) {
   periodPill.textContent = d.period + ' — ' + d.mya;
   wrap.appendChild(periodPill);
   // Provenance belongs where the reader starts, not only at the foot of the page.
-  if (RICH_CONTENT[d.id]?.provenance === 'ai-drafted'
-      && !['reviewed', 'audited'].includes(d.sourceMeta?.scientificReviewStatus)) {
+  // Check the resolved profile's provenance, not the raw RICH_CONTENT entry:
+  // profileForDinosaur() already falls back to the plain reviewed description
+  // for AI-drafted text that contradicts the record, so this pill should only
+  // warn about AI-drafted prose that's actually being shown.
+  if (profile?.provenance === 'ai-drafted') {
     const ai = document.createElement('a');
     ai.className = 'pill pill-ai';
     ai.href = '#profile-sources';

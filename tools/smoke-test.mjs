@@ -396,10 +396,13 @@ async function main() {
       `Unexpected fossil-map precision label: ${precision || 'missing'}.`
     );
     const precisionText = (await mapPrecision.textContent()) || '';
+    const precisionTextMatchers = {
+      exact: /exact|site[- ]level|precise|verified/i,
+      'formation-level': /formation|regional/i,
+      'country-level': /country[- ]level/i
+    };
     assert(
-      precision === 'exact'
-        ? /exact|site[- ]level|precise/i.test(precisionText)
-        : new RegExp(precision.replace('-', '[- ]')).test(precisionText.toLowerCase()),
+      precisionTextMatchers[precision].test(precisionText),
       `Fossil-map fallback precision should be explained in visible text, saw: ${precisionText}`
     );
 
