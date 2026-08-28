@@ -51,9 +51,14 @@ self.addEventListener('fetch', (event) => {
   if (request.method !== 'GET') return;
 
   const url = new URL(request.url);
-  if (url.origin !== self.location.origin) return;
-
-  event.respondWith(staleWhileRevalidate(request));
+  if (url.origin === self.location.origin) {
+    event.respondWith(staleWhileRevalidate(request));
+  } else if (request.destination === 'image') {
+    // Species and figure photos are hotlinked from Wikimedia Commons rather
+    // than bundled. They're immutable once published, so once a photo has
+    // been viewed it's kept for good -- cache-first, no revalidation.
+    event.respondWith(cacheFirstCrossOrigin(request));
+  }
 });
 
 async function staleWhileRevalidate(request) {
@@ -87,4 +92,22 @@ async function staleWhileRevalidate(request) {
     statusText: 'Offline',
     headers: { 'Content-Type': 'text/plain' },
   });
+}
+
+async function cacheFirstCrossOrigin(request) {
+  const cache = await caches.open(CACHE_VERSION);
+  const cached = await cache.match(request);
+  if (cached) return cached;
+
+  try {
+    // <img> requests are same-origin-restricted to 'no-cors', so the response
+    // is opaque (status 0, unreadable) -- still perfectly cacheable and replayable.
+    const response = await fetch(request);
+    if (response && (response.ok || response.type === 'opaque')) {
+      cache.put(request, response.clone());
+    }
+    return response;
+  } catch {
+    return Response.error();
+  }
 }
