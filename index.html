@@ -10,7 +10,8 @@
 <meta name="theme-color" content="#fbfbf8" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#171916" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="Dinosaur_Wiki_Logo.png" type="image/png">
-<link rel="apple-touch-icon" href="Dinosaur_Wiki_Logo.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.json">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dinosauria">
 <meta property="og:title" content="Dinosauria — an interactive reference to dinosaur evolution, diversity and deep time">
@@ -19881,6 +19882,59 @@ init();
 buildHomeOverview();
 applyRoute();
 window.addEventListener('popstate', applyRoute);
+
+/* ---------- Offline support ---------- */
+function showOfflineToast(msg) {
+  let host = document.getElementById('offline-toast-host');
+  if (!host) {
+    host = document.createElement('div');
+    host.id = 'offline-toast-host';
+    host.setAttribute('aria-live', 'polite');
+    host.style.cssText = 'position:fixed;bottom:20px;left:50%;transform:translateX(-50%);z-index:9999;pointer-events:none;';
+    document.body.appendChild(host);
+  }
+  const t = document.createElement('div');
+  t.textContent = msg;
+  t.style.cssText = 'background:var(--text);color:var(--bg);padding:10px 18px;border-radius:999px;font-size:14px;font-weight:500;box-shadow:var(--shadow);opacity:0;transform:translateY(10px);transition:opacity 200ms,transform 200ms;';
+  host.appendChild(t);
+  requestAnimationFrame(() => { t.style.opacity = '1'; t.style.transform = 'none'; });
+  setTimeout(() => {
+    t.style.opacity = '0';
+    t.style.transform = 'translateY(10px)';
+    setTimeout(() => t.remove(), 250);
+  }, 2500);
+}
+
+function registerServiceWorker() {
+  if (!('serviceWorker' in navigator)) return;
+
+  const run = async () => {
+    try {
+      const reg = await navigator.serviceWorker.register('sw.js');
+      // A worker already controlling the page means this load came straight
+      // from cache -- confirm that offline access is actually in place.
+      if (navigator.serviceWorker.controller) showOfflineToast('Available offline');
+
+      reg.addEventListener('updatefound', () => {
+        const installing = reg.installing;
+        installing?.addEventListener('statechange', () => {
+          if (installing.state === 'activated' && navigator.serviceWorker.controller) {
+            showOfflineToast('Updated with the latest content');
+          }
+        });
+      });
+    } catch {
+      // Offline support is a progressive enhancement -- ignore failures.
+    }
+  };
+
+  // This script runs at the end of the body, so `load` may already have
+  // fired by the time it executes -- fall back to running immediately.
+  if (document.readyState === 'complete') run();
+  else window.addEventListener('load', run);
+}
+
+registerServiceWorker();
 </script>
 </body>
 </html>
