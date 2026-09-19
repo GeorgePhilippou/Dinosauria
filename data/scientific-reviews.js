@@ -3,6 +3,261 @@
    primary literature or an authoritative taxonomic/museum source. Automated
    imports, PBDB range comparisons and AI-drafted prose never set this status. */
 window.SCIENTIFIC_REVIEWS = {
+  aardonyx: {
+    status: 'reviewed',
+    reviewedOn: '2026-07-23',
+    reviewer: 'Dinosauria editorial review',
+    consensusScope: [
+      'name-bearing and referred fossil material',
+      'type locality and geological formation',
+      'minimum number and growth stage of individuals',
+      'skeletal-coverage wording',
+      'locomotor and feeding interpretations',
+      'profile narrative and residual uncertainty'
+    ],
+    record: {
+      period: 'Early Jurassic',
+      mya: 'about 200–190 million years ago',
+      taxonomy: ['Dinosauria', 'Saurischia', 'Sauropodomorpha', 'Anchisauria', 'Aardonyx'],
+      diet: 'Herbivore',
+      locomotion: 'Habitually bipedal; capable of quadrupedal walking',
+      description: 'Aardonyx was a large early sauropodomorph from Early Jurassic South Africa. Its jaws and limbs preserve a combination of features associated with mostly bipedal ancestors and the bulk-feeding, quadrupedal sauropods that evolved later.',
+      facts: [
+        'The holotype BP/1/6254 is the rostral half of a left maxilla.',
+        'A nearby caudal left-maxilla fragment, BP/1/6505, may be part of the same bone as the holotype.',
+        'Referred material from Marc’s Quarry includes cranial and mandibular elements, cervical, dorsal, sacral and caudal vertebrae, ribs, gastralia, chevrons, girdle elements, and bones of the forelimbs, hindlimbs, hands and feet.',
+        'The quarry assemblage appears to represent two immature individuals; the smaller individual is about 85 per cent of the larger in linear postcranial dimensions.',
+        'Histology of a rib and scapular fragment showed continuing growth and suggested that the sampled individual or individuals may have been younger than ten years at death.',
+        'The disarticulated material supports a broad anatomical reconstruction, but specimen association, adult proportions and soft tissues remain uncertain.'
+      ]
+    },
+    presentation: {
+      heroLead: 'A large plant-eating sauropodomorph whose jaws and limbs illuminate the early evolution of sauropod feeding and four-legged weight-bearing.',
+      heroMedia: {
+        file: 'Fig 2 - Aardonyx life restoration by Matthew Bonnan.jpg',
+        title: 'Life restoration of Aardonyx celestae',
+        alt: 'Scientific life restoration of Aardonyx celestae in side view',
+        caption: 'Scientific life restoration by Matthew Bonnan. External soft tissues and colour remain interpretive.',
+        credit: 'Matthew Bonnan · public domain',
+        sourceUrl: 'https://commons.wikimedia.org/wiki/File:Fig_2_-_Aardonyx_life_restoration_by_Matthew_Bonnan.jpg'
+      },
+      quickFacts: [
+        { label: 'Age', value: 'Early Jurassic · about 200–190 Ma' },
+        { label: 'Location', value: 'Free State, South Africa' },
+        { label: 'Known size', value: 'about 7 m · immature animals' },
+        { label: 'Diet', value: 'Herbivore' }
+      ],
+      animalParagraphs: [
+        'Aardonyx was a long-necked, small-headed plant-eater from what is now South Africa. The two known animals were about seven metres long when they died, but bone tissue shows that both were still growing, so the proportions and maximum size of a mature animal are not directly known.',
+        'Its jaws retain the narrow, pointed outline seen in earlier sauropodomorphs, while other features suggest a wider gape and a shift towards taking in vegetation in bulk. The particular plants it ate are not preserved.',
+        'The hindlimbs indicate habitual bipedal movement, but the forelimbs and feet also show features connected with bearing weight on all four limbs. This mosaic of traits makes Aardonyx useful for studying a gradual evolutionary transition rather than a simple halfway form.'
+      ],
+      animalHighlights: [
+        'A long neck, small head and deep body placed Aardonyx within the early radiation of large-bodied sauropodomorphs.',
+        'Jaw anatomy combines a narrow snout with features associated with a wider gape and less selective bulk feeding.',
+        'Limb anatomy supports mostly two-legged movement while showing an increasing capacity for four-legged weight-bearing.'
+      ],
+      lifeCards: [
+        {
+          label: 'Feeding',
+          value: 'Plant-eater',
+          level: 'Supported by jaw and tooth anatomy',
+          reason: 'The skull supports herbivory and a developing bulk-browsing style. No gut contents preserve a specific menu.'
+        },
+        {
+          label: 'Movement',
+          value: 'Mostly bipedal',
+          level: 'Could also walk on all fours',
+          reason: 'Hindlimb anatomy supports habitual bipedality; the forelimbs and feet show an increasing capacity to bear weight.'
+        },
+        {
+          label: 'Known size',
+          value: 'about 7 m long',
+          level: 'Both known animals were immature',
+          reason: 'An adult was probably larger, but no mature skeleton directly establishes its final length or mass.'
+        },
+        {
+          label: 'Appearance',
+          value: 'Skeletal outline supported',
+          level: 'Soft tissues remain reconstructed',
+          reason: 'Overall proportions can be inferred from the bones; colour, skin texture and the exact external profile are unknown.'
+        }
+      ],
+      whereFacts: [
+        { label: 'Interval', value: 'Early Jurassic' },
+        { label: 'Approximate age', value: 'about 200–190 million years ago' },
+        { label: 'Rock unit', value: 'upper Elliot Formation' },
+        { label: 'Type locality', value: 'Marc’s Quarry, Spion Kop 932, Free State, South Africa' }
+      ],
+      locality: {
+        name: 'Marc’s Quarry',
+        region: 'Spion Kop 932, Free State, South Africa',
+        note: 'Upper Elliot Formation. The map shows a country-level reference because exact quarry coordinates are not plotted.'
+      },
+      classificationSummary: 'Aardonyx is an early sauropodomorph close to the evolutionary origin of Sauropoda. It preserves a combination of ancestral and sauropod-like traits, although its exact position changes among phylogenetic analyses.',
+      related: [
+        { id: 'massospondylus', reason: 'Compare with a more lightly built, habitually bipedal Early Jurassic sauropodomorph.' },
+        { id: 'melanorosaurus', reason: 'Compare with a larger-bodied sauropodomorph closer to the sauropod body plan.' },
+        { id: 'vulcanodon', reason: 'Compare with an early sauropod showing committed four-legged weight-bearing.' }
+      ],
+      questions: [
+        {
+          title: 'How large was an adult?',
+          copy: 'Both known individuals were still growing. Larger adult estimates are extrapolations rather than measurements from a mature skeleton.'
+        },
+        {
+          title: 'Which bones belonged together?',
+          copy: 'The quarry material is disarticulated. The assemblage supports two individuals, but every bone cannot be assigned to a single associated skeleton.'
+        },
+        {
+          title: 'Exactly where does it sit on the family tree?',
+          copy: 'Analyses consistently place Aardonyx near the sauropod transition, but its precise relationship to other early sauropodomorphs varies.'
+        }
+      ],
+      compactSources: true
+    },
+    ageReviewNote: 'The profile follows the Early Jurassic upper Elliot Formation assignment of the Marc’s Quarry type assemblage. The original description did not provide a narrow numerical radiometric age for the quarry.',
+    sources: [
+      { type: 'original-description', citation: 'Yates et al. (2010), A new transitional sauropodomorph dinosaur from the Early Jurassic of South Africa', url: 'https://doi.org/10.1098/rspb.2009.1440' },
+      { type: 'open-manuscript', citation: 'Yates et al. (2010), archived manuscript at Europe PMC', url: 'https://europepmc.org/articles/PMC2842739' },
+      { type: 'museum-synthesis', citation: 'Natural History Museum, Aardonyx', url: 'https://www.nhm.ac.uk/discover/dino-directory/aardonyx.html' }
+    ],
+    residualUncertainty: [
+      'The referred bones are disarticulated rather than preserved as two associated skeletons.',
+      'Both reconstructed individuals were immature, so adult body proportions and maximum size are not directly known.',
+      'BP/1/6505 may belong to the holotype maxilla, but the two fragments do not overlap.',
+      'No direct skin, colour, gut-content or other soft-tissue evidence is known.',
+      'The exact phylogenetic position of Aardonyx near the origin of Sauropoda varies among analyses.'
+    ],
+    evidence: {
+      score: 64,
+      summary: 'Numerous disarticulated bones from one quarry collectively represent most major skeletal regions of two immature individuals, but there is no complete, articulated or adult skeleton.',
+      material: 'Holotype BP/1/6254, the rostral half of a left maxilla, plus disarticulated cranial, axial, girdle and limb material from Marc’s Quarry attributed to two immature individuals.',
+      formations: ['Upper Elliot Formation — Marc’s Quarry, Spion Kop 932, Free State, South Africa'],
+      confidenceLimit: 'Taxon-level skeletal coverage is broad, while individual association, adult anatomy, maximum size and soft tissues remain uncertain.',
+      sourceBasis: 'Yates et al. 2010, checked against the Natural History Museum synthesis.',
+      specimens: [
+        {
+          name: 'Holotype',
+          id: 'BP/1/6254',
+          institution: 'University of the Witwatersrand, BP collection',
+          note: 'Rostral half of a left maxilla. BP/1/6505, found about one metre away, is a non-overlapping caudal maxilla fragment that may represent the same bone.'
+        },
+        {
+          name: 'Marc’s Quarry referred assemblage',
+          id: 'BP/1 series',
+          institution: 'University of the Witwatersrand, BP collection',
+          note: 'Numerous disarticulated cranial and postcranial elements interpreted as two immature individuals rather than two complete associated skeletons.'
+        }
+      ],
+      uncertainties: ['disarticulated assemblage', 'immature individuals', 'adult size', 'soft tissues', 'phylogenetic position'],
+      panel: {
+        eyebrow: 'Fossil evidence',
+        headline: 'Partial skull and skeleton remains from two young animals.',
+        standfirst: 'Aardonyx is known from disarticulated skull, vertebral, girdle and limb bones representing at least two immature individuals. The name-bearing fossil is part of the upper jaw rather than a complete skeleton.',
+        coverage: {
+          label: 'Moderate',
+          level: 3,
+          maximum: 4,
+          basis: 'Most major skeletal regions are represented across the quarry assemblage, but the bones are disarticulated and neither individual is complete.'
+        },
+        metrics: [
+          { label: 'Known remains', value: 'Partial skull and skeleton' },
+          { label: 'Individuals', value: 'At least 2' },
+          { label: 'Key limitation', value: 'No complete adult skeleton' }
+        ],
+        knownRemains: {
+          title: 'What is actually preserved?',
+          summary: 'Collectively, the quarry material represents most major parts of the skeleton, including parts of the skull and jaws, vertebral column, shoulder and hip girdles, and all four limbs.',
+          note: 'Because the bones were found disarticulated and both animals were still growing, the precise proportions and maximum adult size of Aardonyx remain uncertain.'
+        },
+        media: [
+          {
+            file: 'Aardonyx skull.png',
+            kind: 'Known-material diagram',
+            title: 'Reconstructed skull and preserved cranial material',
+            alt: 'Diagram of the Aardonyx skull showing known cranial material',
+            caption: 'A source-based diagram showing the cranial material known for Aardonyx; this is an anatomical reconstruction, not a photograph of one complete skull.',
+            credit: 'IJReid · CC BY 4.0',
+            sourceUrl: 'https://commons.wikimedia.org/wiki/File:Aardonyx_skull.png'
+          }
+        ],
+        materialGroups: [
+          { label: 'Skull and jaws', value: 'Premaxilla, maxillary material including the holotype, dentary and other cranial elements.' },
+          { label: 'Vertebral column', value: 'Cervical, dorsal, sacral and caudal vertebrae, with cervical and dorsal ribs, gastralia and chevrons.' },
+          { label: 'Girdles and limbs', value: 'Pectoral and pelvic girdle elements; forelimb and hindlimb bones, including material from the hands and feet.' },
+          { label: 'Exceptional preservation', value: 'Bone microstructure is preserved and was sampled histologically; no skin, feathers, colour or gut contents are known.' }
+        ],
+        specimenCards: [
+          {
+            kicker: 'Name-bearing specimen',
+            title: 'BP/1/6254 · holotype',
+            description: 'The rostral half of a left maxilla. A separate caudal fragment, BP/1/6505, was found nearby and may belong to the same maxilla, but the fragments do not overlap.',
+            meta: 'Marc’s Quarry · upper Elliot Formation · University of the Witwatersrand BP collection'
+          },
+          {
+            kicker: 'Referred quarry material',
+            title: 'Two immature individuals',
+            description: 'A large set of disarticulated cranial and postcranial bones from the type quarry. Histology indicates continued growth, and the original authors suggested that the sampled animals may have been younger than ten years.',
+            meta: 'One quarry assemblage · specimen association reconstructed taphonomically'
+          }
+        ],
+        interpretation: [
+          {
+            label: 'Directly observed',
+            value: 'A maxillary holotype and numerous cranial, vertebral, girdle and limb elements, all from the type quarry.'
+          },
+          {
+            label: 'Scientific interpretation',
+            value: 'The limb and jaw anatomy records an important stage between habitually bipedal early sauropodomorphs and the feeding and weight-bearing adaptations of sauropods.'
+          },
+          {
+            label: 'Still unknown',
+            value: 'Adult size and proportions, exact association of every bone, external soft tissues, colour and the full shape of an individual skull.'
+          }
+        ],
+        resources: [
+          {
+            type: 'Primary description',
+            title: 'Yates et al. · 2010',
+            description: 'Original diagnosis, fossil inventory, histology and functional interpretation.',
+            access: 'DOI record',
+            url: 'https://doi.org/10.1098/rspb.2009.1440'
+          },
+          {
+            type: 'Open manuscript',
+            title: 'Proceedings of the Royal Society B',
+            description: 'Accessible archived text and figures from the original study.',
+            access: 'Read online',
+            url: 'https://europepmc.org/articles/PMC2842739'
+          },
+          {
+            type: 'Museum synthesis',
+            title: 'Natural History Museum',
+            description: 'Accessible overview of the two young individuals and what they reveal.',
+            access: 'Read online',
+            url: 'https://www.nhm.ac.uk/discover/dino-directory/aardonyx.html'
+          },
+          {
+            type: 'Evidence image',
+            title: 'Known-material skull diagram',
+            description: 'Source page, creator details and reuse licence for the cranial reconstruction.',
+            access: 'CC BY 4.0',
+            url: 'https://commons.wikimedia.org/wiki/File:Aardonyx_skull.png'
+          },
+          {
+            type: 'Occurrence data',
+            title: 'Paleobiology Database',
+            description: 'Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.',
+            access: 'Open dataset',
+            url: 'https://paleobiodb.org/navigator/?taxon_id=157362'
+          }
+        ],
+        limitations: 'The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.',
+        reviewedLabel: 'Primary description checked · 23 July 2026'
+      }
+    }
+  },
   afrovenator: {
     status: 'reviewed',
     reviewedOn: '2026-07-16',

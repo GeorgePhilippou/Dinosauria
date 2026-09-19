@@ -30,6 +30,19 @@
 
   batches.forEach(batch => {
     Object.entries(batch).forEach(([id, entry]) => {
+      const existing = window.SCIENTIFIC_REVIEWS?.[id];
+      // Hand-reviewed profile records may be revised after a systematic batch
+      // was prepared. Keep the newer record intact so the later batch merge
+      // cannot silently discard specimen-level additions such as the evidence
+      // research panel.
+      if (
+        existing?.reviewedOn
+        && entry?.reviewedOn
+        && existing.reviewedOn > entry.reviewedOn
+      ) {
+        merged[id] = existing;
+        return;
+      }
       const needsSpecialist = entry.status === 'needs-specialist-review';
       const baseline = window.SCIENTIFIC_BASELINE_AUDIT?.[id] || {};
       const record = { ...(needsSpecialist ? baseline.record : {}), ...(entry.record || {}) };

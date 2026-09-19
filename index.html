@@ -6514,7 +6514,7 @@
     column-gap: 18px;
     row-gap: 3px;
     align-items: start;
-    padding: 12px max(clamp(16px, 3vw, 34px), calc((100vw - 1180px) / 2));
+    padding: 9px max(clamp(16px, 3vw, 34px), calc((100vw - 1180px) / 2));
     transition: padding .2s ease, min-height .2s ease;
   }
   .side-panel.expanded .panel-controls {
@@ -6599,19 +6599,30 @@
     justify-self: stretch;
     align-self: stretch;
     justify-content: flex-start;
-    gap: 7px;
+    gap: 5px;
     width: 100%;
     max-width: none;
-    padding: 11px 0;
+    padding: 7px 0;
     border-bottom: 1px solid var(--line);
     background: color-mix(in srgb, var(--surface) 95%, transparent);
     backdrop-filter: blur(14px);
     overflow-x: auto;
     overflow-y: hidden;
     mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent);
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--accent) 42%, var(--line)) transparent;
+  }
+  .profile-dossier-nav::-webkit-scrollbar { height: 4px; }
+  .profile-dossier-nav::-webkit-scrollbar-track { background: transparent; }
+  .profile-dossier-nav::-webkit-scrollbar-thumb {
+    border-radius: var(--radius-pill);
+    background: color-mix(in srgb, var(--accent) 42%, var(--line));
   }
   .profile-dossier-nav .profile-section-link {
     flex: 0 0 auto;
+    min-height: 30px;
+    padding: 5px 9px;
+    font-size: var(--fs-2xs);
   }
   .profile-dossier-nav .profile-section-link[aria-current="true"] {
     border-color: var(--section-col);
@@ -6621,21 +6632,22 @@
   .profile-dossier-hero {
     grid-area: hero;
     display: grid;
-    grid-template-columns: minmax(0, 1.18fr) minmax(320px, .82fr);
-    gap: clamp(24px, 3vw, 42px);
+    grid-template-columns: minmax(0, .88fr) minmax(360px, 1.12fr);
+    gap: clamp(18px, 2.4vw, 30px);
     align-items: center;
-    padding: clamp(20px, 2.7vw, 34px) 0 clamp(24px, 3vw, 38px);
+    padding: clamp(14px, 1.8vw, 22px) 0 clamp(16px, 2vw, 24px);
   }
   .profile-dossier-hero .hero-silhouette {
     width: 100%;
-    min-height: clamp(240px, 24vw, 340px);
+    min-height: clamp(170px, 18vw, 230px);
+    padding: 10px;
   }
   .profile-dossier-hero .hero-silhouette img {
-    max-height: clamp(215px, 22vw, 305px);
+    max-height: clamp(150px, 16vw, 205px);
   }
   .profile-dossier-intro {
     display: grid;
-    gap: 13px;
+    gap: 9px;
     align-content: center;
     min-width: 0;
   }
@@ -6650,8 +6662,8 @@
   }
   .profile-dossier-intro .profile-lead {
     font-family: Georgia, 'Times New Roman', serif;
-    font-size: clamp(18px, 1.55vw, 23px);
-    line-height: 1.5;
+    font-size: clamp(17px, 1.35vw, 21px);
+    line-height: 1.42;
   }
 
   .side-panel.expanded .profile-section-card {
@@ -6659,14 +6671,14 @@
     max-width: none;
     min-width: 0;
     align-self: start;
-    padding: clamp(26px, 3vw, 40px) 0;
+    padding: clamp(18px, 2vw, 25px) 0;
     border: 0;
     border-top: 1px solid var(--line);
     border-radius: 0;
     background: transparent;
     box-shadow: none;
     overflow: visible;
-    scroll-margin-top: 58px;
+    scroll-margin-top: 46px;
   }
   .side-panel.expanded .profile-section-card,
   .side-panel.expanded .profile-dossier-hero {
@@ -6674,7 +6686,7 @@
     margin-inline: auto;
   }
   .side-panel.expanded .profile-section-card > .section-title {
-    margin: 0 0 18px;
+    margin: 0 0 12px;
     padding: 0;
     border: 0;
     background: transparent;
@@ -6715,7 +6727,29 @@
     margin-top: 0;
   }
   .side-panel.expanded #profile-evidence > .section-title {
-    margin-bottom: 14px;
+    margin-bottom: 10px;
+  }
+  .side-panel.expanded #profile-overview .overview-prose {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px 24px;
+  }
+  .side-panel.expanded #profile-overview .overview-prose .description {
+    margin: 0;
+    font-size: var(--fs-sm);
+    line-height: 1.58;
+  }
+  .side-panel.expanded #profile-overview .overview-prose .description:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+  .side-panel.expanded #profile-overview .fact-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px 18px;
+  }
+  .side-panel.expanded #profile-overview .fact-item {
+    font-size: var(--fs-sm);
+    line-height: 1.48;
   }
   .side-panel.expanded #profile-evidence .evidence-mode-grid,
   .side-panel.expanded #profile-evidence .remains-grid {
@@ -6748,7 +6782,7 @@
 
   .interpretation-intro {
     max-width: 72ch;
-    margin: 0 0 16px;
+    margin: 0 0 10px;
   }
   .interpretation-grid {
     display: grid;
@@ -6757,7 +6791,7 @@
   }
   .interpretation-item {
     min-width: 0;
-    padding: 14px 0 16px;
+    padding: 10px 0 12px;
     border-top: 1px solid var(--line);
   }
   .interpretation-label,
@@ -6784,10 +6818,10 @@
   }
   .interpretation-reason,
   .research-context p {
-    margin: 7px 0 0;
+    margin: 5px 0 0;
     color: var(--text-2);
     font-size: var(--fs-sm);
-    line-height: 1.6;
+    line-height: 1.5;
   }
   .interpretation-direct {
     max-width: 72ch;
@@ -6800,12 +6834,13 @@
   }
   .research-question-list {
     display: grid;
-    gap: 0;
-    max-width: 72ch;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    max-width: none;
   }
   .research-question {
     position: relative;
-    padding: 11px 0 11px 18px;
+    padding: 10px 0 8px 18px;
     border-top: 1px solid var(--line);
     color: var(--text-2);
     font-size: var(--fs-md);
@@ -6818,11 +6853,56 @@
     color: var(--accent);
     font-weight: var(--fw-extrabold);
   }
+  .research-question-title {
+    display: block;
+    color: var(--text);
+    font-size: var(--fs-md);
+    line-height: 1.4;
+  }
+  .research-question p {
+    margin: 4px 0 0;
+    color: var(--text-2);
+    font-size: var(--fs-sm);
+    line-height: 1.5;
+  }
+
+  .profile-source-library {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .profile-source-card {
+    display: grid;
+    align-content: start;
+    gap: 5px;
+    min-width: 0;
+    padding: 11px 12px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface-2);
+    color: var(--text);
+    text-decoration: none;
+  }
+  .profile-source-card:hover {
+    border-color: color-mix(in srgb, var(--accent) 54%, var(--line));
+  }
+  .profile-source-type {
+    color: color-mix(in srgb, var(--accent) 68%, var(--text-3));
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-extrabold);
+    letter-spacing: .07em;
+    text-transform: uppercase;
+  }
+  .profile-source-card strong {
+    font-size: var(--fs-sm);
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
 
   .locality-map-layout {
     display: grid;
     grid-template-columns: minmax(0, 1.15fr) minmax(280px, .85fr);
-    gap: clamp(16px, 2.4vw, 30px);
+    gap: clamp(14px, 2vw, 22px);
     align-items: start;
     min-width: 0;
   }
@@ -6847,6 +6927,16 @@
   }
   .side-panel.expanded #profile-classification .related-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .side-panel.expanded #profile-locality .fossil-summary-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 6px;
+  }
+  .side-panel.expanded #profile-locality .fossil-summary-item {
+    padding: 7px 8px;
+  }
+  .side-panel.expanded #profile-locality .fossil-summary-value {
+    font-size: var(--fs-sm);
   }
   .side-panel.expanded #profile-sources .source-links {
     align-items: flex-start;
@@ -6923,23 +7013,23 @@
       padding: 0 12px max(32px, env(safe-area-inset-bottom));
     }
     .profile-dossier-nav {
-      gap: 6px;
-      padding: 8px 0;
+      gap: 5px;
+      padding: 6px 0;
     }
     .profile-dossier-nav .profile-section-link {
-      min-height: 40px;
-      padding: 8px 10px;
+      min-height: 34px;
+      padding: 6px 8px;
     }
     .profile-dossier-hero {
       grid-template-columns: minmax(0, 1fr);
-      gap: 18px;
-      padding: 22px 0 30px;
+      gap: 12px;
+      padding: 14px 0 18px;
     }
     .profile-dossier-hero .hero-silhouette {
-      min-height: 180px;
+      min-height: 145px;
     }
     .profile-dossier-hero .hero-silhouette img {
-      max-height: 160px;
+      max-height: 130px;
     }
     .profile-dossier-intro .profile-lead {
       font-size: var(--fs-lg);
@@ -6957,7 +7047,7 @@
       display: none;
     }
     .side-panel.expanded .profile-section-card {
-      padding: 26px 0;
+      padding: 18px 0;
       border-left: 0;
       scroll-margin-top: 54px;
     }
@@ -6965,11 +7055,18 @@
       padding-inline: 0;
     }
     .interpretation-grid,
+    .profile-source-library,
+    .research-question-list,
+    .side-panel.expanded #profile-overview .overview-prose,
+    .side-panel.expanded #profile-overview .fact-list,
     .side-panel.expanded #profile-evidence .evidence-mode-grid,
     .side-panel.expanded #profile-evidence .remains-grid,
     .locality-map-layout,
     .side-panel.expanded #profile-classification .related-grid {
       grid-template-columns: minmax(0, 1fr);
+    }
+    .side-panel.expanded #profile-locality .fossil-summary-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
     .evidence-summary-top,
     .age-comparison-head {
@@ -6996,6 +7093,578 @@
     .profile-dossier img,
     .profile-dossier svg {
       max-width: 100%;
+    }
+  }
+
+  /* Specimen-led fossil evidence prototype. The structure is generic so the
+     same reviewed record can be rolled out genus by genus after Aardonyx. */
+  .evidence-research-board {
+    display: grid;
+    gap: 14px;
+    min-width: 0;
+  }
+  .evidence-research-synopsis,
+  .evidence-material-card,
+  .evidence-media-card,
+  .evidence-board-section,
+  .evidence-board-limitations {
+    min-width: 0;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: color-mix(in srgb, var(--surface-2) 92%, var(--section-col) 8%);
+  }
+  .evidence-research-synopsis {
+    position: relative;
+    display: grid;
+    gap: 8px;
+    padding: clamp(15px, 1.8vw, 21px);
+    overflow: hidden;
+  }
+  .evidence-research-synopsis::before {
+    content: '';
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 5px;
+    background: var(--section-col);
+  }
+  .evidence-research-status {
+    justify-self: end;
+    padding: 4px 8px;
+    border: 1px solid color-mix(in srgb, var(--section-col) 58%, var(--line));
+    border-radius: 999px;
+    color: color-mix(in srgb, var(--section-col) 72%, var(--text));
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-extrabold);
+    letter-spacing: .07em;
+    line-height: 1.25;
+    text-transform: uppercase;
+  }
+  .evidence-research-eyebrow,
+  .evidence-board-heading > span,
+  .evidence-research-metric > span,
+  .evidence-resource-card > span {
+    color: var(--text-3);
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-extrabold);
+    letter-spacing: .08em;
+    line-height: 1.35;
+    text-transform: uppercase;
+  }
+  .evidence-research-headline {
+    max-width: 28ch;
+    margin: 0;
+    color: var(--text);
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(22px, 2.3vw, 30px);
+    font-weight: 700;
+    line-height: 1.08;
+    text-wrap: balance;
+  }
+  .evidence-research-standfirst {
+    max-width: 72ch;
+    margin: 0;
+    color: var(--text-2);
+    font-size: var(--fs-md);
+    font-size: var(--fs-sm);
+    line-height: 1.5;
+  }
+  .evidence-coverage {
+    display: grid;
+    grid-template-columns: minmax(190px, .7fr) minmax(240px, 1.3fr);
+    gap: 7px 16px;
+    align-items: center;
+    margin-top: 5px;
+    padding: 10px 0 0;
+    border-top: 1px solid var(--line);
+  }
+  .evidence-coverage-copy {
+    display: grid;
+    gap: 3px;
+  }
+  .evidence-coverage-copy span {
+    color: var(--text-3);
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-extrabold);
+    letter-spacing: .07em;
+    text-transform: uppercase;
+  }
+  .evidence-coverage-copy strong {
+    color: var(--text);
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: var(--fs-lg);
+    line-height: 1.1;
+  }
+  .evidence-coverage-meter {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 6px;
+  }
+  .evidence-coverage-meter span {
+    height: 9px;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--surface-3) 82%, var(--line));
+  }
+  .evidence-coverage-meter span.on {
+    background: var(--section-col);
+  }
+  .evidence-coverage > p {
+    grid-column: 2;
+    margin: -2px 0 0;
+    color: var(--text-3);
+    font-size: var(--fs-xs);
+    line-height: 1.45;
+  }
+  .evidence-research-metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    margin-top: 2px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .evidence-research-metric {
+    display: grid;
+    gap: 5px;
+    align-content: start;
+    min-width: 0;
+    padding: 9px 11px;
+    border-right: 1px solid var(--line);
+    background: color-mix(in srgb, var(--surface-3) 74%, transparent);
+  }
+  .evidence-research-metric:last-child {
+    border-right: 0;
+  }
+  .evidence-research-metric strong {
+    color: var(--text);
+    font-size: var(--fs-sm);
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+  }
+  .evidence-material-layout {
+    display: grid;
+    grid-template-columns: minmax(0, .88fr) minmax(0, 1.12fr);
+    gap: 12px;
+    align-items: stretch;
+    min-width: 0;
+  }
+  .evidence-media-card {
+    position: relative;
+    display: grid;
+    grid-template-rows: minmax(180px, 1fr) auto;
+    margin: 0;
+    overflow: hidden;
+  }
+  .evidence-media-kind {
+    position: absolute;
+    z-index: 1;
+    top: 12px;
+    left: 12px;
+    padding: 6px 9px;
+    border: 1px solid color-mix(in srgb, var(--section-col) 50%, var(--line));
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--surface) 88%, transparent);
+    backdrop-filter: blur(8px);
+    color: var(--text);
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-extrabold);
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .evidence-media-card > img {
+    width: 100%;
+    height: 100%;
+    min-height: 190px;
+    max-height: 285px;
+    padding: 18px;
+    object-fit: contain;
+    background:
+      radial-gradient(circle at 50% 45%, color-mix(in srgb, var(--section-col) 13%, transparent), transparent 58%),
+      var(--surface-3);
+    cursor: zoom-in;
+  }
+  .evidence-media-card figcaption {
+    display: grid;
+    gap: 5px;
+    padding: 10px 12px 12px;
+    border-top: 1px solid var(--line);
+  }
+  .evidence-media-card figcaption strong {
+    color: var(--text);
+    font-size: var(--fs-sm);
+    line-height: 1.35;
+  }
+  .evidence-media-card figcaption span {
+    color: var(--text-2);
+    font-size: var(--fs-xs);
+    line-height: 1.5;
+  }
+  .evidence-media-card figcaption a {
+    width: fit-content;
+    color: color-mix(in srgb, var(--section-col) 70%, var(--text));
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-bold);
+  }
+  .evidence-material-card {
+    display: grid;
+    gap: 8px;
+    align-content: start;
+    padding: clamp(14px, 1.8vw, 20px);
+  }
+  .evidence-material-card > h3 {
+    margin: 0 0 3px;
+    color: var(--text);
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: var(--fs-lg);
+    line-height: 1.2;
+  }
+  .evidence-known-summary {
+    max-width: 58ch;
+    margin: 5px 0 0;
+    color: var(--text-2);
+    font-size: var(--fs-sm);
+    line-height: 1.52;
+  }
+  .evidence-known-limit {
+    display: grid;
+    gap: 5px;
+    margin-top: 8px;
+    padding: 10px 12px;
+    border-left: 4px solid var(--section-col);
+    border-radius: 0 10px 10px 0;
+    background: color-mix(in srgb, var(--surface-3) 80%, transparent);
+  }
+  .evidence-known-limit strong {
+    color: var(--text);
+    font-size: var(--fs-xs);
+    letter-spacing: .04em;
+    text-transform: uppercase;
+  }
+  .evidence-known-limit p {
+    margin: 0;
+    color: var(--text-2);
+    font-size: var(--fs-sm);
+    line-height: 1.5;
+  }
+  .evidence-material-list {
+    display: grid;
+  }
+  .evidence-material-list > div {
+    display: grid;
+    grid-template-columns: minmax(120px, .42fr) minmax(0, 1fr);
+    gap: 12px 18px;
+    padding: 14px 0;
+    border-top: 1px solid var(--line);
+  }
+  .evidence-material-list strong {
+    color: var(--text);
+    font-size: var(--fs-sm);
+    line-height: 1.4;
+  }
+  .evidence-material-list p {
+    margin: 0;
+    color: var(--text-2);
+    font-size: var(--fs-sm);
+    line-height: 1.5;
+  }
+  .evidence-board-section {
+    display: grid;
+    gap: 16px;
+    padding: clamp(18px, 2.4vw, 26px);
+  }
+  .evidence-board-heading {
+    display: grid;
+    gap: 4px;
+  }
+  .evidence-board-heading > strong {
+    color: var(--text);
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: var(--fs-xl);
+    line-height: 1.25;
+  }
+  .evidence-specimen-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .evidence-specimen-grid article {
+    display: grid;
+    gap: 8px;
+    align-content: start;
+    min-width: 0;
+    padding: 16px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--surface-3);
+  }
+  .evidence-specimen-grid h4 {
+    margin: 0;
+    color: var(--text);
+    font-size: var(--fs-lg);
+    line-height: 1.3;
+  }
+  .evidence-specimen-grid p {
+    margin: 0;
+    color: var(--text-2);
+    font-size: var(--fs-sm);
+    line-height: 1.52;
+  }
+  .evidence-specimen-meta {
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px solid var(--line);
+    color: var(--text-3);
+    font-size: var(--fs-xs);
+    line-height: 1.45;
+  }
+  .evidence-reading-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .evidence-reading-grid article {
+    position: relative;
+    display: grid;
+    gap: 8px;
+    align-content: start;
+    min-width: 0;
+    padding: 16px 16px 16px 18px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--surface-3);
+    overflow: hidden;
+  }
+  .evidence-reading-grid article::before {
+    content: '';
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 4px;
+    background: var(--section-col);
+  }
+  .evidence-reading-grid article[data-evidence-reading="interpreted"]::before {
+    background: #d69b3b;
+  }
+  .evidence-reading-grid article[data-evidence-reading="unknown"]::before {
+    background: var(--text-3);
+  }
+  .evidence-reading-grid strong {
+    color: var(--text);
+    font-size: var(--fs-sm);
+    line-height: 1.35;
+  }
+  .evidence-reading-grid p {
+    margin: 0;
+    color: var(--text-2);
+    font-size: var(--fs-sm);
+    line-height: 1.52;
+  }
+  .evidence-resource-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .evidence-resource-card {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    gap: 7px;
+    min-width: 0;
+    min-height: 170px;
+    padding: 15px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--surface-3);
+    color: inherit;
+    text-decoration: none;
+    transition: border-color .16s ease, transform .16s ease, background .16s ease;
+  }
+  .evidence-resource-card:hover,
+  .evidence-resource-card:focus-visible {
+    border-color: var(--section-col);
+    background: color-mix(in srgb, var(--surface-3) 90%, var(--section-col) 10%);
+    transform: translateY(-2px);
+  }
+  .evidence-resource-card > strong {
+    color: var(--text);
+    font-size: var(--fs-md);
+    line-height: 1.3;
+  }
+  .evidence-resource-card > p {
+    margin: 0;
+    color: var(--text-2);
+    font-size: var(--fs-xs);
+    line-height: 1.5;
+  }
+  .evidence-resource-card > em {
+    color: color-mix(in srgb, var(--section-col) 70%, var(--text));
+    font-size: var(--fs-xs);
+    font-style: normal;
+    font-weight: var(--fw-bold);
+  }
+  .evidence-board-limitations {
+    display: grid;
+    grid-template-columns: minmax(130px, .28fr) minmax(0, 1fr);
+    gap: 12px 22px;
+    padding: 16px 18px;
+    border-left: 4px solid var(--text-3);
+    border-radius: 10px;
+  }
+  .evidence-board-limitations strong {
+    color: var(--text);
+    font-size: var(--fs-sm);
+  }
+  .evidence-board-limitations p {
+    margin: 0;
+    color: var(--text-2);
+    font-size: var(--fs-sm);
+    line-height: 1.5;
+  }
+  .evidence-details {
+    min-width: 0;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: color-mix(in srgb, var(--surface-2) 94%, var(--section-col) 6%);
+    overflow: hidden;
+  }
+  .evidence-details > summary {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+    color: var(--text);
+    cursor: pointer;
+    list-style: none;
+  }
+  .evidence-details > summary::-webkit-details-marker {
+    display: none;
+  }
+  .evidence-details > summary > span:first-child {
+    display: grid;
+    gap: 3px;
+  }
+  .evidence-details > summary strong {
+    font-size: var(--fs-sm);
+    line-height: 1.35;
+  }
+  .evidence-details > summary small {
+    color: var(--text-3);
+    font-size: var(--fs-xs);
+    line-height: 1.4;
+  }
+  .evidence-details > summary > span:last-child {
+    display: grid;
+    width: 28px;
+    height: 28px;
+    flex: 0 0 auto;
+    place-items: center;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    color: var(--text-2);
+    font-size: var(--fs-lg);
+    line-height: 1;
+    transition: transform .18s ease;
+  }
+  .evidence-details[open] > summary > span:last-child {
+    transform: rotate(45deg);
+  }
+  .evidence-details-body {
+    display: grid;
+    gap: 0;
+    border-top: 1px solid var(--line);
+  }
+  .evidence-detail-section {
+    display: grid;
+    gap: 16px;
+    min-width: 0;
+    padding: clamp(18px, 2.4vw, 26px);
+    border-bottom: 1px solid var(--line);
+  }
+  .evidence-details .evidence-board-limitations {
+    margin: 18px;
+  }
+
+  @media (max-width: 900px) {
+    .evidence-research-metrics {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .evidence-material-layout {
+      grid-template-columns: 1fr;
+    }
+    .evidence-reading-grid,
+    .evidence-resource-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 620px) {
+    .evidence-research-board {
+      gap: 10px;
+    }
+    .evidence-research-synopsis,
+    .evidence-material-card,
+    .evidence-board-section {
+      padding: 13px;
+      border-radius: 12px;
+    }
+    .evidence-research-status {
+      justify-self: start;
+      order: -1;
+    }
+    .evidence-research-headline {
+      font-size: clamp(21px, 7vw, 27px);
+    }
+    .evidence-research-standfirst {
+      font-size: var(--fs-sm);
+    }
+    .evidence-coverage {
+      grid-template-columns: 1fr;
+    }
+    .evidence-coverage > p {
+      grid-column: 1;
+    }
+    .evidence-research-metrics,
+    .evidence-specimen-grid,
+    .evidence-reading-grid,
+    .evidence-resource-grid {
+      grid-template-columns: 1fr;
+    }
+    .evidence-media-card {
+      grid-template-rows: minmax(150px, 1fr) auto;
+    }
+    .evidence-media-card > img {
+      min-height: 160px;
+      max-height: 220px;
+      padding: 14px;
+    }
+    .evidence-research-metric {
+      border-right: 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .evidence-research-metric:last-child {
+      border-bottom: 0;
+    }
+    .evidence-media-card {
+      grid-template-rows: minmax(210px, auto) auto;
+      border-radius: 12px;
+    }
+    .evidence-media-card > img {
+      min-height: 220px;
+      padding: 24px 18px;
+    }
+    .evidence-material-list > div,
+    .evidence-board-limitations {
+      grid-template-columns: 1fr;
+    }
+    .evidence-resource-card {
+      min-height: 0;
+    }
+    .evidence-details > summary {
+      padding: 15px 16px;
+    }
+    .evidence-detail-section {
+      padding: 16px;
+    }
+    .evidence-details .evidence-board-limitations {
+      margin: 14px;
     }
   }
 </style>
@@ -7922,14 +8591,14 @@
 <script src="data/ai-enriched-profiles.js"></script>
 <script src="data/ai-fossil-records.js"></script>
 <script src="data/ai-curated-evidence.js"></script>
-<script src="data/scientific-reviews.js"></script>
+<script src="data/scientific-reviews.js?v=20260724"></script>
 <script src="data/scientific-baseline-audit.js"></script>
 <script src="data/review-batches/reviews-a-c.js"></script>
 <script src="data/review-batches/reviews-d-l.js"></script>
 <script src="data/review-batches/reviews-m-r.js"></script>
 <script src="data/review-batches/reviews-s-z.js"></script>
 <script src="data/review-batches/reviews-s-z-remainder.js"></script>
-<script src="data/review-batches/merge-reviews.js"></script>
+<script src="data/review-batches/merge-reviews.js?v=20260724"></script>
 <script>
 const SOURCE_BASE = 'https://www.nhm.ac.uk/discover/dino-directory/';
 const DK_GUIDE_URL = 'https://www.nhm.ac.uk/discover/dinosaurs.html';
@@ -15116,6 +15785,10 @@ function flattenSearchValue(value) {
   return [];
 }
 
+function profilePresentation(d) {
+  return window.SCIENTIFIC_REVIEWS?.[d.id]?.presentation || null;
+}
+
 function profileForDinosaur(d) {
   const manualProfile = RICH_CONTENT[d.id] || null;
   const profile = { ...(RICH_PROFILES[d.id] || {}), ...(manualProfile || {}) };
@@ -15126,7 +15799,7 @@ function profileForDinosaur(d) {
   const explicitlyReviewedProfile = profile.provenance === 'scientifically-reviewed';
   if (['reviewed', 'audited'].includes(reviewStatus) && !explicitlyReviewedProfile) {
     const review = window.SCIENTIFIC_REVIEWS?.[d.id];
-    profile.overview = [d.description];
+    profile.overview = review?.presentation?.animalParagraphs || [d.description];
     profile.articles = [];
     // `null` means that no claim-level reviewed locality coordinates are
     // available.  Do not use an empty array here: it suppresses the honest
@@ -16280,7 +16953,7 @@ function setProfileSectionTheme(section, color) {
 function profileSectionNavNode(sections) {
   const nav = document.createElement('nav');
   nav.className = 'profile-section-nav';
-  nav.setAttribute('aria-label', 'Profile sections');
+  nav.setAttribute('aria-label', 'Profile sections; scroll horizontally to see every section');
   sections.forEach(({ id: target, label, color }) => {
     const btn = document.createElement('button');
     btn.type = 'button';
@@ -16363,6 +17036,18 @@ function atAGlanceNode(d, profile, index = 1) {
 function quickFactsNode(d) {
   const bar = document.createElement('div');
   bar.className = 'quick-facts';
+  const presentedFacts = profilePresentation(d)?.quickFacts;
+  if (presentedFacts?.length) {
+    presentedFacts.forEach(({ label, value }) => {
+      const item = document.createElement('div');
+      item.className = 'qf-item';
+      const l = document.createElement('div'); l.className = 'qf-label'; l.textContent = label;
+      const v = document.createElement('div'); v.className = 'qf-value'; v.textContent = value;
+      item.append(l, v);
+      bar.appendChild(item);
+    });
+    return bar;
+  }
   const qualify = (field, label, value) => {
     if (!value || value === '—') return null;
     if (isHistoricalProfile(d) && !['age', 'group'].includes(field)) {
@@ -16476,16 +17161,48 @@ function dataGapsNode(d) {
 }
 
 function profileImageFigureNode(d, small = false) {
+  const presentedMedia = profilePresentation(d)?.heroMedia;
   const figure = document.createElement('figure');
   figure.className = 'profile-image-figure';
   const box = document.createElement('div');
   box.className = 'hero-silhouette';
-  box.appendChild(referenceImageNode(d, small, !small));
+  if (presentedMedia?.file) {
+    const img = document.createElement('img');
+    img.src = commonsImageUrl(presentedMedia.file, small ? 640 : 1200);
+    img.alt = presentedMedia.alt || `${d.name} scientific reconstruction`;
+    img.loading = small ? 'lazy' : 'eager';
+    img.decoding = 'async';
+    if (!small) {
+      img.className = 'dino-zoomable';
+      img.tabIndex = 0;
+      img.setAttribute('role', 'button');
+      img.title = `Expand ${presentedMedia.title || d.name}`;
+      img.dataset.lightboxType = 'dinosaur';
+      img.dataset.lightboxTitle = presentedMedia.title || d.name;
+      img.dataset.lightboxOriginal = presentedMedia.sourceUrl;
+      img.dataset.lightboxCaption = `${escapeSvg(presentedMedia.caption || '')} <a href="${presentedMedia.sourceUrl}" target="_blank" rel="noreferrer">Image source and reuse terms</a>.`;
+    }
+    img.addEventListener('error', () => img.replaceWith(missingImageNode(d)), { once: true });
+    box.appendChild(img);
+  } else {
+    box.appendChild(referenceImageNode(d, small, !small));
+  }
   const stripe = document.createElement('div');
   stripe.className = 'hero-period-stripe';
   box.appendChild(stripe);
   figure.appendChild(box);
-  if (d.imageSource) {
+  if (presentedMedia?.sourceUrl) {
+    const credit = document.createElement('figcaption');
+    credit.className = 'image-credit';
+    credit.append(`${presentedMedia.caption} `);
+    const link = document.createElement('a');
+    link.href = presentedMedia.sourceUrl;
+    link.target = '_blank';
+    link.rel = 'noreferrer';
+    link.textContent = presentedMedia.credit || 'Image source';
+    credit.appendChild(link);
+    figure.appendChild(credit);
+  } else if (d.imageSource) {
     const credit = document.createElement('figcaption');
     credit.className = 'image-credit';
     credit.append('Reference image from ');
@@ -16525,6 +17242,7 @@ function profilePreviewNode(d, profile) {
 }
 
 function dossierHeroNode(d, profile) {
+  const presentation = profilePresentation(d);
   const hero = document.createElement('section');
   hero.className = 'profile-dossier-hero';
   const copy = document.createElement('div');
@@ -16537,8 +17255,11 @@ function dossierHeroNode(d, profile) {
   status.textContent = profileReviewLabel(d);
   const lead = document.createElement('p');
   lead.className = 'profile-lead';
-  lead.textContent = profileIdentityLine(d);
-  copy.append(kicker, status, lead, quickFactsNode(d));
+  lead.textContent = presentation?.heroLead || profileIdentityLine(d);
+  const heading = document.createElement('h1');
+  heading.className = 'sr-only';
+  heading.textContent = `${d.name} scientific profile`;
+  copy.append(heading, kicker, status, lead, quickFactsNode(d));
   hero.append(profileImageFigureNode(d), copy);
   return hero;
 }
@@ -16587,6 +17308,11 @@ function fossilsNode(d, profile, index = 2) {
   setProfileSectionTheme(section, d.accent);
   section.id = 'profile-evidence';
   section.innerHTML = sectionTitle(index, 'Fossil evidence');
+
+  if (evidence.panel) {
+    section.appendChild(fossilEvidenceResearchBoardNode(d, evidence.panel));
+    return section;
+  }
 
   const wrap = document.createElement('div');
   wrap.className = 'evidence-confidence';
@@ -16638,6 +17364,232 @@ function fossilsNode(d, profile, index = 2) {
   return section;
 }
 
+function fossilEvidenceResearchBoardNode(d, panel) {
+  const board = document.createElement('div');
+  board.className = 'evidence-research-board';
+
+  const synopsis = document.createElement('section');
+  synopsis.className = 'evidence-research-synopsis';
+  const status = document.createElement('div');
+  status.className = 'evidence-research-status';
+  status.textContent = panel.reviewedLabel || 'Literature reviewed';
+  const eyebrow = document.createElement('div');
+  eyebrow.className = 'evidence-research-eyebrow';
+  eyebrow.textContent = panel.eyebrow || 'Evidence record';
+  const headline = document.createElement('h3');
+  headline.className = 'evidence-research-headline';
+  headline.textContent = panel.headline;
+  const standfirst = document.createElement('p');
+  standfirst.className = 'evidence-research-standfirst';
+  standfirst.textContent = panel.standfirst;
+
+  const coverage = document.createElement('div');
+  coverage.className = 'evidence-coverage';
+  const coverageCopy = document.createElement('div');
+  coverageCopy.className = 'evidence-coverage-copy';
+  const coverageLabel = document.createElement('span');
+  coverageLabel.textContent = 'Taxon-level skeletal coverage';
+  const coverageValue = document.createElement('strong');
+  coverageValue.textContent = panel.coverage?.label || 'Review pending';
+  coverageCopy.append(coverageLabel, coverageValue);
+  const meter = document.createElement('div');
+  meter.className = 'evidence-coverage-meter';
+  const maximum = panel.coverage?.maximum || 4;
+  const level = panel.coverage?.level || 0;
+  meter.setAttribute('role', 'img');
+  meter.setAttribute('aria-label', `Skeletal coverage ${level} of ${maximum}: ${panel.coverage?.label || 'review pending'}`);
+  for (let i = 1; i <= maximum; i += 1) {
+    const step = document.createElement('span');
+    if (i <= level) step.classList.add('on');
+    meter.appendChild(step);
+  }
+  const coverageBasis = document.createElement('p');
+  coverageBasis.textContent = panel.coverage?.basis || '';
+  coverage.append(coverageCopy, meter, coverageBasis);
+
+  const metrics = document.createElement('div');
+  metrics.className = 'evidence-research-metrics';
+  (panel.metrics || []).forEach(metric => {
+    const item = document.createElement('div');
+    item.className = 'evidence-research-metric';
+    const label = document.createElement('span');
+    label.textContent = metric.label;
+    const value = document.createElement('strong');
+    value.textContent = metric.value;
+    item.append(label, value);
+    metrics.appendChild(item);
+  });
+  synopsis.append(status, eyebrow, headline, standfirst, coverage, metrics);
+  board.appendChild(synopsis);
+
+  const evidenceLayout = document.createElement('div');
+  evidenceLayout.className = 'evidence-material-layout';
+  const media = panel.media?.[0];
+  if (media) {
+    const figure = document.createElement('figure');
+    figure.className = 'evidence-media-card';
+    const mediaType = document.createElement('div');
+    mediaType.className = 'evidence-media-kind';
+    mediaType.textContent = media.kind;
+    const img = document.createElement('img');
+    img.className = 'figure-zoomable';
+    img.src = commonsImageUrl(media.file, 1100);
+    img.alt = media.alt;
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    img.tabIndex = 0;
+    img.setAttribute('role', 'button');
+    img.title = `Expand ${media.title}`;
+    img.dataset.lightboxTitle = media.title;
+    img.dataset.lightboxOriginal = media.sourceUrl;
+    img.dataset.lightboxCaption = `${escapeSvg(media.caption)} <a href="${media.sourceUrl}" target="_blank" rel="noreferrer">${escapeSvg(media.credit)}</a>.`;
+    img.addEventListener('error', () => figure.classList.add('image-unavailable'), { once: true });
+    const caption = document.createElement('figcaption');
+    const title = document.createElement('strong');
+    title.textContent = media.title;
+    const description = document.createElement('span');
+    description.textContent = media.caption;
+    const source = document.createElement('a');
+    source.href = media.sourceUrl;
+    source.target = '_blank';
+    source.rel = 'noreferrer';
+    source.textContent = `${media.credit} ↗`;
+    caption.append(title, description, source);
+    figure.append(mediaType, img, caption);
+    evidenceLayout.appendChild(figure);
+  }
+
+  const material = document.createElement('section');
+  material.className = 'evidence-material-card';
+  const materialKicker = document.createElement('div');
+  materialKicker.className = 'evidence-research-eyebrow';
+  materialKicker.textContent = 'Known remains';
+  const materialTitle = document.createElement('h3');
+  materialTitle.textContent = panel.knownRemains?.title || 'What is actually preserved?';
+  const materialSummary = document.createElement('p');
+  materialSummary.className = 'evidence-known-summary';
+  materialSummary.textContent = panel.knownRemains?.summary
+    || panel.materialGroups?.map(group => group.value).join(' ')
+    || '';
+  const materialLimit = document.createElement('aside');
+  materialLimit.className = 'evidence-known-limit';
+  const materialLimitLabel = document.createElement('strong');
+  materialLimitLabel.textContent = 'Most important limitation';
+  const materialLimitCopy = document.createElement('p');
+  materialLimitCopy.textContent = panel.knownRemains?.note || panel.coverage?.basis || '';
+  materialLimit.append(materialLimitLabel, materialLimitCopy);
+  material.append(materialKicker, materialTitle, materialSummary, materialLimit);
+  evidenceLayout.appendChild(material);
+  board.appendChild(evidenceLayout);
+
+  const details = document.createElement('details');
+  details.className = 'evidence-details';
+  const detailsSummary = document.createElement('summary');
+  detailsSummary.innerHTML = '<span><strong>Detailed evidence record</strong><small>Specimens, material inventory, interpretation and further reading</small></span><span aria-hidden="true">+</span>';
+  const detailsBody = document.createElement('div');
+  detailsBody.className = 'evidence-details-body';
+
+  const inventorySection = document.createElement('section');
+  inventorySection.className = 'evidence-detail-section';
+  const inventoryHeading = document.createElement('div');
+  inventoryHeading.className = 'evidence-board-heading';
+  inventoryHeading.innerHTML = '<span>Material inventory</span><strong>Preserved parts of the skeleton</strong>';
+  const materialList = document.createElement('div');
+  materialList.className = 'evidence-material-list';
+  (panel.materialGroups || []).forEach(group => {
+    const row = document.createElement('div');
+    const label = document.createElement('strong');
+    label.textContent = group.label;
+    const value = document.createElement('p');
+    value.textContent = group.value;
+    row.append(label, value);
+    materialList.appendChild(row);
+  });
+  inventorySection.append(inventoryHeading, materialList);
+
+  const specimenSection = document.createElement('section');
+  specimenSection.className = 'evidence-detail-section';
+  const specimenHeading = document.createElement('div');
+  specimenHeading.className = 'evidence-board-heading';
+  specimenHeading.innerHTML = '<span>Specimen record</span><strong>What the name and reconstruction are based on</strong>';
+  const specimenGrid = document.createElement('div');
+  specimenGrid.className = 'evidence-specimen-grid';
+  (panel.specimenCards || []).forEach(specimen => {
+    const card = document.createElement('article');
+    const kicker = document.createElement('div');
+    kicker.className = 'evidence-research-eyebrow';
+    kicker.textContent = specimen.kicker;
+    const title = document.createElement('h4');
+    title.textContent = specimen.title;
+    const description = document.createElement('p');
+    description.textContent = specimen.description;
+    const meta = document.createElement('div');
+    meta.className = 'evidence-specimen-meta';
+    meta.textContent = specimen.meta;
+    card.append(kicker, title, description, meta);
+    specimenGrid.appendChild(card);
+  });
+  specimenSection.append(specimenHeading, specimenGrid);
+
+  const interpretationSection = document.createElement('section');
+  interpretationSection.className = 'evidence-detail-section';
+  const interpretationHeading = document.createElement('div');
+  interpretationHeading.className = 'evidence-board-heading';
+  interpretationHeading.innerHTML = '<span>Reading the fossils</span><strong>Observation, interpretation and uncertainty</strong>';
+  const interpretationGrid = document.createElement('div');
+  interpretationGrid.className = 'evidence-reading-grid';
+  (panel.interpretation || []).forEach((item, index) => {
+    const card = document.createElement('article');
+    card.dataset.evidenceReading = ['observed', 'interpreted', 'unknown'][index] || 'context';
+    const label = document.createElement('strong');
+    label.textContent = item.label;
+    const value = document.createElement('p');
+    value.textContent = item.value;
+    card.append(label, value);
+    interpretationGrid.appendChild(card);
+  });
+  interpretationSection.append(interpretationHeading, interpretationGrid);
+
+  const resourcesSection = document.createElement('section');
+  resourcesSection.className = 'evidence-detail-section';
+  const resourcesHeading = document.createElement('div');
+  resourcesHeading.className = 'evidence-board-heading evidence-resource-heading';
+  resourcesHeading.innerHTML = '<span>Explore the evidence</span><strong>Open the papers, images and institutional records</strong>';
+  const resourceGrid = document.createElement('div');
+  resourceGrid.className = 'evidence-resource-grid';
+  (panel.resources || []).forEach(resource => {
+    const link = document.createElement('a');
+    link.className = 'evidence-resource-card';
+    link.href = resource.url;
+    link.target = '_blank';
+    link.rel = 'noreferrer';
+    const type = document.createElement('span');
+    type.textContent = resource.type;
+    const title = document.createElement('strong');
+    title.textContent = resource.title;
+    const description = document.createElement('p');
+    description.textContent = resource.description;
+    const access = document.createElement('em');
+    access.textContent = `${resource.access} ↗`;
+    link.append(type, title, description, access);
+    resourceGrid.appendChild(link);
+  });
+  resourcesSection.append(resourcesHeading, resourceGrid);
+
+  const limitations = document.createElement('aside');
+  limitations.className = 'evidence-board-limitations';
+  const limitationsLabel = document.createElement('strong');
+  limitationsLabel.textContent = 'How to read this record';
+  const limitationsCopy = document.createElement('p');
+  limitationsCopy.textContent = panel.limitations;
+  limitations.append(limitationsLabel, limitationsCopy);
+  detailsBody.append(inventorySection, specimenSection, interpretationSection, resourcesSection, limitations);
+  details.append(detailsSummary, detailsBody);
+  board.appendChild(details);
+
+  return board;
+}
+
 function profileEvidenceSummary(d, evidence, band) {
   const normalize = value => String(value || '').toLowerCase().replace(/\s+/g, ' ').trim();
   if (normalize(evidence.summary) === normalize(d.description)) {
@@ -16657,6 +17609,7 @@ function localityNode(d, profile, index = 3) {
   fossilSummary.className = 'fossil-summary';
 
   const review = window.SCIENTIFIC_REVIEWS?.[d.id];
+  const presentation = review?.presentation;
   const hasScientificReview = ['reviewed', 'audited'].includes(review?.status);
   // Reviewed profiles must never fall back to the older generated fossil-note
   // layer. That prose was useful during prototyping, but it has not passed the
@@ -16669,12 +17622,13 @@ function localityNode(d, profile, index = 3) {
     : reviewedEvidence?.formations;
   const fossilGrid = document.createElement('div');
   fossilGrid.className = 'fossil-summary-grid';
-  [
+  const whereFacts = presentation?.whereFacts || [
     ['Geological interval', d.period],
     ['Profile age range', d.mya],
     ['Reviewed formation(s)', reviewedFormations],
     ['Recorded countries', d.found?.join(', ')]
-  ].filter(([, value]) => value).forEach(([label, value]) => {
+  ].map(([label, value]) => ({ label, value }));
+  whereFacts.filter(({ value }) => value).forEach(({ label, value }) => {
     const item = document.createElement('div');
     item.className = 'fossil-summary-item';
     const l = document.createElement('div'); l.className = 'fossil-summary-label'; l.textContent = label;
@@ -16683,13 +17637,18 @@ function localityNode(d, profile, index = 3) {
     fossilGrid.appendChild(item);
   });
 
-  fossilSummary.append(fossilGrid, ageComparisonNode(d, pbdb));
+  fossilSummary.appendChild(fossilGrid);
+  if (!presentation) fossilSummary.appendChild(ageComparisonNode(d, pbdb));
   wrap.appendChild(fossilSummary);
 
   // Fossil localities: map + list
   const locations = fossilLocations(d, profile);
   const hasReviewedSites = Boolean(profile?.fossilSites?.length);
-  const listedSites = hasReviewedSites ? profile.fossilSites : locations;
+  const listedSites = presentation?.locality
+    ? [presentation.locality]
+    : hasReviewedSites
+      ? profile.fossilSites
+      : locations;
   const places = document.createElement('div');
   places.className = 'locality-list';
   if (listedSites.length) {
@@ -16700,7 +17659,7 @@ function localityNode(d, profile, index = 3) {
       const name = document.createElement('div'); name.className = 'locality-name'; name.textContent = loc.name;
       const meta = document.createElement('div');
       meta.className = 'locality-meta';
-      meta.textContent = !hasReviewedSites && loc.precision === 'country-level'
+      meta.textContent = !presentation && !hasReviewedSites && loc.precision === 'country-level'
         ? ''
         : [loc.region, loc.note].filter(Boolean).join('. ');
       text.appendChild(name);
@@ -16725,7 +17684,9 @@ function localityNode(d, profile, index = 3) {
     const precision = document.createElement('div');
     precision.className = 'map-precision';
     precision.dataset.mapPrecision = precisionKey;
-    precision.textContent = {
+    precision.textContent = presentation && precisionKey === 'country-level'
+      ? 'Country-level location; exact quarry coordinates are not plotted'
+      : {
       exact: 'Verified fossil-site coordinates',
       'formation-level': 'Formation or regional coordinates — not an exact quarry point',
       'country-level': 'Country-level modern discovery reference — neutral national marker, not a fossil-site coordinate'
@@ -17069,7 +18030,8 @@ function remainsStateColor(state) {
 function evidenceProfile(d, profile) {
   const review = window.SCIENTIFIC_REVIEWS?.[d.id];
   const record = ['reviewed', 'audited'].includes(review?.status) ? null : FOSSIL_RECORDS[d.id];
-  const curated = CURATED_EVIDENCE[d.id];
+  const reviewedEvidence = ['reviewed', 'audited'].includes(review?.status) ? review?.evidence : null;
+  const curated = reviewedEvidence || CURATED_EVIDENCE[d.id];
   const quality = DATA_QUALITY_OVERRIDES[d.id];
   const pbdb = d.pbdb;
   const material = curated?.material || record?.material || evidenceMaterialText(d, profile);
@@ -17096,6 +18058,7 @@ function evidenceProfile(d, profile) {
     score,
     summary,
     methodNote,
+    panel: curated?.panel || null,
     claims: curated?.claims || {},
     specimens: curated?.specimens || [],
     uncertainties: evidenceUncertainties(d, curated, quality, pbdb),
@@ -17206,6 +18169,7 @@ function scoreLabel(score) {
 function appendOverviewContent(section, d, profile, options = {}) {
   const includeSummary = options.includeSummary !== false;
   const includeFacts = options.includeFacts !== false;
+  const presentation = profilePresentation(d);
   if (d.sourceMeta?.taxonomicStatus && d.sourceMeta.taxonomicStatus !== 'accepted') {
     const status = document.createElement('div');
     status.className = 'provenance-note provenance-note-ai';
@@ -17219,25 +18183,29 @@ function appendOverviewContent(section, d, profile, options = {}) {
   if (includeSummary) {
     const summaryTitle = document.createElement('h3');
     summaryTitle.className = 'subsection-title';
-    summaryTitle.textContent = 'Summary';
+    summaryTitle.textContent = presentation ? 'Overview' : 'Summary';
     section.appendChild(summaryTitle);
     const paras = profile?.overview || [d.description];
+    const prose = presentation ? document.createElement('div') : section;
+    if (presentation) prose.className = 'overview-prose';
     paras.forEach((text, i) => {
       const p = document.createElement('p');
       p.className = 'description';
       p.textContent = text;
-      if (i > 0) p.style.marginTop = '8px';
-      section.appendChild(p);
+      if (i > 0 && !presentation) p.style.marginTop = '8px';
+      prose.appendChild(p);
     });
+    if (presentation) section.appendChild(prose);
   }
 
-  if (includeFacts && d.facts?.length) {
+  const displayedFacts = presentation?.animalHighlights || d.facts;
+  if (includeFacts && displayedFacts?.length) {
     const factsTitle = document.createElement('h3');
     factsTitle.className = 'subsection-title';
     factsTitle.textContent = 'What the evidence tells us';
     section.appendChild(factsTitle);
     const list = document.createElement('div'); list.className = 'fact-list';
-    d.facts.forEach(fact => {
+    displayedFacts.forEach(fact => {
       const item = document.createElement('div'); item.className = 'fact-item'; item.textContent = fact;
       list.appendChild(item);
     });
@@ -17531,6 +18499,7 @@ function truncateMapLabel(label) {
 function escapeSvg(t) { return String(t).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;'); }
 
 function cladogramNode(d, profile, index = 4) {
+  const presentation = profilePresentation(d);
   const section = document.createElement('section');
   setProfileSectionTheme(section, d.accent);
   section.id = 'profile-classification';
@@ -17539,23 +18508,27 @@ function cladogramNode(d, profile, index = 4) {
   card.className = 'clade-card';
   card.innerHTML = focusedCladogramSvg(d, profile);
 
-  const taxonomy = document.createElement('div');
-  taxonomy.className = 'taxonomy-grid';
-  taxonomyDetails(d, profile).forEach(([label, value]) => {
-    const item = document.createElement('div');
-    item.className = 'taxonomy-item';
-    const l = document.createElement('div'); l.className = 'taxonomy-label'; l.textContent = label;
-    const v = document.createElement('div'); v.className = 'taxonomy-value'; v.textContent = value;
-    item.append(l, v);
-    taxonomy.appendChild(item);
-  });
-
   const copy = document.createElement('p');
   copy.className = 'section-copy';
   copy.style.marginTop = '8px';
-  copy.textContent = `${d.name} is placed within ${classificationPath(d, profile).join(' > ')}. This is a simplified wiki classification, not a full phylogenetic matrix; detailed placements can vary between studies.`;
-  section.append(card, taxonomy, copy);
-  const related = relatedDinosaursNode(d);
+  copy.textContent = presentation?.classificationSummary
+    || `${d.name} is placed within ${classificationPath(d, profile).join(' > ')}. This is a simplified wiki classification, not a full phylogenetic matrix; detailed placements can vary between studies.`;
+  section.append(card);
+  if (!presentation) {
+    const taxonomy = document.createElement('div');
+    taxonomy.className = 'taxonomy-grid';
+    taxonomyDetails(d, profile).forEach(([label, value]) => {
+      const item = document.createElement('div');
+      item.className = 'taxonomy-item';
+      const l = document.createElement('div'); l.className = 'taxonomy-label'; l.textContent = label;
+      const v = document.createElement('div'); v.className = 'taxonomy-value'; v.textContent = value;
+      item.append(l, v);
+      taxonomy.appendChild(item);
+    });
+    section.appendChild(taxonomy);
+  }
+  section.appendChild(copy);
+  const related = relatedDinosaursNode(d, presentation?.related);
   if (related) section.appendChild(related);
   return section;
 }
@@ -17646,12 +18619,17 @@ function findTreePath(node, id, path=[]) {
   return null;
 }
 
-function relatedDinosaursNode(d) {
-  const related = relatedDinosaurs(d).slice(0, 3);
+function relatedDinosaursNode(d, curated = null) {
+  const related = curated?.length
+    ? curated.map(entry => ({
+        dino: DINOS.find(item => item.id === entry.id),
+        reasons: [entry.reason]
+      })).filter(entry => entry.dino)
+    : relatedDinosaurs(d).slice(0, 3);
   if (!related.length) return null;
 
   const section = document.createElement('div');
-  section.innerHTML = '<div class="subsection-title">Related dinosaurs</div>';
+  section.innerHTML = `<div class="subsection-title">${curated?.length ? 'Evolutionary comparisons' : 'Related dinosaurs'}</div>`;
   const grid = document.createElement('div');
   grid.className = 'related-grid';
 
@@ -17745,8 +18723,40 @@ function claimLevelLabel(level) {
 
 function ecologyNode(d, profile, index = 3) {
   const review = window.SCIENTIFIC_REVIEWS?.[d.id];
+  const presentation = review?.presentation;
   const reviewRecord = review?.record || {};
   const evidence = evidenceProfile(d, profile);
+  if (presentation?.lifeCards?.length) {
+    const section = document.createElement('section');
+    setProfileSectionTheme(section, d.accent);
+    section.id = 'profile-ecology';
+    section.innerHTML = sectionTitle(index, 'Life and reconstruction');
+    const intro = document.createElement('p');
+    intro.className = 'section-copy interpretation-intro';
+    intro.textContent = 'What the skeleton supports is separated from estimates and from features that remain reconstructed.';
+    const grid = document.createElement('div');
+    grid.className = 'interpretation-grid';
+    presentation.lifeCards.forEach(field => {
+      const item = document.createElement('div');
+      item.className = 'interpretation-item';
+      const label = document.createElement('div');
+      label.className = 'interpretation-label';
+      label.textContent = field.label;
+      const value = document.createElement('div');
+      value.className = 'interpretation-value';
+      value.textContent = field.value;
+      const level = document.createElement('div');
+      level.className = 'interpretation-level';
+      level.textContent = field.level;
+      const reason = document.createElement('p');
+      reason.className = 'interpretation-reason';
+      reason.textContent = field.reason;
+      item.append(label, value, level, reason);
+      grid.appendChild(item);
+    });
+    section.append(intro, grid);
+    return section;
+  }
   const claims = evidence.claims || {};
   const historical = isHistoricalProfile(d);
   const known = value => value && value !== '—' && !/^not listed by nhm$/i.test(value);
@@ -17900,6 +18910,7 @@ function ecologyNode(d, profile, index = 3) {
 
 function debatesNode(d, profile, index = 4) {
   const review = window.SCIENTIFIC_REVIEWS?.[d.id];
+  const presentation = review?.presentation;
   const uncertainties = unique([
     ...(d.sourceMeta?.residualUncertainty || review?.residualUncertainty || []),
     ...(evidenceProfile(d, profile)?.uncertainties || []),
@@ -17910,7 +18921,7 @@ function debatesNode(d, profile, index = 4) {
   section.id = 'profile-debates';
   section.innerHTML = sectionTitle(index, 'Scientific debates and open questions');
 
-  if (review?.ageReviewNote) {
+  if (review?.ageReviewNote && !presentation) {
     const age = document.createElement('div');
     age.className = 'research-context';
     const title = document.createElement('div');
@@ -17927,10 +18938,21 @@ function debatesNode(d, profile, index = 4) {
   heading.textContent = 'What remains unresolved';
   const list = document.createElement('div');
   list.className = 'research-question-list';
-  (uncertainties.length ? uncertainties : ['No specific controversy is recorded in the current review; future discoveries may still change the interpretation.']).forEach(text => {
+  const displayedQuestions = presentation?.questions
+    || (uncertainties.length ? uncertainties : ['No specific controversy is recorded in the current review; future discoveries may still change the interpretation.']);
+  displayedQuestions.forEach(question => {
     const item = document.createElement('div');
     item.className = 'research-question';
-    item.textContent = text;
+    if (typeof question === 'string') {
+      item.textContent = question;
+    } else {
+      const title = document.createElement('strong');
+      title.className = 'research-question-title';
+      title.textContent = question.title;
+      const copy = document.createElement('p');
+      copy.textContent = question.copy;
+      item.append(title, copy);
+    }
     list.appendChild(item);
   });
   section.append(heading, list);
@@ -17938,6 +18960,8 @@ function debatesNode(d, profile, index = 4) {
 }
 
 function sourceNode(d, profile, index = 6) {
+  const review = window.SCIENTIFIC_REVIEWS?.[d.id];
+  const presentation = review?.presentation;
   const section = document.createElement('section');
   setProfileSectionTheme(section, d.accent);
   section.id = 'profile-sources';
@@ -17966,6 +18990,62 @@ function sourceNode(d, profile, index = 6) {
     : '<span class="provenance-tag">Editorially compiled</span>'
       + '<p>The written summary on this profile was compiled from the sources below.</p>';
   section.appendChild(prov);
+
+  if (presentation?.compactSources) {
+    const heading = document.createElement('h3');
+    heading.className = 'subsection-title';
+    heading.textContent = 'Further reading';
+    const library = document.createElement('div');
+    library.className = 'profile-source-library';
+    const sourceLabels = {
+      'original-description': 'Original scientific description',
+      'open-manuscript': 'Open-access manuscript',
+      'museum-synthesis': 'Museum overview'
+    };
+    (review?.sources || []).forEach(source => {
+      const card = document.createElement('a');
+      card.className = 'profile-source-card';
+      card.href = source.url;
+      card.target = '_blank';
+      card.rel = 'noreferrer';
+      const type = document.createElement('span');
+      type.className = 'profile-source-type';
+      type.textContent = sourceLabels[source.type] || source.type;
+      const citation = document.createElement('strong');
+      citation.textContent = source.citation;
+      card.append(type, citation);
+      library.appendChild(card);
+    });
+    section.append(heading, library);
+
+    const recordsHeading = document.createElement('h3');
+    recordsHeading.className = 'subsection-title';
+    recordsHeading.textContent = 'Image and data records';
+    const records = document.createElement('div');
+    records.className = 'source-links';
+    const recordLinks = [
+      presentation.heroMedia?.sourceUrl
+        ? ['Life-restoration source and reuse terms', presentation.heroMedia.sourceUrl]
+        : null,
+      review?.evidence?.panel?.media?.[0]?.sourceUrl
+        ? ['Known-material image source', review.evidence.panel.media[0].sourceUrl]
+        : null,
+      d.pbdb?.taxonId
+        ? ['Paleobiology Database record', `https://paleobiodb.org/navigator/?taxon_id=${d.pbdb.taxonId.replace(/^txn:/, '')}`]
+        : null
+    ].filter(Boolean);
+    recordLinks.forEach(([label, url]) => {
+      const link = document.createElement('a');
+      link.className = 'source-link';
+      link.href = url;
+      link.target = '_blank';
+      link.rel = 'noreferrer';
+      link.textContent = label;
+      records.appendChild(link);
+    });
+    section.append(recordsHeading, records);
+    return section;
+  }
 
   const wrap = document.createElement('div'); wrap.className = 'source-links';
   const link = document.createElement('a'); link.className = 'source-link'; link.href = d.source; link.target = '_blank'; link.rel = 'noreferrer'; link.textContent = 'Open NHM source page';
