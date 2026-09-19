@@ -1,0 +1,143 @@
+{
+  "id": "hypacrosaurus",
+  "name": "Hypacrosaurus",
+  "profile": {
+    "overview": [
+      "Hypacrosaurus altispinus was a large lambeosaurine hadrosaur from the late Campanian and early Maastrichtian of Alberta and Montana (~75–67 Ma), bearing a tall hollow crest similar to Corythosaurus. Remarkable nest sites from the Two Medicine Formation preserve eggs, embryos, hatchlings and juveniles at different growth stages — providing detailed data on hadrosaur developmental biology.",
+      "Bone histology from Hypacrosaurus growth series shows that it grew from a 50-cm hatchling to a 9-metre adult in as little as 10–12 years — among the fastest growth rates documented for any dinosaur — before slowing sharply at maturity. Proteins extracted from Hypacrosaurus eggshell fragments have been proposed as among the oldest biological molecules preserved in fossils, though this remains debated."
+    ],
+    "fossilSites": [
+      {
+        "name": "Two Medicine Formation",
+        "region": "Montana, USA",
+        "lat": 48.2,
+        "lon": -113.2,
+        "note": "Campanian nesting sites with Hypacrosaurus eggs, embryos and hatchlings at different developmental stages."
+      },
+      {
+        "name": "Horseshoe Canyon Formation",
+        "region": "Alberta, Canada",
+        "lat": 51.5,
+        "lon": -113,
+        "note": "Late Campanian–Maastrichtian deposits with adult Hypacrosaurus specimens."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Hadrosauridae",
+        "Lambeosaurinae",
+        "Hypacrosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Lambeosaurinae",
+          "label": "Corythosaurus"
+        },
+        {
+          "from": "Lambeosaurinae",
+          "label": "Lambeosaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Nesting and early development",
+        "body": "Nesting sites in the Two Medicine Formation preserve complete clutches of Hypacrosaurus eggs (spherical, about 20 cm diameter) and hatchlings with incompletely formed skulls and limb bones. The developmental sequence documents how the hollow crest formed progressively through ontogeny — small in juveniles, full-sized in adults — paralleling the pattern in Corythosaurus."
+      },
+      {
+        "title": "Growth rates",
+        "body": "Bone histology shows one of the fastest known growth rates among hadrosaurs: reaching adult size in 10–12 years. The growth rings (lines of arrested growth) record annual growth cycles, showing rapid juvenile growth that decelerated sharply at maturity. This pattern mirrors fast-growing large mammals and is inconsistent with ectothermic (cold-blooded) physiology."
+      },
+      {
+        "title": "Ancient proteins controversy",
+        "body": "A 2020 paper reported osteopontin (a bone matrix protein) extracted from 75-million-year-old Hypacrosaurus eggshell — potentially the oldest biological molecule identified from a fossil. The interpretation is controversial: contamination by microbial biofilms or other modern sources cannot be fully excluded at this age, and independent verification has not yet confirmed the result."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Hypacrosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/hypacrosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Two Medicine and Horseshoe Canyon formations, Alberta, Canada",
+    "material": "Skulls, skeletons, nesting sites with eggs, embryos and hatchlings.",
+    "completeness": "Outstanding — entire growth sequence known",
+    "paleo": "Late Cretaceous floodplain environments of Alberta, Canada.",
+    "evidence": "Embryonic skulls inside eggs preserve the earliest crest development stages; skin impressions are also known."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "early Maastrichtian, roughly 71-69 million years ago for H. altispinus",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauroidea",
+        "Hadrosauridae",
+        "Lambeosaurinae"
+      ],
+      "description": "Hypacrosaurus altispinus was a tall-spined lambeosaurine hadrosaurid from the Horseshoe Canyon Formation of Alberta. Several skulls and skeletons document a hollow-crested herbivore; famous nests, eggs and embryos belong to the distinct species H. stebingeri and must not be attributed automatically to H. altispinus.",
+      "facts": [
+        "The tall neural spines formed a deep back profile, not necessarily a thin sail.",
+        "The hollow crest contained nasal passages plausibly involved in sound production, though exact calls are modelled.",
+        "Nesting and embryology evidence is species-specific to H. stebingeri."
+      ]
+    },
+    "ageReviewNote": "Corrected to early Maastrichtian for H. altispinus; the profile must not use the older Two Medicine age of H. stebingeri.",
+    "sources": [
+      {
+        "type": "species-systematics",
+        "citation": "Evans (2010), Cranial anatomy and taxonomy of Hypacrosaurus",
+        "url": "https://doi.org/10.1111/j.1096-3642.2009.00611.x"
+      },
+      {
+        "type": "northern-occurrence",
+        "citation": "Berruyer et al. (2026), A northern occurrence and biostratigraphy of Hypacrosaurus altispinus",
+        "url": "https://doi.org/10.1139/cjes-2025-0094"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Hypacrosaurus altispinus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Hypacrosaurus%20altispinus"
+      }
+    ],
+    "residualUncertainty": [
+      "Genus monophyly and distinctions between H. altispinus and H. stebingeri continue to be tested.",
+      "Crest acoustics and display are biomechanical inferences."
+    ],
+    "evidence": {
+      "score": 80,
+      "material": "Several skulls and partial-to-substantial skeletons of H. altispinus.",
+      "formations": [
+        "Horseshoe Canyon Formation"
+      ],
+      "confidenceLimit": "High for anatomy, age and herbivory; moderate for crest function and genus relationships.",
+      "uncertainties": [
+        "genus monophyly",
+        "crest function",
+        "species separation details"
+      ],
+      "summary": "Hypacrosaurus altispinus was a tall-spined lambeosaurine hadrosaurid from the Horseshoe Canyon Formation of Alberta. Several skulls and skeletons document a hollow-crested herbivore; famous nests, eggs and embryos belong to the distinct species H. stebingeri and must not be attributed automatically to H. altispinus.",
+      "sourceBasis": "Evans (2010), Cranial anatomy and taxonomy of Hypacrosaurus; Berruyer et al. (2026), A northern occurrence and biostratigraphy of Hypacrosaurus altispinus; Paleobiology Database taxon and occurrence context for Hypacrosaurus altispinus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

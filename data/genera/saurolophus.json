@@ -1,0 +1,137 @@
+{
+  "id": "saurolophus",
+  "name": "Saurolophus",
+  "profile": {
+    "overview": [
+      "Saurolophus osborni was a large saurolophine hadrosaur from the latest Campanian to early Maastrichtian of Alberta (~69 Ma), bearing a solid backward-pointing crest formed by the nasal bones. Two species are known: S. osborni from Alberta (about 9 m) and S. angustirostris from Mongolia (~12 m) — one of the few dinosaur genera known from both North America and Asia, documenting successful trans-Beringian dispersal.",
+      "Unlike the hollow crests of lambeosaurines, the solid crest of Saurolophus could not function as a resonating chamber. It may have supported a soft-tissue inflatable sac over the nasal region — analogous to elephant seals — used for visual display and possibly producing sound through skin vibration rather than through internal resonance."
+    ],
+    "fossilSites": [
+      {
+        "name": "Horseshoe Canyon Formation",
+        "region": "Alberta, Canada",
+        "lat": 51.5,
+        "lon": -113,
+        "note": "Campanian–Maastrichtian deposits with the type S. osborni and the richest North American Saurolophus sample."
+      },
+      {
+        "name": "Nemegt Formation",
+        "region": "Ömnögovi Province, Mongolia",
+        "lat": 43.2,
+        "lon": 101,
+        "note": "Late Cretaceous beds with S. angustirostris — larger than the North American species and one of the commonest Nemegt hadrosaurs."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Hadrosauridae",
+        "Saurolophinae",
+        "Saurolophus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Saurolophinae",
+          "label": "Edmontosaurus"
+        },
+        {
+          "from": "Saurolophinae",
+          "label": "Maiasaura"
+        },
+        {
+          "from": "Hadrosauridae",
+          "label": "Lambeosaurinae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and trans-Pacific distribution",
+        "body": "S. osborni was described by Brown in 1912; S. angustirostris from Mongolia followed. The genus is one of a small number of dinosaur taxa recorded from both North America and Asia, confirming that the Beringian land connection allowed faunal exchange in the latest Cretaceous. The Mongolian species is significantly larger — the largest saurolophine known."
+      },
+      {
+        "title": "Crest function",
+        "body": "The solid nasal spike of Saurolophus likely supported a soft-tissue inflatable nasal sac extending from the nostrils over the crest. In this model, air forced into the sac would produce low-frequency vibrations and visual display — analogous to the inflatable nasal sac of male hooded seals. This hypothesis is difficult to test without soft-tissue preservation but is consistent with the external anatomy."
+      },
+      {
+        "title": "Hadrosaur diversity at the end of the Cretaceous",
+        "body": "By the Maastrichtian, hadrosaurs had diversified globally and were the dominant large herbivores on most landmasses outside of South America (where titanosaurs dominated). Saurolophus, Edmontosaurus and Triceratops formed the main megaherbivore guild in the final two million years before the K-Pg extinction. All three were common prey for Tyrannosaurus and were wiped out at the boundary event."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Saurolophus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/saurolophus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Horseshoe Canyon Formation, Alberta, Canada; Nemegt Formation, Mongolia",
+    "material": "Skulls and skeletons from both North America and Asia.",
+    "completeness": "Well represented on two continents",
+    "paleo": "Latest Cretaceous coastal plain and floodplain environments of both western North America and Mongolia.",
+    "evidence": "The solid bony crest and hadrosaur skeletal anatomy are documented; the cross-continental range is biogeographically significant."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "early Maastrichtian, about 72-68 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Saurolophinae",
+        "Saurolophini"
+      ],
+      "description": "Saurolophus comprises the North American S. osborni and Asian S. angustirostris, both known from skulls and skeletons. They share a solid backswept cranial crest but differ in anatomy and abundance.",
+      "facts": [
+        "Mongolian S. angustirostris is represented by many individuals, including skin impressions.",
+        "The crest was bony; proposed inflatable soft-tissue sacs remain unconfirmed."
+      ]
+    },
+    "ageReviewNote": "Species occur in the Horseshoe Canyon and Nemegt formations during the early Maastrichtian; species ranges should remain separate.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Bell (2011), cranial anatomy and skin of Saurolophus angustirostris",
+        "url": "https://doi.org/10.1371/journal.pone.0031295"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Prieto-Márquez (2010), global phylogeny of hadrosaurids",
+        "url": "https://doi.org/10.1111/j.1096-3642.2009.00617.x"
+      }
+    ],
+    "residualUncertainty": [
+      "Crest-associated soft tissue and exact vocal function are unknown."
+    ],
+    "evidence": {
+      "score": 92,
+      "material": "Multiple skulls and skeletons across two species, including skin impressions.",
+      "formations": "Horseshoe Canyon Formation, Canada; Nemegt Formation, Mongolia.",
+      "confidenceLimit": "Do not merge the two species or add speculative inflatable crest sacs.",
+      "uncertainties": [
+        "soft tissue",
+        "species-level differences"
+      ],
+      "summary": "Saurolophus comprises the North American S. osborni and Asian S. angustirostris, both known from skulls and skeletons. They share a solid backswept cranial crest but differ in anatomy and abundance.",
+      "sourceBasis": "Bell (2011), cranial anatomy and skin of Saurolophus angustirostris; Prieto-Márquez (2010), global phylogeny of hadrosaurids"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

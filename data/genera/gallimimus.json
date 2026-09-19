@@ -1,0 +1,140 @@
+{
+  "id": "gallimimus",
+  "name": "Gallimimus",
+  "profile": {
+    "overview": [
+      "Gallimimus bullatus was the largest ornithomimosaur known at the time of its description — up to six metres long — from the Late Cretaceous Nemegt Formation of Mongolia. Its long arms, toothless beak, three-toed feet and overall proportions are remarkably similar to a large flightless bird, and it is one of the first dinosaurs demonstrated by trackways to have run at speeds exceeding 40 km/h.",
+      "Originally interpreted as a filter-feeder (based on presumed comb-like structures in the beak), Gallimimus is now thought to have been an omnivore, taking insects, small vertebrates and plant material in the manner of a modern cassowary. The Jurassic Park herd stampede scene used Gallimimus as the first large-scale computer-generated dinosaur crowd."
+    ],
+    "fossilSites": [
+      {
+        "name": "Nemegt Formation",
+        "region": "Ömnögovi Province, Mongolia",
+        "lat": 43.2,
+        "lon": 101,
+        "note": "Late Cretaceous fluvial and aeolian deposits preserving Gallimimus alongside Tarbosaurus, ankylosaurs and giant sauropods."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Ornithomimosauria",
+        "Gallimimus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ornithomimosauria",
+          "label": "Struthiomimus"
+        },
+        {
+          "from": "Ornithomimosauria",
+          "label": "Ornithomimus"
+        },
+        {
+          "from": "Coelurosauria",
+          "label": "Other coelurosaur lineages"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and description",
+        "body": "Described by Osmólska, Roniewicz and Barsbold in 1972 from material collected by Polish-Mongolian expeditions in the Gobi Desert. Multiple individuals of different sizes are known. The name means \"chicken mimic\" referring to superficially bird-like proportions."
+      },
+      {
+        "title": "Locomotion",
+        "body": "Gallimimus had long, slender hindlimbs with elongate metatarsals — the same configuration seen in fast-running birds. Trackway evidence and muscle-mass estimates suggest running speeds of 40–50 km/h in adults, making it one of the fastest large dinosaurs known. The tail was stiff and horizontal, acting as a counterbalance during locomotion."
+      },
+      {
+        "title": "Diet and behaviour",
+        "body": "The toothless beak and comparatively small head were originally associated with filter-feeding in water. More recent analyses of jaw mechanics and comparisons with modern omnivorous birds suggest a broader diet of insects, small vertebrates, eggs and plant material. Gallimimus may have formed loose foraging groups similar to ostriches."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Gallimimus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/gallimimus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Nemegt Formation, Mongolia",
+    "material": "Multiple skeletons of ornithomimid theropods.",
+    "completeness": "Well represented",
+    "paleo": "Late Cretaceous Mongolian floodplain deposits.",
+    "evidence": "Long limbs, small head and toothless jaws support ostrich-like locomotion and omnivorous/generalist feeding interpretations."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "early Maastrichtian, roughly 70-68 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Ornithomimosauria",
+        "Ornithomimidae"
+      ],
+      "description": "Gallimimus bullatus was a large, long-limbed ornithomimid from the Nemegt Formation of Mongolia. Multiple partial and nearly complete skeletons, including skulls and juveniles, document a toothless, cursorially specialised biped.",
+      "facts": [
+        "The jaws were toothless and covered by a beak.",
+        "Long hindlimbs support efficient running, but a maximum speed cannot be read directly from fossils.",
+        "Diet remains unresolved; proposed plant, small-animal and filter-feeding components are hypotheses."
+      ],
+      "diet": null
+    },
+    "ageReviewNote": "The Nemegt Formation is early Maastrichtian in most current schemes, broadly 70-68 Ma.",
+    "sources": [
+      {
+        "type": "original-monograph",
+        "citation": "Osmolska et al. (1972), A new dinosaur Gallimimus bullatus from Mongolia",
+        "url": "https://www.app.pan.pl/archive/published/app17/app17-103.pdf"
+      },
+      {
+        "type": "feeding-anatomy",
+        "citation": "Norell, Makovicky & Currie (2001), The beaks of ostrich dinosaurs",
+        "url": "https://doi.org/10.1038/35091139"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Gallimimus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gallimimus"
+      }
+    ],
+    "residualUncertainty": [
+      "Diet and achievable running speed remain model-dependent.",
+      "Some referred specimens require individual reassessment."
+    ],
+    "evidence": {
+      "score": 90,
+      "material": "Multiple partial-to-nearly-complete skeletons with skulls and several growth stages.",
+      "formations": [
+        "Nemegt Formation"
+      ],
+      "confidenceLimit": "Very high for anatomy and bipedality; high for cursorial adaptation; low for exact diet and speed.",
+      "uncertainties": [
+        "diet",
+        "maximum speed",
+        "specimen referrals"
+      ],
+      "summary": "Gallimimus bullatus was a large, long-limbed ornithomimid from the Nemegt Formation of Mongolia. Multiple partial and nearly complete skeletons, including skulls and juveniles, document a toothless, cursorially specialised biped.",
+      "sourceBasis": "Osmolska et al. (1972), A new dinosaur Gallimimus bullatus from Mongolia; Norell, Makovicky & Currie (2001), The beaks of ostrich dinosaurs; Paleobiology Database taxon and occurrence context for Gallimimus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

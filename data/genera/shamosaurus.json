@@ -1,0 +1,136 @@
+{
+  "id": "shamosaurus",
+  "name": "Shamosaurus",
+  "profile": {
+    "overview": [
+      "Shamosaurus (meaning 'desert lizard') was an ankylosaur from the Early Cretaceous of Mongolia, dated to approximately 121–99 million years ago. A skull and partial postcranial skeleton have been recovered but are insufficient to estimate total body length with confidence. It is classified within Ankylosauridae, the group of armoured dinosaurs that typically bore a heavy bony tail club.",
+      "Named by Tumanova in 1983, Shamosaurus scutatus is considered one of the earliest and most basal ankylosaurids, occupying an important position for understanding the evolution of the ankylosaurid line. Its relatively primitive skull morphology places it near the base of the ankylosaurid family tree, providing insights into how the characteristic features of this group — such as the fused skull ornamentation and tail club — gradually evolved."
+    ],
+    "fossilSites": [
+      {
+        "name": "Khukhtyk Formation / Höövör locality",
+        "region": "Ömnögovi Province, Mongolia",
+        "lat": 43.2,
+        "lon": 104.8,
+        "note": "The holotype skull and associated bones were recovered from Early Cretaceous fluvial sediments in the Gobi Desert."
+      },
+      {
+        "name": "Zuunbayan Formation equivalents",
+        "region": "South Gobi, Mongolia",
+        "lat": 43.5,
+        "lon": 103,
+        "note": "Additional ankylosaur material from correlative Early Cretaceous strata in the Gobi region is broadly consistent with Shamosaurus."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Ankylosauridae",
+        "Shamosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ankylosauridae",
+          "label": "Talarurus"
+        },
+        {
+          "from": "Ankylosauria",
+          "label": "Nodosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Shamosaurus scutatus was named by Tumanova in 1983 from fossils collected during Soviet-Mongolian expeditions to the Gobi Desert. The genus name references the Shamo (Gobi) Desert, while the species name scutatus means 'shielded' in Latin, referring to the armoured nature of the animal. The holotype consists of a skull and partial postcranial skeleton."
+      },
+      {
+        "title": "Phylogenetic Position",
+        "body": "Shamosaurus is widely regarded as one of the most basal known ankylosaurids, meaning it branched off near the base of the ankylosaurid family tree before the full suite of derived features — such as elaborate skull ornamentation and a fully developed tail club — had evolved. Its study has been important for calibrating the timing and geography of ankylosaurid origins in Asia."
+      },
+      {
+        "title": "Anatomy and Armour",
+        "body": "Although the postcrania are incomplete, the preserved skull shows the broad, low profile typical of ankylosaurs, with extensive bony ornamentation fused to the skull roof. The presence of an incipient tail club region, if present, is debated given the fragmentary material; reconstructions are necessarily tentative."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "The Early Cretaceous Gobi Desert environments in which Shamosaurus lived were likely fluvial and lacustrine plains with seasonal aridity. It shared this landscape with early ceratopsians, small ornithopods, and various theropods, part of the rich early Cretaceous Asian dinosaur fauna."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Shamosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/shamosaurus.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Khukhtyk Formation / Höövör locality, Ömnögovi Province, Mongolia; Zuunbayan Formation equivalents, South Gobi, Mongolia",
+    "material": "The holotype consists of a skull and partial postcranial skeleton.",
+    "completeness": "Partial skeletal material known; 2 PBDB occurrence records.",
+    "paleo": "The holotype skull and associated bones were recovered from Early Cretaceous fluvial sediments in the Gobi Desert.",
+    "evidence": "Named by Tumanova in 1983, Shamosaurus scutatus is considered one of the earliest and most basal ankylosaurids, occupying an important position for understanding the evolution of the ankylosaurid line."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "Aptian-Albian, about 121-100 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Ankylosauridae"
+      ],
+      "description": "Shamosaurus scutatus was a basal ankylosaurid from Mongolia, known from a complete skull and partial postcranial remains.",
+      "facts": [
+        "The skull is strong evidence for diagnosis; most armour and tail anatomy are incomplete.",
+        "Proposed synonymy with Gobisaurus has not achieved consensus."
+      ]
+    },
+    "ageReviewNote": "The type is from Aptian-Albian Khukhtekskaya deposits; the broad formation age is retained.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Arbour & Currie (2016), ankylosaurid systematics including Shamosaurus",
+        "url": "https://doi.org/10.1080/14772019.2015.1059985"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: shamosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/shamosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Postcranial referrals and relationship to Gobisaurus remain uncertain."
+    ],
+    "evidence": {
+      "score": 52,
+      "material": "Complete skull with partial postcranial bones and osteoderms.",
+      "formations": "Khukhtekskaya Formation, Mongolia.",
+      "confidenceLimit": "Tail weapon, armour pattern and size are not completely known.",
+      "uncertainties": [
+        "Gobisaurus relationship",
+        "postcranial referrals"
+      ],
+      "summary": "Shamosaurus scutatus was a basal ankylosaurid from Mongolia, known from a complete skull and partial postcranial remains.",
+      "sourceBasis": "Arbour & Currie (2016), ankylosaurid systematics including Shamosaurus; Natural History Museum Dino Directory: shamosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

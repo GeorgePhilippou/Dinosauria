@@ -1,0 +1,141 @@
+{
+  "id": "giganotosaurus",
+  "name": "Giganotosaurus",
+  "profile": {
+    "overview": [
+      "Giganotosaurus carolinii was a carcharodontosaurid theropod from the Cenomanian of Patagonia (~98 Ma), and with an estimated length of 12–13 metres it is among the longest carnivorous dinosaurs ever found. Discovered by amateur fossil hunter Rubén Carolini in 1993 in the Neuquén Group, it briefly held the title of \"largest carnivore ever\" before overlapping size estimates with Spinosaurus and Tyrannosaurus complicated the comparison.",
+      "As a carcharodontosaurid, Giganotosaurus was more closely related to Carcharodontosaurus of North Africa than to Tyrannosaurus — yet the two giants lived at almost the same time, representing parallel evolution of enormous predators on separate landmasses. Giganotosaurus shared its ecosystem with the titanosaur Argentinosaurus."
+    ],
+    "fossilSites": [
+      {
+        "name": "Candeleros Formation",
+        "region": "Neuquén Province, Patagonia, Argentina",
+        "lat": -38.5,
+        "lon": -68,
+        "note": "Cenomanian fluvial and aeolian deposits with the Giganotosaurus type specimen and the giant titanosaur Argentinosaurus in the same unit."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Carcharodontosauridae",
+        "Giganotosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Carcharodontosauridae",
+          "label": "Carcharodontosaurus"
+        },
+        {
+          "from": "Carcharodontosauridae",
+          "label": "Acrocanthosaurus"
+        },
+        {
+          "from": "Carcharodontosauridae",
+          "label": "Mapusaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Rubén Carolini spotted the bones eroding from a hillside in the Neuquén badlands in 1993. Coria and Salgado described Giganotosaurus carolinii in 1995, naming the species for its discoverer. The skull, much of the postcranium and several fragmentary additional specimens are now known. A related genus, Mapusaurus, is known from a multi-individual bonebed in the same region, potentially suggesting group behaviour in carcharodontosaurids."
+      },
+      {
+        "title": "Size comparison",
+        "body": "Giganotosaurus skull length (~1.8 m) rivals or exceeds Tyrannosaurus. Body length estimates range from 12–13.5 m, comparable to Tyrannosaurus but with a more slender build and proportionally lower body mass (~6–8 tonnes versus ~8–14 tonnes for large T. rex). The comparison is complicated by incomplete material for both, but Giganotosaurus was unquestionably among the very largest terrestrial carnivores."
+      },
+      {
+        "title": "Predatory role",
+        "body": "The co-occurrence with the titanosaur Argentinosaurus — potentially the heaviest land animal ever — in the Candeleros Formation has led to suggestions that Giganotosaurus hunted these giants. The carcharodontosaurid skull, with blade-like serrated teeth and a wide gape, would have been effective for inflicting large wounds and blood loss rather than bone-crushing bites. Group behaviour in the related Mapusaurus (multi-individual bonebed) suggests possible cooperative hunting in the lineage."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Giganotosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/giganotosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Candeleros Formation, Argentina",
+    "material": "Partial skeleton and skull material of a giant carcharodontosaurid.",
+    "completeness": "Partial but diagnostic",
+    "paleo": "Early Late Cretaceous Patagonian ecosystems with giant sauropods.",
+    "evidence": "Large skull bones and serrated teeth support its identity as one of the largest known theropods."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "early Cenomanian, roughly 99-97 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Allosauroidea",
+        "Carcharodontosauridae",
+        "Carcharodontosaurinae"
+      ],
+      "description": "Giganotosaurus carolinii was a giant carcharodontosaurid predator from the Candeleros Formation of Patagonia. It is known from one incomplete skeleton with much of the skull and a referred partial lower jaw; no complete skeleton exists.",
+      "facts": [
+        "Its skull is reconstructed from incomplete and distorted bones.",
+        "It rivalled the largest theropods in length, but claims that it was definitively larger than Tyrannosaurus depend on uncertain reconstructions and mass models.",
+        "Blade-like serrated teeth support predation on large vertebrates; specific prey and hunting groups are unknown."
+      ]
+    },
+    "ageReviewNote": "The Candeleros Formation is early Cenomanian, approximately 99-97 Ma.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Coria & Salgado (1995), A new giant carnivorous dinosaur from the Cretaceous of Patagonia",
+        "url": "https://doi.org/10.1038/377224a0"
+      },
+      {
+        "type": "osteology",
+        "citation": "Coria & Currie (2002), The braincase of Giganotosaurus carolinii",
+        "url": "https://doi.org/10.1671/0272-4634(2002)022%5B0802:TBOGCD%5D2.0.CO;2"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Giganotosaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Giganotosaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "Only one principal skeleton and a referred dentary are known.",
+      "Total size, mass, skull proportions and social hunting remain uncertain."
+    ],
+    "evidence": {
+      "score": 60,
+      "material": "One incomplete but substantial skeleton with partial skull, plus a referred dentary.",
+      "formations": [
+        "Candeleros Formation"
+      ],
+      "confidenceLimit": "High for giant size and carcharodontosaurid identity; moderate for proportions; low for exact mass and behaviour.",
+      "uncertainties": [
+        "body mass",
+        "skull reconstruction",
+        "referred jaw",
+        "social behaviour"
+      ],
+      "summary": "Giganotosaurus carolinii was a giant carcharodontosaurid predator from the Candeleros Formation of Patagonia. It is known from one incomplete skeleton with much of the skull and a referred partial lower jaw; no complete skeleton exists.",
+      "sourceBasis": "Coria & Salgado (1995), A new giant carnivorous dinosaur from the Cretaceous of Patagonia; Coria & Currie (2002), The braincase of Giganotosaurus carolinii; Paleobiology Database taxon and occurrence context for Giganotosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

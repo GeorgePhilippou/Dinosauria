@@ -1,0 +1,128 @@
+{
+  "id": "suchomimus",
+  "name": "Suchomimus",
+  "profile": {
+    "overview": [
+      "Suchomimus tenerensis was a huge spinosaurid from the Early Cretaceous Sahara, with a skull shaped almost exactly like a modern gharial — long, narrow and packed with over 100 interlocking conical teeth suited to gripping fish. A low but distinct neural-spine sail ran along its back. Paul Sereno's team discovered it in Niger's Elrhaz Formation in 1997.",
+      "As a close relative of Baryonyx, Suchomimus shares the same fish-specialist bauplan: a long narrow snout, large thumb claw and robust forelimbs. It shared its river-delta world with Nigersaurus, the giant crocodilian Sarcosuchus and a diverse fish fauna in what is now the central Sahara."
+    ],
+    "fossilSites": [
+      {
+        "name": "Elrhaz Formation — Gadoufaoua",
+        "region": "Agadez Region, Niger",
+        "lat": 17,
+        "lon": 8.5,
+        "note": "Early Cretaceous fluvial deposits preserving Suchomimus alongside Nigersaurus, Sarcosuchus and abundant fish fauna."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Spinosauridae",
+        "Baryonychinae",
+        "Suchomimus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Spinosauridae",
+          "label": "Spinosaurus"
+        },
+        {
+          "from": "Baryonychinae",
+          "label": "Baryonyx"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Paul Sereno and colleagues described Suchomimus in 1998 from a partial skeleton including skull material, forelimbs and much of the axial skeleton. Discovery in Niger's Tenere Desert was part of Sereno's decade-long series of major Saharan dinosaur expeditions."
+      },
+      {
+        "title": "Anatomy",
+        "body": "The gharial-like skull bore teeth with slightly oval cross-section rather than circular — unlike the fully round teeth of Spinosaurus. The thumb claw was large and recurved. A low neural-spine sail was smaller than Spinosaurus's but clearly present. Forelimbs were robust, consistent with fish-snatching behaviour."
+      },
+      {
+        "title": "Ecology",
+        "body": "The Elrhaz Formation records a vast river delta environment 125–112 Ma. Suchomimus was the apex piscivore in an ecosystem that also included large theropods and the world's largest known crocodyliform, Sarcosuchus imperator, at up to 10 m long."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Suchomimus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/suchomimus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Elrhaz Formation, Niger",
+    "material": "Partial skeleton (lacking a skull) plus separately referred long-snouted cranial and forelimb material.",
+    "completeness": "Partial but diagnostic",
+    "paleo": "Early Cretaceous African river and floodplain settings.",
+    "evidence": "Long jaws, conical teeth and large claw support spinosaurid fish-eating adaptations."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "late Aptian-early Albian, about 115-112 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Spinosauridae",
+        "Baryonychinae"
+      ],
+      "massKg": null,
+      "description": "Suchomimus tenerensis was a baryonychine spinosaurid from the Elrhaz Formation of Niger, known from a partial skeleton representing much of the body but assembled from disarticulated material.",
+      "facts": [
+        "Long jaws, conical teeth and large thumb claws support spinosaurid feeding specialisation.",
+        "Fish consumption is likely by comparison and anatomy, but a 5,000 kg point mass is unsupported."
+      ]
+    },
+    "ageReviewNote": "The Elrhaz Formation is generally correlated to about 115-112 Ma around the Aptian-Albian transition; a 125 Ma lower bound is too old.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Sereno et al. (1998), original description of Suchomimus",
+        "url": "https://doi.org/10.1126/science.282.5392.1298"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Hone & Holtz (2021), evaluation of spinosaurid aquatic ecology",
+        "url": "https://doi.org/10.26879/1110"
+      }
+    ],
+    "residualUncertainty": [
+      "Possible synonymy with Cristatusaurus and locomotor ecology remain debated."
+    ],
+    "evidence": {
+      "score": 73,
+      "material": "Disarticulated partial skeleton with skull, axial and appendicular elements.",
+      "formations": "Elrhaz Formation, Niger.",
+      "confidenceLimit": "Mass is cleared; aquatic pursuit and exact prey balance are not established.",
+      "uncertainties": [
+        "Cristatusaurus relationship",
+        "mass",
+        "aquatic ecology"
+      ],
+      "summary": "Suchomimus tenerensis was a baryonychine spinosaurid from the Elrhaz Formation of Niger, known from a partial skeleton representing much of the body but assembled from disarticulated material.",
+      "sourceBasis": "Sereno et al. (1998), original description of Suchomimus; Hone & Holtz (2021), evaluation of spinosaurid aquatic ecology"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

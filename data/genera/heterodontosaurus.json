@@ -1,0 +1,131 @@
+{
+  "id": "heterodontosaurus",
+  "name": "Heterodontosaurus",
+  "profile": {
+    "overview": [
+      "Heterodontosaurus tucki was a small, early ornithischian from the Early Jurassic of South Africa (~200–190 Ma), about 1.2 metres long, named for its three different tooth types — a unique feature among dinosaurs. It had large canine-like tusks, small incisiform teeth at the jaw front, and cheek teeth with leaf-shaped crowns for processing vegetation, resembling the dental diversity of heterodont mammals.",
+      "As one of the earliest well-documented ornithischians, Heterodontosaurus provides crucial information about the ancestral ornithischian body plan. Its small size, complex dentition and possible semi-bipedal locomotion represent a generalised early ornithischian that preceded the major radiations of the group into stegosaurs, ankylosaurs, ornithopods and ceratopsians."
+    ],
+    "fossilSites": [
+      {
+        "name": "Elliot Formation — Upper Unit",
+        "region": "Eastern Cape, South Africa",
+        "lat": -31.5,
+        "lon": 26.5,
+        "note": "Early Jurassic continental red beds with the exquisitely preserved Heterodontosaurus type skull and additional specimens."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Heterodontosauridae",
+        "Heterodontosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ornithischia",
+          "label": "Thyreophora"
+        },
+        {
+          "from": "Ornithischia",
+          "label": "Cerapoda (ornithopods, ceratopsians, pachycephalosaurs)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and the three-tooth system",
+        "body": "Alfred Crompton and Alan Charig described Heterodontosaurus tucki in 1962. The remarkable skull preserves three distinct tooth types (heterodonty): small incisiform premaxillary teeth for cropping, large caniniform teeth (tusks) in both upper and lower jaws, and leaf-shaped cheek teeth for chewing. This combination is unique in dinosaurs; the tusks may have been used in display or intraspecific combat."
+      },
+      {
+        "title": "Anatomy and posture",
+        "body": "Heterodontosaurus had long forelimbs relative to its body — more so than most ornithopods — suggesting some use of the forelimbs in foraging. The hindlimbs show classic bipedal proportions. A well-preserved skeleton at the South African Museum shows remarkable preservation of the skull and most postcranial elements, allowing detailed study of early ornithischian anatomy."
+      },
+      {
+        "title": "Early ornithischian radiation",
+        "body": "The Elliot Formation yields several other early dinosaurs (prosauropods, small theropods) alongside Heterodontosaurus, providing a snapshot of an Early Jurassic South African community. As a very early ornithischian, Heterodontosaurus shows the clade before it diversified into its major subgroups — its relatively unspecialised body plan and diverse dentition may reflect the ancestral ornithischian condition."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Heterodontosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/heterodontosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Elliot Formation, Eastern Cape, South Africa",
+    "material": "Several complete or near-complete skulls and skeletons.",
+    "completeness": "Exceptionally well represented for an early ornithischian",
+    "paleo": "Early Jurassic semi-arid to seasonally wet environments of southern Africa.",
+    "evidence": "Three distinct tooth types in one jaw and a small but complete skeleton make this one of the most informative early ornithischians known."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Early Jurassic",
+      "mya": "Hettangian-Sinemurian, roughly 200-190 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Heterodontosauridae",
+        "Heterodontosaurinae"
+      ],
+      "description": "Heterodontosaurus tucki was a small bipedal ornithischian from the upper Elliot Formation of South Africa. Several skulls and one nearly complete skeleton document a compact herbivore with a beak, cheek teeth and enlarged canine-like teeth.",
+      "facts": [
+        "The profile Late Triassic age is incorrect; secure material is Early Jurassic.",
+        "Canine-like teeth do not prove a carnivorous diet and may have had display or defence roles.",
+        "Jaw mechanics and tooth wear support effective plant processing, while opportunistic animal matter remains possible but unproven."
+      ]
+    },
+    "ageReviewNote": "Corrected to Early Jurassic based on upper Elliot Formation stratigraphy.",
+    "sources": [
+      {
+        "type": "cranial-monograph",
+        "citation": "Norman et al. (2011), The skull and relationships of Heterodontosaurus tucki",
+        "url": "https://doi.org/10.1111/j.1096-3642.2011.00697.x"
+      },
+      {
+        "type": "complete-skeleton-description",
+        "citation": "Santa Luca et al. (1976), A complete skeleton of Heterodontosaurus tucki",
+        "url": "https://doi.org/10.1038/264324a0"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Heterodontosaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Heterodontosaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "The function and sex distribution of the caniniform teeth remain unclear.",
+      "Exact diet breadth and heterodontosaurid relationships continue to be debated."
+    ],
+    "evidence": {
+      "score": 90,
+      "material": "Several skulls and one near-complete skeleton with additional partial material.",
+      "formations": [
+        "Upper Elliot Formation"
+      ],
+      "confidenceLimit": "Very high for anatomy, age and bipedality; high for plant processing; low for canine function and exact diet breadth.",
+      "uncertainties": [
+        "caniniform function",
+        "diet breadth",
+        "fine phylogeny"
+      ],
+      "summary": "Heterodontosaurus tucki was a small bipedal ornithischian from the upper Elliot Formation of South Africa. Several skulls and one nearly complete skeleton document a compact herbivore with a beak, cheek teeth and enlarged canine-like teeth.",
+      "sourceBasis": "Norman et al. (2011), The skull and relationships of Heterodontosaurus tucki; Santa Luca et al. (1976), A complete skeleton of Heterodontosaurus tucki; Paleobiology Database taxon and occurrence context for Heterodontosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

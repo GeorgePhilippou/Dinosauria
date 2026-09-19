@@ -1,0 +1,163 @@
+{
+  "id": "pinacosaurus",
+  "name": "Pinacosaurus",
+  "profile": {
+    "overview": [
+      "Pinacosaurus (meaning 'plank lizard') was a medium-sized ankylosaur that lived during the Late Cretaceous, approximately 89–72 million years ago, in what are now the Gobi Desert regions of Mongolia and northern China. Named by Gilmore in 1933, it reached an estimated length of about 5 metres and weighed around 1,000 kg, walking on four sturdy legs covered by bony armour. Fossils are known from formations including the Djadokhta, Bayan Mandahu, and Baruungoyot, across Omnogov and Nei Mongol provinces.",
+      "Pinacosaurus is scientifically notable for the discovery of juvenile specimens apparently fossilised together in groups, suggesting some degree of gregarious or herding behaviour in young individuals. It belongs to Ankylosauridae within Ankylosauria, and its Mongolian occurrences have helped palaeontologists understand ankylosaur diversity across the Late Cretaceous of Asia. The genus had small nasal openings with unusual accessory openings, whose function remains debated."
+    ],
+    "fossilSites": [
+      {
+        "name": "Djadokhta Formation",
+        "region": "Omnogov, Mongolia",
+        "lat": 44.1,
+        "lon": 103.7,
+        "note": "The classic Gobi Desert formation that has yielded multiple juvenile Pinacosaurus specimens."
+      },
+      {
+        "name": "Bayan Mandahu Formation",
+        "region": "Nei Mongol, China",
+        "lat": 41.5,
+        "lon": 107,
+        "note": "Chinese site producing well-preserved Pinacosaurus material alongside other ankylosaurs."
+      },
+      {
+        "name": "Baruungoyot Formation",
+        "region": "Omnogov, Mongolia",
+        "lat": 43.5,
+        "lon": 100.5,
+        "note": "Late Campanian deposits that have also yielded Pinacosaurus remains."
+      },
+      {
+        "name": "Wangshi / Jiangjunding Formation",
+        "region": "Shandong, China",
+        "lat": 36.5,
+        "lon": 118,
+        "note": "Eastern Chinese formation with Pinacosaurus occurrences extending its known range."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Ankylosauridae",
+        "Ankylosaurinae",
+        "Pinacosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ankylosauria",
+          "label": "Nodosauridae"
+        },
+        {
+          "from": "Ankylosauridae",
+          "label": "Polacanthinae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Pinacosaurus was named by Charles W. Gilmore in 1933 based on material collected from Mongolia during the American Museum of Natural History expeditions of the 1920s. The type species is Pinacosaurus grangeri, honouring collector Walter Granger. Additional specimens have since been recovered by Mongolian-Soviet and later Mongolian-Japanese expeditions."
+      },
+      {
+        "title": "Juvenile Aggregations",
+        "body": "One of the most remarkable features of Pinacosaurus is the discovery of multiple juvenile individuals fossilised together in the same locality, interpreted by some researchers as evidence of herding or social grouping in young dinosaurs. This is relatively unusual in the ankylosaur fossil record and has informed debates about parental care and social behaviour in ornithischians."
+      },
+      {
+        "title": "Anatomy and Armour",
+        "body": "Pinacosaurus possessed the characteristic ankylosaur body armour of osteoderms embedded in the skin, along with a tail club used for defence. Its skull shows unusual multiple accessory nasal openings flanking the main naris, the function of which—whether related to thermoregulation, olfaction, or display—has not been conclusively determined."
+      },
+      {
+        "title": "Ecological Setting",
+        "body": "During the Late Cretaceous, the Gobi region was a semi-arid landscape of dunes and ephemeral water sources. Pinacosaurus shared its environment with small theropods, early mammals, and other dinosaurs of the Djadokhta fauna, browsing on low-growing vegetation with its herbivorous diet."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Pinacosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/pinacosaurus.html"
+      },
+      {
+        "label": "PBDB: Pinacosaurus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pinacosaurus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Djadokhta Formation, Omnogov, Mongolia; Bayan Mandahu Formation, Nei Mongol, China; Baruungoyot Formation, Omnogov, Mongolia; Wangshi / Jiangjunding Formation, Shandong, China",
+    "material": "Fossils are known from formations including the Djadokhta, Bayan Mandahu, and Baruungoyot, across Omnogov and Nei Mongol provinces.",
+    "completeness": "Skeletal material known; 25 PBDB occurrence records.",
+    "paleo": "The classic Gobi Desert formation that has yielded multiple juvenile Pinacosaurus specimens.",
+    "evidence": "Pinacosaurus is scientifically notable for the discovery of juvenile specimens apparently fossilised together in groups, suggesting some degree of gregarious or herding behaviour in young individuals."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Campanian, about 80-72 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Ankylosauridae"
+      ],
+      "description": "Pinacosaurus grangeri was an ankylosaurid from Campanian deposits of Mongolia and northern China, represented by numerous skulls and skeletons, especially juvenile groups.",
+      "facts": [
+        "Exceptional juvenile assemblages preserve multiple associated individuals rather than one mass-complete skeleton.",
+        "Skulls show characteristic accessory openings near the nostrils, whose soft-tissue function remains debated.",
+        "A tail club is supported by ankylosaurid anatomy and referred caudal material, but armour layouts vary with preservation and growth."
+      ]
+    },
+    "ageReviewNote": "Secure occurrences are Campanian Djadokhta-equivalent deposits; the range is not extended using undiagnostic ankylosaur material.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Maryańska (1977), ankylosaurids from Mongolia including Pinacosaurus",
+        "url": "https://palaeontologia.pan.pl/Archive/1977-37_85-151_20-32.pdf"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Hill, Witmer & Norell (2003), a juvenile Pinacosaurus specimen, ontogeny and ankylosaur relationships",
+        "url": "https://doi.org/10.1206/0003-0082(2003)395%3C0001:ANSOPG%3E2.0.CO;2"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: pinacosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/pinacosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "The status of P. mephistocephalus and some referrals remains debated.",
+      "Nasal soft tissues are unknown."
+    ],
+    "evidence": {
+      "score": 86,
+      "material": "Numerous skulls and partial to articulated skeletons across juvenile and larger size classes.",
+      "formations": "Djadokhta and Bayan Mandahu formations, Mongolia and China.",
+      "confidenceLimit": "Many articulated groups are juveniles and do not establish adult proportions alone.",
+      "uncertainties": [
+        "species boundaries",
+        "nasal-opening function",
+        "adult armour variation"
+      ],
+      "summary": "Pinacosaurus grangeri was an ankylosaurid from Campanian deposits of Mongolia and northern China, represented by numerous skulls and skeletons, especially juvenile groups.",
+      "sourceBasis": "Maryańska (1977), ankylosaurids from Mongolia including Pinacosaurus; Hill, Witmer & Norell (2003), a juvenile Pinacosaurus specimen, ontogeny and ankylosaur relationships; Natural History Museum Dino Directory: pinacosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

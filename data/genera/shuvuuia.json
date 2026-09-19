@@ -1,0 +1,150 @@
+{
+  "id": "shuvuuia",
+  "name": "Shuvuuia",
+  "profile": {
+    "overview": [
+      "Shuvuuia (meaning 'bird' in Mongolian) was a tiny alvarezsaurid theropod from the Late Cretaceous of Mongolia, living approximately 81–75 million years ago. It measured only about 0.6 metres in length and weighed roughly 0.5 kilograms, making it one of the smallest known non-avian dinosaurs. A well-preserved skull and postcranial skeleton reveal a highly kinetic skull with a loosely attached upper jaw — an adaptation thought to allow the snout to bow upward — and powerful, short forelimbs with a single large functional claw.",
+      "Named by Chiappe, Norell, and Clark in 1998, Shuvuuia deserti is one of the best-known alvarezsaurids and has been central to research on alvarezsaurid feeding ecology. The combination of a kinetic skull, reduced forelimb dentition, and powerful single-digit arm is interpreted by many researchers as adaptations for myrmecophagous (ant- or termite-eating) behaviour, though this remains debated. Shuvuuia also preserves exceptional keratin and possible melanin residues, contributing to research on the biochemistry of ancient feathers."
+    ],
+    "fossilSites": [
+      {
+        "name": "Djadokhta Formation (Ukhaa Tolgod)",
+        "region": "Ömnögovi Province, Mongolia",
+        "lat": 43.17,
+        "lon": 100.87,
+        "note": "Multiple Shuvuuia specimens including the holotype skull and skeleton were recovered from wind-blown Late Cretaceous sand dunes at Ukhaa Tolgod."
+      },
+      {
+        "name": "Djadokhta Formation (Tögrögiin Shiree)",
+        "region": "Ömnögovi Province, Mongolia",
+        "lat": 43.5,
+        "lon": 103,
+        "note": "Additional alvarezsaurid material from equivalent Djadokhta red sandstones complements the Ukhaa Tolgod assemblage."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Tetanurae",
+        "Avetheropoda",
+        "Coelurosauria",
+        "Tyrannoraptora",
+        "Maniraptoriformes",
+        "Maniraptora",
+        "Alvarezsauridae",
+        "Shuvuuia"
+      ],
+      "sideBranches": [
+        {
+          "from": "Alvarezsauridae",
+          "label": "Mononykus"
+        },
+        {
+          "from": "Maniraptora",
+          "label": "Troodontidae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Shuvuuia deserti was described in 1998 by Luis Chiappe, Mark Norell, and James Clark from specimens collected by the American Museum of Natural History expeditions to the Gobi Desert. The holotype preserves a nearly complete skull and much of the skeleton, making it one of the most complete alvarezsaurids known. The species name deserti refers to its desert habitat in the Djadokhta Formation."
+      },
+      {
+        "title": "Kinetic Skull and Feeding",
+        "body": "One of Shuvuuia's most unusual features is its highly kinetic skull: the upper jaw was not rigidly fused to the braincase, allowing it to flex upward (cranial kinesis). Combined with its tiny, peg-like teeth, this morphology is consistent with a diet of insects, particularly colonial insects such as termites or ants whose nests it may have ripped open with its powerful single forelimb claw."
+      },
+      {
+        "title": "Feathers and Biochemistry",
+        "body": "Shuvuuia specimens have yielded preserved filamentous integumentary structures interpreted as feathers or feather precursors. Remarkably, immunochemical and mass spectrometry analyses have detected beta-keratin proteins — the type found in feathers — in these fibres, providing some of the earliest direct biochemical evidence for feather-like structures in non-avian dinosaurs."
+      },
+      {
+        "title": "Nocturnal Lifestyle Hypothesis",
+        "body": "A 2021 comparative study of scleral ring and cochlear dimensions in extinct dinosaurs found that Shuvuuia had extremely large eyes and an unusually developed hearing apparatus, suggesting a nocturnal or crepuscular lifestyle — perhaps the most specialised nocturnal sensory kit of any known non-avian dinosaur. This would be consistent with hunting insects in cool desert nights."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Shuvuuia profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/shuvuuia.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Djadokhta Formation (Ukhaa Tolgod), Ömnögovi Province, Mongolia; Djadokhta Formation (Tögrögiin Shiree), Ömnögovi Province, Mongolia",
+    "material": "The holotype preserves a nearly complete skull and much of the skeleton, making it one of the most complete alvarezsaurids known.",
+    "completeness": "Partial material known; 3 PBDB occurrence records.",
+    "paleo": "Multiple Shuvuuia specimens including the holotype skull and skeleton were recovered from wind-blown Late Cretaceous sand dunes at Ukhaa Tolgod.",
+    "evidence": "Named by Chiappe, Norell, and Clark in 1998, Shuvuuia deserti is one of the best-known alvarezsaurids and has been central to research on alvarezsaurid feeding ecology."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Campanian, about 75-71 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Alvarezsauria",
+        "Alvarezsauridae"
+      ],
+      "diet": null,
+      "description": "Shuvuuia deserti was a small alvarezsaurid from Campanian Gobi formations, represented by several skulls and partial skeletons with short, powerful single-clawed forelimbs.",
+      "facts": [
+        "Feather-like filaments were reported with the type, although their preservation and biochemical identification have been debated.",
+        "The categorical omnivore label is cleared: insectivory is plausible, but direct diet evidence is absent."
+      ]
+    },
+    "ageReviewNote": "The Djadokhta and Baruungoyot records are Campanian; the original reversed 75-81 Ma range is corrected.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Chiappe, Norell & Clark (1998), skull of Shuvuuia and alvarezsaur relationships",
+        "url": "https://doi.org/10.1038/32642"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Choiniere et al. (2021), sensory ecology of Shuvuuia",
+        "url": "https://doi.org/10.1126/science.abe7941"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: shuvuuia",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/shuvuuia.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Filament evidence, diet and nocturnal inference remain debated."
+    ],
+    "evidence": {
+      "score": 81,
+      "material": "Several partial skeletons and skulls, with reported filament traces.",
+      "formations": "Djadokhta and Baruungoyot formations, Mongolia.",
+      "confidenceLimit": "Diet is cleared; forelimb specialisation is direct while feathering and activity pattern remain partly inferred.",
+      "uncertainties": [
+        "filament preservation",
+        "nocturnality",
+        "diet"
+      ],
+      "summary": "Shuvuuia deserti was a small alvarezsaurid from Campanian Gobi formations, represented by several skulls and partial skeletons with short, powerful single-clawed forelimbs.",
+      "sourceBasis": "Chiappe, Norell & Clark (1998), skull of Shuvuuia and alvarezsaur relationships; Choiniere et al. (2021), sensory ecology of Shuvuuia; Natural History Museum Dino Directory: shuvuuia"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

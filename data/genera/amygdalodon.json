@@ -1,0 +1,408 @@
+{
+  "id": "amygdalodon",
+  "name": "Amygdalodon",
+  "profile": {
+    "overview": [
+      "Amygdalodon patagonicus was an early sauropod dinosaur from the Middle Jurassic of Patagonia, Argentina, estimated to have lived approximately 193–183 million years ago. Reaching an estimated length of about 15 metres, it is known from a single partial skeleton recovered from the Cerro Carnerero Formation of Chubut Province. It is one of the earliest known South American sauropods, making it significant for understanding the origins of the group in Gondwana.",
+      "Named by Cabrera in 1947, Amygdalodon is placed within Gravisauria, a clade of relatively primitive eusauropods. Its diagnostic material is limited primarily to vertebrae and a few other elements, rendering many aspects of its anatomy uncertain. Nevertheless, its early age and South American provenance make it a scientifically important, if fragmentary, member of the early sauropod fossil record."
+    ],
+    "fossilSites": [
+      {
+        "name": "Cerro Carnerero Formation",
+        "region": "Chubut, Argentina",
+        "lat": -44.5,
+        "lon": -68.5,
+        "note": "The only known Amygdalodon specimen — a partial skeleton including vertebrae and other elements — was found here, making this the type locality of the genus."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Eusauropoda",
+        "Gravisauria",
+        "Amygdalodon"
+      ],
+      "sideBranches": [
+        {
+          "from": "Gravisauria",
+          "label": "Brachiosauridae"
+        },
+        {
+          "from": "Eusauropoda",
+          "label": "Macronaria"
+        },
+        {
+          "from": "Gravisauria",
+          "label": "Cetiosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Amygdalodon patagonicus was described by Ángel Cabrera in 1947 from a partial skeleton collected in Chubut Province, Patagonia. The generic name derives from Greek amygdale (almond) and odon (tooth), referring to the almond-shaped cross-section of its teeth. The species name refers to Patagonia, the region of discovery."
+      },
+      {
+        "title": "Anatomy",
+        "body": "The known material of Amygdalodon comprises vertebrae, portions of the pelvic girdle, and teeth. The vertebrae show features consistent with a relatively early-branching eusauropod, lacking the more derived pneumatisation seen in later titanosauriforms. The teeth are spoon-shaped and laterally compressed, broadly consistent with early sauropod dietary adaptations."
+      },
+      {
+        "title": "Significance",
+        "body": "Amygdalodon is among the oldest sauropods known from South America and helps establish that large-bodied sauropods had colonised Gondwana by the Pliensbachian–Toarcian stages of the Early to Middle Jurassic. Its fragmentary nature limits detailed anatomical interpretation, but it remains an important datum in the geographic and temporal spread of early sauropods."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "The Cerro Carnerero Formation represents fluvial and lacustrine environments of Early to Middle Jurassic Patagonia. This region of southern South America was part of Gondwana during this period, and the broader Patagonian basin has yielded important records of early dinosaur evolution, including some of the oldest known sauropods and theropods."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Amygdalodon profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/amygdalodon.html"
+      },
+      {
+        "label": "PBDB: Amygdalodon occurrence data",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38655"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Cerro Carnerero Formation, Chubut, Argentina",
+    "material": "Amygdalodon is among the oldest sauropods known from South America and helps establish that large-bodied sauropods had colonised Gondwana by the Pliensbachian–Toarcian stages of the Early to Middle Jurassic.",
+    "completeness": "Fragmentary material only; 1 PBDB occurrence records.",
+    "paleo": "The only known Amygdalodon specimen — a partial skeleton including vertebrae and other elements — was found here, making this the type locality of the genus.",
+    "evidence": "Named by Cabrera in 1947, Amygdalodon is placed within Gravisauria, a clade of relatively primitive eusauropods."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-09-19",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and classification",
+      "geological age and formation",
+      "lectotype and referred material",
+      "minimum number of individuals",
+      "profile narrative and uncertainty wording"
+    ],
+    "record": {
+      "period": "Early Jurassic",
+      "mya": "late Toarcian–early Aalenian, about 182–173 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda"
+      ],
+      "length": null,
+      "massKg": null,
+      "description": "Amygdalodon patagonicus is an early sauropod from the Cerro Carnerero Formation of Patagonia, dated from the late Toarcian to early Aalenian across the Early–Middle Jurassic boundary. Its type assemblage is fragmentary and mixed: the sauropod bones represent at least two individuals, and one included element belongs to an indeterminate vertebrate. A posterior dorsal vertebra was selected as the lectotype.",
+      "facts": [
+        "Rauhut's 2003 revision showed that the original type material is not a single partial skeleton.",
+        "The assemblage contains sauropod bones from at least two individuals plus one bone from another, indeterminate vertebrate.",
+        "A posterior dorsal vertebra was designated as the lectotype to anchor the name Amygdalodon patagonicus.",
+        "Its position is close to the origin of Eusauropoda: Rauhut placed it within basal Eusauropoda, while the dental phylogeny of Carballido and Pol recovered it just outside that clade.",
+        "Amygdalodon is important evidence that early sauropods had reached South America by the Early to early Middle Jurassic."
+      ]
+    },
+    "presentation": {
+      "heroLead": "One of the oldest sauropods from South America, named from a scatter of bones and teeth that turned out to belong to more than one animal.",
+      "heroMedia": {
+        "file": "Amygdalodon LM.png",
+        "title": "Life restoration of Amygdalodon patagonicus",
+        "alt": "Life restoration of the early sauropod Amygdalodon patagonicus in side view",
+        "caption": "Life restoration by Leví Bernardo Martínez. Because the fossils are fragmentary, body proportions are largely modelled on better-known early sauropods.",
+        "credit": "Leví Bernardo Martínez · CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amygdalodon_LM.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Early–Middle Jurassic · about 182–173 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Chubut, Argentina"
+        },
+        {
+          "label": "Known size",
+          "value": "poorly constrained"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Amygdalodon was an early sauropod that lived in Patagonia around the boundary between the Early and Middle Jurassic. Its name means \"almond tooth\", after the broad, spoon-shaped teeth that were among the first bones found.",
+        "What it looked like is only loosely known. The fossils are a handful of vertebrae, ribs, hip and limb bones and teeth, and revision has shown that they come from at least two sauropods plus one bone from an unrelated animal. A single back vertebra now serves as the name-bearing lectotype.",
+        "Despite its poor preservation, Amygdalodon matters because it is one of the earliest sauropods from South America and sits close to the origin of Eusauropoda, the group that contains almost all later giants. Its published body lengths are extrapolations rather than measurements."
+      ],
+      "animalHighlights": [
+        "Broad, spatulate teeth gave the genus its name and are its most distinctive remains.",
+        "The type material is a mixed assemblage representing at least two sauropod individuals.",
+        "It is among the oldest sauropod records in South America, close to the base of Eusauropoda."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by tooth shape",
+          "reason": "Spatulate teeth with wear facets match the cropping dentition of other early sauropods."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal",
+          "level": "Inferred from relatives",
+          "reason": "Limb material is fragmentary; four-legged walking is inferred from the sauropod body plan rather than from a preserved limb series."
+        },
+        {
+          "label": "Known size",
+          "value": "around 12 m · rough",
+          "level": "Loose extrapolation",
+          "reason": "Published lengths rest on scaling isolated bones against better-known sauropods and carry wide uncertainty."
+        },
+        {
+          "label": "Appearance",
+          "value": "Largely reconstructed",
+          "level": "Modelled on relatives",
+          "reason": "Too little of the skeleton is known to fix proportions; restorations follow other early eusauropods."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Early–Middle Jurassic (late Toarcian–early Aalenian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 182–173 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Cerro Carnerero Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Cerro Carnerero, near Pampa de Agnia, Chubut, Argentina"
+        }
+      ],
+      "locality": {
+        "name": "Cerro Carnerero",
+        "region": "Chubut Province, Argentina",
+        "note": "Cerro Carnerero Formation. The map shows a regional reference because exact site coordinates are not plotted."
+      },
+      "classificationSummary": "Amygdalodon is an early sauropod close to the origin of Eusauropoda. Rauhut placed it within basal Eusauropoda, while a dental analysis by Carballido and Pol recovered it just outside that clade.",
+      "related": [
+        {
+          "id": "patagosaurus",
+          "reason": "Compare with a better-known Middle Jurassic eusauropod from the same region."
+        },
+        {
+          "id": "vulcanodon",
+          "reason": "Compare with another fragmentary early sauropod from Gondwana."
+        },
+        {
+          "id": "barapasaurus",
+          "reason": "Compare with an Early Jurassic sauropod known from far more complete remains."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How many animals are in the type material?",
+          "copy": "At least two sauropods and one other vertebrate. Only the lectotype vertebra securely carries the name."
+        },
+        {
+          "title": "How old are the rocks?",
+          "copy": "The formation spans the Early–Middle Jurassic boundary and has not been dated to a narrow interval."
+        },
+        {
+          "title": "Is it a eusauropod?",
+          "copy": "Analyses place it either just inside or just outside Eusauropoda, a difference that hinges on a few characters of the teeth and vertebrae."
+        }
+      ],
+      "compactSources": true
+    },
+    "ageReviewNote": "Updated Museo de La Plata catalogue data report a late Toarcian–early Aalenian age. This crosses the Early–Middle Jurassic boundary, so the catalogue period label is necessarily simplified.",
+    "sources": [
+      {
+        "type": "systematic-revision",
+        "citation": "Rauhut (2003), Revision of Amygdalodon patagonicus",
+        "url": "https://doi.org/10.1002/mmng.20030060110"
+      },
+      {
+        "type": "dental-revision",
+        "citation": "Carballido & Pol (2010), The dentition of Amygdalodon patagonicus",
+        "url": "https://doi.org/10.1016/j.crpv.2010.01.003"
+      },
+      {
+        "type": "museum-type-catalogue",
+        "citation": "Otero et al. (2013), Dinosaur type specimens housed at the Museo de La Plata",
+        "url": "https://palaeo-electronica.org/content/2013-technical/410-museo-de-la-plata-catalogue"
+      }
+    ],
+    "residualUncertainty": [
+      "The type assemblage is disarticulated and contains more than one individual.",
+      "The formation age is broad and not resolved to a narrow numerical interval.",
+      "The lectotype is incomplete, limiting the genus-level diagnosis.",
+      "A published full-body length is necessarily a loose extrapolation."
+    ],
+    "evidence": {
+      "score": 28,
+      "summary": "The name is anchored by one dorsal vertebra within a fragmentary mixed assemblage representing at least two sauropods and another vertebrate.",
+      "material": "Lectotype posterior dorsal vertebra plus disarticulated sauropod bones from at least two individuals and one indeterminate vertebrate element.",
+      "formations": "Cerro Carnerero Formation, Patagonia, Argentina.",
+      "confidenceLimit": "The material establishes an early sauropod occurrence but supports only a loose body-size reconstruction and limited genus-level diagnosis.",
+      "sourceBasis": "Rauhut 2003, Carballido & Pol 2010 and Otero et al. 2013.",
+      "specimens": [
+        {
+          "name": "Amygdalodon lectotype",
+          "id": "MLP 46-VIII-21-1/2",
+          "institution": "Museo de La Plata",
+          "note": "Posterior dorsal vertebra selected to anchor the species name."
+        },
+        {
+          "name": "Referred type assemblage",
+          "id": "MLP 46-VIII-21 series",
+          "institution": "Museo de La Plata",
+          "note": "Disarticulated material from at least two sauropod individuals, with one indeterminate vertebrate element."
+        }
+      ],
+      "uncertainties": [
+        "mixed assemblage",
+        "formation age resolution",
+        "diagnostic limits",
+        "body size"
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "A single back vertebra anchors the name; the rest is a mixed scatter of bones.",
+        "standfirst": "Amygdalodon rests on a fragmentary collection from Cerro Carnerero that was once treated as one skeleton. Revision showed it to contain at least two sauropods and one unrelated vertebrate, so a posterior dorsal vertebra was chosen as the lectotype.",
+        "coverage": {
+          "label": "Low",
+          "level": 1,
+          "maximum": 4,
+          "basis": "Only isolated teeth, vertebrae, ribs, a pubis and limb fragments are known, from more than one individual. No skull, no articulated series and no associated skeleton."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Teeth and scattered bones"
+          },
+          {
+            "label": "Individuals",
+            "value": "At least 2 sauropods"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Mixed, fragmentary assemblage"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Several spatulate teeth, a few cervical, dorsal and caudal vertebrae, rib fragments, a right pubis and fragmentary limb elements. One bone in the original collection belongs to an indeterminate non-sauropod vertebrate.",
+          "note": "Because the assemblage is mixed and disarticulated, only features of the lectotype vertebra can be used with confidence to diagnose the genus."
+        },
+        "media": [
+          {
+            "file": "Type material of Amygdalodon patagonicus Cabrera. 1947.png",
+            "kind": "Type material",
+            "title": "Teeth and vertebrae from the type assemblage",
+            "alt": "Published figure of teeth and vertebrae from the Amygdalodon patagonicus type material",
+            "caption": "Figure from Rauhut's 2003 revision showing the almond-shaped teeth and vertebrae of the type collection at the Museo de La Plata.",
+            "credit": "O. W. M. Rauhut · CC BY 3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Type_material_of_Amygdalodon_patagonicus_Cabrera._1947.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Isolated spatulate teeth only; no skull or jaw bones."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "The lectotype posterior dorsal vertebra plus a few other cervical, dorsal and caudal vertebrae and rib fragments."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "A right pubis and fragmentary limb bones; no complete limb."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "None. No skin, colour or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "MLP 46-VIII-21-1/2 · lectotype",
+            "description": "A posterior dorsal vertebra selected by Rauhut in 2003 to anchor the species name after the original type collection proved to contain more than one animal.",
+            "meta": "Cerro Carnerero · Cerro Carnerero Formation · Museo de La Plata"
+          },
+          {
+            "kicker": "Remaining type collection",
+            "title": "MLP 46-VIII-21 series",
+            "description": "Teeth, vertebrae, ribs, a pubis and limb fragments collected in 1947 and described by Cabrera as one skeleton. They represent at least two sauropod individuals and one indeterminate vertebrate.",
+            "meta": "One locality · association not demonstrated"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "A lectotype vertebra and a small, mixed assemblage of teeth and bones from a single Patagonian locality."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "An early sauropod near the base of Eusauropoda, showing that the group had reached South America by the Early to early Middle Jurassic."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Skull form, body proportions, adult size, limb anatomy, and how many of the collected bones belong to the lectotype individual."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Systematic revision",
+            "title": "Rauhut · 2003",
+            "description": "Revision of the type material, designation of the lectotype and phylogenetic assessment.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1002/mmng.20030060110"
+          },
+          {
+            "type": "Dental revision",
+            "title": "Carballido & Pol · 2010",
+            "description": "Description of the dentition and its bearing on the position of Amygdalodon.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1016/j.crpv.2010.01.003"
+          },
+          {
+            "type": "Museum catalogue",
+            "title": "Otero et al. · 2013",
+            "description": "Catalogue of dinosaur type specimens at the Museo de La Plata, with updated age data.",
+            "access": "Read online",
+            "url": "https://palaeo-electronica.org/content/2013-technical/410-museo-de-la-plata-catalogue"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Type material figure",
+            "description": "Source page, creator details and reuse licence for the figure of the type collection.",
+            "access": "CC BY 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Type_material_of_Amygdalodon_patagonicus_Cabrera._1947.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38655"
+          }
+        ],
+        "limitations": "The coverage band describes the securely referred material at genus level. It is an editorial evidence summary, not a published completeness percentage.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
+    }
+  }
+}

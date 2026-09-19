@@ -1,0 +1,129 @@
+{
+  "id": "caudipteryx",
+  "name": "Caudipteryx",
+  "profile": {
+    "overview": [
+      "Caudipteryx zoui was an early oviraptorosaur from the Yixian Formation of Liaoning, China (~125 Ma), famous for preserving obvious pennaceous (true) feathers on the arms and a symmetrical fan of tail feathers — combined with a body clearly incapable of flight. This made it crucial evidence that feathers evolved in non-avian dinosaurs for purposes other than flight (display, insulation) before being co-opted for aerial locomotion.",
+      "The symmetric tail fan and arm feathers of Caudipteryx are structurally identical to modern flight feathers, yet the animal was too heavy and had arms too short to fly. This \"flight-ready feathers on a non-flier\" pattern supports the hypothesis that flight feathers had a pre-flight function — most likely display — and that powered flight was a later innovation built on existing feather complexity."
+    ],
+    "fossilSites": [
+      {
+        "name": "Yixian Formation",
+        "region": "Liaoning Province, China",
+        "lat": 41.5,
+        "lon": 121,
+        "note": "Lower Cretaceous lacustrine deposits preserving multiple Caudipteryx specimens with feather impressions."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Oviraptorosauria",
+        "Caudipteryx"
+      ],
+      "sideBranches": [
+        {
+          "from": "Oviraptorosauria",
+          "label": "Oviraptor"
+        },
+        {
+          "from": "Oviraptorosauria",
+          "label": "Therizinosaurus and relatives"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and significance",
+        "body": "Ji Qiang, Philip Currie and Mark Norell described Caudipteryx zoui in 1998 alongside Protarchaeopteryx from the same Yixian beds. The discovery generated enormous media attention because it showed unambiguously feathered dinosaurs that could not fly — closing off the argument that feathers must be exclusive to powered fliers."
+      },
+      {
+        "title": "Feather morphology",
+        "body": "The arm (wing) feathers are symmetrical about the rachis, as are the tail-fan feathers — in strong contrast to modern flight feathers, which are asymmetric. Asymmetry in flight feathers is associated with directional airflow in powered flight; symmetric feathers suggest a non-aerodynamic (display) primary function. Caudipteryx thus shows flight-quality feather structure without flight function."
+      },
+      {
+        "title": "Diet and ecology",
+        "body": "The beak of Caudipteryx is short and toothless at the front (with small teeth at the back), and gastroliths — polished stomach stones — are preserved in the abdominal region. This combination suggests an omnivorous or herbivorous diet: gastroliths help grind plant material in birds that lack teeth for processing. Caudipteryx was probably a ground-dwelling forager in forested lake-margin environments."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Caudipteryx profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/caudipteryx.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Yixian Formation, Liaoning, China",
+    "material": "Many specimens preserving feathers, gastroliths and skeletal detail.",
+    "completeness": "Very well represented",
+    "paleo": "Early Cretaceous Jehol lake-and-forest ecosystem of northeastern China.",
+    "evidence": "Pennaceous feathers on arms and tail and gastroliths confirm its oviraptorosaur identity and omnivorous diet; feathers predate flight adaptation."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "about 125 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Maniraptora",
+        "Oviraptorosauria",
+        "Caudipterygidae"
+      ],
+      "description": "Caudipteryx was a small feathered oviraptorosaur from the Yixian Formation of Liaoning, China. Multiple nearly complete skeletons preserve pennaceous feathers on the arms and tail as well as gastroliths in the abdominal region.",
+      "facts": [
+        "Its short, symmetrical arm feathers were not a powered-flight wing.",
+        "Gastroliths and tooth reduction are consistent with plant consumption or omnivory but do not prove a strictly herbivorous diet."
+      ]
+    },
+    "ageReviewNote": "The relevant Yixian beds are early Aptian, close to 125 million years old.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Ji et al. (1998), Two feathered dinosaurs from northeastern China",
+        "url": "https://doi.org/10.1038/31635"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: caudipteryx",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/caudipteryx.html"
+      }
+    ],
+    "residualUncertainty": [
+      "C. zoui and C. dongi distinctions have been debated.",
+      "Gastrolith function and exact diet are not uniquely determined."
+    ],
+    "evidence": {
+      "score": 95,
+      "material": "Multiple nearly complete articulated skeletons, many with feathers and gastroliths.",
+      "formations": [
+        "Yixian Formation"
+      ],
+      "confidenceLimit": "Skeleton and plumage are exceptionally documented; colour, precise diet and species boundaries remain uncertain.",
+      "uncertainties": [
+        "C. zoui and C. dongi distinctions have been debated.",
+        "Gastrolith function and exact diet are not uniquely determined."
+      ],
+      "summary": "Caudipteryx was a small feathered oviraptorosaur from the Yixian Formation of Liaoning, China. Multiple nearly complete skeletons preserve pennaceous feathers on the arms and tail as well as gastroliths in the abdominal region.",
+      "sourceBasis": "Ji et al. (1998), Two feathered dinosaurs from northeastern China; Natural History Museum, Dino Directory: caudipteryx"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

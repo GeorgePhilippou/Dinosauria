@@ -1,0 +1,127 @@
+{
+  "id": "rajasaurus",
+  "name": "Rajasaurus",
+  "profile": {
+    "overview": [
+      "Rajasaurus narmadensis (\"Narmada river king lizard\") was an abelisaurid theropod from the Late Cretaceous Lameta Formation of Gujarat, India (~70 Ma). Known from a near-complete skull and much of the postcranium, it is one of the best-documented large predatory dinosaurs from India and provides important data on the Late Cretaceous predator fauna of the Indian subcontinent as it drifted northward toward Asia.",
+      "The Indian subcontinent was isolated throughout most of the Cretaceous, separated from Gondwana while sharing abelisaurid theropods with Africa and Madagascar. Rajasaurus shows that abelisaurids were established in India before the continent's collision with Asia, and its close relationships to African and Malagasy forms reflect a shared Gondwanan heritage."
+    ],
+    "fossilSites": [
+      {
+        "name": "Lameta Formation",
+        "region": "Narmada River Valley, Gujarat, India",
+        "lat": 22.5,
+        "lon": 73.5,
+        "note": "Late Cretaceous (Maastrichtian) continental deposits with Rajasaurus, sauropod eggs and bones, and large fresh-water turtles."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Ceratosauria",
+        "Abelisauridae",
+        "Rajasaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Abelisauridae",
+          "label": "Majungasaurus (Madagascar)"
+        },
+        {
+          "from": "Abelisauridae",
+          "label": "Carnotaurus (Argentina)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Fragments of a large theropod from the Narmada River valley were known for decades; Wilson, Sereno and colleagues formally described Rajasaurus narmadensis in 2003 from an associated skull, braincase, forelimb and hindlimb. The braincase is exceptionally complete and allows detailed comparisons with other abelisaurids."
+      },
+      {
+        "title": "Anatomy",
+        "body": "The skull bears a low horn above the orbits — a single rounded projection distinguishing Rajasaurus from horned Carnotaurus or domed Majungasaurus. The braincase anatomy shows affinities to both African and South American abelisaurids. Hindlimb proportions suggest a robust, not especially fast, predator."
+      },
+      {
+        "title": "India in the Late Cretaceous",
+        "body": "The Lameta Formation dates to the very end of the Cretaceous. India was a large island continent moving rapidly northward across the Tethys. Its fauna included titanosaur sauropods (Isisaurus, Jainosaurus) and abelisaurid predators like Rajasaurus, with no evidence of tyrannosaurs, hadrosaurs or ceratopsians — groups that characterised other Late Cretaceous continents."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Rajasaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/rajasaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Lameta Formation, Gujarat, India",
+    "material": "A partial skull and postcranial elements from one or more individuals.",
+    "completeness": "Partial but informative",
+    "paleo": "Late Cretaceous of the Indian subcontinent, then a rapidly drifting island continent approaching Asia.",
+    "evidence": "Abelisaurid skull features including the short deep skull and distinctive nasal horn confirm its identity; the Indian occurrence is biogeographically significant."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Maastrichtian, about 70-66 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Ceratosauria",
+        "Abelisauridae",
+        "Majungasaurinae"
+      ],
+      "description": "Rajasaurus narmadensis was an abelisaurid theropod from the Lameta Formation of India, based on an associated partial skull and postcranial skeleton assembled from a locality-level collection.",
+      "facts": [
+        "The skull roof bears a low midline horn.",
+        "The material is incomplete but includes braincase, vertebral, pelvic and hindlimb elements.",
+        "Its close relationship to Majungasaurus supports Gondwanan biogeographic comparisons, while exact size remains approximate."
+      ]
+    },
+    "ageReviewNote": "The Lameta Formation type material is Maastrichtian and close to the end of the Cretaceous.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Wilson et al. (2003), a new abelisaurid from the Lameta Formation",
+        "url": "https://hdl.handle.net/2027.42/48667"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: rajasaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/rajasaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Association of all locality bones and exact individual count require care.",
+      "Adult size is not directly constrained by a complete skeleton."
+    ],
+    "evidence": {
+      "score": 59,
+      "material": "Associated partial cranial and postcranial material including braincase, vertebrae, pelvis and hindlimb.",
+      "formations": "Lameta Formation, Gujarat and Madhya Pradesh, India.",
+      "confidenceLimit": "No complete skeleton and no secure skin or behaviour evidence.",
+      "uncertainties": [
+        "individual association",
+        "body size"
+      ],
+      "summary": "Rajasaurus narmadensis was an abelisaurid theropod from the Lameta Formation of India, based on an associated partial skull and postcranial skeleton assembled from a locality-level collection.",
+      "sourceBasis": "Wilson et al. (2003), a new abelisaurid from the Lameta Formation; Natural History Museum Dino Directory: rajasaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

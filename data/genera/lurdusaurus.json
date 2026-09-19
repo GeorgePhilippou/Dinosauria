@@ -1,0 +1,147 @@
+{
+  "id": "lurdusaurus",
+  "name": "Lurdusaurus",
+  "profile": {
+    "overview": [
+      "Lurdusaurus was an unusual, heavily built iguanodontian ornithopod dinosaur that lived during the Early Cretaceous (Aptian), approximately 120–112 million years ago, in what is now the Agadez Region of Niger, Africa. It was a large animal estimated at around 9 metres in length, and its robust, low-slung body build has been compared to that of a hippopotamus — suggesting it may have lived a semi-aquatic lifestyle near rivers or lakes. The type species is Lurdusaurus arenatus.",
+      "Named in 1999 by Paul Sereno and colleagues, Lurdusaurus is one of the most distinctive ornithopod dinosaurs known, with proportionally short but massively built limbs and an overall body plan unlike any other iguanodontian. It is known from a partial skull and postcranial skeleton, which, while incomplete, provide enough information to identify it as a genuinely unusual anatomical outlier among its relatives."
+    ],
+    "fossilSites": [
+      {
+        "name": "Elrhaz Formation",
+        "region": "Agadez Region, Niger",
+        "lat": 17.5,
+        "lon": 8,
+        "note": "The holotype partial skull and postcranial skeleton of Lurdusaurus arenatus were recovered from Early Cretaceous fluvial deposits in the Ténéré Desert."
+      },
+      {
+        "name": "Gadoufaoua locality",
+        "region": "Agadez Region, Niger",
+        "lat": 17.4,
+        "lon": 8.5,
+        "note": "The Gadoufaoua fossil site in Niger has yielded numerous Early Cretaceous dinosaurs, including Ouranosaurus and Suchomimus, from the same formation."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Neornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Lurdusaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Iguanodontia",
+          "label": "Hadrosauriformes"
+        },
+        {
+          "from": "Iguanodontia",
+          "label": "Ouranosaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Lurdusaurus arenatus was described in 1999 by Paul Sereno, Dutheil, Iarochene, Larsson, Lyon, Magwene, Sidor, Varricchio, and Wilson based on material from the Elrhaz Formation of Niger. The genus name means 'heavy lizard', referring to its massive build, while arenatus means 'sandy', referencing the desert environment where it was found. The fossils had been collected during expeditions to the Gadoufaoua locality in the Ténéré Desert."
+      },
+      {
+        "title": "Unusual Body Plan",
+        "body": "Lurdusaurus is remarkable among iguanodontians for its extremely robust and stocky body plan, with limb proportions and overall build quite unlike other members of the group. Its short, powerful limbs and heavy barrel-shaped body have led some researchers to suggest a semi-aquatic or amphibious lifestyle analogous to a hippopotamus, though this ecological inference remains speculative. It stands in stark contrast to the generally more gracile, cursorial iguanodontians."
+      },
+      {
+        "title": "Early Cretaceous African Fauna",
+        "body": "The Elrhaz Formation of Niger preserves a diverse Early Cretaceous ecosystem. Lurdusaurus shared its environment with other large dinosaurs including the sail-backed iguanodontian Ouranosaurus and the spinosaurid theropod Suchomimus, as well as large crocodyliforms and early teleost fishes. This fauna indicates a lush, river-dominated landscape in what is now the Sahara Desert."
+      },
+      {
+        "title": "Classification within Iguanodontia",
+        "body": "Lurdusaurus is placed within Iguanodontia, the broad group of ornithopod dinosaurs that includes Iguanodon, hadrosaurs, and their relatives. Its exact position within the group has been debated, with some analyses placing it as a relatively basal iguanodontian outside Hadrosauriformes. Its unusual morphology makes it difficult to place with confidence using available material."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Lurdusaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/lurdusaurus.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Elrhaz Formation, Agadez Region, Niger; Gadoufaoua locality, Agadez Region, Niger",
+    "material": "It is known from a partial skull and postcranial skeleton, which, while incomplete, provide enough information to identify it as a genuinely unusual anatomical outlier among its relatives.",
+    "completeness": "Partial material known; 1 PBDB occurrence records.",
+    "paleo": "The holotype partial skull and postcranial skeleton of Lurdusaurus arenatus were recovered from Early Cretaceous fluvial deposits in the Ténéré Desert.",
+    "evidence": "Named in 1999 by Paul Sereno and colleagues, Lurdusaurus is one of the most distinctive ornithopod dinosaurs known, with proportionally short but massively built limbs and an overall body plan unlike any other iguanodontian."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "Aptian, about 125-113 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Styracosterna"
+      ],
+      "diet": null,
+      "description": "Lurdusaurus arenatus was an unusually robust quadrupedal-to-facultatively bipedal iguanodontian from the Elrhaz Formation of Niger. It is known from one incomplete associated skeleton without a skull; reconstructions of a very low, barrel-bodied animal are based on its robust limb and girdle proportions.",
+      "facts": [
+        "The holotype preserves much of the postcranium but no diagnostic skull.",
+        "Herbivory is inferred from iguanodontian relationships; detailed feeding anatomy is unknown.",
+        "Claims of semiaquatic habits are speculative and not established consensus."
+      ]
+    },
+    "ageReviewNote": "Restricted to the Aptian Elrhaz Formation rather than the former 121-112 Ma generic interval.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Taquet & Russell (1999), A massively constructed iguanodont from Gadoufaoua",
+        "url": "https://doc.rero.ch/record/14477/files/PAL_E1671.pdf"
+      },
+      {
+        "type": "iguanodontian-revision",
+        "citation": "Paul (2008), Revised taxonomy of iguanodont dinosaurs",
+        "url": "https://doi.org/10.1016/j.cretres.2007.04.009"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Lurdusaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Lurdusaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "The skull is unknown and only one principal skeleton is available.",
+      "Body mass, habitual posture and any aquatic association are uncertain."
+    ],
+    "evidence": {
+      "score": 40,
+      "material": "One incomplete associated postcranial skeleton.",
+      "formations": [
+        "Elrhaz Formation"
+      ],
+      "confidenceLimit": "Moderate for robust body form and broad classification; low for skull, mass and habitat specialisation.",
+      "uncertainties": [
+        "cranial anatomy",
+        "mass",
+        "semiaquatic claims"
+      ],
+      "summary": "Lurdusaurus arenatus was an unusually robust quadrupedal-to-facultatively bipedal iguanodontian from the Elrhaz Formation of Niger. It is known from one incomplete associated skeleton without a skull; reconstructions of a very low, barrel-bodied animal are based on its robust limb and girdle proportions.",
+      "sourceBasis": "Taquet & Russell (1999), A massively constructed iguanodont from Gadoufaoua; Paul (2008), Revised taxonomy of iguanodont dinosaurs; Paleobiology Database taxon and occurrence context for Lurdusaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

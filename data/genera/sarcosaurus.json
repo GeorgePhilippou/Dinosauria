@@ -1,0 +1,147 @@
+{
+  "id": "sarcosaurus",
+  "name": "Sarcosaurus",
+  "profile": {
+    "overview": [
+      "Sarcosaurus (meaning 'flesh lizard') was a small carnivorous theropod from the Early Jurassic of England, living approximately 201–193 million years ago (Hettangian–Sinemurian). Named by Andrews in 1921, it is estimated to have reached about 3 metres in length and is known from fragmentary remains—including a partial pelvis, femur, and vertebrae—from the Blue Lias and related Early Jurassic formations of Leicestershire and possibly Scotland. It is classified within Ceratosauria.",
+      "Sarcosaurus is one of the few theropod body fossils known from the earliest Jurassic of Britain and contributes to understanding early theropod diversity following the end-Triassic mass extinction. Its classification within Ceratosauria is based on pelvic features, but because the material is so fragmentary the assignment is provisional. It was one of several early Jurassic predators that filled niches left by Triassic archosaurs."
+    ],
+    "fossilSites": [
+      {
+        "name": "Blue Lias Formation",
+        "region": "Leicestershire, England, UK",
+        "lat": 52.5,
+        "lon": -1.2,
+        "note": "Early Jurassic marine and marginal marine deposits of central England where the Sarcosaurus type material was found."
+      },
+      {
+        "name": "Broadford Beds / Lias",
+        "region": "Scotland, UK",
+        "lat": 57.2,
+        "lon": -5.9,
+        "note": "Scottish Hettangian–Sinemurian deposits attributed to Sarcosaurus or a close relative based on PBDB occurrences."
+      },
+      {
+        "name": "Lias Group outcrops",
+        "region": "England, UK",
+        "lat": 51.8,
+        "lon": -2,
+        "note": "Broader Early Jurassic Lias sediments across England yielding fragmentary theropod material including probable Sarcosaurus."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Ceratosauria",
+        "Sarcosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ceratosauria",
+          "label": "Abelisauridae"
+        },
+        {
+          "from": "Neotheropoda",
+          "label": "Coelophysoidea"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Sarcosaurus woodi was described by Charles William Andrews in 1921 from fragmentary material collected in Leicestershire. The holotype consists of a partial pelvis, femur, and vertebrae. The genus name reflects its role as a predatory 'flesh lizard' of the Early Jurassic."
+      },
+      {
+        "title": "Taxonomic Uncertainty",
+        "body": "Sarcosaurus is placed within Ceratosauria on the basis of certain pelvic features, but with such limited material the assignment is provisional. Some studies have questioned whether the material is diagnostic at genus level, and no skull or forelimb is known. Additional Early Jurassic British theropod material may eventually clarify its relationships."
+      },
+      {
+        "title": "Post-Extinction Predator",
+        "body": "Sarcosaurus lived shortly after the end-Triassic mass extinction event (~201 Ma), during a period of rapid ecosystem recovery. Early Jurassic theropods like Sarcosaurus were among the predators recolonising European environments as new faunal assemblages took shape following the extinction of many Triassic archosaur lineages."
+      },
+      {
+        "title": "Early Jurassic British Fauna",
+        "body": "Britain's Early Jurassic fauna is known primarily from marine deposits of the Blue Lias and related formations, with terrestrial dinosaur body fossils being rare. Sarcosaurus is thus a valuable, if frustratingly incomplete, representative of the land-dwelling predator community that hunted alongside early crocodylomorphs and small mammals in Hettangian–Sinemurian coastal environments."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Sarcosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/sarcosaurus.html"
+      },
+      {
+        "label": "PBDB: Sarcosaurus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sarcosaurus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Blue Lias Formation, Leicestershire, England, UK; Broadford Beds / Lias, Scotland, UK; Lias Group outcrops, England, UK",
+    "material": "The holotype consists of a partial pelvis, femur, and vertebrae.",
+    "completeness": "Fragmentary material only; 4 PBDB occurrence records.",
+    "paleo": "Early Jurassic marine and marginal marine deposits of central England where the Sarcosaurus type material was found.",
+    "evidence": "Sarcosaurus is one of the few theropod body fossils known from the earliest Jurassic of Britain and contributes to understanding early theropod diversity following the end-Triassic mass extinction."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Early Jurassic",
+      "mya": "early Sinemurian, about 199-196 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda"
+      ],
+      "length": null,
+      "description": "Sarcosaurus woodi was an early neotheropod from the Lias Group of England, founded on fragmentary pelvic and hindlimb material. A modern redescription upheld a diagnosis but could not resolve its exact branch.",
+      "facts": [
+        "The holotype is not a skeleton and preserves only limited anatomy.",
+        "The catalogue three-metre length is cleared because historical referrals do not securely constrain it."
+      ]
+    },
+    "ageReviewNote": "The type horizon is early Sinemurian, not a broad 202-195 Ma lifespan.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Ezcurra et al. (2021), osteology and relationships of Sarcosaurus woodi",
+        "url": "https://doi.org/10.1093/zoolinnean/zlaa054"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: sarcosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/sarcosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Fine phylogenetic position and referrals remain uncertain."
+    ],
+    "evidence": {
+      "score": 27,
+      "material": "Fragmentary pelvis and proximal femur with limited referred bones.",
+      "formations": "Blue Lias Formation, Leicestershire, England.",
+      "confidenceLimit": "Length is cleared; no secure skull or detailed ecology can be reconstructed.",
+      "uncertainties": [
+        "referrals",
+        "phylogenetic position"
+      ],
+      "summary": "Sarcosaurus woodi was an early neotheropod from the Lias Group of England, founded on fragmentary pelvic and hindlimb material. A modern redescription upheld a diagnosis but could not resolve its exact branch.",
+      "sourceBasis": "Ezcurra et al. (2021), osteology and relationships of Sarcosaurus woodi; Natural History Museum Dino Directory: sarcosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

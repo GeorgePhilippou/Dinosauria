@@ -1,0 +1,461 @@
+{
+  "id": "triceratops",
+  "name": "Triceratops",
+  "richProfile": {
+    "overview": [
+      "Triceratops was a huge horned ornithischian from the final stage of the Cretaceous in western North America. Its skull carried two long brow horns, a shorter nose horn and a solid frill behind the head.",
+      "The animal was built for powerful low browsing and defence. NHM records it as a 9 metre, 10 tonne herbivore, while the local DK guide describes the body as rhino-like, with sturdy pillar-shaped legs and a beaked ceratopsian skull."
+    ],
+    "fossilSites": [
+      {
+        "name": "Hell Creek Formation",
+        "region": "Montana, North Dakota, South Dakota and Wyoming, USA",
+        "lat": 46.8,
+        "lon": -104.2,
+        "note": "The classic latest Cretaceous unit for Triceratops, T. rex and Edmontosaurus."
+      },
+      {
+        "name": "Lance Formation",
+        "region": "Wyoming, USA",
+        "lat": 43,
+        "lon": -105.5,
+        "note": "Another major Maastrichtian fossil unit preserving Triceratops material."
+      },
+      {
+        "name": "Denver Formation",
+        "region": "Colorado, USA",
+        "lat": 39.7,
+        "lon": -104.8,
+        "note": "Latest Cretaceous to earliest Paleogene rocks with ceratopsian remains in the western interior."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Marginocephalia",
+        "Ceratopsia",
+        "Ceratopsidae",
+        "Chasmosaurinae",
+        "Triceratops"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ornithischia",
+          "label": "Thyreophora / Ornithopoda"
+        },
+        {
+          "from": "Marginocephalia",
+          "label": "Pachycephalosaurs"
+        },
+        {
+          "from": "Ceratopsia",
+          "label": "Protoceratops-like forms"
+        },
+        {
+          "from": "Ceratopsidae",
+          "label": "Centrosaurines"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and fossil record",
+        "body": "Triceratops is one of the most common large dinosaurs in the upper Hell Creek ecosystem. The record includes many skulls and partial skeletons, which is why its horn and frill variation has been studied in unusual detail."
+      },
+      {
+        "title": "Horns and frill",
+        "body": "The horns could have helped in defence, display and contests between individuals. The frill was solid rather than a light open frame, giving the skull a broad shield-like outline behind the jaws."
+      },
+      {
+        "title": "Feeding style",
+        "body": "NHM lists tough palm fronds as likely food. The beak cropped vegetation and the cheek teeth sliced plant material, so Triceratops was not just swallowing soft leaves."
+      },
+      {
+        "title": "Life with Tyrannosaurus",
+        "body": "Bite marks on Triceratops fossils show direct interaction with T. rex, and some healed injuries mean at least some animals survived attacks or scavenging attempts."
+      }
+    ],
+    "citations": [
+      {
+        "label": "Natural History Museum: Triceratops profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html"
+      },
+      {
+        "label": "Open access: Triceratops cranial growth series",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1635501/"
+      },
+      {
+        "label": "Open access: Evidence of combat in Triceratops",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2617760/"
+      },
+      {
+        "label": "Wikimedia Commons: image file page",
+        "url": "https://commons.wikimedia.org/wiki/File:Triceratops_horridus.png"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Hell Creek, Lance, Denver and Scollard formations, North America",
+    "material": "Abundant skulls, horns, frills and partial skeletons.",
+    "completeness": "Very well represented",
+    "paleo": "Latest Cretaceous western North American floodplains at the end of the Mesozoic.",
+    "evidence": "Skulls preserve horn/frill variation, injuries and T. rex bite marks."
+  },
+  "remainsImage": {
+    "file": "Skeleton of triceratops.jpg",
+    "label": "Triceratops skeletal mount, Smithsonian",
+    "note": "Mounted skeleton image from Wikimedia Commons."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-09-19",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and species",
+      "geological age and formations",
+      "name-bearing and principal referred specimens",
+      "growth changes and the Torosaurus question",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "latest Maastrichtian, about 68–66 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ceratopsia",
+        "Ceratopsidae",
+        "Chasmosaurinae",
+        "Triceratops"
+      ],
+      "diet": "Herbivore",
+      "locomotion": "Quadrupedal",
+      "description": "Triceratops was a large chasmosaurine ceratopsid from the Hell Creek and Lance formations, known from many skulls and partial skeletons. T. horridus and T. prorsus show stratigraphic and morphological separation.",
+      "facts": [
+        "The holotype of T. horridus, YPM 1820, is a partial skull collected by John Bell Hatcher in 1888 from the Lance Formation of Wyoming and described by Marsh in 1889.",
+        "Well over a hundred skulls or partial skulls are known, making Triceratops the most abundant large dinosaur of the Hell Creek Formation.",
+        "Growth substantially altered horn orientation and frill shape: juveniles had short, backward-curving brow horns that rotated forward with age.",
+        "The proposal that Torosaurus is an old Triceratops remains controversial and is not consensus.",
+        "Two species are recognised, T. horridus from lower and T. prorsus from upper Hell Creek strata."
+      ]
+    },
+    "presentation": {
+      "heroLead": "The most abundant large dinosaur of the latest Cretaceous, known from more than a hundred skulls that record how its horns and frill changed with age.",
+      "heroMedia": {
+        "file": "Triceratops horridus life restoration.jpg",
+        "title": "Life restoration of Triceratops horridus",
+        "alt": "Life restoration of Triceratops horridus in side view",
+        "caption": "Life restoration based on a published skeletal reconstruction. Skin texture follows preserved impressions in outline; colour is interpretive.",
+        "credit": "Anonymous Dinonerd · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Triceratops_horridus_life_restoration.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 68–66 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Western USA and Canada"
+        },
+        {
+          "label": "Known size",
+          "value": "about 8–9 m · 6–10 t"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Triceratops was a heavily built four-legged plant-eater with a skull up to two and a half metres long, two long brow horns, a shorter nose horn and a solid bony frill. It lived in the last two million years of the Cretaceous and shared its floodplains with Tyrannosaurus.",
+        "A beak, shearing dental batteries and a low-slung head suggest it cropped tough, low-growing vegetation. Healed wounds on frills and skulls indicate that the horns were used in contests between individuals, though they would also have deterred predators.",
+        "Because so many skulls are known from a well-dated rock sequence, Triceratops offers an unusually clear picture of growth and of change through time: the two species replace one another up the Hell Creek section, and juveniles look strikingly different from adults."
+      ],
+      "animalHighlights": [
+        "One of the largest skulls of any land animal, up to about 2.5 m long including the frill.",
+        "Brow horns that curved backward in juveniles and rotated forward as the animal matured.",
+        "Skin impressions show large, irregular scales, some with central bosses, over the flanks."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Low browser",
+          "level": "Supported by beak and dental batteries",
+          "reason": "A sharp beak and hundreds of shearing teeth processed fibrous plants; the specific diet is not preserved."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal",
+          "level": "Supported by limbs and trackways",
+          "reason": "Robust limbs and semi-sprawled forelimbs are consistent with steady walking; trackways attributed to ceratopsids support this posture."
+        },
+        {
+          "label": "Known size",
+          "value": "about 8–9 m long",
+          "level": "Well constrained",
+          "reason": "Several large, well-preserved individuals are known; mass estimates range from about 6 to 10 tonnes."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skull and scales well known",
+          "level": "Postcranium less complete",
+          "reason": "Skulls are abundant and skin impressions exist; fully articulated skeletons are comparatively rare."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous (latest Maastrichtian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 68–66 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Hell Creek, Lance, Scollard and Frenchman formations"
+        },
+        {
+          "label": "Type locality",
+          "value": "Lance Formation, Niobrara County, Wyoming, USA"
+        }
+      ],
+      "locality": {
+        "name": "Lance Creek area",
+        "region": "Niobrara County, Wyoming, USA",
+        "note": "Type locality of YPM 1820. Most referred material comes from Montana, the Dakotas and Wyoming; the map shows a regional reference."
+      },
+      "classificationSummary": "Triceratops is a chasmosaurine ceratopsid. It is closely related to Torosaurus and Nedoceratops, and whether those names represent distinct animals or growth stages of Triceratops is an active debate.",
+      "related": [
+        {
+          "id": "torosaurus",
+          "reason": "Proposed by some to be the fully mature form of Triceratops."
+        },
+        {
+          "id": "chasmosaurus",
+          "reason": "An earlier, longer-frilled relative from Alberta."
+        },
+        {
+          "id": "tyrannosaurus",
+          "reason": "Its main predator, whose tooth marks are found on Triceratops bones."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Is Torosaurus an old Triceratops?",
+          "copy": "A 2010 proposal argued that the fenestrated frill of Torosaurus is the final growth stage of Triceratops. Later tests found immature Torosaurus and mature Triceratops, so most workers keep them separate."
+        },
+        {
+          "title": "How many species?",
+          "copy": "T. horridus and T. prorsus are separated stratigraphically, with intermediate forms between. Whether this is one evolving lineage or two species is a matter of definition as much as data."
+        },
+        {
+          "title": "What were the horns for?",
+          "copy": "Healed lesions on frills suggest intraspecific combat, but display and species recognition are also plausible and not mutually exclusive."
+        }
+      ],
+      "compactSources": true
+    },
+    "ageReviewNote": "Secure occurrences are restricted to the final roughly two million years of the Cretaceous; T. horridus occurs lower and T. prorsus higher in the Hell Creek Formation.",
+    "sources": [
+      {
+        "type": "stratigraphy-and-evolution",
+        "citation": "Scannella et al. (2014), Evolutionary trends in Triceratops from the Hell Creek Formation",
+        "url": "https://doi.org/10.1073/pnas.1313334111"
+      },
+      {
+        "type": "growth",
+        "citation": "Horner & Goodwin (2006), Major cranial changes during Triceratops ontogeny",
+        "url": "https://doi.org/10.1098/rspb.2006.3643"
+      },
+      {
+        "type": "taxonomy",
+        "citation": "Longrich & Field (2012), Torosaurus is not Triceratops",
+        "url": "https://doi.org/10.1371/journal.pone.0032623"
+      },
+      {
+        "type": "monograph",
+        "citation": "Hatcher, Marsh & Lull (1907), The Ceratopsia",
+        "url": "https://doi.org/10.5962/bhl.title.61748"
+      }
+    ],
+    "residualUncertainty": [
+      "Species boundaries within the Hell Creek sequence remain a matter of definition.",
+      "The relationship between Triceratops, Torosaurus and Nedoceratops is debated.",
+      "Complete articulated postcranial skeletons are rare compared with skulls.",
+      "Horn function is inferred from pathology and analogy rather than observed."
+    ],
+    "evidence": {
+      "score": 99,
+      "summary": "More than a hundred skulls and many partial skeletons spanning growth stages make Triceratops one of the best-sampled dinosaurs; the open questions concern taxonomy rather than anatomy.",
+      "material": "Holotype partial skull YPM 1820, numerous complete skulls, partial and some substantially complete skeletons, juveniles, and skin impressions.",
+      "formations": [
+        "Lance Formation — Wyoming, USA",
+        "Hell Creek Formation — Montana and the Dakotas, USA",
+        "Scollard and Frenchman formations — Alberta and Saskatchewan, Canada"
+      ],
+      "confidenceLimit": "Skull anatomy and growth are exceptionally well documented; keep the species separate and do not present Torosaurus synonymy as settled.",
+      "sourceBasis": "Hatcher, Marsh & Lull 1907, Horner & Goodwin 2006, Longrich & Field 2012 and Scannella et al. 2014.",
+      "specimens": [
+        {
+          "name": "Holotype of T. horridus",
+          "id": "YPM 1820",
+          "institution": "Yale Peabody Museum",
+          "note": "Partial skull with horns collected by Hatcher in 1888 near Lance Creek, Wyoming."
+        },
+        {
+          "name": "Holotype of T. prorsus",
+          "id": "YPM 1822",
+          "institution": "Yale Peabody Museum",
+          "note": "Nearly complete skull, also from the Lance Formation of Wyoming."
+        },
+        {
+          "name": "\"Hatcher\"",
+          "id": "USNM 4842 (composite mount)",
+          "institution": "Smithsonian National Museum of Natural History",
+          "note": "Historic composite mount; the 2001 remount corrected the posture using digital scans."
+        }
+      ],
+      "uncertainties": [
+        "Torosaurus status",
+        "species variation",
+        "horn function"
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "More than a hundred skulls and a growth series from hatchling to giant.",
+        "standfirst": "Triceratops is the most common large dinosaur of the Hell Creek and Lance formations. Its skulls are so abundant that whole growth sequences and stratigraphic trends can be reconstructed, although complete skeletons remain rarer than heads.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Skulls of every growth stage, multiple partial and substantially complete skeletons, and skin impressions are known; the postcranium is less often articulated than the skull."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Skulls and partial skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "More than 100"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Few complete articulated skeletons"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete skulls with horns, frills and dental batteries from hatchling to adult; vertebrae, girdles and limbs from many individuals; several substantially complete skeletons; and skin impressions with large polygonal scales.",
+          "note": "Skulls fossilise readily because of their size and solidity, so the sample is skull-heavy. Detailed postcranial anatomy relies on a smaller number of good skeletons."
+        },
+        "media": [
+          {
+            "file": "Triceratops holotype.jpg",
+            "kind": "Type specimen",
+            "title": "Holotype skull YPM 1820 as figured in 1907",
+            "alt": "Published figure of the Triceratops horridus holotype skull YPM 1820",
+            "caption": "The partial holotype skull of Triceratops horridus, figured in Hatcher, Marsh and Lull's 1907 monograph on the Ceratopsia.",
+            "credit": "Hatcher, Marsh & Lull 1907 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Triceratops_holotype.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Well over a hundred skulls or partial skulls spanning all growth stages, with beaks, horns, frills and dental batteries."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal, sacral and caudal series known from several individuals, including the fused syncervical."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Pectoral and pelvic girdles, forelimbs and hindlimbs from multiple specimens; hands and feet less commonly complete."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Skin impressions showing large scales with central bosses; healed frill and skull lesions; tooth marks from Tyrannosaurus."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "YPM 1820 · holotype of T. horridus",
+            "description": "A partial skull with brow horns collected by John Bell Hatcher in 1888 from the Lance Formation near Lance Creek, Wyoming, and named by Marsh in 1889 after an earlier horn core had been mistaken for a bison.",
+            "meta": "Niobrara County, Wyoming · Lance Formation · Yale Peabody Museum"
+          },
+          {
+            "kicker": "Growth and stratigraphy",
+            "title": "Hell Creek Project sample",
+            "description": "Dozens of skulls collected with precise stratigraphic positions across the Hell Creek Formation of Montana document the transition from T. horridus to T. prorsus and the changes in horn and frill shape with age.",
+            "meta": "Montana · Hell Creek Formation · Museum of the Rockies and others"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Abundant skulls of all ages, multiple partial skeletons, skin impressions and healed injuries."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A large low-browsing ceratopsid whose horns and frill changed dramatically with growth and whose lineage evolved measurably across the Hell Creek sequence."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Whether Torosaurus is a growth stage, exactly how the species should be divided, and the primary function of the horns and frill."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Monograph",
+            "title": "Hatcher, Marsh & Lull · 1907",
+            "description": "The classic monograph on the Ceratopsia, including the holotype description.",
+            "access": "Read online",
+            "url": "https://doi.org/10.5962/bhl.title.61748"
+          },
+          {
+            "type": "Growth",
+            "title": "Horner & Goodwin · 2006",
+            "description": "Cranial changes through the Triceratops growth series.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1098/rspb.2006.3643"
+          },
+          {
+            "type": "Stratigraphy",
+            "title": "Scannella et al. · 2014",
+            "description": "Evolutionary trends in Triceratops through the Hell Creek Formation.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1073/pnas.1313334111"
+          },
+          {
+            "type": "Taxonomy",
+            "title": "Longrich & Field · 2012",
+            "description": "Test of the Torosaurus–Triceratops synonymy hypothesis.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1371/journal.pone.0032623"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype skull figure",
+            "description": "Source page and reuse terms for the 1907 figure of YPM 1820.",
+            "access": "Public domain",
+            "url": "https://commons.wikimedia.org/wiki/File:Triceratops_holotype.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38862"
+          }
+        ],
+        "limitations": "The coverage band describes the combined sample at genus level. It is an editorial evidence summary, not a published completeness percentage.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
+    }
+  }
+}

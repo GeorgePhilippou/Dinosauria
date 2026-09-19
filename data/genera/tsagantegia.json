@@ -1,0 +1,136 @@
+{
+  "id": "tsagantegia",
+  "name": "Tsagantegia",
+  "profile": {
+    "overview": [
+      "Tsagantegia ('of Tsagan Teg') was an ankylosaur dinosaur from the Late Cretaceous of Mongolia, living approximately 99–84 million years ago during the Cenomanian–Santonian stages. The type and only species, Tsagantegia longicranialis, is known solely from a skull, making a complete reconstruction of its body necessarily speculative, though estimates based on comparable ankylosaurids suggest it was a sizeable armoured herbivore. It was named from material collected at Tsagan Teg in the Gobi Desert.",
+      "Tsagantegia belongs within Ankylosauridae, the group characterised by their bony tail clubs and extensive dermal armour. Its long, low skull (reflected in the species name longicranialis) distinguishes it from some other ankylosaurid genera and provides data on the morphological diversity within Asian ankylosaurids during the Cretaceous. Being known only from a skull limits what can be inferred about its overall body plan and size."
+    ],
+    "fossilSites": [
+      {
+        "name": "Bayan Shireh Formation (Tsagan Teg)",
+        "region": "Ömnögovi, Mongolia",
+        "lat": 44,
+        "lon": 100.5,
+        "note": "The type locality where the skull of Tsagantegia longicranialis was discovered in the Gobi Desert."
+      },
+      {
+        "name": "Bayan Shireh Formation",
+        "region": "Dornogovi, Mongolia",
+        "lat": 44.5,
+        "lon": 108,
+        "note": "The broader formation spanning the Gobi region during the Cenomanian–Santonian period."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Ankylosauridae",
+        "Tsagantegia"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ankylosauridae",
+          "label": "Tarbosaurus-era Asian ankylosaurids"
+        },
+        {
+          "from": "Ankylosauria",
+          "label": "Nodosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Tsagantegia was named by Tatyana Tumanova in 1993 from a skull recovered at Tsagan Teg in Mongolia's Gobi Desert. The species name longicranialis refers to the notably elongate cranium. The specimen comes from the Bayan Shireh Formation, a productive Cretaceous unit that has also yielded other important dinosaurs including the iguanodontian Bactrosaurus and the ankylosaur Talarurus."
+      },
+      {
+        "title": "Skull Morphology",
+        "body": "The skull of Tsagantegia is low, broad, and elongated — the elongation being the basis for the species epithet. Like other ankylosaurids, it bears extensive cranial ornamentation in the form of fused osteoderms over the skull roof. The snout is relatively narrow compared to some other ankylosaurid genera such as Pinacosaurus, and there is limited preserved material to assess the nasal passages in detail."
+      },
+      {
+        "title": "Palaeoecology",
+        "body": "Tsagantegia would have inhabited the semi-arid to seasonally wet palaeoenvironments of the Bayan Shireh Formation, alongside other herbivores and the large predatory theropods of the Gobi Desert in the Cenomanian–Santonian interval. Without postcranial material, its exact size is uncertain, but ankylosaurid body plans typically involved heavy armoured torsos and a functional tail club for defence."
+      },
+      {
+        "title": "Taxonomic Context",
+        "body": "Tsagantegia is placed within Ankylosauridae and has been recovered in various positions within the family across different phylogenetic analyses. Its precise relationships to contemporaneous Asian ankylosaurids like Talarurus and later forms such as Saichania and Tarchia remain uncertain given that only skull material is available."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Tsagantegia profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/tsagantegia.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Bayan Shireh Formation (Tsagan Teg), Ömnögovi, Mongolia; Bayan Shireh Formation, Dornogovi, Mongolia",
+    "material": "Without postcranial material, its exact size is uncertain, but ankylosaurid body plans typically involved heavy armoured torsos and a functional tail club for defence.",
+    "completeness": "Partial material known; 2 PBDB occurrence records.",
+    "paleo": "The type locality where the skull of Tsagantegia longicranialis was discovered in the Gobi Desert.",
+    "evidence": "Tsagantegia belongs within Ankylosauridae, the group characterised by their bony tail clubs and extensive dermal armour."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Cenomanian-Santonian, about 100-84 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Ankylosauridae"
+      ],
+      "description": "Tsagantegia longicranialis was an ankylosaurid from the Bayan Shireh Formation, based almost entirely on one complete skull.",
+      "facts": [
+        "The skull is distinctive but no associated body skeleton is known.",
+        "Armour, tail club, size and locomotor details are inferred from relatives."
+      ]
+    },
+    "ageReviewNote": "Bayan Shireh dating gives a broad Cenomanian-Santonian range.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Tumanova (1993), original description of Tsagantegia",
+        "url": "https://palaeontologia.pan.pl/Archive/1993-42_119-141_10-17.pdf"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Arbour & Currie (2016), ankylosaurid phylogeny",
+        "url": "https://doi.org/10.1080/14772019.2015.1059985"
+      }
+    ],
+    "residualUncertainty": [
+      "Only one skull anchors the genus."
+    ],
+    "evidence": {
+      "score": 25,
+      "material": "Single complete skull without associated postcranium.",
+      "formations": "Bayan Shireh Formation, Mongolia.",
+      "confidenceLimit": "No precise whole-body size, armour pattern or tail weapon can be assigned.",
+      "uncertainties": [
+        "postcranial anatomy",
+        "body size"
+      ],
+      "summary": "Tsagantegia longicranialis was an ankylosaurid from the Bayan Shireh Formation, based almost entirely on one complete skull.",
+      "sourceBasis": "Tumanova (1993), original description of Tsagantegia; Arbour & Currie (2016), ankylosaurid phylogeny"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

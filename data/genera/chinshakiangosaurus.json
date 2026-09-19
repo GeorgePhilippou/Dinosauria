@@ -1,0 +1,159 @@
+{
+  "id": "chinshakiangosaurus",
+  "name": "Chinshakiangosaurus",
+  "profile": {
+    "overview": [
+      "Chinshakiangosaurus was an early sauropod dinosaur from the Early Jurassic of Yunnan Province, China, approximately 201–199 million years ago (Hettangian), found in the Fengjiahe Formation. Estimated at 11 to perhaps 13 metres in length, it is one of the earliest large sauropods from China. Its name means 'Chinshakiang lizard', after the local name for the Jinsha River (Chinsha River) in Yunnan.",
+      "Described by Yeh in 1975, Chinshakiangosaurus zhongheensis is known only from fragmentary skeletal material, making its phylogenetic placement uncertain—it is currently placed as a basal sauropod with no family assignment. The fragmentary nature of the specimen means its relationships within early Sauropoda remain unresolved, but its Early Jurassic age makes it relevant to understanding the initial diversification of sauropods from sauropodomorph ancestors."
+    ],
+    "fossilSites": [
+      {
+        "name": "Fengjiahe Formation",
+        "region": "Yunnan Province, China",
+        "lat": 27,
+        "lon": 103.5,
+        "note": "Early Jurassic continental formation in Yunnan that yielded the fragmentary type material of Chinshakiangosaurus."
+      },
+      {
+        "name": "Yunnan Province (lower Jurassic outcrops)",
+        "region": "Yunnan, China",
+        "lat": 26.5,
+        "lon": 103,
+        "note": "Broader region of southwestern China preserving some of the world's earliest sauropod material."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Chinshakiangosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Sauropoda",
+          "label": "Eusauropoda (all later sauropods)"
+        },
+        {
+          "from": "Sauropoda",
+          "label": "Vulcanodon (early African sauropod)"
+        },
+        {
+          "from": "Sauropodomorpha",
+          "label": "Plateosauridae (prosauropods)"
+        },
+        {
+          "from": "Sauropoda",
+          "label": "Barapasaurus (Early Jurassic Indian sauropod)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Chinshakiangosaurus zhongheensis was described in 1975 by Yeh from fragmentary skeletal remains collected in Yunnan Province, China. The genus name references the Chinshakiang (Jinsha) River, while the species name refers to the Zhonghe area. The material is limited to partial elements that do not include cranial bones, making detailed morphological assessment difficult."
+      },
+      {
+        "title": "Fragmentary Material and Size Uncertainty",
+        "body": "Chinshakiangosaurus is known only from a fragmentary skeleton, and size estimates range from about 11 metres (the NHM estimate) to possibly 13 metres. Without complete limb bones or vertebral columns, these estimates carry significant uncertainty. The limited available material has prevented confident assignment to any sauropod family."
+      },
+      {
+        "title": "Early Jurassic Sauropod Context",
+        "body": "The Early Jurassic of Yunnan is an important window into the early evolution of sauropods. The Fengjiahe and adjacent formations have yielded several early sauropods and sauropodomorphs, including the better-known Lufengosaurus. Chinshakiangosaurus, if its estimated size is accurate, was already a large animal at this early stage of sauropod evolution, consistent with the rapid size increase seen across early sauropodomorphs."
+      },
+      {
+        "title": "Taxonomic Uncertainties",
+        "body": "Due to the fragmentary and poorly documented nature of Chinshakiangosaurus, some researchers have questioned its validity as a distinct genus. Without revision using modern phylogenetic methods and well-preserved comparative material, its classification must be treated cautiously. Future fieldwork in the Fengjiahe Formation could yield more complete material that would help resolve its status."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Chinshakiangosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/chinshakiangosaurus.html"
+      },
+      {
+        "label": "PBDB: Chinshakiangosaurus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chinshakiangosaurus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Fengjiahe Formation, Yunnan Province, China; Yunnan Province (lower Jurassic outcrops), Yunnan, China",
+    "material": "Chinshakiangosaurus was an early sauropod dinosaur from the Early Jurassic of Yunnan Province, China, approximately 201–199 million years ago (Hettangian), found in the Fengjiahe Formation.",
+    "completeness": "Fragmentary material only; 1 PBDB occurrence records.",
+    "paleo": "Early Jurassic continental formation in Yunnan that yielded the fragmentary type material of Chinshakiangosaurus.",
+    "evidence": "Described by Yeh in 1975, Chinshakiangosaurus zhongheensis is known only from fragmentary skeletal material, making its phylogenetic placement uncertain—it is currently placed as a basal sauropod with no family assignment."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Early Jurassic",
+      "mya": "approximately 201-190 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropodiformes",
+        "Sauropoda"
+      ],
+      "description": "Chinshakiangosaurus chunghoensis was an early sauropod or near-sauropod from the Fengjiahe Formation of Yunnan, China. The accepted species spelling is chunghoensis, and the fragmentary skeleton is Early Jurassic rather than Late Jurassic.",
+      "facts": [
+        "The best-known element is a partial lower jaw with teeth, accompanied by fragmentary postcranial bones.",
+        "Its jaw suggests a fleshy cheek is possible, but soft tissue and exact feeding mechanics are not preserved."
+      ],
+      "taxonomicStatus": "provisionally valid but fragmentary",
+      "length": null
+    },
+    "ageReviewNote": "The Fengjiahe Formation is Early Jurassic, broadly Hettangian-Sinemurian.",
+    "sources": [
+      {
+        "type": "systematic-revision",
+        "citation": "Upchurch et al. (2007), A re-evaluation of Chinshakiangosaurus chunghoensis",
+        "url": "https://doi.org/10.1017/S0016756806003062"
+      },
+      {
+        "type": "comparative-context",
+        "citation": "Yao et al. (2022), A new early armoured dinosaur and Early Jurassic Yunnan sauropodomorph fauna",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8929930/"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: chinshakiangosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/chinshakiangosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "The diagnosis and association of the material need renewed study.",
+      "Its position as basal sauropod or close sauropodiform varies.",
+      "The formation is not narrowly dated."
+    ],
+    "evidence": {
+      "score": 30,
+      "material": "A fragmentary skeleton including a partial dentary, vertebrae and limb elements.",
+      "formations": [
+        "Fengjiahe Formation"
+      ],
+      "confidenceLimit": "Fragmentary, poorly associated material prevents precise size, posture or phylogenetic claims.",
+      "uncertainties": [
+        "The diagnosis and association of the material need renewed study.",
+        "Its position as basal sauropod or close sauropodiform varies.",
+        "The formation is not narrowly dated."
+      ],
+      "summary": "Chinshakiangosaurus chunghoensis was an early sauropod or near-sauropod from the Fengjiahe Formation of Yunnan, China. The accepted species spelling is chunghoensis, and the fragmentary skeleton is Early Jurassic rather than Late Jurassic.",
+      "sourceBasis": "Upchurch et al. (2007), A re-evaluation of Chinshakiangosaurus chunghoensis; Yao et al. (2022), A new early armoured dinosaur and Early Jurassic Yunnan sauropodomorph fauna; Natural History Museum, Dino Directory: chinshakiangosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

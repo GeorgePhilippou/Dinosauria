@@ -1,0 +1,167 @@
+{
+  "id": "diplodocus",
+  "name": "Diplodocus",
+  "profile": {
+    "overview": [
+      "Diplodocus carnegii (\"Carnegie's double beam\") was one of the longest animals ever to walk the Earth, reaching 26 metres, though far lighter than the stocky Brachiosaurus at around 15 tonnes. Its neck was held roughly horizontally rather than upright, and the peg-like teeth at the very front of the snout were used exclusively for raking leaves from branches — Diplodocus could not chew and processed no food in the mouth at all.",
+      "Andrew Carnegie funded plaster casts of the famous specimen \"Dippy\" that were shipped to eight museums across Europe, making Diplodocus the most publicly recognised sauropod of the 20th century. The NHM London's Dippy stood in the main entrance hall for 112 years before being replaced by the blue whale skeleton Hope in 2017."
+    ],
+    "fossilSites": [
+      {
+        "name": "Morrison Formation — Carnegie Quarry / Sheep Creek",
+        "region": "Albany County, Wyoming, USA",
+        "lat": 41.8,
+        "lon": -106,
+        "note": "Classic Late Jurassic quarry yielding the Carnegie Museum Diplodocus specimen — the basis for the worldwide plaster casts."
+      },
+      {
+        "name": "Morrison Formation — Dinosaur National Monument",
+        "region": "Utah, USA",
+        "lat": 40.4,
+        "lon": -109.3,
+        "note": "Rich sauropod quarry preserving Diplodocus alongside Camarasaurus, Apatosaurus and Stegosaurus."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Diplodocoidea",
+        "Diplodocidae",
+        "Diplodocus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Diplodocidae",
+          "label": "Apatosaurus"
+        },
+        {
+          "from": "Diplodocidae",
+          "label": "Barosaurus"
+        },
+        {
+          "from": "Diplodocidae",
+          "label": "Supersaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Carnegie and the plaster Dippies",
+        "body": "Andrew Carnegie funded expeditions that recovered the CM 84 specimen from Wyoming in 1899. After seeing a newspaper illustration, Carnegie commissioned eight full-scale plaster casts for European royalty — gifts to the natural history museums of London, Paris, Berlin, Vienna, Bologna, La Plata, Saint Petersburg and Madrid. This act of scientific philanthropy made Diplodocus the most-recognised dinosaur skeleton in the world for much of the 20th century."
+      },
+      {
+        "title": "Feeding mechanism",
+        "body": "The pencil-like peg teeth of Diplodocus are positioned only at the front of the snout and show heavy wear on their tips — consistent with raking leaves off branches. No shearing or grinding occurs in the mouth; food was swallowed whole and processed by gastroliths (stomach stones) and fermentation. This feeding strategy allowed Diplodocus to strip enormous volumes of vegetation rapidly, an efficient if crude approach for a 15-tonne browser."
+      },
+      {
+        "title": "Neck posture debate",
+        "body": "Computer modelling of Diplodocus neck vertebrae and joint mobility consistently suggests the neck was held near-horizontal or at a slight upward angle — very different from the giraffe-like posture of early reconstructions. At maximum horizontal extension the neck allowed feeding across a wide swathe of ground-level vegetation without moving the body, an efficient strategy for a very large animal whose locomotion was energetically costly."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Diplodocus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/diplodocus.html"
+      },
+      {
+        "label": "Natural History Museum: Dippy story",
+        "url": "https://www.nhm.ac.uk/discover/dippy.html"
+      },
+      {
+        "label": "Natural History Museum: Dippy specimen history",
+        "url": "https://www.nhm.ac.uk/discover/diplodocus-this-is-your-life.html"
+      },
+      {
+        "label": "Carnegie Museum Diplodocus collection",
+        "url": "https://digitalcollections.library.cmu.edu/cmu-collection/carnegie-museum-natural-history-diplodocus-collection"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Morrison Formation, western USA",
+    "material": "Partial to near-complete skeletons, including famous Carnegie material.",
+    "completeness": "Well represented",
+    "paleo": "Late Jurassic Morrison floodplains with other diplodocids, macronarians and large theropods.",
+    "evidence": "Long neck, whip-like tail and peg-like teeth support low browsing and diplodocid feeding interpretations."
+  },
+  "remainsImage": {
+    "file": "Diplodocus skeleton NMNH.jpg",
+    "label": "Diplodocus skeleton, Smithsonian Deep Time",
+    "note": "Mounted skeleton image from Wikimedia Commons."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "Kimmeridgian-Tithonian, roughly 154-152 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Neosauropoda",
+        "Diplodocoidea",
+        "Diplodocidae",
+        "Diplodocinae"
+      ],
+      "description": "Diplodocus was a long-necked diplodocid sauropod from the Morrison Formation of western North America. D. carnegii and related material provide several substantial skeletons and skulls, but famous museum mounts are composites and species assignments have been extensively revised.",
+      "facts": [
+        "The Carnegie mount combines principal specimens and reconstructed parts; it is not one complete individual.",
+        "Peg-like front teeth and low skull support selective cropping, while exact vegetation and feeding height varied with posture.",
+        "Extreme tail-whip speeds and supersonic cracking remain biomechanical hypotheses rather than consensus facts."
+      ]
+    },
+    "ageReviewNote": "Most diagnostic Diplodocus material comes from Kimmeridgian-Tithonian Morrison intervals near 154-152 Ma.",
+    "sources": [
+      {
+        "type": "classic-monograph",
+        "citation": "Hatcher (1901), Diplodocus: osteology, taxonomy and habits",
+        "url": "https://doi.org/10.5962/bhl.title.46734"
+      },
+      {
+        "type": "specimen-level-revision",
+        "citation": "Tschopp et al. (2015), A specimen-level phylogenetic analysis and taxonomic revision of Diplodocidae",
+        "url": "https://doi.org/10.7717/peerj.857"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Diplodocus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Diplodocus"
+      }
+    ],
+    "residualUncertainty": [
+      "Species-level referral of several historic specimens remains debated.",
+      "Neck posture, tail performance and body mass depend on modelling."
+    ],
+    "evidence": {
+      "score": 80,
+      "material": "Multiple substantial partial skeletons and skulls, with composite museum mounts.",
+      "formations": [
+        "Morrison Formation"
+      ],
+      "confidenceLimit": "High for anatomy and herbivory; moderate for species allocation and posture; low for extreme tail behaviour.",
+      "uncertainties": [
+        "species referrals",
+        "neck posture",
+        "tail biomechanics",
+        "mass"
+      ],
+      "summary": "Diplodocus was a long-necked diplodocid sauropod from the Morrison Formation of western North America. D. carnegii and related material provide several substantial skeletons and skulls, but famous museum mounts are composites and species assignments have been extensively revised.",
+      "sourceBasis": "Hatcher (1901), Diplodocus: osteology, taxonomy and habits; Tschopp et al. (2015), A specimen-level phylogenetic analysis and taxonomic revision of Diplodocidae; Paleobiology Database taxon and occurrence context for Diplodocus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

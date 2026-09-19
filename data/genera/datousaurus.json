@@ -1,0 +1,164 @@
+{
+  "id": "datousaurus",
+  "name": "Datousaurus",
+  "profile": {
+    "overview": [
+      "Datousaurus was a large sauropod dinosaur from the Middle Jurassic of Sichuan Province, China, approximately 170 million years ago (Bajocian to Callovian), found in the Shaximiao Formation. Reaching about 15 metres in length, it was a quadrupedal herbivore with a moderately long neck and a relatively large, massive skull compared to other contemporaneous Chinese sauropods. Its name means 'Datou lizard', with 'datou' (大头) meaning 'big head' in Chinese.",
+      "Named by Dong Zhiming and Tang Zilu in 1984, Datousaurus bashanensis is placed as a basal eusauropod without a confirmed family assignment. It shared the Shaximiao Formation ecosystem with Shunosaurus, Omeisaurus, and Huayangosaurus, forming part of the diverse Middle Jurassic dinosaur community of the Sichuan Basin that has been extensively studied since the late 20th century."
+    ],
+    "fossilSites": [
+      {
+        "name": "Lower Shaximiao Formation",
+        "region": "Sichuan Province, China",
+        "lat": 29.6,
+        "lon": 104.7,
+        "note": "Middle Jurassic fluvial formation at Dashanpu, Zigong, Sichuan, where the primary Datousaurus specimens were recovered."
+      },
+      {
+        "name": "Dashanpu Quarry",
+        "region": "Zigong, Sichuan Province, China",
+        "lat": 29.35,
+        "lon": 104.78,
+        "note": "Exceptionally productive dinosaur quarry in Zigong that has yielded multiple Datousaurus specimens alongside diverse Middle Jurassic taxa."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Eusauropoda",
+        "Datousaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Eusauropoda",
+          "label": "Shunosaurus (contemporaneous Sichuan sauropod)"
+        },
+        {
+          "from": "Eusauropoda",
+          "label": "Omeisaurus (longer-necked Sichuan sauropod)"
+        },
+        {
+          "from": "Eusauropoda",
+          "label": "Diplodocoidea"
+        },
+        {
+          "from": "Eusauropoda",
+          "label": "Macronaria (titanosaurs and brachiosaurids)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Datousaurus bashanensis was described in 1984 by Dong Zhiming and Tang Zilu from material excavated at the Dashanpu Quarry in Zigong, Sichuan Province. The genus name references 'big head' in Chinese, alluding to the relatively large skull proportions compared to the smaller-skulled Shunosaurus and Omeisaurus. The species name refers to the Bashan region, an old name for the area."
+      },
+      {
+        "title": "Skull Morphology",
+        "body": "One of the distinguishing features of Datousaurus is its relatively large and massive skull, which contrasts with the smaller, more gracile skulls of contemporaneous sauropods from the same formation. The teeth were spoon-shaped and suited for stripping vegetation. This skull shape, combined with an inferred more robust neck, may indicate a dietary ecology somewhat different from the other sauropods it co-existed with in Sichuan."
+      },
+      {
+        "title": "Shaximiao Formation Community",
+        "body": "Datousaurus shared the Shaximiao Formation environment with several other well-known dinosaurs: the smaller sauropod Shunosaurus (which bore a tail club), the long-necked Omeisaurus, the early stegosaur Huayangosaurus, the small ornithopod Xiaosaurus, and the theropod Gasosaurus. This diversity represents a complex community with multiple sauropod species occupying different ecological roles, possibly achieved through niche partitioning based on food plant type or browsing height."
+      },
+      {
+        "title": "Phylogenetic Placement",
+        "body": "Datousaurus is typically placed as a basal eusauropod without a confirmed family assignment. Some analyses have suggested affinities with Cetiosauridae or with Mamenchisauridae, but a stable placement has not been achieved, partly due to the limited cranial and postcranial comparative material available. Revision of the Dashanpu material with modern phylogenetic methods has progressively refined, though not conclusively resolved, its position."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Datousaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/datousaurus.html"
+      },
+      {
+        "label": "Wikipedia: Datousaurus",
+        "url": "https://en.wikipedia.org/wiki/Datousaurus"
+      },
+      {
+        "label": "PBDB: Datousaurus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Datousaurus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Lower Shaximiao Formation, Sichuan Province, China; Dashanpu Quarry, Zigong, Sichuan Province, China",
+    "material": "Some analyses have suggested affinities with Cetiosauridae or with Mamenchisauridae, but a stable placement has not been achieved, partly due to the limited cranial and postcranial comparative material available.",
+    "completeness": "Partial material known; 2 PBDB occurrence records.",
+    "paleo": "Middle Jurassic fluvial formation at Dashanpu, Zigong, Sichuan, where the primary Datousaurus specimens were recovered.",
+    "evidence": "Named by Dong Zhiming and Tang Zilu in 1984, Datousaurus bashanensis is placed as a basal eusauropod without a confirmed family assignment."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Mid Jurassic",
+      "mya": "Bathonian-Callovian, about 168-163 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Eusauropoda"
+      ],
+      "locomotion": "on 4 legs",
+      "length": null,
+      "description": "Datousaurus bashanensis was a quadrupedal herbivorous sauropod from the Lower Shaximiao Formation of Sichuan, China. It is known from incomplete associated skeletons, including cranial material, but still lacks a comprehensive modern redescription.",
+      "facts": [
+        "The original material includes postcranial remains and a skull associated with one of the partial skeletons.",
+        "Its broad placement among early eusauropods is better supported than any narrow family assignment.",
+        "Published whole-body dimensions are extrapolations because no complete articulated skeleton is known."
+      ]
+    },
+    "ageReviewNote": "Restricted to the Middle Jurassic Lower Shaximiao Formation; older broad wiki ranges were not specimen-based.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Dong & Tang (1984), A brief report on the sauropods from Dashanpu",
+        "url": "https://www.ivpp.cas.cn/cbw/gjzdwxb/xbwzxz/200903/t20090327_2386210.html"
+      },
+      {
+        "type": "formation-review",
+        "citation": "Xing et al. (2013), Two theropod track assemblages from the Jurassic of Chongqing and the Jurassic stratigraphy of the Sichuan Basin",
+        "url": "https://juraparkbaltow.pl/wp-content/uploads/2018/07/Xing-Lockley-Chen-Gierlinski-Li-Persons-Matsukawa-Gingras-and-Wang-2013.pdf"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Datousaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Datousaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "The hypodigm needs modern specimen-level revision.",
+      "Precise phylogenetic placement and body size remain poorly constrained."
+    ],
+    "evidence": {
+      "score": 40,
+      "material": "Incomplete associated skeletons, including skull and postcranial bones.",
+      "formations": [
+        "Lower Shaximiao Formation"
+      ],
+      "confidenceLimit": "Limited-to-moderate: the genus is recognizable, but the material is incompletely revised.",
+      "uncertainties": [
+        "hypodigm composition",
+        "exact eusauropod position",
+        "adult size"
+      ],
+      "summary": "Datousaurus bashanensis was a quadrupedal herbivorous sauropod from the Lower Shaximiao Formation of Sichuan, China. It is known from incomplete associated skeletons, including cranial material, but still lacks a comprehensive modern redescription.",
+      "sourceBasis": "Dong & Tang (1984), A brief report on the sauropods from Dashanpu; Xing et al. (2013), Two theropod track assemblages from the Jurassic of Chongqing and the Jurassic stratigraphy of the Sichuan Basin; Paleobiology Database taxon and occurrence context for Datousaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

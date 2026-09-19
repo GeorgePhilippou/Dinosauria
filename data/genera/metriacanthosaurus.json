@@ -1,0 +1,136 @@
+{
+  "id": "metriacanthosaurus",
+  "name": "Metriacanthosaurus",
+  "profile": {
+    "overview": [
+      "Metriacanthosaurus was a large carnivorous theropod dinosaur that lived during the Late Jurassic (Oxfordian), approximately 160 million years ago, in what is now Dorset, England. It is known only from a partial postcranial skeleton without a skull, making precise size estimation uncertain, though comparisons with related theropods suggest a length of roughly 8 metres. The type species is Metriacanthosaurus parkeri.",
+      "Originally described by von Huene in 1926 as a species of Megalosaurus, it was reclassified into its own genus by Huene and subsequently by Paul in 1988. Its name refers to its moderately tall neural spines on the back vertebrae ('metriacantho' = moderately spined), distinguishing it from both the relatively flat-spined Allosaurus and the extremely high-spined Acrocanthosaurus. Metriacanthosaurus has been placed in Metriacanthosauridae, a carnosaur family that also includes Chinese genera such as Sinraptor and Yangchuanosaurus."
+    ],
+    "fossilSites": [
+      {
+        "name": "Oxford Clay Formation",
+        "region": "Dorset, England",
+        "lat": 50.7,
+        "lon": -2.4,
+        "note": "The holotype partial postcranial skeleton of Metriacanthosaurus parkeri was recovered from Late Jurassic marine and coastal sediments in the Oxford Clay of Dorset."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Tetanurae",
+        "Avetheropoda",
+        "Carnosauria",
+        "Metriacanthosauridae",
+        "Metriacanthosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Metriacanthosauridae",
+          "label": "Sinraptor"
+        },
+        {
+          "from": "Metriacanthosauridae",
+          "label": "Yangchuanosaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Material now assigned to Metriacanthosaurus was first described in 1926 by Friedrich von Huene as Megalosaurus parkeri, honouring Winfield Scott Parker who collected the original specimen from the Oxford Clay. In 1932, von Huene moved it to a new genus, which was formalised by subsequent researchers and refined by Gregory Paul in 1988. The genus name means 'moderately spined lizard', distinguishing it by the intermediate height of its dorsal neural spines."
+      },
+      {
+        "title": "Fragmentary Material and Reconstruction Challenges",
+        "body": "Metriacanthosaurus is known only from a partial postcranial skeleton that lacks a skull and much of the appendicular skeleton. This severely limits what can be inferred about its appearance and biology. Its skull shape, sensory capabilities, and precise body proportions are unknown and must be inferred from the better-known relatives with which it is grouped. Reconstructions in popular media should be treated as largely speculative."
+      },
+      {
+        "title": "Metriacanthosauridae and Carnosaur Diversity",
+        "body": "Metriacanthosauridae is a family of large carnosaur theropods that includes not only Metriacanthosaurus from England but also several well-known genera from Late Jurassic China such as Sinraptor and Yangchuanosaurus. The family shows a wide geographic distribution across the Laurasian landmass during the Late Jurassic, suggesting successful dispersal of this lineage. Metriacanthosauridae sits within Carnosauria alongside Allosauridae."
+      },
+      {
+        "title": "Oxford Clay Fauna",
+        "body": "The Oxford Clay Formation of England preserves a rich Late Jurassic marine fauna including ichthyosaurs, plesiosaurs, and marine crocodilians, alongside fragmentary remains of terrestrial dinosaurs. The presence of a large theropod like Metriacanthosaurus indicates that the coastal regions adjacent to the Oxford Clay sea supported sizeable land-dwelling predators during the Oxfordian stage."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Metriacanthosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/metriacanthosaurus.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Oxford Clay Formation, Dorset, England",
+    "material": "Metriacanthosaurus is known only from a partial postcranial skeleton that lacks a skull and much of the appendicular skeleton.",
+    "completeness": "Partial material known; 1 PBDB occurrence records.",
+    "paleo": "The holotype partial postcranial skeleton of Metriacanthosaurus parkeri was recovered from Late Jurassic marine and coastal sediments in the Oxford Clay of Dorset.",
+    "evidence": "Originally described by von Huene in 1926 as a species of Megalosaurus, it was reclassified into its own genus by Huene and subsequently by Paul in 1988."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "Oxfordian, about 163-157 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Allosauroidea",
+        "Metriacanthosauridae"
+      ],
+      "description": "Metriacanthosaurus parkeri was a medium-large theropod from the Oxford Clay Formation of England, known from one incomplete postcranial skeleton without a skull.",
+      "facts": [
+        "The holotype includes vertebrae, pelvic and hindlimb elements.",
+        "Its tall neural spines inspired the name but do not establish a skin sail.",
+        "Placement in Metriacanthosauridae is supported in major tetanuran analyses, while anatomy and exact size remain poorly constrained."
+      ]
+    },
+    "ageReviewNote": "The Oxford Clay type horizon is Oxfordian; the age is not extended outside that unit.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Carrano, Benson & Sampson (2012), tetanuran systematics including Metriacanthosaurus",
+        "url": "https://doi.org/10.1080/14772019.2011.630927"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: metriacanthosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/metriacanthosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "No skull is securely known.",
+      "Only one incomplete individual supports the genus."
+    ],
+    "evidence": {
+      "score": 38,
+      "material": "Single partial postcranial skeleton with axial, pelvic and hindlimb bones.",
+      "formations": "Oxford Clay Formation, England.",
+      "confidenceLimit": "Head, forelimbs, body covering and precise length are reconstructed.",
+      "uncertainties": [
+        "size",
+        "soft-tissue profile",
+        "fine relationships"
+      ],
+      "summary": "Metriacanthosaurus parkeri was a medium-large theropod from the Oxford Clay Formation of England, known from one incomplete postcranial skeleton without a skull.",
+      "sourceBasis": "Carrano, Benson & Sampson (2012), tetanuran systematics including Metriacanthosaurus; Natural History Museum Dino Directory: metriacanthosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

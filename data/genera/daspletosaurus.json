@@ -1,0 +1,152 @@
+{
+  "id": "daspletosaurus",
+  "name": "Daspletosaurus",
+  "profile": {
+    "overview": [
+      "Daspletosaurus torosus (\"frightful lizard\") was a large tyrannosaurine from the Late Campanian of Alberta (~76–77 Ma), contemporaneous with Gorgosaurus in the Dinosaur Park Formation. The co-occurrence of two large tyrannosaurs in the same formation is unusual and has generated competing hypotheses about ecological partitioning, temporal replacement and niche separation.",
+      "Daspletosaurus was more robust and had proportionally larger teeth than Gorgosaurus, suggesting it may have specialised on larger, more heavily armoured prey such as ceratopsids. A recently described species, D. wilsoni, from the Oldman Formation represents an older member of the lineage, suggesting a continuous tyrannosaurine presence in the region."
+    ],
+    "fossilSites": [
+      {
+        "name": "Dinosaur Park Formation",
+        "region": "Alberta, Canada",
+        "lat": 50.7,
+        "lon": -111.5,
+        "note": "Campanian deposits co-preserving Daspletosaurus and Gorgosaurus — the classic \"two large tyrannosaur\" formation."
+      },
+      {
+        "name": "Oldman Formation",
+        "region": "Alberta, Canada",
+        "lat": 49.5,
+        "lon": -112,
+        "note": "Older Campanian beds with Daspletosaurus wilsoni, documenting the earlier evolutionary history of the lineage."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Tyrannosauroidea",
+        "Tyrannosauridae",
+        "Tyrannosaurinae",
+        "Daspletosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Tyrannosaurinae",
+          "label": "Tyrannosaurus"
+        },
+        {
+          "from": "Tyrannosaurinae",
+          "label": "Tarbosaurus"
+        },
+        {
+          "from": "Tyrannosauridae",
+          "label": "Albertosaurinae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Russell described Daspletosaurus torosus in 1970 from a nearly complete skeleton collected by Charles Sternberg from the Dinosaur Park Formation. The species name \"torosus\" refers to its robust muscular build. Additional specimens have since been recovered, and D. wilsoni was described in 2022."
+      },
+      {
+        "title": "Niche partitioning with Gorgosaurus",
+        "body": "The two large tyrannosaurs differ in robustness: Daspletosaurus has a deeper, heavier skull and more powerful dentition consistent with regularly attacking heavily built prey. Gorgosaurus is more gracile, possibly pursuing lighter-bodied hadrosaurs. Whether they partitioned prey by size or used habitats differently remains an active research question."
+      },
+      {
+        "title": "Evolutionary significance",
+        "body": "Daspletosaurus is placed in Tyrannosaurinae alongside Tarbosaurus and Tyrannosaurus, suggesting a northern Laurasian origin of this clade. Its presence in Alberta predating both Tarbosaurus in Asia and Tyrannosaurus in North America places it near the ancestral node of the iconic Late Cretaceous large tyrannosaur radiation."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Daspletosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/daspletosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Oldman Formation, Alberta, Canada",
+    "material": "Several partial skeletons and skulls.",
+    "completeness": "Moderately represented",
+    "paleo": "Late Cretaceous coastal plain of Alberta with ceratopsians, hadrosaurs and ankylosaurs.",
+    "evidence": "A robust skull and strong teeth distinguish Daspletosaurus from the slimmer Gorgosaurus with which it coexisted."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian, approximately 77-74 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Tyrannosauroidea",
+        "Tyrannosauridae",
+        "Tyrannosaurinae"
+      ],
+      "description": "Daspletosaurus was a large tyrannosaurine predator from Campanian rocks of western North America. D. torosus is known from multiple skulls and partial skeletons, while newer named species and proposed anagenetic succession remain actively debated.",
+      "facts": [
+        "The genus has strong cranial and postcranial evidence from multiple individuals.",
+        "Bonebeds and close associations do not by themselves prove permanent pack hunting.",
+        "Species-level ranges and assignments should be stated separately rather than merged into one long genus average."
+      ]
+    },
+    "ageReviewNote": "D. torosus is concentrated in the Oldman Formation near 77-76 Ma; younger Daspletosaurus material may represent other species.",
+    "sources": [
+      {
+        "type": "ontogeny-systematics",
+        "citation": "Carr et al. (2017), A new tyrannosaur with evidence for anagenesis and crocodile-like facial sensory system",
+        "url": "https://doi.org/10.1038/srep44942"
+      },
+      {
+        "type": "species-reassessment",
+        "citation": "Warshaw & Fowler (2022), A transitional Daspletosaurus species and tyrannosaurine anagenesis",
+        "url": "https://doi.org/10.7717/peerj.14461"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Daspletosaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Daspletosaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "Species boundaries and the proposed anagenetic sequence remain contested.",
+      "Social behaviour and precise mass estimates are indirect."
+    ],
+    "evidence": {
+      "score": 80,
+      "material": "Multiple skulls and partial-to-substantial skeletons across several individuals.",
+      "formations": [
+        "Oldman Formation",
+        "Dinosaur Park Formation",
+        "Two Medicine Formation"
+      ],
+      "confidenceLimit": "High for genus-level anatomy and predation; moderate for species allocation; low for social behaviour.",
+      "uncertainties": [
+        "species boundaries",
+        "anagenesis",
+        "social behaviour",
+        "mass"
+      ],
+      "summary": "Daspletosaurus was a large tyrannosaurine predator from Campanian rocks of western North America. D. torosus is known from multiple skulls and partial skeletons, while newer named species and proposed anagenetic succession remain actively debated.",
+      "sourceBasis": "Carr et al. (2017), A new tyrannosaur with evidence for anagenesis and crocodile-like facial sensory system; Warshaw & Fowler (2022), A transitional Daspletosaurus species and tyrannosaurine anagenesis; Paleobiology Database taxon and occurrence context for Daspletosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

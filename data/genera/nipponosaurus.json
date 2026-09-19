@@ -1,0 +1,151 @@
+{
+  "id": "nipponosaurus",
+  "name": "Nipponosaurus",
+  "profile": {
+    "overview": [
+      "Nipponosaurus (meaning 'Japanese lizard') was a lambeosaurine hadrosaurid dinosaur from the Late Cretaceous (approximately 86–72 million years ago) of what is now Sakhalin Island, Russia — a region that was Japanese-controlled Karafuto at the time of discovery. It is known from a partial skull and postcranial skeleton of a juvenile individual recovered from the Ryugase Formation. Size is uncertain given the juvenile nature of the material.",
+      "Described by Nagao in 1936, Nipponosaurus holds the distinction of being one of the first dinosaurs described from territory then under Japanese administration, making it culturally and historically significant in East Asian palaeontology. Its classification within Lambeosaurinae places it among the crested duck-billed dinosaurs, though the exact form of its crest cannot be determined from the known juvenile specimen."
+    ],
+    "fossilSites": [
+      {
+        "name": "Ryugase Formation",
+        "region": "Sakhalin, Russia",
+        "lat": 47.5,
+        "lon": 142.7,
+        "note": "Late Santonian marine-influenced deposits on Sakhalin Island that yielded the only known Nipponosaurus specimen."
+      },
+      {
+        "name": "Yezo Group region",
+        "region": "Hokkaido, Japan",
+        "lat": 43.5,
+        "lon": 143,
+        "note": "Contemporaneous Late Cretaceous deposits of northern Japan where lambeosaurine material has occasionally been reported, potentially related to Nipponosaurus or close relatives."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Lambeosaurinae",
+        "Nipponosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Lambeosaurinae",
+          "label": "Parasaurolophus"
+        },
+        {
+          "from": "Lambeosaurinae",
+          "label": "Corythosaurus"
+        },
+        {
+          "from": "Hadrosauridae",
+          "label": "Saurolophinae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Nipponosaurus sachalinensis was described by Nagao in 1936 from a partial skeleton excavated on Sakhalin (then Japanese Karafuto). The genus name reflects Japan ('Nippon') and the species name refers to Sakhalin. The specimen represents a sub-adult individual, complicating direct size comparisons with adult members of related genera."
+      },
+      {
+        "title": "Fossil Material and Limitations",
+        "body": "The known material includes parts of the skull, vertebrae, limb elements and girdle bones, all from a single juvenile or sub-adult individual. The incompleteness and juvenile status of the holotype have made phylogenetic placement within Lambeosaurinae uncertain; some analyses support a close relationship with Asian lambeosaurines such as Olorotitan."
+      },
+      {
+        "title": "Palaeogeography",
+        "body": "The occurrence of a lambeosaurine hadrosaur on Late Cretaceous Sakhalin documents faunal connection between the Asian mainland and Sakhalin during the Santonian. This island-to-continent biogeographic link is relevant to understanding how hadrosaurs dispersed across the Late Cretaceous Pacific rim."
+      },
+      {
+        "title": "Historical Significance",
+        "body": "Nipponosaurus was one of only a handful of dinosaurs known from East Asian territory controlled by Japan in the prewar period and was important in establishing Japanese interest in palaeontology. It remains the only dinosaur species formally described from Sakhalin Island."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Nipponosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/nipponosaurus.html"
+      },
+      {
+        "label": "PBDB: Nipponosaurus occurrences",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38775"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Ryugase Formation, Sakhalin, Russia; Yezo Group region, Hokkaido, Japan",
+    "material": "The incompleteness and juvenile status of the holotype have made phylogenetic placement within Lambeosaurinae uncertain; some analyses support a close relationship with Asian lambeosaurines such as Olorotitan.",
+    "completeness": "Partial material known; 1 PBDB occurrence records.",
+    "paleo": "Late Santonian marine-influenced deposits on Sakhalin Island that yielded the only known Nipponosaurus specimen.",
+    "evidence": "Described by Nagao in 1936, Nipponosaurus holds the distinction of being one of the first dinosaurs described from territory then under Japanese administration, making it culturally and historically significant in East Asian palaeontology."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Santonian, about 86-84 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Lambeosaurinae"
+      ],
+      "description": "Nipponosaurus sachalinensis was a lambeosaurine hadrosaurid from southern Sakhalin, Russia, represented by one roughly 60%-complete immature skeleton.",
+      "facts": [
+        "The holotype includes parts of the skull, vertebral column and limbs recovered in two excavations.",
+        "Histological and skeletal features show it was not fully grown.",
+        "Modern reanalysis supports its validity, but its exact position within Lambeosaurinae is sensitive to ontogeny."
+      ]
+    },
+    "ageReviewNote": "The marine Yezo Group horizon is Santonian; the specimen was found on Sakhalin when southern Sakhalin was under Japanese administration.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Suzuki, Weishampel & Minoura (2004), anatomy and systematics of Nipponosaurus",
+        "url": "https://doc.rero.ch/record/15180/files/PAL_E2456.pdf"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Takasaki et al. (2018), phylogenetic reanalysis of Nipponosaurus",
+        "url": "https://doi.org/10.1080/08912963.2017.1317766"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: nipponosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/nipponosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Only one immature individual is known.",
+      "Adult crest form and mature size are unknown."
+    ],
+    "evidence": {
+      "score": 68,
+      "material": "Single associated subadult skeleton, approximately 60% complete.",
+      "formations": "Upper Yezo Group, southern Sakhalin, Russia.",
+      "confidenceLimit": "Adult anatomy and population variation cannot be inferred confidently.",
+      "uncertainties": [
+        "ontogenetic effects on diagnosis",
+        "adult crest"
+      ],
+      "summary": "Nipponosaurus sachalinensis was a lambeosaurine hadrosaurid from southern Sakhalin, Russia, represented by one roughly 60%-complete immature skeleton.",
+      "sourceBasis": "Suzuki, Weishampel & Minoura (2004), anatomy and systematics of Nipponosaurus; Takasaki et al. (2018), phylogenetic reanalysis of Nipponosaurus; Natural History Museum Dino Directory: nipponosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

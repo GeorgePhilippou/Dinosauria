@@ -1,0 +1,148 @@
+{
+  "id": "sinovenator",
+  "name": "Sinovenator",
+  "profile": {
+    "overview": [
+      "Sinovenator (meaning 'Chinese hunter') was a small troodontid theropod from the Early Cretaceous of Liaoning Province, China, living approximately 127–121 million years ago. Estimated at about 1 metre in length, it is one of the earliest and most basal known troodontids, and partial skeletons and skulls have been recovered from the Yixian Formation. Its discovery shed important light on the origins of the Troodontidae and their relationships with other paravian theropods.",
+      "Named by Xu, Norell, Wang, Makovicky, and Wu in 2002, Sinovenator changii is significant because it preserves a combination of features shared with dromaeosaurids and birds alongside distinctly troodontid characteristics. It documents that troodontids were already present and diversifying in northeastern China during the Early Cretaceous, contemporaneous with some of the earliest birds. The presence of Sinovenatorinae as a subfamily designation reflects its basal position within the troodontid radiation."
+    ],
+    "fossilSites": [
+      {
+        "name": "Yixian Formation (Lujiatun beds)",
+        "region": "Liaoning Province, China",
+        "lat": 41.5,
+        "lon": 120.5,
+        "note": "The holotype partial skeleton of Sinovenator was recovered from Yixian Formation deposits in Liaoning, part of the celebrated Jehol Biota."
+      },
+      {
+        "name": "Jiufotang Formation",
+        "region": "Liaoning Province, China",
+        "lat": 41.7,
+        "lon": 120.8,
+        "note": "Correlative younger beds of the Jiufotang Formation have yielded additional small troodontid material possibly referable to Sinovenator or closely related taxa."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Tetanurae",
+        "Avetheropoda",
+        "Coelurosauria",
+        "Maniraptora",
+        "Paraves",
+        "Troodontidae",
+        "Sinovenatorinae",
+        "Sinovenator"
+      ],
+      "sideBranches": [
+        {
+          "from": "Troodontidae",
+          "label": "Troodon / Stenonychosaurus"
+        },
+        {
+          "from": "Paraves",
+          "label": "Dromaeosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Sinovenator changii was described in 2002 by Xu Xing, Mark Norell, Wang Xiaolin, Peter Makovicky, and Wu Xichuan from specimens collected in Liaoning Province. The species name honours Chang Meemann, a prominent Chinese palaeontologist. The holotype consists of partial skull and postcranial elements, with additional referred material providing further anatomical information."
+      },
+      {
+        "title": "Basal Troodontid Position",
+        "body": "Sinovenator is one of the most primitive troodontids known. It retains several plesiomorphic (ancestral) features shared with other paravians, including relatively simple teeth, that contrast with the highly derived dental batteries of later troodontids like Troodon. Its basal position helps anchor the troodontid family tree and trace the acquisition of distinctive troodontid features through time."
+      },
+      {
+        "title": "Relationships to Birds",
+        "body": "As a troodontid, Sinovenator was closely related to birds within the broader Paraves clade. Its skull shows features broadly intermediate between more basal coelurosaurs and avians, contributing to ongoing debate about which paravian lineage is most closely related to Aves. The presence of early troodontids alongside early birds in the Jehol Biota underscores the close ecological and phylogenetic proximity of these groups."
+      },
+      {
+        "title": "Jehol Biota Context",
+        "body": "Sinovenator lived alongside a remarkable diversity of feathered dinosaurs and early birds in the Yixian Formation ecosystem. Contemporaries included Sinornithosaurus, Sinocalliopteryx, Microraptor, and numerous enantiornithine birds. This dense assemblage makes the Jehol Biota one of the best windows into paravian diversification during the Early Cretaceous."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Sinovenator profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/sinovenator.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Yixian Formation (Lujiatun beds), Liaoning Province, China; Jiufotang Formation, Liaoning Province, China",
+    "material": "The holotype consists of partial skull and postcranial elements, with additional referred material providing further anatomical information.",
+    "completeness": "Partial skeletal material known; 4 PBDB occurrence records.",
+    "paleo": "The holotype partial skeleton of Sinovenator was recovered from Yixian Formation deposits in Liaoning, part of the celebrated Jehol Biota.",
+    "evidence": "Named by Xu, Norell, Wang, Makovicky, and Wu in 2002, Sinovenator changii is significant because it preserves a combination of features shared with dromaeosaurids and birds alongside distinctly troodontid characteristics."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "Barremian, about 125.8-124.1 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Troodontidae"
+      ],
+      "description": "Sinovenator changii was a small early troodontid from the Yixian Formation, known from several partial skeletons including skull material.",
+      "facts": [
+        "Its mosaic anatomy helped establish close relationships among troodontids, dromaeosaurids and birds.",
+        "No direct diet or feather impressions are established for the principal type material."
+      ]
+    },
+    "ageReviewNote": "High-precision dating brackets the Yixian Formation at 125.755-124.122 Ma, within the Barremian on the current time scale.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Xu et al. (2002), original description of Sinovenator",
+        "url": "https://doi.org/10.1038/415780a"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Zhong et al. (2021), high-precision dating of the Yixian Formation",
+        "url": "https://doi.org/10.1093/nsr/nwab063"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: sinovenator",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/sinovenator.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Some referred specimens and ontogenetic stages require careful comparison."
+    ],
+    "evidence": {
+      "score": 72,
+      "material": "Several partial skeletons, including cranial and postcranial elements.",
+      "formations": "Yixian Formation, Liaoning, China.",
+      "confidenceLimit": "Exact diet, plumage and adult size remain inferred.",
+      "uncertainties": [
+        "referrals",
+        "adult size",
+        "diet"
+      ],
+      "summary": "Sinovenator changii was a small early troodontid from the Yixian Formation, known from several partial skeletons including skull material.",
+      "sourceBasis": "Xu et al. (2002), original description of Sinovenator; Zhong et al. (2021), high-precision dating of the Yixian Formation; Natural History Museum Dino Directory: sinovenator"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

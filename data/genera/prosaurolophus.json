@@ -1,0 +1,159 @@
+{
+  "id": "prosaurolophus",
+  "name": "Prosaurolophus",
+  "profile": {
+    "overview": [
+      "Prosaurolophus (meaning 'before Saurolophus') was a large hadrosaurid dinosaur from the Late Cretaceous of North America, living approximately 83–75 million years ago. Named by Barnum Brown in 1916, it reached about 7.6 metres in length and is known from the Two Medicine, Dinosaur Park, and Belly River Formations of Montana and Alberta. It had a low, forwardly-directed nasal crest that is regarded as the precursor to the larger crest of the related genus Saurolophus.",
+      "Prosaurolophus is scientifically notable for being known from an exceptional number of individuals—24 to 29 specimens, some of them articulated—making it one of the better-sampled hadrosaurs of the Campanian. It belongs to the subfamily Hadrosaurinae (saurolophines) and its excellent fossil record has been used to study ontogeny, population biology, and the evolution of crests in duck-billed dinosaurs."
+    ],
+    "fossilSites": [
+      {
+        "name": "Dinosaur Park Formation",
+        "region": "Alberta, Canada",
+        "lat": 51,
+        "lon": -111.5,
+        "note": "Campanian formation famous for its diversity of dinosaurs; a major source of Prosaurolophus skeletons."
+      },
+      {
+        "name": "Two Medicine Formation",
+        "region": "Montana, USA",
+        "lat": 48.2,
+        "lon": -112.5,
+        "note": "Another key Campanian unit yielding Prosaurolophus material alongside other hadrosaurs and ceratopsians."
+      },
+      {
+        "name": "Belly River Formation",
+        "region": "Alberta, Canada",
+        "lat": 49.8,
+        "lon": -111,
+        "note": "Older term for related Late Cretaceous deposits in Alberta also attributed to Prosaurolophus fauna."
+      },
+      {
+        "name": "Bearpaw Shale",
+        "region": "Montana, USA",
+        "lat": 48,
+        "lon": -107,
+        "note": "Marine shale deposits with isolated Prosaurolophus material transported from coastal environments."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Euhadrosauria",
+        "Hadrosaurinae",
+        "Saurolophini",
+        "Prosaurolophus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Hadrosaurinae",
+          "label": "Saurolophus"
+        },
+        {
+          "from": "Euhadrosauria",
+          "label": "Lambeosaurinae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Prosaurolophus maximus was named by Barnum Brown in 1916 from material collected in Alberta by the American Museum of Natural History expeditions. The name acknowledges its morphological similarity to, and presumed ancestry of, Saurolophus. A second species, P. blackfeetensis, was later named from Montana material."
+      },
+      {
+        "title": "Exceptional Fossil Record",
+        "body": "With 24 to 29 known individuals including articulated skeletons, Prosaurolophus provides an unusually rich sample for a Cretaceous dinosaur. This has allowed researchers to study individual variation, growth stages from juvenile to adult, and sexual dimorphism, topics that are difficult to investigate in genera known from only one or two specimens."
+      },
+      {
+        "title": "Crest Morphology and Evolution",
+        "body": "The low, solid nasal crest of Prosaurolophus points forward over the snout and is regarded as an evolutionary precursor to the more elaborate crest of Saurolophus. Studying the series of forms from flat-headed hadrosaurs through Prosaurolophus to Saurolophus has informed hypotheses about how hadrosaur crests evolved for display or vocalisation."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "Prosaurolophus lived on the western coastal plain of the Western Interior Seaway during the Campanian. Lush subtropical forests and river deltas provided abundant vegetation. It co-existed with ceratopsians such as Styracosaurus, large tyrannosaurs, and a diverse array of other hadrosaurs including lambeosaurines."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Prosaurolophus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/prosaurolophus.html"
+      },
+      {
+        "label": "PBDB: Prosaurolophus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Prosaurolophus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Dinosaur Park Formation, Alberta, Canada; Two Medicine Formation, Montana, USA; Belly River Formation, Alberta, Canada; Bearpaw Shale, Montana, USA",
+    "material": "This has allowed researchers to study individual variation, growth stages from juvenile to adult, and sexual dimorphism, topics that are difficult to investigate in genera known from only one or two specimens.",
+    "completeness": "Skeletal material known; 15 PBDB occurrence records.",
+    "paleo": "Campanian formation famous for its diversity of dinosaurs; a major source of Prosaurolophus skeletons.",
+    "evidence": "Prosaurolophus is scientifically notable for being known from an exceptional number of individuals—24 to 29 specimens, some of them articulated—making it one of the better-sampled hadrosaurs of the Campanian."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian, about 76-74 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Saurolophinae",
+        "Saurolophini"
+      ],
+      "description": "Prosaurolophus maximus was a saurolophine hadrosaurid from the Dinosaur Park and Two Medicine formations, known from numerous articulated skulls and partial skeletons across a growth series.",
+      "facts": [
+        "Ten articulated skulls document substantial individual and ontogenetic variation.",
+        "Prosaurolophus blackfeetensis is best treated as a junior synonym of P. maximus in the modern quantitative revision.",
+        "The small nasal crest is bony; any associated inflatable soft-tissue display structure remains speculative."
+      ]
+    },
+    "ageReviewNote": "Secure P. maximus material spans the late Campanian Dinosaur Park and Two Medicine formations.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "McGarrity, Campione & Evans (2013), cranial anatomy and variation in Prosaurolophus",
+        "url": "https://doi.org/10.1111/zoj.12009"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: prosaurolophus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/prosaurolophus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Soft-tissue structures associated with the crest are unknown.",
+      "Species-level range depends on accepting P. blackfeetensis synonymy."
+    ],
+    "evidence": {
+      "score": 85,
+      "material": "Numerous complete articulated skulls and multiple partial skeletons of different growth stages.",
+      "formations": "Dinosaur Park Formation, Alberta; Two Medicine Formation, Montana.",
+      "confidenceLimit": "Crest soft tissue, colour and exact social signalling cannot be recovered.",
+      "uncertainties": [
+        "soft-tissue display",
+        "range under alternate taxonomy"
+      ],
+      "summary": "Prosaurolophus maximus was a saurolophine hadrosaurid from the Dinosaur Park and Two Medicine formations, known from numerous articulated skulls and partial skeletons across a growth series.",
+      "sourceBasis": "McGarrity, Campione & Evans (2013), cranial anatomy and variation in Prosaurolophus; Natural History Museum Dino Directory: prosaurolophus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

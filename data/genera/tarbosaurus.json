@@ -1,0 +1,138 @@
+{
+  "id": "tarbosaurus",
+  "name": "Tarbosaurus",
+  "profile": {
+    "overview": [
+      "Tarbosaurus bataar was the apex predator of the Late Cretaceous Nemegt Formation of Mongolia (~70 Ma) — the Asian ecological equivalent of Tyrannosaurus, reaching similar size and filling an identical predatory role in a contemporaneous but geographically distinct ecosystem. Its skull is proportionally even narrower than T. rex and its forelimbs particularly reduced.",
+      "Whether Tarbosaurus should be synonymised with Tyrannosaurus (as T. bataar) has been debated since the 1990s. Most current analyses treat them as separate genera based on consistent skull proportions, biogeography and the principle that combining them would require unexplained intercontinental dispersal. The Beringian land bridge may have allowed some exchange, but differences between the two are well supported."
+    ],
+    "fossilSites": [
+      {
+        "name": "Nemegt Formation",
+        "region": "Ömnögovi Province, Mongolia",
+        "lat": 43.2,
+        "lon": 101,
+        "note": "Late Cretaceous fluvial and aeolian beds with the richest Tarbosaurus record; dozens of specimens from juvenile to adult."
+      },
+      {
+        "name": "Subashi Formation",
+        "region": "Xinjiang, China",
+        "lat": 42,
+        "lon": 88,
+        "note": "Chinese Late Cretaceous deposits with tyrannosaurid material possibly referrable to Tarbosaurus."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Tyrannosauroidea",
+        "Tyrannosauridae",
+        "Tyrannosaurinae",
+        "Tarbosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Tyrannosaurinae",
+          "label": "Tyrannosaurus"
+        },
+        {
+          "from": "Tyrannosaurinae",
+          "label": "Daspletosaurus"
+        },
+        {
+          "from": "Tyrannosauridae",
+          "label": "Alioramus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and taxonomy",
+        "body": "Described by Maleev in 1955 from Mongolian material collected by Soviet expeditions, Tarbosaurus bataar has been the subject of repeated synonymy debates with Tyrannosaurus. Modern phylogenetic and morphological analyses consistently recover them as sister taxa or close relatives but distinct genera — the current consensus. A smuggled Tarbosaurus skeleton sold at US auction in 2012 was seized and returned to Mongolia after legal action."
+      },
+      {
+        "title": "Anatomy",
+        "body": "The skull is proportionally narrow with a strongly kinetic palate and binocular vision comparable to T. rex. The forelimbs are proportionally even smaller than in T. rex, and the hand has just two functional fingers. Bone texture studies indicate some very large specimens were still growing at death."
+      },
+      {
+        "title": "Nemegt ecosystem",
+        "body": "The Nemegt Formation records a warm, well-watered floodplain with rivers, lakes and seasonal drought. Tarbosaurus preyed on giant hadrosaurs (Saurolophus, Barsboldia) and sauropods (Nemegtosaurus), in addition to smaller ornithischians. Alioramus may have occupied a different prey niche in the same ecosystem."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Tarbosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/tarbosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Nemegt Formation, Mongolia",
+    "material": "Multiple skulls and skeletons across growth stages.",
+    "completeness": "Very well represented",
+    "paleo": "Late Cretaceous Nemegt floodplain ecosystem of Mongolia with hadrosaurs, sauropods and ornithomimosaurs.",
+    "evidence": "A growth series documents ontogenetic changes similar to Tyrannosaurus; detailed skull comparison supports its separation from T. rex."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Maastrichtian, about 70-66 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Tyrannosauridae",
+        "Tyrannosaurinae"
+      ],
+      "description": "Tarbosaurus bataar was a large tyrannosaurine from the Nemegt Formation of Mongolia, known from numerous skulls and skeletons across growth stages.",
+      "facts": [
+        "Most current analyses retain Tarbosaurus as distinct from Tyrannosaurus, though the combination Tyrannosaurus bataar has historical use.",
+        "Juveniles had proportionally longer, lower skulls and changed feeding mechanics through growth."
+      ]
+    },
+    "ageReviewNote": "Nemegt Formation specimens are Maastrichtian, about 70-66 Ma.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Hurum & Sabath (2003), skulls of Tarbosaurus and Tyrannosaurus compared",
+        "url": "https://app.pan.pl/streszczenie/item/app48-161.html"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Tsuihiji et al. (2011), juvenile Tarbosaurus anatomy",
+        "url": "https://doi.org/10.1080/02724634.2011.557116"
+      }
+    ],
+    "residualUncertainty": [
+      "Generic separation from Tyrannosaurus and species-level referrals remain discussed."
+    ],
+    "evidence": {
+      "score": 98,
+      "material": "Numerous skulls and partial to nearly complete skeletons from juvenile to adult stages.",
+      "formations": "Nemegt Formation, Mongolia.",
+      "confidenceLimit": "Keep growth stages and debated generic nomenclature explicit.",
+      "uncertainties": [
+        "generic boundary",
+        "ontogenetic ecology"
+      ],
+      "summary": "Tarbosaurus bataar was a large tyrannosaurine from the Nemegt Formation of Mongolia, known from numerous skulls and skeletons across growth stages.",
+      "sourceBasis": "Hurum & Sabath (2003), skulls of Tarbosaurus and Tyrannosaurus compared; Tsuihiji et al. (2011), juvenile Tarbosaurus anatomy"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

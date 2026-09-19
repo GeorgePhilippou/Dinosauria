@@ -1,0 +1,166 @@
+{
+  "id": "euhelopus",
+  "name": "Euhelopus",
+  "profile": {
+    "overview": [
+      "Euhelopus (meaning 'good marsh foot') was a long-necked sauropod dinosaur from China, living during the Late Jurassic to Early Cretaceous, approximately 154–100 million years ago. Estimated at around 10 metres in length, it is known from a skull and partial postcranial skeletons from Shandong Province, representing one of the few Asian sauropods known from cranial material. Its placement within Euhelopodidae groups it with other distinctively long-necked Asian sauropods, and its anatomy contributes to understanding of early titanosauriform evolution in Asia.",
+      "Euhelopus zdanskyi was originally named Helopus by Friedrich von Huene in 1929, before being renamed Euhelopus by Alfred Sherwood Romer in 1956 because Helopus was preoccupied. The specimen was collected from the Mengyin Formation of Shandong by Otto Zdansky, a Swedish palaeontologist working in China in the 1920s. Euhelopus holds a special place in sauropod studies as it was one of the first Asian sauropods to be scientifically described based on reasonably complete material."
+    ],
+    "fossilSites": [
+      {
+        "name": "Mengyin Formation",
+        "region": "Shandong, China",
+        "lat": 35.7,
+        "lon": 117.9,
+        "note": "Primary type locality; the holotype skull and vertebral column were collected from this Early Cretaceous formation by Otto Zdansky in the 1920s."
+      },
+      {
+        "name": "Shahai Formation",
+        "region": "Liaoning, China",
+        "lat": 41.5,
+        "lon": 121,
+        "note": "Referred sauropod material from Liaoning attributed to Euhelopus or closely related euhelopodids."
+      },
+      {
+        "name": "Tugulu Formation",
+        "region": "Xinjiang, China",
+        "lat": 44,
+        "lon": 86,
+        "note": "Additional occurrences from Xinjiang extend the known distribution of euhelopodid sauropods across northern China."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Titanosauriformes",
+        "Euhelopodidae",
+        "Euhelopus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Euhelopodidae",
+          "label": "Erketu"
+        },
+        {
+          "from": "Titanosauriformes",
+          "label": "Brachiosauridae"
+        },
+        {
+          "from": "Titanosauriformes",
+          "label": "Titanosauria"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "The type specimen of Euhelopus was collected from Shandong Province, China, by Otto Zdansky during the Sino-Swedish Expedition in the 1920s and described by Friedrich von Huene in 1929 as Helopus zdanskyi. Romer renamed it Euhelopus in 1956 after discovering that Helopus was already in use for a bird. The name means 'good marsh foot', though the inference of a marsh-dwelling habitat is outdated."
+      },
+      {
+        "title": "Cranial Anatomy",
+        "body": "Euhelopus is notable for having associated skull material, a rarity among sauropods. The skull has a relatively elongated snout, spatulate teeth, and large narial openings. These features have contributed to phylogenetic analyses placing Euhelopus within Asian titanosauriforms, though its exact position has been debated — some analyses have historically placed euhelopodids in varying positions within Eusauropoda or Titanosauriformes."
+      },
+      {
+        "title": "Asian Sauropod Biogeography",
+        "body": "Euhelopus is part of a distinct lineage of Asian sauropods that includes long-necked forms such as Mamenchisaurus and Erketu. During the Cretaceous, Asia was largely isolated from other landmasses, promoting the evolution of endemic dinosaur faunas. The euhelopodid lineage appears to have been a persistent element of Asian sauropod diversity from the Jurassic through much of the Cretaceous."
+      },
+      {
+        "title": "Ecological Reconstruction",
+        "body": "As a moderately large sauropod with an elongated neck, Euhelopus was likely a high-browser or mid-level browser in forested or woodland environments. The relatively gracile build compared to titanosaurian sauropods suggests it was not the heaviest plant-eater in its ecosystem. Its distribution across multiple formations and provinces in China suggests a wide geographic range during its existence."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Euhelopus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/euhelopus.html"
+      },
+      {
+        "label": "PBDB: Euhelopus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Euhelopus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Mengyin Formation, Shandong, China; Shahai Formation, Liaoning, China; Tugulu Formation, Xinjiang, China",
+    "material": "The type specimen of Euhelopus was collected from Shandong Province, China, by Otto Zdansky during the Sino-Swedish Expedition in the 1920s and described by Friedrich von Huene in 1929 as Helopus zdanskyi.",
+    "completeness": "Partial material known; 5 PBDB occurrence records.",
+    "paleo": "Primary type locality; the holotype skull and vertebral column were collected from this Early Cretaceous formation by Otto Zdansky in the 1920s.",
+    "evidence": "Euhelopus zdanskyi was originally named Helopus by Friedrich von Huene in 1929, before being renamed Euhelopus by Alfred Sherwood Romer in 1956 because Helopus was preoccupied."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "probably Barremian-Aptian, about 129-113 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Neosauropoda",
+        "Macronaria",
+        "Titanosauriformes",
+        "Euhelopodidae"
+      ],
+      "description": "Euhelopus zdanskyi was a long-necked quadrupedal herbivorous titanosauriform from the Mengyin Formation of Shandong, China. Two associated partial skeletons, including a well-preserved skull, make it important, but the age of the Mengyin Formation has a long history of conflicting assignments.",
+      "facts": [
+        "The type material comprises two individuals with complementary skull and postcranial material.",
+        "A complete body is not preserved and the commonly illustrated skeleton is composite.",
+        "Modern redescription places it among East Asian somphospondylan titanosauriforms, often in Euhelopodidae."
+      ]
+    },
+    "ageReviewNote": "Early Cretaceous follows the modern redescription; older Late Jurassic assignments remain part of the stratigraphic debate and the numerical range is approximate.",
+    "sources": [
+      {
+        "type": "systematic-redescription",
+        "citation": "Wilson & Upchurch (2009), Redescription and affinities of Euhelopus zdanskyi",
+        "url": "https://doi.org/10.1017/S1477201908002691"
+      },
+      {
+        "type": "cranial-atlas",
+        "citation": "Poropat & Kear (2013), Photographic atlas of the Euhelopus skull",
+        "url": "https://doi.org/10.1371/journal.pone.0079932"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Euhelopus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Euhelopus"
+      }
+    ],
+    "residualUncertainty": [
+      "The age of the Mengyin Formation is not tightly constrained.",
+      "The association and completeness of the two individuals limit size estimates.",
+      "Position within Somphospondyli varies among analyses."
+    ],
+    "evidence": {
+      "score": 60,
+      "material": "Two associated partial skeletons including substantial skull and neck material.",
+      "formations": [
+        "Mengyin Formation"
+      ],
+      "confidenceLimit": "High for diagnostic anatomy; moderate for age, body proportions and exact phylogeny.",
+      "uncertainties": [
+        "formation age",
+        "composite proportions",
+        "euhelopodid relationships"
+      ],
+      "summary": "Euhelopus zdanskyi was a long-necked quadrupedal herbivorous titanosauriform from the Mengyin Formation of Shandong, China. Two associated partial skeletons, including a well-preserved skull, make it important, but the age of the Mengyin Formation has a long history of conflicting assignments.",
+      "sourceBasis": "Wilson & Upchurch (2009), Redescription and affinities of Euhelopus zdanskyi; Poropat & Kear (2013), Photographic atlas of the Euhelopus skull; Paleobiology Database taxon and occurrence context for Euhelopus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "id": "mononykus",
+  "name": "Mononykus",
+  "profile": {
+    "overview": [
+      "Mononykus (meaning 'single claw') was a small alvarezsaurid theropod that lived during the Late Cretaceous, approximately 83–66 million years ago, in what is now Mongolia. It is known from partial skeletal material recovered from the Nemegt and Djadokhta Formations of the Omnogovi region. Estimated at roughly 1 metre in length, it was a lightly built, ground-dwelling carnivore that walked on two legs.",
+      "Named by Perle, Norell, Chiappe and Clark in 1993, Mononykus is among the best-studied alvarezsaurids and has been central to debates about the relationship between birds and non-avian theropods. Its most distinctive feature is the extreme reduction of the forelimb to a single robust functional claw, thought to have been used for digging into insect nests. Its placement within Parvicursorinae makes it a key taxon for understanding the evolution of this unusual clade."
+    ],
+    "fossilSites": [
+      {
+        "name": "Nemegt Formation",
+        "region": "Omnogovi, Mongolia",
+        "lat": 43.5,
+        "lon": 100.5,
+        "note": "Rich Late Cretaceous site that has yielded partial Mononykus skeletal material alongside numerous other theropods."
+      },
+      {
+        "name": "Djadokhta Formation",
+        "region": "Omnogovi, Mongolia",
+        "lat": 43.8,
+        "lon": 102,
+        "note": "Desert-dune deposit of Campanian age where additional alvarezsaurid occurrences have been recorded."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Tetanurae",
+        "Avetheropoda",
+        "Coelurosauria",
+        "Tyrannoraptora",
+        "Maniraptoriformes",
+        "Maniraptora",
+        "Alvarezsauridae",
+        "Parvicursorinae",
+        "Mononykus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Maniraptora",
+          "label": "Dromaeosauridae"
+        },
+        {
+          "from": "Maniraptora",
+          "label": "Troodontidae"
+        },
+        {
+          "from": "Alvarezsauridae",
+          "label": "Alvarezsaurinae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Mononykus was described in 1993 by Perle, Norell, Chiappe and Clark on the basis of partial skeletons from Mongolia. The genus name means 'single claw' in Greek, referring to the animal's dramatically reduced forelimb ending in one large functional digit. Earlier material had been referred to 'Mononychus' but that name was preoccupied, leading to the amended spelling."
+      },
+      {
+        "title": "Anatomy and Distinctive Features",
+        "body": "The most striking feature of Mononykus is its forelimb: the radius and ulna are fused and very short, while digits II and III are vestigial, leaving only digit I as a powerful, stout claw. The hindlimbs are long and slender, consistent with a fast-running lifestyle. The skull was small and lightly built with relatively large eye sockets."
+      },
+      {
+        "title": "Diet and Ecology",
+        "body": "Palaeontological consensus regards Mononykus as a carnivore, most plausibly specialised for breaking open termite mounds or similar colonial insect nests — a diet analogous to modern anteaters. PBDB ecospace data categorises it as ground-dwelling and solitary. It inhabited the arid-to-semi-arid environments of Late Cretaceous central Asia."
+      },
+      {
+        "title": "Phylogenetic Significance",
+        "body": "When first described, Mononykus was controversially proposed as a flightless bird more derived than Archaeopteryx, sparking intense debate about the bird–dinosaur boundary. Subsequent cladistic analyses placed it firmly within Alvarezsauridae, a clade of maniraptorans, and it is no longer considered a flightless bird. Nevertheless, the controversy spurred important work clarifying the characters that diagnose Avialae."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Mononykus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/mononykus.html"
+      },
+      {
+        "label": "PBDB: Mononykus occurrences",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=53210"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Nemegt Formation, Omnogovi, Mongolia; Djadokhta Formation, Omnogovi, Mongolia",
+    "material": "It is known from partial skeletal material recovered from the Nemegt and Djadokhta Formations of the Omnogovi region.",
+    "completeness": "Partial skeletal material known; 6 PBDB occurrence records.",
+    "paleo": "Rich Late Cretaceous site that has yielded partial Mononykus skeletal material alongside numerous other theropods.",
+    "evidence": "Named by Perle, Norell, Chiappe and Clark in 1993, Mononykus is among the best-studied alvarezsaurids and has been central to debates about the relationship between birds and non-avian theropods."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Maastrichtian, about 70-66 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Alvarezsauria",
+        "Alvarezsauridae",
+        "Parvicursorinae"
+      ],
+      "description": "Mononykus olecranus was a small alvarezsaurid from the Nemegt Formation of Mongolia, known from an incomplete skeleton lacking a skull.",
+      "facts": [
+        "Its very short, powerful forelimb bears one dominant functional digit.",
+        "The specialised arm is directly preserved, but proposed use in opening insect nests remains a functional hypothesis.",
+        "The skull, diet and external covering are inferred mainly from other alvarezsaurs."
+      ]
+    },
+    "ageReviewNote": "The holotype is from the Maastrichtian Nemegt Formation; older intervals should not be added from relatives.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Altangerel Perle et al. (1993), Flightless bird from Cretaceous of Mongolia",
+        "url": "https://doi.org/10.1038/362623a0"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: mononykus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/mononykus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "No skull is known for the holotype.",
+      "Forelimb function and diet are not directly demonstrated."
+    ],
+    "evidence": {
+      "score": 55,
+      "material": "One incomplete postcranial skeleton with diagnostic forelimbs and hindlimb material.",
+      "formations": "Nemegt Formation, Mongolia.",
+      "confidenceLimit": "Head, teeth, diet and exact adult size remain uncertain.",
+      "uncertainties": [
+        "forelimb function",
+        "diet",
+        "cranial anatomy"
+      ],
+      "summary": "Mononykus olecranus was a small alvarezsaurid from the Nemegt Formation of Mongolia, known from an incomplete skeleton lacking a skull.",
+      "sourceBasis": "Altangerel Perle et al. (1993), Flightless bird from Cretaceous of Mongolia; Natural History Museum Dino Directory: mononykus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "id": "bellusaurus",
+  "name": "Bellusaurus",
+  "profile": {
+    "overview": [
+      "Bellusaurus was a small-to-medium sauropod from the Middle to Late Jurassic of China, approximately 162–155 million years ago (Oxfordian), found in the Shishugou Formation of Xinjiang. Its name means 'fine lizard', and it reached an estimated 5 metres in length. Notably, the known specimens represent juvenile or subadult individuals, as indicated by the unfused bone joints in the recovered material.",
+      "Named in 1990 by Dong Zhiming, Bellusaurus is significant because it is represented by at least 17 partial skeletons, likely forming a juvenile assemblage that may reflect herd behaviour or a mass-death event. Its phylogenetic position has been debated; it has been placed within Mamenchisauridae or as a macronarian, though the juvenile nature of the material complicates analysis. The gregarious lifestyle implied by the bone bed is of considerable palaeoecological interest."
+    ],
+    "fossilSites": [
+      {
+        "name": "Shishugou Formation",
+        "region": "Xinjiang, China",
+        "lat": 44.5,
+        "lon": 88,
+        "note": "Middle to Late Jurassic formation in the Junggar Basin yielding multiple juvenile Bellusaurus skeletons."
+      },
+      {
+        "name": "Junggar Basin",
+        "region": "Xinjiang, China",
+        "lat": 45,
+        "lon": 86,
+        "note": "Large Mesozoic sedimentary basin in northwest China with rich Jurassic dinosaur-bearing strata."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Eusauropoda",
+        "Mamenchisauridae",
+        "Bellusaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Mamenchisauridae",
+          "label": "Mamenchisaurus (long-necked Chinese relative)"
+        },
+        {
+          "from": "Eusauropoda",
+          "label": "Macronaria (diplodocoids' sister group)"
+        },
+        {
+          "from": "Sauropoda",
+          "label": "Diplodocoidea"
+        },
+        {
+          "from": "Eusauropoda",
+          "label": "Shunosaurus (Middle Jurassic Chinese sauropod)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Bellusaurus sui was named by Dong Zhiming and Azuma Yoichi in 1990 from the Shishugou Formation of Xinjiang. The material comprises at least 17 partial skeletons concentrated in a small area, suggesting a gregarious behaviour or a catastrophic event that killed multiple individuals simultaneously. The genus name means 'fine lizard', and the species honours the collector or locality."
+      },
+      {
+        "title": "Juvenile Nature of Material",
+        "body": "All known Bellusaurus individuals appear to be juveniles or subadults, based on unfused neurocentral sutures and relatively small body size. This means that the adult morphology of Bellusaurus remains unknown, and size estimates for mature individuals are speculative. The preponderance of juvenile material may indicate nesting or nursery behaviour, or simply a preservational bias."
+      },
+      {
+        "title": "Phylogenetic Position",
+        "body": "The phylogenetic placement of Bellusaurus has been uncertain. It has been assigned to Mamenchisauridae by some analyses and to Macronaria by others. The juvenile status of all specimens limits the number of adult diagnostic characters available for comparison, making robust phylogenetic analysis difficult. Future recovery of adult material would substantially resolve this uncertainty."
+      },
+      {
+        "title": "Palaeoecology",
+        "body": "The Shishugou Formation in the Late Jurassic was a lush, seasonally wet environment that also preserved the giant theropod Sinraptor and large sauropods like Mamenchisaurus. A juvenile assemblage of Bellusaurus would have been vulnerable to predation, and the bone bed may represent a catastrophic mortality event, perhaps related to drought or flooding."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Bellusaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/bellusaurus.html"
+      },
+      {
+        "label": "PBDB: Bellusaurus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Bellusaurus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Shishugou Formation, Xinjiang, China; Junggar Basin, Xinjiang, China",
+    "material": "Bellusaurus was a small-to-medium sauropod from the Middle to Late Jurassic of China, approximately 162–155 million years ago (Oxfordian), found in the Shishugou Formation of Xinjiang.",
+    "completeness": "Partial skeletal material known; 1 PBDB occurrence records.",
+    "paleo": "Middle to Late Jurassic formation in the Junggar Basin yielding multiple juvenile Bellusaurus skeletons.",
+    "evidence": "Named in 1990 by Dong Zhiming, Bellusaurus is significant because it is represented by at least 17 partial skeletons, likely forming a juvenile assemblage that may reflect herd behaviour or a mass-death event."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Mid Jurassic",
+      "mya": "about 168-163 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Eusauropoda",
+        "Neosauropoda"
+      ],
+      "description": "Bellusaurus sui was a small-bodied sauropod from the lower Shishugou Formation of Xinjiang, China. A bonebed preserves disarticulated remains of at least a dozen juveniles; adult anatomy and final body size are unknown.",
+      "facts": [
+        "Cranial and postcranial remains provide broad coverage across the juvenile skeleton.",
+        "Its small size is primarily an ontogenetic feature and should not be presented as a known adult maximum."
+      ],
+      "length": null
+    },
+    "ageReviewNote": "The lower Shishugou Formation is Middle Jurassic, usually Bathonian-Callovian.",
+    "sources": [
+      {
+        "type": "cranial-revision",
+        "citation": "Moore et al. (2018), Cranial anatomy of Bellusaurus sui",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5985764/"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: bellusaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/bellusaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "No confirmed adult is known.",
+      "Ontogeny affects its phylogenetic placement.",
+      "The bonebed accumulation process is not fully resolved."
+    ],
+    "evidence": {
+      "score": 78,
+      "material": "A disarticulated bonebed of at least twelve juvenile individuals, including skull and postcrania.",
+      "formations": [
+        "lower Shishugou Formation"
+      ],
+      "confidenceLimit": "Juvenile abundance documents early anatomy but not adult dimensions or mature character states.",
+      "uncertainties": [
+        "No confirmed adult is known.",
+        "Ontogeny affects its phylogenetic placement.",
+        "The bonebed accumulation process is not fully resolved."
+      ],
+      "summary": "Bellusaurus sui was a small-bodied sauropod from the lower Shishugou Formation of Xinjiang, China. A bonebed preserves disarticulated remains of at least a dozen juveniles; adult anatomy and final body size are unknown.",
+      "sourceBasis": "Moore et al. (2018), Cranial anatomy of Bellusaurus sui; Natural History Museum, Dino Directory: bellusaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

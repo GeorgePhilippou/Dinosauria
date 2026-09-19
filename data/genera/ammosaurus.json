@@ -1,0 +1,396 @@
+{
+  "id": "ammosaurus",
+  "name": "Ammosaurus",
+  "profile": {
+    "overview": [
+      "Ammosaurus major was a basal sauropodomorph dinosaur that lived in what is now the northeastern United States and Canada during the Early Jurassic, approximately 200–199 million years ago. It was about 5 metres long and closely resembled its relative Anchisaurus, sharing a lightly built body plan suited to facultative bipedality. Fossils have been recovered from the McCoy Brook Formation of Nova Scotia and from Connecticut and Massachusetts.",
+      "Described by Marsh in 1891, Ammosaurus belongs to the family Anchisauridae and is one of the early sauropodomorphs known from North America. Its exact relationship to Anchisaurus has been debated, with some researchers considering the two genera closely allied or even synonymous. It provides evidence that anchisaurid sauropodomorphs were geographically widespread across Laurasia in the earliest Jurassic."
+    ],
+    "fossilSites": [
+      {
+        "name": "McCoy Brook Formation",
+        "region": "Nova Scotia, Canada",
+        "lat": 45.5,
+        "lon": -64.5,
+        "note": "Multiple Ammosaurus specimens have been recovered from this Early Jurassic formation, helping establish the geographic range of the genus in eastern North America."
+      },
+      {
+        "name": "Portland Formation",
+        "region": "Connecticut / Massachusetts, USA",
+        "lat": 41.8,
+        "lon": -72.7,
+        "note": "Original Ammosaurus material was found here in the Connecticut Valley, in red sandstone that has also yielded important trackways and other Early Jurassic vertebrates."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Anchisauria",
+        "Anchisauridae",
+        "Ammosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Anchisauridae",
+          "label": "Anchisaurus"
+        },
+        {
+          "from": "Anchisauria",
+          "label": "Sauropoda"
+        },
+        {
+          "from": "Sauropodomorpha",
+          "label": "Plateosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Ammosaurus major was named by Othniel Charles Marsh in 1891 from remains found in Connecticut sandstone quarries. The generic name means 'sand lizard', a reference to the sandy sediments in which the fossils were found. Marsh originally described these remains as distinct from Anchisaurus, though the two have since been repeatedly compared and the relationship between them remains a subject of debate."
+      },
+      {
+        "title": "Anatomy",
+        "body": "Ammosaurus was a slender, moderately sized sauropodomorph with adaptations for both bipedal and quadrupedal locomotion. Its forelimbs are relatively robust compared to strictly bipedal forms, suggesting it could walk on all four legs. The teeth are leaf-shaped and suited to herbivory, and the body plan closely parallels that of Anchisaurus, which was found in similar geological deposits."
+      },
+      {
+        "title": "Significance",
+        "body": "Ammosaurus is one of the few sauropodomorphs known from the earliest Jurassic of North America, providing evidence that this group colonised Laurasia during the Triassic–Jurassic transition. Its similarity to Anchisaurus raises questions about the number of valid anchisaurid genera versus individual variation within a single species, and the question of synonymy has not been fully resolved."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "The Hartford Basin deposits where Ammosaurus was found represent rift valley lake and floodplain environments formed during the early break-up of Pangaea. These red-bed sequences have also produced abundant dinosaur trackways, showing that Early Jurassic ecosystems of eastern North America supported a variety of small to medium-sized dinosaurs."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Ammosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/ammosaurus.html"
+      },
+      {
+        "label": "PBDB: Ammosaurus occurrence data",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38636"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "McCoy Brook Formation, Nova Scotia, Canada; Portland Formation, Connecticut / Massachusetts, USA",
+    "material": "Ammosaurus is one of the few sauropodomorphs known from the earliest Jurassic of North America, providing evidence that this group colonised Laurasia during the Triassic–Jurassic transition.",
+    "completeness": "Skeletal material known; 3 PBDB occurrence records.",
+    "paleo": "Multiple Ammosaurus specimens have been recovered from this Early Jurassic formation, helping establish the geographic range of the genus in eastern North America.",
+    "evidence": "Described by Marsh in 1891, Ammosaurus belongs to the family Anchisauridae and is one of the early sauropodomorphs known from North America."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-09-19",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "name validity and synonymy",
+      "geological age and formation",
+      "name-bearing and referred material",
+      "classification",
+      "profile narrative and uncertainty wording"
+    ],
+    "record": {
+      "period": "Early Jurassic",
+      "mya": "about 201–190 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Anchisauria",
+        "Anchisaurus"
+      ],
+      "taxonomicStatus": "junior synonym of Anchisaurus polyzelus",
+      "acceptedName": false,
+      "description": "Ammosaurus major is a historical name for Early Jurassic sauropodomorph material from the Portland Formation of Connecticut. Detailed revision found its type and the other Manchester quarry skeletons to belong to Anchisaurus polyzelus, making Ammosaurus a junior subjective synonym rather than a separate accepted genus.",
+      "facts": [
+        "Marsh named the material Anchisaurus major in 1889 and erected Ammosaurus for it in 1891.",
+        "Yates's 2010 revision found the Manchester skeletons conspecific and referred them to the older name Anchisaurus polyzelus.",
+        "The International Commission on Zoological Nomenclature designated the almost complete YPM 1883 skeleton as the neotype of Anchisaurus polyzelus in 2015, stabilising that name.",
+        "This page is retained to explain the historical name and should not be counted as a separate valid dinosaur genus."
+      ]
+    },
+    "presentation": {
+      "heroLead": "A historical name for Connecticut sauropodomorph skeletons that are now assigned to Anchisaurus; retained here to explain the name, not as a separate genus.",
+      "heroMedia": {
+        "file": "Anchisaurus NT.jpg",
+        "title": "Life restoration of Anchisaurus polyzelus",
+        "alt": "Life restoration of the early sauropodomorph Anchisaurus polyzelus",
+        "caption": "Life restoration of Anchisaurus, the accepted name for the Ammosaurus material. Soft tissues and colour are interpretive.",
+        "credit": "Nobu Tamura · CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anchisaurus_NT.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Early Jurassic · about 201–190 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Connecticut, USA"
+        },
+        {
+          "label": "Status",
+          "value": "Junior synonym of Anchisaurus"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Ammosaurus is not, by current understanding, a distinct animal. The name was given by Othniel Marsh in 1891 to the rear half of a sauropodomorph skeleton quarried at Manchester, Connecticut, whose front half had already been built into a bridge. Detailed revision has since shown that this skeleton and the other Manchester specimens belong to the same species as Anchisaurus polyzelus.",
+        "The animal those bones represent was a small, lightly built early sauropodomorph, a few metres long, with a slender neck, a small head and grasping hands. It walked mainly on two legs but could probably drop onto all fours, and it fed on plants, though its blunt teeth have led some to suggest a mixed diet.",
+        "The Manchester skeletons remain scientifically valuable because they are among the most complete early sauropodomorphs from North America. This page keeps the historical name so that older references make sense; the current science lives under Anchisaurus."
+      ],
+      "animalHighlights": [
+        "The name rests on the rear half of a skeleton whose front half was lost during bridge construction.",
+        "Revision in 2004 and 2010 found the Manchester skeletons to be one species, Anchisaurus polyzelus.",
+        "A 2015 ruling of the International Commission on Zoological Nomenclature fixed YPM 1883 as the neotype of Anchisaurus, stabilising the accepted name."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by teeth and jaws",
+          "reason": "Leaf-shaped teeth are consistent with herbivory; some authors have argued for occasional animal food. No gut contents are known."
+        },
+        {
+          "label": "Movement",
+          "value": "Mostly bipedal",
+          "level": "Could also walk on all fours",
+          "reason": "Hindlimbs and hands preserved in the Manchester material suggest habitual bipedality with facultative quadrupedal walking."
+        },
+        {
+          "label": "Known size",
+          "value": "about 2–3 m long",
+          "level": "From several partial skeletons",
+          "reason": "The Manchester specimens are small; whether they were fully grown remains debated."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeletal outline supported",
+          "level": "Soft tissues remain reconstructed",
+          "reason": "Proportions follow the Manchester skeletons; skin and colour are unknown."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Early Jurassic"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 201–190 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Portland Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Wolcott's Quarry, Manchester, Connecticut, USA"
+        }
+      ],
+      "locality": {
+        "name": "Wolcott's Quarry",
+        "region": "Manchester, Connecticut, USA",
+        "note": "Portland Formation, Hartford Basin. The map shows a state-level reference because exact quarry coordinates are not plotted."
+      },
+      "classificationSummary": "The material called Ammosaurus is now referred to Anchisaurus polyzelus, an early sauropodomorph near the origin of Sauropoda. Anchisaurus itself is variously recovered as a basal sauropod or as a close sauropod relative outside that clade.",
+      "related": [
+        {
+          "id": "anchisaurus",
+          "reason": "The accepted name for the same Manchester quarry material."
+        },
+        {
+          "id": "massospondylus",
+          "reason": "Compare with a more completely known Early Jurassic sauropodomorph."
+        },
+        {
+          "id": "plateosaurus",
+          "reason": "Compare with a larger, earlier sauropodomorph known from many skeletons."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Why keep the name at all?",
+          "copy": "Ammosaurus appears throughout older literature and museum labels. The entry explains what the name referred to and where the material now sits."
+        },
+        {
+          "title": "Could Ammosaurus be resurrected?",
+          "copy": "Synonymy is a scientific judgement. New material or analysis could reopen the question, but current consensus treats the Manchester skeletons as one species."
+        },
+        {
+          "title": "Is Anchisaurus a sauropod?",
+          "copy": "Analyses disagree on whether Anchisaurus falls just inside or just outside Sauropoda, which matters for the timing of sauropod origins."
+        }
+      ],
+      "compactSources": true
+    },
+    "ageReviewNote": "The reviewed range follows the Early Jurassic Portland Formation material on which Ammosaurus and Anchisaurus were based. Broader records assigned to the historical name should not be treated as proof of a longer-lived separate genus.",
+    "sources": [
+      {
+        "type": "systematic-revision",
+        "citation": "Yates (2004), Anchisaurus polyzelus and the evolution of gigantism among sauropodomorph dinosaurs",
+        "url": "https://elischolar.library.yale.edu/peabody_museum_natural_history_postilla/230/"
+      },
+      {
+        "type": "systematic-revision",
+        "citation": "Yates (2010), Revision of the Manchester sauropodomorphs and status of Anchisaurus",
+        "url": "https://doi.org/10.1111/j.1475-4983.2010.00952.x"
+      },
+      {
+        "type": "nomenclatural-ruling",
+        "citation": "ICZN (2015), Opinion 2361: usage of Anchisaurus conserved by designation of a neotype",
+        "url": "https://www.biotaxa.org/bzn/article/view/37953"
+      }
+    ],
+    "residualUncertainty": [
+      "Junior synonymy is a taxonomic conclusion rather than an objective identity between the original name-bearing specimens.",
+      "The exact position of Anchisaurus near the origin of Sauropoda differs among phylogenetic analyses."
+    ],
+    "evidence": {
+      "score": 76,
+      "summary": "Substantial Early Jurassic skeletons are known, but they support the accepted name Anchisaurus rather than a separate genus Ammosaurus.",
+      "material": "Historical Manchester quarry sauropodomorph skeletons, including the nearly complete YPM 1883 neotype of Anchisaurus.",
+      "formations": "Portland Formation, Connecticut, USA.",
+      "confidenceLimit": "The anatomy is comparatively well documented; the uncertainty concerns nomenclature and early sauropodomorph relationships, not whether the fossils exist.",
+      "sourceBasis": "Yates 2004/2010 and ICZN Opinion 2361.",
+      "uncertainties": [
+        "subjective synonymy",
+        "early sauropodomorph position"
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "The back half of a skeleton, and a name that no longer stands alone.",
+        "standfirst": "The Ammosaurus holotype is the rear half of a small sauropodomorph from Manchester, Connecticut. Together with the other Manchester skeletons, now referred to Anchisaurus polyzelus, it forms one of the better early sauropodomorph records in North America.",
+        "coverage": {
+          "label": "Good (as Anchisaurus)",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Combined Manchester material includes a nearly complete skeleton, but the Ammosaurus holotype itself lacks the skull and forequarters, and the name is a junior synonym."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Partial skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Several (Manchester quarry)"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Name is a junior synonym"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The holotype YPM 208 preserves the pelvis, sacrum, hindlimbs and tail region. Other Manchester specimens, including the nearly complete YPM 1883 that is now the neotype of Anchisaurus, add the skull, neck, forelimbs and trunk.",
+          "note": "The front half of the holotype skeleton was incorporated into a bridge abutment and only partly recovered decades later, so the type specimen is permanently incomplete."
+        },
+        "media": [
+          {
+            "file": "Ammosaurus skeleton Huene.png",
+            "kind": "Historical specimen figure",
+            "title": "Von Huene's figure of the Ammosaurus major holotype",
+            "alt": "Early twentieth-century plate showing the preserved hindquarters of Ammosaurus major",
+            "caption": "Friedrich von Huene's plate of the holotype hindquarters. It records what was preserved a century ago and is not a life reconstruction.",
+            "credit": "Friedrich von Huene · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ammosaurus_skeleton_Huene.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Absent from the Ammosaurus holotype; known from other Manchester specimens referred to Anchisaurus."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Sacrum and posterior dorsal and caudal vertebrae in the holotype; more complete series in referred Manchester skeletons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Pelvis and hindlimbs including the feet in the holotype; forelimbs known from referred material."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "None reported. No skin, colour or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "YPM 208 · holotype of Ammosaurus major",
+            "description": "The posterior half of a skeleton from Wolcott's Quarry, Manchester. Marsh described it as Anchisaurus major in 1889 and made it the type of Ammosaurus in 1891.",
+            "meta": "Manchester, Connecticut · Portland Formation · Yale Peabody Museum"
+          },
+          {
+            "kicker": "Neotype of the accepted name",
+            "title": "YPM 1883 · Anchisaurus polyzelus",
+            "description": "An almost complete skeleton from the same quarry, designated neotype of Anchisaurus polyzelus by the ICZN in 2015. It is the reference specimen for the species to which the Ammosaurus material is now referred.",
+            "meta": "Same quarry · basis of current usage"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "The hindquarters of one skeleton, plus several other partial skeletons from the same Connecticut quarry."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "All the Manchester sauropodomorphs represent a single species, Anchisaurus polyzelus, making Ammosaurus a junior subjective synonym."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Whether the Manchester animals were fully grown, the exact position of Anchisaurus relative to Sauropoda, and all soft-tissue features."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Systematic revision",
+            "title": "Yates · 2004",
+            "description": "Reassessment of Anchisaurus polyzelus and the Manchester material.",
+            "access": "Read online",
+            "url": "https://elischolar.library.yale.edu/peabody_museum_natural_history_postilla/230/"
+          },
+          {
+            "type": "Systematic revision",
+            "title": "Yates · 2010",
+            "description": "Revision concluding that Ammosaurus is a junior synonym of Anchisaurus.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1111/j.1475-4983.2010.00952.x"
+          },
+          {
+            "type": "Nomenclatural ruling",
+            "title": "ICZN Opinion 2361 · 2015",
+            "description": "Designation of YPM 1883 as neotype, conserving the name Anchisaurus.",
+            "access": "Read online",
+            "url": "https://www.biotaxa.org/bzn/article/view/37953"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Von Huene plate",
+            "description": "Source page and reuse terms for the historical figure of the holotype.",
+            "access": "Public domain",
+            "url": "https://commons.wikimedia.org/wiki/File:Ammosaurus_skeleton_Huene.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence and stratigraphic context under the accepted name.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38637"
+          }
+        ],
+        "limitations": "The coverage band reflects the combined Manchester material now assigned to Anchisaurus. Ammosaurus is retained as a historical name and is not counted as a separate valid genus.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
+    }
+  }
+}

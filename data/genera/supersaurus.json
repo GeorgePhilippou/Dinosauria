@@ -1,0 +1,136 @@
+{
+  "id": "supersaurus",
+  "name": "Supersaurus",
+  "profile": {
+    "overview": [
+      "Supersaurus vivianae is among the longest dinosaurs ever discovered — estimates based on the most complete specimen (BYU 9044, \"Jimbo\") range from 33–34 metres — placing it alongside Diplodocus but with a larger overall body. A diplodocid from the Morrison Formation of Wyoming (~153 Ma), it was named by James Jensen in 1985 from Colorado material.",
+      "The discovery of Supersaurus demonstrated that diplodocids could reach even larger sizes than Diplodocus, complicating the picture of sauropod size evolution. Whether Supersaurus and Ultrasauros (another giant Jensen named from the same quarry) are the same animal has been debated; most material formerly referred to Ultrasauros is now considered Supersaurus."
+    ],
+    "fossilSites": [
+      {
+        "name": "Morrison Formation — Dry Mesa Quarry",
+        "region": "Delta County, Colorado, USA",
+        "lat": 38.8,
+        "lon": -108.1,
+        "note": "Late Jurassic bone quarry yielding original Supersaurus fragments plus material of Ultrasauros and other giants."
+      },
+      {
+        "name": "Morrison Formation — Albany County",
+        "region": "Wyoming, USA",
+        "lat": 41.7,
+        "lon": -105.8,
+        "note": "Site of \"Jimbo\" — the most complete Supersaurus specimen, providing the best size estimate for the species."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Diplodocoidea",
+        "Diplodocidae",
+        "Supersaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Diplodocidae",
+          "label": "Diplodocus"
+        },
+        {
+          "from": "Diplodocidae",
+          "label": "Barosaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and the giant quarry",
+        "body": "James Jensen discovered the Dry Mesa Quarry in Delta County, Colorado in 1972 and excavated some of the largest dinosaur bones ever found, including the scapulocoracoid of what he named Supersaurus (2.4 m long). Jensen also named Ultrasauros and Dystylosaurus from the same quarry; subsequent analysis showed much of this material belongs to Supersaurus, with Ultrasauros considered a chimera of Supersaurus and Brachiosaurus material."
+      },
+      {
+        "title": "Size estimates",
+        "body": "Scaling from the complete \"Jimbo\" specimen suggests a length of 33–34 m and a mass of 35–40 tonnes. This places Supersaurus among the longest terrestrial animals ever, though the more massive titanosaurs (Patagotitan, Argentinosaurus) may have been heavier. The elongation is primarily in the tail and neck rather than the torso."
+      },
+      {
+        "title": "Ecology",
+        "body": "As a diplodocid, Supersaurus would have been a horizontal low-browser like Diplodocus, sweeping through ground-level vegetation with its peg-like front teeth. At 33+ metres, its tail alone would have been a formidable defensive weapon against theropods. Its enormous size would have given it resistance to attack by all but the largest Morrison predators."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Supersaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/supersaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Morrison Formation, Colorado and Wyoming, USA",
+    "material": "Partial skeletons including a giant scapulocoracoid, vertebrae and limb bones.",
+    "completeness": "Partial — key bones preserve enormous size",
+    "paleo": "Late Jurassic Morrison floodplain ecosystem.",
+    "evidence": "The enormous individual bones — particularly the 2.4 m scapulocoracoid — directly document extreme body size; diplodocid proportions confirm its classification."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "Kimmeridgian-Tithonian, about 154-150 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Diplodocoidea",
+        "Diplodocidae",
+        "Diplodocinae"
+      ],
+      "massKg": null,
+      "description": "Supersaurus vivianae was a very large diplodocid from the Morrison Formation, founded on a scapulocoracoid and known through referred partial skeletons.",
+      "facts": [
+        "The Jimbo specimen adds articulated vertebral material but no complete skeleton exists.",
+        "Very long body estimates are plausible; the catalogue 35-tonne point mass is too precise and is removed."
+      ]
+    },
+    "ageReviewNote": "Secure specimens are Kimmeridgian-Tithonian Morrison Formation.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Lovelace, Hartman & Wahl (2007), morphology of Supersaurus",
+        "url": "https://biostor.org/reference/248729"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Curtice (2021), axial anatomy and length of Supersaurus",
+        "url": "https://giw.utahgeology.org/giw/index.php/GIW/article/view/66"
+      }
+    ],
+    "residualUncertainty": [
+      "Referral of widely separated specimens and maximum length remain debated."
+    ],
+    "evidence": {
+      "score": 70,
+      "material": "Holotype scapulocoracoid plus multiple referred partial skeletons from separate localities.",
+      "formations": "Morrison Formation, Colorado and Wyoming, USA.",
+      "confidenceLimit": "Mass is cleared and no composite should be described as a complete skeleton.",
+      "uncertainties": [
+        "specimen referrals",
+        "maximum length",
+        "mass"
+      ],
+      "summary": "Supersaurus vivianae was a very large diplodocid from the Morrison Formation, founded on a scapulocoracoid and known through referred partial skeletons.",
+      "sourceBasis": "Lovelace, Hartman & Wahl (2007), morphology of Supersaurus; Curtice (2021), axial anatomy and length of Supersaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

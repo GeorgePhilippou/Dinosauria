@@ -1,0 +1,146 @@
+{
+  "id": "paralititan",
+  "name": "Paralititan",
+  "profile": {
+    "overview": [
+      "Paralititan (meaning 'tidal giant') was an enormous titanosaur sauropod from the Late Cretaceous (Cenomanian, approximately 100–94 million years ago) of Egypt. Fossils come from the Baharije Formation of the Al Jizah region, which preserves a Cenomanian mangrove-swamp to tidal-flat environment. Estimated at up to approximately 28 metres in length, Paralititan is among the largest dinosaurs known from Africa and rivals some of the largest South American titanosaurs in mass.",
+      "Described by Smith, Lamanna, Lacovara, Dodson, Smith, Poole, Giegengack and Attia in 2001, Paralititan stromeri is named in honour of Ernst Stromer, the German palaeontologist who pioneered dinosaur research in Egypt before World War II. PBDB places it within Lithostrotia. Its remains were found in deposits also known for the giant spinosaurid Spinosaurus, providing a remarkable picture of a giant dinosaur community in Cretaceous North Africa."
+    ],
+    "fossilSites": [
+      {
+        "name": "Baharîye Formation",
+        "region": "Al Jizah, Egypt",
+        "lat": 28.3,
+        "lon": 28.9,
+        "note": "Cenomanian tidal-flat and mangrove deposits of the Western Desert of Egypt, yielding Paralititan remains including a massive forelimb element."
+      },
+      {
+        "name": "Illizi Basin deposits",
+        "region": "Illizi, Algeria",
+        "lat": 28,
+        "lon": 8.5,
+        "note": "PBDB records a possible Cenomanian occurrence from Algeria that may be referable to or related to Paralititan."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Macronaria",
+        "Titanosauriformes",
+        "Titanosauria",
+        "Lithostrotia",
+        "Paralititan"
+      ],
+      "sideBranches": [
+        {
+          "from": "Lithostrotia",
+          "label": "Saltasauridae"
+        },
+        {
+          "from": "Lithostrotia",
+          "label": "Patagotitan"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Paralititan stromeri was described in 2001 by a team of American and Egyptian researchers. The genus name means 'tidal giant', reflecting the coastal mangrove environment in which its remains were found. The species name honours Ernst Stromer von Reichenbach, who conducted pioneering expeditions to the Bahariye Oasis in the early twentieth century and described Spinosaurus and other Cretaceous giants from Egypt."
+      },
+      {
+        "title": "Size and Fossil Material",
+        "body": "Known material includes a partial postcranial skeleton comprising vertebrae, a humerus, scapula, and limb elements. No skull material has been found. The humerus alone is one of the largest known from any dinosaur, and mass estimates based on it and comparisons with complete titanosaurs suggest a body mass potentially exceeding 50 tonnes, though this is uncertain. The remains were found preserved in ancient mangrove sediments."
+      },
+      {
+        "title": "Bahariye Ecosystem",
+        "body": "The Bahariye Formation represents a coastal to tidal environment of Cenomanian North Africa, inhabited by an extraordinary diversity of large vertebrates including Spinosaurus, the sauropod Aegyptosaurus, the carcharodontosaurid Carcharodontosaurus, and the titanosaur Paralititan. This was one of the most predator-rich ecosystems known from the fossil record, likely supported by the productivity of the coastal mangrove system."
+      },
+      {
+        "title": "Stromer's Legacy",
+        "body": "Ernst Stromer's original Bahariye specimens — including Spinosaurus, Carcharodontosaurus, Bahariasaurus and Aegyptosaurus — were destroyed when the Munich museum was bombed in 1944. The re-discovery and description of new giant dinosaurs from the same formation in the late twentieth and early twenty-first centuries, including Paralititan, represents a renewal of the Bahariye palaeontological legacy."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Paralititan profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/paralititan.html"
+      },
+      {
+        "label": "PBDB: Paralititan occurrences",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64373"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Baharîye Formation, Al Jizah, Egypt; Illizi Basin deposits, Illizi, Algeria",
+    "material": "Known material includes a partial postcranial skeleton comprising vertebrae, a humerus, scapula, and limb elements.",
+    "completeness": "Partial material known; 2 PBDB occurrence records.",
+    "paleo": "Cenomanian tidal-flat and mangrove deposits of the Western Desert of Egypt, yielding Paralititan remains including a massive forelimb element.",
+    "evidence": "Described by Smith, Lamanna, Lacovara, Dodson, Smith, Poole, Giegengack and Attia in 2001, Paralititan stromeri is named in honour of Ernst Stromer, the German palaeontologist who pioneered dinosaur research in Egypt before World War II."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Cenomanian, about 100-94 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Titanosauria"
+      ],
+      "description": "Paralititan stromeri was a giant titanosaur from the Bahariya Formation of Egypt, based on an incomplete, partly associated skeleton dominated by girdle and limb material.",
+      "facts": [
+        "The holotype includes very large humeri plus vertebral and girdle elements, not a complete skeleton.",
+        "Gigantic size is secure qualitatively, but precise length and mass estimates span a wide range.",
+        "The fossils came from coastal mangrove-influenced sediments; this does not make the animal aquatic."
+      ]
+    },
+    "ageReviewNote": "The Bahariya type horizon is Cenomanian, approximately 100-94 Ma.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Smith et al. (2001), a giant sauropod from an Upper Cretaceous mangrove deposit",
+        "url": "https://doi.org/10.1126/science.1060561"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: paralititan",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/paralititan.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Much of the axial skeleton and skull is unknown.",
+      "Maximum mass is highly sensitive to scaling assumptions."
+    ],
+    "evidence": {
+      "score": 44,
+      "material": "Incomplete partial skeleton including large paired humeri, vertebrae and girdle elements.",
+      "formations": "Bahariya Formation, Egypt.",
+      "confidenceLimit": "Precise giant-size estimates and full proportions are extrapolations.",
+      "uncertainties": [
+        "mass",
+        "phylogenetic position",
+        "missing skull"
+      ],
+      "summary": "Paralititan stromeri was a giant titanosaur from the Bahariya Formation of Egypt, based on an incomplete, partly associated skeleton dominated by girdle and limb material.",
+      "sourceBasis": "Smith et al. (2001), a giant sauropod from an Upper Cretaceous mangrove deposit; Natural History Museum Dino Directory: paralititan"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

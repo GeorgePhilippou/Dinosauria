@@ -1,0 +1,136 @@
+{
+  "id": "pachyrhinosaurus",
+  "name": "Pachyrhinosaurus",
+  "profile": {
+    "overview": [
+      "Pachyrhinosaurus (\"thick-nosed lizard\") was a large centrosaurine ceratopsid from the late Campanian and early Maastrichtian of Alberta and Alaska (~73–69 Ma), unusual for lacking a prominent nasal horn in adults — instead bearing a thick bony boss on the nose and a prominent frontal boss between the eyes. Three species are known, including P. perotorum from Alaska, which lived north of the Arctic Circle.",
+      "The Alaskan Pachyrhinosaurus population provides some of the best evidence that large dinosaurs could inhabit polar regions: the North Slope of Alaska was above the Arctic Circle at ~70 Ma, and Pachyrhinosaurus experienced months of polar darkness and cool temperatures, demonstrating that at least some dinosaurs could thrive in conditions far from the subtropical environments typically imagined."
+    ],
+    "fossilSites": [
+      {
+        "name": "Horseshoe Canyon Formation — Pipestone Creek",
+        "region": "Alberta, Canada",
+        "lat": 55.7,
+        "lon": -118.8,
+        "note": "Early Maastrichtian bone bed with hundreds of Pachyrhinosaurus canadensis individuals — one of the largest ceratopsid bone beds known."
+      },
+      {
+        "name": "Prince Creek Formation",
+        "region": "North Slope, Alaska, USA",
+        "lat": 70,
+        "lon": -152,
+        "note": "Late Campanian Arctic deposits preserving P. perotorum — evidence of large dinosaurs above the Arctic Circle."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Marginocephalia",
+        "Ceratopsia",
+        "Ceratopsidae",
+        "Centrosaurinae",
+        "Pachyrhinosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Centrosaurinae",
+          "label": "Styracosaurus"
+        },
+        {
+          "from": "Centrosaurinae",
+          "label": "Centrosaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and bone beds",
+        "body": "The Pipestone Creek bone bed near Grande Prairie, Alberta has yielded hundreds of Pachyrhinosaurus canadensis individuals — one of the richest centrosaurine accumulations known. Described by Langston in 1975, the genus has since grown to three species. The nasal boss (rather than a true horn) is the diagnostic feature: it grew throughout ontogeny and bore a keratinous covering in life."
+      },
+      {
+        "title": "Arctic dinosaurs",
+        "body": "Pachyrhinosaurus perotorum from the North Slope of Alaska lived above 70° north latitude — within the Arctic Circle. Palaeogeographic reconstructions place this site at approximately the same polar position during the Late Cretaceous. The animals endured months of polar darkness and cool winters, contradicting the notion that non-avian dinosaurs were confined to warm tropical and subtropical environments."
+      },
+      {
+        "title": "Boss function",
+        "body": "The thick flat nasal boss of Pachyrhinosaurus may have been used for intraspecific pushing contests — analogous to musk oxen head-butting — rather than the impaling function of a true nasal horn. The frill bore multiple accessory spikes and hooks that varied between species, serving display and species recognition functions."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Pachyrhinosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/pachyrhinosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Wapiti, Prince Creek and related Late Cretaceous northern deposits",
+    "material": "Skulls, skeletons and bonebed material of centrosaurine ceratopsids.",
+    "completeness": "Well represented in some species",
+    "paleo": "Late Cretaceous northern floodplain environments, including high-latitude ecosystems.",
+    "evidence": "Bosses instead of long nose horns and rich bonebeds document centrosaurine diversity."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian-Maastrichtian, about 73-69 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ceratopsia",
+        "Ceratopsidae",
+        "Centrosaurinae",
+        "Pachyrhinosaurini"
+      ],
+      "description": "Pachyrhinosaurus was a centrosaurine ceratopsid represented by three named North American species and large bonebeds. The type species P. canadensis comes from the Horseshoe Canyon Formation and bears a thick nasal boss rather than a conventional nasal horn.",
+      "facts": [
+        "Bonebeds contain many disarticulated individuals and growth stages, not one herd frozen in behaviour.",
+        "Boss and frill ornament changed markedly during growth.",
+        "Migration and horn-covering shape are plausible but not directly demonstrated."
+      ]
+    },
+    "ageReviewNote": "The genus-level range spans late Campanian P. lakustai through Maastrichtian P. canadensis and P. perotorum; species ages must not be merged.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Sternberg (1950), original description of Pachyrhinosaurus canadensis",
+        "url": "https://doi.org/10.4095/105057"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Currie, Langston & Tanke (2008), monograph on Pachyrhinosaurus lakustai",
+        "url": "https://doi.org/10.1139/9780660198194"
+      }
+    ],
+    "residualUncertainty": [
+      "Species boundaries and some bonebed referrals remain under study.",
+      "Keratinous boss covering and migration are uncertain."
+    ],
+    "evidence": {
+      "score": 90,
+      "material": "Numerous skulls, partial skeletons and multi-individual bonebeds across three species.",
+      "formations": "Wapiti, Horseshoe Canyon and Prince Creek formations, Canada and USA.",
+      "confidenceLimit": "Separate species and growth stages; bonebeds do not directly prove migration.",
+      "uncertainties": [
+        "boss soft tissue",
+        "migration",
+        "some species referrals"
+      ],
+      "summary": "Pachyrhinosaurus was a centrosaurine ceratopsid represented by three named North American species and large bonebeds. The type species P. canadensis comes from the Horseshoe Canyon Formation and bears a thick nasal boss rather than a conventional nasal horn.",
+      "sourceBasis": "Sternberg (1950), original description of Pachyrhinosaurus canadensis; Currie, Langston & Tanke (2008), monograph on Pachyrhinosaurus lakustai"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

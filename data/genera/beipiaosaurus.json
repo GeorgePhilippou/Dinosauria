@@ -1,0 +1,168 @@
+{
+  "id": "beipiaosaurus",
+  "name": "Beipiaosaurus",
+  "profile": {
+    "overview": [
+      "Beipiaosaurus was a medium-sized therizinosauroid theropod from the Early Cretaceous of northeastern China, approximately 126–120 million years ago (Barremian to Aptian). Found in the Yixian Formation of Liaoning Province, it reached about 2 metres in length and is distinguished by elongated, broad claws and a herbivorous or omnivorous diet unusual for theropods. Its name means 'Beipiao lizard', after the city near which it was discovered.",
+      "Described by Xu, Tang, and Wang in 1999, Beipiaosaurus was among the largest dinosaurs known from direct fossil evidence of feathering at the time of its description, predating the discovery of Yutyrannus. Impressions preserved alongside skeletal remains revealed two distinct types of feather structures, including unusually elongated, broad filamentous feathers on the body. These findings were pivotal for understanding the diversity of feather types among non-avian theropods."
+    ],
+    "fossilSites": [
+      {
+        "name": "Yixian Formation / Jehol Group",
+        "region": "Liaoning, China",
+        "lat": 41.5,
+        "lon": 120.8,
+        "note": "Exceptionally well-preserved Early Cretaceous Lagerstätte yielding the primary Beipiaosaurus specimens with feather impressions."
+      },
+      {
+        "name": "Liaoning Province (general Jehol outcrops)",
+        "region": "Liaoning, China",
+        "lat": 41,
+        "lon": 121.5,
+        "note": "Additional Early Cretaceous exposures in Liaoning that have produced therizinosauroid material."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Tetanurae",
+        "Avetheropoda",
+        "Coelurosauria",
+        "Maniraptoriformes",
+        "Maniraptora",
+        "Therizinosauria",
+        "Therizinosauroidea",
+        "Beipiaosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Therizinosauria",
+          "label": "Therizinosaurus (giant Late Cretaceous relative)"
+        },
+        {
+          "from": "Therizinosauria",
+          "label": "Segnosaurus"
+        },
+        {
+          "from": "Maniraptora",
+          "label": "Oviraptorosauria"
+        },
+        {
+          "from": "Maniraptora",
+          "label": "Dromaeosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "The first Beipiaosaurus remains were found in 1996 in the Yixian Formation of Liaoning, China, and formally described by Xu Xing, Tang Zhilu, and Wang Xiaolin in 1999 as Beipiaosaurus inexpectus, with the specific name meaning 'unexpected' to reflect its surprising mix of theropod and herbivorous features. Three specimens are currently reported from the region."
+      },
+      {
+        "title": "Feathers and Integument",
+        "body": "Beipiaosaurus preserves two types of filamentous integumentary structures: fine, hair-like protofeathers similar to those in other coelurosaurs, and unusually broad, elongated single-filament structures named EBFFs (elongated broad filamentous feathers). The EBFFs may have served a display function rather than insulation or flight. Feather colour has been inferred as brownish based on melanosome analysis."
+      },
+      {
+        "title": "Diet and Anatomy",
+        "body": "Unlike most theropods, Beipiaosaurus was herbivorous or omnivorous, as indicated by its leaf-shaped teeth, broad torso, and large claws suited to pulling vegetation. It belongs to the Therizinosauroidea, a clade of herbivorous coelurosaurs that convergently evolved a plant-eating lifestyle from carnivorous ancestors. Its forelimbs bore large, curved claws similar to those of its much larger relative Therizinosaurus."
+      },
+      {
+        "title": "Scientific Importance",
+        "body": "Before Yutyrannus was described in 2012, Beipiaosaurus was cited as one of the heaviest theropods known from direct evidence of feathering. Its combination of bird-like body plan, herbivorous adaptations, and diverse feather types made it a landmark specimen in the study of non-avian dinosaur integument and the evolution of feathers."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Beipiaosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/beipiaosaurus.html"
+      },
+      {
+        "label": "Wikipedia: Beipiaosaurus",
+        "url": "https://en.wikipedia.org/wiki/Beipiaosaurus"
+      },
+      {
+        "label": "PBDB: Beipiaosaurus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Beipiaosaurus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Yixian Formation / Jehol Group, Liaoning, China; Liaoning Province (general Jehol outcrops), Liaoning, China",
+    "material": "Before Yutyrannus was described in 2012, Beipiaosaurus was cited as one of the heaviest theropods known from direct evidence of feathering.",
+    "completeness": "Skeletal material known; 2 PBDB occurrence records.",
+    "paleo": "Exceptionally well-preserved Early Cretaceous Lagerstätte yielding the primary Beipiaosaurus specimens with feather impressions.",
+    "evidence": "Described by Xu, Tang, and Wang in 1999, Beipiaosaurus was among the largest dinosaurs known from direct fossil evidence of feathering at the time of its description, predating the discovery of Yutyrannus."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "about 125 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Maniraptora",
+        "Therizinosauria"
+      ],
+      "description": "Beipiaosaurus inexpectus was a feathered therizinosaur from the Yixian Formation of Liaoning, China. Several partial skeletons preserve extensive filamentous plumage and document a relatively basal member of the long-necked, large-gutted therizinosaur lineage.",
+      "facts": [
+        "Both ordinary filamentous feathers and unusually long broad filaments are directly preserved.",
+        "Herbivory or omnivory is plausible from therizinosaur anatomy, but exact food items are not preserved."
+      ],
+      "diet": "diet uncertain; herbivory or omnivory plausible"
+    },
+    "ageReviewNote": "The Jianshangou beds of the Yixian Formation are early Aptian, close to 125 million years old.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Xu, Tang & Wang (1999), A therizinosauroid dinosaur with integumentary structures from China",
+        "url": "https://doi.org/10.1038/20670"
+      },
+      {
+        "type": "postcranial-revision",
+        "citation": "Liao et al. (2021), Postcranial osteology of Beipiaosaurus inexpectus",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8483305/"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: beipiaosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/beipiaosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Not every specimen preserves the same anatomy.",
+      "The function of the elongated broad filaments is unknown."
+    ],
+    "evidence": {
+      "score": 88,
+      "material": "Multiple partial skeletons, several with extensive feather impressions.",
+      "formations": [
+        "Yixian Formation"
+      ],
+      "confidenceLimit": "Anatomy and plumage are well supported; adult size, colour and precise diet remain uncertain.",
+      "uncertainties": [
+        "Not every specimen preserves the same anatomy.",
+        "The function of the elongated broad filaments is unknown."
+      ],
+      "summary": "Beipiaosaurus inexpectus was a feathered therizinosaur from the Yixian Formation of Liaoning, China. Several partial skeletons preserve extensive filamentous plumage and document a relatively basal member of the long-necked, large-gutted therizinosaur lineage.",
+      "sourceBasis": "Xu, Tang & Wang (1999), A therizinosauroid dinosaur with integumentary structures from China; Liao et al. (2021), Postcranial osteology of Beipiaosaurus inexpectus; Natural History Museum, Dino Directory: beipiaosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

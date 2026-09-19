@@ -1,0 +1,156 @@
+{
+  "id": "hadrosaurus",
+  "name": "Hadrosaurus",
+  "profile": {
+    "overview": [
+      "Hadrosaurus (meaning 'big lizard' or 'bulky lizard') was a large herbivorous hadrosaur from the Late Cretaceous of eastern North America, living approximately 78–74 million years ago. The type species, Hadrosaurus foulkii, is known from the Woodbury Formation of New Jersey and is estimated to have reached about 9 metres in length. It was a bipedally capable ornithopod that used a toothless beak to crop vegetation and possessed the battery of grinding teeth characteristic of hadrosaurs. Large theropods and giant crocodilians would likely have been among its predators.",
+      "Hadrosaurus holds exceptional historical significance as the first hadrosaur ever formally named, described by Joseph Leidy in 1858. It was also the first reasonably complete dinosaur skeleton discovered in North America and played a pivotal role in early dinosaur palaeontology, including the first life-size skeletal mount of any dinosaur. The genus is placed within Hadrosaurinae and is related to genera such as Gryposaurus. However, because no skull has been found for Hadrosaurus, many anatomical details of its head remain inferred from relatives."
+    ],
+    "fossilSites": [
+      {
+        "name": "Woodbury / Matawan Formation",
+        "region": "New Jersey, USA",
+        "lat": 39.7,
+        "lon": -75.1,
+        "note": "The Haddonfield, New Jersey locality where the holotype of Hadrosaurus foulkii was excavated in 1858, the first reasonably complete dinosaur skeleton found in North America."
+      },
+      {
+        "name": "Marshalltown / Matawan Formation",
+        "region": "New Jersey, USA",
+        "lat": 39.6,
+        "lon": -75.2,
+        "note": "Additional occurrences attributed to Hadrosaurus from Campanian-age marine and coastal deposits of the eastern seaboard."
+      },
+      {
+        "name": "Navesink / Monmouth Formation",
+        "region": "New Jersey, USA",
+        "lat": 40.3,
+        "lon": -74,
+        "note": "Maastrichtian-age material sometimes referred to Hadrosaurus, though assignments to genus level are uncertain."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Euhadrosauria",
+        "Hadrosaurinae",
+        "Hadrosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Hadrosaurinae",
+          "label": "Kritosaurini (Kritosaurus, Gryposaurus)"
+        },
+        {
+          "from": "Euhadrosauria",
+          "label": "Lambeosaurinae (crested hadrosaurs)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Hadrosaurus foulkii was formally described in 1858 by Joseph Leidy from a partial skeleton unearthed in Haddonfield, New Jersey, originally discovered by William Parker Foulke, after whom the species is named. It was the first hadrosaur named and the first reasonably complete dinosaur skeleton mounted for public display in North America, with a cast exhibited at the Academy of Natural Sciences in Philadelphia from 1868. The absence of cranial material in the holotype means the animal's head remains poorly understood for this genus specifically."
+      },
+      {
+        "title": "Anatomy and Diet",
+        "body": "Hadrosaurus reached an estimated 9 metres in length and possessed the characteristic hadrosaur dental battery — hundreds of tightly packed teeth forming a grinding surface for processing tough plant material. It could walk on two or four legs and cropped vegetation with its broad, toothless beak. Without a skull, reconstruction of the head relies on closely related genera such as Gryposaurus."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "During the Campanian, the eastern coast of North America was a mosaic of coastal plain, river delta, and shallow marine environments. Hadrosaurus lived in this low-lying, subtropical setting near what is now New Jersey. Large theropods and substantial crocodilians inhabited the same region, providing ecological context for understanding predation pressures on large herbivores."
+      },
+      {
+        "title": "Scientific Significance",
+        "body": "As the first named hadrosaur, Hadrosaurus is the namesake genus of the family Hadrosauridae, one of the most successful dinosaur groups of the Late Cretaceous. Its early discovery and mounting helped establish public and scientific interest in dinosaur palaeontology in the nineteenth century. New Jersey declared Hadrosaurus foulkii its state fossil in 1991."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Hadrosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/hadrosaurus.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Woodbury / Matawan Formation, New Jersey, USA; Marshalltown / Matawan Formation, New Jersey, USA; Navesink / Monmouth Formation, New Jersey, USA",
+    "material": "The absence of cranial material in the holotype means the animal's head remains poorly understood for this genus specifically.",
+    "completeness": "Partial material known; 9 PBDB occurrence records.",
+    "paleo": "The Haddonfield, New Jersey locality where the holotype of Hadrosaurus foulkii was excavated in 1858, the first reasonably complete dinosaur skeleton found in North America.",
+    "evidence": "Hadrosaurus holds exceptional historical significance as the first hadrosaur ever formally named, described by Joseph Leidy in 1858."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian, approximately 80-78 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Hadrosauroidea",
+        "Hadrosauridae",
+        "Saurolophinae"
+      ],
+      "description": "Hadrosaurus foulkii was a hadrosaurid from the Woodbury Formation of New Jersey. Its historic type is one incomplete skeleton without a skull; limb, pelvic and vertebral material supports a distinct hadrosaurid, but most details of the head must not be reconstructed as if directly known.",
+      "facts": [
+        "The holotype was the first mounted dinosaur skeleton displayed to the public, but it is far from complete.",
+        "No skull is preserved with the type.",
+        "It was a large herbivore capable of bipedal and quadrupedal locomotion, as inferred from hadrosaurid anatomy."
+      ]
+    },
+    "ageReviewNote": "The Woodbury Formation type horizon is late Campanian; broad 84-66 Ma ranges are not species-level evidence.",
+    "sources": [
+      {
+        "type": "taxonomic-reassessment",
+        "citation": "Prieto-Marquez et al. (2006), A reevaluation of Hadrosaurus foulkii",
+        "url": "https://www.app.pan.pl/article/item/app51-077.html"
+      },
+      {
+        "type": "hadrosaurid-review",
+        "citation": "Prieto-Marquez (2010), Global phylogeny of Hadrosauridae",
+        "url": "https://doi.org/10.1111/j.1096-3642.2009.00617.x"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Hadrosaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Hadrosaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "The skull is unknown and the skeleton is incomplete.",
+      "Its exact position near the base of Saurolophinae varies among analyses."
+    ],
+    "evidence": {
+      "score": 40,
+      "material": "One diagnostic incomplete postcranial skeleton lacking a skull.",
+      "formations": [
+        "Woodbury Formation"
+      ],
+      "confidenceLimit": "High for hadrosaurid identity; moderate for locomotion; low for cranial anatomy and fine phylogeny.",
+      "uncertainties": [
+        "cranial anatomy",
+        "fine phylogeny",
+        "adult variation"
+      ],
+      "summary": "Hadrosaurus foulkii was a hadrosaurid from the Woodbury Formation of New Jersey. Its historic type is one incomplete skeleton without a skull; limb, pelvic and vertebral material supports a distinct hadrosaurid, but most details of the head must not be reconstructed as if directly known.",
+      "sourceBasis": "Prieto-Marquez et al. (2006), A reevaluation of Hadrosaurus foulkii; Prieto-Marquez (2010), Global phylogeny of Hadrosauridae; Paleobiology Database taxon and occurrence context for Hadrosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

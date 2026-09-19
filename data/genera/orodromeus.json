@@ -1,0 +1,157 @@
+{
+  "id": "orodromeus",
+  "name": "Orodromeus",
+  "profile": {
+    "overview": [
+      "Orodromeus (meaning 'mountain runner') was a small ornithischian dinosaur classified within Thescelosauridae (Orodrominae) from the Late Cretaceous (Campanian, approximately 75 million years ago) of Montana, USA. The type species is Orodromeus makelai. It was about 2 metres long and weighed around 50 kilograms, bipedal and herbivorous, using a horny beak and grinding cheek teeth to process tough plant material. Fossils come primarily from the Two Medicine and Judith River Formations.",
+      "Named by Horner and Weishampel in 1988, Orodromeus is placed in Orodrominae within Thescelosauridae. Its original description was associated with a nesting site at Egg Mountain, Montana, where numerous eggs and embryonic material were found — though these eggs were later reidentified as belonging to the troodontid Troodon. This reidentification was a landmark correction in dinosaur nesting research and illustrates how associated eggs can be misidentified."
+    ],
+    "fossilSites": [
+      {
+        "name": "Two Medicine Formation",
+        "region": "Montana, USA",
+        "lat": 48.3,
+        "lon": -112.5,
+        "note": "Middle to Late Campanian floodplain deposits of northern Montana, principal source of Orodromeus skeletal material and the famous Egg Mountain nesting locality."
+      },
+      {
+        "name": "Judith River Formation",
+        "region": "Montana, USA",
+        "lat": 47.5,
+        "lon": -109,
+        "note": "Campanian-age formation in Montana from which PBDB records additional Orodromeus occurrences."
+      },
+      {
+        "name": "Hell Creek Formation",
+        "region": "Montana, USA",
+        "lat": 47,
+        "lon": -107,
+        "note": "Latest Cretaceous deposits where some material attributed to Orodromeus has been tentatively reported."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Thescelosauridae",
+        "Orodrominae",
+        "Orodromeus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Orodrominae",
+          "label": "Oryctodromeus"
+        },
+        {
+          "from": "Thescelosauridae",
+          "label": "Thescelosaurinae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Orodromeus makelai was named by Jack Horner and David Weishampel in 1988 from specimens found in the Two Medicine Formation of Montana. The species name honours Bob Makela, Horner's field collaborator who died in 1987. The genus was initially described alongside egg material from Egg Mountain, one of the richest known dinosaur nesting sites in North America."
+      },
+      {
+        "title": "The Egg Mountain Misidentification",
+        "body": "The eggs associated with Orodromeus at Egg Mountain were originally attributed to this genus, suggesting it incubated its eggs in a precocial style. However, subsequent embryological study by Varricchio and colleagues revealed that the embryos within those eggs belonged to the troodontid theropod Troodon formosus — a significant finding demonstrating how easily eggs and nearby adult skeletons can be incorrectly associated."
+      },
+      {
+        "title": "Anatomy and Locomotion",
+        "body": "Orodromeus was a small, lightly built bipedal ornithopod with long hindlimbs relative to its body size, consistent with active, fast movement. The dentition includes a self-sharpening battery of cheek teeth suitable for processing fibrous vegetation. Its sensory capabilities were probably typical of small cursorial ornithopods."
+      },
+      {
+        "title": "Ecological Role",
+        "body": "In the Two Medicine Formation ecosystem, Orodromeus occupied the role of a small herbivore, sharing the landscape with the ceratopsian Einiosaurus, the hadrosaur Hypacrosaurus, and the tyrannosaur Daspletosaurus. Its small size and bipedal agility would have made it a prey item for mid-sized theropods such as Troodon."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Orodromeus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/orodromeus.html"
+      },
+      {
+        "label": "PBDB: Orodromeus occurrences",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=64337"
+      },
+      {
+        "label": "Wikipedia: Orodromeus",
+        "url": "https://en.wikipedia.org/wiki/Orodromeus"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Two Medicine Formation, Montana, USA; Judith River Formation, Montana, USA; Hell Creek Formation, Montana, USA",
+    "material": "It was about 2 metres long and weighed around 50 kilograms, bipedal and herbivorous, using a horny beak and grinding cheek teeth to process tough plant material.",
+    "completeness": "Skeletal material known; 9 PBDB occurrence records.",
+    "paleo": "Middle to Late Campanian floodplain deposits of northern Montana, principal source of Orodromeus skeletal material and the famous Egg Mountain nesting locality.",
+    "evidence": "Named by Horner and Weishampel in 1988, Orodromeus is placed in Orodrominae within Thescelosauridae."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Campanian, about 76-74 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Thescelosauridae"
+      ],
+      "description": "Orodromeus makelai was a small thescelosaurid ornithopod from the Two Medicine Formation of Montana, known from skulls and partial skeletons of several growth stages.",
+      "facts": [
+        "The type and referred material establish a small bipedal herbivorous ornithopod.",
+        "Eggs and nests once assigned to Orodromeus are now attributed chiefly to the troodontid Troodon/Stenonychosaurus complex.",
+        "Burrowing is plausible for close relatives but is not directly demonstrated for Orodromeus by an in-burrow skeleton."
+      ]
+    },
+    "ageReviewNote": "Two Medicine occurrences are late Campanian, approximately 76-74 Ma.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Horner et al. (2009), comparative long-bone histology and growth of Orodromeus",
+        "url": "https://doi.org/10.1671/039.029.0312"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Horner & Weishampel (1996), correction removing the famous embryos from Orodromeus",
+        "url": "https://doi.org/10.1038/383103b0"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: orodromeus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/orodromeus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Some juvenile and nesting associations were historically misidentified.",
+      "Its exact position within Thescelosauridae varies."
+    ],
+    "evidence": {
+      "score": 62,
+      "material": "Several partial skeletons and skulls, including juvenile material.",
+      "formations": "Two Medicine Formation, Montana, USA.",
+      "confidenceLimit": "Do not cite the famous Egg Mountain eggs as Orodromeus eggs under current identifications.",
+      "uncertainties": [
+        "nest attribution history",
+        "burrowing behaviour"
+      ],
+      "summary": "Orodromeus makelai was a small thescelosaurid ornithopod from the Two Medicine Formation of Montana, known from skulls and partial skeletons of several growth stages.",
+      "sourceBasis": "Horner et al. (2009), comparative long-bone histology and growth of Orodromeus; Horner & Weishampel (1996), correction removing the famous embryos from Orodromeus; Natural History Museum Dino Directory: orodromeus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

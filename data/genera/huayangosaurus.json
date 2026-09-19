@@ -1,0 +1,143 @@
+{
+  "id": "huayangosaurus",
+  "name": "Huayangosaurus",
+  "profile": {
+    "overview": [
+      "Huayangosaurus (meaning 'Huayang lizard', Huayang being an alternate name for Sichuan province) was a herbivorous stegosaurian dinosaur from the Middle Jurassic of China, living approximately 170–160 million years ago. Found in the Lower Shaximiao Formation of Sichuan Province, it reached about 4 to 4.5 metres in length — much smaller than its famous later relative Stegosaurus. It bore a combination of plates and spines along its back and sides, and is placed in its own family, Huayangosauridae. It was described by Dong, Tang and Zhou in 1982.",
+      "Huayangosaurus is one of the most primitive stegosaurs known and pre-dates Stegosaurus by approximately 20 million years. Its anatomy retains several features considered primitive for Stegosauria, including teeth in the premaxilla (the front of the upper jaw) and relatively shorter forelimbs compared to hindlimbs. These primitive characteristics make Huayangosaurus crucial for understanding the early evolution of stegosaurs. It shared the Sichuan landscape with sauropods such as Shunosaurus and Datousaurus and the predator Gasosaurus."
+    ],
+    "fossilSites": [
+      {
+        "name": "Lower Shaximiao Formation",
+        "region": "Sichuan, China",
+        "lat": 29.5,
+        "lon": 104.5,
+        "note": "The primary source of Huayangosaurus material, a Bajocian-to-Callovian lacustrine and fluvial deposit that has produced diverse Middle Jurassic dinosaurs."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Stegosauria",
+        "Huayangosauridae",
+        "Huayangosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Stegosauria",
+          "label": "Stegosauridae (Stegosaurus, Hesperosaurus)"
+        },
+        {
+          "from": "Thyreophora",
+          "label": "Ankylosauria"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Huayangosaurus taibaii was described in 1982 by Dong Zhiming, Tang Zilu and Zhou Shiwu from multiple specimens collected from the Zigong area of Sichuan. Named after the ancient name for Sichuan (Huayang) and the poet Li Bai (known as Taibai), it represents one of the best-documented early stegosaurs. The Zigong Dinosaur Museum, where much of the material is housed, has made this fauna world famous."
+      },
+      {
+        "title": "Primitive Stegosaur Features",
+        "body": "Huayangosaurus retains premaxillary teeth, a feature lost in all later stegosaurs. Its forelimbs are relatively longer and more robust compared to the more gracile forelimbs of derived stegosaurs. The arrangement of plates and spines differs from Stegosaurus, with both spines and plates present rather than predominantly plates. These primitive features make it the most basal well-known stegosaur."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "The Lower Shaximiao Formation records a warm, humid Middle Jurassic landscape of lakes and rivers in what is now Sichuan. Huayangosaurus lived alongside sauropods including Shunosaurus and Datousaurus, the small ornithopod Xiaosaurus, and the predatory theropod Gasosaurus. This fauna represents one of the best-documented Middle Jurassic dinosaur assemblages globally."
+      },
+      {
+        "title": "Scientific Significance",
+        "body": "As the most primitive well-preserved stegosaur, Huayangosaurus is a critical reference point for understanding the evolutionary history of Stegosauria. Its Middle Jurassic age and Chinese provenance support Asia as the geographic origin of stegosaurs. The Wikipedia entry notes it predates Stegosaurus by some 20 million years, providing important temporal and morphological context for the group's evolution."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Huayangosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/huayangosaurus.html"
+      },
+      {
+        "label": "Wikipedia: Huayangosaurus",
+        "url": "https://en.wikipedia.org/wiki/Huayangosaurus"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Lower Shaximiao Formation, Sichuan, China",
+    "material": "Found in the Lower Shaximiao Formation of Sichuan Province, it reached about 4 to 4.5 metres in length — much smaller than its famous later relative Stegosaurus.",
+    "completeness": "Skeletal material known; 1 PBDB occurrence records.",
+    "paleo": "The primary source of Huayangosaurus material, a Bajocian-to-Callovian lacustrine and fluvial deposit that has produced diverse Middle Jurassic dinosaurs.",
+    "evidence": "Huayangosaurus is one of the most primitive stegosaurs known and pre-dates Stegosaurus by approximately 20 million years."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Mid Jurassic",
+      "mya": "Bathonian-Callovian, roughly 168-163 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Stegosauria",
+        "Huayangosauridae"
+      ],
+      "description": "Huayangosaurus taibaii was an early stegosaur from the Lower Shaximiao Formation of Sichuan, China. Several partial skeletons, including skulls and armour, document a small-bodied quadrupedal herbivore, but no one specimen preserves every part of the animal.",
+      "facts": [
+        "Cranial anatomy is unusually well represented for a stegosaur.",
+        "Shoulder spines and dorsal plates are known, while their exact sequence and orientation combine evidence from different specimens.",
+        "It retained several primitive features relative to later stegosaurids."
+      ]
+    },
+    "ageReviewNote": "Lower Shaximiao strata are generally Bathonian-Callovian; published numerical correlations still vary.",
+    "sources": [
+      {
+        "type": "cranial-redescription",
+        "citation": "Sereno & Dong (1992), The skull of Huayangosaurus taibaii",
+        "url": "https://doi.org/10.1080/02724634.1992.10011463"
+      },
+      {
+        "type": "postcranial-redescription",
+        "citation": "Maidment et al. (2006), A redescription of the postcranial skeleton of Huayangosaurus",
+        "url": "https://doi.org/10.1671/0272-4634(2006)26%5B944:ROTPSO%5D2.0.CO;2"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Huayangosaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Huayangosaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "The hypodigm combines disarticulated and incomplete individuals.",
+      "The complete armour arrangement and exact formation age remain uncertain."
+    ],
+    "evidence": {
+      "score": 80,
+      "material": "Multiple partial skeletons with skulls, postcrania and dermal armour.",
+      "formations": [
+        "Lower Shaximiao Formation"
+      ],
+      "confidenceLimit": "High for anatomy and herbivory; moderate for armour layout and numerical age.",
+      "uncertainties": [
+        "osteoderm arrangement",
+        "individual association",
+        "formation age"
+      ],
+      "summary": "Huayangosaurus taibaii was an early stegosaur from the Lower Shaximiao Formation of Sichuan, China. Several partial skeletons, including skulls and armour, document a small-bodied quadrupedal herbivore, but no one specimen preserves every part of the animal.",
+      "sourceBasis": "Sereno & Dong (1992), The skull of Huayangosaurus taibaii; Maidment et al. (2006), A redescription of the postcranial skeleton of Huayangosaurus; Paleobiology Database taxon and occurrence context for Huayangosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

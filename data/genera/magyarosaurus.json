@@ -1,0 +1,145 @@
+{
+  "id": "magyarosaurus",
+  "name": "Magyarosaurus",
+  "profile": {
+    "overview": [
+      "Magyarosaurus was a remarkably small titanosaurian sauropod dinosaur that lived during the Late Cretaceous (Maastrichtian), approximately 70–66 million years ago, in what is now Transylvania, Romania. It is one of the smallest known adult sauropods, measuring less than 3 metres in length and weighing under 1,000 kilograms — tiny compared to its gigantic titanosaur relatives. The type and only species is Magyarosaurus dacus.",
+      "Magyarosaurus is a classic example of insular dwarfism: it lived on what was then the Hateg Island, a land area isolated in the Tethys Sea, where limited resources and the absence of large predators favoured the evolution of reduced body size. Studies using bone histology have confirmed that small Magyarosaurus individuals were genuinely adults with fully developed bones, ruling out the possibility that they were merely juveniles of a larger species. This makes it one of the best-documented cases of dinosaur island dwarfism."
+    ],
+    "fossilSites": [
+      {
+        "name": "Sânpetru Formation (Haţeg Basin)",
+        "region": "Hunedoara County, Romania",
+        "lat": 45.6,
+        "lon": 22.9,
+        "note": "Multiple specimens of Magyarosaurus dacus have been recovered from Late Cretaceous terrestrial deposits in the famous Haţeg Basin."
+      },
+      {
+        "name": "Densuş-Ciula Formation",
+        "region": "Hunedoara County, Romania",
+        "lat": 45.7,
+        "lon": 22.8,
+        "note": "Additional titanosaurian material from the Haţeg Basin has been referred to Magyarosaurus or closely related dwarf sauropods."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Macronaria",
+        "Titanosauria",
+        "Saltasauridae",
+        "Magyarosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Saltasauridae",
+          "label": "Rapetosaurus"
+        },
+        {
+          "from": "Saltasauridae",
+          "label": "Saltasaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Magyarosaurus was named in 1932 by Friedrich von Huene based on material collected from the Haţeg Basin of Transylvania (now Romania). The genus name means 'Magyar lizard', honouring the Magyar (Hungarian) people of the region, which was part of Hungary at the time of collection. The species name dacus refers to Dacia, the ancient Roman province covering modern Romania. Von Huene recognised it as an unusually small sauropod even at the time of description."
+      },
+      {
+        "title": "Insular Dwarfism",
+        "body": "The small size of Magyarosaurus is explained by insular dwarfism — the tendency for large animals to evolve smaller body sizes when isolated on islands with limited food resources. During the Late Cretaceous, Transylvania formed part of the Haţeg Island, surrounded by the Tethys Sea. A 2010 histological study by Csiki and colleagues confirmed from bone growth rings that small Magyarosaurus specimens were indeed fully grown adults rather than juveniles."
+      },
+      {
+        "title": "Phylogenetic Placement",
+        "body": "Magyarosaurus has been placed within Saltasauridae, a derived titanosaur family that includes other relatively small titanosaurs such as Rapetosaurus from Madagascar. A 2005 phylogenetic analysis by Wilson and colleagues supported this placement. Saltasaurids are among the most derived titanosaurs, and their success in Gondwana during the latest Cretaceous is well-documented."
+      },
+      {
+        "title": "The Haţeg Island Fauna",
+        "body": "Magyarosaurus was part of an unusual island fauna that included other dwarfed dinosaurs such as the hadrosaur Telmatosaurus and the iguanodontian Zalmoxes, alongside the large theropod Balaur. The Haţeg ecosystem is one of the best-studied Late Cretaceous island faunas globally, providing a remarkable case study in how isolation affects evolution."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Magyarosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/magyarosaurus.html"
+      },
+      {
+        "label": "Wikipedia: Magyarosaurus",
+        "url": "https://en.wikipedia.org/wiki/Magyarosaurus"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Sânpetru Formation (Haţeg Basin), Hunedoara County, Romania; Densuş-Ciula Formation, Hunedoara County, Romania",
+    "material": "Studies using bone histology have confirmed that small Magyarosaurus individuals were genuinely adults with fully developed bones, ruling out the possibility that they were merely juveniles of a larger species.",
+    "completeness": "Skeletal material known; 11 PBDB occurrence records.",
+    "paleo": "Multiple specimens of Magyarosaurus dacus have been recovered from Late Cretaceous terrestrial deposits in the famous Haţeg Basin.",
+    "evidence": "Magyarosaurus is a classic example of insular dwarfism: it lived on what was then the Hateg Island, a land area isolated in the Tethys Sea, where limited resources and the absence of large predators favoured the evolution of reduced body size."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Maastrichtian, about 71-66 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Titanosauria"
+      ],
+      "description": "Magyarosaurus dacus was a small-bodied titanosaur from the Hateg Basin of Romania. It is known from abundant disarticulated bones belonging to multiple individuals, not a single complete skeleton.",
+      "facts": [
+        "Bone histology indicates that small individuals were mature, supporting island dwarfism rather than juvenility.",
+        "The skull is poorly known and full-body reconstructions are composites.",
+        "Other species historically assigned to Magyarosaurus are dubious or belong elsewhere."
+      ]
+    },
+    "ageReviewNote": "The core material is Maastrichtian Densus-Ciula Formation; older broad referrals are excluded.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Stein et al. (2010), small body size and island dwarfism in Magyarosaurus",
+        "url": "https://doi.org/10.1073/pnas.1000781107"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: magyarosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/magyarosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Species-level assignment of many isolated bones is difficult.",
+      "Precise adult size and phylogenetic position vary by specimen sample."
+    ],
+    "evidence": {
+      "score": 68,
+      "material": "Numerous disarticulated postcranial bones from multiple individuals; little secure cranial material.",
+      "formations": "Densus-Ciula Formation, Hateg Basin, Romania.",
+      "confidenceLimit": "No single complete skeleton exists and reconstructions combine individuals.",
+      "uncertainties": [
+        "referrals",
+        "species limits",
+        "cranial anatomy"
+      ],
+      "summary": "Magyarosaurus dacus was a small-bodied titanosaur from the Hateg Basin of Romania. It is known from abundant disarticulated bones belonging to multiple individuals, not a single complete skeleton.",
+      "sourceBasis": "Stein et al. (2010), small body size and island dwarfism in Magyarosaurus; Natural History Museum Dino Directory: magyarosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

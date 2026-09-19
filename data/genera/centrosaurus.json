@@ -1,0 +1,142 @@
+{
+  "id": "centrosaurus",
+  "name": "Centrosaurus",
+  "profile": {
+    "overview": [
+      "Centrosaurus apertus was a centrosaurine ceratopsid from the Campanian of Alberta (~76–75 Ma), bearing a prominent nasal horn and a frill with distinctive paired hooks projecting forward from the top margin. Massive bone beds in the Dinosaur Park Formation preserve thousands of Centrosaurus individuals — among the largest dinosaur bone beds anywhere in the world — providing population-level data at a scale unmatched for any other ceratopsian.",
+      "Analysis of the Centrosaurus bone beds has been used to test herd structure, disease prevalence and growth biology across an entire population. One remarkable study identified cancer (an aggressive bone tumour) in a Centrosaurus specimen — the oldest cancer confirmed in any tetrapod — providing direct evidence of pathological conditions in Cretaceous dinosaurs."
+    ],
+    "fossilSites": [
+      {
+        "name": "Dinosaur Park Formation — Hilda Bone Bed",
+        "region": "Alberta, Canada",
+        "lat": 50.8,
+        "lon": -111.3,
+        "note": "The largest known bone bed for any ceratopsid; thousands of Centrosaurus individuals deposited by a catastrophic flood event."
+      },
+      {
+        "name": "Dinosaur Park Formation — Steveville area",
+        "region": "Alberta, Canada",
+        "lat": 50.7,
+        "lon": -111.5,
+        "note": "Multiple Centrosaurus bone beds in the main Dinosaur Provincial Park area."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Marginocephalia",
+        "Ceratopsia",
+        "Ceratopsidae",
+        "Centrosaurinae",
+        "Centrosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Centrosaurinae",
+          "label": "Styracosaurus"
+        },
+        {
+          "from": "Centrosaurinae",
+          "label": "Pachyrhinosaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Bone beds and herd structure",
+        "body": "The Hilda Bone Bed — stretching over 2.3 square kilometres and containing thousands of Centrosaurus individuals — is the result of a single catastrophic event, likely a flood during a seasonal migration. Demographic analysis shows a typical herd structure: mainly sub-adults and adults, with juveniles underrepresented (likely because their smaller, less dense bones were destroyed more rapidly). The enormous scale implies herds of thousands of individuals."
+      },
+      {
+        "title": "The oldest confirmed cancer",
+        "body": "A 2020 study by Ekaterina Todorova and colleagues described a large aggressive bone tumour (osteosarcoma) in a Centrosaurus fibula. The tumour had grown extensively and the animal was clearly in poor health at death, yet showed no evidence of predation. This — the oldest confirmed malignant bone cancer in any tetrapod — shows that cancer was a biological reality for dinosaurs as it is for modern vertebrates."
+      },
+      {
+        "title": "Horn and frill variation",
+        "body": "Centrosaurus shows considerable individual variation in nasal horn curvature and frill hook morphology, complicating species distinctions within the genus. The nasal horn could curve forward, upright or backward in different individuals; whether this reflects sexual dimorphism, age variation or individual variation is debated. The frill hooks served primarily for display and species recognition."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Centrosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/centrosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Dinosaur Park Formation, Alberta, Canada",
+    "material": "Many skulls, skeletons and enormous bonebeds with thousands of individuals.",
+    "completeness": "Exceptionally well represented",
+    "paleo": "Late Cretaceous coastal plain of western Canada with diverse hadrosaur and theropod faunas.",
+    "evidence": "Vast monodominant bonebeds document mass-mortality events; the older \"drowned during a river-crossing migration\" idea has been challenged by newer work pointing to catastrophic seasonal flooding as the more likely cause."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "about 76.5-75.5 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Cerapoda",
+        "Ceratopsia",
+        "Ceratopsidae",
+        "Centrosaurinae"
+      ],
+      "description": "Centrosaurus apertus was a centrosaurine ceratopsid from the Dinosaur Park Formation of Alberta. Thousands of bones from many individuals, including articulated skeletons, skulls and extensive bonebeds, make it among the best sampled non-avian dinosaurs.",
+      "facts": [
+        "A large nasal horn and hooked frill ornament are documented across growth stages.",
+        "Mass-death bonebeds support group aggregation at death but do not alone reveal permanent herd structure or migration."
+      ]
+    },
+    "ageReviewNote": "C. apertus is concentrated in the lower-middle Dinosaur Park Formation, late Campanian.",
+    "sources": [
+      {
+        "type": "bonebed-taphonomy",
+        "citation": "Eberth et al. (2015), Taphonomy and palaeoecology of a Centrosaurus bonebed",
+        "url": "https://doi.org/10.2110/palo.2014.084"
+      },
+      {
+        "type": "ontogeny",
+        "citation": "Frederickson & Tumarkin-Deratzian (2014), Craniofacial ontogeny in Centrosaurus apertus",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3933270/"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: centrosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/centrosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Bonebed processes and social interpretation are debated.",
+      "Some named centrosaur species may reflect variation or different horizons."
+    ],
+    "evidence": {
+      "score": 99,
+      "material": "Thousands of cranial and postcranial bones, including many skulls, skeletons and multi-individual bonebeds.",
+      "formations": [
+        "Dinosaur Park Formation",
+        "upper Oldman Formation"
+      ],
+      "confidenceLimit": "Anatomy and growth are exceptionally secure; colour, social system and exact body mass remain uncertain.",
+      "uncertainties": [
+        "Bonebed processes and social interpretation are debated.",
+        "Some named centrosaur species may reflect variation or different horizons."
+      ],
+      "summary": "Centrosaurus apertus was a centrosaurine ceratopsid from the Dinosaur Park Formation of Alberta. Thousands of bones from many individuals, including articulated skeletons, skulls and extensive bonebeds, make it among the best sampled non-avian dinosaurs.",
+      "sourceBasis": "Eberth et al. (2015), Taphonomy and palaeoecology of a Centrosaurus bonebed; Frederickson & Tumarkin-Deratzian (2014), Craniofacial ontogeny in Centrosaurus apertus; Natural History Museum, Dino Directory: centrosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

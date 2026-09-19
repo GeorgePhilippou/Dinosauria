@@ -1,0 +1,143 @@
+{
+  "id": "albertosaurus",
+  "name": "Albertosaurus",
+  "profile": {
+    "overview": [
+      "Albertosaurus sarcophagus was a large albertosaurine tyrannosaur from the latest Campanian of Alberta (~70 Ma), slightly younger than Gorgosaurus and preceding the arrival of Tyrannosaurus. A single remarkable bonebed in the Horseshoe Canyon Formation preserves at least 26 Albertosaurus individuals of varying ages — the strongest direct fossil evidence for gregarious behaviour in any tyrannosaur.",
+      "The Horseshoe Canyon bonebed, discovered by Barnum Brown in 1910 and re-excavated by Philip Currie from 1997, shows a bimodal size distribution: a few large adults and many sub-adults and juveniles. This pattern is consistent with group hunting or at least seasonal aggregation, though the exact nature of the grouping remains debated."
+    ],
+    "fossilSites": [
+      {
+        "name": "Horseshoe Canyon Formation — Dry Island bonebed",
+        "region": "Alberta, Canada",
+        "lat": 51.9,
+        "lon": -112.8,
+        "note": "Late Campanian deposits with the famous multi-individual Albertosaurus bonebed; at least 26 individuals in a single accumulation."
+      },
+      {
+        "name": "Horseshoe Canyon Formation",
+        "region": "Alberta, Canada",
+        "lat": 51.5,
+        "lon": -113,
+        "note": "Upper Campanian–lower Maastrichtian beds with abundant Albertosaurus material across multiple sites."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Tyrannosauroidea",
+        "Tyrannosauridae",
+        "Albertosaurinae",
+        "Albertosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Albertosaurinae",
+          "label": "Gorgosaurus"
+        },
+        {
+          "from": "Tyrannosauridae",
+          "label": "Tyrannosaurinae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and the Dry Island bonebed",
+        "body": "Albertosaurus was named by Osborn in 1905 from Barnum Brown's material collected along the Red Deer River. Brown himself found the bonebed in 1910 but collected only a few specimens before moving on. Philip Currie re-excavated it from 1997 onward, revealing the full scale of the multi-individual accumulation. The flood hypothesis — multiple animals killed by a catastrophic flood — competes with the pack-hunting interpretation."
+      },
+      {
+        "title": "Anatomy",
+        "body": "Albertosaurus had a relatively gracile build compared to Tyrannosaurus, with proportionally longer legs adapted for sustained pursuit. The skull deepened significantly with age, and the adult dentition was well suited to bone crushing. Like all tyrannosaurids, it had vestigial two-fingered forelimbs."
+      },
+      {
+        "title": "Ecological role",
+        "body": "In the Horseshoe Canyon ecosystem Albertosaurus was the sole large tyrannosaur, preying on hadrosaurs (Edmontosaurus, Hypacrosaurus) and smaller ornithischians. The bimodal bonebed age distribution — adults rare, juveniles common — matches predictions from models of gregarious pack-hunting where younger animals performed the pursuit while large adults delivered the killing bite."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Albertosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/albertosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Horseshoe Canyon Formation, Alberta, Canada",
+    "material": "Many specimens including skulls, skeletons and a multispecimen bonebed preserving an estimated 12–26 individuals.",
+    "completeness": "Very well represented",
+    "paleo": "Late Cretaceous coastal plain environments of western Canada.",
+    "evidence": "The Dry Island bonebed provides the best evidence for social or group behaviour in any large theropod."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "about 71-68 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Tyrannosauroidea",
+        "Tyrannosauridae",
+        "Albertosaurinae"
+      ],
+      "description": "Albertosaurus sarcophagus was an albertosaurine tyrannosaurid from the lower Horseshoe Canyon Formation of Alberta. Numerous skulls and skeletons spanning growth stages, including a multi-individual bonebed, make it one of the better represented large theropods.",
+      "facts": [
+        "The Dry Island bonebed preserves many individuals but does not by itself prove coordinated pack hunting.",
+        "Its lighter build and long hind limbs relative to Tyrannosaurus are anatomically supported; precise speed is not."
+      ]
+    },
+    "ageReviewNote": "Well-supported A. sarcophagus occurrences are early Maastrichtian in the lower Horseshoe Canyon Formation.",
+    "sources": [
+      {
+        "type": "bonebed-and-biology",
+        "citation": "Currie (1998), Possible evidence of gregarious behaviour in tyrannosaurids",
+        "url": "https://doi.org/10.5281/zenodo.3737824"
+      },
+      {
+        "type": "growth-analysis",
+        "citation": "Erickson et al. (2004), Gigantism and comparative life-history parameters of tyrannosaurid dinosaurs",
+        "url": "https://doi.org/10.1038/nature02699"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: albertosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/albertosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Bonebed formation and social behaviour are not equivalent.",
+      "Some historical records outside Alberta belong to other tyrannosaurids."
+    ],
+    "evidence": {
+      "score": 95,
+      "material": "Numerous partial to near-complete skulls and skeletons from multiple growth stages.",
+      "formations": [
+        "lower Horseshoe Canyon Formation"
+      ],
+      "confidenceLimit": "Anatomy and growth are well constrained, while maximum mass and behaviour remain model-dependent.",
+      "uncertainties": [
+        "Bonebed formation and social behaviour are not equivalent.",
+        "Some historical records outside Alberta belong to other tyrannosaurids."
+      ],
+      "summary": "Albertosaurus sarcophagus was an albertosaurine tyrannosaurid from the lower Horseshoe Canyon Formation of Alberta. Numerous skulls and skeletons spanning growth stages, including a multi-individual bonebed, make it one of the better represented large theropods.",
+      "sourceBasis": "Currie (1998), Possible evidence of gregarious behaviour in tyrannosaurids; Erickson et al. (2004), Gigantism and comparative life-history parameters of tyrannosaurid dinosaurs; Natural History Museum, Dino Directory: albertosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

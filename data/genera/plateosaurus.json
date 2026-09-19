@@ -1,0 +1,138 @@
+{
+  "id": "plateosaurus",
+  "name": "Plateosaurus",
+  "profile": {
+    "overview": [
+      "Plateosaurus engelhardti was one of the most successful dinosaurs of the Late Triassic — a large prosauropod reaching up to seven metres, known from over 100 individuals across central Europe (Germany, France, Switzerland). It was a committed biped that could not walk on four legs, despite early reconstructions showing a quadrupedal posture, and its body plan presages the giant sauropods that would evolve from its lineage.",
+      "Mass-death sites in Germany and Switzerland — where dozens of individuals of all sizes are found together — suggest many individuals became mired in soft ground, possibly during seasonal migrations toward water in a semi-arid Triassic landscape. Bone texture studies show that Plateosaurus grew more like a reptile (variable growth rate) than like a bird or mammal (rapid determinate growth)."
+    ],
+    "fossilSites": [
+      {
+        "name": "Stubensandstein (Löwenstein Formation)",
+        "region": "Baden-Württemberg, Germany",
+        "lat": 48.5,
+        "lon": 9.5,
+        "note": "Late Triassic (Norian) fluvial sandstones with abundant Plateosaurus material including mass-death accumulations."
+      },
+      {
+        "name": "Knollenmergel Formation — Trossingen",
+        "region": "Baden-Württemberg, Germany",
+        "lat": 48.1,
+        "lon": 8.9,
+        "note": "Classic mass-death site with dozens of Plateosaurus individuals; excavated by Friedrich von Huene in the 1920s and 30s."
+      },
+      {
+        "name": "Frick site",
+        "region": "Aargau, Switzerland",
+        "lat": 47.5,
+        "lon": 7.9,
+        "note": "Swiss Triassic beds with extensive Plateosaurus material currently under ongoing excavation."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Plateosauridae",
+        "Plateosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Sauropodomorpha",
+          "label": "Sauropoda (giant relatives)"
+        },
+        {
+          "from": "Plateosauridae",
+          "label": "Sellosaurus and other plateosaurids"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and abundance",
+        "body": "Friedrich von Huene described the genus in 1837, long before the dinosaur concept was formalised. Over 100 individuals are now known, making Plateosaurus one of the most abundant Triassic dinosaurs. The Trossingen quarry in Germany and the Frick site in Switzerland have produced dozens of articulated specimens."
+      },
+      {
+        "title": "Locomotion debate",
+        "body": "For much of the 20th century Plateosaurus was reconstructed as a facultative quadruped. Detailed biomechanical analysis by Bonnan and Senter (2007) and others showed its wrist anatomy prevented pronation — the hand could not be placed flat on the ground for walking. Plateosaurus was an obligate biped, using its forelimbs only for grasping."
+      },
+      {
+        "title": "Growth biology",
+        "body": "Bone histology of Plateosaurus samples shows variable growth rates between individuals of the same size — unlike the predictable rapid growth of birds and mammals. This \"reptilian\" growth strategy means that Plateosaurus individuals reached similar adult sizes at very different ages. The same feeding resources and climate produced very different growth trajectories, suggesting growth was strongly environmentally controlled rather than genetically fixed."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Plateosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/plateosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Trossingen and other Late Triassic European formations",
+    "material": "Large numbers of skeletons from Germany and Switzerland.",
+    "completeness": "Very well represented",
+    "paleo": "Late Triassic European terrestrial basins with mass-death assemblages.",
+    "evidence": "Growth series and skeletons document a large bipedal sauropodomorph before true giant sauropods."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Triassic",
+      "mya": "Norian-Rhaetian, about 214-204 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Plateosauridae"
+      ],
+      "description": "Plateosaurus was a large non-sauropodan sauropodomorph from Late Triassic Europe, represented by many skeletons and bonebed assemblages. Species-level nomenclature, especially P. engelhardti versus P. trossingensis, has a complex history.",
+      "facts": [
+        "The Trossingen and Frick bonebeds preserve many individuals of different sizes.",
+        "Biomechanical work favours habitual bipedality for adults rather than elephant-like quadrupedal walking.",
+        "Size varied substantially among mature individuals, consistent with developmental plasticity."
+      ]
+    },
+    "ageReviewNote": "Well-dated occurrences span Norian-Rhaetian European strata; species-level horizons should be retained separately.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Mallison (2010), digital reconstruction and locomotor range of Plateosaurus",
+        "url": "https://doi.org/10.4202/app.2009.0075"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Sander & Klein (2005), developmental plasticity in Plateosaurus",
+        "url": "https://doi.org/10.1126/science.1120125"
+      }
+    ],
+    "residualUncertainty": [
+      "Species nomenclature and assignment of some bonebeds remain contested.",
+      "Mass estimates vary strongly with specimen and method."
+    ],
+    "evidence": {
+      "score": 96,
+      "material": "Dozens of partial to nearly complete skeletons and skulls from several European bonebeds.",
+      "formations": "Lowenstein and Trossingen formations and equivalent European units.",
+      "confidenceLimit": "Do not treat all individuals and named species as one uniform body size.",
+      "uncertainties": [
+        "species nomenclature",
+        "individual size variation"
+      ],
+      "summary": "Plateosaurus was a large non-sauropodan sauropodomorph from Late Triassic Europe, represented by many skeletons and bonebed assemblages. Species-level nomenclature, especially P. engelhardti versus P. trossingensis, has a complex history.",
+      "sourceBasis": "Mallison (2010), digital reconstruction and locomotor range of Plateosaurus; Sander & Klein (2005), developmental plasticity in Plateosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

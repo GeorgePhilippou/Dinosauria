@@ -1,0 +1,162 @@
+{
+  "id": "dromiceiomimus",
+  "name": "Dromiceiomimus",
+  "profile": {
+    "overview": [
+      "Dromiceiomimus (meaning 'emu mimic') was a medium-sized ornithomimosaurian theropod from the Late Cretaceous of Alberta, Canada, living approximately 74–70 million years ago. Estimated at around 3.5 metres in length and about 100 kilograms, it superficially resembled a modern ostrich or emu, with long hindlimbs, a lightly built body, and a toothless beak. It is currently regarded as a nomen dubium by many researchers, meaning the material attributed to it is no longer considered to reliably diagnose a species distinct from other ornithomimids.",
+      "Dromiceiomimus brevitertius was named by Dale Russell in 1972 from the Horseshoe Canyon Formation of Alberta. Questions about its validity stem from difficulties in separating it from Ornithomimus based on available skeletal material. The taxon illustrates broader challenges in ornithomimid taxonomy, where multiple closely related species in the same formation can be difficult to distinguish without multiple well-preserved specimens."
+    ],
+    "fossilSites": [
+      {
+        "name": "Horseshoe Canyon Formation",
+        "region": "Alberta, Canada",
+        "lat": 51.4,
+        "lon": -112.8,
+        "note": "Type locality; the only confirmed occurrences of Dromiceiomimus come from this Early Maastrichtian formation."
+      },
+      {
+        "name": "Edmonton Group",
+        "region": "Alberta, Canada",
+        "lat": 53.5,
+        "lon": -113.5,
+        "note": "Broader Edmonton Group context includes correlative strata that have yielded ornithomimid material sometimes referred to this taxon."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Ornithomimosauria",
+        "Ornithomimidae",
+        "Dromiceiomimus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ornithomimidae",
+          "label": "Ornithomimus"
+        },
+        {
+          "from": "Ornithomimidae",
+          "label": "Struthiomimus"
+        },
+        {
+          "from": "Ornithomimosauria",
+          "label": "Gallimimus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Dromiceiomimus brevitertius was described by Dale Russell in 1972 from skeletal material in the Horseshoe Canyon Formation of Alberta. The genus name references the emu (Dromaius) of Australia, emphasising the animal's bird-like proportions, while the species epithet brevitertius refers to the proportionally short third metatarsal."
+      },
+      {
+        "title": "Nomen Dubium Status",
+        "body": "Many subsequent assessments have concluded that Dromiceiomimus cannot be reliably distinguished from Ornithomimus based on available diagnostic features. The NHM notes it is now widely treated as a nomen dubium. This does not mean the specimens are unimportant — they contribute to understanding ornithomimid anatomy — but the genus name itself is of uncertain validity."
+      },
+      {
+        "title": "Locomotion and Speed",
+        "body": "Ornithomimids like Dromiceiomimus were almost certainly among the fastest non-avian dinosaurs, with long, slender hindlimbs and a lightly built frame conducive to high running speeds. Biomechanical estimates for comparable ornithomimids suggest top speeds potentially exceeding 50 km/h, though such figures carry significant uncertainty."
+      },
+      {
+        "title": "Diet and Ecology",
+        "body": "Ornithomimids are generally inferred to have been omnivores, using their toothless beaks to consume a variety of plant material, insects, small vertebrates, and possibly eggs. The absence of teeth and the structure of the forelimbs suggest a generalist opportunistic diet rather than specialised predation."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Dromiceiomimus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/dromiceiomimus.html"
+      },
+      {
+        "label": "PBDB: Dromiceiomimus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dromiceiomimus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Horseshoe Canyon Formation, Alberta, Canada; Edmonton Group, Alberta, Canada",
+    "material": "It is currently regarded as a nomen dubium by many researchers, meaning the material attributed to it is no longer considered to reliably diagnose a species distinct from other ornithomimids.",
+    "completeness": "Skeletal material known; 5 PBDB occurrence records.",
+    "paleo": "Type locality; the only confirmed occurrences of Dromiceiomimus come from this Early Maastrichtian formation.",
+    "evidence": "Dromiceiomimus brevitertius was named by Dale Russell in 1972 from the Horseshoe Canyon Formation of Alberta."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian-early Maastrichtian, roughly 76-69 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Ornithomimosauria",
+        "Ornithomimidae"
+      ],
+      "taxonomicStatus": "validity disputed; recent reassessments support separation from Ornithomimus",
+      "description": "Dromiceiomimus brevitertius is an ornithomimid name based on Canadian Late Cretaceous skull and skeletal material. It was long synonymized with Ornithomimus edmontonicus, but renewed anatomical work has argued that a distinct, slender-limbed taxon may be recognisable.",
+      "facts": [
+        "The page must present the synonymy debate, not one resolution as settled fact.",
+        "Toothless jaws and long cursorial limbs are documented for the referred ornithomimid material.",
+        "Diet remains unresolved and should not be labelled confidently as herbivorous or carnivorous."
+      ],
+      "diet": null,
+      "length": null,
+      "massKg": null
+    },
+    "ageReviewNote": "The hypodigm spans more than one Canadian formation and may mix taxa; each referral needs horizon-level checking.",
+    "sources": [
+      {
+        "type": "taxonomic-reassessment",
+        "citation": "Macdonald & Currie (2019), A partial Dromiceiomimus skeleton and comments on the validity of the genus",
+        "url": "https://doi.org/10.1139/cjes-2018-0162"
+      },
+      {
+        "type": "ornithomimid-review",
+        "citation": "Cullen et al. (2013), An ornithomimid bonebed from Alberta and implications for classification and stratigraphy",
+        "url": "https://doi.org/10.1371/journal.pone.0058853"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Dromiceiomimus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Dromiceiomimus"
+      }
+    ],
+    "residualUncertainty": [
+      "The genus-level validity and boundaries of the referred hypodigm remain disputed.",
+      "Age range depends on which specimens are accepted."
+    ],
+    "evidence": {
+      "score": 40,
+      "material": "Several partial skulls and skeletons historically distributed between Dromiceiomimus and Ornithomimus.",
+      "formations": [
+        "Dinosaur Park Formation",
+        "Horseshoe Canyon Formation"
+      ],
+      "confidenceLimit": "High for ornithomimid anatomy; low-to-moderate for genus validity, species referrals and range.",
+      "uncertainties": [
+        "validity",
+        "hypodigm",
+        "formation range",
+        "diet"
+      ],
+      "summary": "Dromiceiomimus brevitertius is an ornithomimid name based on Canadian Late Cretaceous skull and skeletal material. It was long synonymized with Ornithomimus edmontonicus, but renewed anatomical work has argued that a distinct, slender-limbed taxon may be recognisable.",
+      "sourceBasis": "Macdonald & Currie (2019), A partial Dromiceiomimus skeleton and comments on the validity of the genus; Cullen et al. (2013), An ornithomimid bonebed from Alberta and implications for classification and stratigraphy; Paleobiology Database taxon and occurrence context for Dromiceiomimus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "id": "shunosaurus",
+  "name": "Shunosaurus",
+  "profile": {
+    "overview": [
+      "Shunosaurus (meaning 'Shu lizard', after the ancient name for Sichuan) was a medium-sized sauropod dinosaur from the Middle to Late Jurassic of Sichuan Province, China, living approximately 170–157 million years ago. It reached about 10 metres in length and is one of the best-known early sauropods, represented by dozens of specimens including several nearly complete skeletons. Shunosaurus was a eusauropod, an evolutionary grade that forms the base of the more derived Neosauropoda.",
+      "Named by Dong, Zhou, and Zhang in 1983, Shunosaurus lii is particularly significant for possessing a bony tail club — a feature previously known only in the derived ankylosaurs and recently confirmed in Shunosaurus by articulated tail material. This convergent evolution of a defensive tail weapon in an early sauropod has attracted considerable attention. Shunosaurus shared its habitat with other Chinese Jurassic sauropods such as Omeisaurus and Datousaurus, as well as stegosaurs like Huayangosaurus."
+    ],
+    "fossilSites": [
+      {
+        "name": "Lower Shaximiao Formation",
+        "region": "Sichuan Province, China",
+        "lat": 29,
+        "lon": 105,
+        "note": "Dozens of Shunosaurus specimens, including near-complete skeletons, have been recovered from these Middle Jurassic fluvial and lacustrine beds."
+      },
+      {
+        "name": "Dashanpu Quarry",
+        "region": "Zigong, Sichuan, China",
+        "lat": 29.35,
+        "lon": 104.77,
+        "note": "The Dashanpu quarry is one of the richest dinosaur sites in the world and has yielded multiple Shunosaurus individuals alongside Omeisaurus and stegosaurs."
+      },
+      {
+        "name": "Upper Shaximiao Formation equivalents",
+        "region": "Sichuan Basin, China",
+        "lat": 30,
+        "lon": 106,
+        "note": "Correlative Late Jurassic strata preserve faunal successors to the Shunosaurus assemblage, illustrating faunal turnover."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Eusauropoda",
+        "Shunosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Eusauropoda",
+          "label": "Omeisaurus"
+        },
+        {
+          "from": "Eusauropoda",
+          "label": "Neosauropoda (Diplodocidae, Macronaria)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Shunosaurus lii was formally described by Dong Zhiming, Zhou Shiwu, and Zhang Yihong in 1983, based on excavations at Dashanpu, Zigong, Sichuan, which began in 1979. The discovery of multiple articulated skeletons made Shunosaurus one of the most completely known Jurassic sauropods globally. The genus name references 'Shu', a poetic name for Sichuan, and the species honours palaeontologist Li Bing."
+      },
+      {
+        "title": "Tail Club",
+        "body": "One of the most striking features of Shunosaurus is its tail club — a mass of fused vertebrae and osteoderms at the tail tip. This structure had previously been considered unique to ankylosaurs, making its presence in an early sauropod a striking example of convergent evolution. The club was likely used for defence against predators such as the contemporaneous theropod Gasosaurus."
+      },
+      {
+        "title": "Body Plan and Diet",
+        "body": "Shunosaurus had a moderately long neck compared to later, more derived sauropods, with spoon-shaped teeth well suited to cropping vegetation. Its limb proportions suggest a slower, more deliberate gait than its descendants. As a eusauropod, it was herbivorous, likely browsing on low to mid-level vegetation in the lush floodplain environments of Jurassic Sichuan."
+      },
+      {
+        "title": "Jurassic Sichuan Ecosystem",
+        "body": "The Lower Shaximiao Formation preserves a remarkably diverse dinosaur fauna including multiple sauropods (Shunosaurus, Datousaurus, Omeisaurus, Protognathosaurus), the early stegosaur Huayangosaurus, and the ornithopod Xiaosaurus. This assemblage gives a rich picture of Middle Jurassic Asian dinosaur diversity."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Shunosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/shunosaurus.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Lower Shaximiao Formation, Sichuan Province, China; Dashanpu Quarry, Zigong, Sichuan, China; Upper Shaximiao Formation equivalents, Sichuan Basin, China",
+    "material": "It reached about 10 metres in length and is one of the best-known early sauropods, represented by dozens of specimens including several nearly complete skeletons.",
+    "completeness": "Nearly complete specimen known; 5 PBDB occurrence records.",
+    "paleo": "Dozens of Shunosaurus specimens, including near-complete skeletons, have been recovered from these Middle Jurassic fluvial and lacustrine beds.",
+    "evidence": "Named by Dong, Zhou, and Zhang in 1983, Shunosaurus lii is particularly significant for possessing a bony tail club — a feature previously known only in the derived ankylosaurs and recently confirmed in Shunosaurus by articulated tail material."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Mid Jurassic",
+      "mya": "Bathonian-Callovian, about 168-164 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Eusauropoda"
+      ],
+      "description": "Shunosaurus lii was a basal eusauropod from the Lower Shaximiao Formation of Sichuan, known from numerous skeletons including skulls and articulated tails.",
+      "facts": [
+        "A bony tail club formed by fused terminal vertebrae and osteoderms is directly preserved.",
+        "Several skeletons collectively document nearly the whole body, but reconstructions remain composites."
+      ]
+    },
+    "ageReviewNote": "The Lower Shaximiao sample is Middle Jurassic, broadly Bathonian-Callovian.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Zhang (1988), osteology of Shunosaurus and its tail club",
+        "url": "https://naturalhistory.si.edu/sites/default/files/media/translated_publications/Zhang_88.pdf"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: shunosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/shunosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Species-level referrals and individual association are imperfect."
+    ],
+    "evidence": {
+      "score": 94,
+      "material": "Numerous partial and articulated skeletons with skulls and tail clubs.",
+      "formations": "Lower Shaximiao Formation, Sichuan, China.",
+      "confidenceLimit": "Composite measurements should not be assigned to one individual.",
+      "uncertainties": [
+        "species referrals",
+        "individual association"
+      ],
+      "summary": "Shunosaurus lii was a basal eusauropod from the Lower Shaximiao Formation of Sichuan, known from numerous skeletons including skulls and articulated tails.",
+      "sourceBasis": "Zhang (1988), osteology of Shunosaurus and its tail club; Natural History Museum Dino Directory: shunosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

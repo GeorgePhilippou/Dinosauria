@@ -1,0 +1,155 @@
+{
+  "id": "nemegtosaurus",
+  "name": "Nemegtosaurus",
+  "profile": {
+    "overview": [
+      "Nemegtosaurus (meaning 'Nemegt lizard') was a large sauropod dinosaur from the Late Cretaceous (approximately 72–68 million years ago) of southern Mongolia. It is known exclusively from a skull and lower jaw (mandible) recovered from the Nemegt Formation of the Omnogovi region — the iconic fossil-bearing badlands of the Gobi Desert. Based on comparisons with more complete relatives, the animal was probably around 13 metres or more in length.",
+      "Described by Nowinski in 1971, Nemegtosaurus is placed in Nemegtosauridae, a titanosaur family characterised by diplodocoid-like slender skulls. Its skull-only record has generated longstanding debate: some researchers proposed it was the cranial counterpart of the headless Opisthocoelicaudia found in the same formation, potentially representing the same individual or species. Current opinion generally treats them as distinct genera, making Nemegtosaurus an important case study in the challenges of matching isolated skulls with postcranial material."
+    ],
+    "fossilSites": [
+      {
+        "name": "Nemegt Formation",
+        "region": "Omnogovi, Mongolia",
+        "lat": 43.5,
+        "lon": 100.5,
+        "note": "Maastrichtian fluvial deposits of the Gobi Desert that produced the holotype skull and mandible of Nemegtosaurus."
+      },
+      {
+        "name": "Subashi Formation",
+        "region": "Xinjiang, China",
+        "lat": 41.8,
+        "lon": 85,
+        "note": "Campanian-age deposits in western China from which possible nemegtosaurid occurrences have been reported."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Macronaria",
+        "Titanosauriformes",
+        "Titanosauria",
+        "Diplodocoidea",
+        "Nemegtosauridae",
+        "Nemegtosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Nemegtosauridae",
+          "label": "Rapetosaurus"
+        },
+        {
+          "from": "Titanosauria",
+          "label": "Saltasauridae"
+        },
+        {
+          "from": "Diplodocoidea",
+          "label": "Diplodocidae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "The holotype skull of Nemegtosaurus mongoliensis was recovered from the Nemegt Formation of Mongolia and formally described by Nowinski in 1971. It was one of several remarkable dinosaur discoveries made in the Nemegt Basin during Polish-Mongolian expeditions of the 1960s and 1970s. The genus and species names both refer to the Nemegt locality."
+      },
+      {
+        "title": "Skull Morphology",
+        "body": "The skull of Nemegtosaurus is long and low, with slender jaws bearing spatulate teeth restricted to the front of the mouth — a morphology broadly similar to diplodocids but occurring in a titanosaur lineage. This convergence has been informative for understanding how sauropod skull form relates to feeding ecology across independent lineages."
+      },
+      {
+        "title": "The Nemegtosaurus–Opisthocoelicaudia Debate",
+        "body": "For many years it was proposed that the headless body of Opisthocoelicaudia and the bodiless skull of Nemegtosaurus, both from the Nemegt Formation, might belong to the same animal. Detailed anatomical comparisons have largely led researchers to reject this synonymy and treat them as distinct taxa, but the question has prompted important methodological discussion about how to handle isolated material."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "The Nemegt Formation preserves a relatively lush fluvial environment compared with the older Djadokhta and Barun Goyot Formations in the same region. Nemegtosaurus would have shared this landscape with other large dinosaurs including Tarbosaurus, Opisthocoelicaudia, Deinocheirus, and Saurolophus."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Nemegtosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/nemegtosaurus.html"
+      },
+      {
+        "label": "PBDB: Nemegtosaurus occurrences",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38671"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Nemegt Formation, Omnogovi, Mongolia; Subashi Formation, Xinjiang, China",
+    "material": "The holotype skull of Nemegtosaurus mongoliensis was recovered from the Nemegt Formation of Mongolia and formally described by Nowinski in 1971.",
+    "completeness": "Partial material known; 3 PBDB occurrence records.",
+    "paleo": "Maastrichtian fluvial deposits of the Gobi Desert that produced the holotype skull and mandible of Nemegtosaurus.",
+    "evidence": "Described by Nowinski in 1971, Nemegtosaurus is placed in Nemegtosauridae, a titanosaur family characterised by diplodocoid-like slender skulls."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Maastrichtian, about 70-66 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Titanosauria"
+      ],
+      "description": "Nemegtosaurus mongoliensis is a titanosaur from the Nemegt Formation of Mongolia, named from a skull and lower jaw. Sparse postcranial remains have been proposed as referrals, but no complete Nemegtosaurus skeleton is known.",
+      "facts": [
+        "The type is principally cranial and bears narrow-crowned replacement teeth.",
+        "It may represent the same animal as the skull-less titanosaur Opisthocoelicaudia, but non-overlapping type material prevents a secure synonymy.",
+        "A possible additional skull-associated specimen supports titanosaur affinity but does not settle the synonymy."
+      ]
+    },
+    "ageReviewNote": "Both the type locality and rediscovered localities place the genus in the Maastrichtian Nemegt Formation.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Currie et al. (2018), rediscovery of the Nemegtosaurus and Opisthocoelicaudia type localities",
+        "url": "https://doi.org/10.1016/j.palaeo.2017.10.035"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Averianov & Lopatin (2019), possible new Nemegtosaurus specimen",
+        "url": "https://www.app.pan.pl/article/item/app005962019.html"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: nemegtosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/nemegtosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Whether Nemegtosaurus and Opisthocoelicaudia are synonyms remains unresolved.",
+      "Postcranial anatomy and adult size are weakly constrained."
+    ],
+    "evidence": {
+      "score": 38,
+      "material": "Holotype skull and mandible, with limited possible additional material.",
+      "formations": "Nemegt Formation, Mongolia.",
+      "confidenceLimit": "Do not attach the Opisthocoelicaudia skeleton to this skull as established fact.",
+      "uncertainties": [
+        "possible synonymy",
+        "postcranial identity"
+      ],
+      "summary": "Nemegtosaurus mongoliensis is a titanosaur from the Nemegt Formation of Mongolia, named from a skull and lower jaw. Sparse postcranial remains have been proposed as referrals, but no complete Nemegtosaurus skeleton is known.",
+      "sourceBasis": "Currie et al. (2018), rediscovery of the Nemegtosaurus and Opisthocoelicaudia type localities; Averianov & Lopatin (2019), possible new Nemegtosaurus specimen; Natural History Museum Dino Directory: nemegtosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "lambeosaurus",
+  "name": "Lambeosaurus",
+  "profile": {
+    "overview": [
+      "Lambeosaurus lambei was a large lambeosaurine hadrosaur from the Campanian of Alberta (~76 Ma), distinguished by a distinctive hatchet-shaped crest consisting of two parts: a forward-projecting hollow crest and a solid posterior spike. At up to nine metres it was among the largest hadrosaurs of the Dinosaur Park Formation. Different crest shapes between specimens reflect sex and age differences rather than different species.",
+      "Lambeosaurus and Corythosaurus coexisted in the Dinosaur Park Formation, partitioned by habitat or seasonally segregated despite their overall similarity. Their different crest shapes would have produced distinct low-frequency calls, allowing species recognition without visual contact in dense vegetation — a plausible selective pressure for crest diversity in lambeosaurine hadrosaurs."
+    ],
+    "fossilSites": [
+      {
+        "name": "Dinosaur Park Formation",
+        "region": "Alberta, Canada",
+        "lat": 50.7,
+        "lon": -111.5,
+        "note": "Campanian deposits with multiple Lambeosaurus specimens of different sizes; the classic lambeosaurine hadrosaur site."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Hadrosauridae",
+        "Lambeosaurinae",
+        "Lambeosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Lambeosaurinae",
+          "label": "Corythosaurus"
+        },
+        {
+          "from": "Lambeosaurinae",
+          "label": "Parasaurolophus"
+        },
+        {
+          "from": "Hadrosauridae",
+          "label": "Saurolophinae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and naming",
+        "body": "Named by William Diller Matthew in 1923 in honour of Lawrence Lambe, the Canadian palaeontologist who had described much of the Dinosaur Park Formation fauna. Multiple Lambeosaurus specimens — including different crest shapes — were initially assigned to different species; subsequent work showed many represent ontogenetic and sexual variation within a single or two species."
+      },
+      {
+        "title": "Crest structure",
+        "body": "The hatchet-shaped crest is unique to Lambeosaurus. Like Corythosaurus, the crest is hollow, containing looping nasal passages. The anterior (forward) lobe of the crest is the resonating chamber; the posterior solid spike has no clear acoustic function and may have been primarily a display structure. The crest reached maximum development in large adults."
+      },
+      {
+        "title": "Dinosaur Park ecosystem",
+        "body": "The Dinosaur Park Formation is the richest Late Cretaceous dinosaur fauna known from North America: multiple ceratopsid species, five or more hadrosaur species, ankylosaurs, pachycephalosaurs and tyrannosaurs coexisted in a coastal lowland environment. Lambeosaurus was a dominant large herbivore alongside Corythosaurus and the ceratopsid Centrosaurus."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Lambeosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/lambeosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Dinosaur Park Formation, Alberta, Canada",
+    "material": "Skulls and skeletons of a crested hadrosaur.",
+    "completeness": "Well represented",
+    "paleo": "Late Cretaceous western Canadian coastal plain ecosystems.",
+    "evidence": "Helmet-like cranial crest and hadrosaur skeletal anatomy support lambeosaurine classification."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian, roughly 76.7-74.4 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauroidea",
+        "Hadrosauridae",
+        "Lambeosaurinae",
+        "Lambeosaurini"
+      ],
+      "description": "Lambeosaurus was a hollow-crested lambeosaurine hadrosaurid from the Dinosaur Park Formation of Alberta and equivalent strata. L. lambei is represented by multiple skulls and partial skeletons; L. magnicristatus is a separate, rarer species and should not be merged uncritically with it.",
+      "facts": [
+        "The crest enclosed extended nasal passages and changed shape during growth.",
+        "Acoustic and display functions are plausible and modelled, but exact calls and behaviours are unknown.",
+        "Dental batteries document herbivory and complex plant processing."
+      ]
+    },
+    "ageReviewNote": "Secure Dinosaur Park Formation occurrences are late Campanian, approximately 76.7-74.4 Ma.",
+    "sources": [
+      {
+        "type": "species-anatomy",
+        "citation": "Evans & Reisz (2007), Anatomy and relationships of Lambeosaurus magnicristatus",
+        "url": "https://doi.org/10.1671/0272-4634(2007)27%5B373:AAROLM%5D2.0.CO;2"
+      },
+      {
+        "type": "lambeosaurine-review",
+        "citation": "Prieto-Marquez et al. (2013), The phylogeny and biogeography of lambeosaurine hadrosaurids",
+        "url": "https://doi.org/10.1371/journal.pone.0069835"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Lambeosaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Lambeosaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "Species boundaries, ontogenetic crest variation and some Montana referrals remain debated.",
+      "Crest acoustics cannot recover exact vocalisations."
+    ],
+    "evidence": {
+      "score": 90,
+      "material": "Multiple skulls and partial-to-substantial skeletons across growth stages.",
+      "formations": [
+        "Dinosaur Park Formation"
+      ],
+      "confidenceLimit": "Very high for skull anatomy, herbivory and age; moderate for species taxonomy; low for exact crest behaviour.",
+      "uncertainties": [
+        "species boundaries",
+        "ontogeny",
+        "crest acoustics",
+        "external referrals"
+      ],
+      "summary": "Lambeosaurus was a hollow-crested lambeosaurine hadrosaurid from the Dinosaur Park Formation of Alberta and equivalent strata. L. lambei is represented by multiple skulls and partial skeletons; L. magnicristatus is a separate, rarer species and should not be merged uncritically with it.",
+      "sourceBasis": "Evans & Reisz (2007), Anatomy and relationships of Lambeosaurus magnicristatus; Prieto-Marquez et al. (2013), The phylogeny and biogeography of lambeosaurine hadrosaurids; Paleobiology Database taxon and occurrence context for Lambeosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

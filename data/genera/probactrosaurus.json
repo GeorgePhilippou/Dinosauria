@@ -1,0 +1,145 @@
+{
+  "id": "probactrosaurus",
+  "name": "Probactrosaurus",
+  "profile": {
+    "overview": [
+      "Probactrosaurus (meaning 'before Bactrosaurus') was a large herbivorous ornithopod from the Early Cretaceous of Inner Mongolia, China, living approximately 121–100 million years ago. Named by Rozhdestvensky in 1966, it reached an estimated 6 metres in length and is known from the Miaogou Formation of Nei Monggol. It walked on two or four legs and had the battery of small, densely packed cheek teeth characteristic of more advanced hadrosaurs.",
+      "Probactrosaurus is placed within Iguanodontoidea—specifically close to the origin of Hadrosauridae—and is scientifically significant as a potential evolutionary transitional form between iguanodontids and true duck-billed dinosaurs. Its dentition and skull features show a mosaic of primitive iguanodontian and derived hadrosauroid characters, informing models of hadrosaur origins in Asia during the Early Cretaceous."
+    ],
+    "fossilSites": [
+      {
+        "name": "Miaogou Formation",
+        "region": "Nei Monggol, China",
+        "lat": 40.5,
+        "lon": 109,
+        "note": "Aptian-age continental deposits of Inner Mongolia yielding the main Probactrosaurus material."
+      },
+      {
+        "name": "Alashan region",
+        "region": "Nei Monggol, China",
+        "lat": 39.5,
+        "lon": 105.7,
+        "note": "Additional associated Early Cretaceous sediments in the same general basin as the type locality."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Euornithopoda",
+        "Iguanadontia",
+        "Euiguanadontia",
+        "Dryomorpha",
+        "Ankylopollexia",
+        "Iguanodontoidea",
+        "Probactrosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Iguanodontoidea",
+          "label": "Hadrosauridae"
+        },
+        {
+          "from": "Euiguanadontia",
+          "label": "Iguanodon"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Probactrosaurus gobiensis was named by Soviet palaeontologist Anatoly Rozhdestvensky in 1966, based on multiple specimens collected from Inner Mongolia. The genus name reflects its presumed phylogenetic position as an ancestor or close relative of the Asian hadrosaur Bactrosaurus."
+      },
+      {
+        "title": "Position Near Hadrosaur Origins",
+        "body": "Probactrosaurus is considered a key genus in understanding how hadrosaurs evolved from iguanodontian ancestors. Its teeth show an early form of the hadrosaur dental battery, where multiple replacement teeth stack in functional columns, a feature that allowed hadrosaurs to process tough plant material efficiently."
+      },
+      {
+        "title": "Anatomy",
+        "body": "The skeleton shows features intermediate between Iguanodon and more derived hadrosaurs, including a partially expanded skull and limb proportions consistent with both bipedal and quadrupedal locomotion. Its forelimb retains the thumb spike structure found in iguanodontians, though in a reduced form."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "During the Aptian stage, Inner Mongolia was a fluvial and floodplain environment with seasonal rivers. Probactrosaurus shared this setting with early theropods and other ornithopods, browsing on the diverse Early Cretaceous plant communities that preceded the dominance of flowering plants."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Probactrosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/probactrosaurus.html"
+      },
+      {
+        "label": "PBDB: Probactrosaurus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Probactrosaurus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Miaogou Formation, Nei Monggol, China; Alashan region, Nei Monggol, China",
+    "material": "Named by Rozhdestvensky in 1966, it reached an estimated 6 metres in length and is known from the Miaogou Formation of Nei Monggol.",
+    "completeness": "Partial material known; 2 PBDB occurrence records.",
+    "paleo": "Aptian-age continental deposits of Inner Mongolia yielding the main Probactrosaurus material.",
+    "evidence": "Probactrosaurus is placed within Iguanodontoidea—specifically close to the origin of Hadrosauridae—and is scientifically significant as a potential evolutionary transitional form between iguanodontids and true duck-billed dinosaurs."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "Aptian-Albian, about 125-100 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauroidea"
+      ],
+      "description": "Probactrosaurus gobiensis was a non-hadrosaurid hadrosauroid from the Dashuigou Formation of Inner Mongolia, known from multiple partial skeletons including skull and jaws.",
+      "facts": [
+        "It documents an intermediate-grade hadrosauroid, but it is not established as the direct ancestor of later hadrosaurids.",
+        "Probactrosaurus alashanicus is generally treated as a junior synonym, while P. mazongshanensis was removed to Gongpoquansaurus.",
+        "Quadrupedal and bipedal movement were anatomically possible; exact gait frequency is unknown."
+      ]
+    },
+    "ageReviewNote": "The Dashuigou Formation is Aptian-Albian; the broad original catalogue interval is retained only at formation resolution.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Norman (2002), systematic review of Probactrosaurus",
+        "url": "https://doi.org/10.1046/j.1096-3642.2002.00027.x"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: probactrosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/probactrosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Species-level historical referrals remain complex.",
+      "Formation dating is not a narrow numerical point."
+    ],
+    "evidence": {
+      "score": 78,
+      "material": "Several partial skeletons with substantial cranial, axial and appendicular material.",
+      "formations": "Dashuigou Formation, Inner Mongolia, China.",
+      "confidenceLimit": "Evolutionary grade does not mean direct ancestry.",
+      "uncertainties": [
+        "species synonymy",
+        "locomotor emphasis"
+      ],
+      "summary": "Probactrosaurus gobiensis was a non-hadrosaurid hadrosauroid from the Dashuigou Formation of Inner Mongolia, known from multiple partial skeletons including skull and jaws.",
+      "sourceBasis": "Norman (2002), systematic review of Probactrosaurus; Natural History Museum Dino Directory: probactrosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

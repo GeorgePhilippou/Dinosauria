@@ -1,0 +1,156 @@
+{
+  "id": "albertaceratops",
+  "name": "Albertaceratops",
+  "profile": {
+    "overview": [
+      "Albertaceratops nesmoi was a centrosaurine ceratopsid dinosaur from the Late Cretaceous of Alberta, Canada, and Montana, USA, living approximately 80–75 million years ago. It reached an estimated length of about 7 metres and is known from a well-preserved skull collected from the Oldman Formation of Alberta together with additional skeletal material from Montana. Its most notable anatomical feature is the possession of unusually long brow horns, which is atypical for a centrosaurine.",
+      "Named by Ryan in 2007, Albertaceratops occupies the tribe Albertaceratopsini and is considered an important taxon for understanding the evolutionary relationships among centrosaurine ceratopsids. The combination of centrosaurine frill morphology with chasmosaurine-like long brow horns makes it a key datum point in debates about ceratopsid phylogeny and the evolution of cranial ornamentation."
+    ],
+    "fossilSites": [
+      {
+        "name": "Oldman Formation (Belly River Group)",
+        "region": "Alberta, Canada",
+        "lat": 49.5,
+        "lon": -111.5,
+        "note": "A single well-preserved skull representing the type specimen of Albertaceratops was collected here, providing detailed information about its cranial ornamentation."
+      },
+      {
+        "name": "Judith River Formation",
+        "region": "Montana, USA",
+        "lat": 48,
+        "lon": -108.5,
+        "note": "Additional skeletal material including nearly complete postcranial remains were recovered from this formation, substantially expanding knowledge of the animal's body plan."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ceratopsia",
+        "Neoceratopsia",
+        "Ceratopsidae",
+        "Centrosaurinae",
+        "Albertaceratopsini",
+        "Albertaceratops"
+      ],
+      "sideBranches": [
+        {
+          "from": "Centrosaurinae",
+          "label": "Pachyrhinosaurini"
+        },
+        {
+          "from": "Ceratopsidae",
+          "label": "Chasmosaurinae"
+        },
+        {
+          "from": "Centrosaurinae",
+          "label": "Centrosaurini"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Albertaceratops nesmoi was described by Michael Ryan in 2007 from a skull found in the Oldman Formation of Alberta. The generic name combines Alberta (the province of discovery) with the Greek ceratops (horned face). The species name honours Cecil Nesmo, on whose land the type skull was found. Additional material from Montana was subsequently referred to the genus."
+      },
+      {
+        "title": "Anatomy",
+        "body": "Albertaceratops possessed the short nasal horn and elaborate frill typical of centrosaurines, but uniquely combined these with very long, upward-curving brow horns more reminiscent of chasmosaurine ceratopsids. This mosaic of features initially complicated its classification. The frill bore small epoccipitals along its margin, and the overall skull size was substantial relative to body size."
+      },
+      {
+        "title": "Significance",
+        "body": "Albertaceratops is considered a basal member of Centrosaurinae and helps anchor phylogenetic analyses of the group. Its long brow horns suggest that horn length in centrosaurines was more evolutionarily labile than previously thought. It is one of the older centrosaurines known, predating many of the better-known genera such as Centrosaurus and Styracosaurus."
+      },
+      {
+        "title": "Ecology",
+        "body": "Albertaceratops inhabited the coastal floodplains of the Western Interior Seaway during the Campanian. It was a ground-dwelling herbivore, likely feeding on low-growing vegetation. As with other large ceratopsids, the cranial ornamentation probably played a role in species recognition and intraspecific competition."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Albertaceratops profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/albertaceratops.html"
+      },
+      {
+        "label": "PBDB: Albertaceratops occurrence data",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=94775"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Oldman Formation (Belly River Group), Alberta, Canada; Judith River Formation, Montana, USA",
+    "material": "It reached an estimated length of about 7 metres and is known from a well-preserved skull collected from the Oldman Formation of Alberta together with additional skeletal material from Montana.",
+    "completeness": "Partial material known; 2 PBDB occurrence records.",
+    "paleo": "A single well-preserved skull representing the type specimen of Albertaceratops was collected here, providing detailed information about its cranial ornamentation.",
+    "evidence": "Named by Ryan in 2007, Albertaceratops occupies the tribe Albertaceratopsini and is considered an important taxon for understanding the evolutionary relationships among centrosaurine ceratopsids."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "about 78 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Cerapoda",
+        "Ceratopsia",
+        "Ceratopsidae",
+        "Centrosaurinae"
+      ],
+      "description": "Albertaceratops nesmoi was a centrosaurine ceratopsid from the Oldman Formation of Alberta. It is securely represented by a nearly complete skull; much of the postcranial material first associated with it came from a different taxon later named Medusaceratops.",
+      "facts": [
+        "The long brow horns and low nasal ornament are documented by the holotype skull.",
+        "The genus should not be described as known from a complete skeleton or extensive monospecific bonebed."
+      ],
+      "length": null
+    },
+    "ageReviewNote": "The type locality lies in the middle Campanian Oldman Formation.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Ryan (2007), A new basal centrosaurine ceratopsid from the Oldman Formation",
+        "url": "https://doi.org/10.1666/0022-3360(2007)81%5B376:ANBCCF%5D2.0.CO;2"
+      },
+      {
+        "type": "taxonomic-revision",
+        "citation": "Ryan, Russell & Hartman (2010), A new chasmosaurine ceratopsid from Montana and the status of the Judith River bonebed material",
+        "url": "https://www.scotthartman.info/publication/ryan-2010-new/"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: albertaceratops",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/albertaceratops.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Postcranial referrals are limited.",
+      "Some cranial referrals and centrosaurine relationships remain under study."
+    ],
+    "evidence": {
+      "score": 58,
+      "material": "One nearly complete diagnostic skull plus limited comparable cranial material.",
+      "formations": [
+        "Oldman Formation"
+      ],
+      "confidenceLimit": "Body dimensions and postcranial anatomy are inferred chiefly from related ceratopsids.",
+      "uncertainties": [
+        "Postcranial referrals are limited.",
+        "Some cranial referrals and centrosaurine relationships remain under study."
+      ],
+      "summary": "Albertaceratops nesmoi was a centrosaurine ceratopsid from the Oldman Formation of Alberta. It is securely represented by a nearly complete skull; much of the postcranial material first associated with it came from a different taxon later named Medusaceratops.",
+      "sourceBasis": "Ryan (2007), A new basal centrosaurine ceratopsid from the Oldman Formation; Ryan, Russell & Hartman (2010), A new chasmosaurine ceratopsid from Montana and the status of the Judith River bonebed material; Natural History Museum, Dino Directory: albertaceratops"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

@@ -6,14 +6,14 @@ const files = [
   'data/existing-dinosaurs.js',
   'data/nhm-imported-dinosaurs.js',
   'data/pbdb-enrichment.js',
-  'data/scientific-reviews.js',
-  'data/scientific-baseline-audit.js',
-  'data/review-batches/reviews-a-c.js',
-  'data/review-batches/reviews-d-l.js',
-  'data/review-batches/reviews-m-r.js',
-  'data/review-batches/reviews-s-z.js',
-  'data/review-batches/reviews-s-z-remainder.js',
-  'data/review-batches/merge-reviews.js'
+  'data/legacy/scientific-reviews.js',
+  'data/legacy/scientific-baseline-audit.js',
+  'data/legacy/review-batches/reviews-a-c.js',
+  'data/legacy/review-batches/reviews-d-l.js',
+  'data/legacy/review-batches/reviews-m-r.js',
+  'data/legacy/review-batches/reviews-s-z.js',
+  'data/legacy/review-batches/reviews-s-z-remainder.js',
+  'data/legacy/review-batches/merge-reviews.js'
 ];
 
 for (const file of files) {

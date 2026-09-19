@@ -1,0 +1,141 @@
+{
+  "id": "piatnitzkysaurus",
+  "name": "Piatnitzkysaurus",
+  "profile": {
+    "overview": [
+      "Piatnitzkysaurus (meaning 'Piatnitzky's lizard', honouring Argentine geologist Augusto Piatnitzky) was a medium-sized predatory theropod from the Middle Jurassic (Toarcian, approximately 179–177 million years ago) of Chubut Province, Patagonia, Argentina. Fossils come from the Cañadón Asfalto Formation. At about 4–4.5 metres in length it was a moderately sized, lightly built, bipedal carnivore. It is placed within Piatnitzkysauridae.",
+      "Described by Bonaparte in 1979, Piatnitzkysaurus floresi is one of the best-known Middle Jurassic theropods from South America and has been significant for understanding tetanuran theropod evolution and early carnivore diversity in Gondwana. NHM notes it as a 'large theropod' within Megalosauridae (Eustreptospondylinae); PBDB assigns it to Piatnitzkysauridae. The Wikipedia extract confirms it is a tetanuran theropod, moderately large and lightly built."
+    ],
+    "fossilSites": [
+      {
+        "name": "Cañadón Asfalto Formation",
+        "region": "Chubut, Argentina",
+        "lat": -44,
+        "lon": -68,
+        "note": "Middle Jurassic fluvial and lacustrine deposits of Chubut Province, Patagonia, yielding the holotype and referred material of Piatnitzkysaurus."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Tetanurae",
+        "Piatnitzkysauridae",
+        "Piatnitzkysaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Tetanurae",
+          "label": "Megalosauridae"
+        },
+        {
+          "from": "Tetanurae",
+          "label": "Avetheropoda"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Piatnitzkysaurus floresi was described by José Bonaparte in 1979 from material from the Cañadón Asfalto Formation of Chubut, Patagonia. The genus honours Augusto Piatnitzky, an Argentine geologist who worked in Patagonia. The species name floresi honours the Flores family. Two partial skeletons were known from the original description, making it relatively well documented for a Middle Jurassic theropod."
+      },
+      {
+        "title": "Anatomy",
+        "body": "Piatnitzkysaurus had a moderately robust skull, large serrated teeth, short forelimbs with grasping hands, and long hindlimbs. Its tetanuran anatomy is reflected in the presence of a reduced fourth metacarpal and loss of some primitive features. Bone histology has been studied in some specimens, suggesting moderate to rapid growth rates consistent with other non-avian tetanurans."
+      },
+      {
+        "title": "Phylogenetic Placement",
+        "body": "The precise phylogenetic position of Piatnitzkysaurus has been debated. The NHM places it in Megalosauridae (Eustreptospondylinae), while PBDB recognises a separate family, Piatnitzkysauridae, which may also include Condorraptor from the same formation. Some analyses recover Piatnitzkysauridae as a basal tetanuran clade closely related to Megalosauridae. Resolution depends on the completeness of the available material."
+      },
+      {
+        "title": "Cañadón Asfalto Ecosystem",
+        "body": "Piatnitzkysaurus shared the Cañadón Asfalto Formation ecosystem with the sauropod Patagosaurus and a diverse fauna of crocodyliformes, fish and other vertebrates. As the dominant predator in this Middle Jurassic Patagonian ecosystem, Piatnitzkysaurus likely preyed on the large sauropods and smaller vertebrates that inhabited the river and lake environments of the basin."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Piatnitzkysaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/piatnitzkysaurus.html"
+      },
+      {
+        "label": "PBDB: Piatnitzkysaurus occurrences",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38592"
+      },
+      {
+        "label": "Wikipedia: Piatnitzkysaurus",
+        "url": "https://en.wikipedia.org/wiki/Piatnitzkysaurus"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Cañadón Asfalto Formation, Chubut, Argentina",
+    "material": "Two partial skeletons were known from the original description, making it relatively well documented for a Middle Jurassic theropod.",
+    "completeness": "Skeletal material known; 1 PBDB occurrence records.",
+    "paleo": "Middle Jurassic fluvial and lacustrine deposits of Chubut Province, Patagonia, yielding the holotype and referred material of Piatnitzkysaurus.",
+    "evidence": "Described by Bonaparte in 1979, Piatnitzkysaurus floresi is one of the best-known Middle Jurassic theropods from South America and has been significant for understanding tetanuran theropod evolution and early carnivore diversity in Gondwana."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Mid Jurassic",
+      "mya": "Toarcian-Bajocian, about 179-170 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Megalosauroidea",
+        "Piatnitzkysauridae"
+      ],
+      "description": "Piatnitzkysaurus floresi was a medium-sized basal megalosauroid theropod from the Canon Asfalto Formation of Patagonia, represented by two incomplete skeletons and isolated material.",
+      "facts": [
+        "The type preserves skull, vertebral, girdle and limb elements but is not close to complete.",
+        "Braincase anatomy supports tetanuran affinity.",
+        "Carnivory and bipedal locomotion are secure; exact body mass is model-dependent."
+      ]
+    },
+    "ageReviewNote": "The Canon Asfalto occurrences are older than the former Late Jurassic label and lie near the Early-Middle Jurassic transition.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Rauhut (2004), braincase structure of Piatnitzkysaurus",
+        "url": "https://doi.org/10.1139/e04-053"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: piatnitzkysaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/piatnitzkysaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Formation horizons span a substantial interval.",
+      "Piatnitzkysaurid relationships vary among theropod analyses."
+    ],
+    "evidence": {
+      "score": 66,
+      "material": "Two partial skeletons including cranial and postcranial elements, plus isolated referrals.",
+      "formations": "Canon Asfalto Formation, Chubut, Argentina.",
+      "confidenceLimit": "Published reconstructions combine individuals and missing regions.",
+      "uncertainties": [
+        "exact horizon age",
+        "fine phylogenetic position"
+      ],
+      "summary": "Piatnitzkysaurus floresi was a medium-sized basal megalosauroid theropod from the Canon Asfalto Formation of Patagonia, represented by two incomplete skeletons and isolated material.",
+      "sourceBasis": "Rauhut (2004), braincase structure of Piatnitzkysaurus; Natural History Museum Dino Directory: piatnitzkysaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

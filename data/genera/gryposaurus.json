@@ -1,0 +1,141 @@
+{
+  "id": "gryposaurus",
+  "name": "Gryposaurus",
+  "profile": {
+    "overview": [
+      "Gryposaurus notabilis (\"hook-nosed lizard\") was a large flat-headed hadrosaur from the Campanian of Alberta (~76 Ma), distinguished by a prominent arch or bump on the nasal bones — the \"hook\" referred to in its name. At about eight metres it was one of the most common hadrosaurs in the Belly River Group fauna alongside Corythosaurus and Parasaurolophus.",
+      "Multiple species of Gryposaurus are known from the Campanian of North America, spanning several million years of the late Campanian epoch. Its geographic range and temporal persistence suggest it was an ecologically flexible herbivore capable of adapting to changing Late Cretaceous environments."
+    ],
+    "fossilSites": [
+      {
+        "name": "Dinosaur Park Formation",
+        "region": "Alberta, Canada",
+        "lat": 50.7,
+        "lon": -111.5,
+        "note": "Campanian coastal plain deposits with abundant Gryposaurus material alongside other hadrosaurs and ceratopsids."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Hadrosauridae",
+        "Saurolophinae",
+        "Gryposaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Saurolophinae",
+          "label": "Saurolophus"
+        },
+        {
+          "from": "Saurolophinae",
+          "label": "Edmontosaurus"
+        },
+        {
+          "from": "Hadrosauridae",
+          "label": "Lambeosaurinae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and species",
+        "body": "Named by Lambe in 1914 from Dinosaur Park Formation material; multiple species have been described across the Campanian of North America (G. notabilis, G. incurvimanus, G. monumentensis). The arched nasal region is its diagnostic feature — smaller in juveniles, more pronounced in adults — and may have served in intraspecific head-butting or species recognition."
+      },
+      {
+        "title": "Anatomy",
+        "body": "Gryposaurus had the standard hadrosaur dental battery of hundreds of teeth for grinding tough vegetation. The nasal arch is the only significant external distinction from other saurolophine hadrosaurs. The tail was deep and muscular — used for swimming, as in modern crocodilians — and the hands bore a hoof-like weight-bearing pad for quadrupedal locomotion."
+      },
+      {
+        "title": "Ecological context",
+        "body": "The Dinosaur Park Formation hosted multiple hadrosaur species simultaneously, including both flat-headed saurolophines (Gryposaurus) and elaborately crested lambeosaurines (Corythosaurus, Lambeosaurus, Parasaurolophus). Niche partitioning among these diverse herbivores likely involved habitat preferences, dietary differences and behavioural segregation rather than direct competition for identical resources."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Gryposaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/gryposaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Dinosaur Park, Judith River and Kaiparowits formations, Canada and USA",
+    "material": "Skulls and skeletons of a hook-nosed hadrosaur.",
+    "completeness": "Well represented",
+    "paleo": "Late Cretaceous coastal plain environments of western North America.",
+    "evidence": "The distinctive arched nasal region and saurolophine dentition are diagnostic; bonebeds document gregarious behaviour."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian, approximately 76.5-74 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauroidea",
+        "Hadrosauridae",
+        "Saurolophinae",
+        "Kritosaurini"
+      ],
+      "description": "Gryposaurus was a saurolophine hadrosaurid with an arched nasal profile, known from Campanian rocks of western North America. G. notabilis is represented by numerous skulls and skeletons from the Dinosaur Park Formation; other species must be kept separate because they differ in age, geography and diagnosis.",
+      "facts": [
+        "The nasal arch is bony and likely supported soft tissue, whose exact form is unknown.",
+        "Multiple growth stages show that skull proportions changed during ontogeny.",
+        "Dental batteries document herbivory and complex chewing."
+      ]
+    },
+    "ageReviewNote": "G. notabilis is mainly 76.5-75.5 Ma; other Gryposaurus species extend the genus but should not be merged into that species record.",
+    "sources": [
+      {
+        "type": "taxonomic-revision",
+        "citation": "Prieto-Marquez (2010), The braincase and skull of Gryposaurus and hadrosaurid phylogeny",
+        "url": "https://doi.org/10.1080/02724631003762971"
+      },
+      {
+        "type": "juvenile-anatomy",
+        "citation": "Mallon et al. (2022), Rare juvenile material constrains skeletal allometry in Gryposaurus notabilis",
+        "url": "https://doi.org/10.1002/ar.25021"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Gryposaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gryposaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "Species boundaries and synonymy, including G. incurvimanus, remain debated.",
+      "Soft-tissue form over the nasal arch is unknown."
+    ],
+    "evidence": {
+      "score": 90,
+      "material": "Numerous skulls and skeletons across several growth stages.",
+      "formations": [
+        "Dinosaur Park Formation"
+      ],
+      "confidenceLimit": "Very high for anatomy and herbivory; moderate for species taxonomy; low for soft-tissue display form.",
+      "uncertainties": [
+        "species synonymy",
+        "nasal soft tissues",
+        "ontogenetic variation"
+      ],
+      "summary": "Gryposaurus was a saurolophine hadrosaurid with an arched nasal profile, known from Campanian rocks of western North America. G. notabilis is represented by numerous skulls and skeletons from the Dinosaur Park Formation; other species must be kept separate because they differ in age, geography and diagnosis.",
+      "sourceBasis": "Prieto-Marquez (2010), The braincase and skull of Gryposaurus and hadrosaurid phylogeny; Mallon et al. (2022), Rare juvenile material constrains skeletal allometry in Gryposaurus notabilis; Paleobiology Database taxon and occurrence context for Gryposaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

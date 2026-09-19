@@ -1,0 +1,169 @@
+{
+  "id": "graciliceratops",
+  "name": "Graciliceratops",
+  "profile": {
+    "overview": [
+      "Graciliceratops (meaning 'gracile horned face') was a tiny herbivorous ceratopsian dinosaur from the Late Cretaceous of Mongolia, estimated to have lived approximately 100–84 million years ago. Known from a partial skull and skeleton recovered from the Baynshire Formation of Omnogov, it is remarkable for its diminutive size — potentially as small as 80 centimetres in length — making it one of the smallest known ceratopsians. It was named by Paul Sereno in 2000.",
+      "Graciliceratops is classified within Neoceratopsia and may represent a transitional form between the primitive, smaller ceratopsians of Asia and the larger, more derived forms that would later flourish in North America. Its small size and relatively simple frill provide information on the early stages of ceratopsian evolution. The limited material available means several aspects of its anatomy and exact phylogenetic position remain uncertain."
+    ],
+    "fossilSites": [
+      {
+        "name": "Baynshire Formation",
+        "region": "Omnogov, Mongolia",
+        "lat": 44,
+        "lon": 104,
+        "note": "The sole formally documented source of Graciliceratops material, dating to the Cenomanian stage of the Late Cretaceous."
+      },
+      {
+        "name": "Djadokhta Formation (equivalent strata)",
+        "region": "Omnogov, Mongolia",
+        "lat": 43.5,
+        "lon": 102.5,
+        "note": "Contemporaneous Mongolian red-bed formations have yielded fragmentary small ceratopsians potentially related to Graciliceratops, though formal assignment is pending further study."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ceratopsia",
+        "Neoceratopsia",
+        "Graciliceratops"
+      ],
+      "sideBranches": [
+        {
+          "from": "Neoceratopsia",
+          "label": "Ceratopsidae (large-bodied horned dinosaurs)"
+        },
+        {
+          "from": "Ceratopsia",
+          "label": "Protoceratopsidae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Graciliceratops mongoliensis was named in 2000 by Paul Sereno based on partial skull and postcranial material from the Baynshire Formation of Mongolia. The genus name reflects the slender build of the animal compared to larger ceratopsians. The specimen is among the smallest ceratopsians described from Asia."
+      },
+      {
+        "title": "Anatomy and Size",
+        "body": "The known material includes partial skull elements and some postcranial bones, suggesting an animal potentially no more than 80 centimetres long. Like other basal neoceratopsians, Graciliceratops would have had a small frill and a beak adapted for cropping vegetation. Its gracile proportions distinguish it from the robust protoceratopsids."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "The Baynshire Formation preserves a Late Cretaceous semi-arid environment in what is now the Gobi region of southern Mongolia. Graciliceratops would have been a small browsing herbivore in this setting, potentially vulnerable to the theropod predators known from equivalent formations."
+      },
+      {
+        "title": "Scientific Significance",
+        "body": "Graciliceratops contributes to the understanding of small-bodied ceratopsian diversity in Asia during the Cenomanian. Its position within Neoceratopsia, combined with its age and geography, informs discussions about the evolutionary transition between Asian basal forms and the large-bodied Ceratopsidae that radiated in North America."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Graciliceratops profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/graciliceratops.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Baynshire Formation, Omnogov, Mongolia; Djadokhta Formation (equivalent strata), Omnogov, Mongolia",
+    "material": "Graciliceratops mongoliensis was named in 2000 by Paul Sereno based on partial skull and postcranial material from the Baynshire Formation of Mongolia.",
+    "completeness": "Partial material known; 1 PBDB occurrence records.",
+    "paleo": "The sole formally documented source of Graciliceratops material, dating to the Cenomanian stage of the Late Cretaceous.",
+    "evidence": "Graciliceratops is classified within Neoceratopsia and may represent a transitional form between the primitive, smaller ceratopsians of Asia and the larger, more derived forms that would later flourish in North America."
+  },
+  "review": {
+    "status": "audited",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Cenomanian-Santonian, approximately 100-86 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ceratopsia",
+        "Neoceratopsia"
+      ],
+      "description": "Graciliceratops mongoliensis was a small neoceratopsian from the Bayan Shireh Formation of Mongolia. It is based on a fragmentary partial skeleton, probably from an immature individual; the skull is represented only by limited jaw and frill material.",
+      "facts": [
+        "The holotype is neither complete nor securely adult.",
+        "Small body size may partly reflect immaturity.",
+        "Herbivory is supported by ceratopsian teeth and jaws, but detailed diet is unknown."
+      ],
+      "diet": null
+    },
+    "ageReviewNote": "Bayan Shireh dating remains broad and should not be rendered as a precise single age.",
+    "sources": [
+      {
+        "type": "taxonomic-description",
+        "citation": "Sereno (2000), The fossil record, systematics and evolution of pachycephalosaurs and ceratopsians",
+        "url": "https://books.google.com/books?id=ZP9UDwAAQBAJ&pg=PA480"
+      },
+      {
+        "type": "ceratopsian-context",
+        "citation": "Morschhauser et al. (2019), Phylogenetic history of Auroraceratops and early Ceratopsia",
+        "url": "https://doi.org/10.1080/02724634.2018.1509866"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Graciliceratops",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Graciliceratops"
+      }
+    ],
+    "residualUncertainty": [
+      "The type is fragmentary and immature.",
+      "A comprehensive modern redescription and renewed differential diagnosis are needed.",
+      "Specialist confirmation is still required before this profile is marked primary-literature reviewed."
+    ],
+    "evidence": {
+      "score": 20,
+      "summary": "Authoritative-source baseline only; skeletal completeness has not yet received a specimen-level literature review.",
+      "material": "One fragmentary, probably juvenile partial skeleton with limited cranial material.",
+      "formations": [
+        "Bayan Shireh Formation"
+      ],
+      "ageSupport": "Catalogue range: 99–84 million years ago. PBDB sampled range: 100.5–83.6 Ma.",
+      "occurrenceSupport": "1 PBDB occurrence records are available as locality context only.",
+      "inferredAnatomy": "Posture, soft tissues, colour and detailed behaviour remain inferred unless a later full review states otherwise.",
+      "confidenceLimit": "Moderate for neoceratopsian identity; low for adult anatomy, size and fine phylogeny.",
+      "sourceBasis": "Source catalogue and PBDB occurrence context.",
+      "specimens": [],
+      "uncertainties": [
+        "validity",
+        "ontogeny",
+        "adult size",
+        "formation age"
+      ],
+      "claims": {
+        "bodySize": {
+          "level": "unknown",
+          "reason": "No sourced estimate is retained."
+        },
+        "diet": {
+          "level": "broad",
+          "reason": "Herbivore is retained as a broad clade/anatomy-level interpretation."
+        },
+        "movement": {
+          "level": "unknown",
+          "reason": "No source-specific locomotor statement is retained."
+        },
+        "classification": {
+          "level": "provisional",
+          "reason": "The source taxonomy is retained pending a genus-level systematic-literature check."
+        }
+      }
+    },
+    "scientificDisposition": "needs-specialist-review"
+  }
+}

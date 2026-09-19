@@ -1,0 +1,178 @@
+{
+  "id": "confuciusornis",
+  "name": "Confuciusornis",
+  "profile": {
+    "overview": [
+      "Confuciusornis was a crow-sized avialan theropod from the Early Cretaceous of China, approximately 126–120 million years ago (Barremian to Aptian), found abundantly in the Yixian and Jiufotang Formations of Liaoning Province. At about 25 centimetres body length (approximately the size of a crow), it was one of the most abundant vertebrates in the Yixian Formation, known from several hundred complete specimens. Its name honours the Chinese philosopher Confucius.",
+      "Named by Hou, Zhou, Gu, and Zhang in 1995, Confuciusornis sanctus is famous for being the earliest known bird to possess a toothless beak—a feature that evolved convergently with modern birds, as closely related avialans were toothed. It had a pygostyle (a fused tail bone supporting a fan of tail feathers), and some specimens show two long ribbon-like tail feathers likely used in display. Its abundance and quality of preservation make it central to studies of early bird evolution, ecology, and growth."
+    ],
+    "fossilSites": [
+      {
+        "name": "Yixian Formation / Jehol Group",
+        "region": "Liaoning Province, China",
+        "lat": 41.5,
+        "lon": 120.8,
+        "note": "Exceptionally preserved Early Cretaceous Lagerstätte yielding hundreds of complete Confuciusornis specimens."
+      },
+      {
+        "name": "Jiufotang Formation / Jehol Group",
+        "region": "Liaoning Province, China",
+        "lat": 41.3,
+        "lon": 120.6,
+        "note": "Slightly younger Early Cretaceous formation also preserving abundant Confuciusornis material."
+      },
+      {
+        "name": "Nei Mongol outcrops",
+        "region": "Inner Mongolia, China",
+        "lat": 42,
+        "lon": 118,
+        "note": "Additional PBDB-documented occurrences of Confuciusornis from Inner Mongolia's Jehol-age deposits."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Paraves",
+        "Eumaniraptoria",
+        "Avialae",
+        "Ornithurae",
+        "Avibrevicauda",
+        "Pygostylia",
+        "Confuciusornithidae",
+        "Confuciusornis"
+      ],
+      "sideBranches": [
+        {
+          "from": "Confuciusornithidae",
+          "label": "Eoconfuciusornis (earlier relative, also beaked)"
+        },
+        {
+          "from": "Pygostylia",
+          "label": "Enantiornithes (dominant Early Cretaceous bird group)"
+        },
+        {
+          "from": "Pygostylia",
+          "label": "Ornithurae (group including modern birds)"
+        },
+        {
+          "from": "Avialae",
+          "label": "Archaeopteryx (Late Jurassic basal bird)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Confuciusornis sanctus was described in 1995 by Hou Lianhai, Zhou Zhonghe, Gu Yucai, and Zhang He from specimens collected in Liaoning, China. The genus name honours Confucius, the Chinese philosopher, while sanctus means 'sacred'. The Jehol Biota has subsequently yielded hundreds of Confuciusornis specimens, making it one of the most abundantly represented Mesozoic birds in museum collections worldwide."
+      },
+      {
+        "title": "Toothless Beak: Convergent Evolution",
+        "body": "Confuciusornis is notable for possessing a fully toothless beak, previously thought to be an exclusively modern bird feature. However, closely related later birds such as Hesperornis and Ichthyornis retained teeth, demonstrating that Confuciusornis lost teeth independently from the lineage leading to modern birds. This convergent evolution of beaks highlights the complexity of avian character evolution during the Cretaceous."
+      },
+      {
+        "title": "Tail Feathers and Display",
+        "body": "Some Confuciusornis specimens preserve two long ribbon-like tail feathers attached to the pygostyle. These feathers, absent in other specimens, are interpreted as a sexually dimorphic feature likely used in display. The variation in tail feather presence between individuals of similar body size (rather than age) supports a sexual dimorphism interpretation rather than an ontogenetic one."
+      },
+      {
+        "title": "Ecology and Abundance",
+        "body": "The extraordinary abundance of Confuciusornis in the Yixian Formation—hundreds of individuals—suggests it was a highly successful, ecologically dominant early bird. Stomach contents and beak morphology indicate a diet probably including seeds and fish. The mass preservation of specimens may reflect catastrophic mortality events related to volcanic activity associated with the Yixian Formation's depositional setting."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Confuciusornis profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/confuciusornis.html"
+      },
+      {
+        "label": "Wikipedia: Confuciusornis",
+        "url": "https://en.wikipedia.org/wiki/Confuciusornis"
+      },
+      {
+        "label": "PBDB: Confuciusornis occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Confuciusornis&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Yixian Formation / Jehol Group, Liaoning Province, China; Jiufotang Formation / Jehol Group, Liaoning Province, China; Nei Mongol outcrops, Inner Mongolia, China",
+    "material": "At about 25 centimetres body length (approximately the size of a crow), it was one of the most abundant vertebrates in the Yixian Formation, known from several hundred complete specimens.",
+    "completeness": "Complete or near-complete skeleton known; 19 PBDB occurrence records.",
+    "paleo": "Exceptionally preserved Early Cretaceous Lagerstätte yielding hundreds of complete Confuciusornis specimens.",
+    "evidence": "Named by Hou, Zhou, Gu, and Zhang in 1995, Confuciusornis sanctus is famous for being the earliest known bird to possess a toothless beak—a feature that evolved convergently with modern birds, as closely related avialans were toothed."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "about 125-120 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Maniraptora",
+        "Avialae",
+        "Pygostylia",
+        "Confuciusornithidae"
+      ],
+      "description": "Confuciusornis sanctus was a toothless early pygostylian bird from the Jehol Biota of northeastern China. Hundreds of articulated skeletons preserve wing feathers and, in some individuals, paired ribbon-like tail feathers, allowing unusually detailed study of growth and variation.",
+      "facts": [
+        "The long paired tail feathers occur only in part of the sample; they are likely related to sexual display, but they cannot simply be assigned to males in every specimen.",
+        "Wing anatomy and feathers support flight ability, while take-off performance and flight style remain debated."
+      ],
+      "diet": "diet varied or uncertain; evidence supports both plant and animal foods"
+    },
+    "ageReviewNote": "Most C. sanctus specimens are from Barremian-Aptian beds of the Yixian Formation, around 125-120 million years old.",
+    "sources": [
+      {
+        "type": "systematic-revision",
+        "citation": "Wang Min et al. (2019), Taxonomic revision of Confuciusornis",
+        "url": "https://doi.org/10.19615/j.cnki.1000-3118.180530"
+      },
+      {
+        "type": "reproductive-biology",
+        "citation": "Chinsamy et al. (2013), Gender identification of the Mesozoic bird Confuciusornis",
+        "url": "https://doi.org/10.1038/ncomms2377"
+      },
+      {
+        "type": "ontogeny-and-ecology",
+        "citation": "Wu et al. (2022), Ontogenetic niche shifts in Confuciusornis",
+        "url": "https://doi.org/10.1016/j.cub.2022.02.010"
+      }
+    ],
+    "residualUncertainty": [
+      "Several named Confuciusornis species may be synonyms or represent variation.",
+      "Tail-streamer sex association is probabilistic rather than universal.",
+      "Flight capacity varies with biomechanical assumptions."
+    ],
+    "evidence": {
+      "score": 99,
+      "material": "Hundreds of partial to complete articulated skeletons, many preserving feathers.",
+      "formations": [
+        "Yixian Formation"
+      ],
+      "confidenceLimit": "Anatomy and plumage are exceptional; species boundaries, sex assignment, colour and flight performance remain uncertain.",
+      "uncertainties": [
+        "Several named Confuciusornis species may be synonyms or represent variation.",
+        "Tail-streamer sex association is probabilistic rather than universal.",
+        "Flight capacity varies with biomechanical assumptions."
+      ],
+      "summary": "Confuciusornis sanctus was a toothless early pygostylian bird from the Jehol Biota of northeastern China. Hundreds of articulated skeletons preserve wing feathers and, in some individuals, paired ribbon-like tail feathers, allowing unusually detailed study of growth and variation.",
+      "sourceBasis": "Wang Min et al. (2019), Taxonomic revision of Confuciusornis; Chinsamy et al. (2013), Gender identification of the Mesozoic bird Confuciusornis; Wu et al. (2022), Ontogenetic niche shifts in Confuciusornis"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

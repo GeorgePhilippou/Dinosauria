@@ -1,0 +1,158 @@
+{
+  "id": "coelurus",
+  "name": "Coelurus",
+  "profile": {
+    "overview": [
+      "Coelurus was a small coelurosaur theropod from the Late Jurassic of North America, approximately 155–145 million years ago (Kimmeridgian to Tithonian), known from the Morrison Formation of Wyoming. Estimated at about 1.8 metres in length, it was a lightly built, bipedal carnivore with elongate legs suited to swift pursuit. Its name, meaning 'hollow tail', references the hollow vertebrae that distinguish it from heavier theropods.",
+      "Described by Othniel Charles Marsh in 1879 from a partial skeleton, Coelurus fragilis has had a convoluted taxonomic history and was historically confused with the contemporary Ornitholestes. Only one species is currently recognised as valid. As a basal coelurosaur from the Morrison Formation, Coelurus is relevant to understanding the early diversification of the coelurosaurian lineage that would later give rise to dromaeosaurids, birds, and other derived theropods."
+    ],
+    "fossilSites": [
+      {
+        "name": "Morrison Formation",
+        "region": "Wyoming, USA",
+        "lat": 44,
+        "lon": -109.5,
+        "note": "Primary source of Coelurus material; Late Jurassic fluvial and alluvial formation spanning multiple western US states."
+      },
+      {
+        "name": "Arundel Clay / Potomac Formation",
+        "region": "Maryland, USA",
+        "lat": 38.8,
+        "lon": -77,
+        "note": "Early Cretaceous deposit with material tentatively referred to Coelurus, though this assignment is debated."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Tetanurae",
+        "Avetheropoda",
+        "Coelurosauria",
+        "Coelurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Coelurosauria",
+          "label": "Tyrannoraptora (tyrannosaurids and maniraptorans)"
+        },
+        {
+          "from": "Coelurosauria",
+          "label": "Compsognathidae (small Jurassic coelurosaurs)"
+        },
+        {
+          "from": "Avetheropoda",
+          "label": "Carnosauria (allosauroids)"
+        },
+        {
+          "from": "Coelurosauria",
+          "label": "Ornithomimosauria"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Coelurus fragilis was described by Othniel Charles Marsh in 1879 from partial postcranial material discovered in the Morrison Formation of Como Bluff, Wyoming. The generic name refers to the hollow tail vertebrae, and the species name fragilis means 'fragile', reflecting the delicate, lightly built nature of the bones. The specimen is known from one partial skeleton, and subsequent referrals of other material have been largely rejected."
+      },
+      {
+        "title": "Confused Taxonomic History",
+        "body": "Coelurus has a long and complicated taxonomic history typical of early-described dinosaurs. Over the decades, several species were named and later transferred to other genera or considered nomen dubium. It was frequently confused with Ornitholestes, another small Morrison coelurosaur, until more rigorous anatomical comparison separated them. Currently only C. fragilis is accepted as valid, based solely on the original Morrison specimen."
+      },
+      {
+        "title": "Anatomy and Locomotion",
+        "body": "Coelurus had elongate hindlimbs proportioned for fast running, three-fingered hands with grasping claws, and a stiff tail used as a counterbalance. Its vertebrae had large pleurocoels (hollow side pockets), lightening the skeleton. The skull is not known from the type specimen, so inferences about its head shape and teeth rely on comparison with related coelurosaurs. It was a small, agile predator, likely hunting small vertebrates and invertebrates."
+      },
+      {
+        "title": "Morrison Formation Context",
+        "body": "The Morrison Formation is one of the most famous dinosaur-bearing formations in the world, preserving a diverse Late Jurassic fauna that includes Allosaurus, Stegosaurus, Diplodocus, Camarasaurus, and many others. Coelurus occupied the small-predator niche in this ecosystem alongside contemporaries such as Ornitholestes and Tanycolagreus. Its fragmentary nature makes it one of the lesser-known members of this renowned fauna."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Coelurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/coelurus.html"
+      },
+      {
+        "label": "Wikipedia: Coelurus",
+        "url": "https://en.wikipedia.org/wiki/Coelurus"
+      },
+      {
+        "label": "PBDB: Coelurus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Coelurus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Morrison Formation, Wyoming, USA; Arundel Clay / Potomac Formation, Maryland, USA",
+    "material": "Coelurus fragilis was described by Othniel Charles Marsh in 1879 from partial postcranial material discovered in the Morrison Formation of Como Bluff, Wyoming.",
+    "completeness": "Partial skeletal material known; 14 PBDB occurrence records.",
+    "paleo": "Primary source of Coelurus material; Late Jurassic fluvial and alluvial formation spanning multiple western US states.",
+    "evidence": "Described by Othniel Charles Marsh in 1879 from a partial skeleton, Coelurus fragilis has had a convoluted taxonomic history and was historically confused with the contemporary Ornitholestes."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "about 155-150 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria"
+      ],
+      "description": "Coelurus fragilis was a small basal coelurosaur from the Morrison Formation of Wyoming. It is known chiefly from one incomplete, disarticulated postcranial skeleton without a skull; many bones historically referred to it belong to other small theropods.",
+      "facts": [
+        "The secure material includes vertebrae, pelvis and limb bones, but no diagnostic skull.",
+        "Bipedal carnivory is a broad coelurosaur inference; exact prey, feathers and speed are unknown."
+      ]
+    },
+    "ageReviewNote": "The type is Kimmeridgian-Tithonian within the Morrison Formation.",
+    "sources": [
+      {
+        "type": "comparative-revision",
+        "citation": "Carpenter, Miles & Cloward (2005), New small theropod material and reassessment of Coelurus",
+        "url": "https://www.researchgate.net/publication/40662862_New_small_theropod_dinosaur_from_the_Upper_Jurassic_Morrison_Formation_of_Wyoming"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: coelurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/coelurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Historical referrals are heterogeneous.",
+      "Its exact position near the base of Coelurosauria is weakly resolved.",
+      "A modern comprehensive redescription is needed."
+    ],
+    "evidence": {
+      "score": 34,
+      "material": "One incomplete disarticulated postcranial skeleton.",
+      "formations": [
+        "Morrison Formation"
+      ],
+      "confidenceLimit": "A single skull-less skeleton cannot establish precise size, head anatomy or ecology.",
+      "uncertainties": [
+        "Historical referrals are heterogeneous.",
+        "Its exact position near the base of Coelurosauria is weakly resolved.",
+        "A modern comprehensive redescription is needed."
+      ],
+      "summary": "Coelurus fragilis was a small basal coelurosaur from the Morrison Formation of Wyoming. It is known chiefly from one incomplete, disarticulated postcranial skeleton without a skull; many bones historically referred to it belong to other small theropods.",
+      "sourceBasis": "Carpenter, Miles & Cloward (2005), New small theropod material and reassessment of Coelurus; Natural History Museum, Dino Directory: coelurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

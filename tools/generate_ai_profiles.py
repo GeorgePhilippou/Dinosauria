@@ -12,7 +12,7 @@ same schema used by the 100 curated genera:
   articles       — 3–4 named sections (discovery, anatomy, ecology, etc.)
   citations      — NHM + Wikipedia + PBDB links
 
-Output: data/ai-enriched-profiles.js
+Output: data/legacy/ai-enriched-profiles.js
         window.AI_ENRICHED_PROFILES = { "genusid": {...}, ... }
 
 Usage:

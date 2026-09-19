@@ -1,0 +1,154 @@
+{
+  "id": "hagryphus",
+  "name": "Hagryphus",
+  "profile": {
+    "overview": [
+      "Hagryphus (meaning 'Ha's griffin', referencing the Egyptian god of the western desert) was a large omnivorous oviraptorosaurian theropod from the Late Cretaceous of Utah, USA, living approximately 83–72 million years ago. The known material is limited to a left hand, fragmentary metatarsals, and pedal phalanges, making it one of the more fragmentarily known oviraptorosaurs. Based on comparisons with the related Chirostenotes, it is estimated to have reached about 3 metres in length. It was named by Zanno and Sampson in 2005.",
+      "Hagryphus giganteus was, at the time of its description, one of the largest oviraptorosaurs known from North America. Placed within Caenagnathidae (family Caenagnathinae), it is related to Chirostenotes and other North American oviraptorosaurs. The very fragmentary nature of the holotype makes many aspects of its anatomy speculative, but the large size of its hand elements confirms it as a notably large representative of the clade on the North American continent."
+    ],
+    "fossilSites": [
+      {
+        "name": "Kaiparowits Formation",
+        "region": "Utah, USA",
+        "lat": 37.4,
+        "lon": -111.4,
+        "note": "The sole known source of Hagryphus material, a rich Late Campanian deposit yielding diverse Late Cretaceous fauna from the Laramidia landmass."
+      },
+      {
+        "name": "Two Medicine Formation (equivalent age)",
+        "region": "Montana, USA",
+        "lat": 48.3,
+        "lon": -112.5,
+        "note": "Contemporaneous Campanian deposits that have yielded related caenagnathid oviraptorosaurs, providing comparative context for Hagryphus within the southern Laramidian faunal province."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Tetanurae",
+        "Coelurosauria",
+        "Maniraptora",
+        "Oviraptorosauria",
+        "Caenagnathidae",
+        "Hagryphus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Caenagnathidae",
+          "label": "Chirostenotes (related North American caenagnathid)"
+        },
+        {
+          "from": "Oviraptorosauria",
+          "label": "Oviraptoridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Hagryphus giganteus was described in 2005 by Lindsay Zanno and Scott Sampson from material collected in the Kaiparowits Formation of Utah. The genus name invokes the Egyptian desert god Ha and a griffin, alluding to its large, bird-like form and the arid palaeoenvironment. The species epithet giganteus reflects its large size relative to other North American oviraptorosaurs known at the time."
+      },
+      {
+        "title": "Known Anatomy",
+        "body": "The holotype comprises a left manus (hand), fragmentary metatarsals, and foot phalanges — skeletal elements sufficient to confirm caenagnathid affinities but insufficient to reconstruct the full animal. Comparisons with Chirostenotes, a closely related and better-known caenagnathid, inform size estimates of approximately 3 metres. The hand elements indicate large, robust forelimbs."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "The Kaiparowits Formation records a lush, subtropical floodplain ecosystem on the island continent of Laramidia during the Late Campanian. It preserves an exceptionally diverse dinosaurian fauna including ceratopsids, hadrosaurs, ankylosaurs, and theropods of multiple kinds. Hagryphus was one of the largest non-tyrannosaur predators or omnivores in this ecosystem."
+      },
+      {
+        "title": "Scientific Significance",
+        "body": "At the time of its description, Hagryphus was the largest oviraptorosaur known from North America, challenging the notion that giant oviraptorosaurs were confined to Asia. It supports the idea of independent evolution of large body size within oviraptorosaurs on different landmasses and adds to the remarkable diversity documented from the Kaiparowits Formation."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Hagryphus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/hagryphus.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Kaiparowits Formation, Utah, USA; Two Medicine Formation (equivalent age), Montana, USA",
+    "material": "The holotype comprises a left manus (hand), fragmentary metatarsals, and foot phalanges — skeletal elements sufficient to confirm caenagnathid affinities but insufficient to reconstruct the full animal.",
+    "completeness": "Fragmentary material only; 1 PBDB occurrence records.",
+    "paleo": "The sole known source of Hagryphus material, a rich Late Campanian deposit yielding diverse Late Cretaceous fauna from the Laramidia landmass.",
+    "evidence": "Hagryphus giganteus was, at the time of its description, one of the largest oviraptorosaurs known from North America."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian, about 76-74 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Oviraptorosauria",
+        "Caenagnathidae"
+      ],
+      "description": "Hagryphus giganteus was a caenagnathid oviraptorosaur from the Kaiparowits Formation of Utah. The holotype consists mainly of a partial hand and associated foot fragments, so the skull, trunk and most body proportions are unknown.",
+      "facts": [
+        "The genus is diagnosed from very limited appendicular material.",
+        "Large body-size estimates are extrapolated and should be presented as uncertain.",
+        "Diet cannot be determined because no skull or jaws are known for the taxon."
+      ],
+      "diet": null,
+      "length": null
+    },
+    "ageReviewNote": "Restricted to the late Campanian Kaiparowits Formation, approximately 76-74 Ma.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Zanno & Sampson (2005), A new oviraptorosaur from the Kaiparowits Formation",
+        "url": "https://doi.org/10.1671/0272-4634(2005)025%5B0897:ANOTMF%5D2.0.CO;2"
+      },
+      {
+        "type": "formation-geochronology",
+        "citation": "Ramezani et al. (2022), Calibrating dinosaur diversity in the Campanian Western Interior",
+        "url": "https://doi.org/10.1038/s41598-022-19896-w"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Hagryphus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Hagryphus"
+      }
+    ],
+    "residualUncertainty": [
+      "Most anatomy, adult size and diet are unknown.",
+      "Fragmentary material makes comparison with other caenagnathids difficult."
+    ],
+    "evidence": {
+      "score": 20,
+      "material": "Partial hand with small associated foot fragments from one individual.",
+      "formations": [
+        "Kaiparowits Formation"
+      ],
+      "confidenceLimit": "Moderate for caenagnathid identity; low for whole-body anatomy, size and ecology.",
+      "uncertainties": [
+        "validity relative to other caenagnathids",
+        "adult size",
+        "skull",
+        "diet"
+      ],
+      "summary": "Hagryphus giganteus was a caenagnathid oviraptorosaur from the Kaiparowits Formation of Utah. The holotype consists mainly of a partial hand and associated foot fragments, so the skull, trunk and most body proportions are unknown.",
+      "sourceBasis": "Zanno & Sampson (2005), A new oviraptorosaur from the Kaiparowits Formation; Ramezani et al. (2022), Calibrating dinosaur diversity in the Campanian Western Interior; Paleobiology Database taxon and occurrence context for Hagryphus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

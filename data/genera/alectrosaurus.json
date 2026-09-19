@@ -1,0 +1,119 @@
+{
+  "id": "alectrosaurus",
+  "name": "Alectrosaurus",
+  "profile": {
+    "overview": [
+      "Alectrosaurus was a mid-sized tyrannosauroid from Late Cretaceous Asia. PBDB records a broad Central Asian distribution including Inner Mongolia, Kazakhstan, Uzbekistan and Tajikistan, with formations such as Iren Dabasu, Bissekty, Khodzhakul and Bostobe.",
+      "Its importance lies in the pre-Tyrannosaurus phase of tyrannosauroid history: Alectrosaurus documents a more gracile, geographically widespread Asian predator before the deepest-skulled tyrannosaurids dominated latest Cretaceous ecosystems."
+    ],
+    "fossilSites": [
+      {
+        "name": "Iren Dabasu Formation",
+        "region": "Inner Mongolia, China",
+        "lat": 43.6,
+        "lon": 111.7,
+        "note": "One of several PBDB-listed formations for Alectrosaurus-like tyrannosauroid material."
+      },
+      {
+        "name": "Bissekty and Khodzhakul formations",
+        "region": "Uzbekistan",
+        "lat": 42,
+        "lon": 62,
+        "note": "Central Asian records contributing to the broad PBDB range for the taxon."
+      }
+    ],
+    "articles": [
+      {
+        "title": "Why it matters",
+        "body": "Alectrosaurus helps bridge the gap between early tyrannosauroids and the later giant tyrannosaurids of Asia and North America."
+      },
+      {
+        "title": "Evidence limit",
+        "body": "The PBDB occurrence spread is broad, so some referred material may need taxonomic review rather than being treated as equally secure."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Alectrosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/alectrosaurus.html"
+      },
+      {
+        "label": "Wikipedia: Alectrosaurus",
+        "url": "https://en.wikipedia.org/wiki/Alectrosaurus"
+      },
+      {
+        "label": "PBDB: Alectrosaurus",
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38610"
+      }
+    ]
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "approximately 96-83 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Tyrannosauroidea"
+      ],
+      "description": "Alectrosaurus olseni was a medium-sized tyrannosauroid from the Iren Dabasu Formation of Inner Mongolia. The name is anchored by an associated hind limb; much cranial and forelimb material once assigned to it belongs to other theropods.",
+      "facts": [
+        "The secure type material is chiefly a partial hind limb and foot.",
+        "Recent work supports tyrannosauroid affinities but cannot recover a complete body from the limited diagnostic material."
+      ],
+      "length": null
+    },
+    "ageReviewNote": "The Iren Dabasu Formation has a debated, broad Late Cretaceous age, probably within the Cenomanian-Campanian interval.",
+    "sources": [
+      {
+        "type": "systematic-revision",
+        "citation": "Mader & Bradley (1989), A redescription and revised diagnosis of Alectrosaurus olseni",
+        "url": "https://doi.org/10.1080/02724634.1989.10011737"
+      },
+      {
+        "type": "recent-reappraisal",
+        "citation": "Carr et al. (2023), Reappraisal of Alectrosaurus olseni",
+        "url": "https://doi.org/10.1080/02724634.2023.2199817"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: alectrosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/alectrosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Formation age is poorly constrained.",
+      "Historical cranial and forelimb referrals are excluded.",
+      "Its exact tyrannosauroid position is unresolved."
+    ],
+    "evidence": {
+      "score": 40,
+      "material": "An associated partial hind limb and limited referred remains.",
+      "formations": [
+        "Iren Dabasu Formation"
+      ],
+      "confidenceLimit": "Sparse diagnostic material prevents precise size, skull and ecology claims.",
+      "uncertainties": [
+        "Formation age is poorly constrained.",
+        "Historical cranial and forelimb referrals are excluded.",
+        "Its exact tyrannosauroid position is unresolved."
+      ],
+      "summary": "Alectrosaurus olseni was a medium-sized tyrannosauroid from the Iren Dabasu Formation of Inner Mongolia. The name is anchored by an associated hind limb; much cranial and forelimb material once assigned to it belongs to other theropods.",
+      "sourceBasis": "Mader & Bradley (1989), A redescription and revised diagnosis of Alectrosaurus olseni; Carr et al. (2023), Reappraisal of Alectrosaurus olseni; Natural History Museum, Dino Directory: alectrosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

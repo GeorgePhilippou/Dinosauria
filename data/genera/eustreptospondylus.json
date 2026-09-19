@@ -1,0 +1,153 @@
+{
+  "id": "eustreptospondylus",
+  "name": "Eustreptospondylus",
+  "profile": {
+    "overview": [
+      "Eustreptospondylus (meaning 'well-curved vertebra') was a large carnivorous megalosaurid theropod from the Middle Jurassic of England, estimated at around 7 metres in length. It lived approximately 165 million years ago during the Callovian stage, at a time when Europe was a series of shallow tropical island archipelagos rather than a continent. The sole known specimen comes from the Oxford Clay Formation of Oxfordshire, England, and represents a juvenile individual — meaning adult animals may have been considerably larger.",
+      "Eustreptospondylus oxoniensis was formally described by Alick Walker in 1964 from a nearly complete skeleton originally discovered near Oxford in the nineteenth century and housed in the University Museum of Natural History. It is one of the best-known large Jurassic theropods from Britain and provides critical information about Middle Jurassic predatory dinosaur diversity in Europe. PBDB places it within Eustreptospondylinae (Megalosauridae)."
+    ],
+    "fossilSites": [
+      {
+        "name": "Oxford Clay Formation",
+        "region": "Oxfordshire, England, UK",
+        "lat": 51.8,
+        "lon": -1.3,
+        "note": "The only known locality; the holotype nearly complete skeleton is housed at the University Museum of Natural History, Oxford."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Megalosauridae",
+        "Eustreptospondylinae",
+        "Eustreptospondylus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Megalosauridae",
+          "label": "Megalosaurus"
+        },
+        {
+          "from": "Eustreptospondylinae",
+          "label": "Dubreuillosaurus"
+        },
+        {
+          "from": "Tetanurae",
+          "label": "Spinosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "The specimen that would become Eustreptospondylus was found near Oxford in the nineteenth century and was initially attributed to Megalosaurus, the first theropod ever named. Alick Walker described it as a new genus and species, Eustreptospondylus oxoniensis ('well-curved vertebra of Oxford'), in 1964. The holotype is a sub-adult individual, complicating size estimates for full-grown animals."
+      },
+      {
+        "title": "Jurassic Island Europe",
+        "body": "During the Callovian, much of what is now western Europe lay beneath warm shallow seas, with terrestrial environments restricted to low-lying island groups. The Oxford Clay Formation, which preserves Eustreptospondylus, was deposited in a shallow marine setting, and it has been suggested the specimen may have drifted or swum between islands after death. This unusual depositional context sheds light on the insular ecology of Jurassic European dinosaurs."
+      },
+      {
+        "title": "Phylogenetic Position",
+        "body": "Eustreptospondylus is placed within Megalosauridae, a family of large Jurassic and Cretaceous tetanuran theropods best known from Europe and Africa. Its close relative Megalosaurus holds the distinction of being the first dinosaur formally described (1824). Megalosaurids occupied the top predator niche across much of the Jurassic world before being partially replaced by carcharodontosaurids and spinosaurids in the Cretaceous."
+      },
+      {
+        "title": "Significance for British Palaeontology",
+        "body": "Eustreptospondylus is among the most important dinosaur specimens in British collections, as one of the most complete Middle Jurassic theropods known from the UK. Its nearly complete skeleton allows detailed comparison with other megalosaurids worldwide and continues to inform studies of Jurassic theropod evolution and biogeography. The specimen is a centrepiece of the Oxford University Museum of Natural History."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Eustreptospondylus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/eustreptospondylus.html"
+      },
+      {
+        "label": "Wikipedia: Eustreptospondylus",
+        "url": "https://en.wikipedia.org/wiki/Eustreptospondylus"
+      },
+      {
+        "label": "PBDB: Eustreptospondylus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eustreptospondylus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Oxford Clay Formation, Oxfordshire, England, UK",
+    "material": "The holotype is a sub-adult individual, complicating size estimates for full-grown animals.",
+    "completeness": "Nearly complete specimen known; 1 PBDB occurrence records.",
+    "paleo": "The only known locality; the holotype nearly complete skeleton is housed at the University Museum of Natural History, Oxford.",
+    "evidence": "Eustreptospondylus oxoniensis was formally described by Alick Walker in 1964 from a nearly complete skeleton originally discovered near Oxford in the nineteenth century and housed in the University Museum of Natural History."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Mid Jurassic",
+      "mya": "late Callovian, about 164 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Megalosauroidea",
+        "Megalosauridae"
+      ],
+      "description": "Eustreptospondylus oxoniensis was a megalosaurid theropod from the Oxford Clay Formation of England. It is founded on one relatively complete but still incomplete subadult skeleton with a partial skull, recovered from marine sediment after its carcass was transported offshore.",
+      "facts": [
+        "The holotype is not an adult and lacks parts of the skull, limbs and tail.",
+        "Marine burial does not show that the animal was aquatic.",
+        "Serrated teeth and theropod anatomy support terrestrial carnivory."
+      ]
+    },
+    "ageReviewNote": "Restricted to the upper Callovian Peterborough Member of the Oxford Clay Formation.",
+    "sources": [
+      {
+        "type": "modern-redescription",
+        "citation": "Sadleir, Barrett & Powell (2008), The anatomy and systematics of Eustreptospondylus oxoniensis",
+        "url": "https://doi.org/10.1080/25761900.2022.12131807"
+      },
+      {
+        "type": "tetanuran-review",
+        "citation": "Carrano et al. (2012), The phylogeny of Tetanurae",
+        "url": "https://doi.org/10.1080/14772019.2011.630927"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Eustreptospondylus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Eustreptospondylus"
+      }
+    ],
+    "residualUncertainty": [
+      "Only one subadult skeleton is securely known.",
+      "Adult dimensions and exact megalosaurid position are uncertain."
+    ],
+    "evidence": {
+      "score": 60,
+      "material": "One relatively complete subadult partial skeleton with incomplete skull.",
+      "formations": [
+        "Oxford Clay Formation, Peterborough Member"
+      ],
+      "confidenceLimit": "High for diagnosis and broad anatomy; moderate for adult proportions and relationships.",
+      "uncertainties": [
+        "adult size",
+        "missing anatomy",
+        "fine phylogeny"
+      ],
+      "summary": "Eustreptospondylus oxoniensis was a megalosaurid theropod from the Oxford Clay Formation of England. It is founded on one relatively complete but still incomplete subadult skeleton with a partial skull, recovered from marine sediment after its carcass was transported offshore.",
+      "sourceBasis": "Sadleir, Barrett & Powell (2008), The anatomy and systematics of Eustreptospondylus oxoniensis; Carrano et al. (2012), The phylogeny of Tetanurae; Paleobiology Database taxon and occurrence context for Eustreptospondylus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

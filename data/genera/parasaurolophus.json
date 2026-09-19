@@ -1,0 +1,135 @@
+{
+  "id": "parasaurolophus",
+  "name": "Parasaurolophus",
+  "profile": {
+    "overview": [
+      "Parasaurolophus walkeri bore the most distinctive cranial crest of any hadrosaur — a long, hollow tube curving backwards from the skull, in large adults reaching over one metre. The crest contained a looping nasal passage connected to the respiratory tract; when air was blown through it, the crest would have produced a deep, foghorn-like resonance specific to each species and sex, used for communication across the forested Late Cretaceous floodplains.",
+      "Three species are recognised from the Late Campanian of North America (~76–73 Ma), differing in crest length and shape. Computer modelling of the nasal passage geometry has allowed researchers to synthesise the probable call of Parasaurolophus — the most direct acoustic reconstruction of any prehistoric animal — producing a low-frequency sound in the 30–80 Hz range."
+    ],
+    "fossilSites": [
+      {
+        "name": "Dinosaur Park Formation",
+        "region": "Alberta, Canada",
+        "lat": 50.7,
+        "lon": -111.5,
+        "note": "Campanian deposits with the type Parasaurolophus walkeri material; the longest-crested Alberta specimens."
+      },
+      {
+        "name": "Kirtland Formation",
+        "region": "New Mexico, USA",
+        "lat": 36.8,
+        "lon": -107.8,
+        "note": "Late Campanian beds with Parasaurolophus tubicen — the longest crest of the genus, reaching over 1.8 m."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Hadrosauridae",
+        "Lambeosaurinae",
+        "Parasaurolophus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Lambeosaurinae",
+          "label": "Corythosaurus"
+        },
+        {
+          "from": "Lambeosaurinae",
+          "label": "Lambeosaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Named by William Parks in 1922 from Alberta material. Three species are currently recognised: P. walkeri (Alberta), P. cyrtocristatus (Utah) and P. tubicen (New Mexico). Juvenile specimens with small rounded crests help document crest development. A remarkably complete juvenile (\"Joe\") found in Utah preserves skin impressions and shows the crest was already beginning to form."
+      },
+      {
+        "title": "Acoustic reconstruction",
+        "body": "The nasal passage inside the crest loops from the nostril, back through the crest tube, down and into the skull, before connecting to the throat. Computer modelling by Weishampel (1981) and later by Diegert and Williamson (1998) using CT data synthesised the probable call: a deep resonance in the 30–80 Hz range, well below the human hearing threshold at its lowest frequencies. This frequency would carry well through dense forest."
+      },
+      {
+        "title": "Sexual and specific dimorphism",
+        "body": "Crest length and curvature differ between the three species and likely between sexes within species. Sexual selection for larger, more elaborate crests producing stronger acoustic signals — analogous to antlers in deer — may have driven crest elongation through time. Females of the same species had shorter, less curved crests, consistent with this model."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Parasaurolophus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/parasaurolophus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Dinosaur Park, Kirtland/Fruitland and Kaiparowits records in North America",
+    "material": "Skulls and skeletons with long backward cranial crests.",
+    "completeness": "Moderately represented",
+    "paleo": "Late Cretaceous North American coastal plain and floodplain environments.",
+    "evidence": "Crest anatomy is central to sound, display and species-recognition interpretations."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian, about 77-73 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Lambeosaurinae",
+        "Parasaurolophini"
+      ],
+      "description": "Parasaurolophus was a long-crested lambeosaurine hadrosaurid from western North America, represented by three named species with several skulls and partial skeletons.",
+      "facts": [
+        "The hollow crest contains nasal passages and changed shape during growth.",
+        "Acoustic resonance and visual display are well-supported functional hypotheses, but exact calls cannot be recovered.",
+        "Species differ in crest curvature and stratigraphic distribution and should not be merged into one skeleton."
+      ]
+    },
+    "ageReviewNote": "The genus spans late Campanian Dinosaur Park, Kaiparowits and Kirtland formations, approximately 77-73 Ma.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Gates et al. (2021), new skull and ontogeny of Parasaurolophus",
+        "url": "https://doi.org/10.7717/peerj.10669"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Weishampel (1981), acoustic analyses of lambeosaurine crests",
+        "url": "https://doi.org/10.1017/S0094837300004036"
+      }
+    ],
+    "residualUncertainty": [
+      "Exact crest sounds and soft-tissue structures remain unknown.",
+      "Species-level referral of fragmentary material is difficult."
+    ],
+    "evidence": {
+      "score": 91,
+      "material": "Several skulls and partial skeletons across three species and growth stages.",
+      "formations": "Dinosaur Park, Kaiparowits and Kirtland formations, Canada and USA.",
+      "confidenceLimit": "Crest acoustics are modelled hypotheses, not recordings; keep species separate.",
+      "uncertainties": [
+        "exact vocalisation",
+        "fragmentary referrals"
+      ],
+      "summary": "Parasaurolophus was a long-crested lambeosaurine hadrosaurid from western North America, represented by three named species with several skulls and partial skeletons.",
+      "sourceBasis": "Gates et al. (2021), new skull and ontogeny of Parasaurolophus; Weishampel (1981), acoustic analyses of lambeosaurine crests"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

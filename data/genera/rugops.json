@@ -1,0 +1,145 @@
+{
+  "id": "rugops",
+  "name": "Rugops",
+  "profile": {
+    "overview": [
+      "Rugops (meaning 'wrinkle face') was a medium-sized abelisaurid theropod from the Late Cretaceous of Niger, living approximately 100–94 million years ago (Cenomanian). Named by Sereno, Wilson, and Conrad in 2004, it is estimated at around 7 metres in length and is known from an almost complete skull recovered from the Echkar/Tegama Formation of the Agadez region. The skull's textured, wrinkled surface—reflecting rows of small vascular pits—is the source of its name.",
+      "Rugops is a member of Abelisauridae within Ceratosauria and is the most completely cranially known abelisaurid from Cenomanian Africa. Scientifically, it is important for documenting Gondwanan abelisaurid distribution during a time when Africa was becoming more isolated. The delicate skull construction and vascular pits have been interpreted as evidence of scavenging behaviour and the possible presence of a facial crest or display structure, though these interpretations are debated."
+    ],
+    "fossilSites": [
+      {
+        "name": "Echkar / Tegama Formation",
+        "region": "Agadez, Niger",
+        "lat": 17.5,
+        "lon": 8,
+        "note": "Cenomanian continental deposits of the Sahara yielding the holotype Rugops skull alongside diverse large theropods and sauropods."
+      },
+      {
+        "name": "Kem Kem-equivalent beds, Saharan Africa",
+        "region": "Agadez Region, Niger",
+        "lat": 17,
+        "lon": 8.5,
+        "note": "Broadly correlative Cenomanian sediments of the southern Sahara with similar large-bodied predator assemblages."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Ceratosauria",
+        "Abelisauridae",
+        "Rugops"
+      ],
+      "sideBranches": [
+        {
+          "from": "Abelisauridae",
+          "label": "Carnotaurus"
+        },
+        {
+          "from": "Ceratosauria",
+          "label": "Noasauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Rugops primus was described by Paul Sereno, Jeffrey Wilson, and Jack Conrad in 2004 from a skull excavated in Niger by Sereno's expeditions to the Sahara. The name means 'first wrinkle face', reflecting both the textured skull surface and its stratigraphic age as one of the earliest known abelisaurids from equatorial Africa."
+      },
+      {
+        "title": "Skull Texture and Behaviour",
+        "body": "The skull of Rugops is perforated by rows of small foramina (pits) that in life likely accommodated blood vessels supplying overlying skin or a keratinous covering. Sereno and colleagues suggested this could indicate a facial crest or scales. The relatively light and narrow construction of the skull, in contrast to more robustly built abelisaurids, led to speculation that Rugops may have been more of a scavenger, though this remains debated."
+      },
+      {
+        "title": "Abelisaurids in Africa",
+        "body": "Abelisauridae was the dominant large theropod family in Gondwana during the Cretaceous, with members known from South America, India, Madagascar, and Africa. Rugops helps document African abelisaurid presence during the Cenomanian, a time when Africa's faunal connections to other Gondwanan landmasses were being severed. Discovering it in Niger alongside Spinosaurus and Carcharodontosaurus reveals a remarkably predator-rich ecosystem."
+      },
+      {
+        "title": "Gondwanan Biogeography",
+        "body": "The discovery of Rugops in Africa, alongside contemporaneous abelisaurids from South America (e.g., Ekrixinatosaurus) and Madagascar (e.g., Majungasaurus), provides evidence that abelisaurids dispersed widely across Gondwana before its final fragmentation. The Cenomanian age of Rugops places it at a critical juncture in Gondwanan biogeographic history."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Rugops profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/rugops.html"
+      },
+      {
+        "label": "PBDB: Rugops occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rugops&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Echkar / Tegama Formation, Agadez, Niger; Kem Kem-equivalent beds, Saharan Africa, Agadez Region, Niger",
+    "material": "Abelisauridae was the dominant large theropod family in Gondwana during the Cretaceous, with members known from South America, India, Madagascar, and Africa.",
+    "completeness": "Nearly complete specimen known; 1 PBDB occurrence records.",
+    "paleo": "Cenomanian continental deposits of the Sahara yielding the holotype Rugops skull alongside diverse large theropods and sauropods.",
+    "evidence": "Rugops is a member of Abelisauridae within Ceratosauria and is the most completely cranially known abelisaurid from Cenomanian Africa."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Cenomanian, about 96-94 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Ceratosauria",
+        "Abelisauroidea",
+        "Abelisauridae"
+      ],
+      "description": "Rugops primus was an abelisaurid theropod from the Echkar Formation of Niger, known from one partial skull and associated fragments rather than a skeleton.",
+      "facts": [
+        "The skull roof bears texturing and openings, but elaborate skin display structures are speculative.",
+        "Its discovery helped document mid-Cretaceous Gondwanan abelisaurid distribution.",
+        "Body size, forelimbs and most postcranial anatomy are inferred from relatives."
+      ]
+    },
+    "ageReviewNote": "The Echkar type horizon is Cenomanian, close to 95 Ma.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Sereno et al. (2004), new dinosaurs linking southern landmasses including Rugops",
+        "url": "https://doi.org/10.1098/rspb.2004.2692"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: rugops",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/rugops.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Only one partial skull is securely known.",
+      "Its exact abelisaurid position and adult size remain uncertain."
+    ],
+    "evidence": {
+      "score": 32,
+      "material": "Single incomplete skull with very limited additional material.",
+      "formations": "Echkar Formation, Niger.",
+      "confidenceLimit": "Postcranial proportions, mass and soft-tissue ornament are not directly known.",
+      "uncertainties": [
+        "size",
+        "soft-tissue ornament",
+        "phylogenetic position"
+      ],
+      "summary": "Rugops primus was an abelisaurid theropod from the Echkar Formation of Niger, known from one partial skull and associated fragments rather than a skeleton.",
+      "sourceBasis": "Sereno et al. (2004), new dinosaurs linking southern landmasses including Rugops; Natural History Museum Dino Directory: rugops"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

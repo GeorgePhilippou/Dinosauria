@@ -1,0 +1,150 @@
+{
+  "id": "shantungosaurus",
+  "name": "Shantungosaurus",
+  "profile": {
+    "overview": [
+      "Shantungosaurus (meaning 'Shantung/Shandong lizard') was a colossal herbivorous hadrosaur from the Late Cretaceous of China, living approximately 78–74 million years ago during the Campanian stage. Size estimates place it at 15–17 metres in length and 13–16 metric tonnes in mass, making it the largest known hadrosauroid and one of the largest ornithischian dinosaurs on record. Fossils come from the Wangshi Group on the Shandong Peninsula, and multiple individuals have been discovered, including growth series material.",
+      "Named by Hu in 1973, Shantungosaurus giganteus is classified within the saurolophine (flat-headed) hadrosaurs — the Hadrosaurinae — indicating it lacked the elaborate hollow cranial crest of lambeosaurine relatives. Its extraordinary size has attracted considerable research into how hadrosaurs achieved such large body masses and what physiological demands this imposed. Shantungosaurus coexisted with other large Late Cretaceous vertebrates in what was then a coastal lowland environment."
+    ],
+    "fossilSites": [
+      {
+        "name": "Xingezhuang Formation, Wangshi Group",
+        "region": "Shandong Province, China",
+        "lat": 36.5,
+        "lon": 119,
+        "note": "The type locality for Shantungosaurus, yielding multiple partial skeletons from Campanian-age coastal floodplain deposits."
+      },
+      {
+        "name": "Hongtuya Formation, Wangshi Group",
+        "region": "Shandong Province, China",
+        "lat": 36.8,
+        "lon": 118.5,
+        "note": "Upper members of the Wangshi Group have produced additional Shantungosaurus material spanning the middle to late Campanian."
+      },
+      {
+        "name": "Wangshi Group (general)",
+        "region": "Laiwu and Zhucheng, Shandong, China",
+        "lat": 36.2,
+        "lon": 118,
+        "note": "Extensive hadrosaur bonebeds in the Zhucheng area preserve hundreds of Shantungosaurus elements, suggesting gregarious or flood-aggregated populations."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Euhadrosauria",
+        "Hadrosaurinae",
+        "Shantungosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Hadrosaurinae",
+          "label": "Edmontosaurus"
+        },
+        {
+          "from": "Euhadrosauria",
+          "label": "Lambeosaurinae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Shantungosaurus giganteus was described by Hu Chengzhi in 1973 from material excavated in Shandong Province, China — a region historically known as Shantung. Hu based the genus on several partial skeletons, and subsequent excavations at Zhucheng in the 1980s and 2000s revealed enormous bonebeds containing thousands of hadrosaur elements, many referable to this genus."
+      },
+      {
+        "title": "Gigantic Size",
+        "body": "Shantungosaurus is the largest known hadrosauroid, with length estimates of 15–17 metres and mass estimates of 13–16 tonnes. This size rivals some large sauropods. How flat-headed hadrosaurs achieved such masses — without the elaborate nutritional adaptations of sauropods — is an active research question; the answer likely involves continuous high-productivity browsing and efficient dental batteries."
+      },
+      {
+        "title": "Anatomy and Classification",
+        "body": "As a saurolophine hadrosaur, Shantungosaurus had a flat, unfenestrated skull roof without a hollow nasal crest. It possessed the characteristic hadrosaur dental battery — hundreds of closely packed teeth forming a grinding surface — that allowed efficient processing of tough vegetation. Its forelimbs were robust enough to allow quadrupedal locomotion as well as bipedal stance."
+      },
+      {
+        "title": "Palaeoenvironment and Ecosystem",
+        "body": "The Wangshi Group sediments represent Late Cretaceous coastal lowlands and river deltas. Shantungosaurus shared its environment with ceratopsians, ankylosaurs, and large theropods. The Zhucheng bonebeds may represent mass mortality events caused by seasonal flooding, providing a rare snapshot of large dinosaur population dynamics."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Shantungosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/shantungosaurus.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Xingezhuang Formation, Wangshi Group, Shandong Province, China; Hongtuya Formation, Wangshi Group, Shandong Province, China; Wangshi Group (general), Laiwu and Zhucheng, Shandong, China",
+    "material": "Fossils come from the Wangshi Group on the Shandong Peninsula, and multiple individuals have been discovered, including growth series material.",
+    "completeness": "Skeletal material known; 5 PBDB occurrence records.",
+    "paleo": "The type locality for Shantungosaurus, yielding multiple partial skeletons from Campanian-age coastal floodplain deposits.",
+    "evidence": "Named by Hu in 1973, Shantungosaurus giganteus is classified within the saurolophine (flat-headed) hadrosaurs — the Hadrosaurinae — indicating it lacked the elaborate hollow cranial crest of lambeosaurine relatives."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian, about 77-73.5 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Saurolophinae",
+        "Edmontosaurini"
+      ],
+      "description": "Shantungosaurus giganteus was a very large saurolophine hadrosaurid from the Wangshi Group of Shandong, represented by numerous disarticulated skulls and skeletons from large bonebeds.",
+      "facts": [
+        "Gigantic body size is supported by multiple large limb and skull elements, but precise maxima vary.",
+        "Zhuchengosaurus and Huaxiaosaurus are widely treated as growth stages or junior synonyms of Shantungosaurus."
+      ]
+    },
+    "ageReviewNote": "Magnetostratigraphic and radiometric work places the relevant Wangshi Group dinosaur-bearing interval in the late Campanian, approximately 77-73.5 Ma.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Ji et al. (2011), systematics and synonymy of Shantungosaurus giganteus",
+        "url": "https://doi.org/10.1111/j.1755-6724.2011.00378.x"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Han et al. (2020), magnetostratigraphic age model for the Wangshi Group",
+        "url": "https://doi.org/10.1016/j.palaeo.2019.109451"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: shantungosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/shantungosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Bonebed association and maximum size remain uncertain."
+    ],
+    "evidence": {
+      "score": 88,
+      "material": "Large multi-individual bonebeds with many cranial and postcranial elements.",
+      "formations": "Wangshi Group, Shandong, China.",
+      "confidenceLimit": "No single complete giant individual; maximum size is estimated.",
+      "uncertainties": [
+        "maximum size",
+        "bonebed taphonomy"
+      ],
+      "summary": "Shantungosaurus giganteus was a very large saurolophine hadrosaurid from the Wangshi Group of Shandong, represented by numerous disarticulated skulls and skeletons from large bonebeds.",
+      "sourceBasis": "Ji et al. (2011), systematics and synonymy of Shantungosaurus giganteus; Han et al. (2020), magnetostratigraphic age model for the Wangshi Group; Natural History Museum Dino Directory: shantungosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

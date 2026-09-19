@@ -1,0 +1,142 @@
+{
+  "id": "giraffatitan",
+  "name": "Giraffatitan",
+  "profile": {
+    "overview": [
+      "Giraffatitan brancai was a large brachiosaurid sauropod from the Late Jurassic Tendaguru Formation of Tanzania (~150 Ma), closely related to North American Brachiosaurus and the source of most museum mounts labelled \"Brachiosaurus\" in Europe. The Berlin Natural History Museum specimen is the largest mounted dinosaur skeleton in the world. Its front legs were longer than its hind legs — uniquely among large sauropods — producing a pronounced upward-sloping profile.",
+      "For decades Giraffatitan was considered a species of Brachiosaurus (B. brancai), and many popular accounts still use that name. Paul Upchurch's 2009 analysis established that the African and North American forms are distinct enough to warrant separate genera. The split changed how both animals are reconstructed, since most detailed anatomical knowledge of \"Brachiosaurus\" actually derives from the more complete Giraffatitan material."
+    ],
+    "fossilSites": [
+      {
+        "name": "Tendaguru Formation",
+        "region": "Lindi Region, Tanzania",
+        "lat": -9.5,
+        "lon": 38.8,
+        "note": "Late Jurassic marine-influenced fluvial deposits excavated by German expeditions 1909–1913; yielded multiple Giraffatitan individuals including the Berlin mount."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Macronaria",
+        "Brachiosauridae",
+        "Giraffatitan"
+      ],
+      "sideBranches": [
+        {
+          "from": "Brachiosauridae",
+          "label": "Brachiosaurus (North America)"
+        },
+        {
+          "from": "Macronaria",
+          "label": "Camarasauridae"
+        },
+        {
+          "from": "Macronaria",
+          "label": "Titanosauria"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "The Tendaguru expeditions",
+        "body": "Between 1909 and 1913, the Berlin Museum für Naturkunde funded expeditions to Tendaguru Hill in what was then German East Africa (now Tanzania). Under Werner Janensch's direction, over 225 tonnes of fossil material were shipped to Berlin — one of the largest palaeontological excavations in history. Local workers did the majority of the excavation and transport by foot to the coast, a remarkable logistical feat. The resulting Berlin mount, completed in 1937, remains the largest mounted dinosaur skeleton anywhere."
+      },
+      {
+        "title": "Anatomy and browsing height",
+        "body": "The elongated forelimbs and long neck of Giraffatitan allowed browsing at heights up to 9 metres or more — accessing canopy vegetation unavailable to any other ground animal. The upward slope of the back from hips to shoulders is uniquely brachiosaurid. Tooth shape (chisel-like rather than pencil-like) allowed processing of conifer foliage unavailable to diplodocids."
+      },
+      {
+        "title": "Tendaguru ecosystem",
+        "body": "The Tendaguru fauna is remarkably similar to the Morrison Formation fauna of North America — a striking example of Jurassic cosmopolitanism. Giraffatitan coexisted with the stegosaur Kentrosaurus, smaller ornithopods, and theropods including Elaphrosaurus. The similarity between African and North American Jurassic faunas reflects the partial land connections between these continents before the Atlantic fully opened."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Giraffatitan profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/giraffatitan.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Tendaguru Formation, Tanzania",
+    "material": "Many specimens from the German Tendaguru expeditions, including near-complete material used for the Berlin museum mount.",
+    "completeness": "Very well represented",
+    "paleo": "Late Jurassic coastal plain and floodplain of East Africa.",
+    "evidence": "The Tendaguru material is the basis for most reconstructions; the elongated forelimbs and high-shouldered anatomy distinguish it from diplodocids."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "Kimmeridgian-Tithonian, roughly 155-145 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Neosauropoda",
+        "Macronaria",
+        "Brachiosauridae"
+      ],
+      "description": "Giraffatitan brancai was a high-shouldered brachiosaurid sauropod from the Tendaguru Formation of Tanzania. Several individuals provide skull and skeletal material, but the famous Berlin mount is a composite assembled chiefly from two incomplete skeletons and reconstructed elements.",
+      "facts": [
+        "The genus was originally named Brachiosaurus brancai and is now widely separated from North American Brachiosaurus.",
+        "Long forelimbs and elongate neck vertebrae support a high browsing envelope, though exact habitual neck angle is debated.",
+        "No single complete skeleton is known."
+      ]
+    },
+    "ageReviewNote": "Material spans the Middle and Upper Dinosaur members of Tendaguru, broadly Kimmeridgian-Tithonian.",
+    "sources": [
+      {
+        "type": "generic-revision",
+        "citation": "Taylor (2009), A re-evaluation of Brachiosaurus and Giraffatitan",
+        "url": "https://doi.org/10.1671/039.029.0309"
+      },
+      {
+        "type": "formation-review",
+        "citation": "Bussert et al. (2009), The Tendaguru Formation: lithostratigraphy and depositional environments",
+        "url": "https://doi.org/10.5194/fr-12-141-2009"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Giraffatitan",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Giraffatitan"
+      }
+    ],
+    "residualUncertainty": [
+      "The mounted skeleton combines individuals.",
+      "Species-level referrals, neck posture and exact body mass remain debated."
+    ],
+    "evidence": {
+      "score": 80,
+      "material": "Multiple partial skeletons and skulls, with famous composite museum mount.",
+      "formations": [
+        "Tendaguru Formation"
+      ],
+      "confidenceLimit": "High for anatomy, brachiosaurid identity and giant size; moderate for proportions and specimen association.",
+      "uncertainties": [
+        "individual association",
+        "neck posture",
+        "body mass",
+        "referrals"
+      ],
+      "summary": "Giraffatitan brancai was a high-shouldered brachiosaurid sauropod from the Tendaguru Formation of Tanzania. Several individuals provide skull and skeletal material, but the famous Berlin mount is a composite assembled chiefly from two incomplete skeletons and reconstructed elements.",
+      "sourceBasis": "Taylor (2009), A re-evaluation of Brachiosaurus and Giraffatitan; Bussert et al. (2009), The Tendaguru Formation: lithostratigraphy and depositional environments; Paleobiology Database taxon and occurrence context for Giraffatitan"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

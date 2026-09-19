@@ -1,0 +1,135 @@
+{
+  "id": "maiasaura",
+  "name": "Maiasaura",
+  "profile": {
+    "overview": [
+      "Maiasaura peeblesorum (\"good mother lizard\") transformed understanding of dinosaur parental behaviour. From the Late Cretaceous Two Medicine Formation of Montana (~76 Ma), nesting colonies preserving eggs, hatchlings and juveniles at different stages were discovered by Jack Horner and Bob Makela in 1978. The hatchlings' underdeveloped limb bones showed they were born helpless and required parental feeding in the nest — the first evidence of extended parental care in non-avian dinosaurs.",
+      "The Maiasaura bonebeds in Montana are extraordinary: a single catastrophic event — possibly a volcanic ashfall — killed approximately 10,000 individuals in one horizon. This mass-death assemblage across a wide area provides bone histology data for the entire population, showing Maiasaura grew at rates comparable to modern large mammals rather than reptiles."
+    ],
+    "fossilSites": [
+      {
+        "name": "Two Medicine Formation — Egg Mountain",
+        "region": "Teton County, Montana, USA",
+        "lat": 47.8,
+        "lon": -112.3,
+        "note": "Campanian nesting colony with multiple Maiasaura clutches at different developmental stages; the site where parental care was first recognised in dinosaurs."
+      },
+      {
+        "name": "Two Medicine Formation — Camposaur bonebed",
+        "region": "Montana, USA",
+        "lat": 47.5,
+        "lon": -113,
+        "note": "Horizon with approximately 10,000 Maiasaura individuals killed simultaneously, providing population-level bone histology data."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Hadrosauridae",
+        "Saurolophinae",
+        "Maiasaura"
+      ],
+      "sideBranches": [
+        {
+          "from": "Saurolophinae",
+          "label": "Edmontosaurus"
+        },
+        {
+          "from": "Hadrosauridae",
+          "label": "Lambeosaurinae (crested hadrosaurs)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "The discovery that changed palaeontology",
+        "body": "Jack Horner and Bob Makela described Maiasaura in 1979 from material found by Marion Brandvold near Choteau, Montana in 1978. The eggs and hatchlings showed underdeveloped legs and worn teeth — indicating the young were fed in the nest by adults for an extended period. This overturned the prevailing view of dinosaurs as indifferent egg-layers and established them as attentive parents."
+      },
+      {
+        "title": "Growth rates",
+        "body": "Bone histology from the massive Two Medicine bonebed shows that Maiasaura grew from 50 cm at hatching to 7 metres adult length in 6–8 years — a rate comparable to modern large ungulates, not reptiles. This is now considered typical for hadrosaurs and confirms that non-avian dinosaurs had elevated metabolic rates relative to modern reptiles."
+      },
+      {
+        "title": "Hadrosaur ecology",
+        "body": "Maiasaura was a flat-headed (non-crested) hadrosaur that lived in large herds on the coastal plains of the Western Interior Seaway. It migrated seasonally — bone evidence suggests the Two Medicine Formation records different herd stages at different times of year. The colonial nesting, where multiple females laid eggs in the same area, mirrors modern colonial nesters such as penguins."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Maiasaura profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/maiasaura.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Two Medicine Formation, Montana, USA",
+    "material": "Eggs, nests, juveniles and adult skeletal material from nesting colonies.",
+    "completeness": "Exceptional growth and nesting record",
+    "paleo": "Late Cretaceous seasonal floodplain settings in Montana.",
+    "evidence": "Nesting grounds and growth series provide direct evidence for reproduction and development."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian, about 77-75 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Saurolophinae",
+        "Brachylophosaurini"
+      ],
+      "description": "Maiasaura peeblesorum was a hadrosaurid from the Two Medicine Formation of Montana, documented by nesting grounds, eggs, juveniles, adults and large bonebeds.",
+      "facts": [
+        "Nest colonies and very young individuals in nests show repeated nesting-site use and extended nest occupancy.",
+        "The evidence is consistent with parental care but does not specify which sex cared for young or every detail of provisioning.",
+        "Large growth-series samples document rapid growth and population structure."
+      ]
+    },
+    "ageReviewNote": "The Two Medicine Maiasaura record is late Campanian, approximately 76.7-75 Ma.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Horner & Makela (1979), nesting grounds of Maiasaura",
+        "url": "https://doi.org/10.1038/282296a0"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Woodward et al. (2015), life history of Maiasaura from bone histology",
+        "url": "https://doi.org/10.1017/pab.2015.19"
+      }
+    ],
+    "residualUncertainty": [
+      "Details of parental provisioning and social structure exceed the direct evidence.",
+      "Bonebeds may combine mortality events."
+    ],
+    "evidence": {
+      "score": 98,
+      "material": "Thousands of bones, many skeletons, eggs, nests and a growth series from embryos to adults.",
+      "formations": "Two Medicine Formation, Montana, USA.",
+      "confidenceLimit": "Nesting and growth are secure; specific family roles and herd behaviour remain interpretations.",
+      "uncertainties": [
+        "parental-care mechanism",
+        "bonebed taphonomy"
+      ],
+      "summary": "Maiasaura peeblesorum was a hadrosaurid from the Two Medicine Formation of Montana, documented by nesting grounds, eggs, juveniles, adults and large bonebeds.",
+      "sourceBasis": "Horner & Makela (1979), nesting grounds of Maiasaura; Woodward et al. (2015), life history of Maiasaura from bone histology"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

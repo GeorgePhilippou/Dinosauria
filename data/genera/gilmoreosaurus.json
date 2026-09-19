@@ -1,0 +1,156 @@
+{
+  "id": "gilmoreosaurus",
+  "name": "Gilmoreosaurus",
+  "profile": {
+    "overview": [
+      "Gilmoreosaurus (meaning 'Gilmore's lizard') was a herbivorous hadrosauromorph dinosaur from the Late Cretaceous of Asia, approximately 96–83 million years ago. The type species, Gilmoreosaurus mongoliensis, is known from the Iren Dabasu Formation of Inner Mongolia, China. It reached an estimated length of around 6 metres and would have been a ground-dwelling, bipedally capable plant-eater, likely gregarious in behaviour. Additional fragmentary material from Uzbekistan has been tentatively assigned to the genus, though these attributions remain disputed.",
+      "Gilmoreosaurus was named by Brett-Surman in 1979 and sits within Hadrosauroidea, making it an early relative of the true duck-billed dinosaurs (Hadrosauridae). Its position near the base of hadrosaur evolution gives it significance for understanding how the enormously successful hadrosaurid lineage arose in Asia before spreading into North America. The questionable referral of Uzbekistan specimens highlights the difficulty of assigning fragmentary Cretaceous ornithopod material to genus level and underscores ongoing work on Asian hadrosaur diversity."
+    ],
+    "fossilSites": [
+      {
+        "name": "Iren Dabasu Formation",
+        "region": "Inner Mongolia, China",
+        "lat": 43.6,
+        "lon": 112,
+        "note": "The primary type locality for Gilmoreosaurus mongoliensis, yielding postcranial and dental material dating to the Campanian stage."
+      },
+      {
+        "name": "Khodzhakul Formation",
+        "region": "Karakalpakstan, Uzbekistan",
+        "lat": 42.5,
+        "lon": 61,
+        "note": "Fragmentary material tentatively assigned to G. atavus; classification considered dubious due to poor preservation."
+      },
+      {
+        "name": "Bissekty Formation",
+        "region": "Kyzylkum Desert, Uzbekistan",
+        "lat": 41,
+        "lon": 63.5,
+        "note": "Yielded material sometimes referred to G. arkhangelskyi and G. kysylkumense, though relationships to the type species remain uncertain."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauroidea",
+        "Gilmoreosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Hadrosauroidea",
+          "label": "Hadrosauridae (true duck-bills)"
+        },
+        {
+          "from": "Ornithopoda",
+          "label": "Iguanodontia"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Gilmoreosaurus mongoliensis was formally named in 1979 by Michael Brett-Surman, honouring American palaeontologist Charles W. Gilmore, who conducted early work on Asian dinosaurs. The holotype material was collected from the Iren Dabasu Formation of Inner Mongolia. Subsequent referrals of Central Asian specimens have expanded the potential range of the genus, though most remain poorly supported."
+      },
+      {
+        "title": "Anatomy and Size",
+        "body": "Gilmoreosaurus is estimated to have reached approximately 6 metres in length, making it a medium-sized ornithopod. Its anatomy places it among the more primitive hadrosaur relatives, lacking the highly derived dental batteries and elaborate cranial crests seen in later hadrosaurids. The postcranial material suggests it was a capable biped that may also have browsed quadrupedally."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "The Iren Dabasu Formation records a semi-arid floodplain environment of the Middle Campanian in what is now Inner Mongolia. Gilmoreosaurus shared this habitat with other dinosaurs including the tyrannosaur Alectrosaurus and the ornithomimosaur Archaeornithomimus, suggesting a diverse Late Cretaceous ecosystem in eastern Asia."
+      },
+      {
+        "title": "Scientific Significance",
+        "body": "As one of the better-known basal hadrosauroids from Asia, Gilmoreosaurus provides evidence for the Asian origins of hadrosaur diversity. Its phylogenetic position near the base of Hadrosauroidea helps palaeontologists trace the evolutionary steps leading to the highly derived crests and dental batteries of later duck-billed dinosaurs."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Gilmoreosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/gilmoreosaurus.html"
+      },
+      {
+        "label": "Wikipedia: Gilmoreosaurus",
+        "url": "https://en.wikipedia.org/wiki/Gilmoreosaurus"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Iren Dabasu Formation, Inner Mongolia, China; Khodzhakul Formation, Karakalpakstan, Uzbekistan; Bissekty Formation, Kyzylkum Desert, Uzbekistan",
+    "material": "The holotype material was collected from the Iren Dabasu Formation of Inner Mongolia.",
+    "completeness": "Fragmentary material only; 2 PBDB occurrence records.",
+    "paleo": "The primary type locality for Gilmoreosaurus mongoliensis, yielding postcranial and dental material dating to the Campanian stage.",
+    "evidence": "Gilmoreosaurus was named by Brett-Surman in 1979 and sits within Hadrosauroidea, making it an early relative of the true duck-billed dinosaurs (Hadrosauridae)."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Cenomanian-Campanian, broadly about 96-84 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Hadrosauroidea"
+      ],
+      "description": "Gilmoreosaurus mongoliensis was a non-hadrosaurid hadrosauroid from the Iren Dabasu Formation of Inner Mongolia. The species is represented by disarticulated bones from several individuals, including skull, vertebral and limb elements, but no single complete skeleton.",
+      "facts": [
+        "The hypodigm is a multi-individual assemblage and associations between elements are limited.",
+        "It lies outside Hadrosauridae in most modern analyses.",
+        "Teeth and jaws support herbivory; specific browse and herd behaviour are unknown."
+      ]
+    },
+    "ageReviewNote": "The numerical age of the Iren Dabasu Formation remains debated, so the audit retains a broad range.",
+    "sources": [
+      {
+        "type": "redescription",
+        "citation": "Prieto-Marquez & Norell (2010), Anatomy and relationships of Gilmoreosaurus mongoliensis",
+        "url": "https://doi.org/10.1206/3694.2"
+      },
+      {
+        "type": "hadrosauroid-review",
+        "citation": "McDonald et al. (2012), Phylogeny of basal iguanodonts and hadrosauroids",
+        "url": "https://doi.org/10.1371/journal.pone.0036745"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Gilmoreosaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gilmoreosaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "Disarticulation complicates individual association.",
+      "Formation age and precise hadrosauroid position are unresolved."
+    ],
+    "evidence": {
+      "score": 60,
+      "material": "Disarticulated cranial and postcranial remains representing multiple individuals.",
+      "formations": [
+        "Iren Dabasu Formation"
+      ],
+      "confidenceLimit": "High for validity and herbivory; moderate for body reconstruction and phylogeny.",
+      "uncertainties": [
+        "individual association",
+        "formation age",
+        "hadrosauroid position"
+      ],
+      "summary": "Gilmoreosaurus mongoliensis was a non-hadrosaurid hadrosauroid from the Iren Dabasu Formation of Inner Mongolia. The species is represented by disarticulated bones from several individuals, including skull, vertebral and limb elements, but no single complete skeleton.",
+      "sourceBasis": "Prieto-Marquez & Norell (2010), Anatomy and relationships of Gilmoreosaurus mongoliensis; McDonald et al. (2012), Phylogeny of basal iguanodonts and hadrosauroids; Paleobiology Database taxon and occurrence context for Gilmoreosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

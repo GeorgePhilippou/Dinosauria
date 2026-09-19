@@ -1,0 +1,127 @@
+{
+  "id": "majungasaurus",
+  "name": "Majungasaurus",
+  "profile": {
+    "overview": [
+      "Majungasaurus crenatissimus was the apex predator of Late Cretaceous Madagascar (~70 Ma), an abelisaurid theropod about seven metres long. Bone surface marks on Majungasaurus bones that match its own tooth morphology provide the most direct fossil evidence of intraspecific cannibalism in any non-avian dinosaur — feeding on members of its own species.",
+      "Madagascar was isolated from mainland Africa by the Cretaceous, and its fauna evolved in parallel: Majungasaurus replaced tyrannosaurs (which never reached Madagascar) as top predator, and the giant titanosaur Rapetosaurus provided the largest available prey. As an abelisaurid it is related to Carnotaurus of South America and Rajasaurus of India."
+    ],
+    "fossilSites": [
+      {
+        "name": "Maevarano Formation",
+        "region": "Mahajanga Basin, Madagascar",
+        "lat": -16,
+        "lon": 46.3,
+        "note": "Late Cretaceous fluvial and overbank deposits in north-western Madagascar yielding abundant Majungasaurus material alongside Rapetosaurus and the crocodilian Mahajangasuchus."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Ceratosauria",
+        "Abelisauridae",
+        "Majungasaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Abelisauridae",
+          "label": "Carnotaurus (Argentina)"
+        },
+        {
+          "from": "Abelisauridae",
+          "label": "Rajasaurus (India)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Fragmentary material was known since the 1890s, but substantial specimens — including near-complete skulls — were not recovered until the expeditions of David Krause and colleagues from the 1990s onward. The species was often referred to as Majungatholus atopus before synonymy established Majungasaurus as the valid name in 2007."
+      },
+      {
+        "title": "Cannibalism evidence",
+        "body": "Majungasaurus bones found with tooth marks matching the distinctive ridged abelisaurid dentition — and specifically matching Majungasaurus itself — are the strongest evidence of intraspecific cannibalism in any non-avian dinosaur. Whether this was scavenging conspecific carcasses or active predation of living individuals cannot be determined from the marks alone."
+      },
+      {
+        "title": "Abelisaurid biology",
+        "body": "Like other abelisaurids, Majungasaurus had extremely reduced forelimbs — even more vestigial than Carnotaurus — a short deep skull with a thick dome above the orbits (the feature initially leading to the \"Majungatholus\" genus name), and heavily textured outer skull bones. These surface textures supported a keratinous skull covering rather than simple scales."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Majungasaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/majungasaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Maevarano Formation, Mahajanga Province, Madagascar",
+    "material": "Multiple skulls and near-complete skeletons.",
+    "completeness": "Very well represented",
+    "paleo": "Late Cretaceous semi-arid to seasonally wet environments of Madagascar, isolated from mainland Africa.",
+    "evidence": "Tooth marks matching Majungasaurus teeth on Majungasaurus bones provide rare direct evidence of cannibalism — one of only a few dinosaurs (alongside Allosaurus and some tyrannosaurids) with such direct evidence."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Maastrichtian, about 70-66 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Ceratosauria",
+        "Abelisauridae",
+        "Majungasaurinae"
+      ],
+      "description": "Majungasaurus crenatissimus was an abelisaurid from the Maevarano Formation of Madagascar, represented by numerous skulls and postcranial remains from multiple individuals.",
+      "facts": [
+        "Its short deep skull and reduced forelimbs are directly documented by a strong sample.",
+        "Majungasaurus tooth marks on Majungasaurus bones provide evidence of cannibalistic feeding, though not necessarily active predation.",
+        "Growth studies indicate slow, prolonged growth relative to many large theropods."
+      ]
+    },
+    "ageReviewNote": "The Maevarano Formation sample is late Maastrichtian.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Sampson & Krause (eds., 2007), craniofacial anatomy and palaeobiology of Majungasaurus",
+        "url": "https://www.researchgate.net/publication/228681379_Majungasaurus_crenatissimus_Theropoda_Abelisauridae_from_the_Late_Cretaceous_of_Madagascar"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Rogers, Krause & Rogers (2003), cannibalism in Majungatholus/Majungasaurus",
+        "url": "https://doi.org/10.1038/nature01532"
+      }
+    ],
+    "residualUncertainty": [
+      "Cannibal tooth marks do not distinguish scavenging from predation.",
+      "Some composite skeletal proportions unite individuals."
+    ],
+    "evidence": {
+      "score": 95,
+      "material": "Multiple skulls and extensive postcranial material from many individuals, collectively nearly all skeletal regions.",
+      "formations": "Maevarano Formation, Madagascar.",
+      "confidenceLimit": "Cannibal feeding is secure, but the behavioural circumstances are unknown.",
+      "uncertainties": [
+        "scavenging versus predation",
+        "individual association"
+      ],
+      "summary": "Majungasaurus crenatissimus was an abelisaurid from the Maevarano Formation of Madagascar, represented by numerous skulls and postcranial remains from multiple individuals.",
+      "sourceBasis": "Sampson & Krause (eds., 2007), craniofacial anatomy and palaeobiology of Majungasaurus; Rogers, Krause & Rogers (2003), cannibalism in Majungatholus/Majungasaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

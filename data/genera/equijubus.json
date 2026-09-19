@@ -1,0 +1,148 @@
+{
+  "id": "equijubus",
+  "name": "Equijubus",
+  "profile": {
+    "overview": [
+      "Equijubus (whose name in Chinese means 'horse mane ridge') was a herbivorous hadrosauroid dinosaur from the Early Cretaceous of Gansu Province, China, living approximately 113–110 million years ago during the Albian stage. Known from a skull and associated postcrania, it is thought by some researchers to be among the earliest members of the hadrosaur lineage, potentially predating many other known hadrosauroids. Its discovery contributed to evidence that hadrosaurs may have originated in Asia before spreading to North America and other regions.",
+      "Equijubus normani was described by You and colleagues in 2003 from material in the Zhonggou / Xinminbao Formation of Gansu. The species is named in honour of palaeontologist David Norman. Its anatomy preserves primitive hadrosauroid characteristics alongside features pointing toward more derived hadrosaurs, making it a key taxon in understanding the evolutionary transition from basal iguanodont ancestors to full duck-billed dinosaurs."
+    ],
+    "fossilSites": [
+      {
+        "name": "Zhonggou / Xinminbao Formation",
+        "region": "Gansu, China",
+        "lat": 39.5,
+        "lon": 98,
+        "note": "The only known locality; Albian-age continental deposits in this formation preserve a diverse vertebrate fauna including small theropods and sauropods."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauriformes",
+        "Hadrosauroidea",
+        "Equijubus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Hadrosauroidea",
+          "label": "Hadrosauridae"
+        },
+        {
+          "from": "Hadrosauroidea",
+          "label": "Eolambia (North America)"
+        },
+        {
+          "from": "Ornithopoda",
+          "label": "Iguanodontia"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Equijubus normani was described in 2003 by You, Luo, Shubin, Witmer, Tang, and Tang, based on a skull and associated postcranial material from Gansu Province. The species honours David Norman of the University of Cambridge, a leading authority on ornithopod dinosaur evolution. The name references a ridge-like structure on the skull that resembles a horse's mane."
+      },
+      {
+        "title": "Significance for Hadrosaur Origins",
+        "body": "The description of Equijubus as a possible early hadrosauroid added weight to the hypothesis that hadrosaurs originated in Asia rather than North America. If Equijubus and similar Asian Early Cretaceous taxa are genuinely among the oldest hadrosauroids, then the lineage would have dispersed westward into Europe and across the Bering land bridge to North America in later Cretaceous times."
+      },
+      {
+        "title": "Skull Anatomy",
+        "body": "The skull of Equijubus exhibits a combination of primitive and derived features characteristic of a transitional hadrosauroid. It lacks the elaborate cranial crests of lambeosaurid hadrosaurs but shows widening of the snout typical of duck-billed dinosaurs. The dental battery — multiple rows of replacement teeth — is also present, supporting a diet of tough plant material."
+      },
+      {
+        "title": "Albian Ecology of China",
+        "body": "The Xinminbao Group preserves an Early Cretaceous ecosystem that includes theropods, sauropods, and early flowering plants, reflecting a transitional period in global vegetation when angiosperms began to diversify. Herbivores such as Equijubus would have fed on a mixture of ferns, conifers, and possibly early flowering plants."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Equijubus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/equijubus.html"
+      },
+      {
+        "label": "PBDB: Equijubus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Equijubus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Zhonggou / Xinminbao Formation, Gansu, China",
+    "material": "Equijubus normani was described in 2003 by You, Luo, Shubin, Witmer, Tang, and Tang, based on a skull and associated postcranial material from Gansu Province.",
+    "completeness": "Partial material known; 1 PBDB occurrence records.",
+    "paleo": "The only known locality; Albian-age continental deposits in this formation preserve a diverse vertebrate fauna including small theropods and sauropods.",
+    "evidence": "Equijubus normani was described by You and colleagues in 2003 from material in the Zhonggou / Xinminbao Formation of Gansu."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "Aptian-Albian, roughly 125-105 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Hadrosauromorpha"
+      ],
+      "description": "Equijubus normani was a non-hadrosaurid hadrosauromorph from the Xinminpu Group of Gansu, China. It is known from one associated partial skull and skeleton; the broad age of its unit remains less secure than many profile dates imply.",
+      "facts": [
+        "The holotype includes a substantial skull and incomplete postcranium.",
+        "Its teeth and jaws support herbivory and its limbs support bipedal-to-facultatively quadrupedal locomotion.",
+        "Putative grass microfossils associated with the specimen are controversial and do not securely prove habitual grazing."
+      ]
+    },
+    "ageReviewNote": "Aptian-Albian is retained because the middle grey unit of the Xinminpu Group is not narrowly radiometrically constrained.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "You et al. (2003), The earliest-known duck-billed dinosaur from deposits of northwest China",
+        "url": "https://doi.org/10.1016/S0195-6671(03)00048-X"
+      },
+      {
+        "type": "dental-microfossil-study",
+        "citation": "Wu, You & Li (2018), Dinosaur-associated grass epidermis and phytoliths from China",
+        "url": "https://doi.org/10.1093/nsr/nwx145"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Equijubus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Equijubus"
+      }
+    ],
+    "residualUncertainty": [
+      "The formation age is broad.",
+      "The biological association and identity of the reported plant microfossils remain debated.",
+      "Only one individual is known."
+    ],
+    "evidence": {
+      "score": 40,
+      "material": "One associated partial skull and skeleton.",
+      "formations": [
+        "Xinminpu Group, middle grey unit"
+      ],
+      "confidenceLimit": "Moderate for anatomy and herbivory; low-to-moderate for precise age and specific foods.",
+      "uncertainties": [
+        "precise age",
+        "grass association",
+        "adult size"
+      ],
+      "summary": "Equijubus normani was a non-hadrosaurid hadrosauromorph from the Xinminpu Group of Gansu, China. It is known from one associated partial skull and skeleton; the broad age of its unit remains less secure than many profile dates imply.",
+      "sourceBasis": "You et al. (2003), The earliest-known duck-billed dinosaur from deposits of northwest China; Wu, You & Li (2018), Dinosaur-associated grass epidermis and phytoliths from China; Paleobiology Database taxon and occurrence context for Equijubus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

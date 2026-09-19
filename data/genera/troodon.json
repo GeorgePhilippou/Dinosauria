@@ -1,0 +1,142 @@
+{
+  "id": "troodon",
+  "name": "Troodon",
+  "profile": {
+    "overview": [
+      "Troodon formosus was a small Late Cretaceous coelurosaur from North America with unusually large brain-to-body ratio, large forward-facing eyes suggesting binocular vision, and sickle-shaped second toe claws. These features led Dale Russell's famous 1982 thought experiment imagining a \"dinosauroid\" — what Troodon might have evolved into had it survived — a humanoid figure with a large brain and bipedal stance.",
+      "Troodon is now a complicated taxon: much material historically referred to it may belong to different animals, and recent analyses suggest the name may apply only to isolated teeth, with the skeletal material belonging to Stenonychosaurus. Regardless of nomenclature, troodontids represent the most neurologically sophisticated non-avian dinosaurs documented from the fossil record."
+    ],
+    "fossilSites": [
+      {
+        "name": "Judith River Formation",
+        "region": "Montana, USA",
+        "lat": 47,
+        "lon": -108,
+        "note": "Late Campanian deposits with Troodon teeth and skeletal material; associated with the first known dinosaur eggs attributed to troodontids."
+      },
+      {
+        "name": "Two Medicine Formation",
+        "region": "Montana, USA",
+        "lat": 48.2,
+        "lon": -113.2,
+        "note": "Campanian beds with Troodon nesting sites — embryos and eggs, including evidence of partial incubation by brooding adults."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Troodontidae",
+        "Troodon"
+      ],
+      "sideBranches": [
+        {
+          "from": "Troodontidae",
+          "label": "Mei and other Asian troodontids"
+        },
+        {
+          "from": "Coelurosauria",
+          "label": "Dromaeosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Intelligence and senses",
+        "body": "The endocranial volume of troodontids is the largest relative to body size of any non-avian dinosaur group. The large orbits suggest good vision; the orbit orientation implies some degree of binocular overlap — useful for judging distance when hunting. The ears show adaptations for detecting low-frequency sounds. Together these features imply a predator capable of complex sensory integration."
+      },
+      {
+        "title": "Nesting behaviour",
+        "body": "Troodontid nests are known from the Two Medicine Formation, where eggs were laid in pairs (consistent with two functional oviducts) in large clutches arranged in a ring. Adult specimens found in brooding posture over nests suggest parental care, one of the most direct lines of evidence for this behaviour in non-avian dinosaurs."
+      },
+      {
+        "title": "Taxonomy",
+        "body": "The Troodon name has been applied to a great range of material from multiple formations. Recent taxonomic work restricts Troodon formosus to tooth material from the Judith River Formation, while skeletal material from other sites may represent distinct species or genera. This instability makes \"Troodon\" a moving target in North American Late Cretaceous ecology."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Troodon profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/troodon.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Historically Dinosaur Park Formation and other Late Cretaceous North American material",
+    "material": "Historically based on teeth; much referred material has been reassessed.",
+    "completeness": "Taxonomically unstable",
+    "paleo": "Late Cretaceous North American records, but the genus is now treated cautiously.",
+    "evidence": "Dental and partial skeletal evidence once grouped under Troodon has been split or reinterpreted in recent research."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "diet and locomotion confidence",
+      "major scientific disagreement"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Campanian, about 77-74 million years ago for the currently argued species concept",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Maniraptora",
+        "Paraves",
+        "Troodontidae"
+      ],
+      "taxonomicStatus": "contested tooth-based name; a 2025 paper defended validity and proposed a neotype, reversing the prevalent post-2017 treatment",
+      "acceptedName": false,
+      "length": null,
+      "massKg": null,
+      "description": "Troodon formosus was named from a single tooth collected in Montana. From 2017 the tooth was widely treated as insufficient to anchor the many skeletons historically assigned to Troodon, and those fossils were reassigned to Stenonychosaurus and other taxa. A 2025 study defended Troodon as valid, synonymised Stenonychosaurus with it and proposed a Two Medicine Formation skeleton as a neotype. That neotype requires ICZN action, so the issue is not presented as settled.",
+      "facts": [
+        "The holotype ANSP 9259 is one isolated tooth with incomplete locality information.",
+        "The familiar full-body reconstruction was assembled from referred troodontid skeletons, not from the holotype.",
+        "The 2017 revisions treated Troodon as a doubtful name and restored Stenonychosaurus for Dinosaur Park material.",
+        "The 2025 paper argued for priority and stability under Troodon and proposed MOR 553 as a neotype, but explicitly noted that only the ICZN can replace an existing holotype in this way."
+      ]
+    },
+    "ageReviewNote": "A single genus-wide 77-66 Ma range is not defensible while the name-bearing tooth and referred skeletons remain taxonomically disputed. The current 2025 species concept focuses on Campanian Montana and Alberta material.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "van der Reest & Currie (2017), Troodontids from the Dinosaur Park Formation and implications for deinonychosaur diversity",
+        "url": "https://doi.org/10.1139/cjes-2017-0031"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Varricchio, Hogan & Gardner (2025), validity of Troodon formosus",
+        "url": "https://www.cambridge.org/core/journals/journal-of-paleontology/article/troodontid-specimens-from-the-cretaceous-two-medicine-formation-of-montana-usa-and-the-validity-of-troodon-formosus/3E58F1FDA3FE53DE569E0D0B20E79F22"
+      }
+    ],
+    "residualUncertainty": [
+      "The proposed neotype has not yet been established by an ICZN ruling.",
+      "Researchers disagree on whether the original tooth can anchor the expanded skeletal species concept.",
+      "Historic records from many formations cannot all be retained without specimen-level revision."
+    ],
+    "evidence": {
+      "score": 27,
+      "summary": "The name is based on one tooth; a 2025 attempt to reconnect it to skeletal material has reopened rather than eliminated the taxonomic dispute.",
+      "material": "Single tooth holotype; more complete skeletons belong to a contested referred species concept and proposed neotype.",
+      "formations": "Judith River locality uncertain; proposed neotype from Two Medicine Formation, Montana; compared material from Dinosaur Park Formation, Alberta.",
+      "confidenceLimit": "Troodontid anatomy is known from the referred specimens, but the name Troodon is not yet securely anchored to them.",
+      "sourceBasis": "2017 Dinosaur Park revision and Varricchio et al. 2025 neotype proposal.",
+      "uncertainties": [
+        "neotype petition",
+        "tooth diagnostic value",
+        "synonymy with Stenonychosaurus"
+      ]
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

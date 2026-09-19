@@ -33,16 +33,18 @@ An open-access scientific reference wiki with 328 dinosaur and early-avialan cat
 
 ## Usage
 
-No build step, no dependencies, no server required.
+No build step and no dependencies. Genus content is fetched per file at runtime, so the site must be served over HTTP (GitHub Pages does this; opening `index.html` directly from `file://` will not load profiles).
 
 1. Clone or download the repository
-2. Open `index.html` in any modern browser
+2. Run a local server and open it:
+   ```bash
+   python3 -m http.server 8080
+   ```
+   Then open `http://localhost:8080` in your browser.
 
-> **Note:** Some browsers (Chrome) restrict loading local files from `file://`. If images or data don't load, run a simple local server:
-> ```bash
-> python3 -m http.server 8080
-> ```
-> Then open `http://localhost:8080` in your browser.
+### Editing a dinosaur
+
+Every genus has its own file in [`data/genera/`](data/genera/) — for example [`data/genera/tyrannosaurus.json`](data/genera/tyrannosaurus.json). Edit it (on GitHub, the pencil icon on the file page) and the change is live on the next load. [`data/genera/README.md`](data/genera/README.md) documents the fields. Edits to the reviewed `record` fields are picked up by the catalogue grid after the `genera-index` GitHub Action rebuilds `data/genera-index.js`, which it does automatically on push.
 
 ### Shareable links
 
@@ -114,13 +116,15 @@ The DOI check requires an internet connection. A profile is not marked fully rev
 ```
 ├── index.html                  # Main application
 ├── data/
+│   ├── genera/                 # One JSON file per genus: prose, evidence, review, presentation
+│   ├── genera-index.js         # Generated extract of review record fields for the catalogue grid
 │   ├── existing-dinosaurs.js   # 100 original catalogue records
 │   ├── nhm-imported-dinosaurs.js  # 228 NHM-imported catalogue records
 │   ├── pbdb-enrichment.js      # PBDB occurrence/taxonomy context
-│   ├── scientific-reviews.js   # Individually authored core reviews
-│   ├── scientific-baseline-audit.js # Conservative safety fallback
-│   └── review-batches/         # Catalogue-wide taxon-specific reviews
-├── tools/                      # Scientific, source, data and browser checks
+│   ├── wiki-enrichment.js      # Wikipedia-derived context
+│   └── legacy/                 # Frozen pre-restructure bundles (not loaded by index.html)
+├── .github/workflows/genera-index.yml  # Validates genus files and rebuilds the index on push
+├── tools/                      # build-genera-index, validate-genera, plus older audit scripts
 ├── SCIENTIFIC-REVIEW.md        # Generated review ledger
 ├── dinosaur_design_wiki_header.png
 └── Dinosaur_Wiki_Logo.png

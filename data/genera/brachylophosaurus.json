@@ -1,0 +1,142 @@
+{
+  "id": "brachylophosaurus",
+  "name": "Brachylophosaurus",
+  "profile": {
+    "overview": [
+      "Brachylophosaurus canadensis (\"short-crested lizard\") was a large saurolophine hadrosaur from the Campanian of Montana and Alberta (~77 Ma), known for exceptional specimen preservation — including several partial mummies with preserved soft tissue. The most famous, \"Leonardo\" (MOR 1125), preserves skin, muscle, beak and gut contents, making it one of the best-preserved non-avian dinosaur specimens ever found.",
+      "Leonardo's gut contents provide direct evidence of the diet of a saurolophine hadrosaur: predominantly conifers, ferns and flowering plants — a diverse mix consistent with opportunistic browsing. The soft tissue preservation also reveals muscle attachment scars, webbing between fingers and the texture of the beak in unprecedented detail."
+    ],
+    "fossilSites": [
+      {
+        "name": "Judith River Formation",
+        "region": "Blaine County, Montana, USA",
+        "lat": 48.2,
+        "lon": -108.5,
+        "note": "Campanian fluvial deposits with the Leonardo mummy and other Brachylophosaurus specimens."
+      },
+      {
+        "name": "Oldman Formation",
+        "region": "Alberta, Canada",
+        "lat": 49.5,
+        "lon": -112,
+        "note": "Canadian Campanian beds extending the Brachylophosaurus geographic range northward."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Hadrosauridae",
+        "Saurolophinae",
+        "Brachylophosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Saurolophinae",
+          "label": "Maiasaura"
+        },
+        {
+          "from": "Saurolophinae",
+          "label": "Gryposaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "The Leonardo mummy",
+        "body": "Found in 2000 by rancher Nate Murphy in the Judith River Formation of Montana, Leonardo (MOR 1125) is a sub-adult Brachylophosaurus preserving 90% of the body surface in mummified form. The specimen preserves skin texture on the face, neck, body, hands and feet; a preserved beak; the stomach region with identifiable plant fragments; and even the eyelid and mouth lining. It entered the Guinness Book of Records as the best-preserved dinosaur ever found."
+      },
+      {
+        "title": "Gut contents and diet",
+        "body": "Plant fragments in Leonardo's stomach region have been identified as conifer needles, flowering plant material, ferns and aquatic vegetation. This broad plant selection is consistent with an opportunistic browser rather than a dietary specialist — a pattern also consistent with the diverse plant material available in Late Cretaceous coastal lowlands."
+      },
+      {
+        "title": "Anatomy and soft tissue",
+        "body": "The mummification reveals details invisible in skeletal material: webbing between the fingers (suggesting some aquatic capability), a keratinous beak wider than the underlying bone, and a body outline indicating fat deposits in the neck and back region. Muscle volume revealed by the mummy is larger than bone scars alone would predict, providing more accurate mass estimates."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Brachylophosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/brachylophosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Judith River Formation, Montana; Oldman Formation, Alberta",
+    "material": "Multiple skulls and skeletons including exceptional \"mummy\" specimens with preserved skin and stomach contents.",
+    "completeness": "Exceptionally well preserved in some specimens",
+    "paleo": "Late Cretaceous floodplains of the northern interior of North America.",
+    "evidence": "Stomach contents preserve direct dietary evidence; skin impressions and internal organs are known from mummified specimens."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "about 78-76 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Cerapoda",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Saurolophinae"
+      ],
+      "description": "Brachylophosaurus canadensis was a flat-crested hadrosaurid from the Judith River Formation of Montana and Oldman Formation of Alberta. Numerous skulls and skeletons, including specimens with extensive skin impressions, make its anatomy and growth well documented.",
+      "facts": [
+        "Several so-called mummies preserve scales and body outlines, not an intact living appearance.",
+        "Plant fragments in one body cavity are potentially gut contents, but contamination and taphonomic mixing limit fine dietary conclusions."
+      ]
+    },
+    "ageReviewNote": "Diagnostic occurrences are late Campanian, principally about 78-76 million years old.",
+    "sources": [
+      {
+        "type": "holotype-revision",
+        "citation": "Prieto-Marquez (2010), Global phylogeny of Hadrosauridae and cranial anatomy of Brachylophosaurus",
+        "url": "https://doi.org/10.1111/j.1096-3642.2009.00617.x"
+      },
+      {
+        "type": "dietary-evidence",
+        "citation": "Tweet et al. (2008), Probable gut contents within a specimen of Brachylophosaurus canadensis",
+        "url": "https://doi.org/10.2110/palo.2007.p07-044r"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: brachylophosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/brachylophosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Species-level referral of some material requires stratigraphic context.",
+      "Gut-content and molecular preservation claims need cautious interpretation."
+    ],
+    "evidence": {
+      "score": 96,
+      "material": "Numerous skulls and skeletons, several nearly complete and preserving skin impressions.",
+      "formations": [
+        "Judith River Formation",
+        "Oldman Formation"
+      ],
+      "confidenceLimit": "Anatomy is exceptionally supported; colour, behaviour and detailed diet remain uncertain.",
+      "uncertainties": [
+        "Species-level referral of some material requires stratigraphic context.",
+        "Gut-content and molecular preservation claims need cautious interpretation."
+      ],
+      "summary": "Brachylophosaurus canadensis was a flat-crested hadrosaurid from the Judith River Formation of Montana and Oldman Formation of Alberta. Numerous skulls and skeletons, including specimens with extensive skin impressions, make its anatomy and growth well documented.",
+      "sourceBasis": "Prieto-Marquez (2010), Global phylogeny of Hadrosauridae and cranial anatomy of Brachylophosaurus; Tweet et al. (2008), Probable gut contents within a specimen of Brachylophosaurus canadensis; Natural History Museum, Dino Directory: brachylophosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

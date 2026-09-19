@@ -1,0 +1,129 @@
+{
+  "id": "oviraptor",
+  "name": "Oviraptor",
+  "profile": {
+    "overview": [
+      "Oviraptor philoceratops carries one of the most unfortunate names in palaeontology — \"egg thief that loves ceratopsian eggs\" — based on a misidentification. The original specimen was found next to a nest of eggs in Mongolia in 1923, assumed to be stealing from a Protoceratops nest. Decades later, embryos inside identical eggs were identified as Oviraptor itself — the animal was brooding its own clutch, not stealing Protoceratops eggs.",
+      "This correction transformed understanding of oviraptorosaur behaviour: Oviraptor and its relatives were not nest raiders but careful parents, brooding their eggs in a posture identical to modern birds. Oviraptor is a crested oviraptorosaur from the Djadokhta Formation of Mongolia (~75 Ma), about 1.5–2 metres long with a prominent cranial crest of unknown function."
+    ],
+    "fossilSites": [
+      {
+        "name": "Djadokhta Formation — Shabarakh Usu / Bayanzag",
+        "region": "Ömnögovi Province, Mongolia",
+        "lat": 44.1,
+        "lon": 103.8,
+        "note": "Campanian aeolian dune deposits with the type Oviraptor specimen on a nest and multiple additional oviraptorosaur nest sites."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Oviraptorosauria",
+        "Oviraptor"
+      ],
+      "sideBranches": [
+        {
+          "from": "Oviraptorosauria",
+          "label": "Caudipteryx"
+        },
+        {
+          "from": "Oviraptorosauria",
+          "label": "Citipati and relatives"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "The egg thief that wasn't",
+        "body": "Roy Chapman Andrews' 1923 American Museum Central Asiatic Expedition found the Oviraptor skeleton on top of a Protoceratops-like nest; Andrews assumed nest raiding. The misinterpretation persisted for 70 years until Mark Norell and colleagues described embryos inside the same type of eggs in 1994 — and those embryos were oviraptorosaurs, not Protoceratops. Oviraptor was a brooding parent, not a thief."
+      },
+      {
+        "title": "Cranial crest",
+        "body": "Oviraptor bore a prominent crest on the skull formed by the nasal and frontal bones. The crest varies in development between specimens, which may reflect age, sex or individual variation. Cassowary-like keratinous sheaths probably enlarged the bony core in life. The function is unknown; display and species recognition are the most commonly cited hypotheses."
+      },
+      {
+        "title": "Parental care",
+        "body": "Multiple specimens of oviraptorosaurs (Citipati, Nemegtomaia and others closely related to Oviraptor) have been found in brooding posture — forelimbs spread over the egg ring, hindlimbs tucked under the body, head raised. The egg arrangement (pairs in a ring) is consistent with two functional oviducts, suggesting each female could lay two eggs at a time. This is among the strongest evidence for active parental care in non-avian dinosaurs."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Oviraptor profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/oviraptor.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Djadokhta Formation, Mongolia",
+    "material": "Partial skeleton and skull material historically associated with eggs.",
+    "completeness": "Partial but historically important",
+    "paleo": "Late Cretaceous arid to semi-arid Gobi Desert dune and interdune deposits.",
+    "evidence": "Later discoveries showed oviraptorosaurs brooded eggs, changing the old “egg thief” interpretation."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Campanian, about 75-71 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Oviraptorosauria",
+        "Oviraptoridae"
+      ],
+      "diet": null,
+      "description": "Oviraptor philoceratops was an oviraptorid from the Djadokhta Formation of Mongolia, known from one incomplete skeleton with a crushed skull found beside a nest. Many complete museum reconstructions actually represent Citipati.",
+      "facts": [
+        "The eggs near the type are oviraptorosaur eggs, overturning the original idea that it was stealing Protoceratops eggs.",
+        "The holotype is less complete and has a lower crest than the animal often illustrated as Oviraptor.",
+        "Brooding is strongly evidenced across oviraptorids, but exact diet remains unresolved."
+      ]
+    },
+    "ageReviewNote": "The Djadokhta type horizon is Campanian, approximately 75-71 Ma.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Osborn (1924), original description of Oviraptor",
+        "url": "https://digitallibrary.amnh.org/items/5dd7157d-f9ea-4d37-89d7-bd7a6c049de6"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Norell et al. (1994), dinosaur embryos and identity of oviraptorosaur eggs",
+        "url": "https://doi.org/10.1126/science.266.5186.779"
+      }
+    ],
+    "residualUncertainty": [
+      "The crushed type skull leaves crest reconstruction uncertain.",
+      "Diet is not settled.",
+      "Much familiar anatomy belongs to Citipati."
+    ],
+    "evidence": {
+      "score": 57,
+      "material": "Single incomplete skeleton with crushed skull associated with an egg nest.",
+      "formations": "Djadokhta Formation, Mongolia.",
+      "confidenceLimit": "Do not use Citipati specimens as Oviraptor anatomy or call it a proven egg thief.",
+      "uncertainties": [
+        "crest shape",
+        "diet",
+        "nest association details"
+      ],
+      "summary": "Oviraptor philoceratops was an oviraptorid from the Djadokhta Formation of Mongolia, known from one incomplete skeleton with a crushed skull found beside a nest. Many complete museum reconstructions actually represent Citipati.",
+      "sourceBasis": "Osborn (1924), original description of Oviraptor; Norell et al. (1994), dinosaur embryos and identity of oviraptorosaur eggs"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

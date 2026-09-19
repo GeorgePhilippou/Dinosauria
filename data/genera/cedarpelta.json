@@ -1,0 +1,159 @@
+{
+  "id": "cedarpelta",
+  "name": "Cedarpelta",
+  "profile": {
+    "overview": [
+      "Cedarpelta was a large ankylosaurid dinosaur from the Early Cretaceous of North America, approximately 121–100 million years ago (Aptian to Albian), found in the Cedar Mountain Formation of Utah, USA. Estimated at about 10 metres in length, it was one of the largest ankylosaurs of its time in North America. Its name means 'Cedar Mountain Formation shield', referencing its discovery horizon and the body armour characteristic of ankylosaurs.",
+      "Named by Carpenter, Kirkland, Burge, and Bird in 2001, Cedarpelta is known from a skull and partial skeleton. Importantly, the skull morphology led researchers to reconsider the classification of some other ankylosaur taxa. As an ankylosaurid from the Cedar Mountain Formation—a unit deposited during a key interval of North American dinosaur diversification—Cedarpelta contributes to understanding the temporal and biogeographic patterns of ankylosaur evolution."
+    ],
+    "fossilSites": [
+      {
+        "name": "Cedar Mountain Formation / Dakota Group",
+        "region": "Utah, USA",
+        "lat": 39,
+        "lon": -110.5,
+        "note": "Early Cretaceous fluvial and floodplain deposits in eastern Utah, the primary source of Cedarpelta material."
+      },
+      {
+        "name": "Emery County, Utah",
+        "region": "Utah, USA",
+        "lat": 38.9,
+        "lon": -110.7,
+        "note": "Region within Utah where Cedar Mountain Formation ankylosaur specimens including Cedarpelta have been found."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Ankylosauridae",
+        "Cedarpelta"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ankylosauridae",
+          "label": "Ankylosaurus (Late Cretaceous North American relative)"
+        },
+        {
+          "from": "Ankylosauridae",
+          "label": "Euoplocephalus"
+        },
+        {
+          "from": "Ankylosauria",
+          "label": "Nodosauridae (armoured but club-less relatives)"
+        },
+        {
+          "from": "Thyreophora",
+          "label": "Stegosauria (plated dinosaurs)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Cedarpelta bilbeyhallorum was named in 2001 by Kenneth Carpenter, James Kirkland, Donald Burge, and John Bird, based on a skull and partial postcranial skeleton from the Cedar Mountain Formation of Utah. The species name honours Virginia Bilbey and Ann Hall for their contributions to Utah palaeontology. The name Cedarpelta references both the formation and the shield-like armour of ankylosaurs."
+      },
+      {
+        "title": "Anatomy and Skull Morphology",
+        "body": "The skull of Cedarpelta is relatively undecorated compared to later ankylosaurs, lacking the fused dermal plates that characterise more derived ankylosaurids. This more open skull texture led to comparisons with primitive ankylosaurs and renewed interest in the taxonomic assignment of fragmentary Early Cretaceous ankylosaur material. The body was estimated at about 10 metres, making it a large representative of the group for its time."
+      },
+      {
+        "title": "Evolutionary Context",
+        "body": "Cedarpelta lived during the Aptian–Albian, a period when North American dinosaur faunas were diversifying after the Late Jurassic Morrison fauna. Its position within Ankylosauridae suggests that true ankylosaurids were already present in North America by the Early Cretaceous, predating the diversification that would produce taxa like Euoplocephalus and Ankylosaurus in the Late Cretaceous."
+      },
+      {
+        "title": "Cedar Mountain Formation Ecosystem",
+        "body": "The Cedar Mountain Formation represents a major stratigraphic interval spanning the Early to mid-Cretaceous of the Colorado Plateau. Its dinosaur fauna includes sauropods, ornithopods, and multiple theropods alongside Cedarpelta. The depositional environment was a semi-arid floodplain with seasonal rivers, and the fauna shows faunal transitions reflecting changing palaeoenvironments and possible intermittent connections with Asia."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Cedarpelta profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/cedarpelta.html"
+      },
+      {
+        "label": "PBDB: Cedarpelta occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cedarpelta&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Cedar Mountain Formation / Dakota Group, Utah, USA; Emery County, Utah, Utah, USA",
+    "material": "Cedarpelta bilbeyhallorum was named in 2001 by Kenneth Carpenter, James Kirkland, Donald Burge, and John Bird, based on a skull and partial postcranial skeleton from the Cedar Mountain Formation of Utah.",
+    "completeness": "Partial skeletal material known; 3 PBDB occurrence records.",
+    "paleo": "Early Cretaceous fluvial and floodplain deposits in eastern Utah, the primary source of Cedarpelta material.",
+    "evidence": "Named by Carpenter, Kirkland, Burge, and Bird in 2001, Cedarpelta is known from a skull and partial skeleton."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "about 98-94 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Ankylosauridae"
+      ],
+      "description": "Cedarpelta bilbeyhallorum was an ankylosaurid from the Mussentuchit Member of the Cedar Mountain Formation of Utah. Disarticulated skulls, armour and postcranial bones from more than one individual collectively document the animal; no single complete skeleton is known.",
+      "facts": [
+        "The skull material is unusually informative for an early ankylosaurid.",
+        "No diagnostic tail club is preserved, so a clubbed tail should not be asserted for this genus."
+      ],
+      "length": null
+    },
+    "ageReviewNote": "The Mussentuchit Member is Cenomanian, not Barremian or earliest Cretaceous.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Carpenter et al. (2001), Cedarpelta bilbeyhallorum, a new primitive ankylosaurid from Utah",
+        "url": "https://books.google.com/books?id=04UqgW3Lo3QC&pg=PA201"
+      },
+      {
+        "type": "ankylosaur-systematics",
+        "citation": "Arbour & Currie (2016), Systematics, phylogeny and palaeobiogeography of ankylosaurid dinosaurs",
+        "url": "https://doi.org/10.1080/14772019.2015.1059985"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: cedarpelta",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/cedarpelta.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Material represents multiple individuals.",
+      "Its placement at or just outside Ankylosauridae varies.",
+      "The arrangement of osteoderms is incompletely known."
+    ],
+    "evidence": {
+      "score": 66,
+      "material": "Disarticulated cranial, postcranial and armour elements from at least two individuals.",
+      "formations": [
+        "Mussentuchit Member, Cedar Mountain Formation"
+      ],
+      "confidenceLimit": "Collective anatomy is moderate; individual association, full armour pattern and tail anatomy remain uncertain.",
+      "uncertainties": [
+        "Material represents multiple individuals.",
+        "Its placement at or just outside Ankylosauridae varies.",
+        "The arrangement of osteoderms is incompletely known."
+      ],
+      "summary": "Cedarpelta bilbeyhallorum was an ankylosaurid from the Mussentuchit Member of the Cedar Mountain Formation of Utah. Disarticulated skulls, armour and postcranial bones from more than one individual collectively document the animal; no single complete skeleton is known.",
+      "sourceBasis": "Carpenter et al. (2001), Cedarpelta bilbeyhallorum, a new primitive ankylosaurid from Utah; Arbour & Currie (2016), Systematics, phylogeny and palaeobiogeography of ankylosaurid dinosaurs; Natural History Museum, Dino Directory: cedarpelta"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

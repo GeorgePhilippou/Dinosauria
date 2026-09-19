@@ -1,0 +1,138 @@
+{
+  "id": "saltasaurus",
+  "name": "Saltasaurus",
+  "profile": {
+    "overview": [
+      "Saltasaurus loricatus was a relatively small (12-metre) titanosaur from the Late Cretaceous of northwestern Argentina (~70 Ma), remarkable for preserving direct evidence of titanosaur dermal armour: small bony nodules (osteoderms) embedded in the skin, including larger oval scutes up to 10 cm across. This was the first unambiguous evidence that sauropods could bear bony armour — previously considered impossible given their size and posture.",
+      "Saltasaurus is known from a nesting site (Auca Mahuevo) with hundreds of eggs preserved, some containing embryos and even embryonic skin impressions. This extraordinary site provides direct evidence of colonial nesting in titanosaurs, with many females laying eggs in the same area across multiple seasons."
+    ],
+    "fossilSites": [
+      {
+        "name": "Lecho Formation",
+        "region": "Salta Province, Argentina",
+        "lat": -24,
+        "lon": -65,
+        "note": "Late Cretaceous (Maastrichtian) continental deposits with Saltasaurus specimens including the armour-bearing material."
+      },
+      {
+        "name": "Anacleto Formation — Auca Mahuevo",
+        "region": "Neuquén Province, Argentina",
+        "lat": -37.8,
+        "lon": -68.3,
+        "note": "Titanosaur nesting colony with hundreds of eggs, some with embryos and skin impressions; probably attributable to Saltasaurus or a close relative."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Titanosauria",
+        "Saltasaurinae",
+        "Saltasaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Saltasaurinae",
+          "label": "Neuquensaurus"
+        },
+        {
+          "from": "Titanosauria",
+          "label": "Dreadnoughtus"
+        },
+        {
+          "from": "Titanosauria",
+          "label": "Argentinosaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and armour",
+        "body": "Described by Bonaparte and Powell in 1980 from Salta Province material. The bony osteoderms found associated with the skeleton were initially doubted as belonging to the same animal, but subsequent finds confirmed sauropod dermal armour. This armour may have provided defence against abelisaurid predators and possibly served a calcium storage function for egg production in females."
+      },
+      {
+        "title": "Colonial nesting (Auca Mahuevo)",
+        "body": "The Auca Mahuevo site in Neuquén, excavated from 1997 by Chiappe, Dingus and colleagues, preserves a vast nesting colony of a titanosaur (almost certainly Saltasaurus or a close relative). Eggs are 13–15 cm in diameter; some preserve embryo skin showing small rounded scales. The site shows multiple nesting horizons — the same area used repeatedly across seasons — consistent with site fidelity in modern colonial nesters."
+      },
+      {
+        "title": "Small size and late survival",
+        "body": "At 12 metres, Saltasaurus was small for a titanosaur. Its modest size and armour distinguish it from the giant titanosaurs of earlier Cretaceous South America. It survived until the very end of the Cretaceous, and its remains are found in Maastrichtian deposits just below the K-Pg boundary — one of the last non-avian dinosaurs known from South America."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Saltasaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/saltasaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Lecho Formation, Salta Province, Argentina",
+    "material": "Partial skeletal material and skin/armour impressions.",
+    "completeness": "Partial but highly significant",
+    "paleo": "Late Cretaceous of northwestern Argentina, in floodplain environments with titanosaur nesting colonies.",
+    "evidence": "Bony armour plates embedded in skin are preserved — the first confirmed armoured sauropod — alongside typical titanosaur postcranial bones."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian-early Maastrichtian, about 75-69 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Titanosauria",
+        "Saltasauridae",
+        "Saltasaurinae"
+      ],
+      "description": "Saltasaurus loricatus was a small-bodied saltasaurine titanosaur from the Lecho Formation of Argentina, known from disarticulated remains of several individuals and associated osteoderms.",
+      "facts": [
+        "Much of the postcranial skeleton is known collectively, not as one complete individual.",
+        "Dermal armour is directly documented, but its complete arrangement over the body is unknown."
+      ]
+    },
+    "ageReviewNote": "The Lecho Formation sample crosses late Campanian-early Maastrichtian estimates; a single 70 Ma date is too precise.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Powell (1992), osteology and armour of Saltasaurus",
+        "url": "https://www.researchgate.net/publication/284147917_Osteologia_de_Saltasaurus_loricatus_Sauropoda-Titanosauridae_del_Cretacico_Superior_del_noroeste_Argentino"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Cerda & Powell (2010), dermal armour histology of Saltasaurus",
+        "url": "https://doi.org/10.4202/app.2009.1101"
+      }
+    ],
+    "residualUncertainty": [
+      "The sample is disarticulated and the armour layout is incomplete."
+    ],
+    "evidence": {
+      "score": 76,
+      "material": "Multiple disarticulated individuals with extensive postcranium and osteoderms.",
+      "formations": "Lecho Formation, Salta, Argentina.",
+      "confidenceLimit": "No single complete skeleton or intact armour covering is known.",
+      "uncertainties": [
+        "individual association",
+        "osteoderm arrangement"
+      ],
+      "summary": "Saltasaurus loricatus was a small-bodied saltasaurine titanosaur from the Lecho Formation of Argentina, known from disarticulated remains of several individuals and associated osteoderms.",
+      "sourceBasis": "Powell (1992), osteology and armour of Saltasaurus; Cerda & Powell (2010), dermal armour histology of Saltasaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

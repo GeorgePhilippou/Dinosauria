@@ -1,0 +1,144 @@
+{
+  "id": "carcharodontosaurus",
+  "name": "Carcharodontosaurus",
+  "profile": {
+    "overview": [
+      "Carcharodontosaurus saharicus was a massive carcharodontosaurid theropod from the Cenomanian of North Africa (~100–94 Ma), rivalling Tyrannosaurus in length and sharing its continent with Spinosaurus in a vast river-delta ecosystem. Its name — \"shark-toothed lizard\" — refers to its large, flattened, serrated teeth convergent with those of great white sharks.",
+      "The original specimens, described by Stromer in 1931, were destroyed in the 1944 Allied bombing of Munich. New material described by Sereno and colleagues in 1996 from Morocco provided a far more complete picture of this giant predator and confirmed it as a carcharodontosaurid distinct from South American relatives."
+    ],
+    "fossilSites": [
+      {
+        "name": "Kem Kem Group",
+        "region": "Tafilalt, Morocco",
+        "lat": 30.5,
+        "lon": -5,
+        "note": "Cenomanian fluvial deposits yielding the best-known Carcharodontosaurus material alongside Spinosaurus, Deltadromeus and a diverse fish fauna."
+      },
+      {
+        "name": "Bahariya Formation",
+        "region": "Bahariya Oasis, Egypt",
+        "lat": 28,
+        "lon": 28.5,
+        "note": "Type locality for the original Stromer specimens, destroyed in WWII; additional fragmentary material has since been recovered."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Carcharodontosauridae",
+        "Carcharodontosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Carcharodontosauridae",
+          "label": "Giganotosaurus"
+        },
+        {
+          "from": "Carcharodontosauridae",
+          "label": "Acrocanthosaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and the WWII loss",
+        "body": "Ernst Stromer described Carcharodontosaurus saharicus in 1931 from Bahariya Formation material, alongside Spinosaurus aegyptiacus and the giant crocodilian Stomatosuchus. The Munich collection housing these unique specimens was destroyed in an Allied bombing raid on 24 April 1944. New material from the Kem Kem Group described by Sereno in 1996 not only confirmed Carcharodontosaurus but showed it to be larger than previously thought."
+      },
+      {
+        "title": "Anatomy and size",
+        "body": "The skull reaches approximately 1.6 m in length, with large blade-like teeth bearing serrations on both edges. The overall body plan is typical for a large carcharodontosaurid: robust axial skeleton, powerful hindlimbs and relatively gracile forelimbs with three-fingered hands. Size estimates place large individuals at 12–13 m, making it one of the largest terrestrial predators from Africa."
+      },
+      {
+        "title": "North African mega-predator ecosystem",
+        "body": "The Kem Kem deposits record a dramatic ecosystem where multiple giant predators coexisted — Carcharodontosaurus, Spinosaurus, Deltadromeus and large crocodilians in a river-delta environment rich in fish. How these apex predators partitioned resources is debated; Spinosaurus' aquatic specialisation likely segregated it from the terrestrially hunting Carcharodontosaurus, reducing direct competition."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Carcharodontosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/carcharodontosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Bahariya Formation, Egypt; Kem Kem Group, Morocco",
+    "material": "Skull fragments, teeth and partial skeletal material from North African Cretaceous deposits.",
+    "completeness": "Partial",
+    "paleo": "Cretaceous North African river and coastal systems with giant theropods, sauropods and abundant fish.",
+    "evidence": "Large blade-like serrated teeth and skull material define its carcharodontosaurid identity."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "about 100-94 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Allosauroidea",
+        "Carcharodontosauria",
+        "Carcharodontosauridae"
+      ],
+      "description": "Carcharodontosaurus saharicus was a giant carcharodontosaurid from Cenomanian North Africa. The name originated with now-lost Algerian teeth and is stabilised by a large partial Moroccan neotype skull; the destroyed Egyptian skeleton long used to reconstruct it was separated in 2025 as Tameryraptor markgrafi.",
+      "facts": [
+        "The Moroccan neotype SGM-Din 1 preserves a large but incomplete skull, not a full skeleton.",
+        "Postcranial and crest details from the Bahariya specimen named Tameryraptor must no longer be presented as C. saharicus anatomy."
+      ]
+    },
+    "ageReviewNote": "Secure C. saharicus evidence is Cenomanian, chiefly the historical Algerian type record and the Kem Kem Group neotype of Morocco.",
+    "sources": [
+      {
+        "type": "neotype-and-cranial-description",
+        "citation": "Sereno et al. (1996), Predatory dinosaurs from the Sahara and the neotype of Carcharodontosaurus",
+        "url": "https://doi.org/10.1126/science.272.5264.986"
+      },
+      {
+        "type": "recent-taxonomic-revision",
+        "citation": "Kellermann, Cuesta & Rauhut (2025), Reassessment of the Egyptian carcharodontosaurid and Tameryraptor markgrafi",
+        "url": "https://doi.org/10.1371/journal.pone.0311096"
+      },
+      {
+        "type": "species-revision",
+        "citation": "Brusatte & Sereno (2007), A new species of Carcharodontosaurus from Niger",
+        "url": "https://d3qi0qp55mx5f5.cloudfront.net/paulsereno/i/docs/07-JVP-Carch.iguidensis.pdf"
+      }
+    ],
+    "residualUncertainty": [
+      "C. iguidensis may not remain in the same genus.",
+      "Many isolated North African teeth and bones are not diagnostic.",
+      "The 2025 Tameryraptor revision is recent and should be monitored."
+    ],
+    "evidence": {
+      "score": 61,
+      "material": "Now-lost type teeth documented historically, one large partial neotype skull and limited comparable cranial remains; no secure complete skeleton.",
+      "formations": [
+        "Kem Kem Group",
+        "Continental Intercalaire of Algeria"
+      ],
+      "confidenceLimit": "Skull size is clear, but total length and mass are extrapolated because secure postcrania are scarce.",
+      "uncertainties": [
+        "C. iguidensis may not remain in the same genus.",
+        "Many isolated North African teeth and bones are not diagnostic.",
+        "The 2025 Tameryraptor revision is recent and should be monitored."
+      ],
+      "summary": "Carcharodontosaurus saharicus was a giant carcharodontosaurid from Cenomanian North Africa. The name originated with now-lost Algerian teeth and is stabilised by a large partial Moroccan neotype skull; the destroyed Egyptian skeleton long used to reconstruct it was separated in 2025 as Tameryraptor markgrafi.",
+      "sourceBasis": "Sereno et al. (1996), Predatory dinosaurs from the Sahara and the neotype of Carcharodontosaurus; Kellermann, Cuesta & Rauhut (2025), Reassessment of the Egyptian carcharodontosaurid and Tameryraptor markgrafi; Brusatte & Sereno (2007), A new species of Carcharodontosaurus from Niger"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

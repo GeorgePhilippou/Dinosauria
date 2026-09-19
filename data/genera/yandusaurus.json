@@ -1,0 +1,164 @@
+{
+  "id": "yandusaurus",
+  "name": "Yandusaurus",
+  "profile": {
+    "overview": [
+      "Yandusaurus ('Yandu lizard') was a basal neornithischian or small ornithopod dinosaur from the Middle Jurassic of Sichuan Province, China, living approximately 169–159 million years ago. The type species, Yandusaurus hongheensis, was described in 1979 from the Lower Shaximiao Formation and reached about 3 metres in length. It was a lightly built, bipedal herbivore, one of a suite of small dinosaurs known from the richly productive Jurassic beds of the Sichuan Basin.",
+      "Yandusaurus contributes to the picture of neornithischian diversity during the Middle Jurassic of China, a period and region that is increasingly recognised as important for understanding early ornithischian evolution. Its precise phylogenetic placement — whether it is a basal ornithopod or a more stemward neornithischian — has been debated, and it has at times been compared with Agilisaurus from the same formation, though these two are now generally treated as distinct genera."
+    ],
+    "fossilSites": [
+      {
+        "name": "Lower Shaximiao Formation",
+        "region": "Sichuan, China",
+        "lat": 29.5,
+        "lon": 104.5,
+        "note": "Middle Jurassic floodplain deposits of the Sichuan Basin from which Yandusaurus was described."
+      },
+      {
+        "name": "Zigong area",
+        "region": "Sichuan, China",
+        "lat": 29.3,
+        "lon": 104.8,
+        "note": "The broader Zigong region is noted for exceptional Middle Jurassic dinosaur assemblages including multiple small ornithischians."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Neornithischia",
+        "Ornithopoda",
+        "Euornithopoda",
+        "Yandusaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Euornithopoda",
+          "label": "Iguanodontia"
+        },
+        {
+          "from": "Neornithischia",
+          "label": "Marginocephalia"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Yandusaurus hongheensis was named by He Xinlu in 1979 from material discovered in the Lower Shaximiao Formation of Sichuan Province. The genus name refers to Yandu, an old name for the Zigong area of Sichuan, while the species name hongheensis references the Honghe (Red River) area of the locality. The specimen consists of partial skeletal material including limb elements and vertebrae."
+      },
+      {
+        "title": "Anatomy and Classification",
+        "body": "Yandusaurus was a lightly built, bipedal herbivore with elongated hindlimbs suggesting a cursorial lifestyle. Its classification has fluctuated between Hypsilophodontidae (now considered a wastebasket taxon), basal Ornithopoda, and basal Neornithischia. Modern analyses tend to place it either as an early ornithopod or as a basal neornithischian outside Ornithopoda, in a position that makes it informative for early ornithischian diversification."
+      },
+      {
+        "title": "Sichuan Middle Jurassic Fauna",
+        "body": "The Lower Shaximiao Formation is one of the richest Middle Jurassic dinosaur assemblages in the world, yielding sauropods such as Shunosaurus and Omeisaurus, stegosaurs, large theropods, and numerous small ornithischians. Yandusaurus shared this environment with a diverse array of contemporaries, and the formation preserves a valuable window into Middle Jurassic ecosystems in East Asia before the diversification events of the Late Jurassic."
+      },
+      {
+        "title": "Comparison with Agilisaurus",
+        "body": "Early literature sometimes confused or synonymised Yandusaurus with Agilisaurus louderbacki, another small neornithischian from the same formation that was described separately in 1990. Modern consensus treats them as distinct taxa with different anatomical features, though both are among the small bipedal ornithischians that characterise the basal radiation of Neornithischia in Middle Jurassic China."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Yandusaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/yandusaurus.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Lower Shaximiao Formation, Sichuan, China; Zigong area, Sichuan, China",
+    "material": "It was a lightly built, bipedal herbivore, one of a suite of small dinosaurs known from the richly productive Jurassic beds of the Sichuan Basin.",
+    "completeness": "Skeletal material known; 2 PBDB occurrence records.",
+    "paleo": "Middle Jurassic floodplain deposits of the Sichuan Basin from which Yandusaurus was described.",
+    "evidence": "Yandusaurus contributes to the picture of neornithischian diversity during the Middle Jurassic of China, a period and region that is increasingly recognised as important for understanding early ornithischian evolution."
+  },
+  "review": {
+    "status": "audited",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Mid Jurassic",
+      "mya": "exact stage and numerical age unresolved",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Neornithischia"
+      ],
+      "description": "Yandusaurus hongheensis was a small neornithischian from the Shaximiao Formation near Honghe Dam, known from a partial skeleton with skull.",
+      "facts": [
+        "Yandusaurus multidens was transferred to Hexinlusaurus and should not expand Yandusaurus anatomy.",
+        "Published accounts disagree over whether the type belongs to the lower or upper member of the Shaximiao Formation.",
+        "Its exact position among early neornithischians varies."
+      ]
+    },
+    "ageReviewNote": "The type locality is near Honghe Dam in the Shaximiao Formation, but lower-versus-upper member assignment is disputed; no narrow stage or numerical age is defensible.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "He (1979), original description of Yandusaurus hongheensis",
+        "url": "https://naturalhistory.si.edu/sites/default/files/media/translated_publications/He_79.pdf"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Boyd (2015), The systematic relationships and biogeographic history of ornithischian dinosaurs",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4690359/"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: yandusaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/yandusaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "The type needs modern comprehensive redescription and its member assignment remains unresolved.",
+      "Specialist confirmation is still required before this profile is marked primary-literature reviewed."
+    ],
+    "evidence": {
+      "score": 52,
+      "summary": "Authoritative-source baseline only; skeletal completeness has not yet received a specimen-level literature review.",
+      "material": "Partial skeleton with skull and postcranium; second historical species excluded.",
+      "formations": "Shaximiao Formation; member assignment disputed",
+      "ageSupport": "Catalogue range: 169–159 million years ago. PBDB sampled range: 170.9–168.2 Ma.",
+      "occurrenceSupport": "2 PBDB occurrence records are available as locality context only.",
+      "inferredAnatomy": "Posture, soft tissues, colour and detailed behaviour remain inferred unless a later full review states otherwise.",
+      "confidenceLimit": "Do not import Hexinlusaurus anatomy or attach a narrow numerical age to this genus.",
+      "sourceBasis": "Source catalogue and PBDB occurrence context.",
+      "specimens": [],
+      "uncertainties": [
+        "formation member",
+        "phylogenetic position",
+        "modern diagnosis"
+      ],
+      "claims": {
+        "bodySize": {
+          "level": "estimated",
+          "reason": "The displayed value is retained as a source-reported estimate, not a direct measurement of a complete individual."
+        },
+        "diet": {
+          "level": "broad",
+          "reason": "Herbivore is retained as a broad clade/anatomy-level interpretation."
+        },
+        "movement": {
+          "level": "unknown",
+          "reason": "No source-specific locomotor statement is retained."
+        },
+        "classification": {
+          "level": "provisional",
+          "reason": "The source taxonomy is retained pending a genus-level systematic-literature check."
+        }
+      }
+    },
+    "scientificDisposition": "needs-specialist-review"
+  }
+}

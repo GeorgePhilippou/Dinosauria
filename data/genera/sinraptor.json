@@ -1,0 +1,151 @@
+{
+  "id": "sinraptor",
+  "name": "Sinraptor",
+  "profile": {
+    "overview": [
+      "Sinraptor (meaning 'Chinese plunderer') was a large carnivorous theropod from the Late Jurassic of Xinjiang and Inner Mongolia, China, living approximately 163–148 million years ago. Nearly complete skeletons are known, and size estimates place it at about 7.6 metres in length, making it one of the largest predators of its time and place. Sinraptor is classified within Sinraptoridae, a family of allosauroid carnosaurs known primarily from China and thought to be closely related to or possibly synonymous with Metriacanthosauridae.",
+      "Named by Gao in 1992 (with fuller description by Currie and Zhao in 1993), Sinraptor hepingensis is one of the best-known large Jurassic theropods from Asia. It provides important data on allosauroid evolution outside of North America and helps demonstrate that a diverse radiation of large tetanuran predators occurred independently across different continents during the Jurassic. The well-preserved skulls reveal pathologies consistent with intraspecific combat or prey struggle, giving insights into sinraptorid behaviour."
+    ],
+    "fossilSites": [
+      {
+        "name": "Shishugou Formation",
+        "region": "Xinjiang, China",
+        "lat": 44.5,
+        "lon": 88.5,
+        "note": "The holotype and primary referred specimens of Sinraptor were recovered from this Late Jurassic formation in the Junggar Basin, one of the richest Jurassic dinosaur sites in Asia."
+      },
+      {
+        "name": "Shishugou Formation (Wucaiwan area)",
+        "region": "Junggar Basin, Xinjiang, China",
+        "lat": 45,
+        "lon": 89,
+        "note": "Extensive excavations in the Wucaiwan area have yielded not only Sinraptor but also sauropods and stegosaurs, documenting a complete Late Jurassic ecosystem."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Tetanurae",
+        "Avetheropoda",
+        "Carnosauria",
+        "Allosauroidea",
+        "Sinraptoridae",
+        "Sinraptor"
+      ],
+      "sideBranches": [
+        {
+          "from": "Sinraptoridae",
+          "label": "Yangchuanosaurus"
+        },
+        {
+          "from": "Allosauroidea",
+          "label": "Allosaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Sinraptor hepingensis was briefly named by Gao in 1992 and fully described by Philip Currie and Zhao Xijin in 1993 from specimens collected in Xinjiang during the Sino-Canadian Dinosaur Project in the late 1980s and early 1990s. A second species, S. dongi, was also described from Sichuan. The genus name reflects both its Chinese origin and its large predatory nature; the species name references Heping County in Xinjiang."
+      },
+      {
+        "title": "Anatomy and Size",
+        "body": "Sinraptor was a large-bodied carnosaur reaching approximately 7.6 metres in length. The skull is elongated and bears numerous large, blade-like serrated teeth. The forelimbs, while shorter than those of some relatives, bore large recurved claws. The nearly complete skeletal material has allowed detailed biomechanical studies of predatory locomotion in this group."
+      },
+      {
+        "title": "Skull Pathologies and Behaviour",
+        "body": "Examination of Sinraptor skulls has revealed healed bite marks and bone injuries consistent with biting by other individuals of similar size. This evidence is interpreted as the result of intraspecific combat — fights between Sinraptor individuals — or possibly feeding interactions at carcasses. Such pathologies offer rare direct evidence of dinosaur social and feeding behaviour."
+      },
+      {
+        "title": "Allosauroid Evolution in Asia",
+        "body": "Sinraptor belongs to Allosauroidea, the group that also includes the famous North American Allosaurus. Allosauroids were globally distributed during the Jurassic, and the Sinraptoridae represent a distinct Asian radiation. Their relationships to other allosauroids, including possible synonymy of Sinraptoridae with Metriacanthosauridae, remain under discussion."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Sinraptor profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/sinraptor.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Shishugou Formation, Xinjiang, China; Shishugou Formation (Wucaiwan area), Junggar Basin, Xinjiang, China",
+    "material": "Nearly complete skeletons are known, and size estimates place it at about 7.6 metres in length, making it one of the largest predators of its time and place.",
+    "completeness": "Nearly complete specimen known; 2 PBDB occurrence records.",
+    "paleo": "The holotype and primary referred specimens of Sinraptor were recovered from this Late Jurassic formation in the Junggar Basin, one of the richest Jurassic dinosaur sites in Asia.",
+    "evidence": "Named by Gao in 1992 (with fuller description by Currie and Zhao in 1993), Sinraptor hepingensis is one of the best-known large Jurassic theropods from Asia."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "Oxfordian, about 161-158 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Allosauroidea",
+        "Metriacanthosauridae"
+      ],
+      "description": "Sinraptor is a Chinese metriacanthosaurid genus anchored by S. dongi, a substantial skeleton with skull from the Shishugou Formation. S. hepingensis from Sichuan is less securely placed in the same genus.",
+      "facts": [
+        "The type species preserves an excellent skull and much of the postcranium.",
+        "Genus-level age and anatomy should not blend S. dongi and the debated combination S. hepingensis without qualification."
+      ]
+    },
+    "ageReviewNote": "The upper Shishugou type horizon of S. dongi is Oxfordian, approximately 161-158 Ma. S. hepingensis should not extend the genus range automatically because its assignment remains disputed.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Currie & Zhao (1993), cranial and skeletal anatomy of Sinraptor dongi",
+        "url": "https://www.biodiversitylibrary.org/page/45474757"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Hendrickx et al. (2020), dental anatomy of Sinraptor dongi",
+        "url": "https://doi.org/10.1139/cjes-2019-0231"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Carrano, Benson & Sampson (2012), tetanuran systematics",
+        "url": "https://doi.org/10.1080/14772019.2011.630927"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: sinraptor",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/sinraptor.html"
+      }
+    ],
+    "residualUncertainty": [
+      "The generic placement of S. hepingensis remains uncertain."
+    ],
+    "evidence": {
+      "score": 81,
+      "material": "Type species represented by a substantial skull and skeleton; second species by separate material.",
+      "formations": "Upper Shishugou Formation, Xinjiang; disputed Upper Shaximiao referral, China.",
+      "confidenceLimit": "Keep species measurements and ages separate.",
+      "uncertainties": [
+        "S. hepingensis assignment",
+        "species range"
+      ],
+      "summary": "Sinraptor is a Chinese metriacanthosaurid genus anchored by S. dongi, a substantial skeleton with skull from the Shishugou Formation. S. hepingensis from Sichuan is less securely placed in the same genus.",
+      "sourceBasis": "Currie & Zhao (1993), cranial and skeletal anatomy of Sinraptor dongi; Hendrickx et al. (2020), dental anatomy of Sinraptor dongi; Carrano, Benson & Sampson (2012), tetanuran systematics; Natural History Museum Dino Directory: sinraptor"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

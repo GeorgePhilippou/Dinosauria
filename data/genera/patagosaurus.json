@@ -1,0 +1,136 @@
+{
+  "id": "patagosaurus",
+  "name": "Patagosaurus",
+  "profile": {
+    "overview": [
+      "Patagosaurus (meaning 'Patagonian lizard') was a large eusauropod from the Middle Jurassic (Toarcian, approximately 183–168 million years ago) of Chubut Province, Patagonia, Argentina. Fossils come from the Cañadón Asfalto Formation. At about 18 metres in length it was a substantial quadrupedal herbivore. Multiple skeletons have been recovered, making it one of the better-known South American Jurassic sauropods.",
+      "Described by Bonaparte in 1979, Patagosaurus fariasi is placed in Cetiosauridae, a family of early non-neosauropod sauropods. PBDB confirms it within Cetiosauridae. The multiple specimens from Cañadón Asfalto have provided important anatomical information and Patagosaurus is regarded as a key taxon for understanding the diversity and palaeobiogeography of early sauropods in Gondwana."
+    ],
+    "fossilSites": [
+      {
+        "name": "Cañadón Asfalto Formation",
+        "region": "Chubut, Argentina",
+        "lat": -44,
+        "lon": -68,
+        "note": "Middle Jurassic fluvial and lacustrine deposits of Chubut Province, Patagonia, yielding multiple Patagosaurus specimens including articulated material."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Eusauropoda",
+        "Cetiosauridae",
+        "Patagosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Cetiosauridae",
+          "label": "Cetiosaurus"
+        },
+        {
+          "from": "Eusauropoda",
+          "label": "Neosauropoda"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Patagosaurus fariasi was described by José Bonaparte in 1979 from material found in the Cañadón Asfalto region of Chubut, Argentina. The genus name reflects the Patagonian provenance. The species name honours the Farias family, who owned the ranch where the fossils were discovered. Bonaparte described it from multiple individuals, providing a relatively rich sample."
+      },
+      {
+        "title": "Anatomy and Body Plan",
+        "body": "Patagosaurus was a medium-large cetiosaurid with a moderately long neck, robust limbs and a relatively broad body. Its vertebral morphology shows the opisthocoelous cervical vertebrae typical of eusauropods. The limb proportions are graviportal, consistent with a slow-moving quadruped that relied on its large body to process large quantities of plant matter."
+      },
+      {
+        "title": "Cañadón Asfalto Ecosystem",
+        "body": "The Cañadón Asfalto Formation has yielded a diverse Middle Jurassic fauna. Patagosaurus shared its environment with the theropod Piatnitzkysaurus, crocodyliformes, and other vertebrates. The depositional environment was a complex of rivers and lakes within a tectonically active rift basin. This South American Jurassic fauna differs substantially from contemporaneous North American and African assemblages, reflecting Gondwanan isolation."
+      },
+      {
+        "title": "Palaeobiogeographic Importance",
+        "body": "As one of the best-documented Middle Jurassic sauropods from South America, Patagosaurus is important for reconstructing Gondwanan sauropod diversity before the radiation of neosauropods. Phylogenetic analyses that include Patagosaurus have been informative for calibrating the timing of major sauropod divergences and testing hypotheses of vicariance versus dispersal in early sauropod biogeography."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Patagosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/patagosaurus.html"
+      },
+      {
+        "label": "PBDB: Patagosaurus occurrences",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38662"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Cañadón Asfalto Formation, Chubut, Argentina",
+    "material": "Fossils come from the Cañadón Asfalto Formation.",
+    "completeness": "Exceptionally well represented; 4 PBDB occurrence records.",
+    "paleo": "Middle Jurassic fluvial and lacustrine deposits of Chubut Province, Patagonia, yielding multiple Patagosaurus specimens including articulated material.",
+    "evidence": "Described by Bonaparte in 1979, Patagosaurus fariasi is placed in Cetiosauridae, a family of early non-neosauropod sauropods."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Mid Jurassic",
+      "mya": "Toarcian-Bajocian, about 179-170 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Eusauropoda"
+      ],
+      "description": "Patagosaurus fariasi was a basal eusauropod from the Canon Asfalto Formation of Patagonia. Its holotype is a partial postcranial skeleton, while additional disarticulated material represents several individuals.",
+      "facts": [
+        "Modern redescription confirmed diagnostic characters in the holotype.",
+        "The skull is poorly represented, so feeding details beyond broad sauropod herbivory are uncertain.",
+        "A reported juvenile assemblage and referred bones should not be merged into a single complete skeleton."
+      ]
+    },
+    "ageReviewNote": "Modern geochronology places relevant Canon Asfalto strata near the Early-Middle Jurassic transition, older than the former 164-159 Ma label.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Holwerda, Rauhut & Pol (2021), osteological revision of Patagosaurus",
+        "url": "https://doi.org/10.5252/geodiversitas2021v43a16"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: patagosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/patagosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Some referred material may represent other sauropods.",
+      "The exact age of individual collecting horizons is not uniform."
+    ],
+    "evidence": {
+      "score": 69,
+      "material": "Partial holotype postcranium plus disarticulated remains from multiple individuals.",
+      "formations": "Canon Asfalto Formation, Chubut, Argentina.",
+      "confidenceLimit": "Skull, neck and maximum size are incompletely known.",
+      "uncertainties": [
+        "referral of non-type material",
+        "horizon-level age"
+      ],
+      "summary": "Patagosaurus fariasi was a basal eusauropod from the Canon Asfalto Formation of Patagonia. Its holotype is a partial postcranial skeleton, while additional disarticulated material represents several individuals.",
+      "sourceBasis": "Holwerda, Rauhut & Pol (2021), osteological revision of Patagosaurus; Natural History Museum Dino Directory: patagosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

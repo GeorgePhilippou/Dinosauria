@@ -1,0 +1,144 @@
+{
+  "id": "tanius",
+  "name": "Tanius",
+  "profile": {
+    "overview": [
+      "Tanius was a large hadrosaurid dinosaur from the Late Cretaceous of Shandong Province, China, living approximately 89–66 million years ago. Both skull and postcranial material have been recovered, though the total length is uncertain. It is placed within Hadrosauridae, making it a member of the 'duck-billed' dinosaur family. Named by Wiman in 1929, Tanius sinensis was among the earliest hadrosaurs to be described from China and is named in honour of H. C. Tan, a Chinese geologist who contributed to its discovery.",
+      "Tanius remains one of the less well-known hadrosaurs from Asia due to the fragmentary nature of the material and the passage of time since its original description. Its classification as a hadrosaurid is secure, but finer-level placement — whether among flat-headed saurolophines or crested lambeosaurines — has been difficult to resolve. The genus is significant as an early record of hadrosaurs in eastern China, a region that would later yield even more spectacular hadrosaurid discoveries such as Shantungosaurus."
+    ],
+    "fossilSites": [
+      {
+        "name": "Wangshi Formation / Late Cretaceous beds",
+        "region": "Shandong Province, China",
+        "lat": 36.5,
+        "lon": 118.5,
+        "note": "The type material of Tanius sinensis was collected from Late Cretaceous continental deposits in Shandong, the same general region later famous for Shantungosaurus."
+      },
+      {
+        "name": "Laiwu-Zhucheng area outcrops",
+        "region": "Shandong, China",
+        "lat": 36.2,
+        "lon": 117.5,
+        "note": "Broader Late Cretaceous exposures in Shandong have yielded diverse hadrosaur faunas that provide ecological context for Tanius."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Tanius"
+      ],
+      "sideBranches": [
+        {
+          "from": "Hadrosauridae",
+          "label": "Hadrosaurinae (Shantungosaurus)"
+        },
+        {
+          "from": "Hadrosauridae",
+          "label": "Lambeosaurinae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Tanius sinensis was described by Carl Wiman in 1929 from material collected in Shandong Province, China. The genus name honours H. C. Tan (Tan Xichou), a Chinese geologist who assisted in locating and excavating the fossils. The species name sinensis means 'Chinese'. Wiman's work was part of early 20th-century efforts by European scientists to describe the dinosaur fauna of China."
+      },
+      {
+        "title": "Classification within Hadrosauridae",
+        "body": "Tanius has been placed in Hadrosauridae based on general cranial and postcranial features, but its precise position within the family — as a saurolophine, lambeosaurine, or basal hadrosaurid — has been difficult to determine from the available material. Some analyses have placed it as a basal hadrosaurid outside the two main subfamilies, while others tentatively assign it to Hadrosaurinae. The uncertainty reflects both the completeness of material and the complexity of hadrosaur phylogeny."
+      },
+      {
+        "title": "Diet and Ecology",
+        "body": "As a hadrosaur, Tanius would have possessed the characteristic dental battery of hundreds of tightly packed teeth forming a grinding surface for processing tough plant material. It was a quadrupedal to facultatively bipedal herbivore, likely browsing on the diverse lowland vegetation of Late Cretaceous Shandong — a coastal plain environment with rivers, lakes, and estuarine habitats."
+      },
+      {
+        "title": "Shandong Hadrosaur Diversity",
+        "body": "Shandong Province has proven to be an extraordinarily productive source of hadrosaur fossils. Tanius represents the earlier scholarly description, but later finds including Shantungosaurus giganteus — the largest hadrosauroid known — highlight the diversity and abundance of hadrosaurs in this region during the Late Cretaceous. Tanius thus sits at the beginning of a long history of Chinese hadrosaur palaeontology."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Tanius profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/tanius.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Wangshi Formation / Late Cretaceous beds, Shandong Province, China; Laiwu-Zhucheng area outcrops, Shandong, China",
+    "material": "Tanius has been placed in Hadrosauridae based on general cranial and postcranial features, but its precise position within the family — as a saurolophine, lambeosaurine, or basal hadrosaurid — has been difficult to determine from the available material.",
+    "completeness": "Fragmentary material only; 5 PBDB occurrence records.",
+    "paleo": "The type material of Tanius sinensis was collected from Late Cretaceous continental deposits in Shandong, the same general region later famous for Shantungosaurus.",
+    "evidence": "Tanius remains one of the less well-known hadrosaurs from Asia due to the fragmentary nature of the material and the passage of time since its original description."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "diet and locomotion confidence",
+      "major scientific disagreement"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Campanian, about 84-72 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Hadrosauroidea"
+      ],
+      "description": "Tanius sinensis was a basally branching hadrosauroid from the Upper Cretaceous Wangshi Group of Shandong, China. Modern postcranial revision supports the type species as diagnosable, while the other species historically assigned to Tanius are dubious or belong elsewhere.",
+      "facts": [
+        "The type individual includes a partial skull and much of the postcranial skeleton, but is not complete.",
+        "Tanius sinensis falls outside the most derived hadrosaurids in recent analyses.",
+        "T. chingkankouensis was regarded as a nomen dubium and T. laiyangensis was separated as Laiyangosaurus.",
+        "Herbivory and facultative quadrupedality follow hadrosauroid anatomy; exact behaviour and herd size are not directly preserved."
+      ]
+    },
+    "ageReviewNote": "The type species is from the Jiangjunding Formation of the Wangshi Group. A former 89-66 Ma genus-wide range incorrectly blended uncertain species and formations.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Borinder et al. (2021), postcranial osteology of Tanius sinensis",
+        "url": "https://doi.org/10.1080/02724634.2021.1914642"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Zhang et al. (2020), Osteological re-assessment and taxonomic revision of Tanius laiyangensis",
+        "url": "https://doi.org/10.1002/ar.24097"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: tanius",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/tanius.html"
+      }
+    ],
+    "residualUncertainty": [
+      "A complete modern cranial redescription and full phylogenetic revision remain desirable.",
+      "The exact age calibration of Wangshi Group units varies among studies."
+    ],
+    "evidence": {
+      "score": 66,
+      "summary": "A partial skull and substantial postcranium support the validity of Tanius sinensis, but not the old multi-species concept of the genus.",
+      "material": "Associated partial skull and substantial axial and appendicular skeleton of the type species.",
+      "formations": "Jiangjunding Formation, Wangshi Group, Shandong, China.",
+      "confidenceLimit": "The type species is diagnosable; historical referrals and a very broad time range are not.",
+      "sourceBasis": "Borinder et al. 2021 postcranial revision and Zhang et al. 2017 taxonomic comparison.",
+      "uncertainties": [
+        "cranial revision",
+        "formation age calibration",
+        "historical referrals"
+      ]
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

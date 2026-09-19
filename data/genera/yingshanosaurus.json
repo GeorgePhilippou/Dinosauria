@@ -1,0 +1,149 @@
+{
+  "id": "yingshanosaurus",
+  "name": "Yingshanosaurus",
+  "profile": {
+    "overview": [
+      "Yingshanosaurus ('Mt. Ying lizard') was a stegosaurid dinosaur from the Late Jurassic of Sichuan Province, China, living approximately 159–142 million years ago during the Oxfordian–Tithonian stages. It is notable for possessing unusually large, broad shoulder spines that may have served as display or defensive structures, a feature that distinguishes it from many other stegosaurids. The type species, Yingshanosaurus jichuanensis, was described from the Upper Shaximiao Formation.",
+      "Yingshanosaurus is considered a nomen nudum by some researchers because the original description was published in a Japanese popular dinosaur book in 1992 without the formal scientific rigour required for valid nomenclature under the International Code of Zoological Nomenclature. This ambiguous status means that its scientific validity and placement within Stegosauria are not fully accepted by all workers, though it continues to appear in the literature and databases."
+    ],
+    "fossilSites": [
+      {
+        "name": "Upper Shaximiao Formation",
+        "region": "Sichuan, China",
+        "lat": 29,
+        "lon": 105,
+        "note": "Late Jurassic floodplain deposits of the Sichuan Basin from which Yingshanosaurus was reportedly described."
+      },
+      {
+        "name": "Jichuan area",
+        "region": "Sichuan, China",
+        "lat": 28.8,
+        "lon": 105.2,
+        "note": "The type locality referenced in the species name jichuanensis, within the Sichuan Basin."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Stegosauria",
+        "Stegosauridae",
+        "Yingshanosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Stegosauridae",
+          "label": "Stegosaurus armatus (North America)"
+        },
+        {
+          "from": "Stegosauria",
+          "label": "Huayangosaurus (basal stegosaur, Sichuan)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Nomenclatural Status",
+        "body": "Yingshanosaurus jichuanensis was described in 1992 by Watanabe in a Japanese-language dinosaur book, without formal publication in a peer-reviewed scientific journal. This means the name is generally considered a nomen nudum — a name published without adequate description or in an inappropriate format to satisfy the requirements of the ICZN — and its scientific validity is disputed. Despite this, the specimen has been discussed in subsequent palaeontological literature."
+      },
+      {
+        "title": "Distinctive Shoulder Spines",
+        "body": "The most notable feature attributed to Yingshanosaurus is a pair of broad, plate-like shoulder (pectoral) spines or girdle plates, quite different from the back plates and tail spikes typical of most stegosaurids. If these features are correctly attributed to a single individual, they would represent an unusual morphology within Stegosauria, suggesting possible specialisation for display or defence. However, uncertainty about the completeness and association of the specimen limits confidence in this interpretation."
+      },
+      {
+        "title": "Sichuan Stegosaur Diversity",
+        "body": "The Upper Shaximiao Formation of Sichuan is notable for its rich stegosaur fauna, including Chialingosaurus, Tuojiangosaurus, and Chungkingosaurus, making it one of the most diverse stegosaur assemblages in the world. If Yingshanosaurus is valid, it would add to this diversity and suggest that Late Jurassic China was a centre of stegosaurid evolution with multiple co-occurring species."
+      },
+      {
+        "title": "Uncertainty and Future Research",
+        "body": "The nomen nudum status of Yingshanosaurus means that until a formal redescription meeting ICZN requirements is published, its systematic position within Stegosauria cannot be rigorously evaluated. A thorough re-examination of the original specimen and formal publication would be required to establish whether the shoulder structures are genuine and to determine its relationships to other stegosaurids."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Yingshanosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/yingshanosaurus.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Upper Shaximiao Formation, Sichuan, China; Jichuan area, Sichuan, China",
+    "material": "The type species, Yingshanosaurus jichuanensis, was described from the Upper Shaximiao Formation.",
+    "completeness": "Skeletal material known; 1 PBDB occurrence records.",
+    "paleo": "Late Jurassic floodplain deposits of the Sichuan Basin from which Yingshanosaurus was reportedly described.",
+    "evidence": "Yingshanosaurus is considered a nomen nudum by some researchers because the original description was published in a Japanese popular dinosaur book in 1992 without the formal scientific rigour required for valid nomenclature under the International Code of Zoological Nomenclature."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "diet and locomotion confidence",
+      "major scientific disagreement"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "Oxfordian, approximately 162-157 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Stegosauria",
+        "Stegosauridae"
+      ],
+      "taxonomicStatus": "accepted",
+      "length": null,
+      "massKg": null,
+      "description": "Yingshanosaurus jichuanensis is a stegosaur from the Upper Shaximiao Formation of Sichuan, China, based on a partial skeleton with an incomplete skull and armour. It is not a nomen nudum: Zhu Songlin published a formal description in 1994, contrary to older English-language summaries. Its validity and exact relationships still need modern revision.",
+      "facts": [
+        "The holotype CV 00722 is a partial skeleton including incomplete cranial and postcranial material and dermal armour.",
+        "The name circulated informally before 1994, which explains the outdated nomen nudum label in some catalogues.",
+        "Zhu's 1994 paper supplied the formal genus and species description.",
+        "The striking shoulder-spine reconstruction and precise body dimensions require rechecking against the original specimen rather than copying exhibition mounts."
+      ]
+    },
+    "ageReviewNote": "The holotype is from the Upper Shaximiao Formation. Numerical ages for that terrestrial unit remain under revision, so the displayed Oxfordian range is approximate.",
+    "sources": [
+      {
+        "type": "original-description-bibliography",
+        "citation": "Zhu (1994), Record of a fossil stegosaur from Yingshan in the Sichuan Basin, Sichuan Cultural Relics 1994(S1): 8-14",
+        "url": "https://www.mindat.org/taxon-9735898.html"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Maidment et al. (2008), phylogeny and comparative record of Stegosauria",
+        "url": "https://doi.org/10.1017/S1477201908002459"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: yingshanosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/yingshanosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "The original description is difficult to access outside China and the specimen lacks a modern full redescription.",
+      "Its diagnostic status and precise position within Stegosauria require renewed study.",
+      "The age of the Upper Shaximiao Formation is still being refined."
+    ],
+    "evidence": {
+      "score": 39,
+      "summary": "A formally described partial stegosaur skeleton exists, correcting the widespread claim that the name is a nomen nudum.",
+      "material": "Partial associated skeleton with incomplete skull, postcrania and dermal armour (CV 00722).",
+      "formations": "Upper Shaximiao Formation, Sichuan, China.",
+      "confidenceLimit": "Formal publication is established; anatomical diagnosis, mounted proportions and exact age need modern specimen-level revision.",
+      "sourceBasis": "Zhu 1994 original-description record and later stegosaur comparative literature.",
+      "uncertainties": [
+        "modern validity assessment",
+        "armour association",
+        "formation age"
+      ]
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

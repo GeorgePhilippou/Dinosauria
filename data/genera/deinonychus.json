@@ -1,0 +1,148 @@
+{
+  "id": "deinonychus",
+  "name": "Deinonychus",
+  "profile": {
+    "overview": [
+      "Deinonychus antirrhopus sparked the Dinosaur Renaissance. John Ostrom's 1969 description overturned a century of thinking about dinosaurs as slow, cold-blooded, tail-dragging reptiles by demonstrating that this Early Cretaceous predator was active, agile and held its tail rigid for balance. The \"Velociraptors\" in Jurassic Park are modelled directly on Deinonychus — roughly twice the size of an actual Velociraptor.",
+      "Multiple Deinonychus specimens found near a Tenontosaurus carcass in Montana generated the still-debated pack-hunting hypothesis. Whether it hunted cooperatively or whether multiple individuals simply fed opportunistically at a carcass is unresolved; the fossil association alone cannot distinguish between the two interpretations."
+    ],
+    "fossilSites": [
+      {
+        "name": "Cloverly Formation",
+        "region": "Montana and Wyoming, USA",
+        "lat": 46.5,
+        "lon": -108.5,
+        "note": "Early Cretaceous fluvial deposits yielding the type material and the famous Tenontosaurus association sites."
+      },
+      {
+        "name": "Antlers Formation",
+        "region": "Oklahoma, USA",
+        "lat": 34.2,
+        "lon": -96.5,
+        "note": "Aptian deposits with additional Deinonychus material extending the known geographic range southward."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Dromaeosauridae",
+        "Deinonychus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Dromaeosauridae",
+          "label": "Velociraptor"
+        },
+        {
+          "from": "Dromaeosauridae",
+          "label": "Utahraptor"
+        },
+        {
+          "from": "Coelurosauria",
+          "label": "Troodontidae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "The Dinosaur Renaissance",
+        "body": "Ostrom's 1969 monograph on Deinonychus is widely cited as the trigger for the Dinosaur Renaissance — the paradigm shift from sluggish reptiles to active, bird-like animals. The paper demonstrated an enlarged sickle claw held raised while walking, long arms adapted for grasping, a stiff tail acting as a dynamic stabiliser, and an overall body plan inconsistent with the cold-blooded, slow-moving model that had prevailed since Owen."
+      },
+      {
+        "title": "Sickle claw and predation",
+        "body": "The enlarged second-toe claw was held raised off the ground during walking and used to pin and puncture prey during an attack. Functional analysis suggests it was most effective as a restraint and wound-opener rather than a slashing weapon. The strong forelimbs with three large-clawed fingers helped grip struggling prey."
+      },
+      {
+        "title": "Evolutionary significance",
+        "body": "Ostrom's comparison of Deinonychus with Archaeopteryx — noticing over a dozen skeletal features shared between them — helped re-establish the dinosaurian origin of birds, a hypothesis first proposed by Thomas Henry Huxley in the 1860s but long neglected. Deinonychus became the keystone taxon in the cladistic arguments for birds as living theropod dinosaurs."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Deinonychus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/deinonychus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Cloverly Formation, Montana/Wyoming; Antlers Formation, Oklahoma",
+    "material": "Partial skeletons and teeth, including material associated with Tenontosaurus remains.",
+    "completeness": "Moderately represented",
+    "paleo": "Early Cretaceous North American terrestrial ecosystems.",
+    "evidence": "Sickle claws, stiffened tail and grasping forelimbs were central to the Dinosaur Renaissance interpretation of active theropods."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "Aptian-Albian, roughly 115-108 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Maniraptora",
+        "Dromaeosauridae",
+        "Eudromaeosauria"
+      ],
+      "description": "Deinonychus antirrhopus was a medium-sized predatory dromaeosaurid from the Cloverly Formation and equivalent units of North America. Multiple partial skeletons, skull elements, teeth and growth stages document the animal, although many early reconstructions combined several individuals.",
+      "facts": [
+        "The enlarged second-toe claw is directly preserved and was held clear of the ground in walking.",
+        "Feathering is strongly supported by close phylogenetic bracketing, even though no direct body-feather impressions are known for Deinonychus.",
+        "Co-occurrence of several individuals and Tenontosaurus does not establish coordinated pack hunting."
+      ]
+    },
+    "ageReviewNote": "Secure Cloverly occurrences are late Aptian-Albian, broadly 115-108 Ma.",
+    "sources": [
+      {
+        "type": "foundational-monograph",
+        "citation": "Ostrom (1969), Osteology of Deinonychus antirrhopus",
+        "url": "https://elischolar.library.yale.edu/peabody_museum_natural_history_bulletin/30/"
+      },
+      {
+        "type": "ontogeny",
+        "citation": "Parsons & Parsons (2015), Morphological variations within the ontogeny of Deinonychus",
+        "url": "https://doi.org/10.1371/journal.pone.0121476"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Deinonychus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Deinonychus"
+      }
+    ],
+    "residualUncertainty": [
+      "Several specimens were mixed in early composite reconstructions.",
+      "Social hunting, prey preference and exact feather distribution remain inferential."
+    ],
+    "evidence": {
+      "score": 80,
+      "material": "Multiple partial skeletons, skull remains and abundant teeth from several growth stages.",
+      "formations": [
+        "Cloverly Formation",
+        "Antlers Formation"
+      ],
+      "confidenceLimit": "High for anatomy, age and predation; moderate for integument; low for social behaviour.",
+      "uncertainties": [
+        "specimen association",
+        "social behaviour",
+        "feather distribution"
+      ],
+      "summary": "Deinonychus antirrhopus was a medium-sized predatory dromaeosaurid from the Cloverly Formation and equivalent units of North America. Multiple partial skeletons, skull elements, teeth and growth stages document the animal, although many early reconstructions combined several individuals.",
+      "sourceBasis": "Ostrom (1969), Osteology of Deinonychus antirrhopus; Parsons & Parsons (2015), Morphological variations within the ontogeny of Deinonychus; Paleobiology Database taxon and occurrence context for Deinonychus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

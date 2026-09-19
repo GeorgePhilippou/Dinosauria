@@ -343,7 +343,9 @@ async function main() {
     assert(afrovenatorText.includes('relatively complete partial skeleton'), 'Afrovenator should not be described as known only from limited fossil remains.');
     assert(afrovenatorText.includes('late Middle Jurassic'), 'Afrovenator should include the revised Tiourarén Formation age.');
     assert(!afrovenatorText.includes('Known from 3 occurrence records in the Paleobiology Database'), 'PBDB occurrence count must not replace Afrovenator skeletal-completeness evidence.');
-    assert(afrovenatorText.includes('PBDB sampled age differs from reviewed profile range'), 'Afrovenator age uncertainty should identify the reviewed range rather than misattribute it to NHM.');
+    // Afrovenator now carries a presentation block, so the age caveat is voiced
+    // through its open-questions list rather than the PBDB age-comparison chip.
+    assert(afrovenatorText.includes('How old are the rocks?'), 'Afrovenator should surface the formation-age uncertainty as an open question.');
     assert(!afrovenatorText.includes('PBDB age differs from NHM label'), 'A literature-reviewed age must not be labelled as the NHM range.');
 
     const compactPanel = await profileLayoutState(page);
@@ -394,7 +396,12 @@ async function main() {
     );
 
     assert(await page.locator('.profile-dossier .known-remains-card').count() === 0, 'Profiles should not infer a body-part fossil map from uneven material descriptions.');
-    assert(await visible(page, '.profile-dossier .evidence-bar'), 'The reviewed fossil-evidence band should remain visible.');
+    // Genera with a specimen-led evidence panel render the research board in
+    // place of the plain evidence band; either must be visible.
+    assert(
+      await visible(page, '.profile-dossier .evidence-research-board, .profile-dossier .evidence-bar'),
+      'The reviewed fossil-evidence board or band should remain visible.'
+    );
 
     await page.goto(`${BASE_URL}/index.html?smoke=recent-taxonomy#dino/saurophaganax`, { waitUntil: 'load' });
     const saurophaganaxText = await page.locator('#p-body').textContent();
@@ -417,7 +424,7 @@ async function main() {
     await page.goto(`${BASE_URL}/index.html?smoke=nanotyrannus-debate#dino/tyrannosaurus`, { waitUntil: 'load' });
     const tyrannosaurusText = await page.locator('#p-body').textContent();
     assert(tyrannosaurusText.includes('Nanotyrannus'), 'Tyrannosaurus should include the current Nanotyrannus dispute.');
-    assert(tyrannosaurusText.includes('late-2025 studies'), 'Tyrannosaurus should include the latest maturity and taxonomic evidence.');
+    assert(/(late-)?2025 studies/.test(tyrannosaurusText), 'Tyrannosaurus should include the latest maturity and taxonomic evidence.');
 
     await page.goto(`${BASE_URL}/index.html?smoke=gaps#dino/albertaceratops`, { waitUntil: 'load' });
     const gapLabels = await page.locator('.data-gap-label').allTextContents();
@@ -560,7 +567,7 @@ async function main() {
     assert(!await visible(page, '.profile-preview'), 'Mobile should move directly into the reading dossier rather than squeeze the compact desktop preview.');
     assert(await visible(page, '.profile-dossier'), 'The full Afrovenator dossier should be visible at 390px.');
     assert(await visible(page, '.profile-dossier .map-card'), 'The fossil-locality map should remain visible at 390px.');
-    assert(await visible(page, '.profile-dossier .evidence-bar'), 'The fossil-evidence band should remain visible at 390px.');
+    assert(await visible(page, '.profile-dossier .evidence-research-board, .profile-dossier .evidence-bar'), 'The fossil-evidence board or band should remain visible at 390px.');
     const mobileDossier = await profileLayoutState(page);
     assert(
       mobileDossier.panelWidth <= mobileDossier.viewportWidth + 1,

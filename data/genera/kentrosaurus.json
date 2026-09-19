@@ -1,0 +1,134 @@
+{
+  "id": "kentrosaurus",
+  "name": "Kentrosaurus",
+  "profile": {
+    "overview": [
+      "Kentrosaurus aethiopicus was Africa's answer to Stegosaurus — a smaller stegosaur (~5 m) from the Tendaguru Formation of Tanzania (~155–150 Ma) that replaced the broad plates of its North American cousin with a dramatic array of paired spikes running the length of its back and tail, plus a distinctive shoulder spike projecting laterally from each flank. Thousands of Kentrosaurus bones were excavated by German expeditions between 1909 and 1913.",
+      "Biomechanical studies of the tail show that Kentrosaurus could swing its spiked tail with enough force to puncture bone — a defensive weapon significantly more dangerous than Stegosaurus's thagomizer. The shoulder spikes would have made approach from the flanks hazardous for any predator. As part of the Tendaguru fauna alongside Giraffatitan, it shows that the Late Jurassic stegosaur radiation extended across both Laurasia and Gondwana."
+    ],
+    "fossilSites": [
+      {
+        "name": "Tendaguru Formation",
+        "region": "Lindi Region, Tanzania",
+        "lat": -9.5,
+        "lon": 38.8,
+        "note": "Late Jurassic beds with thousands of Kentrosaurus bones; the richest stegosaur site in Africa, excavated by the Berlin Museum für Naturkunde 1909–1913."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Stegosauria",
+        "Stegosauridae",
+        "Kentrosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Stegosauridae",
+          "label": "Stegosaurus (North America)"
+        },
+        {
+          "from": "Stegosauridae",
+          "label": "Tuojiangosaurus (China)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "The Tendaguru excavation",
+        "body": "The German expedition to Tendaguru (1909–1913) under the leadership of Werner Janensch was one of the largest palaeontological excavations in history. Local workers — over 500 at peak — excavated bones transported by foot to the coast at Lindi for shipping to Berlin. The resulting collection included thousands of Kentrosaurus bones from multiple individuals, establishing it as one of the most abundant stegosaurs known."
+      },
+      {
+        "title": "Spike array and defence",
+        "body": "Kentrosaurus has plates only on its neck and shoulders; from the mid-back to the tail tip, all ornaments are paired spikes. Computer modelling of the tail musculature shows it could sweep the spike tips at high velocity. Finite element analysis of Kentrosaurus spikes shows they were mechanically suited for penetrating tough skin — a functional weapon unlike the plate-dominated Stegosaurus, whose thagomizer spikes were the primary weapon."
+      },
+      {
+        "title": "Gondwanan stegosaurs",
+        "body": "The Tendaguru fauna is broadly similar to the Morrison Formation fauna, with giant sauropods (Giraffatitan paralleling Brachiosaurus) and stegosaurs (Kentrosaurus paralleling Stegosaurus) occupying similar ecological roles. The parallel faunas reflect the Jurassic Pangaean heritage before the continents fully separated, with sufficient faunal interchange to produce convergent faunal compositions across Africa and North America."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Kentrosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/kentrosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Tendaguru Formation, Tanzania",
+    "material": "Thousands of bones from German expeditions, representing a spiked stegosaur.",
+    "completeness": "Well represented",
+    "paleo": "Late Jurassic East African coastal plain and deltaic deposits.",
+    "evidence": "Spikes, plates and postcranial material document a smaller, heavily armed stegosaur."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "Kimmeridgian-Tithonian, roughly 155-150 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Stegosauria",
+        "Stegosauridae"
+      ],
+      "description": "Kentrosaurus aethiopicus was a stegosaurid from the Tendaguru Formation of Tanzania. Abundant disarticulated remains from many individuals represent most of the skeleton and armour, but no single complete skeleton preserves the full sequence of plates and spikes.",
+      "facts": [
+        "The familiar armour arrangement is a composite reconstruction supported by repeated isolated osteoderm shapes.",
+        "Tail spikes provided a plausible defensive weapon, as supported by anatomy and biomechanical modelling.",
+        "Bone histology records growth but does not provide exact population ages for every specimen."
+      ]
+    },
+    "ageReviewNote": "Most material comes from Kimmeridgian-Tithonian Middle and Upper Dinosaur members of Tendaguru.",
+    "sources": [
+      {
+        "type": "bone-histology",
+        "citation": "Redelstorff & Sander (2013), Long and girdle bone histology of Kentrosaurus",
+        "url": "https://doi.org/10.1002/ar.22701"
+      },
+      {
+        "type": "formation-review",
+        "citation": "Bussert et al. (2009), The Tendaguru Formation: lithostratigraphy and depositional environments",
+        "url": "https://doi.org/10.5194/fr-12-141-2009"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Kentrosaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Kentrosaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "No complete articulated armour sequence is known.",
+      "Individual variation, exact plate orientation and detailed species-level stratigraphic range remain uncertain."
+    ],
+    "evidence": {
+      "score": 80,
+      "material": "Abundant multi-individual cranial, postcranial and armour remains, mostly disarticulated.",
+      "formations": [
+        "Tendaguru Formation"
+      ],
+      "confidenceLimit": "High for anatomy and herbivory; moderate for armour arrangement and growth; low for display behaviour.",
+      "uncertainties": [
+        "osteoderm arrangement",
+        "individual association",
+        "armour function"
+      ],
+      "summary": "Kentrosaurus aethiopicus was a stegosaurid from the Tendaguru Formation of Tanzania. Abundant disarticulated remains from many individuals represent most of the skeleton and armour, but no single complete skeleton preserves the full sequence of plates and spikes.",
+      "sourceBasis": "Redelstorff & Sander (2013), Long and girdle bone histology of Kentrosaurus; Bussert et al. (2009), The Tendaguru Formation: lithostratigraphy and depositional environments; Paleobiology Database taxon and occurrence context for Kentrosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

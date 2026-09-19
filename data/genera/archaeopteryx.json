@@ -1,0 +1,148 @@
+{
+  "id": "archaeopteryx",
+  "name": "Archaeopteryx",
+  "profile": {
+    "overview": [
+      "Archaeopteryx lithographica is the iconic transitional form between non-avian dinosaurs and modern birds, from the Late Jurassic Solnhofen Limestone of Bavaria (~150 Ma). Its exquisite feather impressions — preserved in the fine-grained limestone — show pennaceous flight feathers identical in structure to those of modern birds on a skeleton that retains numerous non-avian features: teeth, a long bony tail and free clawed fingers.",
+      "Twelve specimens are currently recognised, the first found just two years after Darwin published On the Origin of Species in 1859. The timing was extraordinary: Archaeopteryx became the central exhibit in debates about evolution, gradualism and the relationship between reptiles and birds. It remains one of the most studied and argued-over fossils in history."
+    ],
+    "fossilSites": [
+      {
+        "name": "Solnhofen Limestone — Altmühl Valley",
+        "region": "Bavaria, Germany",
+        "lat": 48.9,
+        "lon": 11.1,
+        "note": "Tithonian lagoonal limestone yielding twelve Archaeopteryx specimens; the Berlin specimen (Humboldt Museum) and London specimen (NHM) are the most complete."
+      },
+      {
+        "name": "Mörnsheim Formation",
+        "region": "Bavaria, Germany",
+        "lat": 48.8,
+        "lon": 11.3,
+        "note": "Slightly younger and deeper-water limestone with one additional Archaeopteryx specimen (Bürgermeister-Müller specimen)."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Maniraptora",
+        "Avialae",
+        "Archaeopteryx"
+      ],
+      "sideBranches": [
+        {
+          "from": "Avialae",
+          "label": "Modern birds (Neornithes)"
+        },
+        {
+          "from": "Maniraptora",
+          "label": "Dromaeosauridae"
+        },
+        {
+          "from": "Maniraptora",
+          "label": "Troodontidae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and scientific impact",
+        "body": "The isolated Archaeopteryx feather was described in 1861; the first skeleton (now in London) was described the same year by Richard Owen. The Berlin specimen — found in 1877 and described in 1884 — is the most complete and widely displayed. Huxley used Archaeopteryx alongside Compsognathus to argue that birds descended from dinosaurs in the 1860s; this was later challenged and only definitively confirmed by cladistic analyses in the 1980s–90s."
+      },
+      {
+        "title": "Mosaic of ancestral and derived features",
+        "body": "Non-avian (dinosaurian) features include: teeth in both jaws, three free clawed fingers on the wing, a long bony tail with vertebrae, gastralia (belly ribs) and a pubis pointing forward-and-downward. Avian features include: large pennaceous flight feathers, a wishbone (furcula), a reversed hallux (back toe), and a brain shape convergent with modern birds. This combination is the textbook definition of a transitional fossil."
+      },
+      {
+        "title": "Flight capability",
+        "body": "Whether Archaeopteryx could fly actively, glide from trees, or was primarily a ground-dwelling runner with aerodynamic arms is debated. Bone density studies and flight-muscle attachment scar analysis suggest some aerial capability, but the lack of a keeled sternum indicates less powerful flight muscle attachment than in modern birds. It was probably a capable glider and possibly a flap-assisted runner, occupying an early position on the bird flight spectrum."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Archaeopteryx profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/archaeopteryx.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Solnhofen Limestone and related Late Jurassic lithographic limestones (e.g. Mörnsheim and Painten formations), Bavaria, Germany",
+    "material": "About 13–14 specimens preserving feather impressions, skeletal detail and sometimes soft-tissue outlines.",
+    "completeness": "Exceptional preservation in lagerstätte limestone",
+    "paleo": "Late Jurassic shallow tropical lagoon environment in what is now Bavaria.",
+    "evidence": "Feather impressions on arms and tail alongside teeth, clawed fingers and bony tail confirm transitional status between dinosaurs and birds."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "about 151-148 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Maniraptora",
+        "Avialae",
+        "Archaeopterygidae"
+      ],
+      "description": "Archaeopteryx was a feathered early avialan from the Solnhofen Archipelago limestones of Germany. More than a dozen skeletal specimens, many with flight-feather impressions, document a mosaic of avian and non-avian theropod features.",
+      "facts": [
+        "Asymmetrical wing feathers support aerodynamic function, while flight style remains debated.",
+        "The number and limits of Archaeopteryx species are contested; not every specimen is necessarily conspecific."
+      ],
+      "locomotion": "bipedal; capable of active flight, exact flight style debated"
+    },
+    "ageReviewNote": "The principal Solnhofen and Altmuehltal specimens are late Kimmeridgian to early Tithonian.",
+    "sources": [
+      {
+        "type": "specimen-description",
+        "citation": "Rauhut, Foth & Tischlinger (2018), The oldest Archaeopteryx and a tooth-bearing avialan diversity",
+        "url": "https://doi.org/10.7717/peerj.4191"
+      },
+      {
+        "type": "flight-biomechanics",
+        "citation": "Voeten et al. (2018), Wing bone geometry reveals active flight in Archaeopteryx",
+        "url": "https://doi.org/10.1038/s41467-018-03296-8"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: archaeopteryx",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/archaeopteryx.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Species-level taxonomy is actively debated.",
+      "Powered-flight ability and ecology depend on biomechanical interpretation."
+    ],
+    "evidence": {
+      "score": 96,
+      "material": "More than a dozen partial to nearly complete slab skeletons, many preserving feathers.",
+      "formations": [
+        "Solnhofen Limestone",
+        "Altmuehltal Formation"
+      ],
+      "confidenceLimit": "Anatomy and plumage are exceptionally documented, but taxonomy and flight performance remain unsettled.",
+      "uncertainties": [
+        "Species-level taxonomy is actively debated.",
+        "Powered-flight ability and ecology depend on biomechanical interpretation."
+      ],
+      "summary": "Archaeopteryx was a feathered early avialan from the Solnhofen Archipelago limestones of Germany. More than a dozen skeletal specimens, many with flight-feather impressions, document a mosaic of avian and non-avian theropod features.",
+      "sourceBasis": "Rauhut, Foth & Tischlinger (2018), The oldest Archaeopteryx and a tooth-bearing avialan diversity; Voeten et al. (2018), Wing bone geometry reveals active flight in Archaeopteryx; Natural History Museum, Dino Directory: archaeopteryx"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

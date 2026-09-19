@@ -1,0 +1,170 @@
+{
+  "id": "conchoraptor",
+  "name": "Conchoraptor",
+  "profile": {
+    "overview": [
+      "Conchoraptor was a small oviraptorid dinosaur from the Late Cretaceous of Mongolia, approximately 84–72 million years ago (Campanian), found in the Baruungoyot Formation of the Gobi Desert. Estimated at about 1.5 metres in length, it was a feathered omnivore with a toothless beak and no cranial crest, distinguishing it from its crested relative Oviraptor. Its name, meaning 'conch thief', reflects an early (and now uncertain) hypothesis that it fed on molluscs using its strong beak.",
+      "Named by Barsbold in 1986, Conchoraptor gracilis is placed within Oviraptoridae, within the subfamily Heyuanninae (also referred to as Ingeniinae). Remarkably, some specimens preserve evidence of feathers and show differences in plumage between sexes, making Conchoraptor one of the few non-avian dinosaurs for which sexual differences in integument have been suggested. It is one of the best-known small oviraptorids from the Mongolian Late Cretaceous."
+    ],
+    "fossilSites": [
+      {
+        "name": "Baruungoyot Formation",
+        "region": "Ömnögovi Province, Mongolia",
+        "lat": 43.5,
+        "lon": 100.5,
+        "note": "Late Campanian Gobi Desert sandstones yielding the primary Conchoraptor specimens with preserved feather evidence."
+      },
+      {
+        "name": "Nemegt Basin",
+        "region": "Ömnögovi Province, Mongolia",
+        "lat": 43.2,
+        "lon": 100.4,
+        "note": "Broad basin in the Mongolian Gobi where multiple Late Cretaceous oviraptorid genera have been recovered."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Tetanurae",
+        "Avetheropoda",
+        "Coelurosauria",
+        "Tyrannoraptora",
+        "Maniraptoriformes",
+        "Maniraptora",
+        "Oviraptorosauria",
+        "Caenagnathoidea",
+        "Oviraptoridae",
+        "Heyuanninae",
+        "Conchoraptor"
+      ],
+      "sideBranches": [
+        {
+          "from": "Heyuanninae",
+          "label": "Heyuannia (Asian oviraptorid)"
+        },
+        {
+          "from": "Oviraptoridae",
+          "label": "Oviraptorinae (crested oviraptorids)"
+        },
+        {
+          "from": "Caenagnathoidea",
+          "label": "Caenagnathidae (North American toothless oviraptorosaurs)"
+        },
+        {
+          "from": "Oviraptorosauria",
+          "label": "Caudipteryx (basal feathered oviraptorosaur)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Conchoraptor gracilis was described by Rinchen Barsbold in 1986 from multiple specimens collected from the Baruungoyot Formation of Mongolia. The genus name references the hypothesis that it used its strong beak to crack open mollusc shells, though this diet has not been confirmed. The species name gracilis means 'slender', referencing the lightly built skeleton. Multiple specimens of various sizes are known."
+      },
+      {
+        "title": "Feathering and Sexual Dimorphism",
+        "body": "Some specimens of Conchoraptor preserve evidence of feathers, confirming that it was feathered like other maniraptoran theropods. Notably, differences in plumage features between specimens have been interpreted as possible sexual dimorphism—one of the few cases where such a distinction has been proposed for a non-avian dinosaur. If confirmed, this would suggest that feather displays played a role in sexual selection in oviraptorids."
+      },
+      {
+        "title": "Anatomy and Lack of Crest",
+        "body": "Conchoraptor is distinguished from many oviraptorids by its lack of a cranial crest. This feature has been used to distinguish it from crested taxa like Oviraptor and Citipati. The beak was robust and the jaws were powered by large jaw muscles, suggesting an ability to process hard food items. Its forelimbs were long with three-fingered hands, and the overall build was lightly constructed."
+      },
+      {
+        "title": "Baruungoyot Ecosystem",
+        "body": "The Baruungoyot Formation was deposited in a desert environment during the Late Cretaceous Campanian. The fauna includes protoceratopsids, ankylosaurs, small theropods, and multiple oviraptorid genera. Conchoraptor coexisted with larger oviraptorids and likely occupied a slightly different ecological niche owing to its smaller size and distinct jaw morphology."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Conchoraptor profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/conchoraptor.html"
+      },
+      {
+        "label": "PBDB: Conchoraptor occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Conchoraptor&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Baruungoyot Formation, Ömnögovi Province, Mongolia; Nemegt Basin, Ömnögovi Province, Mongolia",
+    "material": "Conchoraptor was a small oviraptorid dinosaur from the Late Cretaceous of Mongolia, approximately 84–72 million years ago (Campanian), found in the Baruungoyot Formation of the Gobi Desert.",
+    "completeness": "Skeletal material known; 2 PBDB occurrence records.",
+    "paleo": "Late Campanian Gobi Desert sandstones yielding the primary Conchoraptor specimens with preserved feather evidence.",
+    "evidence": "Named by Barsbold in 1986, Conchoraptor gracilis is placed within Oviraptoridae, within the subfamily Heyuanninae (also referred to as Ingeniinae)."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "approximately 84-72 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Maniraptora",
+        "Oviraptorosauria",
+        "Oviraptoridae"
+      ],
+      "description": "Conchoraptor gracilis was a small, crestless oviraptorid from the Campanian Barun Goyot Formation of Mongolia. Multiple skulls and partial skeletons document its toothless beak and light build, but its name does not constitute evidence that it ate shellfish.",
+      "facts": [
+        "Jaw mechanics are compatible with powerful biting, but exact food items are not preserved.",
+        "Some specimens once assigned to Conchoraptor may represent other closely related oviraptorids."
+      ],
+      "diet": "diet uncertain; omnivory or herbivory plausible"
+    },
+    "ageReviewNote": "The Barun Goyot Formation is Campanian, with a broad numerical age.",
+    "sources": [
+      {
+        "type": "endocranial-anatomy",
+        "citation": "Kundrat (2007), Avian-like attributes of a virtual brain model of Conchoraptor gracilis",
+        "url": "https://doi.org/10.1007/s00114-007-0219-1"
+      },
+      {
+        "type": "oviraptorid-diversity",
+        "citation": "Funston et al. (2018), Oviraptorosaur anatomy, diversity and ecology in the Nemegt Basin",
+        "url": "https://doi.org/10.1016/j.palaeo.2017.10.023"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: conchoraptor",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/conchoraptor.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Diet is unknown despite the shellfish-based name.",
+      "Several small oviraptorid taxa from Mongolia are difficult to distinguish.",
+      "No direct plumage is preserved."
+    ],
+    "evidence": {
+      "score": 76,
+      "material": "Multiple skulls and incomplete postcranial skeletons.",
+      "formations": [
+        "Barun Goyot Formation"
+      ],
+      "confidenceLimit": "Anatomy is moderately strong; species referrals, diet, colour and plumage details remain uncertain.",
+      "uncertainties": [
+        "Diet is unknown despite the shellfish-based name.",
+        "Several small oviraptorid taxa from Mongolia are difficult to distinguish.",
+        "No direct plumage is preserved."
+      ],
+      "summary": "Conchoraptor gracilis was a small, crestless oviraptorid from the Campanian Barun Goyot Formation of Mongolia. Multiple skulls and partial skeletons document its toothless beak and light build, but its name does not constitute evidence that it ate shellfish.",
+      "sourceBasis": "Kundrat (2007), Avian-like attributes of a virtual brain model of Conchoraptor gracilis; Funston et al. (2018), Oviraptorosaur anatomy, diversity and ecology in the Nemegt Basin; Natural History Museum, Dino Directory: conchoraptor"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

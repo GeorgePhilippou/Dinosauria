@@ -1,0 +1,155 @@
+{
+  "id": "dicraeosaurus",
+  "name": "Dicraeosaurus",
+  "profile": {
+    "overview": [
+      "Dicraeosaurus (meaning 'forked lizard') was a medium-to-large sauropod dinosaur that lived during the Late Jurassic period, approximately 161–143 million years ago, in what is now Tanzania and possibly Zimbabwe. Estimated at up to 20 metres in length, it was a member of Dicraeosauridae, a family of diplodocoid sauropods characterised by bifurcated (forked) neural spines that formed a prominent ridge along the neck and back. Its fossils come primarily from the world-famous Tendaguru Formation.",
+      "Dicraeosaurus was described by Werner Janensch in 1914 following large-scale German excavations at Tendaguru in the early twentieth century. As one of the best-known dicraeosaurids, it provides important evidence for understanding the diversity of diplodocoid sauropods on Gondwana. The forked neural spines may have supported a fleshy dorsal crest or served as muscle attachment sites, though the exact function remains debated."
+    ],
+    "fossilSites": [
+      {
+        "name": "Tendaguru Formation",
+        "region": "Lindi, Tanzania",
+        "lat": -10,
+        "lon": 39,
+        "note": "Principal fossil site; extensive German expeditions between 1909 and 1913 recovered multiple partial skeletons."
+      },
+      {
+        "name": "Kadzi Formation",
+        "region": "Mashonaland North, Zimbabwe",
+        "lat": -16.5,
+        "lon": 30,
+        "note": "Referred dicraeosaurid material from Zimbabwe suggests a wider Late Jurassic African distribution for the group."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Diplodocoidea",
+        "Dicraeosauridae",
+        "Dicraeosaurinae",
+        "Dicraeosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Diplodocoidea",
+          "label": "Diplodocidae (e.g. Diplodocus)"
+        },
+        {
+          "from": "Dicraeosauridae",
+          "label": "Amargasaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Dicraeosaurus was named by Werner Janensch in 1914 from specimens collected during the Tendaguru expeditions (1909–1913), one of the most ambitious fossil-collecting efforts of the early twentieth century. The type species, D. hansemanni, honours Consul-General Hans Meyer and reflects the diplomatic context of colonial-era German palaeontology in East Africa."
+      },
+      {
+        "title": "The Forked Spines",
+        "body": "The genus name references the distinctive bifurcated neural spines crowning the vertebrae of the neck and trunk, which gave Dicraeosaurus a sail-like or ridged profile. Similar structures appear in the closely related Amargasaurus from South America. The spines may have functioned in display, thermoregulation, or as anchor points for enlarged neck muscles."
+      },
+      {
+        "title": "Phylogenetic Position",
+        "body": "Dicraeosauridae is a well-supported family within Diplodocoidea, sharing with diplodocids a peglike dentition, elongated neck, and whip-like tail. Dicraeosaurids are generally shorter-necked and smaller-bodied than classic diplodocids, suggesting a different niche, possibly browsing at lower vegetation heights."
+      },
+      {
+        "title": "Tendaguru Ecosystem",
+        "body": "Dicraeosaurus shared the Tendaguru landscape with Brachiosaurus, Giraffatitan, and several stegosaurs, constituting a diverse Late Jurassic fauna comparable to the Morrison Formation of North America. This parallel diversity has informed biogeographical hypotheses about faunal exchange between northern and southern landmasses during the Jurassic."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Dicraeosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/dicraeosaurus.html"
+      },
+      {
+        "label": "PBDB: Dicraeosaurus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dicraeosaurus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Tendaguru Formation, Lindi, Tanzania; Kadzi Formation, Mashonaland North, Zimbabwe",
+    "material": "Its fossils come primarily from the world-famous Tendaguru Formation.",
+    "completeness": "Skeletal material known; 19 PBDB occurrence records.",
+    "paleo": "Principal fossil site; extensive German expeditions between 1909 and 1913 recovered multiple partial skeletons.",
+    "evidence": "Dicraeosaurus was described by Werner Janensch in 1914 following large-scale German excavations at Tendaguru in the early twentieth century."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "Kimmeridgian, about 157-152 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Neosauropoda",
+        "Diplodocoidea",
+        "Dicraeosauridae"
+      ],
+      "description": "Dicraeosaurus hansemanni was a short-necked, quadrupedal herbivorous dicraeosaurid from the Lower and Middle Dinosaur members of the Tendaguru Formation in Tanzania. Several partial skeletons and skull material make it comparatively informative, but the material is disarticulated and distributed among individuals.",
+      "facts": [
+        "D. hansemanni occurs lower in the Tendaguru succession than D. sattleri and the two species should not be conflated.",
+        "Skulls, vertebral columns and limb elements document a relatively short neck and bifid neural spines.",
+        "The old 150-135 Ma range is too young and too broad for the type species."
+      ],
+      "length": null
+    },
+    "ageReviewNote": "Corrected from an erroneous Late Jurassic-Early Cretaceous range to the Kimmeridgian lower/middle Tendaguru record.",
+    "sources": [
+      {
+        "type": "formation-review",
+        "citation": "Bussert et al. (2009), The Tendaguru Formation: geology and depositional environments",
+        "url": "https://doi.org/10.5194/fr-12-141-2009"
+      },
+      {
+        "type": "anatomical-study",
+        "citation": "Schwarz-Wings & Boehm (2012), Morphometric separation of Dicraeosaurus limb bones",
+        "url": "https://doi.org/10.4202/app.2011.0095"
+      },
+      {
+        "type": "dental-study",
+        "citation": "Schwarz et al. (2015), Dentition and tooth replacement of Dicraeosaurus hansemanni",
+        "url": "https://doi.org/10.1080/02724634.2015.1008134"
+      }
+    ],
+    "residualUncertainty": [
+      "Association of disarticulated bones to individuals is incomplete.",
+      "Neck posture and precise adult mass are model-dependent."
+    ],
+    "evidence": {
+      "score": 80,
+      "material": "Multiple partial skeletons with skull, vertebral and appendicular material.",
+      "formations": [
+        "Tendaguru Formation, Lower and Middle Dinosaur members"
+      ],
+      "confidenceLimit": "High for anatomy and age; moderate for whole-body proportions and mass.",
+      "uncertainties": [
+        "individual association",
+        "neck posture",
+        "mass"
+      ],
+      "summary": "Dicraeosaurus hansemanni was a short-necked, quadrupedal herbivorous dicraeosaurid from the Lower and Middle Dinosaur members of the Tendaguru Formation in Tanzania. Several partial skeletons and skull material make it comparatively informative, but the material is disarticulated and distributed among individuals.",
+      "sourceBasis": "Bussert et al. (2009), The Tendaguru Formation: geology and depositional environments; Schwarz-Wings & Boehm (2012), Morphometric separation of Dicraeosaurus limb bones; Schwarz et al. (2015), Dentition and tooth replacement of Dicraeosaurus hansemanni"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

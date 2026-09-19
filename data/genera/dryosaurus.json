@@ -1,0 +1,146 @@
+{
+  "id": "dryosaurus",
+  "name": "Dryosaurus",
+  "profile": {
+    "overview": [
+      "Dryosaurus altus was a medium-sized ornithopod from the Late Jurassic Morrison Formation (~155–150 Ma), about three to four metres long. A nimble biped with no teeth at the front of the jaw (replaced by a horny beak) and ridged cheek teeth for precise cropping, it occupied the small-to-medium herbivore niche in the Morrison alongside the larger Camptosaurus.",
+      "A closely related species or genus, Dysalotosaurus (from the Tendaguru Formation of Tanzania), shows the cosmopolitan distribution of dryosaurids across Jurassic landmasses. The similarities between Morrison and Tendaguru faunas extend to both predators (Allosaurus / Yangchuanosaurus relatives) and herbivores (Dryosaurus / Dysalotosaurus), suggesting faunal exchange between North America and Africa during the Jurassic."
+    ],
+    "fossilSites": [
+      {
+        "name": "Morrison Formation — Dinosaur National Monument",
+        "region": "Utah, USA",
+        "lat": 40.4,
+        "lon": -109.3,
+        "note": "Late Jurassic bone quarry with Dryosaurus material alongside larger sauropods and theropods."
+      },
+      {
+        "name": "Morrison Formation — Fruita Paleontological Area",
+        "region": "Colorado, USA",
+        "lat": 39.1,
+        "lon": -108.7,
+        "note": "Morrison Formation site with juvenile Dryosaurus material helping document ontogenetic changes."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Dryosauridae",
+        "Dryosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Dryosauridae",
+          "label": "Dysalotosaurus (Tanzania)"
+        },
+        {
+          "from": "Iguanodontia",
+          "label": "Camptosauridae"
+        },
+        {
+          "from": "Iguanodontia",
+          "label": "Hadrosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Named by Marsh in 1894 from Morrison Formation material, Dryosaurus (\"oak lizard\") was one of the smaller common herbivores in the Morrison fauna. Juveniles are known from several sites, allowing study of growth patterns. Adult specimens reach 3–4 metres; younger individuals show proportionally larger eyes and shorter snouts, consistent with the general ornithopod juvenile pattern."
+      },
+      {
+        "title": "Anatomy",
+        "body": "Dryosaurus had a toothless premaxilla (beaked front of the mouth) and self-sharpening ridged cheek teeth. The hindlimbs were long and slender for fast running; the forelimbs were short with five fingers. It could not walk quadrupedally as Camptosaurus could. The stiff tail provided balance during bipedal locomotion."
+      },
+      {
+        "title": "Tendaguru connection",
+        "body": "The Tanzanian Dysalotosaurus — formerly classified within Dryosaurus — is very similar to the North American species, reflecting the faunal connections between Late Jurassic North America and Africa. These similarities across the proto-Atlantic suggest either island-hopping dispersal or a land bridge connection maintained into the Late Jurassic."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Dryosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/dryosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Morrison Formation, western USA (the similar Tendaguru \"Dryosaurus\" material from Tanzania is now recognised as the separate genus Dysalotosaurus)",
+    "material": "Partial skeletons and skull material of a lightly built ornithopod.",
+    "completeness": "Moderately represented",
+    "paleo": "Late Jurassic Morrison floodplain ecosystem of western North America.",
+    "evidence": "Long limb bones and a lightweight skeleton confirm a cursorial herbivore lifestyle typical of small basal ornithopods."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "Kimmeridgian-Tithonian, roughly 155-148 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Neornithischia",
+        "Ornithopoda",
+        "Dryosauridae"
+      ],
+      "description": "Dryosaurus altus was a small bipedal dryosaurid herbivore from the Morrison Formation of western North America. Multiple partial skeletons and growth stages document most of the postcranium, while skull material is less complete and historic species referrals have been revised.",
+      "facts": [
+        "Long hindlimbs and a balancing tail support agile bipedal locomotion.",
+        "The hands were not built for weight-bearing in habitual quadrupedal walking.",
+        "Some specimens formerly called Dryosaurus belong to Dysalotosaurus or other ornithopods."
+      ]
+    },
+    "ageReviewNote": "Secure D. altus material spans Kimmeridgian-Tithonian Morrison strata rather than a single narrow horizon.",
+    "sources": [
+      {
+        "type": "classic-osteology",
+        "citation": "Gilmore (1925), Osteology of ornithopodous dinosaurs from the Morrison Formation",
+        "url": "https://doi.org/10.5962/p.234845"
+      },
+      {
+        "type": "phylogenetic-nomenclature",
+        "citation": "Madzia et al. (2021), The phylogenetic nomenclature of ornithischian dinosaurs",
+        "url": "https://doi.org/10.7717/peerj.12362"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Dryosaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Dryosaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "Skull anatomy and species-level referral of several Morrison specimens remain incomplete.",
+      "Maximum adult size and exact dryosaurid relationships vary."
+    ],
+    "evidence": {
+      "score": 80,
+      "material": "Multiple partial skeletons across growth stages with limited skull material.",
+      "formations": [
+        "Morrison Formation"
+      ],
+      "confidenceLimit": "High for bipedal postcranial anatomy and herbivory; moderate for skull and referrals.",
+      "uncertainties": [
+        "cranial anatomy",
+        "specimen referrals",
+        "adult size",
+        "fine phylogeny"
+      ],
+      "summary": "Dryosaurus altus was a small bipedal dryosaurid herbivore from the Morrison Formation of western North America. Multiple partial skeletons and growth stages document most of the postcranium, while skull material is less complete and historic species referrals have been revised.",
+      "sourceBasis": "Gilmore (1925), Osteology of ornithopodous dinosaurs from the Morrison Formation; Madzia et al. (2021), The phylogenetic nomenclature of ornithischian dinosaurs; Paleobiology Database taxon and occurrence context for Dryosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

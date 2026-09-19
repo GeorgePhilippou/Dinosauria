@@ -1,0 +1,362 @@
+{
+  "id": "afrovenator",
+  "name": "Afrovenator",
+  "profile": {
+    "overview": [
+      "Afrovenator abakensis was a large megalosaurid theropod from the Tiourarén Formation of Niger. Sereno and colleagues named it in 1994 from the holotype MNN TIG1 (formerly UC OBA 1), a relatively complete partial skull and skeleton that preserves substantial portions of the body.",
+      "The original description interpreted the Tiourarén Formation as Early Cretaceous. A later review found that its dinosaur fauna is more consistent with a pre-Kimmeridgian, probably late Middle Jurassic age. The profile therefore uses about 168–161 million years ago while retaining the dating history as an explicit scientific uncertainty."
+    ],
+    "fossilSites": [
+      {
+        "name": "Tiourarén Formation",
+        "region": "Iullemmeden Basin, Agadez Region, Niger",
+        "lat": 16.9,
+        "lon": 8,
+        "note": "Floodplain deposits that produced the holotype. The formation was once assigned to the Early Cretaceous but is now most plausibly regarded as late Middle Jurassic."
+      }
+    ],
+    "articles": [
+      {
+        "title": "Known skeleton",
+        "body": "Afrovenator is not known merely from isolated fragments. Its single principal specimen preserves a partial skull, a small part of the lower jaw, sections of the vertebral column, both upper arms, much of both hands, much of the pelvis and most of the hind limbs. It is scientifically accurate to call this a relatively complete partial skeleton, but not a complete skeleton."
+      },
+      {
+        "title": "Age of the formation",
+        "body": "Sereno and colleagues described the Tiourarén beds as Early Cretaceous in 1994. Rauhut and López-Arbarello reassessed the fish, invertebrate, geological and dinosaur evidence in 2009 and concluded that a pre-Kimmeridgian, probably late Middle Jurassic age was most likely. No direct radiometric date was available, so the age remains a stratigraphic interpretation rather than an exact measurement."
+      },
+      {
+        "title": "Classification and significance",
+        "body": "Afrovenator is a tetanuran theropod within Megalosauridae. Its substantial skeleton makes it an important Gondwanan record for a family better represented in Europe, although its exact position among megalosaurids varies between phylogenetic analyses."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Afrovenator profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/afrovenator.html"
+      },
+      {
+        "label": "Sereno et al. (1994): original description",
+        "url": "https://doi.org/10.1126/science.266.5183.267"
+      },
+      {
+        "label": "Rauhut & López-Arbarello (2009): age of the Tiourarén Formation",
+        "url": "https://doi.org/10.1016/j.palaeo.2008.10.019"
+      },
+      {
+        "label": "Carrano, Benson & Sampson (2012): tetanuran systematics",
+        "url": "https://doi.org/10.1080/14772019.2011.630927"
+      },
+      {
+        "label": "PBDB: Afrovenator occurrence record",
+        "url": "https://paleobiodb.org/navigator/?taxon_id=56398"
+      }
+    ]
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-09-19",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and classification",
+      "geological age and formation",
+      "known skeletal material",
+      "body-size confidence",
+      "diet and locomotion",
+      "profile narrative and uncertainty wording"
+    ],
+    "record": {
+      "period": "Mid Jurassic",
+      "mya": "about 168–161 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Megalosauroidea",
+        "Megalosauridae",
+        "Afrovenatorinae"
+      ],
+      "description": "Afrovenator was a large megalosaurid theropod from the Tiourarén Formation of Niger. It is represented by one relatively complete partial skeleton, including substantial cranial and postcranial material. The formation was initially described as Early Cretaceous but is now most plausibly regarded as late Middle Jurassic.",
+      "facts": [
+        "Known primarily from the holotype MNN TIG1 (formerly UC OBA 1), a relatively complete partial skull and skeleton.",
+        "The preserved material includes much of the skull, parts of the vertebral column, forelimbs and hands, much of the pelvis, and most of the hind limbs.",
+        "A 2009 reassessment concluded that the Tiourarén dinosaur fauna is probably late Middle Jurassic rather than Early Cretaceous.",
+        "Afrovenator is placed within Megalosauridae; its exact position within that family varies among phylogenetic analyses."
+      ]
+    },
+    "presentation": {
+      "heroLead": "A large Jurassic megalosaurid predator from the Sahara, known from one unusually informative partial skeleton.",
+      "heroMedia": {
+        "file": "Afrovenator reconstruction.png",
+        "title": "Life restoration of Afrovenator abakensis",
+        "alt": "Life restoration of the theropod Afrovenator abakensis in side view",
+        "caption": "Life restoration by PaleoEquii. Skin, colour and soft-tissue outline are interpretive.",
+        "credit": "PaleoEquii · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Afrovenator_reconstruction.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Middle Jurassic · about 168–161 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Agadez region, Niger"
+        },
+        {
+          "label": "Known size",
+          "value": "about 7–8 m · one individual"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Afrovenator was a large two-legged meat-eater from what is now the southern Sahara. The single known skeleton belonged to an animal roughly seven to eight metres long, with a long, low skull, blade-like serrated teeth and strong, three-fingered hands tipped with large claws.",
+        "It belongs to Megalosauridae, a group of Jurassic predators better known from Europe. Its presence in Niger shows that these theropods ranged across the connected landmasses of the Jurassic world rather than being confined to the northern continents.",
+        "The rocks that preserve it were first thought to be Early Cretaceous, which made Afrovenator look like a late survivor. Reassessment of the Tiourarén Formation places the animal in the late Middle Jurassic, among its megalosaurid relatives rather than long after them."
+      ],
+      "animalHighlights": [
+        "A long, low skull with serrated blade-like teeth marks Afrovenator as a typical large tetanuran predator.",
+        "Well-preserved forelimbs show three-fingered hands with large, strongly curved claws.",
+        "The hindlimbs were long and comparatively slender for a megalosaurid, suggesting a capable walker and runner."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Meat-eater",
+          "level": "Supported by skull and tooth anatomy",
+          "reason": "Recurved, serrated teeth and a deep, narrow snout are consistent with hunting or scavenging large prey. No gut contents are known."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Supported by hindlimb anatomy",
+          "reason": "Most of the hindlimb is preserved and shows the standard theropod pattern of an obligate biped."
+        },
+        {
+          "label": "Known size",
+          "value": "about 7–8 m long",
+          "level": "Based on one individual",
+          "reason": "Only the holotype is known, so the size range and maximum size of the species cannot be assessed."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeletal outline well supported",
+          "level": "Soft tissues remain reconstructed",
+          "reason": "Skull shape, limb proportions and body length are constrained by the bones; skin texture and colour are unknown."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Middle Jurassic (Bathonian–Oxfordian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 168–161 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Tiourarén Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "In Abaka, Agadez region, Niger"
+        }
+      ],
+      "locality": {
+        "name": "In Abaka",
+        "region": "Agadez region, Niger",
+        "note": "Tiourarén Formation. The map shows a country-level reference because exact site coordinates are not plotted."
+      },
+      "classificationSummary": "Afrovenator is a megalosaurid theropod, usually placed in the subfamily Afrovenatorinae alongside Dubreuillosaurus, Magnosaurus and Eustreptospondylus. Its exact position within Megalosauridae varies between analyses.",
+      "related": [
+        {
+          "id": "eustreptospondylus",
+          "reason": "Compare with a European afrovenatorine known from a single partial skeleton."
+        },
+        {
+          "id": "dubreuillosaurus",
+          "reason": "Compare with a smaller French megalosaurid of similar age."
+        },
+        {
+          "id": "torvosaurus",
+          "reason": "Compare with a larger, more robust megalosaurid from the Late Jurassic."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How old are the rocks?",
+          "copy": "The Tiourarén Formation lacks a direct radiometric date. The late Middle Jurassic age rests on faunal comparison and could shift with new dating."
+        },
+        {
+          "title": "How variable was the species?",
+          "copy": "One individual cannot show growth stages, sexual variation or the full size range of Afrovenator."
+        },
+        {
+          "title": "Where does it sit among megalosaurids?",
+          "copy": "It is consistently a megalosaurid, but its relationships to Eustreptospondylus and other afrovenatorines change between analyses."
+        }
+      ],
+      "compactSources": true
+    },
+    "ageReviewNote": "The profile follows the late Middle Jurassic interpretation of the Tiourarén Formation. PBDB spans a broader interval because its occurrence set includes records and formation assignments with different age resolutions.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Sereno et al. (1994), Early Cretaceous dinosaurs from the Sahara",
+        "url": "https://doi.org/10.1126/science.266.5183.267"
+      },
+      {
+        "type": "stratigraphic-reassessment",
+        "citation": "Rauhut & López-Arbarello (2009), Considerations on the age of the Tiouaren Formation",
+        "url": "https://doi.org/10.1016/j.palaeo.2008.10.019"
+      },
+      {
+        "type": "systematic-revision",
+        "citation": "Carrano, Benson & Sampson (2012), The phylogeny of Tetanurae",
+        "url": "https://doi.org/10.1080/14772019.2011.630927"
+      }
+    ],
+    "residualUncertainty": [
+      "The formation lacks a direct radiometric date.",
+      "Only one principal skeleton is known.",
+      "Exact placement within Megalosauridae varies among analyses."
+    ],
+    "evidence": {
+      "score": 72,
+      "summary": "One relatively complete partial skeleton preserves substantial cranial and postcranial anatomy, but not a complete individual.",
+      "material": "Holotype MNN TIG1: partial skull, vertebral elements, forelimbs and hands, much of the pelvis and most of the hind limbs.",
+      "formations": "Tiouraren Formation, Niger.",
+      "confidenceLimit": "Anatomy is well sampled for one individual; population variation, maximum size and the formation age remain uncertain.",
+      "sourceBasis": "Sereno et al. 1994, Rauhut & Lopez-Arbarello 2009 and Carrano et al. 2012.",
+      "uncertainties": [
+        "one principal individual",
+        "formation age",
+        "megalosaurid position"
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "One partial skeleton with much of the skull, arms, hips and legs.",
+        "standfirst": "Afrovenator is known from a single individual, the holotype MNN TIG1, which preserves substantial cranial and postcranial material. It is one of the better-represented Jurassic theropods from Africa, but it is still a single, incomplete animal.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Skull, forelimbs, pelvis and hindlimbs are well represented in one associated skeleton; the vertebral column is incomplete and no second individual is known."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Partial skull and skeleton"
+          },
+          {
+            "label": "Individuals",
+            "value": "1"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Single individual, incomplete spine"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The holotype includes much of the skull and lower jaw with teeth, a series of vertebrae, both forelimbs with nearly complete hands, much of the pelvis, and most of both hindlimbs.",
+          "note": "Because only one skeleton is known, everything said about the species rests on that individual, and the age of the rocks that contained it has itself been revised."
+        },
+        "media": [
+          {
+            "file": "Afrovenator skeleton.jpg",
+            "kind": "Known-material diagram",
+            "title": "Skeletal reconstruction showing preserved bones",
+            "alt": "Skeletal diagram of Afrovenator abakensis with known bones indicated",
+            "caption": "A skeletal reconstruction based on the holotype; it is a diagram of what the bones imply, not a photograph of a mounted skeleton.",
+            "credit": "Jaime Headden · CC BY 3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Afrovenator_skeleton.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Much of the skull roof, snout and braincase region, lower jaw elements and teeth."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal and caudal vertebrae, incomplete as a series; ribs."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Both forelimbs including nearly complete hands, much of the pelvis, and femora, tibiae, fibulae and feet."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "None reported. No skin, feathers, colour or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "MNN TIG1 · holotype",
+            "description": "A partial skull and associated skeleton, originally catalogued as UC OBA 1 at the University of Chicago and now held in Niger. It remains the only specimen confidently referred to the genus.",
+            "meta": "In Abaka · Tiourarén Formation · Musée National du Niger"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "One associated partial skull and skeleton with well-preserved forelimbs, pelvis and hindlimbs."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A large megalosaurid predator whose presence in Niger shows that this group ranged across Jurassic Gondwana as well as Europe."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Growth series, size range, population variation, external soft tissues, and a precise numerical age for the formation."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Sereno et al. · 1994",
+            "description": "Original naming and description of the holotype, then interpreted as Early Cretaceous.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1126/science.266.5183.267"
+          },
+          {
+            "type": "Age reassessment",
+            "title": "Rauhut & López-Arbarello · 2009",
+            "description": "Argument that the Tiourarén Formation is late Middle Jurassic rather than Early Cretaceous.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1016/j.palaeo.2008.10.019"
+          },
+          {
+            "type": "Systematic revision",
+            "title": "Carrano, Benson & Sampson · 2012",
+            "description": "Comprehensive tetanuran phylogeny placing Afrovenator within Megalosauridae.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1080/14772019.2011.630927"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Skeletal reconstruction",
+            "description": "Source page, creator details and reuse licence for the skeletal diagram.",
+            "access": "CC BY 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Afrovenator_skeleton.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=56398"
+          }
+        ],
+        "limitations": "The coverage band describes the single holotype skeleton. It is an editorial evidence summary, not a published completeness percentage.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
+    }
+  }
+}

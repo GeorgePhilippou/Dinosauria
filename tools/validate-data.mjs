@@ -7,19 +7,19 @@ const files = [
   'data/nhm-imported-dinosaurs.js',
   'data/pbdb-enrichment.js',
   'data/wiki-enrichment.js',
-  'data/ai-enriched-profiles.js',
-  'data/ai-fossil-records.js',
-  'data/ai-curated-evidence.js',
+  'data/legacy/ai-enriched-profiles.js',
+  'data/legacy/ai-fossil-records.js',
+  'data/legacy/ai-curated-evidence.js',
   'data/content-overrides.js',
   'data/curated-content.js',
-  'data/scientific-reviews.js',
-  'data/scientific-baseline-audit.js',
-  'data/review-batches/reviews-a-c.js',
-  'data/review-batches/reviews-d-l.js',
-  'data/review-batches/reviews-m-r.js',
-  'data/review-batches/reviews-s-z.js',
-  'data/review-batches/reviews-s-z-remainder.js',
-  'data/review-batches/merge-reviews.js'
+  'data/legacy/scientific-reviews.js',
+  'data/legacy/scientific-baseline-audit.js',
+  'data/legacy/review-batches/reviews-a-c.js',
+  'data/legacy/review-batches/reviews-d-l.js',
+  'data/legacy/review-batches/reviews-m-r.js',
+  'data/legacy/review-batches/reviews-s-z.js',
+  'data/legacy/review-batches/reviews-s-z-remainder.js',
+  'data/legacy/review-batches/merge-reviews.js'
 ];
 
 const win = {};

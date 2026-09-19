@@ -1,0 +1,153 @@
+{
+  "id": "austrosaurus",
+  "name": "Austrosaurus",
+  "profile": {
+    "overview": [
+      "Austrosaurus mckillopi was a titanosaurian sauropod from the Early Cretaceous of Queensland, Australia, living approximately 106–100 million years ago during the Albian stage. Estimated at about 15 metres in length, it is known from dorsal vertebrae and limb remains recovered from the Allaru Mudstone of the Eromanga Basin. It was the first sauropod formally described from Australia.",
+      "Named by Longman in 1933, Austrosaurus is placed within Titanosauria (Somphospondyli), making it one of the earlier known titanosaurs from the Southern Hemisphere. The fragmentary nature of its remains has made its precise phylogenetic position uncertain, but it contributes important evidence for the presence of titanosaurs in Australia during the Cretaceous. Its discovery helped establish that large sauropods had colonised the Australian continent by the mid-Cretaceous."
+    ],
+    "fossilSites": [
+      {
+        "name": "Allaru Mudstone (Rolling Downs Group)",
+        "region": "Queensland, Australia",
+        "lat": -22.5,
+        "lon": 143.5,
+        "note": "Dorsal vertebrae and limb elements of Austrosaurus were recovered from this formation in the Eromanga Basin, representing the first Australian sauropod formally described from the country."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Macronaria",
+        "Titanosauriformes",
+        "Somphospondyli",
+        "Titanosauria",
+        "Austrosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Titanosauria",
+          "label": "Lithostrotia"
+        },
+        {
+          "from": "Somphospondyli",
+          "label": "Euhelopodidae"
+        },
+        {
+          "from": "Titanosauria",
+          "label": "Diamantinasaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Austrosaurus mckillopi was described by Heber Longman in 1933 from vertebrae and limb bones found in the Allaru Mudstone of Queensland. The generic name means 'south lizard', referring to its Southern Hemisphere location. The species name honours Robert McKillop, on whose property the original fossils were found. It was the first sauropod formally named from Australia."
+      },
+      {
+        "title": "Anatomy",
+        "body": "The known material of Austrosaurus is limited to several dorsal vertebrae and limb elements. The vertebrae display the internal chambers and struts typical of titanosaurian spondyli, supporting its classification within this group. The overall proportions suggest a large-bodied animal, though precise size estimates are constrained by the incompleteness of the material. Comparison with other titanosaurs indicates an estimated length of approximately 15 metres."
+      },
+      {
+        "title": "Significance",
+        "body": "As the first scientifically described Australian sauropod, Austrosaurus has historical significance in the study of Australian dinosaurs. It demonstrates that titanosaurs were present in Australia during the Albian stage, consistent with the hypothesis that titanosaurs dispersed across Gondwana before the full separation of the southern continents. More recently described Australian titanosaurs such as Diamantinasaurus and Savannasaurus have expanded knowledge of this clade in Australia."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "During the Early Cretaceous, the Eromanga Basin was covered by the vast Eromanga Sea, a shallow inland sea that divided Australia into eastern and western landmasses. Austrosaurus inhabited the riverine and deltaic environments bordering this sea. The Allaru Mudstone has also yielded the remains of marine reptiles and fish, reflecting the proximity of the terrestrial ecosystem to these marine waters."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Austrosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/austrosaurus.html"
+      },
+      {
+        "label": "PBDB: Austrosaurus occurrence data",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38675"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Allaru Mudstone (Rolling Downs Group), Queensland, Australia",
+    "material": "Estimated at about 15 metres in length, it is known from dorsal vertebrae and limb remains recovered from the Allaru Mudstone of the Eromanga Basin.",
+    "completeness": "Fragmentary material only; 1 PBDB occurrence records.",
+    "paleo": "Dorsal vertebrae and limb elements of Austrosaurus were recovered from this formation in the Eromanga Basin, representing the first Australian sauropod formally described from the country.",
+    "evidence": "Named by Longman in 1933, Austrosaurus is placed within Titanosauria (Somphospondyli), making it one of the earlier known titanosaurs from the Southern Hemisphere."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "about 105-100 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Neosauropoda",
+        "Macronaria",
+        "Somphospondyli"
+      ],
+      "description": "Austrosaurus mckillopi was a somphospondylan sauropod from the upper Albian Allaru Mudstone of Queensland, Australia. The type is a short series of vertebrae with ribs; many later referrals cannot be assumed to belong to it.",
+      "facts": [
+        "The holotype comprises six presacral vertebrae and associated ribs.",
+        "Modern reassessment places it near, but not securely within, Titanosauria."
+      ],
+      "length": null
+    },
+    "ageReviewNote": "The Allaru Mudstone type horizon is late Albian.",
+    "sources": [
+      {
+        "type": "systematic-revision",
+        "citation": "Poropat et al. (2017), Reappraisal of Austrosaurus mckillopi",
+        "url": "https://doi.org/10.1080/03115518.2017.1334826"
+      },
+      {
+        "type": "continental-review",
+        "citation": "Poropat et al. (2023), An annotated checklist of Australian Mesozoic tetrapods",
+        "url": "https://doi.org/10.1080/03115518.2023.2228367"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: austrosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/austrosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "The taxon is very incomplete.",
+      "Historical referred material is not securely attributable.",
+      "Its precise somphospondylan position varies."
+    ],
+    "evidence": {
+      "score": 30,
+      "material": "Six presacral vertebrae and associated ribs.",
+      "formations": [
+        "Allaru Mudstone"
+      ],
+      "confidenceLimit": "Axial fragments provide almost no direct evidence for whole-body size, skull or limbs.",
+      "uncertainties": [
+        "The taxon is very incomplete.",
+        "Historical referred material is not securely attributable.",
+        "Its precise somphospondylan position varies."
+      ],
+      "summary": "Austrosaurus mckillopi was a somphospondylan sauropod from the upper Albian Allaru Mudstone of Queensland, Australia. The type is a short series of vertebrae with ribs; many later referrals cannot be assumed to belong to it.",
+      "sourceBasis": "Poropat et al. (2017), Reappraisal of Austrosaurus mckillopi; Poropat et al. (2023), An annotated checklist of Australian Mesozoic tetrapods; Natural History Museum, Dino Directory: austrosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

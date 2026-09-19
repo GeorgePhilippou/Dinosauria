@@ -1,0 +1,140 @@
+{
+  "id": "udanoceratops",
+  "name": "Udanoceratops",
+  "profile": {
+    "overview": [
+      "Udanoceratops ('Udan Sayr horned face') was a large protoceratopsid or neoceratopsian dinosaur from the Late Cretaceous of Mongolia, living approximately 81–75 million years ago during the Campanian stage. It is known from a partial skull and some postcranial elements collected in the Gobi Desert, and is estimated to have been among the largest members of the protoceratopsid or non-ceratopsid neoceratopsian group. Unusually for a 'ceratopsian' (horned dinosaur), Udanoceratops had a reduced or absent head frill.",
+      "Named by Kurzanov in 1992, Udanoceratops tschizhovi is scientifically interesting as a large-bodied basal neoceratopsian from Asia, which contrasts with the more derived and often large-frilled ceratopsid dinosaurs known from North America. Its reduced frill challenges assumptions about frill evolution within Ceratopsia, and its large size for a non-ceratopsid neoceratopsian makes it notable in understanding the diversity of Asian horned dinosaurs."
+    ],
+    "fossilSites": [
+      {
+        "name": "Djadochta Formation equivalents",
+        "region": "Ömnögovi, Mongolia",
+        "lat": 43.5,
+        "lon": 103,
+        "note": "Campanian-aged Gobi Desert deposits from which Udanoceratops material was recovered."
+      },
+      {
+        "name": "Udan Sayr locality",
+        "region": "Mongolia",
+        "lat": 44,
+        "lon": 104,
+        "note": "The type locality referenced in the genus name, a productive site in Mongolia's Gobi region."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ceratopsia",
+        "Neoceratopsia",
+        "Udanoceratops"
+      ],
+      "sideBranches": [
+        {
+          "from": "Neoceratopsia",
+          "label": "Protoceratopsidae"
+        },
+        {
+          "from": "Neoceratopsia",
+          "label": "Coronosauria (Ceratopsidae)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Udanoceratops tschizhovi was named by Sergei Kurzanov in 1992 from specimens collected in the Gobi Desert of Mongolia. The generic name references the Udan Sayr locality where it was found, and the species name honours a Russian palaeontologist. The material includes a partial skull that reveals several informative anatomical features despite its incompleteness."
+      },
+      {
+        "title": "Frill Reduction",
+        "body": "One of the most notable features of Udanoceratops is its very poorly developed or entirely absent head frill, despite being a member of Ceratopsia, the group most famous for elaborate frills and horns. This suggests that frill elaboration was not a universal trend in Ceratopsia, and that different lineages evolved varying degrees of cranial ornamentation. Udanoceratops may have relied on other means of display or species recognition."
+      },
+      {
+        "title": "Size and Body Plan",
+        "body": "Udanoceratops appears to have been relatively large for a non-ceratopsid neoceratopsian, potentially reaching 3–4 metres in length, though the incomplete material makes precise estimates uncertain. Its body plan would have been broadly similar to Protoceratops — a stocky, quadrupedal herbivore with a parrot-like beak for cropping vegetation — but substantially larger."
+      },
+      {
+        "title": "Asian Ceratopsian Diversity",
+        "body": "The Campanian of Mongolia is remarkably rich in ceratopsian dinosaurs, including the abundant Protoceratops andrewsi and the horned Magnirostris and Turanoceratops from Central Asia. Udanoceratops adds to this diversity by representing a large-bodied form with unusual cranial proportions. Understanding the relationships among these Asian taxa is important for reconstructing the origin and dispersal of ceratopsians into North America."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Udanoceratops profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/udanoceratops.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Djadochta Formation equivalents, Ömnögovi, Mongolia; Udan Sayr locality, Mongolia",
+    "material": "The material includes a partial skull that reveals several informative anatomical features despite its incompleteness.",
+    "completeness": "Partial material known; 1 PBDB occurrence records.",
+    "paleo": "Campanian-aged Gobi Desert deposits from which Udanoceratops material was recovered.",
+    "evidence": "Named by Kurzanov in 1992, Udanoceratops tschizhovi is scientifically interesting as a large-bodied basal neoceratopsian from Asia, which contrasts with the more derived and often large-frilled ceratopsid dinosaurs known from North America."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Campanian, about 84-72 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ceratopsia",
+        "Leptoceratopsidae"
+      ],
+      "description": "Udanoceratops tschizhovi was a large leptoceratopsid from the Djadokhta-equivalent deposits of Mongolia, founded on a large, incomplete skull with limited postcranial referrals.",
+      "facts": [
+        "The skull supports a large-bodied leptoceratopsid but not a precise whole-body size.",
+        "Quadrupedal versus mixed locomotion and species ecology remain uncertain."
+      ]
+    },
+    "ageReviewNote": "The type is Campanian; formation correlation does not support a narrow point date.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Kurzanov (1992), original description of Udanoceratops",
+        "url": "https://naturalhistory.si.edu/sites/default/files/media/translated_publications/Kurzanov_92.pdf"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Xu et al. (2010), ceratopsian phylogeny including Udanoceratops",
+        "url": "https://doi.org/10.1371/journal.pone.0013835"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: udanoceratops",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/udanoceratops.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Postcranial referrals and formation identity need renewed study."
+    ],
+    "evidence": {
+      "score": 29,
+      "material": "One large incomplete skull with sparse referred postcranium.",
+      "formations": "Djadokhta-equivalent deposits, Mongolia.",
+      "confidenceLimit": "No exact length, mass or habitual gait is established.",
+      "uncertainties": [
+        "postcranial referrals",
+        "formation",
+        "locomotion"
+      ],
+      "summary": "Udanoceratops tschizhovi was a large leptoceratopsid from the Djadokhta-equivalent deposits of Mongolia, founded on a large, incomplete skull with limited postcranial referrals.",
+      "sourceBasis": "Kurzanov (1992), original description of Udanoceratops; Xu et al. (2010), ceratopsian phylogeny including Udanoceratops; Natural History Museum Dino Directory: udanoceratops"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

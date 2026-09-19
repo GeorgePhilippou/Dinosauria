@@ -1,0 +1,173 @@
+{
+  "id": "edmontonia",
+  "name": "Edmontonia",
+  "profile": {
+    "overview": [
+      "Edmontonia was a large armoured nodosaurid dinosaur from the Late Cretaceous of western North America, living approximately 83–66 million years ago during the Campanian and Maastrichtian stages. Estimated at around 6–7 metres in length (though NHM lists specimens around 4 metres, possibly referring to smaller individuals), it was a quadrupedal herbivore covered in bony plates and spikes, including prominent shoulder spines that projected outward and forward. It is named after the Edmonton Formation of Alberta, where the first specimens were found.",
+      "Edmontonia was described by Charles M. Sternberg in 1928 and belongs to Nodosauridae — armoured dinosaurs that, unlike ankylosaurs, lacked a tail club. Its fossils have been recovered across a broad geographic range from Alaska to Texas and from Alberta to Montana, suggesting it was a widespread and ecologically successful taxon. PBDB records 16 occurrences across the USA and Canada, placing it among the better-documented nodosaurids."
+    ],
+    "fossilSites": [
+      {
+        "name": "Dinosaur Park Formation",
+        "region": "Alberta, Canada",
+        "lat": 51.4,
+        "lon": -111.5,
+        "note": "The primary Canadian locality; multiple specimens from this Campanian formation document both cranial and postcranial anatomy."
+      },
+      {
+        "name": "Judith River Formation",
+        "region": "Montana, USA",
+        "lat": 48,
+        "lon": -107.5,
+        "note": "Well-documented occurrences from Montana include material used in anatomical comparisons between the two recognised Edmontonia species."
+      },
+      {
+        "name": "Horseshoe Canyon / St. Mary River Formations",
+        "region": "Alberta, Canada",
+        "lat": 50.5,
+        "lon": -112.5,
+        "note": "Later occurrences from Early Maastrichtian formations extend Edmontonia's temporal range toward the end of the Cretaceous."
+      },
+      {
+        "name": "Matanuska Formation",
+        "region": "Alaska, USA",
+        "lat": 61.5,
+        "lon": -148,
+        "note": "Fragmentary nodosaurid material from Alaska tentatively referred to Edmontonia, indicating a possible northernmost extent of this genus."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Nodosauridae",
+        "Panoplosaurini",
+        "Edmontonia"
+      ],
+      "sideBranches": [
+        {
+          "from": "Nodosauridae",
+          "label": "Panoplosaurus"
+        },
+        {
+          "from": "Nodosauridae",
+          "label": "Sauropelta"
+        },
+        {
+          "from": "Ankylosauria",
+          "label": "Ankylosauridae (e.g. Ankylosaurus)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Edmontonia was described by Charles M. Sternberg in 1928, based on material from the Edmonton Formation (now largely reassigned to the Horseshoe Canyon Formation) of Alberta. Two species are recognised: E. longiceps and E. rugosidens, differing primarily in skull proportions and armour configuration. Sternberg's original description was part of a broader effort to document the diverse dinosaur fauna of the Edmonton Group."
+      },
+      {
+        "title": "Armour and Defence",
+        "body": "Edmontonia was protected by a mosaic of bony osteoderms across its back, flanks, and tail, supplemented by large conical shoulder spines that projected forward and outward. These lateral spines are thought to have deterred predators or been used in intraspecific confrontations; their forward-angling would have been effective in a broadside defensive posture against a theropod attack."
+      },
+      {
+        "title": "Ecology and Diet",
+        "body": "As a nodosaurid, Edmontonia was a committed herbivore with a narrow beaked snout suggesting selective low-browsing behaviour on ferns, cycads, and ground-level vegetation. Unlike ankylosaurids, nodosaurids relied entirely on passive armour and the spines for defence, lacking any active tail weapon. Edmontonia coexisted with hadrosaurs, ceratopsids, and tyrannosaurs across its range."
+      },
+      {
+        "title": "Classification Within Nodosauridae",
+        "body": "Edmontonia is placed within Panoplosaurini, a clade that also includes Panoplosaurus. Nodosauridae and Ankylosauridae together form Ankylosauria, the armoured dinosaur group nested within Thyreophora. The distinction between the two families primarily rests on the presence (Ankylosauridae) or absence (Nodosauridae) of a bony tail club."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Edmontonia profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/edmontonia.html"
+      },
+      {
+        "label": "Wikipedia: Edmontonia",
+        "url": "https://en.wikipedia.org/wiki/Edmontonia"
+      },
+      {
+        "label": "PBDB: Edmontonia occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Edmontonia&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Dinosaur Park Formation, Alberta, Canada; Judith River Formation, Montana, USA; Horseshoe Canyon / St. Mary River Formations, Alberta, Canada; Matanuska Formation, Alaska, USA",
+    "material": "Estimated at around 6–7 metres in length (though NHM lists specimens around 4 metres, possibly referring to smaller individuals), it was a quadrupedal herbivore covered in bony plates and spikes, including prominent shoulder spines that projected outward and forward.",
+    "completeness": "Skeletal material known; 16 PBDB occurrence records.",
+    "paleo": "The primary Canadian locality; multiple specimens from this Campanian formation document both cranial and postcranial anatomy.",
+    "evidence": "Edmontonia was described by Charles M."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian-early Maastrichtian, roughly 73-69 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Nodosauridae"
+      ],
+      "description": "Edmontonia longiceps was a large quadrupedal nodosaurid from the Horseshoe Canyon Formation of Alberta. It is known from a skull and several partial skeletons with armour, although much material historically assigned to Edmontonia belongs to other species or cannot be identified that narrowly.",
+      "facts": [
+        "It lacked the bony tail club of ankylosaurids.",
+        "Large shoulder spines and other osteoderms are documented, but complete armour layouts combine multiple individuals.",
+        "E. rugosidens is commonly separated as Panoplosaurus or treated in other revised combinations rather than automatically included here."
+      ]
+    },
+    "ageReviewNote": "Age tied to the Horseshoe Canyon Formation; species-level referral outside it requires direct anatomical support.",
+    "sources": [
+      {
+        "type": "nodosaurid-revision",
+        "citation": "Arbour et al. (2016), Systematics, evolution, and biogeography of ankylosaurid dinosaurs",
+        "url": "https://doi.org/10.1080/14772019.2015.1059985"
+      },
+      {
+        "type": "phylogenetic-nomenclature",
+        "citation": "Madzia et al. (2021), The phylogenetic nomenclature of ornithischian dinosaurs",
+        "url": "https://doi.org/10.7717/peerj.12362"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Edmontonia",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Edmontonia"
+      }
+    ],
+    "residualUncertainty": [
+      "Historic referrals have mixed several nodosaurid taxa.",
+      "Armour arrangement and exact formation-level ranges remain incomplete."
+    ],
+    "evidence": {
+      "score": 60,
+      "material": "Diagnostic skull and several partial skeletons with osteoderms.",
+      "formations": [
+        "Horseshoe Canyon Formation"
+      ],
+      "confidenceLimit": "High for nodosaurid identity; moderate for complete armour pattern and hypodigm.",
+      "uncertainties": [
+        "historic referrals",
+        "osteoderm position",
+        "species boundaries"
+      ],
+      "summary": "Edmontonia longiceps was a large quadrupedal nodosaurid from the Horseshoe Canyon Formation of Alberta. It is known from a skull and several partial skeletons with armour, although much material historically assigned to Edmontonia belongs to other species or cannot be identified that narrowly.",
+      "sourceBasis": "Arbour et al. (2016), Systematics, evolution, and biogeography of ankylosaurid dinosaurs; Madzia et al. (2021), The phylogenetic nomenclature of ornithischian dinosaurs; Paleobiology Database taxon and occurrence context for Edmontonia"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

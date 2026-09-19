@@ -1,0 +1,136 @@
+{
+  "id": "amargasaurus",
+  "name": "Amargasaurus",
+  "profile": {
+    "overview": [
+      "Amargasaurus cazaui was a distinctive Early Cretaceous diplodocoid sauropod from Argentina (~130 Ma), with two parallel rows of tall neural spines running along its neck and back — the most dramatic spinal ornamentation of any sauropod. The spines could have supported a sail-like skin web, individual keratinous spines like a porcupine, or simply been covered in muscle — no soft-tissue evidence directly confirms which.",
+      "At around nine metres Amargasaurus was modest-sized for a sauropod, making it more manoeuvrable than the giant Morrison Formation species. Its discovery in 1991 provided important information about the Early Cretaceous sauropod fauna of South America, a continent increasingly isolated from other landmasses as Pangaea continued to break apart."
+    ],
+    "fossilSites": [
+      {
+        "name": "La Amarga Formation",
+        "region": "Neuquén Province, Patagonia, Argentina",
+        "lat": -37.5,
+        "lon": -68,
+        "note": "Early Cretaceous (Barremian) continental deposits with the Amargasaurus holotype — a near-complete specimen."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Diplodocoidea",
+        "Dicraeosauridae",
+        "Amargasaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Dicraeosauridae",
+          "label": "Dicraeosaurus (Tanzania)"
+        },
+        {
+          "from": "Diplodocoidea",
+          "label": "Diplodocidae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Leonardo Salgado and José Bonaparte described Amargasaurus cazaui in 1991 from a nearly complete specimen found near the La Amarga stream in Neuquén Province. The spectacular neck spines — reaching up to 60 cm above the vertebrae — were immediately recognised as unique among sauropods."
+      },
+      {
+        "title": "Function of the spines",
+        "body": "Three main hypotheses: (1) a skin-covered sail for thermoregulation and/or display, analogous to Ouranosaurus; (2) individually keratinous spines forming a porcupine-like defensive array; (3) heavily muscled bases for neck movement control. Finite element analysis suggests the spines could not have been actively moved; the sail or defensive array hypotheses are currently most discussed. No direct soft-tissue evidence has been found."
+      },
+      {
+        "title": "Ecological context",
+        "body": "The La Amarga Formation records a period when South America was becoming more isolated. Amargasaurus is a dicraeosaurid — a family with long neural spines also known from Tanzania (Dicraeosaurus) — suggesting earlier global distribution of this lineage before continental separation. The Early Cretaceous Patagonian fauna included smaller dinosaurs and crocodylomorphs alongside the larger sauropods."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Amargasaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/amargasaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "La Amarga Formation, Argentina",
+    "material": "Partial skeleton including vertebrae with distinctive paired neck and back spines.",
+    "completeness": "Partial but highly diagnostic",
+    "paleo": "Early Cretaceous South American terrestrial deposits.",
+    "evidence": "Elongate neural spines provide the key evidence for its unusual neck and back profile."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "about 130-120 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Neosauropoda",
+        "Diplodocoidea",
+        "Dicraeosauridae"
+      ],
+      "description": "Amargasaurus cazaui was a dicraeosaurid sauropod from the La Amarga Formation of Argentina. One partial skeleton preserves much of the vertebral column, including paired, extremely tall cervical neural spines, plus skull and limb elements.",
+      "facts": [
+        "The holotype is relatively complete for a dicraeosaurid but is not a full articulated skeleton.",
+        "The neural spines supported soft tissue, but competing sail, sheath and display reconstructions are not decisively resolved."
+      ],
+      "massKg": null
+    },
+    "ageReviewNote": "The Puesto Antigual Member of the La Amarga Formation is Barremian-early Aptian.",
+    "sources": [
+      {
+        "type": "spine-histology",
+        "citation": "Cerda et al. (2022), Osteohistology and palaeobiological implications of the neural spines of Amargasaurus",
+        "url": "https://doi.org/10.1111/joa.13659"
+      },
+      {
+        "type": "comparative-context",
+        "citation": "Gallina et al. (2019), A new long-spined dinosaur and the diversity of dicraeosaurids",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6362061/"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: amargasaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/amargasaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Only one principal skeleton is known.",
+      "The soft-tissue covering and function of the neck spines are unknown."
+    ],
+    "evidence": {
+      "score": 82,
+      "material": "One relatively complete partial skeleton with fragmentary skull and much of the axial column.",
+      "formations": [
+        "La Amarga Formation"
+      ],
+      "confidenceLimit": "Core anatomy is strong for one individual; external appearance and exact size remain uncertain.",
+      "uncertainties": [
+        "Only one principal skeleton is known.",
+        "The soft-tissue covering and function of the neck spines are unknown."
+      ],
+      "summary": "Amargasaurus cazaui was a dicraeosaurid sauropod from the La Amarga Formation of Argentina. One partial skeleton preserves much of the vertebral column, including paired, extremely tall cervical neural spines, plus skull and limb elements.",
+      "sourceBasis": "Cerda et al. (2022), Osteohistology and palaeobiological implications of the neural spines of Amargasaurus; Gallina et al. (2019), A new long-spined dinosaur and the diversity of dicraeosaurids; Natural History Museum, Dino Directory: amargasaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

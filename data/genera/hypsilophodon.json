@@ -1,0 +1,131 @@
+{
+  "id": "hypsilophodon",
+  "name": "Hypsilophodon",
+  "profile": {
+    "overview": [
+      "Hypsilophodon foxii was a small, fleet-footed ornithopod from the Early Cretaceous of southern England (~130–120 Ma), about two metres long. For over a century it was depicted as a tree-climber — based on a misinterpretation of its foot anatomy — before modern analysis confirmed it was a fast ground-runner. Dozens of individuals from a single site on the Isle of Wight suggest it lived or gathered in groups.",
+      "Hypsilophodon's self-sharpening, high-ridged cheek teeth gave it its name and allowed it to process a wide range of tough plant material. It coexisted with Baryonyx and Iguanodon in the Early Cretaceous Wessex ecosystem and represents the basal ornithopod body plan — bipedal, fast, medium-sized — that persisted from the Jurassic into the Cretaceous."
+    ],
+    "fossilSites": [
+      {
+        "name": "Wessex Formation",
+        "region": "Isle of Wight, England, UK",
+        "lat": 50.6,
+        "lon": -1.3,
+        "note": "Barremian fluvial deposits with dozens of Hypsilophodon individuals from a single horizon, suggesting mass death or gregarious behaviour."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hypsilophodon"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ornithopoda",
+          "label": "Iguanodontia"
+        },
+        {
+          "from": "Ornithopoda",
+          "label": "Dryosaurus and relatives"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "The tree-climber myth",
+        "body": "Thomas Henry Huxley and John Hulke described Hypsilophodon in 1869. A 1974 paper by Galton proposed it could climb trees based on the reversed hallux (first toe) and grasping foot — citing parallels with modern tree-climbing birds. This interpretation was widely accepted until Biomechanical analysis in the 1970s–80s showed the foot anatomy was inconsistent with arboreal grasping. Modern analyses confirm Hypsilophodon was a fully terrestrial runner."
+      },
+      {
+        "title": "Anatomy and locomotion",
+        "body": "Long hindlimbs relative to the body, a stiff tail and long lower leg segments indicate a fast runner. The self-sharpening ridged cheek teeth — which give the animal its name — processed vegetation by precise occlusion rather than the grinding batteries of hadrosaurs. The small size and agility would have been its primary defence against predators."
+      },
+      {
+        "title": "Isle of Wight bonebed",
+        "body": "A single layer in the Wessex Formation on the Isle of Wight has yielded over 20 Hypsilophodon individuals of all ages. The cause of this accumulation — mass drowning, drought at a waterhole, or predator aggregation — is unknown, but the concentration confirms that Hypsilophodon occurred in social groups."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Hypsilophodon profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/hypsilophodon.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Wessex Formation, Isle of Wight, England",
+    "material": "Multiple skeletons of a small ornithischian.",
+    "completeness": "Well represented",
+    "paleo": "Early Cretaceous floodplain environments of the Wealden record.",
+    "evidence": "Light limbs, small skulls and herbivorous dentition support a small agile ornithischian lifestyle."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "Barremian, roughly 126-125 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Neornithischia",
+        "Ornithopoda"
+      ],
+      "description": "Hypsilophodon foxii was a small bipedal herbivorous ornithopod from the Wessex Formation of the Isle of Wight. Numerous skulls and skeletons, many from a restricted locality, document a lightly built runner with a stiffened tail.",
+      "facts": [
+        "The old idea that Hypsilophodon climbed trees is not supported by modern anatomy.",
+        "There is no bony body armour; supposed plates were misidentified material.",
+        "Its hands and feet are consistent with terrestrial bipedal locomotion."
+      ]
+    },
+    "ageReviewNote": "The main Hypsilophodon bed is Barremian, close to 126-125 Ma.",
+    "sources": [
+      {
+        "type": "anatomical-monograph",
+        "citation": "Galton (1974), The ornithischian dinosaur Hypsilophodon from the Wealden of the Isle of Wight",
+        "url": "https://doi.org/10.5962/p.313819"
+      },
+      {
+        "type": "ornithopod-review",
+        "citation": "Norman et al. (2004), Basal Ornithopoda",
+        "url": "https://doi.org/10.1525/california/9780520242098.003.0018"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Hypsilophodon",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Hypsilophodon"
+      }
+    ],
+    "residualUncertainty": [
+      "Some historic referred material and exact neornithischian position remain under review.",
+      "Specific vegetation and social organisation are unknown."
+    ],
+    "evidence": {
+      "score": 90,
+      "material": "Numerous skulls and partial-to-substantial skeletons from multiple individuals.",
+      "formations": [
+        "Wessex Formation"
+      ],
+      "confidenceLimit": "Very high for anatomy, age and bipedality; high for herbivory; low for social behaviour.",
+      "uncertainties": [
+        "historic referrals",
+        "fine phylogeny",
+        "social behaviour"
+      ],
+      "summary": "Hypsilophodon foxii was a small bipedal herbivorous ornithopod from the Wessex Formation of the Isle of Wight. Numerous skulls and skeletons, many from a restricted locality, document a lightly built runner with a stiffened tail.",
+      "sourceBasis": "Galton (1974), The ornithischian dinosaur Hypsilophodon from the Wealden of the Isle of Wight; Norman et al. (2004), Basal Ornithopoda; Paleobiology Database taxon and occurrence context for Hypsilophodon"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

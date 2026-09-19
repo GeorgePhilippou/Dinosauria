@@ -1,0 +1,129 @@
+{
+  "id": "styracosaurus",
+  "name": "Styracosaurus",
+  "profile": {
+    "overview": [
+      "Styracosaurus albertensis (\"spiked lizard\") was a centrosaurine ceratopsid from the Campanian of Alberta (~75 Ma), bearing one of the most elaborate frill and horn arrays of any ceratopsian: a large nasal horn up to 60 cm long, four to six long curved spikes projecting from the frill margin, and smaller frill ornaments. Its elaborate display structures make it one of the most recognisable ceratopsids.",
+      "Bone beds in the Dinosaur Park Formation preserve dozens of Styracosaurus individuals together — one of the best-documented centrosaurine bone beds. These mass-death assemblages are interpreted as herd drownings during river crossings, analogous to modern wildebeest migrations, and provide population-level data on growth rates, health and demographics."
+    ],
+    "fossilSites": [
+      {
+        "name": "Dinosaur Park Formation",
+        "region": "Alberta, Canada",
+        "lat": 50.7,
+        "lon": -111.5,
+        "note": "Campanian coastal plain deposits with centrosaurine bone beds including Styracosaurus mass-death assemblages of dozens of individuals."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Marginocephalia",
+        "Ceratopsia",
+        "Ceratopsidae",
+        "Centrosaurinae",
+        "Styracosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Centrosaurinae",
+          "label": "Centrosaurus"
+        },
+        {
+          "from": "Centrosaurinae",
+          "label": "Pachyrhinosaurus"
+        },
+        {
+          "from": "Ceratopsidae",
+          "label": "Chasmosaurinae (Triceratops etc.)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and horn array",
+        "body": "Named by Lambe in 1913 from Alberta material. The nasal horn is the primary weapon; the frill spikes are too slender and curved for combat and functioned as display structures. Different individuals show variation in frill spike number and curvature — probably individual variation, age variation or mild sexual dimorphism. A second species, S. ovatus from the Two Medicine Formation of Montana, has a different frill spike arrangement."
+      },
+      {
+        "title": "Bone beds and herding",
+        "body": "Centrosaurine bone beds — where dozens to thousands of individuals accumulated together — are a characteristic feature of the Dinosaur Park Formation. The leading hypothesis is catastrophic mass mortality during seasonal migrations: herds attempting to cross flooded rivers were swept away and deposited as bone concentrations on the downstream side. The demographic profiles of Styracosaurus bone beds are consistent with a mixed-age herd."
+      },
+      {
+        "title": "Frill function",
+        "body": "The elaborate frill ornamentation of Styracosaurus — multiple long curved spikes plus smaller accessory ornaments — is disproportionate to any purely defensive function. Sexual selection for increasingly elaborate display structures is the most widely supported hypothesis: the frill acted as a billboard for species recognition and mate quality assessment, analogous to peacock tail feathers or deer antlers."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Styracosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/styracosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Dinosaur Park Formation, Alberta, Canada",
+    "material": "Skulls, skeletons and bonebed material.",
+    "completeness": "Well represented",
+    "paleo": "Late Cretaceous western Canadian coastal plain ecosystems.",
+    "evidence": "Nasal horn, frill spikes and bonebeds document centrosaurine ceratopsid diversity."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian, about 76-75 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ceratopsia",
+        "Ceratopsidae",
+        "Centrosaurinae"
+      ],
+      "description": "Styracosaurus albertensis was a centrosaurine ceratopsid from the Dinosaur Park Formation, known from skulls, partial skeletons and bonebed material.",
+      "facts": [
+        "Its long nasal horn and frill spikes are directly preserved but vary among individuals.",
+        "Rubeosaurus ovatus has been proposed as a second Styracosaurus species, a synonymy that remains debated."
+      ]
+    },
+    "ageReviewNote": "The species is restricted to late Campanian Dinosaur Park Formation, near 76-75 Ma.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Ryan et al. (2007), revision of Styracosaurus albertensis type-locality material",
+        "url": "https://doi.org/10.1671/0272-4634(2007)27%5B944:AROTLC%5D2.0.CO;2"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Wilson, Ryan & Evans (2020), centrosaurine variation and Rubeosaurus",
+        "url": "https://doi.org/10.1098/rsos.200284"
+      }
+    ],
+    "residualUncertainty": [
+      "Frill variation and Rubeosaurus synonymy remain debated."
+    ],
+    "evidence": {
+      "score": 91,
+      "material": "Multiple skulls, partial skeletons and multi-individual bonebeds.",
+      "formations": "Dinosaur Park Formation, Alberta, Canada.",
+      "confidenceLimit": "Horn function and keratinous extensions are unknown.",
+      "uncertainties": [
+        "Rubeosaurus status",
+        "ornament variation"
+      ],
+      "summary": "Styracosaurus albertensis was a centrosaurine ceratopsid from the Dinosaur Park Formation, known from skulls, partial skeletons and bonebed material.",
+      "sourceBasis": "Ryan et al. (2007), revision of Styracosaurus albertensis type-locality material; Wilson, Ryan & Evans (2020), centrosaurine variation and Rubeosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

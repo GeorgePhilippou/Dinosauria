@@ -1,0 +1,146 @@
+{
+  "id": "protarchaeopteryx",
+  "name": "Protarchaeopteryx",
+  "profile": {
+    "overview": [
+      "Protarchaeopteryx (meaning 'before Archaeopteryx') was a small feathered dinosaur from the Early Cretaceous of Liaoning Province, China, living approximately 126–120 million years ago. Named by Ji and Ji in 1997, it is estimated at around 2 metres in length and is known from the Yixian Formation, one of the most famous Lagerstätten for feathered dinosaurs. It bore large pennaceous feathers on its arms and a fan of tail feathers, but its wings were too short and poorly developed for flight.",
+      "Protarchaeopteryx is classified within Oviraptorosauria by the PBDB, though its exact placement—whether it is an oviraptorosaur, a troodontid, or a very basal paravian—has been debated. It is scientifically significant as one of the earliest described feathered non-avian dinosaurs from the Yixian beds, contributing to the understanding that complex pennaceous feathers preceded the evolution of powered flight in dinosaurs."
+    ],
+    "fossilSites": [
+      {
+        "name": "Yixian Formation",
+        "region": "Liaoning, China",
+        "lat": 41.5,
+        "lon": 120.8,
+        "note": "World-famous Early Cretaceous Lagerstätte preserving exceptional feather impressions on non-avian dinosaurs."
+      },
+      {
+        "name": "Sihetun locality",
+        "region": "Liaoning, China",
+        "lat": 41.6,
+        "lon": 120.8,
+        "note": "Key fossil-bearing horizon within the Yixian Formation where many feathered dinosaur specimens have been recovered."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Tetanurae",
+        "Coelurosauria",
+        "Maniraptora",
+        "Oviraptorosauria",
+        "Protarchaeopteryx"
+      ],
+      "sideBranches": [
+        {
+          "from": "Oviraptorosauria",
+          "label": "Oviraptoridae"
+        },
+        {
+          "from": "Maniraptora",
+          "label": "Dromaeosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Protarchaeopteryx robusta was named by Qiang Ji and Shu-An Ji in 1997 as part of a wave of feathered dinosaur descriptions from Liaoning following the opening of the Yixian Formation to scientific study. The name was intended to suggest a form ancestral to or antecedent of the bird-like Archaeopteryx, though the two are not directly related."
+      },
+      {
+        "title": "Feathers and Flight Capability",
+        "body": "The preserved feathers of Protarchaeopteryx include symmetrical pennaceous feathers on the arms and a tail fan—features associated with display rather than aerodynamic flight. The arm feathers were too short relative to body size to generate meaningful lift, suggesting this animal was a ground dweller that may have used its feathers for display, brooding, or thermoregulation."
+      },
+      {
+        "title": "Phylogenetic Debate",
+        "body": "The position of Protarchaeopteryx within theropod phylogeny has been disputed. Some analyses have placed it as a basal oviraptorosaur, others as a primitive troodontid or even a basal paravian. The debate reflects broader uncertainties about the relationships among early Cretaceous feathered theropods from the Yixian Formation."
+      },
+      {
+        "title": "Significance for Feather Evolution",
+        "body": "Together with Caudipteryx and Sinosauropteryx, Protarchaeopteryx was one of the specimens that fundamentally changed the understanding of feather evolution in the late 1990s. These discoveries demonstrated conclusively that pennaceous feathers evolved in non-flying dinosaurs before birds achieved powered flight."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Protarchaeopteryx profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/protarchaeopteryx.html"
+      },
+      {
+        "label": "PBDB: Protarchaeopteryx occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Protarchaeopteryx&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Yixian Formation, Liaoning, China; Sihetun locality, Liaoning, China",
+    "material": "Named by Ji and Ji in 1997, it is estimated at around 2 metres in length and is known from the Yixian Formation, one of the most famous Lagerstätten for feathered dinosaurs.",
+    "completeness": "Skeletal material known; 1 PBDB occurrence records.",
+    "paleo": "World-famous Early Cretaceous Lagerstätte preserving exceptional feather impressions on non-avian dinosaurs.",
+    "evidence": "Protarchaeopteryx is classified within Oviraptorosauria by the PBDB, though its exact placement—whether it is an oviraptorosaur, a troodontid, or a very basal paravian—has been debated."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "Aptian, about 125-120 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Oviraptorosauria"
+      ],
+      "description": "Protarchaeopteryx robusta was an early oviraptorosaur from the Yixian Formation of Liaoning, represented by feathered partial skeletons.",
+      "facts": [
+        "Long symmetrical feathers occur on the arms and especially the tail.",
+        "Its feathers do not demonstrate powered flight; skeletal anatomy places it among non-avian oviraptorosaurs.",
+        "Teeth and jaw form do not establish a single precise diet; omnivory or herbivory remains inferred."
+      ]
+    },
+    "ageReviewNote": "The Yixian Formation specimens are Aptian Early Cretaceous.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Ji & Ji (1997), original report of Protarchaeopteryx and Caudipteryx",
+        "url": "https://www.biodiversitylibrary.org/part/48723"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: protarchaeopteryx",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/protarchaeopteryx.html"
+      }
+    ],
+    "residualUncertainty": [
+      "The number and association of referred specimens warrant continued review.",
+      "Feather colour and exact locomotor role are unknown."
+    ],
+    "evidence": {
+      "score": 67,
+      "material": "Partial articulated skeletons with direct feather impressions.",
+      "formations": "Yixian Formation, Liaoning, China.",
+      "confidenceLimit": "Feathers are secure; flight and precise diet are not.",
+      "uncertainties": [
+        "diet",
+        "feather function",
+        "specimen referrals"
+      ],
+      "summary": "Protarchaeopteryx robusta was an early oviraptorosaur from the Yixian Formation of Liaoning, represented by feathered partial skeletons.",
+      "sourceBasis": "Ji & Ji (1997), original report of Protarchaeopteryx and Caudipteryx; Natural History Museum Dino Directory: protarchaeopteryx"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

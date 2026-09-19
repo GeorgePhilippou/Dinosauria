@@ -1,0 +1,161 @@
+{
+  "id": "kritosaurus",
+  "name": "Kritosaurus",
+  "profile": {
+    "overview": [
+      "Kritosaurus (often translated as 'noble lizard' though more accurately 'separated lizard') was a large herbivorous hadrosaurine dinosaur from the Late Cretaceous of North America, living approximately 74.5–66 million years ago. Known from the Kirtland and Fruitland formations of New Mexico and possibly equivalent deposits in Alberta and Texas, it reached an estimated 8 metres in length. It possessed a prominent nasal arch giving it a 'Roman nose' profile. It was named by Barnum Brown in 1910.",
+      "Kritosaurus is placed within Hadrosaurinae > Kritosaurini, a tribe that also includes Gryposaurus. The relationship between Kritosaurus and Gryposaurus has been debated, with some researchers considering them synonymous; the exact diagnostic features separating the genera remain contested. Kritosaurus species have also been reported from Argentina, though the South American material may represent a distinct related genus. The PBDB records 25 occurrences from North America, making it one of the better-documented Maastrichtian hadrosaurs."
+    ],
+    "fossilSites": [
+      {
+        "name": "Kirtland / Fruitland Formations",
+        "region": "New Mexico, USA",
+        "lat": 36.8,
+        "lon": -107.8,
+        "note": "The primary source of Kritosaurus navajovius material, from Late Campanian fluvial and coastal plain deposits of the San Juan Basin."
+      },
+      {
+        "name": "Judith River / Montana Formation",
+        "region": "Montana, USA",
+        "lat": 48,
+        "lon": -109,
+        "note": "Campanian-age material from Montana attributed to or related to Kritosaurus, extending its documented range northward."
+      },
+      {
+        "name": "Javelina / Tornillo Formation",
+        "region": "Texas, USA",
+        "lat": 29.5,
+        "lon": -103,
+        "note": "Maastrichtian deposits of the Big Bend region yielding additional referred Kritosaurus material from the southern Laramidia landmass."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Euhadrosauria",
+        "Hadrosaurinae",
+        "Kritosaurini",
+        "Kritosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Kritosaurini",
+          "label": "Gryposaurus (closely related hadrosaurine)"
+        },
+        {
+          "from": "Hadrosaurinae",
+          "label": "Saurolophus, Maiasaura"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Kritosaurus navajovius was named in 1910 by Barnum Brown from material collected in New Mexico. The genus name is often given as 'noble lizard' in popular literature, but the original Greek more accurately translates as 'separated lizard', in reference to the separated (arched) nasal bones. The species name references the Navajo people of the American Southwest."
+      },
+      {
+        "title": "The 'Roman Nose' and Anatomy",
+        "body": "Kritosaurus is characterised by a prominently arched nasal region producing a distinctive 'Roman nose' or hump profile on the snout. This nasal arch may have served display or species-recognition functions. Like other hadrosaurines, it lacked a hollow cranial crest but had a sophisticated dental battery of hundreds of teeth for processing tough vegetation. It reached approximately 8 metres in length."
+      },
+      {
+        "title": "Taxonomic Debates",
+        "body": "The relationship between Kritosaurus and the very similar Gryposaurus is a long-running debate. Some researchers have considered them synonymous (with Kritosaurus having priority), while others maintain them as distinct genera. Material referred to Kritosaurus from Argentina has been separated by some workers into a related taxon, and this South American material complicates biogeographic reconstructions."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "Kritosaurus inhabited the Late Campanian to Maastrichtian floodplains, river systems, and coastal areas of the southern Laramidian landmass. It coexisted with ceratopsids, ankylosaurs, and tyrannosaurids in a diverse dinosaurian community. The Wikipedia entry notes it lived from approximately 74.5–66 million years ago, placing it among the latest-surviving hadrosaurines."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Kritosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/kritosaurus.html"
+      },
+      {
+        "label": "Wikipedia: Kritosaurus",
+        "url": "https://en.wikipedia.org/wiki/Kritosaurus"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Kirtland / Fruitland Formations, New Mexico, USA; Judith River / Montana Formation, Montana, USA; Javelina / Tornillo Formation, Texas, USA",
+    "material": "Known from the Kirtland and Fruitland formations of New Mexico and possibly equivalent deposits in Alberta and Texas, it reached an estimated 8 metres in length.",
+    "completeness": "Skeletal material known; 25 PBDB occurrence records.",
+    "paleo": "The primary source of Kritosaurus navajovius material, from Late Campanian fluvial and coastal plain deposits of the San Juan Basin.",
+    "evidence": "Kritosaurus is placed within Hadrosaurinae > Kritosaurini, a tribe that also includes Gryposaurus."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian, approximately 74-73 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauroidea",
+        "Hadrosauridae",
+        "Saurolophinae",
+        "Kritosaurini"
+      ],
+      "description": "Kritosaurus navajovius was a saurolophine hadrosaurid from the Kirtland Formation of New Mexico. Its type is an incomplete skull with missing snout and lower jaw; many historic North and South American referrals have been removed to other kritosaurins.",
+      "facts": [
+        "The famous high nasal arch was partly reconstructed in the original specimen and is now interpreted more cautiously.",
+        "No complete type skeleton exists.",
+        "Herbivory and sophisticated dental-battery chewing are secure at hadrosaurid level."
+      ]
+    },
+    "ageReviewNote": "Restricted to the De-na-zin Member of the Kirtland Formation, late Campanian.",
+    "sources": [
+      {
+        "type": "taxonomic-revision",
+        "citation": "Prieto-Marquez (2014), Skeletal morphology of Kritosaurus navajovius and kritosaurin systematics",
+        "url": "https://doi.org/10.1080/14772019.2013.770417"
+      },
+      {
+        "type": "hadrosaurid-review",
+        "citation": "Prieto-Marquez (2010), Global phylogeny of Hadrosauridae",
+        "url": "https://doi.org/10.1111/j.1096-3642.2009.00617.x"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Kritosaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Kritosaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "The type skull is incomplete and postcranial referrals are limited.",
+      "Species limits among North American kritosaurins continue to be revised."
+    ],
+    "evidence": {
+      "score": 40,
+      "material": "Incomplete diagnostic skull with limited referred postcranial material.",
+      "formations": [
+        "Kirtland Formation, De-na-zin Member"
+      ],
+      "confidenceLimit": "High for kritosaurin identity; moderate for skull reconstruction; low for complete body anatomy.",
+      "uncertainties": [
+        "snout reconstruction",
+        "postcranial referrals",
+        "kritosaurin species limits"
+      ],
+      "summary": "Kritosaurus navajovius was a saurolophine hadrosaurid from the Kirtland Formation of New Mexico. Its type is an incomplete skull with missing snout and lower jaw; many historic North and South American referrals have been removed to other kritosaurins.",
+      "sourceBasis": "Prieto-Marquez (2014), Skeletal morphology of Kritosaurus navajovius and kritosaurin systematics; Prieto-Marquez (2010), Global phylogeny of Hadrosauridae; Paleobiology Database taxon and occurrence context for Kritosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

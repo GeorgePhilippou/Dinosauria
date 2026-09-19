@@ -1,0 +1,151 @@
+{
+  "id": "noasaurus",
+  "name": "Noasaurus",
+  "profile": {
+    "overview": [
+      "Noasaurus (meaning 'northwestern Argentina lizard', from the indigenous name Noa for that region) was a small ceratosaurian theropod from the Late Cretaceous (approximately 72–66 million years ago) of Salta Province, Argentina. It is known from skull fragments and some postcranial remains recovered from the Lecho Formation. Estimated at up to about 3 metres in length, it was a carnivore that walked on two legs.",
+      "Named by Bonaparte and Powell in 1980, Noasaurus is the type genus of Noasauridae, a family of small-bodied abelisauroid ceratosaurs with a Southern Hemisphere distribution. Its sickle-like foot claw, initially compared to that of dromaeosaurid raptors, was later reinterpreted as a more generalised feature. Noasaurids — including the better-known Masiakasaurus from Madagascar — show that small ceratosaurs filled a diversity of ecological niches in the Cretaceous of Gondwana."
+    ],
+    "fossilSites": [
+      {
+        "name": "Lecho / Salta Formation",
+        "region": "Salta, Argentina",
+        "lat": -24.5,
+        "lon": -65.5,
+        "note": "Maastrichtian fluvial red-bed deposits in north-western Argentina that yielded the holotype Noasaurus material."
+      },
+      {
+        "name": "Olmedo Formation",
+        "region": "Salta, Argentina",
+        "lat": -23.5,
+        "lon": -63.8,
+        "note": "Additional Late Cretaceous continental deposits of north-western Argentina from which small ceratosaur material potentially related to noasaurids has been recovered."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Ceratosauria",
+        "Neoceratosauria",
+        "Abelisauroidea",
+        "Noasauridae",
+        "Noasaurinae",
+        "Noasaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Noasauridae",
+          "label": "Masiakasaurus"
+        },
+        {
+          "from": "Abelisauroidea",
+          "label": "Abelisauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Noasaurus leali was described by José Bonaparte and Jaime Powell in 1980 from fragmentary remains found in the Lecho Formation of Salta Province, Argentina. The genus name uses the indigenous 'Noa' for the north-western Argentine region (Noroeste Argentino), while the species honours the discoverer Leal."
+      },
+      {
+        "title": "The Sickle Claw Debate",
+        "body": "The holotype includes a pedal ungual (foot claw) that is strongly curved, which Bonaparte and Powell initially compared to the hyperextensible killing claws of dromaeosaurids. Later studies disputed this homology, interpreting the morphology as a different functional adaptation, possibly for prey restraint rather than slashing. This debate contributed to broader discussions of convergent evolution among theropods."
+      },
+      {
+        "title": "Noasauridae as a Family",
+        "body": "Noasaurus is the founding member of Noasauridae, a clade of small to medium abelisauroids known mainly from Gondwana. Well-preserved noasaurids such as Masiakasaurus (Madagascar) have shown that some members had procumbent front teeth suggesting specialised diets including fish. How Noasaurus fits within this diversity is limited by its fragmentary preservation."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "The Lecho Formation in Salta represents a Late Maastrichtian fluvial to aeolian environment. Noasaurus shared this landscape with the titanosaur Saltasaurus and the sauropod Barrosasaurus, among others, indicating a diverse dinosaur fauna in north-western Argentina at the close of the Cretaceous."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Noasaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/noasaurus.html"
+      },
+      {
+        "label": "PBDB: Noasaurus occurrences",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38630"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Lecho / Salta Formation, Salta, Argentina; Olmedo Formation, Salta, Argentina",
+    "material": "Noasaurus leali was described by José Bonaparte and Jaime Powell in 1980 from fragmentary remains found in the Lecho Formation of Salta Province, Argentina.",
+    "completeness": "Partial material known; 1 PBDB occurrence records.",
+    "paleo": "Maastrichtian fluvial red-bed deposits in north-western Argentina that yielded the holotype Noasaurus material.",
+    "evidence": "Named by Bonaparte and Powell in 1980, Noasaurus is the type genus of Noasauridae, a family of small-bodied abelisauroid ceratosaurs with a Southern Hemisphere distribution."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian-Maastrichtian, about 75-66 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Ceratosauria",
+        "Abelisauroidea",
+        "Noasauridae"
+      ],
+      "description": "Noasaurus leali was a small noasaurid theropod from the Lecho Formation of Argentina, based on a fragmentary disarticulated skeleton including skull and limb elements.",
+      "facts": [
+        "The prominent curved ungual was once reconstructed as a raptorial toe claw but is now identified as a hand claw.",
+        "The holotype is too incomplete for a precise total length or body mass.",
+        "Carnivory is supported by the teeth and theropod anatomy; specialised fish-catching remains a recent hypothesis, not consensus."
+      ]
+    },
+    "ageReviewNote": "The Lecho Formation is latest Cretaceous; the genus is not established across the full 84-66 Ma interval.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Carrano, Loewen & Sertich (2011), new noasaurid material and morphology",
+        "url": "https://doi.org/10.5479/si.00810266.95.1"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Agnolin & Chiarelli (2010), position of noasaurid claws",
+        "url": "https://doi.org/10.1007/s12542-009-0044-2"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: noasaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/noasaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Feeding specialisation is disputed.",
+      "Many aspects of the skeleton are unknown."
+    ],
+    "evidence": {
+      "score": 39,
+      "material": "Fragmentary skull, vertebral and limb elements from the holotype.",
+      "formations": "Lecho Formation, Salta, Argentina.",
+      "confidenceLimit": "The famous claw belongs to the hand, and whole-body reconstructions are highly inferential.",
+      "uncertainties": [
+        "feeding ecology",
+        "precise body proportions"
+      ],
+      "summary": "Noasaurus leali was a small noasaurid theropod from the Lecho Formation of Argentina, based on a fragmentary disarticulated skeleton including skull and limb elements.",
+      "sourceBasis": "Carrano, Loewen & Sertich (2011), new noasaurid material and morphology; Agnolin & Chiarelli (2010), position of noasaurid claws; Natural History Museum Dino Directory: noasaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

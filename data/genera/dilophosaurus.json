@@ -1,0 +1,127 @@
+{
+  "id": "dilophosaurus",
+  "name": "Dilophosaurus",
+  "profile": {
+    "overview": [
+      "Dilophosaurus was a large Early Jurassic theropod from Arizona, about six metres long, bearing two thin parallel bony crests along the skull roof. These were display structures — far too fragile for combat — and Dilophosaurus was one of the largest terrestrial predators of its time at ~193 million years ago.",
+      "The Jurassic Park portrayal of Dilophosaurus with an expandable neck frill and venom is entirely fictional; no fossil evidence supports either feature. The notch in its upper jaw between the premaxilla and maxilla once led to scavenging hypotheses, since largely refuted by biomechanical analysis."
+    ],
+    "fossilSites": [
+      {
+        "name": "Kayenta Formation",
+        "region": "Navajo County, Arizona, USA",
+        "lat": 36.8,
+        "lon": -110.3,
+        "note": "Lower Jurassic continental deposits with the type specimen and additional material alongside prosauropods and tritylodontid cynodonts."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Dilophosauridae",
+        "Dilophosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Theropoda",
+          "label": "Coelophysoidea"
+        },
+        {
+          "from": "Theropoda",
+          "label": "Ceratosauria and tetanurans"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and naming",
+        "body": "Sam Welles first described material from the Kayenta Formation in 1954, initially identifying it as a large Megalosaurus. He renamed it Dilophosaurus wetherilli in 1970, honouring Navajo guide Jesse Wetherbee. A second specimen found in 1964 provided much of the postcranial anatomy known today."
+      },
+      {
+        "title": "Skull crests",
+        "body": "The twin crests run from the snout to above the orbits, formed by the nasal bones. Their paper-thin construction rules out a weapon function. Analogous thin cranial crests in other theropods (Oviraptor, Guanlong) and in cassowaries are consistently associated with display and species recognition."
+      },
+      {
+        "title": "Ecology",
+        "body": "Dilophosaurus represents a transitional grade between small coelophysoids and the larger tetanurans that dominated the Jurassic. In the Kayenta Formation it coexisted with the prosauropod Massospondylus and early crocodylomorphs in a seasonally arid environment, probably pursuing medium-sized prey."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Dilophosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/dilophosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Kayenta Formation, Arizona, USA",
+    "material": "Several skeletons with skull material from Early Jurassic deposits.",
+    "completeness": "Good for an early theropod",
+    "paleo": "Early Jurassic fluvial and floodplain environments in western North America.",
+    "evidence": "Paired skull crests and theropod skeletal anatomy distinguish it from later movie-inspired reconstructions."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Early Jurassic",
+      "mya": "Sinemurian, approximately 193 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda"
+      ],
+      "description": "Dilophosaurus wetherilli was a large early theropod from the Kayenta Formation of Arizona. Several partial skeletons, including substantial skull material, document paired cranial crests and a powerful bipedal predator very unlike its fictionalised venom-spitting portrayal.",
+      "facts": [
+        "There is no fossil evidence for venom glands or an expandable neck frill.",
+        "The paired crests were thin and probably visual structures, though their exact function is unknown.",
+        "Modern re-preparation shows a more robust skull and skeleton than older weak-jawed reconstructions."
+      ]
+    },
+    "ageReviewNote": "U-Pb dating places the fossil-bearing Kayenta interval near 193 Ma in the Sinemurian.",
+    "sources": [
+      {
+        "type": "modern-monograph",
+        "citation": "Marsh & Rowe (2020), A comprehensive anatomical and phylogenetic evaluation of Dilophosaurus",
+        "url": "https://doi.org/10.1017/jpa.2020.14"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Dilophosaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Dilophosaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "Several individuals are incomplete and partly distorted.",
+      "Crest function and exact position among early neotheropods remain uncertain."
+    ],
+    "evidence": {
+      "score": 80,
+      "material": "Several partial skeletons with substantial cranial and postcranial representation.",
+      "formations": [
+        "Kayenta Formation"
+      ],
+      "confidenceLimit": "High for anatomy, age and carnivory; low for crest behaviour.",
+      "uncertainties": [
+        "crest function",
+        "specimen distortion",
+        "fine phylogeny"
+      ],
+      "summary": "Dilophosaurus wetherilli was a large early theropod from the Kayenta Formation of Arizona. Several partial skeletons, including substantial skull material, document paired cranial crests and a powerful bipedal predator very unlike its fictionalised venom-spitting portrayal.",
+      "sourceBasis": "Marsh & Rowe (2020), A comprehensive anatomical and phylogenetic evaluation of Dilophosaurus; Paleobiology Database taxon and occurrence context for Dilophosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

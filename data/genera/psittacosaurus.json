@@ -1,0 +1,137 @@
+{
+  "id": "psittacosaurus",
+  "name": "Psittacosaurus",
+  "profile": {
+    "overview": [
+      "Psittacosaurus (\"parrot lizard\") is one of the most species-rich dinosaur genera — over 12 species are recognised from the Early Cretaceous of Asia (~126–101 Ma) — and one of the most completely understood, from hatchling to adult, because thousands of specimens exist including individuals at every ontogenetic stage. A distinctive parrot-like beak gave it its name.",
+      "An extraordinary specimen preserves long bristle-like structures projecting from the tail — not true feathers but possibly for display. Melanosome analysis of preserved skin has reconstructed a counter-shaded colour pattern: dark on the back, paler on the belly, consistent with camouflage in a forest-edge environment. Psittacosaurus was a bipedal early ceratopsian, a reminder that Triceratops's four-legged posture evolved later in the lineage."
+    ],
+    "fossilSites": [
+      {
+        "name": "Yixian Formation",
+        "region": "Liaoning Province, China",
+        "lat": 41.5,
+        "lon": 121,
+        "note": "Lower Cretaceous lacustrine deposits with exceptional Psittacosaurus specimens including the tail-bristle and melansome-bearing examples."
+      },
+      {
+        "name": "Mongolian Cretaceous beds",
+        "region": "Various basins, Mongolia",
+        "lat": 44,
+        "lon": 103,
+        "note": "Aptian–Albian continental deposits across multiple Mongolian basins with abundant Psittacosaurus material spanning several species."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Marginocephalia",
+        "Ceratopsia",
+        "Psittacosauridae",
+        "Psittacosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ceratopsia",
+          "label": "Neoceratopsia (Protoceratops, Triceratops)"
+        },
+        {
+          "from": "Marginocephalia",
+          "label": "Pachycephalosauria"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Species diversity and ontogeny",
+        "body": "Over 12 species span a wide geographic range across central and eastern Asia. Thousands of specimens allow the most complete ontogenetic series of any non-avian dinosaur: from hatchlings of a few centimetres to adults of 2 metres. One specimen preserves 34 juveniles around an adult — possible parental supervision or a crèche. Growth ring data shows Psittacosaurus reached adult size in 8–10 years."
+      },
+      {
+        "title": "Counter-shading and colour",
+        "body": "A remarkably preserved 3D specimen analysed by Vinther and colleagues in 2016 allowed reconstruction of the external colour pattern from preserved melanosomes. The dorsal surface had darker melanosomes (eumelanosomes) and the ventral surface had lighter ones (phaeomelanosomes or absent melanosomes), producing classic counter-shading camouflage. The cloacal region bore distinct dark and pale banding — possibly used in intraspecific signalling."
+      },
+      {
+        "title": "Tail bristles and display",
+        "body": "Preserved bristle-like filaments projecting from the tail of one specimen are distinct from the filamentous proto-feathers of coelurosaurs — they are stiffer, more widely spaced and confined to the tail. Their function is unclear: display or intraspecific signalling are most commonly proposed. They are not homologous to bird feathers but may represent an independent integumentary novelty within ceratopsians."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Psittacosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/psittacosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Yixian and other Early Cretaceous Asian formations",
+    "material": "Hundreds of specimens, including juveniles and rare skin/filament impressions.",
+    "completeness": "Exceptionally well represented",
+    "paleo": "Early Cretaceous Asian lake, forest and volcanic-influenced ecosystems.",
+    "evidence": "Beaked skulls, growth series and tail bristles make it one of the best-known small ornithischians."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "Barremian-Albian, about 126-101 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ceratopsia",
+        "Psittacosauridae"
+      ],
+      "description": "Psittacosaurus was a diverse Early Cretaceous ceratopsian genus from Asia, represented by hundreds of specimens and numerous named species. The type species P. mongoliensis is anatomically well known, but genus-wide claims must distinguish species.",
+      "facts": [
+        "Exceptional specimens preserve tail bristles, skin outlines, pigmentation patterns, a cloacal region and stomach contents.",
+        "Those soft-tissue observations belong to particular specimens and species, not automatically every Psittacosaurus.",
+        "Juveniles were more quadrupedal and adults predominantly bipedal in major growth studies."
+      ]
+    },
+    "ageReviewNote": "The genus spans multiple Barremian-Albian formations; individual species occupy narrower intervals.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Sereno (2010), taxonomic review of Psittacosaurus",
+        "url": "https://www.researchgate.net/publication/270162979_Taxonomy_cranial_morphology_and_relationships_of_parrot-beaked_dinosaurs_Psittacosaurus"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Vinther et al. (2016), three-dimensional camouflage in Psittacosaurus",
+        "url": "https://doi.org/10.1016/j.cub.2016.06.065"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Vinther et al. (2021), cloacal opening in Psittacosaurus",
+        "url": "https://doi.org/10.1016/j.cub.2020.12.039"
+      }
+    ],
+    "residualUncertainty": [
+      "Several named species may be synonyms or based on juvenile differences.",
+      "Soft-tissue evidence is specimen-specific."
+    ],
+    "evidence": {
+      "score": 98,
+      "material": "Hundreds of skulls and skeletons across many growth stages and species, including exceptional soft tissue.",
+      "formations": "Multiple Lower Cretaceous formations in China, Mongolia and Siberia.",
+      "confidenceLimit": "Separate species and specimens when discussing colour, bristles, cloaca or diet.",
+      "uncertainties": [
+        "species-level taxonomy",
+        "distribution of soft-tissue traits"
+      ],
+      "summary": "Psittacosaurus was a diverse Early Cretaceous ceratopsian genus from Asia, represented by hundreds of specimens and numerous named species. The type species P. mongoliensis is anatomically well known, but genus-wide claims must distinguish species.",
+      "sourceBasis": "Sereno (2010), taxonomic review of Psittacosaurus; Vinther et al. (2016), three-dimensional camouflage in Psittacosaurus; Vinther et al. (2021), cloacal opening in Psittacosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

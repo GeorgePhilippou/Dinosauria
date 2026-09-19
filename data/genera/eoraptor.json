@@ -1,0 +1,131 @@
+{
+  "id": "eoraptor",
+  "name": "Eoraptor",
+  "profile": {
+    "overview": [
+      "Eoraptor lunensis (\"dawn thief of the valley of the moon\") is one of the earliest dinosaurs, from the Ischigualasto Formation of Argentina (~231 Ma). At 1.7 metres long and about 10 kg, it was a small, generalist predator-omnivore with a mixed dentition — leaf-shaped teeth for plant material and recurved teeth for flesh. Its exact position in the dinosaur tree has shifted repeatedly: originally considered a basal theropod, it is now placed as a basal sauropodomorph.",
+      "The discovery of Eoraptor in 1991 by Paul Sereno's team, alongside Herrerasaurus and the ornithischian Pisanosaurus, confirmed that the major dinosaur lineages diverged rapidly from a common ancestor in the Late Triassic. Its mixed dentition — an omnivorous toolkit — may represent the ancestral dinosaur condition before the dietary specialisations of later groups evolved."
+    ],
+    "fossilSites": [
+      {
+        "name": "Ischigualasto Formation",
+        "region": "San Juan Province, Argentina",
+        "lat": -29.9,
+        "lon": -68,
+        "note": "Late Triassic (~231 Ma) beds yielding Eoraptor alongside Herrerasaurus and among the oldest known dinosaur assemblages."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Eoraptor"
+      ],
+      "sideBranches": [
+        {
+          "from": "Sauropodomorpha",
+          "label": "Prosauropoda"
+        },
+        {
+          "from": "Sauropodomorpha",
+          "label": "Sauropoda"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and shifting classification",
+        "body": "Paul Sereno and colleagues described Eoraptor lunensis in 1993. Initially classified as a basal theropod, cladistic reanalysis from 2011 onward consistently places it as a basal sauropodomorph. The mixed dentition — leaf-shaped posteriorly, recurved anteriorly — is unusual and may reflect an omnivorous generalist diet ancestral to the herbivorous sauropodomorphs that followed."
+      },
+      {
+        "title": "Anatomy",
+        "body": "Eoraptor had a small skull with large eyes, a lightly built skeleton and hindlimbs suited for bipedal running. Unlike Herrerasaurus, it lacks the specialised intramandibular joint and is considerably smaller. Five fingers are retained on the hand, with the fourth and fifth being vestigial — a condition more primitive than Herrerasaurus."
+      },
+      {
+        "title": "Dawn of the dinosaurs",
+        "body": "The Ischigualasto Formation at 231 Ma captures one of the earliest moments of dinosaur diversification. All three major dinosaur groups — Saurischia, Ornithischia and what may be their earliest relatives — are represented in the same beds. Eoraptor's small size and generalist diet are consistent with an ancestral ecological role before the dietary and size diversification that would characterise later dinosaur evolution."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Eoraptor profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/eoraptor.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Ischigualasto Formation, Argentina",
+    "material": "Small early dinosaur skeletons from Late Triassic rocks.",
+    "completeness": "Good early dinosaur material",
+    "paleo": "Late Triassic Ischigualasto ecosystem near the early radiation of dinosaurs.",
+    "evidence": "Mixed tooth shapes and basal anatomy are important for understanding early saurischian evolution."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Triassic",
+      "mya": "late Carnian, approximately 231-229 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha?"
+      ],
+      "description": "Eoraptor lunensis was a small early saurischian from the Ischigualasto Formation of Argentina. A nearly complete holotype and additional partial specimens preserve much of the skeleton; modern analyses commonly place it near the base of Sauropodomorpha, though dinosaur-root relationships remain debated.",
+      "facts": [
+        "The mixed tooth shapes do not by themselves prove omnivory.",
+        "Its lightly built body was bipedal.",
+        "Classification has shifted from basal theropod to basal sauropodomorph or basal saurischian as datasets changed."
+      ],
+      "diet": null
+    },
+    "ageReviewNote": "Radiometric dates constrain the fossil-bearing Ischigualasto interval near 231-229 Ma.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Sereno et al. (1993), Primitive dinosaur skeleton from Argentina",
+        "url": "https://doi.org/10.1038/361064a0"
+      },
+      {
+        "type": "osteological-monograph",
+        "citation": "Sereno et al. (2013), The complete skeleton of Eoraptor lunensis",
+        "url": "https://doi.org/10.1080/02724634.2013.820113"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Eoraptor",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Eoraptor"
+      }
+    ],
+    "residualUncertainty": [
+      "Root-level saurischian relationships and exact diet remain uncertain.",
+      "Some referred material is less complete than the holotype."
+    ],
+    "evidence": {
+      "score": 90,
+      "material": "One nearly complete skull and skeleton plus additional partial specimens.",
+      "formations": [
+        "Ischigualasto Formation"
+      ],
+      "confidenceLimit": "Very high for anatomy and age; high for bipedality; moderate for phylogeny; low for exact diet.",
+      "uncertainties": [
+        "phylogenetic position",
+        "diet",
+        "referred material"
+      ],
+      "summary": "Eoraptor lunensis was a small early saurischian from the Ischigualasto Formation of Argentina. A nearly complete holotype and additional partial specimens preserve much of the skeleton; modern analyses commonly place it near the base of Sauropodomorpha, though dinosaur-root relationships remain debated.",
+      "sourceBasis": "Sereno et al. (1993), Primitive dinosaur skeleton from Argentina; Sereno et al. (2013), The complete skeleton of Eoraptor lunensis; Paleobiology Database taxon and occurrence context for Eoraptor"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

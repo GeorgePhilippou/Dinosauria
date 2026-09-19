@@ -1,0 +1,150 @@
+{
+  "id": "coelophysis",
+  "name": "Coelophysis",
+  "profile": {
+    "overview": [
+      "Coelophysis was a slender Late Triassic theropod, about two metres long, that inhabited the flood-plains of what is now the American Southwest around 215 million years ago. Its hollow limb bones kept it lightweight and fast; its narrow jaws bore small serrated teeth suited to catching lizards and small vertebrates.",
+      "The Ghost Ranch quarry in New Mexico preserves hundreds of Coelophysis individuals of all age classes in a single catastrophic deposit — one of the most productive Triassic sites in the world. These bonebeds allowed the first detailed study of growth and possible social behaviour in an early theropod."
+    ],
+    "fossilSites": [
+      {
+        "name": "Chinle Formation — Ghost Ranch",
+        "region": "Rio Arriba County, New Mexico, USA",
+        "lat": 36.6,
+        "lon": -107.9,
+        "note": "Mass-mortality bonebed with hundreds of articulated individuals; National Natural Landmark."
+      },
+      {
+        "name": "Chinle Formation — Petrified Forest",
+        "region": "Arizona, USA",
+        "lat": 35.1,
+        "lon": -109.8,
+        "note": "Late Triassic continental red beds with isolated Coelophysis material alongside phytosaurs and aetosaurs."
+      },
+      {
+        "name": "Elliot Formation",
+        "region": "Free State, South Africa",
+        "lat": -29.5,
+        "lon": 27.5,
+        "note": "Upper Triassic beds confirming a wide Pangaean distribution for Coelophysis-grade theropods."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelophysoidea",
+        "Coelophysidae",
+        "Coelophysis"
+      ],
+      "sideBranches": [
+        {
+          "from": "Theropoda",
+          "label": "Dilophosaurus and relatives"
+        },
+        {
+          "from": "Coelophysoidea",
+          "label": "Other early theropod lineages"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and the Ghost Ranch bonebed",
+        "body": "Named by Cope in 1889 from fragmentary material, Coelophysis became well known only after Colbert's 1947–48 Ghost Ranch excavations. Early claims of cannibalism — small bones in adult stomach regions — have been reinterpreted as belonging to small crocodylomorphs. A Coelophysis skull was carried to the International Space Station in 1998, the first dinosaur in orbit."
+      },
+      {
+        "title": "Anatomy and locomotion",
+        "body": "Long lower-leg and metatarsal proportions indicate a fast runner. Two body morphs (gracile and robust) were once attributed to sexual dimorphism; this remains uncertain. The three-fingered hand bore curved claws and the S-shaped neck allowed rapid strikes at small prey."
+      },
+      {
+        "title": "Ecological context",
+        "body": "Coelophysis lived in a semi-arid, seasonally wet landscape alongside rhynchosaurs, aetosaurs and early crocodylomorphs. It was a generalist predator, and the Ghost Ranch bonebeds — possibly formed by drought-related aggregation around a shrinking waterhole — preserve the most complete Triassic ontogenetic series known for any dinosaur."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Coelophysis profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/coelophysis.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Chinle Group/Ghost Ranch, New Mexico; other Late Triassic records",
+    "material": "Hundreds of skeletons from mass-death assemblages, especially Ghost Ranch.",
+    "completeness": "Very well represented",
+    "paleo": "Late Triassic floodplain settings near the early diversification of dinosaurs.",
+    "evidence": "Large bonebeds preserve growth series and slender theropod anatomy."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Triassic",
+      "mya": "about 215-205 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Coelophysoidea",
+        "Coelophysidae"
+      ],
+      "description": "Coelophysis bauri was a small early neotheropod from the Chinle Group of the south-western United States. The Ghost Ranch bonebeds contain hundreds of individuals and many articulated skeletons, making its anatomy and growth exceptionally well documented.",
+      "facts": [
+        "The neotype AMNH 7224 stabilises C. bauri, and Rioarribasaurus colberti is an objective junior synonym.",
+        "A famous cannibalism claim was overturned when the supposed juvenile remains inside one ribcage were identified as a crocodylomorph."
+      ]
+    },
+    "ageReviewNote": "Diagnostic C. bauri material is late Norian to Rhaetian in the Chinle Group, especially the Rock Point Formation.",
+    "sources": [
+      {
+        "type": "anatomical-review",
+        "citation": "Tykoski & Rowe (2004), Ceratosauria, including Coelophysis",
+        "url": "https://www.geo.utexas.edu/faculty/rowe/Publications/pdf/047%20Tykoski_Rowe%202004.pdf"
+      },
+      {
+        "type": "nomenclatural-ruling",
+        "citation": "ICZN (1996), Opinion 1842: Coelophysis bauri conserved by designation of a neotype",
+        "url": "https://www.biodiversitylibrary.org/page/12250297"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: coelophysis",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/coelophysis.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Bonebed accumulation does not prove pack living.",
+      "Some older Coelophysis referrals represent other genera.",
+      "Feathering is not directly preserved."
+    ],
+    "evidence": {
+      "score": 99,
+      "material": "Hundreds of partial to complete skeletons from many growth stages, especially at Ghost Ranch.",
+      "formations": [
+        "Chinle Group",
+        "Rock Point Formation"
+      ],
+      "confidenceLimit": "Anatomy and growth are excellent; species referrals, colour, sociality and exact ecology remain less certain.",
+      "uncertainties": [
+        "Bonebed accumulation does not prove pack living.",
+        "Some older Coelophysis referrals represent other genera.",
+        "Feathering is not directly preserved."
+      ],
+      "summary": "Coelophysis bauri was a small early neotheropod from the Chinle Group of the south-western United States. The Ghost Ranch bonebeds contain hundreds of individuals and many articulated skeletons, making its anatomy and growth exceptionally well documented.",
+      "sourceBasis": "Tykoski & Rowe (2004), Ceratosauria, including Coelophysis; ICZN (1996), Opinion 1842: Coelophysis bauri conserved by designation of a neotype; Natural History Museum, Dino Directory: coelophysis"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

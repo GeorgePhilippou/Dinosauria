@@ -1,0 +1,176 @@
+{
+  "id": "dacentrurus",
+  "name": "Dacentrurus",
+  "profile": {
+    "overview": [
+      "Dacentrurus was a large stegosaur from the Late Jurassic of Western Europe, approximately 155–145 million years ago (Kimmeridgian to Tithonian), with fossils known from England, France, Portugal, and Spain. Reaching about 6 metres in length, it was a quadrupedal herbivore bearing paired rows of bony plates and spikes along its back and tail. Its name, meaning 'pointed tail', highlights the prominent tail spikes (thagomizer) that characterised the genus.",
+      "Named by Frederick Augustus Lucas in 1902, Dacentrurus armatus holds the distinction of being the first stegosaur ever discovered, though it was initially described before the concept of Stegosauria was formalised. With 31 PBDB occurrences across multiple European countries and formations, it is one of the most geographically widespread stegosaurs known, confirming that during the Late Jurassic it ranged widely across the shallow-sea-divided European archipelago."
+    ],
+    "fossilSites": [
+      {
+        "name": "Lourinhã Formation",
+        "region": "Centro, Portugal",
+        "lat": 39.2,
+        "lon": -9.3,
+        "note": "Late Jurassic coastal and fluvial deposits in Portugal yielding significant Dacentrurus material alongside other well-known dinosaurs."
+      },
+      {
+        "name": "Kimmeridge Clay Formation",
+        "region": "England, UK",
+        "lat": 50.6,
+        "lon": -2.1,
+        "note": "Late Kimmeridgian marine clay with transported terrestrial vertebrate bones, the original source of Dacentrurus material."
+      },
+      {
+        "name": "Villar del Arzobispo Formation",
+        "region": "Valencia and Aragón, Spain",
+        "lat": 39.8,
+        "lon": -1,
+        "note": "Late Jurassic to Early Cretaceous formation in Spain with stegosaur material referred to Dacentrurus."
+      },
+      {
+        "name": "Argiles d'Octeville Formation",
+        "region": "Haute-Normandie, France",
+        "lat": 49.7,
+        "lon": 0.3,
+        "note": "French Late Jurassic deposits that have yielded Dacentrurus material contributing to its known European range."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Stegosauria",
+        "Stegosauridae",
+        "Dacentrurinae",
+        "Dacentrurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Dacentrurinae",
+          "label": "Miragaia (long-necked Portuguese stegosaur)"
+        },
+        {
+          "from": "Stegosauridae",
+          "label": "Stegosaurinae (Stegosaurus and relatives)"
+        },
+        {
+          "from": "Stegosauria",
+          "label": "Huayangosauridae (primitive Chinese stegosaurs)"
+        },
+        {
+          "from": "Thyreophora",
+          "label": "Ankylosauria (armoured relatives)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and the First Stegosaur",
+        "body": "Dacentrurus armatus was named by Frederick Augustus Lucas in 1902 from material originally collected from the Kimmeridge Clay of England and described by Richard Owen in 1875 as Omosaurus. When Lucas renamed it Dacentrurus to avoid a name conflict, it became the formally valid name for what is historically the first stegosaur ever described from scientific specimens. Earlier descriptions were informal or incomplete."
+      },
+      {
+        "title": "Anatomy and Defensive Structures",
+        "body": "Dacentrurus had a combination of smaller dorsal plates along its neck and back transitioning to larger, more spike-like structures towards the tail, culminating in the thagomizer (tail spike cluster). This pattern differs somewhat from Stegosaurus, which had prominent, flat plates along the entire dorsum. The variation in plate-to-spike morphology along the body may have served both display and defensive functions."
+      },
+      {
+        "title": "Wide European Distribution",
+        "body": "Dacentrurus is known from England, France, Portugal, Spain, and possibly other regions, making it one of the most geographically widespread Jurassic dinosaurs from Europe. During the Late Jurassic, Europe was a series of low-lying islands and peninsulas separated by shallow seas. Dacentrurus's wide range suggests either multiple island-hopping events or that the landmasses it inhabited were more connected than often depicted."
+      },
+      {
+        "title": "Late Jurassic Portuguese Fauna",
+        "body": "Portugal's Lourinhã Formation is one of the best Late Jurassic sites in Europe, preserving Dacentrurus alongside sauropods, theropods, and other ornithischians. The Portuguese assemblage is particularly important because it includes multiple stegosaurs (including Miragaia) and shows stegosaur diversity comparable to contemporary Asian faunas. This suggests active exchange of faunal elements between Europe and other Mesozoic landmasses during the Jurassic."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Dacentrurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/dacentrurus.html"
+      },
+      {
+        "label": "PBDB: Dacentrurus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dacentrurus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Lourinhã Formation, Centro, Portugal; Kimmeridge Clay Formation, England, UK; Villar del Arzobispo Formation, Valencia and Aragón, Spain; Argiles d'Octeville Formation, Haute-Normandie, France",
+    "material": "Dacentrurus is known from England, France, Portugal, Spain, and possibly other regions, making it one of the most geographically widespread Jurassic dinosaurs from Europe.",
+    "completeness": "Skeletal material known; 31 PBDB occurrence records.",
+    "paleo": "Late Jurassic coastal and fluvial deposits in Portugal yielding significant Dacentrurus material alongside other well-known dinosaurs.",
+    "evidence": "Named by Frederick Augustus Lucas in 1902, Dacentrurus armatus holds the distinction of being the first stegosaur ever discovered, though it was initially described before the concept of Stegosauria was formalised."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "Kimmeridgian-Tithonian, about 157-145 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Stegosauria",
+        "Stegosauridae",
+        "Dacentrurinae"
+      ],
+      "description": "Dacentrurus armatus was a large quadrupedal stegosaur from the Late Jurassic of western Europe. The English type is incomplete, while additional Portuguese and Spanish skeletons expand knowledge of the genus; referrals outside the type must be assessed specimen by specimen.",
+      "facts": [
+        "The name is based on a partial postcranial skeleton from the Kimmeridge Clay of England.",
+        "European material includes vertebrae, girdle and limb bones, plates and tail spines, but no single complete skeleton.",
+        "Its low-crowned teeth and stegosaur anatomy support herbivory and quadrupedal locomotion; exact size and armour arrangement are reconstructed from incomplete individuals."
+      ]
+    },
+    "ageReviewNote": "The broad range covers accepted western European records; it must not be inferred from PBDB occurrence counts alone.",
+    "sources": [
+      {
+        "type": "systematic-revision",
+        "citation": "Maidment et al. (2008), Systematics and phylogeny of Stegosauria",
+        "url": "https://doi.org/10.1017/S1477201908002459"
+      },
+      {
+        "type": "new-specimen-revision",
+        "citation": "Cobos et al. (2025), A new specimen of Dacentrurus armatus",
+        "url": "https://doi.org/10.1093/zoolinnean/zlae074"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Dacentrurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Dacentrurus"
+      }
+    ],
+    "residualUncertainty": [
+      "Some Iberian referrals do not overlap sufficiently with the English type.",
+      "Maximum body size and plate arrangement are not directly preserved."
+    ],
+    "evidence": {
+      "score": 60,
+      "material": "Partial type skeleton plus several referred partial skeletons and isolated elements.",
+      "formations": [
+        "Kimmeridge Clay Formation",
+        "Lourinha Formation",
+        "Villar del Arzobispo Formation"
+      ],
+      "confidenceLimit": "Moderate: diagnostic but assembled from multiple incomplete individuals.",
+      "uncertainties": [
+        "referral of non-type material",
+        "maximum size",
+        "armour arrangement"
+      ],
+      "summary": "Dacentrurus armatus was a large quadrupedal stegosaur from the Late Jurassic of western Europe. The English type is incomplete, while additional Portuguese and Spanish skeletons expand knowledge of the genus; referrals outside the type must be assessed specimen by specimen.",
+      "sourceBasis": "Maidment et al. (2008), Systematics and phylogeny of Stegosauria; Cobos et al. (2025), A new specimen of Dacentrurus armatus; Paleobiology Database taxon and occurrence context for Dacentrurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

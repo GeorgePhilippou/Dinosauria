@@ -1,0 +1,153 @@
+{
+  "id": "garudimimus",
+  "name": "Garudimimus",
+  "profile": {
+    "overview": [
+      "Garudimimus (meaning 'Garuda mimic', referring to the divine bird of Hindu and Buddhist mythology) was an ornithomimosaurian theropod from the Late Cretaceous of Mongolia, living approximately 93–84 million years ago during the Turonian to Santonian. Estimated at around 4.7 metres in length, it is known from a single specimen — a nearly complete skeleton — discovered in 1981 during a Soviet-Mongolian palaeontological expedition in the Bayanshiree Formation. Its diet was likely omnivorous or herbivorous, consistent with other ornithomimosaurs.",
+      "Garudimimus brevipes was formally described by Rinchen Barsbold in 1981 in the same year of its discovery. Initially noted for a small horn-like structure over the eye, this feature was later reinterpreted in a comprehensive redescription in 2005. PBDB now places Garudimimus within Deinocheiridae rather than Ornithomimidae, reflecting revised phylogenetic analyses that group it with Deinocheirus and Beishanlong — an interesting placement given that Deinocheirus was one of the largest theropods ever to exist."
+    ],
+    "fossilSites": [
+      {
+        "name": "Bayanshiree Formation",
+        "region": "Omnogov, Mongolia",
+        "lat": 44.5,
+        "lon": 103.5,
+        "note": "The only known locality; the type specimen is the sole known representative of the genus, found during the 1981 Soviet-Mongolian palaeontological expedition."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Ornithomimosauria",
+        "Deinocheiridae",
+        "Garudimimus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Deinocheiridae",
+          "label": "Deinocheirus (giant ornithomimosaur)"
+        },
+        {
+          "from": "Deinocheiridae",
+          "label": "Beishanlong"
+        },
+        {
+          "from": "Ornithomimosauria",
+          "label": "Ornithomimidae (Gallimimus, Ornithomimus)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Garudimimus brevipes was described by Rinchen Barsbold in 1981 in the same year as its discovery during a joint Soviet-Mongolian expedition. The genus name references Garuda, a divine bird-being from Hindu and Buddhist mythology — chosen because of the animal's overall bird-like appearance — and the species name brevipes means 'short foot'. The complete skeleton is housed in the Mongolian Institute of Palaeontology and Geology."
+      },
+      {
+        "title": "Anatomy and Revised Interpretation",
+        "body": "Early descriptions of Garudimimus noted a small bony horn above the eye socket, but a comprehensive redescription in 2005 found that this feature had been misidentified and may not represent a genuine horn. The 2005 redescription also revised earlier anatomical interpretations and noted extensive undescribed ornithomimosaur material at the type locality that may represent additional Garudimimus specimens."
+      },
+      {
+        "title": "Placement in Deinocheiridae",
+        "body": "Recent phylogenetic analyses place Garudimimus within Deinocheiridae rather than the traditional Ornithomimidae. This grouping unites it with the enormous Deinocheirus, whose arms were discovered in the 1960s but whose full anatomy (revealed in 2014) proved it to be a bizarre, hump-backed, fish-eating giant. The deinocheirid grouping suggests Garudimimus may be more closely related to this unusual lineage than to the more typical ostrich-like ornithomimids."
+      },
+      {
+        "title": "Diet and Ecology",
+        "body": "Ornithomimosaurs broadly are inferred to have been omnivores or herbivores based on their toothless beaks and stomach contents in some specimens. The Bayanshiree Formation habitat was a semi-arid to arid environment in Late Cretaceous Mongolia, supporting a fauna that included ankylosaurs, therizinosaurs, and various theropods. Garudimimus, at nearly 5 metres long, would have been one of the larger herbivore-omnivore animals in this community."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Garudimimus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/garudimimus.html"
+      },
+      {
+        "label": "Wikipedia: Garudimimus",
+        "url": "https://en.wikipedia.org/wiki/Garudimimus"
+      },
+      {
+        "label": "PBDB: Garudimimus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Garudimimus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Bayanshiree Formation, Omnogov, Mongolia",
+    "material": "The complete skeleton is housed in the Mongolian Institute of Palaeontology and Geology.",
+    "completeness": "Nearly complete specimen known; 1 PBDB occurrence records.",
+    "paleo": "The only known locality; the type specimen is the sole known representative of the genus, found during the 1981 Soviet-Mongolian palaeontological expedition.",
+    "evidence": "Garudimimus brevipes was formally described by Rinchen Barsbold in 1981 in the same year of its discovery."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Cenomanian-Santonian, approximately 100-86 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Ornithomimosauria"
+      ],
+      "description": "Garudimimus brevipes was an early-diverging ornithomimosaur from the Bayan Shireh Formation of Mongolia. A single partial skeleton with skull shows a toothless beak, shortened lower legs compared with later ornithomimids and a grasping forelimb.",
+      "facts": [
+        "The type is associated but incomplete and was altered by damage and early reconstruction.",
+        "It was bipedal but probably less cursorially specialised than Gallimimus-like ornithomimids.",
+        "Its toothless jaws do not by themselves resolve whether it ate plants, animals or both."
+      ],
+      "diet": null
+    },
+    "ageReviewNote": "Formation age is kept broad because Bayan Shireh correlations remain debated.",
+    "sources": [
+      {
+        "type": "redescription",
+        "citation": "Kobayashi & Barsbold (2005), Reexamination of Garudimimus brevipes",
+        "url": "https://doi.org/10.1139/e05-044"
+      },
+      {
+        "type": "cranial-reconstruction",
+        "citation": "Cuff & Rayfield (2015), Retrodeformation and muscular reconstruction of ornithomimosaurian dinosaur crania",
+        "url": "https://doi.org/10.7717/peerj.1093"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Garudimimus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Garudimimus"
+      }
+    ],
+    "residualUncertainty": [
+      "Only one incomplete individual is known.",
+      "Diet, adult variation and exact formation age remain uncertain."
+    ],
+    "evidence": {
+      "score": 60,
+      "material": "Single partial skeleton including a damaged skull and much of the limbs.",
+      "formations": [
+        "Bayan Shireh Formation"
+      ],
+      "confidenceLimit": "High for basic anatomy and bipedality; moderate for locomotor performance; low for diet.",
+      "uncertainties": [
+        "diet",
+        "adult variation",
+        "formation age"
+      ],
+      "summary": "Garudimimus brevipes was an early-diverging ornithomimosaur from the Bayan Shireh Formation of Mongolia. A single partial skeleton with skull shows a toothless beak, shortened lower legs compared with later ornithomimids and a grasping forelimb.",
+      "sourceBasis": "Kobayashi & Barsbold (2005), Reexamination of Garudimimus brevipes; Cuff & Rayfield (2015), Retrodeformation and muscular reconstruction of ornithomimosaurian dinosaur crania; Paleobiology Database taxon and occurrence context for Garudimimus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

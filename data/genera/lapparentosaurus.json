@@ -1,0 +1,148 @@
+{
+  "id": "lapparentosaurus",
+  "name": "Lapparentosaurus",
+  "profile": {
+    "overview": [
+      "Lapparentosaurus was a large herbivorous sauropod dinosaur that lived during the Middle Jurassic, approximately 169–164 million years ago, in what is now Madagascar. It belongs to the clade Titanosauriformes within Macronaria, making it one of the earlier members of the line that would eventually give rise to titanosaurs. The genus is estimated to have reached a substantial body size typical of Jurassic sauropods, though precise length figures are uncertain due to fragmentary remains.",
+      "Lapparentosaurus was named in 1986 by palaeontologist José Bonaparte in honour of Albert-Félix de Lapparent, the French geologist and palaeontologist who did pioneering work on African dinosaurs. Because all known specimens lack skulls, reconstructions of its head rely on comparisons with related titanosauriforms. Its Madagascan provenance is scientifically significant as it provides evidence of a diverse Jurassic sauropod fauna on the island, which was still connected to the Gondwana landmass at that time."
+    ],
+    "fossilSites": [
+      {
+        "name": "Isalo III beds (Bathonian)",
+        "region": "Mahajanga Basin, Madagascar",
+        "lat": -17,
+        "lon": 44.5,
+        "note": "Partial postcranial skeletons lacking skulls were recovered from these Middle Jurassic continental sediments."
+      },
+      {
+        "name": "Majunga Basin deposits",
+        "region": "Mahajanga Province, Madagascar",
+        "lat": -16.5,
+        "lon": 46.3,
+        "note": "Additional fragmentary sauropod remains attributed to or associated with Lapparentosaurus have been noted from this region."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Macronaria",
+        "Titanosauriformes",
+        "Lapparentosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Titanosauriformes",
+          "label": "Brachiosauridae"
+        },
+        {
+          "from": "Titanosauriformes",
+          "label": "Titanosauria"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Lapparentosaurus was described in 1986 by José Bonaparte based on partial skeletal material collected in Madagascar. Bonaparte named it in honour of Albert-Félix de Lapparent, the French palaeontologist who made significant contributions to the study of African and Saharan dinosaurs. The type species is Lapparentosaurus madagascariensis, with the species name reflecting its Madagascan origin."
+      },
+      {
+        "title": "Classification and Relationships",
+        "body": "Bonaparte placed Lapparentosaurus within Macronaria, a major clade of sauropods, and subsequent studies have positioned it within Titanosauriformes — the group ancestral to the highly successful titanosaurs of the Cretaceous. This placement makes it one of the geologically older members of this lineage. Its exact position within Titanosauriformes remains somewhat uncertain given the incomplete nature of the material."
+      },
+      {
+        "title": "Palaeobiology and Incomplete Remains",
+        "body": "Because no skulls have been recovered, key features of Lapparentosaurus such as tooth morphology and feeding apparatus remain unknown. The postcranial skeleton suggests a large-bodied quadrupedal herbivore typical of Jurassic sauropods. Reconstructions therefore involve considerable inference based on related taxa, and should be treated as approximate."
+      },
+      {
+        "title": "Significance for Gondwanan Palaeobiogeography",
+        "body": "The presence of a titanosauriform in Middle Jurassic Madagascar is important for understanding how this major sauropod lineage dispersed across Gondwana before the breakup of the southern supercontinent. Madagascar at this time maintained land connections that allowed faunal exchange between Africa and other Gondwanan regions."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Lapparentosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/lapparentosaurus.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Isalo III beds (Bathonian), Mahajanga Basin, Madagascar; Majunga Basin deposits, Mahajanga Province, Madagascar",
+    "material": "The postcranial skeleton suggests a large-bodied quadrupedal herbivore typical of Jurassic sauropods.",
+    "completeness": "Fragmentary material only; 1 PBDB occurrence records.",
+    "paleo": "Partial postcranial skeletons lacking skulls were recovered from these Middle Jurassic continental sediments.",
+    "evidence": "Lapparentosaurus was named in 1986 by palaeontologist José Bonaparte in honour of Albert-Félix de Lapparent, the French geologist and palaeontologist who did pioneering work on African dinosaurs."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Mid Jurassic",
+      "mya": "Bathonian, roughly 168-166 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Eusauropoda"
+      ],
+      "description": "Lapparentosaurus madagascariensis was an early eusauropod from the Isalo III deposits of Madagascar. It is known from disarticulated postcranial material from several mostly immature individuals; no diagnostic skull and no complete skeleton are known.",
+      "facts": [
+        "Growth rings and bone tissues provide information on juvenile development.",
+        "Most body reconstruction combines bones from different individuals.",
+        "Its exact position among early eusauropods is not stable."
+      ]
+    },
+    "ageReviewNote": "The Isalo III fauna is generally Bathonian; correlations and local horizon control remain approximate.",
+    "sources": [
+      {
+        "type": "anatomical-reassessment",
+        "citation": "Lallensack et al. (2019), Reassessment of Lapparentosaurus from the Middle Jurassic of Madagascar",
+        "url": "https://eprints.gla.ac.uk/210400/"
+      },
+      {
+        "type": "histology",
+        "citation": "Rimblot-Baly et al. (1995), Bone histology of Lapparentosaurus madagascariensis",
+        "url": "https://documentsdelivered.com/source/036/039/036039814.php"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Lapparentosaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Lapparentosaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "The material is disarticulated, mostly immature and lacks a skull.",
+      "Age, hypodigm and phylogenetic position require further specimen-level work."
+    ],
+    "evidence": {
+      "score": 40,
+      "material": "Disarticulated postcranial remains from several mostly juvenile individuals.",
+      "formations": [
+        "Isalo III beds"
+      ],
+      "confidenceLimit": "Moderate for eusauropod anatomy and growth; low for skull, adult form and exact relationships.",
+      "uncertainties": [
+        "cranial anatomy",
+        "adult anatomy",
+        "individual association",
+        "phylogeny"
+      ],
+      "summary": "Lapparentosaurus madagascariensis was an early eusauropod from the Isalo III deposits of Madagascar. It is known from disarticulated postcranial material from several mostly immature individuals; no diagnostic skull and no complete skeleton are known.",
+      "sourceBasis": "Lallensack et al. (2019), Reassessment of Lapparentosaurus from the Middle Jurassic of Madagascar; Rimblot-Baly et al. (1995), Bone histology of Lapparentosaurus madagascariensis; Paleobiology Database taxon and occurrence context for Lapparentosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

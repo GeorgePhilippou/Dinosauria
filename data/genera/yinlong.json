@@ -1,0 +1,136 @@
+{
+  "id": "yinlong",
+  "name": "Yinlong",
+  "profile": {
+    "overview": [
+      "Yinlong ('hidden dragon') was a small, basal ceratopsian dinosaur from the Middle to Late Jurassic of Xinjiang, China, living approximately 159–154 million years ago during the Oxfordian stage. Reaching about 1.2 metres in length, it was a bipedal or semi-quadrupedal herbivore with a relatively large head compared to its body. The type and only species, Yinlong downsi, was described in 2006 from the Shishugou Formation of Xinjiang and is recognised as the earliest known unambiguous ceratopsian dinosaur.",
+      "Named by Xu Xing, Forster, Clark, and Mo in 2006, Yinlong is scientifically extraordinary because it documents the origin of Ceratopsia at a time and place previously unknown to yield this group. Its anatomy shows a mosaic of features linking ceratopsians, pachycephalosaurs, and heterodontosaurids, and it is placed at or near the base of the ceratopsian family tree, making it crucial for understanding the origins of one of the most spectacularly diverse dinosaur groups of the Cretaceous."
+    ],
+    "fossilSites": [
+      {
+        "name": "Shishugou Formation",
+        "region": "Xinjiang, China",
+        "lat": 44.5,
+        "lon": 88,
+        "note": "The Oxfordian-age formation from which Yinlong downsi was recovered, also yielding the giant theropod Guanlong wucaii."
+      },
+      {
+        "name": "Wucaiwan area",
+        "region": "Xinjiang, China",
+        "lat": 44.6,
+        "lon": 88.2,
+        "note": "The productive Shishugou Formation locality that has yielded multiple important Jurassic dinosaur taxa."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Neornithischia",
+        "Cerapoda",
+        "Marginocephalia",
+        "Ceratopsia",
+        "Yinlong"
+      ],
+      "sideBranches": [
+        {
+          "from": "Marginocephalia",
+          "label": "Pachycephalosauria"
+        },
+        {
+          "from": "Ceratopsia",
+          "label": "Neoceratopsia (Protoceratops, Triceratops lineage)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Yinlong downsi was described in 2006 by Xu Xing, Catherine Forster, James Clark, and Mo Jinyou from a nearly complete skeleton recovered from the Shishugou Formation of Xinjiang. The genus name means 'hidden dragon' in Chinese, a reference to the 2000 film 'Crouching Tiger, Hidden Dragon' partly filmed near the discovery locality. The species name honours American palaeontologist Will Downs who collected the specimen."
+      },
+      {
+        "title": "Earliest Ceratopsian",
+        "body": "At approximately 159–154 million years old, Yinlong is the earliest well-documented ceratopsian dinosaur, pushing back the origins of the group into the Late Jurassic. Prior to its discovery, the ceratopsian record was largely Cretaceous. Its existence implies that the Marginocephalia — the group uniting ceratopsians and pachycephalosaurs — had already diverged from other ornithischians by the Jurassic, consistent with molecular-clock estimates but previously lacking fossil evidence."
+      },
+      {
+        "title": "Mosaic of Primitive Features",
+        "body": "Yinlong combines features seen in ceratopsians (a rostral bone forming the tip of the upper beak, key ceratopsian synapomorphies) with characters reminiscent of pachycephalosaurs (thickened skull roof) and heterodontosaurids (fang-like teeth in the lower jaw). This mosaic anatomy confirms the phylogenetic hypothesis that Marginocephalia is sister to Ornithopoda within Neornithischia and helps illuminate the ancestral body plan of the ceratopsian lineage."
+      },
+      {
+        "title": "Shishugou Formation Context",
+        "body": "The Shishugou Formation of Xinjiang also yielded the primitive tyrannosaur Guanlong wucaii from the same locality, providing an important window into Jurassic Asian ecosystems. The fauna includes early members of theropod, sauropod, and ornithischian lineages, suggesting that the Jurassic of Central Asia harboured the early diversification of many major dinosaur groups that would dominate the later Cretaceous worldwide."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Yinlong profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/yinlong.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Shishugou Formation, Xinjiang, China; Wucaiwan area, Xinjiang, China",
+    "material": "Yinlong downsi was described in 2006 by Xu Xing, Catherine Forster, James Clark, and Mo Jinyou from a nearly complete skeleton recovered from the Shishugou Formation of Xinjiang.",
+    "completeness": "Skeletal material known; 1 PBDB occurrence records.",
+    "paleo": "The Oxfordian-age formation from which Yinlong downsi was recovered, also yielding the giant theropod Guanlong wucaii.",
+    "evidence": "Named by Xu Xing, Forster, Clark, and Mo in 2006, Yinlong is scientifically extraordinary because it documents the origin of Ceratopsia at a time and place previously unknown to yield this group."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "Oxfordian, about 160 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ceratopsia"
+      ],
+      "diet": null,
+      "description": "Yinlong downsi was an early ceratopsian from the Shishugou Formation of Xinjiang, known from multiple skeletons including skulls.",
+      "facts": [
+        "Its skull combines early ornithischian features with a ceratopsian rostral bone.",
+        "Gastrolith-like stones occur with specimens, but exact diet remains broadly herbivorous or omnivorous rather than categorically established."
+      ]
+    },
+    "ageReviewNote": "The upper Shishugou type horizon is Oxfordian near 160 Ma, making the old Mid Jurassic label incorrect.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Xu et al. (2006), basal ceratopsian Yinlong from the Late Jurassic",
+        "url": "https://doi.org/10.1098/rspb.2006.3566"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: yinlong",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/yinlong.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Diet breadth and exact basal ceratopsian branching remain uncertain."
+    ],
+    "evidence": {
+      "score": 87,
+      "material": "Several partial to articulated skeletons with skulls.",
+      "formations": "Shishugou Formation, Xinjiang, China.",
+      "confidenceLimit": "The inherited categorical diet is cleared; gastroliths do not identify exact foods or prove specialised grinding.",
+      "uncertainties": [
+        "diet",
+        "fine phylogeny"
+      ],
+      "summary": "Yinlong downsi was an early ceratopsian from the Shishugou Formation of Xinjiang, known from multiple skeletons including skulls.",
+      "sourceBasis": "Xu et al. (2006), basal ceratopsian Yinlong from the Late Jurassic; Natural History Museum Dino Directory: yinlong"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

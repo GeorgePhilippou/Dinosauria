@@ -1,0 +1,146 @@
+{
+  "id": "eolambia",
+  "name": "Eolambia",
+  "profile": {
+    "overview": [
+      "Eolambia (meaning 'dawn lambeosaurine') was a large herbivorous ornithopod from the Late Cretaceous of Utah, USA, living approximately 99–94 million years ago during the Cenomanian stage. Its body length is not firmly established but is thought to have been substantial, comparable to other early hadrosauroids. Known from skulls and postcrania of multiple individuals spanning juveniles to adults, Eolambia provides valuable information about growth and ontogeny in early hadrosauroid dinosaurs.",
+      "Described by James Kirkland in 1998 from material in the Cedar Mountain / Dakota Formation, Eolambia caroljonesa is placed within Hadrosauroidea — the broader group that includes true hadrosaurs (duck-billed dinosaurs). It represents one of the earlier North American members of this lineage, predating the hadrosaurid radiation that would dominate the later Cretaceous. Its evolutionary position helps calibrate when and how hadrosaurs diversified in North America."
+    ],
+    "fossilSites": [
+      {
+        "name": "Cedar Mountain / Dakota Formation",
+        "region": "Utah, USA",
+        "lat": 39.3,
+        "lon": -110.5,
+        "note": "The only confirmed locality, producing multiple specimens of juveniles and adults that document ontogenetic variation in the species."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauriformes",
+        "Hadrosauroidea",
+        "Eolambia"
+      ],
+      "sideBranches": [
+        {
+          "from": "Hadrosauroidea",
+          "label": "Hadrosauridae (true duck-bills)"
+        },
+        {
+          "from": "Hadrosauroidea",
+          "label": "Protohadros"
+        },
+        {
+          "from": "Ornithopoda",
+          "label": "Iguanodontia"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Eolambia caroljonesa was described by James Kirkland in 1998 from material collected in Utah's Cedar Mountain Formation. The species is named in honour of Carol Jones, who helped with fieldwork. The genus name reflects the original interpretation that it might be an early member of Lambeosaurinae, though subsequent analyses place it more broadly within Hadrosauroidea."
+      },
+      {
+        "title": "Ontogenetic Sample",
+        "body": "The occurrence of both juvenile and adult Eolambia individuals in the Cedar Mountain deposits is scientifically significant, as it allows study of growth patterns in early hadrosauroids. Such ontogenetic series are relatively rare in the fossil record and help researchers understand how hadrosaur body proportions and features changed through development."
+      },
+      {
+        "title": "Evolutionary Position",
+        "body": "Eolambia represents an early stage in the evolution of the hadrosaur lineage in North America, pre-dating the diverse assemblages of hadrosaurids known from the Campanian. Its anatomy preserves a mixture of features shared with basal iguanodontiforms and derived characteristics pointing toward true hadrosaurs, making it an informative transitional taxon for understanding ornithopod evolution."
+      },
+      {
+        "title": "Cenomanian Ecology",
+        "body": "The Cedar Mountain Formation preserves a rich Cenomanian vertebrate fauna, including early tyrannosauroids, dromaeosaurids, and a variety of herbivores. Eolambia would have been one of the larger herbivores in this ecosystem, potentially feeding on low to mid-height vegetation. Its environment was characterised by meandering river systems and seasonally flooded coastal plains."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Eolambia profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/eolambia.html"
+      },
+      {
+        "label": "PBDB: Eolambia occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eolambia&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Cedar Mountain / Dakota Formation, Utah, USA",
+    "material": "Eolambia represents an early stage in the evolution of the hadrosaur lineage in North America, pre-dating the diverse assemblages of hadrosaurids known from the Campanian.",
+    "completeness": "Partial material known; 12 PBDB occurrence records.",
+    "paleo": "The only confirmed locality, producing multiple specimens of juveniles and adults that document ontogenetic variation in the species.",
+    "evidence": "Described by James Kirkland in 1998 from material in the Cedar Mountain / Dakota Formation, Eolambia caroljonesa is placed within Hadrosauroidea — the broader group that includes true hadrosaurs (duck-billed dinosaurs)."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "early Cenomanian, about 99-98 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Hadrosauromorpha"
+      ],
+      "description": "Eolambia caroljonesa was a large herbivorous hadrosauromorph from the Mussentuchit Member of Utahs Cedar Mountain Formation. Abundant remains from several localities include juveniles and adults, skulls and much of the postcranial skeleton.",
+      "facts": [
+        "The record represents many individuals, not one nearly complete skeleton.",
+        "Jaw and limb anatomy support a primarily quadrupedal herbivore capable of bipedal movement.",
+        "It lies outside Hadrosauridae in most modern analyses despite its hadrosaur-like build."
+      ]
+    },
+    "ageReviewNote": "High-resolution dating places the Mussentuchit record near 99-98 Ma, much narrower than a generic 99-94 Ma interval.",
+    "sources": [
+      {
+        "type": "osteological-revision",
+        "citation": "McDonald et al. (2012), Osteology of Eolambia caroljonesa",
+        "url": "https://doi.org/10.1371/journal.pone.0045712"
+      },
+      {
+        "type": "new-specimen-study",
+        "citation": "McDonald et al. (2017), Anatomy and taphonomy of a new Eolambia specimen",
+        "url": "https://doi.org/10.1371/journal.pone.0176896"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Eolambia",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Eolambia"
+      }
+    ],
+    "residualUncertainty": [
+      "Exact placement among non-hadrosaurid hadrosauromorphs varies.",
+      "Body-mass estimates depend on composite reconstruction."
+    ],
+    "evidence": {
+      "score": 80,
+      "material": "Abundant cranial and postcranial remains from multiple individuals and growth stages.",
+      "formations": [
+        "Cedar Mountain Formation, Mussentuchit Member"
+      ],
+      "confidenceLimit": "High for anatomy, age, diet and locomotion; moderate for mass.",
+      "uncertainties": [
+        "fine phylogenetic position",
+        "mass"
+      ],
+      "summary": "Eolambia caroljonesa was a large herbivorous hadrosauromorph from the Mussentuchit Member of Utahs Cedar Mountain Formation. Abundant remains from several localities include juveniles and adults, skulls and much of the postcranial skeleton.",
+      "sourceBasis": "McDonald et al. (2012), Osteology of Eolambia caroljonesa; McDonald et al. (2017), Anatomy and taphonomy of a new Eolambia specimen; Paleobiology Database taxon and occurrence context for Eolambia"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

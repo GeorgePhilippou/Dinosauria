@@ -1,0 +1,151 @@
+{
+  "id": "mamenchisaurus",
+  "name": "Mamenchisaurus",
+  "profile": {
+    "overview": [
+      "Mamenchisaurus was a massive herbivorous sauropod dinosaur famous for possessing one of the longest necks relative to body size of any known animal, with the neck comprising nearly half the total body length. It lived during the Late Jurassic, approximately 160–145 million years ago, with some species possibly extending into the Early Cretaceous, in the Sichuan Basin and Yunnan Province of China. Various species ranged from roughly 15 to 26 metres in length, with some fragmentary evidence suggesting individuals potentially approaching 35 metres.",
+      "Named by Young (C.C. Yang) in 1954 based on material from Mamenchi Ferry on the Jinsha River in Sichuan, Mamenchisaurus belongs to the Mamenchisauridae, a family of Eurasian sauropods characterised by extremely elongated necks with numerous cervical vertebrae. Numerous species have been assigned to the genus over the decades, though the validity of many of these species assignments has been questioned and the taxonomy remains partially unsettled."
+    ],
+    "fossilSites": [
+      {
+        "name": "Upper Shaximiao Formation",
+        "region": "Sichuan Province, China",
+        "lat": 29.5,
+        "lon": 105,
+        "note": "Multiple species of Mamenchisaurus have been described from this Late Jurassic formation, including the type species M. constructus."
+      },
+      {
+        "name": "Yunnan Province deposits",
+        "region": "Yunnan Province, China",
+        "lat": 25,
+        "lon": 101.5,
+        "note": "Additional mamenchisaurid material from Yunnan contributes to the understanding of this sauropod's distribution across south-western China."
+      },
+      {
+        "name": "Shishugou Formation",
+        "region": "Xinjiang, China",
+        "lat": 44,
+        "lon": 88,
+        "note": "The species M. sinocanadorum, dating to the Oxfordian stage, was recovered from northwestern China and represents one of the largest known species."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Eusauropoda",
+        "Mamenchisauridae",
+        "Mamenchisaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Eusauropoda",
+          "label": "Neosauropoda (Diplodocidae, Brachiosauridae, Titanosauria)"
+        },
+        {
+          "from": "Mamenchisauridae",
+          "label": "Omeisaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "The type species Mamenchisaurus constructus was named by C.C. Young (Yang Zhongjian) in 1954, based on a partial skeleton found at the Mamenchi Ferry construction site on the Jinsha River in Sichuan Province. Young named the genus after the ferry crossing, and constructus refers to the construction works that led to its discovery. Young and Zhao described a second species in 1972, M. hochuanensis, known from four nearly complete skeletons and celebrated for its famously elongated neck."
+      },
+      {
+        "title": "The Extraordinary Neck",
+        "body": "The neck of Mamenchisaurus is among the longest known of any animal, proportionally or absolutely. M. hochuanensis had a neck estimated at 9 metres in a 15-metre animal, while the fragmentary M. sinocanadorum may have had an even longer neck on a body potentially approaching 26 metres or more. The necks were stiffened by overlapping ribs on the cervical vertebrae, limiting lateral flexibility but potentially allowing extensive vertical reach for high browsing."
+      },
+      {
+        "title": "Species Diversity and Taxonomy",
+        "body": "More than ten species have been assigned to Mamenchisaurus, but many of these assignments have been questioned due to inadequate material or insufficient diagnostic characters. Species such as M. anyuensis, from the Early Cretaceous, push the temporal range of the genus unusually late if correctly assigned, while the geologic age of several Shaximiao Formation species remains debated. Reassessment and revision of Mamenchisaurus taxonomy is ongoing."
+      },
+      {
+        "title": "Mamenchisauridae and Asian Sauropod Biogeography",
+        "body": "Mamenchisaurus belongs to Mamenchisauridae, a family of long-necked sauropods largely confined to Asia during the Jurassic. The family's restriction to Asia suggests that mamenchisaurids were part of an endemic Asian sauropod radiation that was partly isolated from the Neosauropoda lineages that dominated elsewhere. Understanding mamenchisaurid relationships helps clarify how Jurassic sauropod diversity was structured across Laurasian and Gondwanan landmasses."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Mamenchisaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/mamenchisaurus.html"
+      },
+      {
+        "label": "Wikipedia: Mamenchisaurus",
+        "url": "https://en.wikipedia.org/wiki/Mamenchisaurus"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Upper Shaximiao Formation, Sichuan Province, China; Yunnan Province deposits, Yunnan Province, China; Shishugou Formation, Xinjiang, China",
+    "material": "hochuanensis, known from four nearly complete skeletons and celebrated for its famously elongated neck.",
+    "completeness": "Fragmentary material only; 24 PBDB occurrence records.",
+    "paleo": "Multiple species of Mamenchisaurus have been described from this Late Jurassic formation, including the type species M. constructus.",
+    "evidence": "Named by Young (C.C."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Mid Jurassic",
+      "mya": "about 168-157 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Eusauropoda",
+        "Mamenchisauridae"
+      ],
+      "description": "Mamenchisaurus is a historically broad genus of long-necked Chinese eusauropods. The type species M. constructus is based on a partial skeleton from the Sichuan Basin; other named species differ greatly in completeness and may not form a natural genus.",
+      "facts": [
+        "Several species preserve substantial skeletons, but no single completeness claim applies to the whole genus.",
+        "The extraordinary neck length is directly supported in some species; the largest whole-body estimates depend on scaling incomplete individuals.",
+        "A 2023 analysis recovered named Mamenchisaurus species in a non-monophyletic series, requiring genus-level revision."
+      ]
+    },
+    "ageReviewNote": "The range is restricted to well-supported Middle-Late Jurassic Chinese species; Early Cretaceous and non-Chinese referrals are not used to extend it.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Moore et al. (2023), reassessment of Mamenchisaurus sinocanadorum and long-neck evolution",
+        "url": "https://doi.org/10.1080/14772019.2023.2171818"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: mamenchisaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/mamenchisaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Species-level assignments and the limits of the genus remain unsettled.",
+      "Maximum size is poorly constrained for the most fragmentary species."
+    ],
+    "evidence": {
+      "score": 58,
+      "material": "Type species represented by a partial skeleton; other referred species range from fragmentary to substantial articulated skeletons.",
+      "formations": "Sichuan Basin units including the Shaximiao succession; additional Chinese species occur in other Jurassic units.",
+      "confidenceLimit": "Do not combine measurements or anatomy from different species into one individual.",
+      "uncertainties": [
+        "genus is probably non-monophyletic",
+        "largest sizes rely on extrapolation"
+      ],
+      "summary": "Mamenchisaurus is a historically broad genus of long-necked Chinese eusauropods. The type species M. constructus is based on a partial skeleton from the Sichuan Basin; other named species differ greatly in completeness and may not form a natural genus.",
+      "sourceBasis": "Moore et al. (2023), reassessment of Mamenchisaurus sinocanadorum and long-neck evolution; Natural History Museum Dino Directory: mamenchisaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

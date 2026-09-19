@@ -1,0 +1,147 @@
+{
+  "id": "aquilops",
+  "name": "Aquilops",
+  "profile": {
+    "overview": [
+      "Aquilops americanus was a tiny neoceratopsian dinosaur from the Early Cretaceous of North America, living approximately 109–104 million years ago. It was one of the smallest ceratopsians known, estimated at about 60 centimetres in length and approximately 1 kilogram in mass, and is known from a single partial skull collected from the Cloverly Formation of Montana. Its eagle-like, strongly hooked beak gave it the name meaning 'eagle face'.",
+      "Named by Farke and colleagues in 2014, Aquilops is the oldest known neoceratopsian from North America and provides important evidence for an early dispersal of this group from Asia to North America. Its Asian affinities suggest that small neoceratopsians crossed into North America via a Bering land bridge tens of millions of years before the large-horned ceratopsids diversified there."
+    ],
+    "fossilSites": [
+      {
+        "name": "Cloverly Formation",
+        "region": "Montana, USA",
+        "lat": 45.8,
+        "lon": -108.2,
+        "note": "The only known Aquilops specimen — a partial skull — was recovered from this Early Cretaceous formation, making it the oldest neoceratopsian recorded in North America."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ceratopsia",
+        "Neoceratopsia",
+        "Aquilops"
+      ],
+      "sideBranches": [
+        {
+          "from": "Neoceratopsia",
+          "label": "Protoceratopsidae"
+        },
+        {
+          "from": "Neoceratopsia",
+          "label": "Ceratopsidae (horned ceratopsids)"
+        },
+        {
+          "from": "Ceratopsia",
+          "label": "Psittacosaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Aquilops americanus was described in 2014 by Andrew Farke and colleagues from a partial skull collected from the Cloverly Formation of Montana. The generic name derives from Latin aquila (eagle) and Greek ops (face), referring to the strongly hooked rostral bone of the skull. The species name americanus reflects its North American provenance and its importance as the first neoceratopsian demonstrated from Early Cretaceous North America."
+      },
+      {
+        "title": "Anatomy",
+        "body": "Aquilops is known from a single partial skull measuring only a few centimetres across, indicating the animal was extremely small even by ceratopsian standards. The skull displays a strongly hooked beak, a small frill at the back, and the slender build typical of basal neoceratopsians. It lacked the elaborate horns and large frills of later ceratopsids, being much more similar anatomically to Asian forms such as Protoceratops."
+      },
+      {
+        "title": "Biogeographic Significance",
+        "body": "Aquilops is remarkable for being approximately 20 million years older than the next-oldest neoceratopsians known from North America. Its close resemblance to Asian neoceratopsians such as Liaoceratops and Auroraceratops supports the hypothesis that early ceratopsians migrated from Asia to North America during the Early Cretaceous, long before the larger-bodied ceratopsids evolved their diversified horns and frills."
+      },
+      {
+        "title": "Ecology",
+        "body": "At approximately 1 kilogram, Aquilops was about the size of a domestic rabbit. It was a ground-dwelling herbivore that likely fed on low-growing vegetation, using its sharp beak to clip plant material. The Cloverly Formation environment represented a seasonally dry or forested lowland setting, also home to the theropod Deinonychus and sauropods such as Sauroposeidon."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Aquilops profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/aquilops.html"
+      },
+      {
+        "label": "Wikipedia: Aquilops",
+        "url": "https://en.wikipedia.org/wiki/Aquilops"
+      },
+      {
+        "label": "PBDB: Aquilops occurrence data",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=310995"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Cloverly Formation, Montana, USA",
+    "material": "Aquilops americanus was described in 2014 by Andrew Farke and colleagues from a partial skull collected from the Cloverly Formation of Montana.",
+    "completeness": "Partial material known; 1 PBDB occurrence records.",
+    "paleo": "The only known Aquilops specimen — a partial skull — was recovered from this Early Cretaceous formation, making it the oldest neoceratopsian recorded in North America.",
+    "evidence": "Named by Farke and colleagues in 2014, Aquilops is the oldest known neoceratopsian from North America and provides important evidence for an early dispersal of this group from Asia to North America."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "about 109-104 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Cerapoda",
+        "Ceratopsia",
+        "Neoceratopsia"
+      ],
+      "description": "Aquilops americanus was a small early neoceratopsian from the Cloverly Formation of Montana. It is known from one partial skull, important for ceratopsian biogeography but insufficient for a detailed full-body reconstruction.",
+      "facts": [
+        "The hooked rostral bone and associated skull elements diagnose the genus.",
+        "Body size and posture are inferred from relatives because no postcranial bones are known."
+      ],
+      "length": null,
+      "massKg": null
+    },
+    "ageReviewNote": "The relevant Cloverly beds are late Aptian to early Albian.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Farke et al. (2014), A ceratopsian dinosaur from the Lower Cretaceous of western North America",
+        "url": "https://doi.org/10.1371/journal.pone.0112055"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: aquilops",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/aquilops.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Only one partial skull is known.",
+      "The individual was not fully mature.",
+      "Its exact position among early neoceratopsians is weakly resolved."
+    ],
+    "evidence": {
+      "score": 38,
+      "material": "One partial skull.",
+      "formations": [
+        "Cloverly Formation"
+      ],
+      "confidenceLimit": "A skull-only juvenile or subadult specimen cannot establish adult body size or postcranial anatomy.",
+      "uncertainties": [
+        "Only one partial skull is known.",
+        "The individual was not fully mature.",
+        "Its exact position among early neoceratopsians is weakly resolved."
+      ],
+      "summary": "Aquilops americanus was a small early neoceratopsian from the Cloverly Formation of Montana. It is known from one partial skull, important for ceratopsian biogeography but insufficient for a detailed full-body reconstruction.",
+      "sourceBasis": "Farke et al. (2014), A ceratopsian dinosaur from the Lower Cretaceous of western North America; Natural History Museum, Dino Directory: aquilops"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

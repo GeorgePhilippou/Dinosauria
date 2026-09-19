@@ -1,0 +1,146 @@
+{
+  "id": "gorgosaurus",
+  "name": "Gorgosaurus",
+  "profile": {
+    "overview": [
+      "Gorgosaurus libratus was a large tyrannosaur from the Campanian of Alberta (~76–75 Ma), the dominant apex predator of the Dinosaur Park Formation ecosystem. It preceded and partially overlapped with Daspletosaurus, the other large tyrannosaur in the same formation. Excellent growth-series specimens allow detailed study of tyrannosaur ontogeny.",
+      "Gorgosaurus was for many years synonymised with Albertosaurus, but current opinion treats them as distinct genera: Gorgosaurus is stratigraphically older and differs from Albertosaurus in several cranial features. Both are albertosaurine tyrannosaurs — a clade that preceded and co-existed with the derived tyrannosaurines (Daspletosaurus, Tyrannosaurus) in the Late Cretaceous of North America."
+    ],
+    "fossilSites": [
+      {
+        "name": "Dinosaur Park Formation",
+        "region": "Alberta, Canada",
+        "lat": 50.7,
+        "lon": -111.5,
+        "note": "Campanian coastal plain deposits with multiple Gorgosaurus specimens of all growth stages alongside ceratopsids, hadrosaurs and ankylosaurs."
+      },
+      {
+        "name": "Two Medicine Formation",
+        "region": "Montana, USA",
+        "lat": 48.2,
+        "lon": -113.2,
+        "note": "Campanian upland deposits yielding additional Gorgosaurus material south of the Canadian border."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Tyrannosauroidea",
+        "Tyrannosauridae",
+        "Albertosaurinae",
+        "Gorgosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Albertosaurinae",
+          "label": "Albertosaurus"
+        },
+        {
+          "from": "Tyrannosauridae",
+          "label": "Tyrannosaurinae (Daspletosaurus, T. rex)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "The first Gorgosaurus skull was found in the Red Deer River badlands of Alberta by Lawrence Lambe in 1913. Multiple subsequent specimens from Dinosaur Park have made it among the most completely documented tyrannosaurs outside of T. rex. A 2023 specimen from the Judith River Formation in Montana sold at auction for $6.1 million USD."
+      },
+      {
+        "title": "Ontogeny and growth",
+        "body": "Growth-series specimens from juvenile to adult allow study of ontogenetic changes in skull shape: juveniles have proportionally longer, lower skulls that deepen and shorten with age. This pattern of skull deepening with growth is shared across Tyrannosauridae. Young tyrannosaurs likely occupied a different ecological niche (fast pursuit of smaller prey) from adults (bone-crushing ambush predators of large hadrosaurs and ceratopsids)."
+      },
+      {
+        "title": "Ecological role",
+        "body": "Gorgosaurus was the apex predator of the Dinosaur Park Formation ecosystem, a habitat of coastal swamps, channels and forested uplands. Its prey base included hadrosaurs (Corythosaurus, Lambeosaurus), ceratopsids (Centrosaurus, Styracosaurus) and ankylosaurs. Co-existence with Daspletosaurus suggests either temporal or niche partitioning within the same geographic area."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Gorgosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/gorgosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Dinosaur Park Formation, Alberta, Canada; Two Medicine Formation, Montana, USA",
+    "material": "Many skulls and skeletons across growth stages.",
+    "completeness": "Very well represented",
+    "paleo": "Late Cretaceous coastal plain of western Canada with hadrosaurs, ceratopsians and ankylosaurs.",
+    "evidence": "A growth series from juvenile to adult documents the dramatic ontogenetic change in skull shape and tooth morphology in tyrannosaurs."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian, roughly 76.6-75.1 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Tyrannosauroidea",
+        "Tyrannosauridae",
+        "Albertosaurinae"
+      ],
+      "description": "Gorgosaurus libratus was an albertosaurine tyrannosaurid from the Dinosaur Park Formation of Alberta and equivalent strata in Montana. Dozens of skulls and skeletons spanning juvenile to adult stages make its growth and anatomy unusually well documented.",
+      "facts": [
+        "Juveniles were more slender and long-legged than adults.",
+        "Preserved stomach contents in a juvenile provide direct evidence that at least young Gorgosaurus ate small caenagnathid dinosaurs.",
+        "That single meal does not establish the full diet of all ages or coordinated hunting."
+      ]
+    },
+    "ageReviewNote": "Most secure G. libratus material comes from the Dinosaur Park Formation, approximately 76.6-75.1 Ma.",
+    "sources": [
+      {
+        "type": "juvenile-osteology",
+        "citation": "Voris et al. (2022), A juvenile Gorgosaurus and tyrannosaurid ontogeny",
+        "url": "https://doi.org/10.1080/02724634.2021.2041651"
+      },
+      {
+        "type": "direct-diet-evidence",
+        "citation": "Therrien et al. (2023), Exceptionally preserved stomach contents of a juvenile tyrannosaurid",
+        "url": "https://doi.org/10.1126/sciadv.adi0505"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Gorgosaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gorgosaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "Age-related ecological partitioning beyond the stomach-content specimen is inferred.",
+      "Sociality and population-level hunting behaviour remain unknown."
+    ],
+    "evidence": {
+      "score": 90,
+      "material": "Dozens of skulls and partial-to-complete skeletons across ontogeny, including direct gut contents.",
+      "formations": [
+        "Dinosaur Park Formation",
+        "Judith River Formation"
+      ],
+      "confidenceLimit": "Very high for anatomy, growth and carnivory; high for one juvenile meal; low for social behaviour.",
+      "uncertainties": [
+        "population ecology",
+        "social behaviour",
+        "species-level Montana referrals"
+      ],
+      "summary": "Gorgosaurus libratus was an albertosaurine tyrannosaurid from the Dinosaur Park Formation of Alberta and equivalent strata in Montana. Dozens of skulls and skeletons spanning juvenile to adult stages make its growth and anatomy unusually well documented.",
+      "sourceBasis": "Voris et al. (2022), A juvenile Gorgosaurus and tyrannosaurid ontogeny; Therrien et al. (2023), Exceptionally preserved stomach contents of a juvenile tyrannosaurid; Paleobiology Database taxon and occurrence context for Gorgosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

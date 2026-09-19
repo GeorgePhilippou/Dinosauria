@@ -1,0 +1,162 @@
+{
+  "id": "coloradisaurus",
+  "name": "Coloradisaurus",
+  "profile": {
+    "overview": [
+      "Coloradisaurus was a medium-sized prosauropod (sauropodomorph) dinosaur from the Late Triassic of Argentina, approximately 227–206 million years ago (Norian), found in the Los Colorados Formation of La Rioja Province. Estimated at about 4 metres in length, it was an omnivore or herbivore that likely moved on both two and four legs. Its name means 'Los Colorados lizard', referencing the red-coloured formation in which it was found.",
+      "Named by José Bonaparte in 1978 and placed within Massospondylidae by PBDB analysis, Coloradisaurus brevis is known from two specimens from the Ischigualasto-Villa Unión Basin. Its classification within Plateosauridae (as assigned by NHM) or Massospondylidae (as per other analyses) reflects ongoing debate about the internal classification of prosauropods. The Los Colorados Formation is a key unit for understanding the composition of Late Triassic South American dinosaur faunas."
+    ],
+    "fossilSites": [
+      {
+        "name": "Los Colorados Formation / Agua de la Peña Group",
+        "region": "La Rioja Province, Argentina",
+        "lat": -29.5,
+        "lon": -68,
+        "note": "Late Triassic red-bed formation in the Ischigualasto-Villa Unión Basin yielding both specimens of Coloradisaurus."
+      },
+      {
+        "name": "Ischigualasto-Villa Unión Basin",
+        "region": "La Rioja and San Juan Provinces, Argentina",
+        "lat": -30,
+        "lon": -68.2,
+        "note": "UNESCO World Heritage basin preserving a succession of Triassic formations with the earliest known dinosaurs."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Prosauropoda",
+        "Plateosauria",
+        "Massospondylidae",
+        "Coloradisaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Massospondylidae",
+          "label": "Massospondylus (South African prosauropod)"
+        },
+        {
+          "from": "Massospondylidae",
+          "label": "Lufengosaurus (Chinese prosauropod)"
+        },
+        {
+          "from": "Plateosauria",
+          "label": "Plateosauridae (European prosauropods)"
+        },
+        {
+          "from": "Sauropodomorpha",
+          "label": "Sauropoda (giant relatives)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Coloradisaurus brevis was named by José Bonaparte in 1978 from material collected in the Los Colorados Formation of La Rioja Province. The formation's red colouration, which dominates the landscape, gives the genus its name. Two specimens are known from the Ischigualasto-Villa Unión Basin. The specific name brevis means 'short', possibly referencing proportional features of the specimens."
+      },
+      {
+        "title": "Anatomy and Diet",
+        "body": "Coloradisaurus had a relatively small skull with leaf-shaped teeth that could have processed plant material or small animals, consistent with an omnivorous diet. Its forelimbs were shorter than its hindlimbs, suggesting a primarily bipedal stance with the option of quadrupedal browsing. At about 4 metres long, it was a medium-sized representative of the prosauropod grade."
+      },
+      {
+        "title": "Classification Debates",
+        "body": "The precise family-level placement of Coloradisaurus has shifted between Plateosauridae and Massospondylidae in different analyses, reflecting the difficulty of resolving prosauropod relationships from the limited known material. Modern cladistic analyses tend to place it closer to Massospondylus than to Plateosaurus, aligning it with Massospondylidae. This debate highlights the still-evolving understanding of early sauropodomorph evolution."
+      },
+      {
+        "title": "Late Triassic Argentina Fauna",
+        "body": "The Los Colorados Formation overlies the Ischichuca and Ischigualasto Formations, which are famous for producing some of the world's earliest dinosaurs, including Eoraptor and Herrerasaurus. The slightly younger Los Colorados Formation shows a fauna already dominated by dinosaurs rather than the mixed archosaur communities of the underlying beds, illustrating the rapid rise of dinosaurs during the Triassic."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Coloradisaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/coloradisaurus.html"
+      },
+      {
+        "label": "Wikipedia: Coloradisaurus",
+        "url": "https://en.wikipedia.org/wiki/Coloradisaurus"
+      },
+      {
+        "label": "PBDB: Coloradisaurus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Coloradisaurus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Los Colorados Formation / Agua de la Peña Group, La Rioja Province, Argentina; Ischigualasto-Villa Unión Basin, La Rioja and San Juan Provinces, Argentina",
+    "material": "Two specimens are known from the Ischigualasto-Villa Unión Basin.",
+    "completeness": "Skeletal material known; 2 PBDB occurrence records.",
+    "paleo": "Late Triassic red-bed formation in the Ischigualasto-Villa Unión Basin yielding both specimens of Coloradisaurus.",
+    "evidence": "Named by José Bonaparte in 1978 and placed within Massospondylidae by PBDB analysis, Coloradisaurus brevis is known from two specimens from the Ischigualasto-Villa Unión Basin."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Triassic",
+      "mya": "approximately 227-208 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Massospondylidae"
+      ],
+      "description": "Coloradisaurus brevis was a massospondylid sauropodomorph from the Los Colorados Formation of Argentina. Its holotype preserves a skull and much of the postcranial skeleton, providing strong evidence for a medium-sized bipedal early sauropodomorph.",
+      "facts": [
+        "Detailed skull and postcranial studies support massospondylid affinities.",
+        "Broad herbivory or omnivory is plausible, but exact food and feeding behaviour are not preserved."
+      ]
+    },
+    "ageReviewNote": "The Los Colorados Formation is Norian-Rhaetian, though its long numerical span is not resolved at every locality.",
+    "sources": [
+      {
+        "type": "postcranial-anatomy",
+        "citation": "Apaldetti et al. (2013), The postcranial anatomy of Coloradisaurus brevis",
+        "url": "https://doi.org/10.1111/j.1475-4983.2012.01198.x"
+      },
+      {
+        "type": "cranial-anatomy",
+        "citation": "Apaldetti et al. (2014), Cranial anatomy of Coloradisaurus brevis",
+        "url": "https://staff.mef.org.ar/images/investigadores/diego_pol/papers/68.pdf"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: coloradisaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/coloradisaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "The formation age is broad.",
+      "Some referred remains have weaker association.",
+      "Massospondylid relationships vary modestly."
+    ],
+    "evidence": {
+      "score": 82,
+      "material": "One substantially complete skull and partial postcranial skeleton, with additional referred remains.",
+      "formations": [
+        "Los Colorados Formation"
+      ],
+      "confidenceLimit": "One good individual supports anatomy; population variation, exact adult mass and diet remain uncertain.",
+      "uncertainties": [
+        "The formation age is broad.",
+        "Some referred remains have weaker association.",
+        "Massospondylid relationships vary modestly."
+      ],
+      "summary": "Coloradisaurus brevis was a massospondylid sauropodomorph from the Los Colorados Formation of Argentina. Its holotype preserves a skull and much of the postcranial skeleton, providing strong evidence for a medium-sized bipedal early sauropodomorph.",
+      "sourceBasis": "Apaldetti et al. (2013), The postcranial anatomy of Coloradisaurus brevis; Apaldetti et al. (2014), Cranial anatomy of Coloradisaurus brevis; Natural History Museum, Dino Directory: coloradisaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

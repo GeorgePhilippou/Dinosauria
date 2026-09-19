@@ -1,0 +1,488 @@
+{
+  "id": "tyrannosaurus",
+  "name": "Tyrannosaurus",
+  "richProfile": {
+    "overview": [
+      "Tyrannosaurus rex was a giant tyrannosaurid theropod from the final two million years of the Cretaceous. It lived in western North America and combined a massive skull, bone-crushing bite, forward-facing vision and a strong sense of smell.",
+      "The fossils tell a more nuanced story than a simple movie monster: T. rex was both predator and scavenger, fought with other tyrannosaurs, grew through dramatic body changes and lived in warm, humid floodplain ecosystems."
+    ],
+    "fossilSites": [
+      {
+        "name": "Hell Creek Formation",
+        "region": "Montana, North Dakota, South Dakota and Wyoming, USA",
+        "lat": 46.8,
+        "lon": -104.2,
+        "note": "Major late Maastrichtian fossil unit that preserves T. rex, Triceratops and Edmontosaurus."
+      },
+      {
+        "name": "Lance Formation",
+        "region": "Wyoming, USA",
+        "lat": 43,
+        "lon": -105.5,
+        "note": "Includes early T. rex discoveries and other latest Cretaceous dinosaurs."
+      },
+      {
+        "name": "Frenchman Formation",
+        "region": "Saskatchewan, Canada",
+        "lat": 49.3,
+        "lon": -107.8,
+        "note": "Canadian latest Cretaceous deposits with tyrannosaur remains."
+      },
+      {
+        "name": "Scollard Formation",
+        "region": "Alberta, Canada",
+        "lat": 51.8,
+        "lon": -112.7,
+        "note": "Northern part of the late Cretaceous range of Tyrannosaurus."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Tyrannosauroidea",
+        "Tyrannosauridae",
+        "Tyrannosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Theropoda",
+          "label": "Other large theropods"
+        },
+        {
+          "from": "Coelurosauria",
+          "label": "Bird-line theropods"
+        },
+        {
+          "from": "Tyrannosauroidea",
+          "label": "Basal tyrannosauroids"
+        },
+        {
+          "from": "Tyrannosauridae",
+          "label": "Albertosaurines"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and naming",
+        "body": "Barnum Brown found the first recognised T. rex skeletons in Wyoming and Montana in 1900 and 1902, and Henry Fairfield Osborn named Tyrannosaurus rex in 1905. NHM notes that an earlier name, Manospondylus gigas, was later recognised as the same animal but fell out of use."
+      },
+      {
+        "title": "Feeding and senses",
+        "body": "NHM describes 60 saw-edged, bone-crushing teeth and bite marks on Triceratops and Edmontosaurus fossils. A large part of the brain processed smell, so T. rex could probably locate food over long distances and may have both hunted and scavenged."
+      },
+      {
+        "title": "Size and movement",
+        "body": "A typical adult T. rex weighed around 8,000–9,000 kilograms — the well-studied specimen FMNH PR2081 (Sue) is estimated at ~8,400 kg. Especially large individuals such as Scotty may have exceeded 9,000 kg. Body length was around 12–13 metres. NHM gives an adult top speed estimate of about 22 kilometres per hour."
+      },
+      {
+        "title": "Skin, feathers and appearance",
+        "body": "T. rex belongs to Theropoda, a group that includes many feathered dinosaurs, but NHM notes there is currently no direct evidence for feathers in Tyrannosaurus. Preserved skin from T. rex and close relatives shows scales, while feathers remain possible only in areas where skin is not yet known."
+      }
+    ],
+    "citations": [
+      {
+        "label": "Natural History Museum: Tyrannosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/tyrannosaurus.html"
+      },
+      {
+        "label": "Field Museum: SUE the T. rex",
+        "url": "https://www.fieldmuseum.org/blog/sue-t-rex"
+      },
+      {
+        "label": "PLOS ONE: Cannibalism in Tyrannosaurus rex",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2955550/"
+      },
+      {
+        "label": "Wikimedia Commons: image file page",
+        "url": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_rex_mmartyniuk.png"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Hell Creek, Lance, Scollard and Frenchman formations, North America",
+    "material": "Multiple partial to near-complete skeletons, skulls, teeth, bite traces and coprolites.",
+    "completeness": "Very well represented for a giant theropod",
+    "paleo": "Latest Cretaceous western North American floodplains.",
+    "evidence": "Skulls, teeth, limb bones, bite marks and bone-filled coprolites support feeding, growth and sensory interpretations."
+  },
+  "remainsImage": {
+    "file": "Sue (Tyrannosaurus).png",
+    "label": "SUE skeletal mount, Field Museum",
+    "note": "Real mounted skeleton/specimen display; useful for the preserved-material panel."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-09-19",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "name-bearing and principal referred specimens",
+      "growth series and the Nanotyrannus dispute",
+      "integument evidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "latest Maastrichtian, about 68–66 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Tyrannosauroidea",
+        "Tyrannosauridae",
+        "Tyrannosaurinae",
+        "Tyrannosaurus"
+      ],
+      "diet": "Carnivore",
+      "locomotion": "Bipedal",
+      "description": "Tyrannosaurus rex was a giant tyrannosaurine from latest Maastrichtian western North America, known from dozens of skulls and partial to substantial skeletons. The growth series must now be separated from the active dispute over which small-bodied specimens belong to juvenile T. rex versus the distinct contemporary genus Nanotyrannus.",
+      "facts": [
+        "The holotype CM 9380 is a partial skull and skeleton collected by Barnum Brown in 1902 from the Hell Creek Formation of Montana and described by Osborn in 1905.",
+        "FMNH PR 2081 (\"Sue\") is the most complete and among the largest specimens, preserving about 90 per cent of the skeleton by bone volume.",
+        "Growth, bite force, injuries and skin impressions are directly studied from a large sample, but Carr's 2020 assignment of controversial small specimens to the T. rex growth series is no longer treated as settled.",
+        "Two independent late-2025 studies supported a mature, distinct Nanotyrannus using a new associated specimen and histology of the holotype; further testing may refine which specimens belong to each genus.",
+        "Adult T. rex scale impressions exist, while the amount of feathering remains unknown."
+      ]
+    },
+    "presentation": {
+      "heroLead": "The best-documented giant predator of the Mesozoic, known from dozens of skulls and skeletons that record its growth, injuries and skin, and still the subject of live debate about which specimens are truly juveniles.",
+      "heroMedia": {
+        "file": "Tyrannosaurus-rex-Profile-steveoc86.png",
+        "title": "Life restoration of Tyrannosaurus rex",
+        "alt": "Life restoration of Tyrannosaurus rex in side view",
+        "caption": "Life restoration by Steveoc 86. Proportions follow published skeletal reconstructions; skin texture beyond the known scale patches and colour are interpretive.",
+        "credit": "Steveoc 86 · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus-rex-Profile-steveoc86.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 68–66 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Western USA and Canada"
+        },
+        {
+          "label": "Known size",
+          "value": "about 12–12.5 m · 8–9 t"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Tyrannosaurus rex was a massive two-legged predator that lived across western North America in the last two million years of the Cretaceous. Adults reached about twelve metres in length and weighed around eight to nine tonnes, with a skull up to one and a half metres long carrying thick, banana-shaped teeth built for crushing bone.",
+        "Its tiny two-fingered arms contrast with an enormously deep skull, a heavily muscled neck and long, powerful hindlimbs. Bite marks on prey bones, healed injuries, tooth-marked Triceratops pelves and coprolites full of crushed bone show that it fed on the largest animals in its environment.",
+        "Because so many individuals are known, Tyrannosaurus is the reference point for how a giant dinosaur grew, moved and fed. That sample also creates its biggest controversy: whether the small tyrannosaurs found alongside it are juveniles or a separate genus, Nanotyrannus."
+      ],
+      "animalHighlights": [
+        "A skull up to 1.5 m long with thickened teeth and one of the strongest bites measured for any land animal.",
+        "Reduced two-fingered forelimbs paired with long, robust hindlimbs and a deep, muscular tail.",
+        "Patches of small scales are preserved from the neck, hip and tail of adult specimens; feathering is not directly documented in adults."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Apex carnivore",
+          "level": "Directly evidenced",
+          "reason": "Bite-marked bones of Triceratops and Edmontosaurus, bone-rich coprolites and tooth wear document feeding on large prey."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal walker",
+          "level": "Running speed debated",
+          "reason": "Limb proportions and biomechanical models suggest a brisk walk in adults; a true gallop is unlikely at adult mass."
+        },
+        {
+          "label": "Known size",
+          "value": "about 12–12.5 m · 8–9 t",
+          "level": "Well constrained for large adults",
+          "reason": "Sue and Scotty are nearly complete large individuals; mass still depends on the reconstruction method used."
+        },
+        {
+          "label": "Appearance",
+          "value": "Scales confirmed in patches",
+          "level": "Feather extent unknown",
+          "reason": "Skin impressions from several adults show small scales; whether juveniles or other body regions carried feathers is not directly known."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous (latest Maastrichtian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 68–66 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Hell Creek, Lance, Scollard, Frenchman and equivalent formations"
+        },
+        {
+          "label": "Type locality",
+          "value": "Hell Creek Formation, Garfield County, Montana, USA"
+        }
+      ],
+      "locality": {
+        "name": "Hell Creek badlands",
+        "region": "Garfield County, Montana, USA",
+        "note": "Type locality of CM 9380. Referred specimens come from Montana, the Dakotas, Wyoming, Colorado, Utah, New Mexico, Texas, Alberta and Saskatchewan; the map shows a regional reference."
+      },
+      "classificationSummary": "Tyrannosaurus is the name-bearing genus of Tyrannosauridae and of the subfamily Tyrannosaurinae. Its closest relative is usually recovered as the Asian Tarbosaurus. Proposals to split the sample into several species, and the status of Nanotyrannus, remain unsettled.",
+      "related": [
+        {
+          "id": "tarbosaurus",
+          "reason": "Its closest Asian relative, similar in build but somewhat smaller."
+        },
+        {
+          "id": "gorgosaurus",
+          "reason": "An earlier, more lightly built tyrannosaurid known from a growth series."
+        },
+        {
+          "id": "triceratops",
+          "reason": "Its most frequently documented prey, with tooth-marked bones."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Is Nanotyrannus a separate genus?",
+          "copy": "Two 2025 studies concluded that the small tyrannosaurs of Hell Creek were mature animals of a distinct genus. If accepted, several specimens leave the T. rex growth series and the juvenile stage becomes less well known."
+        },
+        {
+          "title": "How fast could it move?",
+          "copy": "Estimates range from a fast walk to a slow run. Bone strength and muscle-mass models limit adults to roughly 20–30 km/h, while juveniles were probably much quicker."
+        },
+        {
+          "title": "One species or several?",
+          "copy": "A 2022 proposal to divide Tyrannosaurus into three species was rejected by most subsequent analyses, but variation across the sample is real and still under study."
+        }
+      ],
+      "compactSources": true
+    },
+    "ageReviewNote": "Secure T. rex records occupy the final roughly two million years of the Cretaceous, contemporaneous with specimens newly reassigned to Nanotyrannus.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Osborn (1905), Tyrannosaurus and other Cretaceous carnivorous dinosaurs",
+        "url": "https://digitallibrary.amnh.org/items/a02fc8e6-2c29-45cd-a95a-271d17d1786f"
+      },
+      {
+        "type": "osteology",
+        "citation": "Brochu (2003), Osteology of Tyrannosaurus rex: insights from a nearly complete skeleton",
+        "url": "https://doi.org/10.1080/02724634.2003.10010947"
+      },
+      {
+        "type": "growth-series",
+        "citation": "Carr (2020), A high-resolution growth series of Tyrannosaurus rex",
+        "url": "https://doi.org/10.7717/peerj.9192"
+      },
+      {
+        "type": "taxonomy",
+        "citation": "Zanno & Napoli (2025), Nanotyrannus and Tyrannosaurus as coexisting genera",
+        "url": "https://doi.org/10.1038/s41586-025-09801-6"
+      },
+      {
+        "type": "histology",
+        "citation": "Griffin et al. (2025), Independent maturity test of the Nanotyrannus holotype",
+        "url": "https://doi.org/10.1126/science.adx8706"
+      },
+      {
+        "type": "integument",
+        "citation": "Bell et al. (2017), Tyrannosauroid integument reveals conflicting patterns of gigantism and feather evolution",
+        "url": "https://doi.org/10.1098/rsbl.2017.0092"
+      }
+    ],
+    "residualUncertainty": [
+      "Assignment of small-bodied Hell Creek tyrannosaurs between Tyrannosaurus and Nanotyrannus is unresolved.",
+      "Proposals to split Tyrannosaurus into multiple species have not gained consensus.",
+      "Maximum body mass depends on the estimation method.",
+      "The distribution of feathers, if any, on adults or juveniles is not directly known."
+    ],
+    "evidence": {
+      "score": 99,
+      "summary": "Dozens of skulls and partial to nearly complete skeletons, spanning a wide size range, make Tyrannosaurus one of the best-sampled non-avian dinosaurs; the open question is how many of the small specimens belong to it.",
+      "material": "More than fifty specimens including several nearly complete skeletons (FMNH PR 2081, RSM P2523.8, BHI 3033), the holotype CM 9380, AMNH 5027 and skin impressions from multiple individuals.",
+      "formations": [
+        "Hell Creek Formation — Montana and the Dakotas, USA",
+        "Lance Formation — Wyoming, USA",
+        "Scollard and Frenchman formations — Alberta and Saskatchewan, Canada"
+      ],
+      "confidenceLimit": "Adult anatomy is exceptionally well documented; do not treat every small tyrannosaur as a juvenile T. rex, keep mass as an estimate, and do not infer a fully scaly or fully feathered body from incomplete skin coverage.",
+      "sourceBasis": "Osborn 1905, Brochu 2003, Carr 2020, Bell et al. 2017, Zanno & Napoli 2025 and Griffin et al. 2025.",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "CM 9380",
+          "institution": "Carnegie Museum of Natural History",
+          "note": "Partial skull and skeleton collected by Barnum Brown in 1902; originally AMNH 973, sold to Pittsburgh in 1941."
+        },
+        {
+          "name": "\"Sue\"",
+          "id": "FMNH PR 2081",
+          "institution": "Field Museum of Natural History",
+          "note": "About 90 per cent complete by bone volume; the most thoroughly described individual."
+        },
+        {
+          "name": "AMNH 5027",
+          "id": "AMNH 5027",
+          "institution": "American Museum of Natural History",
+          "note": "Nearly complete skull with much of the skeleton; basis of many classic reconstructions."
+        },
+        {
+          "name": "\"Scotty\"",
+          "id": "RSM P2523.8",
+          "institution": "Royal Saskatchewan Museum",
+          "note": "Among the largest and oldest individuals by bone histology."
+        }
+      ],
+      "uncertainties": [
+        "Tyrannosaurus–Nanotyrannus specimen assignment",
+        "species proposals",
+        "maximum mass",
+        "feather distribution"
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Dozens of skeletons, several nearly complete, from the last two million years of the Cretaceous.",
+        "standfirst": "Tyrannosaurus rex is known from more than fifty specimens across Montana, the Dakotas, Wyoming and the Canadian prairies, including some of the most complete large theropod skeletons ever found. Its evidence base is exceptional; the debate is about the edges of that sample.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every region of the skeleton is represented by multiple individuals, including articulated skulls, complete limbs, gastralia and skin impressions."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Nearly complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "More than 50"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Juvenile stage contested"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete and near-complete skulls, full vertebral series, forelimbs with both fingers, pelves, hindlimbs and feet, furculae and gastralia, plus small patches of scaly skin from the neck, pelvis and tail of several adults.",
+          "note": "The main gap is at the young end of the growth series: if the Nanotyrannus specimens are a separate genus, very few true juvenile T. rex are known."
+        },
+        "media": [
+          {
+            "file": "Tyrannosaurus Rex Holotype.jpg",
+            "kind": "Type specimen",
+            "title": "Holotype CM 9380 mounted at the Carnegie Museum",
+            "alt": "Mounted skeleton of the Tyrannosaurus rex holotype CM 9380 at the Carnegie Museum of Natural History",
+            "caption": "The holotype skeleton as mounted in Pittsburgh. Missing elements in the mount are reconstructed from other specimens.",
+            "credit": "ScottRobertAnselmo · CC BY-SA 3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_Rex_Holotype.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Many complete skulls with dentition, braincases studied by CT, and hyoid elements."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete cervical, dorsal, sacral and caudal series in several specimens; ribs, gastralia and chevrons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Complete pectoral and pelvic girdles, both forelimbs with two-fingered hands, hindlimbs and feet, and furculae."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Skin impressions with small scales from several body regions, healed injuries and pathologies, and coprolites attributed to the genus."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "CM 9380 · holotype",
+            "description": "A partial skull and skeleton found by Barnum Brown in 1902 in the Hell Creek badlands of Montana and described by Henry Fairfield Osborn in 1905. Originally AMNH 973, it moved to the Carnegie Museum in 1941.",
+            "meta": "Garfield County, Montana · Hell Creek Formation · Carnegie Museum of Natural History"
+          },
+          {
+            "kicker": "Most complete specimen",
+            "title": "FMNH PR 2081 · \"Sue\"",
+            "description": "Discovered in South Dakota in 1990 and about 90 per cent complete by bone volume. Its detailed osteology, growth history and pathologies underpin much of what is known about the species.",
+            "meta": "Cheyenne River Reservation, South Dakota · Hell Creek Formation · Field Museum"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Dozens of skulls and skeletons of all sizes, skin impressions, bite-marked prey bones and bone-filled coprolites."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A slow-growing-then-rapidly-maturing apex predator whose bone-crushing bite and stereoscopic vision made it the dominant carnivore of its ecosystem."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Whether the small Hell Creek tyrannosaurs are juveniles, the extent of any feathering, top speed, and whether the sample contains one species or several."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Osteology",
+            "title": "Brochu · 2003",
+            "description": "Bone-by-bone description of FMNH PR 2081, the standard anatomical reference.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1080/02724634.2003.10010947"
+          },
+          {
+            "type": "Growth series",
+            "title": "Carr · 2020",
+            "description": "Proposed high-resolution growth series based on 44 specimens.",
+            "access": "Open access",
+            "url": "https://doi.org/10.7717/peerj.9192"
+          },
+          {
+            "type": "Taxonomy",
+            "title": "Zanno & Napoli · 2025",
+            "description": "Case for Nanotyrannus as a distinct genus coexisting with Tyrannosaurus.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1038/s41586-025-09801-6"
+          },
+          {
+            "type": "Integument",
+            "title": "Bell et al. · 2017",
+            "description": "Description of scaly skin impressions from Tyrannosaurus and relatives.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1098/rsbl.2017.0092"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype mount photograph",
+            "description": "Source page, creator details and reuse licence for the CM 9380 image.",
+            "access": "CC BY-SA 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_Rex_Holotype.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38613"
+          }
+        ],
+        "limitations": "The coverage band describes the combined sample at genus level. It is an editorial evidence summary, not a published completeness percentage, and it does not resolve which small specimens belong to the genus.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
+    }
+  }
+}

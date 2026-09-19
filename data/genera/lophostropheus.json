@@ -1,0 +1,138 @@
+{
+  "id": "lophostropheus",
+  "name": "Lophostropheus",
+  "profile": {
+    "overview": [
+      "Lophostropheus was a small to medium-sized theropod dinosaur that lived near the Triassic–Jurassic boundary, approximately 201–199 million years ago, in what is now Normandy, France. It is known from very limited material comprising a tooth, vertebrae, and part of a pelvis, making its anatomy largely uncertain. The type species is Lophostropheus airelensis, named after the commune of Airel in Normandy where the fossils were found.",
+      "Originally described as a species of Liliensternus in 1966, the material was reassigned to the new genus Lophostropheus in 2007 by Martin and Buffetaut. Its scientific importance lies partly in its stratigraphic position at the Triassic–Jurassic boundary, a critical interval marked by a major mass extinction. Lophostropheus potentially represents one of the few theropods known from this transitional period in Europe, though its fragmentary nature means many aspects of its biology and relationships remain uncertain."
+    ],
+    "fossilSites": [
+      {
+        "name": "Grès de Moon Formation (Moon-Airel beds)",
+        "region": "Manche, Normandy, France",
+        "lat": 49.2,
+        "lon": -1.1,
+        "note": "The fragmentary holotype material was recovered from latest Triassic to earliest Jurassic continental redbed sediments in this Norman locality."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Lophostropheus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Neotheropoda",
+          "label": "Coelophysoidea"
+        },
+        {
+          "from": "Neotheropoda",
+          "label": "Tetanurae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Material now referred to Lophostropheus was originally described in 1966 by Jean Lapparent and Zbyszewski as a species of Liliensternus. In 2007, Martin and Buffetaut recognised this material as belonging to a distinct genus and created the new name Lophostropheus airelensis. The genus name refers to crested vertebrae ('lophos' = crest, 'stropheus' = vertebra), while the species name honours Airel, the Norman commune where the fossils were discovered."
+      },
+      {
+        "title": "Fragmentary Nature and Uncertainty",
+        "body": "Lophostropheus is known from only a tooth, some vertebrae, and pelvic fragments, which limits what can be reliably inferred about its anatomy, size, and lifestyle. Reconstructions are necessarily speculative and based on comparisons with better-known neotheropods of similar age. The incompleteness of the material also makes precise phylogenetic placement difficult."
+      },
+      {
+        "title": "Triassic–Jurassic Boundary Significance",
+        "body": "The stratigraphic position of Lophostropheus near the end-Triassic extinction event (approximately 201 million years ago) gives it special palaeontological interest. This mass extinction eliminated many archosaur lineages and allowed dinosaurs to diversify rapidly in the Early Jurassic. Theropods from this boundary interval are rare in Europe, making Lophostropheus a potentially important data point despite its fragmentary preservation."
+      },
+      {
+        "title": "European Early Mesozoic Context",
+        "body": "During the latest Triassic and earliest Jurassic, Europe was a series of low-lying islands and coastal regions, with a fauna of early dinosaurs and other archosaurs. Normandy's continental redbeds preserve a rare window into this transitional fauna. Lophostropheus fits into a broader picture of early theropod diversity in western Europe during this critical time."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Lophostropheus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/lophostropheus.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Grès de Moon Formation (Moon-Airel beds), Manche, Normandy, France",
+    "material": "Lophostropheus is known from only a tooth, some vertebrae, and pelvic fragments, which limits what can be reliably inferred about its anatomy, size, and lifestyle.",
+    "completeness": "Fragmentary material only; 1 PBDB occurrence records.",
+    "paleo": "The fragmentary holotype material was recovered from latest Triassic to earliest Jurassic continental redbed sediments in this Norman locality.",
+    "evidence": "Originally described as a species of Liliensternus in 1966, the material was reassigned to the new genus Lophostropheus in 2007 by Martin and Buffetaut."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Early Jurassic",
+      "mya": "near the Triassic-Jurassic boundary, about 201 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Coelophysoidea?"
+      ],
+      "description": "Lophostropheus airelensis was an early neotheropod from the Moon-Airel Formation of Normandy, France. It is known from fragmentary vertebral, pelvic and other postcranial remains without a skull; the material was formerly assigned to Halticosaurus and Liliensternus.",
+      "facts": [
+        "No skull or diagnostic teeth are known.",
+        "Its age close to the Triassic-Jurassic boundary makes it important but does not improve skeletal completeness.",
+        "Carnivory is inferred broadly from theropod identity."
+      ]
+    },
+    "ageReviewNote": "The Moon-Airel assemblage lies close to the Rhaetian-Hettangian boundary near 201 Ma.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Ezcurra & Cuny (2007), Lophostropheus airelensis from the Triassic-Jurassic boundary",
+        "url": "https://doi.org/10.1671/0272-4634(2007)27%5B73:TCLAGN%5D2.0.CO;2"
+      },
+      {
+        "type": "early-theropod-review",
+        "citation": "Carrano, Benson & Sampson (2012), The phylogeny of Tetanurae",
+        "url": "https://doi.org/10.1080/14772019.2011.630927"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Lophostropheus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Lophostropheus"
+      }
+    ],
+    "residualUncertainty": [
+      "The material is fragmentary and headless.",
+      "Its coelophysoid placement and individual association remain uncertain."
+    ],
+    "evidence": {
+      "score": 20,
+      "material": "Fragmentary partial postcranial skeleton without skull.",
+      "formations": [
+        "Moon-Airel Formation"
+      ],
+      "confidenceLimit": "Moderate for an early neotheropod occurrence; low for diagnosis, proportions and fine relationships.",
+      "uncertainties": [
+        "cranial anatomy",
+        "phylogeny",
+        "individual association"
+      ],
+      "summary": "Lophostropheus airelensis was an early neotheropod from the Moon-Airel Formation of Normandy, France. It is known from fragmentary vertebral, pelvic and other postcranial remains without a skull; the material was formerly assigned to Halticosaurus and Liliensternus.",
+      "sourceBasis": "Ezcurra & Cuny (2007), Lophostropheus airelensis from the Triassic-Jurassic boundary; Carrano, Benson & Sampson (2012), The phylogeny of Tetanurae; Paleobiology Database taxon and occurrence context for Lophostropheus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

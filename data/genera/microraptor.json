@@ -1,0 +1,129 @@
+{
+  "id": "microraptor",
+  "name": "Microraptor",
+  "profile": {
+    "overview": [
+      "Microraptor gui was the size of a crow but carried flight feathers on all four limbs — both arms and legs — making it the strongest evidence that the evolution of flight in dinosaurs may have passed through a four-winged stage. Iridescent black plumage has been reconstructed from melanosomes preserved in its feathers, making it one of the few dinosaurs whose colour can be described with confidence.",
+      "Hundreds of Microraptor specimens are known from the Yixian Formation of Liaoning, China (~125–120 Ma), making it among the most studied small dinosaurs. Stomach contents preserved in several specimens include fish, lizards and the remains of a small bird, revealing an opportunistic diet despite its tiny size."
+    ],
+    "fossilSites": [
+      {
+        "name": "Yixian Formation",
+        "region": "Liaoning Province, China",
+        "lat": 41.5,
+        "lon": 121,
+        "note": "Lower Cretaceous lacustrine deposits with hundreds of Microraptor specimens; the world's premier feathered dinosaur site."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Dromaeosauridae",
+        "Microraptoria",
+        "Microraptor"
+      ],
+      "sideBranches": [
+        {
+          "from": "Dromaeosauridae",
+          "label": "Deinonychus and relatives"
+        },
+        {
+          "from": "Microraptoria",
+          "label": "Other four-winged dromaeosaurids"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Four wings and flight origin",
+        "body": "Feathers on the hindlimbs form aerodynamic surfaces comparable to those on the wings, creating a biplane-like lifting surface. Aerodynamic modelling suggests Microraptor was capable of controlled gliding and possibly powered flight from a perched position. Its discovery reopened the debate between arboreal (\"trees-down\") and cursorial (\"ground-up\") flight origins, suggesting a complex mosaic rather than a simple linear transition."
+      },
+      {
+        "title": "Plumage and coloration",
+        "body": "Analysis of fossilised melanosomes — melanin-bearing organelles preserved in exceptional Yixian specimens — revealed an iridescent black colour similar to a modern starling or magpie. This is only the second dinosaur (after Anchiornis) to have its colour pattern reconstructed from direct chemical evidence rather than inference."
+      },
+      {
+        "title": "Ecology",
+        "body": "Despite its small size Microraptor was a versatile predator. Known stomach contents include fish bones and scales, lizard remains and a small enantiornithine bird — indicating it could hunt in multiple microhabitats. Its large eyes suggest crepuscular or low-light activity; its small size placed it in direct competition with early birds for arboreal and aerial prey."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Microraptor profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/microraptor.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Jiufotang Formation, Liaoning, China",
+    "material": "Many feathered specimens preserving flight feathers on arms and legs.",
+    "completeness": "Exceptional feather preservation",
+    "paleo": "Early Cretaceous Jehol lake-and-forest ecosystem.",
+    "evidence": "Feather impressions and stomach contents provide direct evidence for plumage, gliding/flying ability and varied diet."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "Aptian, about 120 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Maniraptora",
+        "Dromaeosauridae",
+        "Microraptorinae"
+      ],
+      "description": "Microraptor was a small feathered dromaeosaurid from the Jiufotang Formation of Liaoning, known from hundreds of articulated specimens, especially M. gui; species limits within the genus remain debated.",
+      "facts": [
+        "Long flight feathers on arms and legs form a four-winged aerodynamic configuration.",
+        "Aerodynamic studies support gliding or some aerial capacity, while launch and powered-flight performance remain debated.",
+        "Gut contents document a varied carnivorous diet including birds, mammals, lizards and fish in different specimens."
+      ]
+    },
+    "ageReviewNote": "The main Jiufotang sample is Aptian, close to 120 Ma; species and localities should not be merged into a broader generic range without review.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Xu et al. (2003), four-winged Microraptor from China",
+        "url": "https://doi.org/10.1038/nature01342"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "O'Connor et al. (2011), Microraptor with ingested bird remains",
+        "url": "https://doi.org/10.1073/pnas.1117727108"
+      }
+    ],
+    "residualUncertainty": [
+      "Species synonymy within Microraptor is unresolved.",
+      "Powered flight versus gliding remains debated."
+    ],
+    "evidence": {
+      "score": 99,
+      "material": "Hundreds of articulated feathered skeletons, several with gut contents.",
+      "formations": "Jiufotang Formation, Liaoning, China.",
+      "confidenceLimit": "Aerial capacity is well supported but exact flight stroke, launch mode and species-wide colour vary by specimen.",
+      "uncertainties": [
+        "species limits",
+        "flight mode"
+      ],
+      "summary": "Microraptor was a small feathered dromaeosaurid from the Jiufotang Formation of Liaoning, known from hundreds of articulated specimens, especially M. gui; species limits within the genus remain debated.",
+      "sourceBasis": "Xu et al. (2003), four-winged Microraptor from China; O'Connor et al. (2011), Microraptor with ingested bird remains"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

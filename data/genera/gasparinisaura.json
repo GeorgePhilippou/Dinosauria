@@ -1,0 +1,132 @@
+{
+  "id": "gasparinisaura",
+  "name": "Gasparinisaura",
+  "profile": {
+    "overview": [
+      "Gasparinisaura cincosaltensis was a small ornithopod from the Late Cretaceous of Neuquén Province, Argentina (~83–80 Ma), about 1.7 metres long. Named after palaeontologist Zulma Gasparini, it is one of the best-documented small ornithopods from South America and helps fill a gap in our understanding of Late Cretaceous South American herbivore diversity.",
+      "A bonebed with multiple Gasparinisaura individuals has been found, providing bone histology data showing these animals were fast-growing and reached adult size within a few years — a growth strategy more similar to modern birds than to modern reptiles, consistent with the high metabolic rates now inferred for ornithischians generally."
+    ],
+    "fossilSites": [
+      {
+        "name": "Anacleto Formation",
+        "region": "Neuquén Province, Patagonia, Argentina",
+        "lat": -38,
+        "lon": -68,
+        "note": "Late Cretaceous (Campanian) continental beds with multiple Gasparinisaura individuals including the type specimen."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Gasparinisaura"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ornithopoda",
+          "label": "Iguanodontia"
+        },
+        {
+          "from": "Ornithopoda",
+          "label": "Thescelosaurus and relatives"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Rodolfo Coria and Leonardo Salgado described Gasparinisaura cincosaltensis in 1996 from Neuquén Province. The name honours Zulma Gasparini, a leading Argentine palaeontologist. The type specimen preserves skull and postcranial material; additional specimens from a bonebed extend the sample."
+      },
+      {
+        "title": "Phylogenetic position",
+        "body": "Gasparinisaura's position within Ornithopoda is debated: some analyses place it near the base of the group, others closer to Thescelosaurus or to Iguanodontia. Its relatively primitive features — small size, simple teeth — are consistent with a basal position, but without a clearly diagnostic skull it is difficult to resolve."
+      },
+      {
+        "title": "Growth biology",
+        "body": "Bone histology from multiple Gasparinisaura specimens shows rapid growth rates, with the animals reaching adult size within a few years. This pattern — more bird-like than reptile-like — is now recognised as widespread in ornithischians and supports the inference of elevated metabolic rates in non-avian dinosaurs generally."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Gasparinisaura profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/gasparinisaura.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Río Colorado Formation (Anacleto Member), Neuquén Province, Argentina",
+    "material": "Partial skeletal material of a small ornithopod.",
+    "completeness": "Partial but diagnostic",
+    "paleo": "Late Cretaceous Patagonian terrestrial ecosystem.",
+    "evidence": "Slender limb bones and ornithopod dentition identify it as a small cursorial herbivore in the southern dinosaur fauna."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Campanian, roughly 83-75 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Neornithischia",
+        "Ornithopoda",
+        "Elasmaria"
+      ],
+      "description": "Gasparinisaura cincosaltensis was a small bipedal ornithopod from the Anacleto Formation of Patagonia. Several partial skeletons, including juveniles and cranial material, document a lightly built southern neornithischian usually placed in Elasmaria.",
+      "facts": [
+        "More than one growth stage is known.",
+        "Leaf-shaped teeth support herbivory, but exact plants are unknown.",
+        "Older assignment to Hypsilophodontidae reflects a now-abandoned catch-all grouping."
+      ]
+    },
+    "ageReviewNote": "The Anacleto Formation is Campanian; local horizons are not dated closely enough for a narrow species range.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Coria & Salgado (1996), A basal iguanodontian from the Late Cretaceous of South America",
+        "url": "https://doi.org/10.1017/S0022336000035861"
+      },
+      {
+        "type": "elasmarian-review",
+        "citation": "Rozadilla et al. (2016), A new ornithopod and the phylogeny of South American elasmarian dinosaurs",
+        "url": "https://doi.org/10.1016/j.cretres.2015.09.009"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Gasparinisaura",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gasparinisaura"
+      }
+    ],
+    "residualUncertainty": [
+      "Exact position within Elasmaria and adult maximum size remain uncertain.",
+      "Some specimens are incomplete and taphonomically compressed."
+    ],
+    "evidence": {
+      "score": 80,
+      "material": "Several partial skulls and skeletons representing multiple growth stages.",
+      "formations": [
+        "Anacleto Formation"
+      ],
+      "confidenceLimit": "High for anatomy, bipedality and herbivory; moderate for fine phylogeny and adult size.",
+      "uncertainties": [
+        "fine phylogeny",
+        "adult size",
+        "specimen completeness"
+      ],
+      "summary": "Gasparinisaura cincosaltensis was a small bipedal ornithopod from the Anacleto Formation of Patagonia. Several partial skeletons, including juveniles and cranial material, document a lightly built southern neornithischian usually placed in Elasmaria.",
+      "sourceBasis": "Coria & Salgado (1996), A basal iguanodontian from the Late Cretaceous of South America; Rozadilla et al. (2016), A new ornithopod and the phylogeny of South American elasmarian dinosaurs; Paleobiology Database taxon and occurrence context for Gasparinisaura"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

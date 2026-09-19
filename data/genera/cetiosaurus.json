@@ -1,0 +1,179 @@
+{
+  "id": "cetiosaurus",
+  "name": "Cetiosaurus",
+  "profile": {
+    "overview": [
+      "Cetiosaurus was a large eusauropod dinosaur from the Middle Jurassic of England and possibly France, approximately 174–165 million years ago (Aalenian to Bathonian), making it one of the best-known Jurassic sauropods from Britain. Reaching an estimated 18 metres in length, it was a massive, quadrupedal herbivore with a long neck and tail. Its name, meaning 'whale lizard', was given because its bones were initially mistaken by early researchers for those of a giant marine animal.",
+      "Named by John Phillips in 1871, with earlier material described by Richard Owen in 1841, Cetiosaurus was one of the first sauropods to be scientifically studied and holds a place in the early history of palaeontology. It is placed within the Cetiosauridae, an early-diverging eusauropod family. With 30 PBDB occurrences across England, Morocco, Spain, and France, Cetiosaurus-referred material has a wide geographic spread, though some referrals may be erroneous or involve distinct taxa."
+    ],
+    "fossilSites": [
+      {
+        "name": "Rutland Formation / Great Oolite Group",
+        "region": "England, UK",
+        "lat": 52.6,
+        "lon": -0.7,
+        "note": "Middle Jurassic limestone deposits yielding the most complete and well-documented Cetiosaurus material."
+      },
+      {
+        "name": "Chipping Norton Limestone",
+        "region": "Oxfordshire, England, UK",
+        "lat": 51.9,
+        "lon": -1.5,
+        "note": "Bajocian-age formation that has produced Cetiosaurus vertebrae and limb elements."
+      },
+      {
+        "name": "El Mers Formation",
+        "region": "Boulemane Province, Morocco",
+        "lat": 33.4,
+        "lon": -4.5,
+        "note": "Middle Jurassic beds in Morocco where Cetiosaurus-attributed material has been reported, though referral is uncertain."
+      },
+      {
+        "name": "Champagne-Ardenne outcrops",
+        "region": "Champagne-Ardenne, France",
+        "lat": 48.9,
+        "lon": 4.4,
+        "note": "French Middle Jurassic deposits that have yielded sauropod material tentatively referred to Cetiosaurus."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Eusauropoda",
+        "Gravisauria",
+        "Cetiosauridae",
+        "Cetiosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Cetiosauridae",
+          "label": "Barapasaurus (Early Jurassic Indian relative)"
+        },
+        {
+          "from": "Eusauropoda",
+          "label": "Diplodocoidea"
+        },
+        {
+          "from": "Eusauropoda",
+          "label": "Macronaria"
+        },
+        {
+          "from": "Gravisauria",
+          "label": "Turiasauria (European Jurassic sauropods)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Material now attributed to Cetiosaurus was first collected from Jurassic outcrops in England during the 1830s and described by Richard Owen in 1841, who initially considered it a giant crocodilian or marine reptile. The name Cetiosaurus ('whale lizard') reflects this misidentification. John Phillips formally described the best-known species, C. oxoniensis, in 1871 from more complete Oxfordshire material, establishing it as a land-dwelling sauropod."
+      },
+      {
+        "title": "Historical Significance",
+        "body": "Cetiosaurus was among the first sauropod dinosaurs to be described scientifically and played a key role in the gradual recognition of giant terrestrial dinosaurs. Early confusion over its nature—sea monster or land animal—reflects the early state of palaeontology in the 19th century. Its eventual recognition as a terrestrial herbivore contributed to the emerging concept of Dinosauria as a group including very large land animals."
+      },
+      {
+        "title": "Anatomy and Classification",
+        "body": "Cetiosaurus had a moderately long neck and tail, solid (not highly pneumatised) vertebrae compared to later sauropods, and robust limbs. Its solidly built vertebrae distinguish it from the hollow-boned titanosaurs and diplodocids, placing it among more basal eusauropods. Multiple species have been assigned to Cetiosaurus historically, but most are now considered nomina dubia or reassigned to other genera."
+      },
+      {
+        "title": "Palaeoecology",
+        "body": "During the Middle Jurassic, England lay at a subtropical latitude and was covered by shallow tropical seas interspersed with low islands. Cetiosaurus lived on these landmasses, browsing on vegetation. Its solid vertebrae and large body mass suggest it was less agile than the hollow-boned sauropods of the Late Jurassic, but it was one of the dominant large herbivores of its time and region."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Cetiosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/cetiosaurus.html"
+      },
+      {
+        "label": "Wikipedia: Cetiosaurus",
+        "url": "https://en.wikipedia.org/wiki/Cetiosaurus"
+      },
+      {
+        "label": "PBDB: Cetiosaurus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cetiosaurus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Rutland Formation / Great Oolite Group, England, UK; Chipping Norton Limestone, Oxfordshire, England, UK; El Mers Formation, Boulemane Province, Morocco; Champagne-Ardenne outcrops, Champagne-Ardenne, France",
+    "material": "Its name, meaning 'whale lizard', was given because its bones were initially mistaken by early researchers for those of a giant marine animal.",
+    "completeness": "Skeletal material known; 30 PBDB occurrence records.",
+    "paleo": "Middle Jurassic limestone deposits yielding the most complete and well-documented Cetiosaurus material.",
+    "evidence": "Named by John Phillips in 1871, with earlier material described by Richard Owen in 1841, Cetiosaurus was one of the first sauropods to be scientifically studied and holds a place in the early history of palaeontology."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Mid Jurassic",
+      "mya": "about 168-166 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Eusauropoda"
+      ],
+      "description": "Cetiosaurus oxoniensis was a basal eusauropod from the Great Oolite Group of England. Several partial postcranial skeletons collectively document a large, robust quadruped, but skull remains are extremely limited and older species assignments are taxonomically confused.",
+      "facts": [
+        "C. oxoniensis was conserved as the type species to stabilise the long-used genus name.",
+        "Most historical Cetiosaurus species are not necessarily congeneric with C. oxoniensis."
+      ]
+    },
+    "ageReviewNote": "Secure C. oxoniensis material is Bathonian in the Great Oolite Group.",
+    "sources": [
+      {
+        "type": "systematic-revision",
+        "citation": "Upchurch & Martin (2003), The anatomy and taxonomy of Cetiosaurus",
+        "url": "https://doi.org/10.1111/1475-4983.00275"
+      },
+      {
+        "type": "nomenclatural-ruling",
+        "citation": "ICZN (2014), Conservation of Cetiosaurus oxoniensis as the type species",
+        "url": "https://www.biotaxa.org/bzn/issue/view/5182"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: cetiosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/cetiosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Historical referrals are taxonomically heterogeneous.",
+      "Its exact position among basal eusauropods varies.",
+      "No complete skull is known."
+    ],
+    "evidence": {
+      "score": 72,
+      "material": "Several partial postcranial skeletons and very limited cranial material.",
+      "formations": [
+        "Great Oolite Group",
+        "Rutland Formation"
+      ],
+      "confidenceLimit": "Postcranial build is moderately supported; skull, species limits and maximum size remain uncertain.",
+      "uncertainties": [
+        "Historical referrals are taxonomically heterogeneous.",
+        "Its exact position among basal eusauropods varies.",
+        "No complete skull is known."
+      ],
+      "summary": "Cetiosaurus oxoniensis was a basal eusauropod from the Great Oolite Group of England. Several partial postcranial skeletons collectively document a large, robust quadruped, but skull remains are extremely limited and older species assignments are taxonomically confused.",
+      "sourceBasis": "Upchurch & Martin (2003), The anatomy and taxonomy of Cetiosaurus; ICZN (2014), Conservation of Cetiosaurus oxoniensis as the type species; Natural History Museum, Dino Directory: cetiosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

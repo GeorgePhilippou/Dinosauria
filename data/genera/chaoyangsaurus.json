@@ -1,0 +1,154 @@
+{
+  "id": "chaoyangsaurus",
+  "name": "Chaoyangsaurus",
+  "profile": {
+    "overview": [
+      "Chaoyangsaurus was a small, early ceratopsian dinosaur from the Late Jurassic of northeastern China, approximately 152–145 million years ago (Kimmeridgian), found in the Tuchengzi Formation of Liaoning Province. Only about 1.1 metres long, it was a bipedal or facultatively quadrupedal herbivore and is considered one of the earliest known ceratopsians (horned and frilled dinosaurs). Its name means 'Chaoyang lizard', after the city of Chaoyang in Liaoning.",
+      "Described by Zhao, Cheng, and Xu in 1999, Chaoyangsaurus youngi is placed within Chaoyangsauridae, a family of very early ceratopsians that lack the prominent horns and frills of later taxa. Its discovery helped push the origin of ceratopsians deeper into the Jurassic and demonstrated that the group had diversified substantially by the Late Jurassic of Asia, prior to the widespread radiation seen in the Cretaceous of both Asia and North America."
+    ],
+    "fossilSites": [
+      {
+        "name": "Tuchengzi Formation",
+        "region": "Liaoning Province, China",
+        "lat": 41.6,
+        "lon": 120.5,
+        "note": "Late Jurassic continental deposits in northeastern China preserving early ceratopsian material including Chaoyangsaurus."
+      },
+      {
+        "name": "Chaoyang area",
+        "region": "Liaoning Province, China",
+        "lat": 41.6,
+        "lon": 120.5,
+        "note": "Region near the city of Chaoyang, Liaoning, where the type specimen of Chaoyangsaurus was recovered."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Marginocephalia",
+        "Ceratopsia",
+        "Neoceratopsia",
+        "Chaoyangsauridae",
+        "Chaoyangsaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Neoceratopsia",
+          "label": "Psittacosauridae (Cretaceous Asian ceratopsians)"
+        },
+        {
+          "from": "Neoceratopsia",
+          "label": "Ceratopsidae (large horned dinosaurs, e.g. Triceratops)"
+        },
+        {
+          "from": "Ceratopsia",
+          "label": "Yinlong (another early Late Jurassic ceratopsian)"
+        },
+        {
+          "from": "Marginocephalia",
+          "label": "Pachycephalosauria (dome-headed relatives)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Chaoyangsaurus youngi was described in 1999 by Zhao Xijin, Cheng Zhengwu, and Xu Xing from fragmentary skull material found near Chaoyang, Liaoning Province, China. The species name honours the vertebrate palaeontologist Yang Zhongjian (also known as C.C. Young), who made foundational contributions to Chinese palaeontology. The exact stratigraphic position within the Tuchengzi Formation has an uncertain age qualifier in some datasets."
+      },
+      {
+        "title": "Anatomy and Early Ceratopsian Features",
+        "body": "Chaoyangsaurus lacked the large horns and expansive frills of later ceratopsians, but possessed early ceratopsian features including a rostral bone at the tip of the snout—a unique ceratopsian structure—and the beginnings of a small frill at the back of the skull. Its teeth were leaf-shaped and suited to cropping plant material. At about 1.1 metres long, it was far smaller than the iconic Cretaceous horned dinosaurs."
+      },
+      {
+        "title": "Evolutionary Significance",
+        "body": "As one of the earliest known ceratopsians from the Late Jurassic, Chaoyangsaurus helps establish the temporal origin of the ceratopsian lineage. Its placement within Chaoyangsauridae alongside other early Asian ceratopsians indicates a rapid initial diversification of the group in Asia before the Cretaceous. This supports an Asian origin for Ceratopsia before the group dispersed to North America."
+      },
+      {
+        "title": "Liaoning Jurassic Fauna",
+        "body": "The Late Jurassic of Liaoning is less celebrated than the famous Early Cretaceous Jehol Biota from the same region, but it preserves a significant dinosaur fauna. Alongside Chaoyangsaurus, the Tuchengzi Formation has yielded other small ornithischians and theropods, reflecting a diverse ecosystem of small to medium-sized dinosaurs that preceded the extraordinary Jehol fauna."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Chaoyangsaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/chaoyangsaurus.html"
+      },
+      {
+        "label": "PBDB: Chaoyangsaurus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chaoyangsaurus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Tuchengzi Formation, Liaoning Province, China; Chaoyang area, Liaoning Province, China",
+    "material": "Chaoyangsaurus was a small, early ceratopsian dinosaur from the Late Jurassic of northeastern China, approximately 152–145 million years ago (Kimmeridgian), found in the Tuchengzi Formation of Liaoning Province.",
+    "completeness": "Skeletal material known; 1 PBDB occurrence records.",
+    "paleo": "Late Jurassic continental deposits in northeastern China preserving early ceratopsian material including Chaoyangsaurus.",
+    "evidence": "Described by Zhao, Cheng, and Xu in 1999, Chaoyangsaurus youngi is placed within Chaoyangsauridae, a family of very early ceratopsians that lack the prominent horns and frills of later taxa."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "approximately 150-145 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Cerapoda",
+        "Ceratopsia",
+        "Chaoyangsauridae"
+      ],
+      "description": "Chaoyangsaurus youngi was a small early ceratopsian from the Tuchengzi Formation of Liaoning, China. It is known from a single partial skull with associated postcranial fragments, making detailed body proportions and ecology uncertain.",
+      "facts": [
+        "Cranial anatomy supports a position near the base of Ceratopsia.",
+        "It lacked the elaborate horns and frill of later ceratopsids; the rest of its external appearance is reconstructed."
+      ]
+    },
+    "ageReviewNote": "The upper Tuchengzi Formation is usually considered latest Jurassic, probably Tithonian, but dating remains debated.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Zhao, Cheng & Xu (1999), The earliest ceratopsian from the Tuchengzi Formation",
+        "url": "https://doi.org/10.1080/02724634.1999.10011181"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: chaoyangsaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/chaoyangsaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "The formation age is debated.",
+      "Only one fragmentary individual is known.",
+      "Relationships among earliest ceratopsians vary."
+    ],
+    "evidence": {
+      "score": 36,
+      "material": "One partial skull and fragmentary associated postcrania.",
+      "formations": [
+        "Tuchengzi Formation"
+      ],
+      "confidenceLimit": "One incomplete specimen cannot establish adult size, postcranial details or behaviour.",
+      "uncertainties": [
+        "The formation age is debated.",
+        "Only one fragmentary individual is known.",
+        "Relationships among earliest ceratopsians vary."
+      ],
+      "summary": "Chaoyangsaurus youngi was a small early ceratopsian from the Tuchengzi Formation of Liaoning, China. It is known from a single partial skull with associated postcranial fragments, making detailed body proportions and ecology uncertain.",
+      "sourceBasis": "Zhao, Cheng & Xu (1999), The earliest ceratopsian from the Tuchengzi Formation; Natural History Museum, Dino Directory: chaoyangsaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

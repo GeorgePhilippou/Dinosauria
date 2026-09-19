@@ -1,0 +1,139 @@
+{
+  "id": "carnotaurus",
+  "name": "Carnotaurus",
+  "profile": {
+    "overview": [
+      "Carnotaurus sastrei was a large Late Cretaceous abelisaurid from Patagonia with two thick bull-like brow horns, an extremely short deep skull, and the most vestigial forelimbs of any large non-avian theropod. Exceptional skin impressions preserve a mosaic of large boss-like scales and smaller flat scales, with no feather evidence — making it one of the best-documented theropod integument samples.",
+      "The single known specimen, discovered by Bonaparte in 1984, is near-complete with skull, much of the vertebral column and extensive skin. As an abelisaurid it represents the South American apex predator lineage that evolved in Gondwanan isolation from the tyrannosaurs of the northern continents."
+    ],
+    "fossilSites": [
+      {
+        "name": "La Colonia Formation",
+        "region": "Chubut Province, Patagonia, Argentina",
+        "lat": -43,
+        "lon": -68.5,
+        "note": "Late Cretaceous (Campanian) continental beds yielding the unique Carnotaurus holotype with skin impressions."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Ceratosauria",
+        "Abelisauridae",
+        "Carnotaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Abelisauridae",
+          "label": "Majungasaurus (Madagascar)"
+        },
+        {
+          "from": "Abelisauridae",
+          "label": "Rajasaurus (India)"
+        },
+        {
+          "from": "Ceratosauria",
+          "label": "Ceratosaurus and relatives"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Bonaparte and Novas formally described Carnotaurus in 1985. The skin impressions — spread across the flanks, neck and tail — were among the most extensive theropod integument samples known at the time and provided direct evidence that large abelisaurids lacked feathers on their flanks."
+      },
+      {
+        "title": "Skull morphology and locomotion",
+        "body": "The skull is proportionally very short and deep; finite element analysis suggests rapid repeated biting rather than bone crushing. The horns project from the frontal bones and bore a keratinous sheath in life. Carnotaurus had proportionally long hindlimbs and a particularly massive caudofemoralis muscle, suggesting it was among the faster large theropods."
+      },
+      {
+        "title": "Biogeography",
+        "body": "Abelisaurids were the dominant large theropods of Gondwana — South America, Africa, India and Madagascar — while tyrannosaurs dominated Laurasia. Carnotaurus and its relatives represent a striking case of convergent ecological evolution: similar body size and predatory role achieved independently on isolated continental masses."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Carnotaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/carnotaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "La Colonia Formation, Argentina",
+    "material": "Near-complete skeleton with skull and skin impressions.",
+    "completeness": "Exceptionally informative",
+    "paleo": "Late Cretaceous Patagonian terrestrial environments.",
+    "evidence": "Short deep skull, reduced arms, horns and preserved skin impressions make its anatomy unusually clear."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "approximately 72-69 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Ceratosauria",
+        "Abelisauridae",
+        "Carnotaurinae"
+      ],
+      "description": "Carnotaurus sastrei was a horned abelisaurid from the La Colonia Formation of Patagonia. Its single holotype is a nearly complete articulated skeleton with a skull and extensive skin impressions, providing exceptional anatomical evidence from one individual.",
+      "facts": [
+        "Paired frontal horns, a deep skull and extremely reduced forelimbs are directly preserved.",
+        "Skin impressions show varied non-overlapping scales; an osteoderm-studded body or a specific colour pattern is not supported."
+      ]
+    },
+    "ageReviewNote": "The La Colonia Formation is latest Cretaceous, but the exact late Campanian-Maastrichtian age of the type horizon remains uncertain.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Bonaparte, Novas & Coria (1990), Carnotaurus sastrei",
+        "url": "https://www.biodiversitylibrary.org/part/226819"
+      },
+      {
+        "type": "integument-revision",
+        "citation": "Hendrickx & Bell (2022), The scaly skin of Carnotaurus sastrei",
+        "url": "https://doi.org/10.1016/j.cretres.2021.104994"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: carnotaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/carnotaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Only one specimen is known.",
+      "The exact formation age remains debated.",
+      "Horn and tail functions are biomechanical hypotheses."
+    ],
+    "evidence": {
+      "score": 96,
+      "material": "One nearly complete articulated skull and skeleton with extensive skin impressions.",
+      "formations": [
+        "La Colonia Formation"
+      ],
+      "confidenceLimit": "One superb individual supports anatomy and skin texture, but not population variation, colour, maximum size or behaviour.",
+      "uncertainties": [
+        "Only one specimen is known.",
+        "The exact formation age remains debated.",
+        "Horn and tail functions are biomechanical hypotheses."
+      ],
+      "summary": "Carnotaurus sastrei was a horned abelisaurid from the La Colonia Formation of Patagonia. Its single holotype is a nearly complete articulated skeleton with a skull and extensive skin impressions, providing exceptional anatomical evidence from one individual.",
+      "sourceBasis": "Bonaparte, Novas & Coria (1990), Carnotaurus sastrei; Hendrickx & Bell (2022), The scaly skin of Carnotaurus sastrei; Natural History Museum, Dino Directory: carnotaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

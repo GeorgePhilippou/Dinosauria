@@ -1,0 +1,158 @@
+{
+  "id": "panoplosaurus",
+  "name": "Panoplosaurus",
+  "profile": {
+    "overview": [
+      "Panoplosaurus (meaning 'fully-armoured lizard') was a nodosaurid ankylosaur from the Late Cretaceous (middle Campanian, approximately 76–75 million years ago) of Alberta, Canada, with some material tentatively recorded from Montana and Texas. It was approximately 5–7 metres long and weighed around 1,600 kg, a quadrupedal herbivore covered in bony osteoderms, scutes and plates. Its skull was short-snouted with a domed surface and bony plates directly covering the cheeks. Fossils come primarily from the Dinosaur Park Formation.",
+      "Named by Lawrence Lambe in 1919, Panoplosaurus mirus has had a complex synonymy history; at times it was considered conspecific with Edmontonia, and some specimens originally referred to Panoplosaurus have been reidentified. The Wikipedia extract confirms it is distinct from Edmontonia based on features including a fused shoulder blade, lumpy skull osteoderms, and regularly shaped neck and body plates lacking prominent spines. It is an important taxon for understanding the diversity of North American nodosaurids."
+    ],
+    "fossilSites": [
+      {
+        "name": "Dinosaur Park Formation",
+        "region": "Alberta, Canada",
+        "lat": 51,
+        "lon": -112,
+        "note": "Middle Campanian floodplain deposits of southern Alberta, the primary source of confirmed Panoplosaurus material."
+      },
+      {
+        "name": "Judith River / Montana",
+        "region": "Montana, USA",
+        "lat": 47.5,
+        "lon": -109,
+        "note": "Campanian-age formation of north-central Montana from which PBDB records nodosaurid occurrences attributed to Panoplosaurus."
+      },
+      {
+        "name": "Two Medicine Formation",
+        "region": "Montana, USA",
+        "lat": 48.3,
+        "lon": -112.5,
+        "note": "Middle Campanian deposits of northern Montana with additional PBDB-recorded Panoplosaurus material."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Nodosauridae",
+        "Panoplosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Nodosauridae",
+          "label": "Edmontonia"
+        },
+        {
+          "from": "Nodosauridae",
+          "label": "Nodosaurus"
+        },
+        {
+          "from": "Ankylosauria",
+          "label": "Ankylosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Panoplosaurus mirus was discovered in 1917 and named by Lawrence Lambe in 1919. The genus name means 'fully-armoured lizard' in Greek, describing the extensive osteoderm covering. Lambe based the species on material from the Dinosaur Park Formation of Alberta during the productive early-twentieth-century period of Canadian dinosaur collecting."
+      },
+      {
+        "title": "Armour and Body Plan",
+        "body": "Panoplosaurus had one of the most extensive armour systems among nodosaurids. The skull was covered in lumpy osteoderms, the neck bore circular groups of plates, and the body was almost completely covered in scutes and ossicles of varying sizes. Unlike ankylosaurids, it lacked a tail club, and prominent body spines were also absent, distinguishing it from some other nodosaurids such as Edmontonia."
+      },
+      {
+        "title": "Synonymy with Edmontonia",
+        "body": "For much of the twentieth century, material referred to Panoplosaurus was considered synonymous with or closely related to Edmontonia. More recent analyses treating Panoplosaurus as a valid taxon distinct from Edmontonia are based on differences in skull osteoderm texture, shoulder anatomy and plate morphology. The Wikipedia entry notes this controversy and documents the distinct diagnostic characters now used to separate the two genera."
+      },
+      {
+        "title": "Ecological Role",
+        "body": "In the Dinosaur Park Formation ecosystem, Panoplosaurus was one of several large armoured herbivores coexisting with hadrosaurs, ceratopsians and large theropods such as Gorgosaurus. Its extensive passive armour would have been effective against attacks from such predators. Body mass estimates around 1,600 kg indicate it was a substantial animal despite its relatively modest length."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Panoplosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/panoplosaurus.html"
+      },
+      {
+        "label": "PBDB: Panoplosaurus occurrences",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38825"
+      },
+      {
+        "label": "Wikipedia: Panoplosaurus",
+        "url": "https://en.wikipedia.org/wiki/Panoplosaurus"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Dinosaur Park Formation, Alberta, Canada; Judith River / Montana, Montana, USA; Two Medicine Formation, Montana, USA",
+    "material": "Panoplosaurus (meaning 'fully-armoured lizard') was a nodosaurid ankylosaur from the Late Cretaceous (middle Campanian, approximately 76–75 million years ago) of Alberta, Canada, with some material tentatively recorded from Montana and Texas.",
+    "completeness": "Partial material known; 15 PBDB occurrence records.",
+    "paleo": "Middle Campanian floodplain deposits of southern Alberta, the primary source of confirmed Panoplosaurus material.",
+    "evidence": "Named by Lawrence Lambe in 1919, Panoplosaurus mirus has had a complex synonymy history; at times it was considered conspecific with Edmontonia, and some specimens originally referred to Panoplosaurus have been reidentified."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian, about 76-75 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Nodosauridae",
+        "Panoplosaurini"
+      ],
+      "description": "Panoplosaurus mirus was a nodosaurid ankylosaur from the Dinosaur Park Formation of Alberta. The holotype preserves a complete skull, partial postcranium and armour; additional specimens add postcranial information.",
+      "facts": [
+        "CT redescription supports separation from the related Edmontonia.",
+        "It carried extensive osteoderms but no ankylosaurid-style tail club is known.",
+        "Quadrupedal herbivory is secure; exact armour layout and body mass remain reconstructed."
+      ]
+    },
+    "ageReviewNote": "The Dinosaur Park Formation type and secure referrals are late Campanian.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Livius et al. (2026), CT redescription of the Panoplosaurus holotype skull",
+        "url": "https://doi.org/10.1080/02724634.2026.2636589"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: panoplosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/panoplosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Some cranial ornament varies among individuals for unknown reasons.",
+      "Not all historical panoplosaurin material is securely referable."
+    ],
+    "evidence": {
+      "score": 76,
+      "material": "Complete holotype skull with partial skeleton and armour; further referred skeletons.",
+      "formations": "Dinosaur Park Formation, Alberta, Canada.",
+      "confidenceLimit": "Armour arrangement is only partly preserved and body mass is estimated.",
+      "uncertainties": [
+        "individual cranial variation",
+        "referral boundaries"
+      ],
+      "summary": "Panoplosaurus mirus was a nodosaurid ankylosaur from the Dinosaur Park Formation of Alberta. The holotype preserves a complete skull, partial postcranium and armour; additional specimens add postcranial information.",
+      "sourceBasis": "Livius et al. (2026), CT redescription of the Panoplosaurus holotype skull; Natural History Museum Dino Directory: panoplosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

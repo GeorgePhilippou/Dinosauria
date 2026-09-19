@@ -1,0 +1,165 @@
+{
+  "id": "pantydraco",
+  "name": "Pantydraco",
+  "profile": {
+    "overview": [
+      "Pantydraco (meaning 'Pant-y-ffynnon dragon', after the Welsh quarry where it was found) was an early sauropodomorph dinosaur from the Late Triassic to earliest Jurassic (approximately Carnian, around 237–227 million years ago) of Wales, United Kingdom. It is known from a partial juvenile skeleton previously thought to belong to Thecodontosaurus. Estimated at roughly 3 metres in length, it was a lightly built, herbivorous or omnivorous early dinosaur.",
+      "Named by Galton, Yates and Kermack in 2007, Pantydraco caducus is significant as one of the few dinosaurs from Wales and one of the earliest sauropodomorphs from the British Isles. PBDB places it within Sauropodomorpha without a more precise family assignment. Its description was based on the realisation that a juvenile specimen from the Pant-y-ffynnon fissure-fill quarry near Bonvilston was distinct from Thecodontosaurus material from the same site."
+    ],
+    "fossilSites": [
+      {
+        "name": "Pant-y-ffynnon Quarry fissure fills",
+        "region": "Wales, United Kingdom",
+        "lat": 51.4,
+        "lon": -3.5,
+        "note": "Late Triassic to earliest Jurassic fissure-fill deposits near Bonvilston, Vale of Glamorgan, yielding the holotype partial juvenile skeleton of Pantydraco."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Pantydraco"
+      ],
+      "sideBranches": [
+        {
+          "from": "Sauropodomorpha",
+          "label": "Thecodontosaurus"
+        },
+        {
+          "from": "Sauropodomorpha",
+          "label": "Plateosauridae"
+        },
+        {
+          "from": "Sauropodomorpha",
+          "label": "Sauropodiformes"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Pantydraco caducus was formally described in 2007 by Peter Galton, Adam Yates and David Kermack, though the material itself was found much earlier at the Pant-y-ffynnon quarry in the Vale of Glamorgan. The genus name combines the Welsh quarry name with the Latin 'draco' for dragon. The species name caducus means 'falling' or 'perishable', alluding to its small, delicate juvenile bones."
+      },
+      {
+        "title": "Juvenile Status and the Thecodontosaurus Problem",
+        "body": "The holotype skeleton is from a juvenile individual, which complicates diagnosis because many skeletal features change substantially during growth in sauropodomorphs. The Pant-y-ffynnon material had previously been assigned to Thecodontosaurus, a better-known Early Jurassic sauropodomorph from nearby Bristol, UK. Recognition of Pantydraco as a separate taxon rests on differences in vertebral and limb bone morphology visible even in juvenile specimens."
+      },
+      {
+        "title": "Significance for British Palaeontology",
+        "body": "Dinosaurs from Wales are exceptionally rare. Pantydraco joins Thecodontosaurus as one of the very few Triassic-Jurassic dinosaurs from the British Isles. The fissure-fill deposits of South Wales and the Bristol area preserve a unique window into early dinosaur faunas of the Late Triassic, when Britain was part of a subtropical archipelago near the equator of Pangaea."
+      },
+      {
+        "title": "Early Sauropodomorph Ecology",
+        "body": "Early sauropodomorphs like Pantydraco were among the first large-bodied herbivores in terrestrial ecosystems following the end-Triassic mass extinction. They occupied a range of body sizes and ecological niches, from small cursorial animals to heavier browsing forms. Pantydraco, at an estimated 3 metres, falls near the smaller end of this spectrum."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Pantydraco profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/pantydraco.html"
+      },
+      {
+        "label": "PBDB: Pantydraco occurrences",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=117152"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Pant-y-ffynnon Quarry fissure fills, Wales, United Kingdom",
+    "material": "The holotype skeleton is from a juvenile individual, which complicates diagnosis because many skeletal features change substantially during growth in sauropodomorphs.",
+    "completeness": "Partial material known; 1 PBDB occurrence records.",
+    "paleo": "Late Triassic to earliest Jurassic fissure-fill deposits near Bonvilston, Vale of Glamorgan, yielding the holotype partial juvenile skeleton of Pantydraco.",
+    "evidence": "Named by Galton, Yates and Kermack in 2007, Pantydraco caducus is significant as one of the few dinosaurs from Wales and one of the earliest sauropodomorphs from the British Isles."
+  },
+  "review": {
+    "status": "audited",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Triassic",
+      "mya": "Rhaetian, about 205.7-201.4 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha"
+      ],
+      "description": "Pantydraco caducus is a small basal sauropodomorph from fissure deposits at Pant-y-ffynnon, Wales, based mainly on an immature partial skeleton formerly assigned to Thecodontosaurus.",
+      "facts": [
+        "The material includes partial skull and postcranium but represents a young individual.",
+        "The genus was erected for differences from Thecodontosaurus antiquus.",
+        "Recent comparison has questioned whether those differences exceed juvenile variation, so validity remains open."
+      ],
+      "length": null,
+      "taxonomicStatus": "possibly valid, but may represent juvenile Thecodontosaurus"
+    },
+    "ageReviewNote": "The Pant-y-ffynnon fissure fauna is Rhaetian and latest Triassic; 205.7-201.4 Ma gives the current stage bounds rather than a tightly dated fossil horizon.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Galton, Yates & Kermack (2007), naming of Pantydraco",
+        "url": "https://doi.org/10.1127/0077-7749/2007/0243-0119"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Ballell, Rayfield & Benton (2020), redescription of Thecodontosaurus and implications for Pantydraco",
+        "url": "https://doi.org/10.1080/02724634.2020.1770774"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: pantydraco",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/pantydraco.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Its distinction from juvenile Thecodontosaurus is unresolved.",
+      "Adult anatomy and size are unknown.",
+      "Specialist confirmation is still required before this profile is marked primary-literature reviewed."
+    ],
+    "evidence": {
+      "score": 31,
+      "summary": "Authoritative-source baseline only; skeletal completeness has not yet received a specimen-level literature review.",
+      "material": "Immature partial skeleton with cranial and postcranial elements, plus referred fragments.",
+      "formations": "Pant-y-ffynnon fissure deposits, South Wales, UK.",
+      "ageSupport": "Catalogue range: Age not listed by NHM. PBDB sampled range: 237–227.3 Ma.",
+      "occurrenceSupport": "1 PBDB occurrence records are available as locality context only.",
+      "inferredAnatomy": "Posture, soft tissues, colour and detailed behaviour remain inferred unless a later full review states otherwise.",
+      "confidenceLimit": "Do not scale juvenile anatomy confidently to an adult.",
+      "sourceBasis": "Source catalogue and PBDB occurrence context.",
+      "specimens": [],
+      "uncertainties": [
+        "generic validity",
+        "ontogenetic effects"
+      ],
+      "claims": {
+        "bodySize": {
+          "level": "estimated",
+          "reason": "The displayed value is retained as a source-reported estimate, not a direct measurement of a complete individual."
+        },
+        "diet": {
+          "level": "broad",
+          "reason": "Herbivore is retained as a broad clade/anatomy-level interpretation."
+        },
+        "movement": {
+          "level": "unknown",
+          "reason": "No source-specific locomotor statement is retained."
+        },
+        "classification": {
+          "level": "provisional",
+          "reason": "The source taxonomy is retained pending a genus-level systematic-literature check."
+        }
+      }
+    },
+    "scientificDisposition": "needs-specialist-review"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "goyocephale",
+  "name": "Goyocephale",
+  "profile": {
+    "overview": [
+      "Goyocephale was a small pachycephalosaurian ornithischian from Late Cretaceous Mongolia. Unlike many dome-headed dinosaurs known mainly from skull roofs, it is represented by a disarticulated skeleton including much of the skull, limbs, pelvis and vertebrae, giving a broader view of pachycephalosaur anatomy.",
+      "Its name means \"decorated head\", combining Mongolian and Greek roots, and the species name honours Owen Lattimore. PBDB records it from Omnogov, Mongolia, but formation-level data still needs manual confirmation in this dataset."
+    ],
+    "fossilSites": [
+      {
+        "name": "Mongolian Late Cretaceous deposits",
+        "region": "Omnogov, Mongolia",
+        "lat": 43.5,
+        "lon": 104,
+        "note": "PBDB records the genus from Omnogov; formation-level context is not yet resolved in the local enrichment."
+      }
+    ],
+    "articles": [
+      {
+        "title": "Why it matters",
+        "body": "Goyocephale gives useful postcranial information for pachycephalosaurs, a group often represented by skull domes rather than fuller skeletons."
+      },
+      {
+        "title": "Evidence limit",
+        "body": "The local PBDB record lacks formation detail, so ecological comparisons should stay regional until the source locality is manually verified."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Goyocephale profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/goyocephale.html"
+      },
+      {
+        "label": "Wikipedia: Goyocephale",
+        "url": "https://en.wikipedia.org/wiki/Goyocephale"
+      },
+      {
+        "label": "PBDB: Goyocephale",
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38794"
+      }
+    ]
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Campanian, roughly 75-72 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Pachycephalosauria",
+        "Pachycephalosauridae"
+      ],
+      "description": "Goyocephale lattimorei was a flat-headed pachycephalosaurid from the Baruungoyot Formation of Mongolia. One partial skull and associated incomplete skeleton preserve much of the jaw, skull roof, vertebral column and limbs, but the specimen is not complete.",
+      "facts": [
+        "The flat skull roof is a genuine feature, though maturity influences pachycephalosaur skull shape.",
+        "Large canine-like teeth do not by themselves prove carnivory.",
+        "Bipedal locomotion is well supported; detailed diet and head-use behaviour are not."
+      ]
+    },
+    "ageReviewNote": "The Baruungoyot Formation is Campanian; its local numerical calibration is approximate.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Perle et al. (1982), Goyocephale lattimorei, a new flat-headed pachycephalosaur",
+        "url": "https://www.app.pan.pl/archive/published/app27/app27-115.pdf"
+      },
+      {
+        "type": "pachycephalosaur-review",
+        "citation": "Sullivan (2006), A taxonomic review of Pachycephalosauridae",
+        "url": "https://www.researchgate.net/publication/254313214_A_taxonomic_review_of_the_Pachycephalosauridae_Dinosauria_Ornithischia"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Goyocephale",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Goyocephale"
+      }
+    ],
+    "residualUncertainty": [
+      "Only one incomplete principal individual is known.",
+      "Maturity, diet and head-strike behaviour remain uncertain."
+    ],
+    "evidence": {
+      "score": 60,
+      "material": "One associated partial skull and incomplete postcranial skeleton.",
+      "formations": [
+        "Baruungoyot Formation"
+      ],
+      "confidenceLimit": "High for basic anatomy and bipedality; moderate for adult skull form; low for diet and behaviour.",
+      "uncertainties": [
+        "maturity",
+        "diet",
+        "head-use behaviour"
+      ],
+      "summary": "Goyocephale lattimorei was a flat-headed pachycephalosaurid from the Baruungoyot Formation of Mongolia. One partial skull and associated incomplete skeleton preserve much of the jaw, skull roof, vertebral column and limbs, but the specimen is not complete.",
+      "sourceBasis": "Perle et al. (1982), Goyocephale lattimorei, a new flat-headed pachycephalosaur; Sullivan (2006), A taxonomic review of Pachycephalosauridae; Paleobiology Database taxon and occurrence context for Goyocephale"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

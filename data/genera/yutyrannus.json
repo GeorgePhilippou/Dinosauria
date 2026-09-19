@@ -1,0 +1,132 @@
+{
+  "id": "yutyrannus",
+  "name": "Yutyrannus",
+  "profile": {
+    "overview": [
+      "Yutyrannus huali is the largest dinosaur with direct fossil evidence of feathers — a nine-metre tyrannosaur relative from the Early Cretaceous Yixian Formation of Liaoning, China (~125 Ma). Filamentous feather-like structures are preserved on three specimens including the adult holotype, demonstrating that a 1.4-tonne tyrannosaur could retain insulating body coverings.",
+      "The discovery transformed questions about feather distribution in large-bodied tyrannosauroids: if Yutyrannus bore extensive filaments in a cool Early Cretaceous climate, whether the much larger but later Tyrannosaurus retained feathers at any life stage becomes a genuinely open question rather than a settled matter."
+    ],
+    "fossilSites": [
+      {
+        "name": "Yixian Formation",
+        "region": "Liaoning Province, China",
+        "lat": 41.5,
+        "lon": 121,
+        "note": "Lower Cretaceous lacustrine and volcanic deposits famous for exceptionally preserved feathered dinosaurs; three known Yutyrannus specimens."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Tyrannosauroidea",
+        "Proceratosauridae",
+        "Yutyrannus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Tyrannosauroidea",
+          "label": "Tyrannosauridae"
+        },
+        {
+          "from": "Proceratosauridae",
+          "label": "Guanlong and other basal tyrannosauroids"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Xu Xing and colleagues described Yutyrannus in 2012 from three individuals from the same Liaoning locality. The filamentous integument — preserved on the neck, arm and tail — consists of hair-like proto-feathers rather than pennaceous flight feathers. Finding them on a 1.4-tonne adult, not just juveniles, was the critical result."
+      },
+      {
+        "title": "Classification and anatomy",
+        "body": "Despite its size, Yutyrannus is a proceratosaurid — a relatively basal tyrannosauroid related to Guanlong and Sinotyrannus — not a close relative of T. rex. It shows the nasal rugosities and paired crests typical of proceratosaurids. Its body plan anticipates the later giant tyrannosaurs: large skull, reduced forelimbs and powerful hindlimbs."
+      },
+      {
+        "title": "Climate and feather retention",
+        "body": "The Yixian Formation palaeoclimate was significantly cooler than many Late Cretaceous environments (mean annual temperatures estimated at ~10°C). Insulating filaments would have provided real thermoregulatory benefit at this body size in this climate. For larger, later tyrannosaurs living in warmer environments, feathers may have been lost or restricted to juveniles."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Yutyrannus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/yutyrannus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Yixian Formation, Liaoning, China",
+    "material": "Three specimens preserving filamentous feathers.",
+    "completeness": "Exceptional integument evidence",
+    "paleo": "Early Cretaceous northeastern Chinese lake-and-volcanic ecosystems.",
+    "evidence": "Large tyrannosauroid body fossils with feather impressions show large-bodied tyrannosauroids could be feathered."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "Barremian, about 125.8-124.1 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Tyrannosauroidea"
+      ],
+      "description": "Yutyrannus huali was a large feathered tyrannosauroid from the Yixian Formation, known from three articulated individuals of different sizes.",
+      "facts": [
+        "Long filamentous feathers are directly preserved on multiple body regions.",
+        "The three associated individuals do not by themselves prove pack hunting or stable social groups.",
+        "Its position within Tyrannosauroidea varies among analyses, so a narrower family assignment is not presented as settled."
+      ]
+    },
+    "ageReviewNote": "High-precision dating brackets the Yixian Formation at 125.755-124.122 Ma, within the Barremian on the current time scale.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Xu et al. (2012), a gigantic feathered tyrannosauroid from China",
+        "url": "https://doi.org/10.1038/nature10906"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Zhong et al. (2021), high-precision dating of the Yixian Formation",
+        "url": "https://doi.org/10.1093/nsr/nwab063"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: yutyrannus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/yutyrannus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Death-assemblage behaviour, exact feather coverage and finer tyrannosauroid placement remain uncertain."
+    ],
+    "evidence": {
+      "score": 97,
+      "material": "Three articulated skeletons, including an adult and younger individuals, with feather impressions.",
+      "formations": "Yixian Formation, Liaoning, China.",
+      "confidenceLimit": "Feathering is direct; social hunting and a single narrow family placement are not.",
+      "uncertainties": [
+        "assemblage behaviour",
+        "feather distribution",
+        "fine phylogeny"
+      ],
+      "summary": "Yutyrannus huali was a large feathered tyrannosauroid from the Yixian Formation, known from three articulated individuals of different sizes.",
+      "sourceBasis": "Xu et al. (2012), a gigantic feathered tyrannosauroid from China; Zhong et al. (2021), high-precision dating of the Yixian Formation; Natural History Museum Dino Directory: yutyrannus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

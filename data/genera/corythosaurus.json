@@ -1,0 +1,138 @@
+{
+  "id": "corythosaurus",
+  "name": "Corythosaurus",
+  "profile": {
+    "overview": [
+      "Corythosaurus casuarius (\"helmeted lizard\") was a large crested hadrosaur from the Campanian of Alberta (~77–75 Ma), reaching about nine metres and distinguished by a tall, thin helmet-like hollow crest on the skull. The crest contained looping nasal passages that may have allowed deep, resonant calls — the most well-supported hypothesis for hollow hadrosaur crests generally.",
+      "Exceptional preservation of Corythosaurus skin impressions reveals a complex mosaic of large polygonal scales and smaller tubercles. The crest shape changed through ontogeny: juveniles had small rounded crests, young adults showed intermediate forms and large adults had the full helmet. This ontogenetic change helps distinguish Corythosaurus from the closely related Lambeosaurus."
+    ],
+    "fossilSites": [
+      {
+        "name": "Dinosaur Park Formation",
+        "region": "Alberta, Canada",
+        "lat": 50.7,
+        "lon": -111.5,
+        "note": "Campanian coastal plain deposits with abundant Corythosaurus material including mummified specimens with skin impressions."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Hadrosauridae",
+        "Lambeosaurinae",
+        "Corythosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Lambeosaurinae",
+          "label": "Lambeosaurus"
+        },
+        {
+          "from": "Lambeosaurinae",
+          "label": "Parasaurolophus"
+        },
+        {
+          "from": "Hadrosauridae",
+          "label": "Saurolophinae (flat-headed hadrosaurs)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Described by Barnum Brown in 1914 from Dinosaur Park Formation material. Brown collected several Corythosaurus specimens including a \"mummy\" with skin impressions. The crest — formed by the nasal and frontal bones — immediately distinguished it from flat-headed hadrosaurs. Juvenile skulls show progressive crest development that helped establish ontogenetic series for the species."
+      },
+      {
+        "title": "Crest function",
+        "body": "The hollow crest of Corythosaurus contained elaborately looping nasal passages. When air was pushed through these passages, they would produce low-frequency resonant sounds specific to each crest shape — allowing individual species recognition, mate attraction and herd communication. Modern analogues include the resonating chambers of howler monkeys and some hornbills."
+      },
+      {
+        "title": "Skin and appearance",
+        "body": "Multiple Corythosaurus specimens preserve skin impressions across the neck, body and tail. The skin shows a pebbly texture with larger tubercles forming a mosaic. No direct colour evidence is preserved, but countershading (darker back, lighter belly) is commonly assumed for camouflage. The crest was probably brightly coloured and used in display, as in modern cassowaries."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Corythosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/corythosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Dinosaur Park Formation, Alberta, Canada",
+    "material": "Skulls and skeletons of a crested hadrosaur.",
+    "completeness": "Well represented",
+    "paleo": "Late Cretaceous coastal plain and river systems of western Canada.",
+    "evidence": "Skull crests and skeletal remains support its lambeosaurine hadrosaur classification."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "about 77-75 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Cerapoda",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Lambeosaurinae"
+      ],
+      "description": "Corythosaurus casuarius was a helmet-crested lambeosaurine hadrosaurid from the Dinosaur Park Formation of Alberta. Many skulls and skeletons across growth stages, including skin impressions, document its anatomy and the dramatic ontogenetic growth of its hollow crest.",
+      "facts": [
+        "The internal nasal passages of the crest are preserved and could affect sound resonance, but no specific call can be reconstructed as fact.",
+        "Many historical Corythosaurus species are now interpreted as growth or individual variation within C. casuarius."
+      ]
+    },
+    "ageReviewNote": "Diagnostic C. casuarius material is late Campanian in the Dinosaur Park Formation.",
+    "sources": [
+      {
+        "type": "specimen-record",
+        "citation": "Smithsonian Institution, Corythosaurus casuarius specimen record",
+        "url": "https://www.si.edu/object/nmnhpaleobiology_3440896"
+      },
+      {
+        "type": "phylogenetic-context",
+        "citation": "Madriñan et al. (2021), Phylogenetic nomenclature and relationships of hadrosaurids",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8667728/"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: corythosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/corythosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "The exact acoustic properties of living soft tissues are unknown.",
+      "Some species-level distinctions and referrals remain debated."
+    ],
+    "evidence": {
+      "score": 98,
+      "material": "Many skulls and partial to complete skeletons across growth stages, some preserving skin impressions.",
+      "formations": [
+        "Dinosaur Park Formation"
+      ],
+      "confidenceLimit": "Anatomy and crest growth are exceptionally supported; colour, vocalisation and social signalling remain inferential.",
+      "uncertainties": [
+        "The exact acoustic properties of living soft tissues are unknown.",
+        "Some species-level distinctions and referrals remain debated."
+      ],
+      "summary": "Corythosaurus casuarius was a helmet-crested lambeosaurine hadrosaurid from the Dinosaur Park Formation of Alberta. Many skulls and skeletons across growth stages, including skin impressions, document its anatomy and the dramatic ontogenetic growth of its hollow crest.",
+      "sourceBasis": "Smithsonian Institution, Corythosaurus casuarius specimen record; Madriñan et al. (2021), Phylogenetic nomenclature and relationships of hadrosaurids; Natural History Museum, Dino Directory: corythosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

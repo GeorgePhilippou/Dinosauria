@@ -1,0 +1,151 @@
+{
+  "id": "ligabuesaurus",
+  "name": "Ligabuesaurus",
+  "profile": {
+    "overview": [
+      "Ligabuesaurus was a large herbivorous sauropod dinosaur that lived during the Early Cretaceous, approximately 130–120 million years ago, in what is now Neuquén Province, Argentina. It is known from fragmentary remains including jaw elements, vertebrae, and limb bones, making precise size estimates uncertain, though it appears to have been a sizeable titanosauriform sauropod. The type species is Ligabuesaurus leanzai.",
+      "Named in 2006 by José Bonaparte, González Riga, and Apesteguía, Ligabuesaurus is named in honour of Giancarlo Ligabue, an Italian ethnologist and explorer who contributed to palaeontological research in Patagonia. Its fragmentary nature limits what can be said about its anatomy and ecology, but it contributes to the documented diversity of Early Cretaceous sauropods in South America, a time period when titanosaurian sauropods were rapidly diversifying across Gondwana."
+    ],
+    "fossilSites": [
+      {
+        "name": "La Amarga Formation",
+        "region": "Neuquén Province, Argentina",
+        "lat": -37.5,
+        "lon": -70,
+        "note": "The holotype fragmentary remains of Ligabuesaurus leanzai were recovered from Early Cretaceous continental deposits in this Patagonian formation."
+      },
+      {
+        "name": "Neuquén Basin",
+        "region": "Neuquén Province, Argentina",
+        "lat": -38,
+        "lon": -69.5,
+        "note": "The Neuquén Basin is one of the most productive regions for Cretaceous sauropod discoveries in South America."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Macronaria",
+        "Titanosauriformes",
+        "Ligabuesaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Titanosauriformes",
+          "label": "Brachiosauridae"
+        },
+        {
+          "from": "Titanosauriformes",
+          "label": "Titanosauria"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Ligabuesaurus leanzai was described in 2006 by José Bonaparte, Bernardo González Riga, and Sebastián Apesteguía. The genus honours Giancarlo Ligabue, an Italian scientist and explorer who supported palaeontological work in Patagonia, while the species name leanzai acknowledges Héctor Leanza of CONICET for his contributions to Argentine geology. The holotype consists of a partial maxilla with teeth, several cervical and dorsal vertebrae, and girdle and limb bones."
+      },
+      {
+        "title": "Fragmentary Remains and Reconstruction Challenges",
+        "body": "Because Ligabuesaurus is known only from incomplete material without a complete skull or associated full skeleton, many aspects of its anatomy remain unknown. The vertebrae and limb bones suggest it was a substantial sauropod, but precise body length and mass estimates are unreliable. Its teeth, preserved in the maxilla, provide some dietary and taxonomic information but are insufficient to fully characterise the genus."
+      },
+      {
+        "title": "Taxonomic Placement",
+        "body": "Ligabuesaurus has been placed within Titanosauriformes, the broad group of sauropods that includes brachiosaurs and titanosaurs. Its exact position within this group is not well-resolved given the fragmentary material. Its Early Cretaceous age from South America is consistent with the time when titanosaurian diversity was increasing significantly across Gondwana."
+      },
+      {
+        "title": "Patagonian Sauropod Diversity",
+        "body": "The Neuquén Basin of Patagonia has yielded an extraordinary diversity of Cretaceous sauropods, ranging from the enormous Argentinosaurus to numerous smaller titanosaurs. Ligabuesaurus adds to this diversity from the Early Cretaceous portion of the record, a time period less well-documented than the later Cretaceous in the basin."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Ligabuesaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/ligabuesaurus.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "La Amarga Formation, Neuquén Province, Argentina; Neuquén Basin, Neuquén Province, Argentina",
+    "material": "The holotype consists of a partial maxilla with teeth, several cervical and dorsal vertebrae, and girdle and limb bones.",
+    "completeness": "Fragmentary material only; 1 PBDB occurrence records.",
+    "paleo": "The holotype fragmentary remains of Ligabuesaurus leanzai were recovered from Early Cretaceous continental deposits in this Patagonian formation.",
+    "evidence": "Named in 2006 by José Bonaparte, González Riga, and Apesteguía, Ligabuesaurus is named in honour of Giancarlo Ligabue, an Italian ethnologist and explorer who contributed to palaeontological research in Patagonia."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "late Aptian-early Albian, about 113-108 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Neosauropoda",
+        "Macronaria",
+        "Titanosauriformes",
+        "Somphospondyli"
+      ],
+      "description": "Ligabuesaurus leanzai was a quadrupedal herbivorous titanosauriform from the Lohan Cura Formation of Argentina. The holotype and a referred specimen provide an incomplete skeleton; modern redescription places it outside or near the base of Titanosauria rather than securely within a narrow titanosaur family.",
+      "facts": [
+        "Known material includes vertebral, girdle and limb elements and limited cranial remains.",
+        "No complete neck, tail or articulated body is known.",
+        "Adult length and mass estimates remain extrapolations from incomplete individuals."
+      ],
+      "length": null
+    },
+    "ageReviewNote": "Restricted to the late Aptian-early Albian Lohan Cura Formation.",
+    "sources": [
+      {
+        "type": "osteological-redescription",
+        "citation": "Bellardini et al. (2022), Osteology and phylogenetic relationships of Ligabuesaurus",
+        "url": "https://doi.org/10.1093/zoolinnean/zlac003"
+      },
+      {
+        "type": "original-description",
+        "citation": "Bonaparte et al. (2006), Ligabuesaurus leanzai from the Lohan Cura Formation",
+        "url": "https://www.researchgate.net/publication/237609887_Ligabuesaurus_leanzai_gen_et_sp_nov_Dinosauria_Sauropoda_a_new_titanosaur_from_the_Lohan_Cura_Formation_Aptian_Lower_Cretaceous_of_Neuquen_Patagonia_Argentina"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Ligabuesaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Ligabuesaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "Some referred material is incomplete and association is imperfect.",
+      "Placement near Titanosauria and adult size vary among analyses."
+    ],
+    "evidence": {
+      "score": 40,
+      "material": "Incomplete cranial and postcranial remains from a small number of individuals.",
+      "formations": [
+        "Lohan Cura Formation"
+      ],
+      "confidenceLimit": "Moderate for validity and age; low-to-moderate for whole-body proportions and exact phylogeny.",
+      "uncertainties": [
+        "specimen association",
+        "titanosauriform position",
+        "adult size"
+      ],
+      "summary": "Ligabuesaurus leanzai was a quadrupedal herbivorous titanosauriform from the Lohan Cura Formation of Argentina. The holotype and a referred specimen provide an incomplete skeleton; modern redescription places it outside or near the base of Titanosauria rather than securely within a narrow titanosaur family.",
+      "sourceBasis": "Bellardini et al. (2022), Osteology and phylogenetic relationships of Ligabuesaurus; Bonaparte et al. (2006), Ligabuesaurus leanzai from the Lohan Cura Formation; Paleobiology Database taxon and occurrence context for Ligabuesaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

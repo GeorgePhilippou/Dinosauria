@@ -1,0 +1,470 @@
+{
+  "id": "spinosaurus",
+  "name": "Spinosaurus",
+  "richProfile": {
+    "overview": [
+      "Spinosaurus was a giant spinosaurid theropod from North Africa, with long neural spines forming a sail-like structure along its back. NHM places it at around 14 metres long and 7.4 tonnes.",
+      "It is one of the clearest cases where a dinosaur page needs caveats: new fossils have changed reconstructions dramatically, especially around its hind limbs, tail and how aquatic it really was."
+    ],
+    "fossilSites": [
+      {
+        "name": "Bahariya Formation",
+        "region": "Western Desert, Egypt",
+        "lat": 28.3,
+        "lon": 28.9,
+        "note": "The source of the original Egyptian material described by Ernst Stromer before it was destroyed in the Second World War."
+      },
+      {
+        "name": "Kem Kem beds",
+        "region": "Southeastern Morocco",
+        "lat": 31.2,
+        "lon": -4,
+        "note": "River and delta deposits that preserve spinosaurid bones, teeth and other large Cretaceous predators."
+      },
+      {
+        "name": "Tafilalt region",
+        "region": "Morocco",
+        "lat": 31,
+        "lon": -4.3,
+        "note": "Part of the broader Kem Kem fossil area associated with later Spinosaurus discoveries."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Megalosauroidea",
+        "Spinosauridae",
+        "Spinosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Theropoda",
+          "label": "Coelophysoids and early theropods"
+        },
+        {
+          "from": "Tetanurae",
+          "label": "Allosauroids / coelurosaurs"
+        },
+        {
+          "from": "Megalosauroidea",
+          "label": "Megalosaurids"
+        },
+        {
+          "from": "Spinosauridae",
+          "label": "Baryonyx / Suchomimus line"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and lost fossils",
+        "body": "Spinosaurus was first described from Egyptian material collected in the early twentieth century. The original fossils were destroyed during the Second World War, making later Moroccan material especially important."
+      },
+      {
+        "title": "Skull and teeth",
+        "body": "The long narrow jaws and smooth cone-shaped teeth are unlike the deep skull and blade-like teeth of T. rex. They fit a diet that included fish and other animals from river systems."
+      },
+      {
+        "title": "Sail, tail and swimming debate",
+        "body": "The high back spines may have supported a display structure or other soft tissue. Recent reconstructions also include a deep tail and shorter hind limbs, but researchers still debate how much time Spinosaurus spent swimming."
+      },
+      {
+        "title": "Cretaceous river predator",
+        "body": "Spinosaurus lived in North African river and coastal settings, alongside other large predators and abundant fish. The ecosystem was not a simple open plain like many North American dinosaur sites."
+      }
+    ],
+    "citations": [
+      {
+        "label": "Natural History Museum: Spinosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/spinosaurus.html"
+      },
+      {
+        "label": "Nature: Spinosaurus tail-propelled aquatic locomotion",
+        "url": "https://www.nature.com/articles/s41586-020-2190-3"
+      },
+      {
+        "label": "Harvard DASH: Spinosaurus tail paper archive",
+        "url": "https://dash.harvard.edu/entities/publication/126073b8-222d-4c00-898a-9d3b67b170bb"
+      },
+      {
+        "label": "Wikimedia Commons: image file page",
+        "url": "https://commons.wikimedia.org/wiki/File:Spinosaurus_life_restoration_based_on_fossil_reconstruction.png"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Bahariya Formation, Egypt; Kem Kem Group, Morocco",
+    "material": "Original Egyptian material was destroyed; later Moroccan material includes skull, vertebral and tail elements.",
+    "completeness": "Composite and debated",
+    "paleo": "Cretaceous North African river and coastal systems rich in fish and aquatic prey.",
+    "evidence": "Conical teeth, long jaws, tall neural spines and later tail material drive debates over aquatic habits."
+  },
+  "remainsImage": {
+    "file": "Spinosaurus Skeleton Cast at the National Geographic Museum.jpg",
+    "label": "Spinosaurus skeletal cast, National Geographic Museum",
+    "note": "Skeletal cast/display image; the profile still flags Spinosaurus reconstruction limits separately."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-09-19",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formations",
+      "destroyed holotype and neotype",
+      "semiaquatic evidence and the locomotion dispute",
+      "body-size confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Cenomanian, about 100–94 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Megalosauroidea",
+        "Spinosauridae",
+        "Spinosaurinae",
+        "Spinosaurus"
+      ],
+      "diet": "Carnivore (fish and other prey)",
+      "locomotion": "Bipedal on land; swimming ability disputed",
+      "massKg": null,
+      "description": "Spinosaurus aegyptiacus was a very large spinosaurid theropod from Cenomanian North Africa. Its long narrow jaws, conical teeth, retracted nostrils, dense bones and deep tail show strong association with aquatic prey and habitats. How it fed remains actively disputed: proposed underwater pursuit and diving conflict with biomechanical analyses favouring wading or surface feeding.",
+      "facts": [
+        "The original Egyptian holotype, BSP 1912 VIII 19, was destroyed in the 1944 bombing of Munich; it survives only in Stromer's 1915 description and photographs.",
+        "A partial skeleton from the Kem Kem beds of Morocco, FSAC-KK 11888, was designated the neotype in 2014 and expanded in 2020 to include a deep, paddle-like tail.",
+        "Shortened hind limbs, dense bones and a tall sail are now well established; their functional meaning is not.",
+        "High bone density was interpreted in 2022 as evidence for subaqueous foraging.",
+        "A 2022 eLife analysis argued that stability, drag and buoyancy make a fully aquatic pursuit-predator model unlikely; semiaquatic adaptations are well supported, but a single settled swimming and hunting model is not."
+      ]
+    },
+    "presentation": {
+      "heroLead": "The longest known predatory dinosaur, a sail-backed fish-eater whose original skeleton was destroyed in wartime and whose way of life is the liveliest debate in theropod research.",
+      "heroMedia": {
+        "file": "Spinosaurus 2020 reconstruction.jpg",
+        "title": "Life restoration of Spinosaurus aegyptiacus",
+        "alt": "Life restoration of Spinosaurus aegyptiacus with sail and deep tail in side view",
+        "caption": "Life restoration following the 2020 reconstruction with a deep, finned tail. Skin, colour and sail outline are interpretive.",
+        "credit": "Mariolanzas · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spinosaurus_2020_reconstruction.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 100–94 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Egypt and Morocco"
+        },
+        {
+          "label": "Known size",
+          "value": "about 14 m · composite estimate"
+        },
+        {
+          "label": "Diet",
+          "value": "Fish and other prey"
+        }
+      ],
+      "animalParagraphs": [
+        "Spinosaurus was an enormous theropod of the Cenomanian river systems of North Africa, estimated at around fourteen metres long. Its skull was long and narrow like a crocodile's, with conical teeth and nostrils set well back, and tall spines on its back supported a sail more than a metre high.",
+        "Unlike other large theropods it had short hindlimbs, a long trunk, dense bones and, as shown in 2020, a deep, flexible tail. These features point to a life spent in and around water, feeding on the giant fish that filled its habitat, although it also ate other animals.",
+        "How aquatic it really was is fiercely debated. One school reconstructs it as a diving pursuit predator propelled by its tail; another, using buoyancy and stability models, argues it waded and fished from the shallows like a giant heron. The evidence supports strong semiaquatic habits but does not yet settle the question."
+      ],
+      "animalHighlights": [
+        "A long, narrow, crocodile-like skull with conical teeth and retracted nostrils suited to catching fish.",
+        "Neural spines up to about 1.6 m tall supporting a sail of uncertain function.",
+        "Short hindlimbs, dense bones and a deep, paddle-like tail unique among large theropods."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Fish-eater and generalist",
+          "level": "Supported by teeth, jaws and isotopes",
+          "reason": "Conical teeth, a rosette-tipped snout and oxygen isotopes consistent with time in water indicate piscivory; a pterosaur bone in a related spinosaurid shows the group also took other prey."
+        },
+        {
+          "label": "Movement",
+          "value": "Semiaquatic",
+          "level": "Diving versus wading disputed",
+          "reason": "Dense bones and a finned tail support swimming; buoyancy and drag models argue against sustained diving. Bipedal on land is now the consensus over earlier quadrupedal proposals."
+        },
+        {
+          "label": "Known size",
+          "value": "about 14 m long",
+          "level": "Composite estimate",
+          "reason": "No single individual is complete. Length is scaled from the neotype, the destroyed holotype and isolated giant elements, and estimates vary."
+        },
+        {
+          "label": "Appearance",
+          "value": "Sail and proportions established",
+          "level": "Sail shape and skin reconstructed",
+          "reason": "The spines are known; the soft-tissue outline of the sail, skin texture and colour are not."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous (Cenomanian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 100–94 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Bahariya Formation (holotype); Kem Kem Group (neotype)"
+        },
+        {
+          "label": "Type locality",
+          "value": "Bahariya Oasis, Western Desert, Egypt"
+        }
+      ],
+      "locality": {
+        "name": "Bahariya Oasis",
+        "region": "Western Desert, Egypt",
+        "note": "Bahariya Formation, type locality of the destroyed holotype. The neotype comes from the Kem Kem beds near Zrigat, south-eastern Morocco. The map shows a regional reference."
+      },
+      "classificationSummary": "Spinosaurus is the name-bearing genus of Spinosauridae and of Spinosaurinae, the subfamily that also includes Irritator and Ichthyovenator. Baryonyx and Suchomimus belong to the sister subfamily Baryonychinae.",
+      "related": [
+        {
+          "id": "suchomimus",
+          "reason": "A baryonychine spinosaurid from Niger with a low sail and more conventional limbs."
+        },
+        {
+          "id": "baryonyx",
+          "reason": "The first well-preserved spinosaurid, with fish scales in its gut."
+        },
+        {
+          "id": "carcharodontosaurus",
+          "reason": "The giant land predator that shared the Kem Kem and Bahariya ecosystems."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Did it dive and swim after prey?",
+          "copy": "Tail shape and bone density say it could swim; hydrodynamic modelling says it would have been slow, unstable and too buoyant to pursue fish underwater. Both camps agree it lived at the water's edge."
+        },
+        {
+          "title": "How much of the reconstruction is one animal?",
+          "copy": "The neotype is a partial skeleton. Skull, sail and giant size are combined from the lost holotype and isolated Moroccan bones, so proportions carry real uncertainty."
+        },
+        {
+          "title": "What was the sail for?",
+          "copy": "Display, thermoregulation, a fat store and a swimming aid have all been proposed. None is directly testable from the bones alone."
+        }
+      ],
+      "compactSources": true
+    },
+    "ageReviewNote": "The reviewed range follows Cenomanian material from the Bahariya Formation and Kem Kem Group. Isolated spinosaurid material should not automatically extend the species range.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Stromer (1915), Ergebnisse der Forschungsreisen Prof. E. Stromers in den Wüsten Ägyptens: Das Original des Theropoden Spinosaurus aegyptiacus",
+        "url": "https://www.biodiversitylibrary.org/bibliography/62187"
+      },
+      {
+        "type": "neotype-description",
+        "citation": "Ibrahim et al. (2014), Semiaquatic adaptations in a giant predatory dinosaur",
+        "url": "https://doi.org/10.1126/science.1258750"
+      },
+      {
+        "type": "tail-anatomy",
+        "citation": "Ibrahim et al. (2020), Tail-propelled aquatic locomotion in a theropod dinosaur",
+        "url": "https://doi.org/10.1038/s41586-020-2190-3"
+      },
+      {
+        "type": "bone-density",
+        "citation": "Fabbri et al. (2022), Subaqueous foraging among carnivorous dinosaurs",
+        "url": "https://doi.org/10.1038/s41586-022-04528-0"
+      },
+      {
+        "type": "biomechanics",
+        "citation": "Sereno et al. (2022), Spinosaurus is not an aquatic dinosaur",
+        "url": "https://doi.org/10.7554/eLife.80092"
+      }
+    ],
+    "residualUncertainty": [
+      "The association and taxonomic identity of some Moroccan bones remain debated.",
+      "Maximum length and mass estimates depend strongly on composite reconstruction.",
+      "The extent of diving and underwater propulsion remains an active scientific disagreement.",
+      "The soft-tissue form and function of the sail are unknown."
+    ],
+    "evidence": {
+      "score": 67,
+      "summary": "Substantial but composite material supports a semiaquatic spinosaurid; the holotype is lost, the neotype is partial, and its exact locomotion and hunting mode remain disputed.",
+      "material": "Destroyed Egyptian holotype known from Stromer's figures, the Moroccan neotype FSAC-KK 11888 with skull fragments, vertebrae, sail spines, pelvis, hindlimbs and tail, plus isolated Kem Kem cranial and postcranial elements.",
+      "formations": [
+        "Bahariya Formation — Bahariya Oasis, Egypt",
+        "Kem Kem Group — Zrigat and other sites, Morocco"
+      ],
+      "confidenceLimit": "Semiaquatic specialisation is secure; exact body dimensions, the sail outline and underwater performance are model-dependent.",
+      "sourceBasis": "Stromer 1915, Ibrahim et al. 2014/2020, Fabbri et al. 2022 and Sereno et al. 2022.",
+      "specimens": [
+        {
+          "name": "Holotype (destroyed)",
+          "id": "BSP 1912 VIII 19",
+          "institution": "Formerly Bayerische Staatssammlung für Paläontologie, Munich",
+          "note": "Lower jaw, dorsal vertebrae with tall spines and ribs, destroyed in April 1944; known from Stromer's description and photographs."
+        },
+        {
+          "name": "Neotype",
+          "id": "FSAC-KK 11888",
+          "institution": "Faculté des Sciences Aïn Chock, Casablanca",
+          "note": "Partial skeleton with skull fragments, vertebrae, sail spines, pelvis, hindlimbs and most of the tail; designated 2014, tail described 2020."
+        },
+        {
+          "name": "Snout",
+          "id": "MSNM V4047",
+          "institution": "Museo di Storia Naturale di Milano",
+          "note": "Large rostrum from the Kem Kem beds, basis of skull reconstructions."
+        }
+      ],
+      "uncertainties": [
+        "specimen association",
+        "maximum size",
+        "underwater foraging mode",
+        "sail function"
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "A holotype lost to war, a partial neotype, and a skeleton assembled from several animals.",
+        "standfirst": "Everything known about Spinosaurus aegyptiacus comes from Stromer's destroyed Egyptian specimen, the partial Moroccan neotype found a century later, and isolated bones. That is enough to establish an extraordinary animal, but not enough to end the arguments about how it lived.",
+        "coverage": {
+          "label": "Moderate",
+          "level": 2,
+          "maximum": 4,
+          "basis": "The neotype preserves vertebrae, sail, pelvis, hindlimbs and tail; the skull is known mainly from separate rostra and the lost holotype jaw. No single individual preserves both a complete skull and skeleton."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Composite partial skeleton"
+          },
+          {
+            "label": "Individuals",
+            "value": "Several, one principal"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Holotype destroyed in 1944"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "From the neotype: fragments of the skull, cervical and dorsal vertebrae with tall neural spines, ribs, the pelvis, both hindlimbs and feet, and most of the tail. From other specimens: a large snout, jaw fragments, teeth and isolated vertebrae and limb bones.",
+          "note": "Because the neotype was excavated in stages and partly bought from local collectors, whether every bone belongs to one individual has been questioned; the 2020 tail excavation was conducted in situ."
+        },
+        "media": [
+          {
+            "file": "Digital skeletal reconstruction of Spinosaurus.png",
+            "kind": "Known-material diagram",
+            "title": "Digital skeletal reconstruction from Sereno et al. 2022",
+            "alt": "Digital skeletal reconstruction of Spinosaurus aegyptiacus in side view",
+            "caption": "A digital skeletal reconstruction built from the neotype, the destroyed holotype and referred bones. It is a composite model, not one preserved skeleton.",
+            "credit": "Sereno et al. 2022 · CC BY 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Digital_skeletal_reconstruction_of_Spinosaurus.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "A large rostrum, partial lower jaws including the lost holotype dentary, braincase fragments and isolated teeth; no complete skull."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal and sacral vertebrae, tall sail spines, and a nearly complete tail with elongated chevrons and neural spines."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Pelvis, both femora, tibiae and feet from the neotype; forelimb material is fragmentary."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "None in the usual sense; bone histology and density, and oxygen isotopes from teeth, provide indirect ecological evidence."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen (destroyed)",
+            "title": "BSP 1912 VIII 19 · holotype",
+            "description": "Collected by Richard Markgraf at Bahariya in 1912 and described by Ernst Stromer in 1915. The lower jaw, sail vertebrae and ribs were destroyed when the Munich collection was bombed in April 1944; only Stromer's figures and a few photographs survive.",
+            "meta": "Bahariya Oasis · Bahariya Formation · formerly Munich"
+          },
+          {
+            "kicker": "Neotype",
+            "title": "FSAC-KK 11888 · partial skeleton",
+            "description": "A partial skeleton from the Kem Kem beds near Zrigat, Morocco, designated the neotype in 2014. Further excavation in 2018 recovered most of the tail, revealing its deep, paddle-like form.",
+            "meta": "Zrigat · Kem Kem Group · Université Hassan II, Casablanca"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "A partial neotype skeleton with sail, pelvis, hindlimbs and tail; a large snout; and the published record of the destroyed holotype."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A giant semiaquatic spinosaurid adapted to catching fish in North African river systems, with unusual proportions among theropods."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Whether it dived and pursued prey underwater, its true length and mass, the shape and purpose of its sail, and whether all referred bones belong to one species."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Stromer · 1915",
+            "description": "Original description of the Egyptian holotype, now the only record of it.",
+            "access": "Read online",
+            "url": "https://www.biodiversitylibrary.org/bibliography/62187"
+          },
+          {
+            "type": "Neotype",
+            "title": "Ibrahim et al. · 2014",
+            "description": "Designation of the Moroccan neotype and the semiaquatic hypothesis.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1126/science.1258750"
+          },
+          {
+            "type": "Tail anatomy",
+            "title": "Ibrahim et al. · 2020",
+            "description": "Description of the deep, finned tail and the tail-propelled swimming model.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1038/s41586-020-2190-3"
+          },
+          {
+            "type": "Counter-analysis",
+            "title": "Sereno et al. · 2022",
+            "description": "Biomechanical argument that Spinosaurus waded rather than dived.",
+            "access": "Open access",
+            "url": "https://doi.org/10.7554/eLife.80092"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Digital skeletal reconstruction",
+            "description": "Source page, creator details and reuse licence for the skeletal diagram.",
+            "access": "CC BY 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Digital_skeletal_reconstruction_of_Spinosaurus.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38598"
+          }
+        ],
+        "limitations": "The coverage band describes the combined neotype, holotype record and referred material at genus level. It is an editorial evidence summary, not a published completeness percentage.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "id": "gigantoraptor",
+  "name": "Gigantoraptor",
+  "profile": {
+    "overview": [
+      "Gigantoraptor (meaning 'giant thief') was an oviraptorosaur theropod from the Late Cretaceous of Inner Mongolia, China, living approximately 83–72 million years ago during the Campanian. Estimated at around 8 metres in length and 2,000 kilograms, it is by far the largest known oviraptorosaur — roughly 35 times heavier than typical members of the group — and one of the largest feathered (or potentially feathered) dinosaurs known. Its discovery revealed that gigantism evolved in the oviraptorosaur lineage to a degree not previously suspected.",
+      "Gigantoraptor erlianensis was described by Xu Xing and colleagues in 2007 from a single specimen found in the Iren Dabasu Formation near Erlian (Erenhot). The species is named after the formation and the region. Only the lower jaw is known from cranial material, and scientists estimate the animal died at approximately 12 years of age based on bone histology, suggesting it had not yet reached its full adult size. Its discovery compelled a reassessment of size limits within Oviraptorosauria and raised questions about whether very large oviraptorosaurs might have had different diets from their smaller relatives."
+    ],
+    "fossilSites": [
+      {
+        "name": "Iren Dabasu Formation",
+        "region": "Nei Mongol (Inner Mongolia), China",
+        "lat": 43.7,
+        "lon": 111.9,
+        "note": "The only known locality; the type specimen was found near Erenhot (Erlian) alongside sauropod Sonidosaurus, hadrosaurs Bactrosaurus and Gilmoreosaurus, and the tyrannosauroid Alectrosaurus."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Oviraptorosauria",
+        "Caenagnathidae",
+        "Gigantoraptor"
+      ],
+      "sideBranches": [
+        {
+          "from": "Oviraptorosauria",
+          "label": "Oviraptoridae (Oviraptor, Citipati)"
+        },
+        {
+          "from": "Caenagnathidae",
+          "label": "Anzu (North America)"
+        },
+        {
+          "from": "Oviraptorosauria",
+          "label": "Caudipteryx (feathered, China)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Gigantoraptor erlianensis was described by Xu Xing and colleagues in 2007 from a specimen found in the Iren Dabasu Formation near Erlian, Inner Mongolia. The discovery was serendipitous: the excavation team was filming a documentary about Protoceratops when they encountered the unexpected giant. Bone histological analysis revealed the individual was approximately 12 years old at the time of death, indicating it was still growing."
+      },
+      {
+        "title": "Size and Gigantism",
+        "body": "At roughly 8 metres long and 2,000 kilograms, Gigantoraptor dwarfed all other known oviraptorosaurs. This extreme gigantism is made more striking by the fact that its closest relatives were typically under 100 kilograms. The discovery demonstrated that oviraptorosaurs could achieve sizes comparable to large tyrannosaurids, challenging assumptions about maximum size limits in this lineage. Whether Gigantoraptor bore feathers remains unknown, as no integument has been preserved."
+      },
+      {
+        "title": "Diet and Skull",
+        "body": "Only the lower jaw is known from cranial material in Gigantoraptor, making it impossible to reconstruct the complete skull. However, the jaw morphology differs somewhat from typical smaller oviraptorosaurs, suggesting that Gigantoraptor may not have shared exactly the same diet. Smaller oviraptorosaurs are inferred to have eaten fruit, shellfish, eggs, and insects; the jaw proportions of Gigantoraptor may indicate a broader or more plant-dominated diet was necessary to sustain its bulk."
+      },
+      {
+        "title": "Growth Rate",
+        "body": "A key finding from Xu and colleagues was that Gigantoraptor apparently grew faster in relative terms than many other large bipedal dinosaurs during its juvenile phase, before its growth rate slowed. This combination of rapid early growth followed by deceleration is unusual and may have been necessary to reach large adult size quickly enough to avoid predation during the vulnerable juvenile stage. Bone histology continues to be an important tool for understanding dinosaurian growth dynamics."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Gigantoraptor profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/gigantoraptor.html"
+      },
+      {
+        "label": "PBDB: Gigantoraptor occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gigantoraptor&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Iren Dabasu Formation, Nei Mongol (Inner Mongolia), China",
+    "material": "Only the lower jaw is known from cranial material in Gigantoraptor, making it impossible to reconstruct the complete skull.",
+    "completeness": "Partial material known; 1 PBDB occurrence records.",
+    "paleo": "The only known locality; the type specimen was found near Erenhot (Erlian) alongside sauropod Sonidosaurus, hadrosaurs Bactrosaurus and Gilmoreosaurus, and the tyrannosauroid Alectrosaurus.",
+    "evidence": "Gigantoraptor erlianensis was described by Xu Xing and colleagues in 2007 from a single specimen found in the Iren Dabasu Formation near Erlian (Erenhot)."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Cenomanian-Campanian, broadly about 96-84 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Oviraptorosauria",
+        "Caenagnathidae"
+      ],
+      "description": "Gigantoraptor erlianensis was a giant caenagnathid oviraptorosaur from the Iren Dabasu Formation of Inner Mongolia. One partial adult-sized skeleton preserves vertebrae, girdles and limbs but no skull, so its head and feeding apparatus are reconstructed from smaller relatives.",
+      "facts": [
+        "The holotype is incomplete and lacks the skull, hands and much of the vertebral column.",
+        "Bone histology indicates rapid growth and that the individual had not reached maximum skeletal maturity.",
+        "Diet remains unresolved; gigantic size and toothless relatives do not identify specific foods."
+      ],
+      "diet": null,
+      "length": null
+    },
+    "ageReviewNote": "The Iren Dabasu Formation age is debated; the broad mid-Late Cretaceous range is more honest than a single narrow date.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Xu et al. (2007), A gigantic bird-like dinosaur from the Late Cretaceous of China",
+        "url": "https://doi.org/10.1038/nature05849"
+      },
+      {
+        "type": "caenagnathid-anatomy",
+        "citation": "Ma et al. (2017), Functional anatomy of caenagnathid mandibles",
+        "url": "https://doi.org/10.1038/s41598-017-15709-7"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Gigantoraptor",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gigantoraptor"
+      }
+    ],
+    "residualUncertainty": [
+      "The skull is unknown and only one principal skeleton exists.",
+      "Formation age, maximum adult size and diet remain uncertain."
+    ],
+    "evidence": {
+      "score": 40,
+      "material": "Single partial, headless skeleton with substantial axial and appendicular material.",
+      "formations": [
+        "Iren Dabasu Formation"
+      ],
+      "confidenceLimit": "High for giant body size and caenagnathid identity; low for skull, diet and maximum adult size.",
+      "uncertainties": [
+        "cranial anatomy",
+        "diet",
+        "formation age",
+        "adult maximum"
+      ],
+      "summary": "Gigantoraptor erlianensis was a giant caenagnathid oviraptorosaur from the Iren Dabasu Formation of Inner Mongolia. One partial adult-sized skeleton preserves vertebrae, girdles and limbs but no skull, so its head and feeding apparatus are reconstructed from smaller relatives.",
+      "sourceBasis": "Xu et al. (2007), A gigantic bird-like dinosaur from the Late Cretaceous of China; Ma et al. (2017), Functional anatomy of caenagnathid mandibles; Paleobiology Database taxon and occurrence context for Gigantoraptor"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "irritator",
+  "name": "Irritator",
+  "profile": {
+    "overview": [
+      "Irritator challengeri is a spinosaurid from the Early Cretaceous Santana Formation of Brazil (~110 Ma), known from a nearly complete skull — one of the best-preserved spinosaurid skulls from South America. Its name reflects the frustration of its describers: the specimen had been heavily restored with plaster by commercial collectors before reaching scientific hands, requiring painstaking preparation to separate real bone from filler.",
+      "As a spinosaurid closely related to Suchomimus and Baryonyx (subfamily Baryonychinae), Irritator provides important information about the distribution and diversity of this group in South America. The Santana Formation preserves an extraordinary freshwater and estuarine fauna including giant fish and the pterosaur Anhanguera."
+    ],
+    "fossilSites": [
+      {
+        "name": "Santana Formation — Romualdo Member",
+        "region": "Ceará, Brazil",
+        "lat": -7.2,
+        "lon": -39.5,
+        "note": "Early Cretaceous limestone nodules preserving extraordinary fish, reptile and pterosaur material; type locality for Irritator."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Spinosauridae",
+        "Baryonychinae",
+        "Irritator"
+      ],
+      "sideBranches": [
+        {
+          "from": "Baryonychinae",
+          "label": "Baryonyx"
+        },
+        {
+          "from": "Baryonychinae",
+          "label": "Suchomimus"
+        },
+        {
+          "from": "Spinosauridae",
+          "label": "Spinosaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and the irritating preparation",
+        "body": "The skull was found by commercial fossil collectors and sold; by the time it reached scientific study (described by Martill, Cruickshank and colleagues in 1996) the specimen had been plastered and altered to appear more complete. Removing the fake material and identifying the real anatomy required considerable effort — hence the name Irritator. A second species proposed in 2004 (Angaturama limai) is now considered a synonym of Irritator."
+      },
+      {
+        "title": "Skull anatomy",
+        "body": "The skull is narrow and elongate with a rounded sagittal crest running along the top. The teeth are conical and slightly oval in cross-section — typical of baryonychine spinosaurids. Isotope analysis of Irritator teeth shows values intermediate between terrestrial and aquatic prey, consistent with a mixed fish-and-terrestrial diet."
+      },
+      {
+        "title": "Santana Formation ecology",
+        "body": "The Romualdo Member preserves an extraordinary coastal to estuarine ecosystem. Giant fish (Calamopleurus, Vinctifer) reaching 4 m co-existed with Irritator, pterosaurs and early chelonians. The spinosaurid feeding on fish in this environment mirrors the ecology reconstructed for Baryonyx in England and Suchomimus in Niger, confirming the piscivorous specialisation of baryonychines across their Gondwanan and Laurasian range."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Irritator profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/irritator.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Santana Formation (Romualdo Member), Ceará, Brazil",
+    "material": "A near-complete skull preserved in three dimensions in a limestone nodule.",
+    "completeness": "Exceptional skull material",
+    "paleo": "Early Cretaceous South American environment with rivers, lakes and coastal settings.",
+    "evidence": "The elongated skull with conical teeth is diagnostic for spinosaurids; the Brazilian occurrence extends the family's known range to South America."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "late Aptian, roughly 113-110 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Spinosauridae",
+        "Spinosaurinae"
+      ],
+      "diet": null,
+      "description": "Irritator challengeri was a spinosaurid theropod from the Romualdo Formation of northeastern Brazil. It is known principally from one nearly complete but artificially altered skull; no associated postcranial skeleton is known, so body shape and locomotion must be inferred from other spinosaurs.",
+      "facts": [
+        "Commercial fossil dealers modified parts of the skull before scientific study, and later preparation corrected the reconstruction.",
+        "Long conical teeth and a narrow snout support catching relatively small prey, including fish, but not an exclusively fish diet.",
+        "The proposed synonymy with Angaturama limai remains debated."
+      ],
+      "length": null,
+      "massKg": null
+    },
+    "ageReviewNote": "The Romualdo Formation is late Aptian in current correlations, broadly 113-110 Ma.",
+    "sources": [
+      {
+        "type": "cranial-redescription",
+        "citation": "Schade et al. (2023), The cranial anatomy of Irritator challengeri",
+        "url": "https://doi.org/10.26879/1242"
+      },
+      {
+        "type": "spinosaurid-review",
+        "citation": "Sales & Schultz (2017), Spinosaur taxonomy and evolution of craniodental features",
+        "url": "https://doi.org/10.1371/journal.pone.0187070"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Irritator",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Irritator"
+      }
+    ],
+    "residualUncertainty": [
+      "Postcranial anatomy is unknown for the holotype.",
+      "Angaturama synonymy, precise provenance and feeding breadth remain unresolved."
+    ],
+    "evidence": {
+      "score": 60,
+      "material": "One nearly complete but altered and restored skull without associated postcranium.",
+      "formations": [
+        "Romualdo Formation"
+      ],
+      "confidenceLimit": "High for cranial anatomy and spinosaurid identity; low for body proportions, locomotion and broad diet.",
+      "uncertainties": [
+        "postcranial anatomy",
+        "Angaturama synonymy",
+        "provenance",
+        "diet breadth"
+      ],
+      "summary": "Irritator challengeri was a spinosaurid theropod from the Romualdo Formation of northeastern Brazil. It is known principally from one nearly complete but artificially altered skull; no associated postcranial skeleton is known, so body shape and locomotion must be inferred from other spinosaurs.",
+      "sourceBasis": "Schade et al. (2023), The cranial anatomy of Irritator challengeri; Sales & Schultz (2017), Spinosaur taxonomy and evolution of craniodental features; Paleobiology Database taxon and occurrence context for Irritator"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

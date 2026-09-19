@@ -1,0 +1,145 @@
+{
+  "id": "camarasaurus",
+  "name": "Camarasaurus",
+  "profile": {
+    "overview": [
+      "Camarasaurus supremus was the most abundant sauropod of the Late Jurassic Morrison Formation, known from dozens of specimens including several juveniles and complete skulls. Its large, spoon-shaped teeth — far more robust than the peg-like teeth of diplodocids — allowed it to process tougher vegetation: cycads, ferns and woody conifers that diplodocids could not efficiently exploit.",
+      "The name \"chambered lizard\" refers to the large pneumatic chambers in its neck vertebrae that reduced mass. Trackways from the Morrison show that Camarasaurus moved in herds with adults positioned at the periphery protecting juveniles — one of the most direct pieces of fossil evidence for parental or social protective behaviour in sauropods."
+    ],
+    "fossilSites": [
+      {
+        "name": "Morrison Formation — Dinosaur National Monument",
+        "region": "Utah, USA",
+        "lat": 40.4,
+        "lon": -109.3,
+        "note": "The richest Camarasaurus site; multiple complete individuals including juveniles at the Carnegie Quarry."
+      },
+      {
+        "name": "Morrison Formation — Garden Park",
+        "region": "Colorado, USA",
+        "lat": 38.5,
+        "lon": -105.2,
+        "note": "Classic Bone Wars quarry yielding the first Camarasaurus material described by Cope in 1877."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Macronaria",
+        "Camarasauridae",
+        "Camarasaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Macronaria",
+          "label": "Brachiosauridae"
+        },
+        {
+          "from": "Macronaria",
+          "label": "Titanosauria"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and abundance",
+        "body": "Named by Cope in 1877, Camarasaurus is the most commonly found sauropod in the Morrison Formation — far more abundant than Diplodocus or Brachiosaurus at most sites. Multiple complete skulls (rare in sauropods generally) and a near-complete juvenile skeleton at the Carnegie Quarry make it anatomically the best-known large sauropod from the Jurassic."
+      },
+      {
+        "title": "Diet and teeth",
+        "body": "The large, spatulate (spoon-shaped) teeth of Camarasaurus could withstand much higher forces than the pencil-like teeth of diplodocids. This allowed it to bite through tough conifers and cycads — a different dietary niche from the soft-vegetation specialists. Stable isotope analysis of Camarasaurus teeth has been used as a baseline for understanding sauropod palaeodiet and seasonal migration in the Morrison."
+      },
+      {
+        "title": "Herding behaviour",
+        "body": "Sauropod trackways from the Morrison Formation — most attributable to Camarasaurus based on foot size and width-to-depth ratios — preserve herd movements with juveniles in the centre and adults on the outside. This arrangement is consistent with protective behaviour analogous to modern elephant herds, though it is impossible to confirm that the adults were specifically guarding the young rather than simply moving in a group."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Camarasaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/camarasaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Morrison Formation, western North America",
+    "material": "Numerous skeletons and skulls; one of the most abundant Morrison sauropods.",
+    "completeness": "Very well represented",
+    "paleo": "Late Jurassic Morrison floodplains with sauropods, stegosaurs and large theropods.",
+    "evidence": "Common skull and skeletal material preserves robust jaws, spoon-shaped teeth and growth information."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "about 155-149 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Neosauropoda",
+        "Macronaria",
+        "Camarasauridae"
+      ],
+      "description": "Camarasaurus was an abundant macronarian sauropod from the Morrison Formation of western North America. Many skulls and skeletons across several growth stages document almost the entire anatomy, although the limits and validity of its named species still require revision.",
+      "facts": [
+        "Camarasaurus had a relatively short, deep skull and robust teeth suited to cropping vegetation.",
+        "Most mounted skeletons combine material; abundance does not mean every display is one complete individual."
+      ],
+      "massKg": null
+    },
+    "ageReviewNote": "Diagnostic material spans much of the Kimmeridgian-Tithonian Morrison Formation.",
+    "sources": [
+      {
+        "type": "specimen-level-analysis",
+        "citation": "Mateus & Tschopp (2013), A specimen-level cladistic analysis of Camarasaurus and revision of its species",
+        "url": "https://docentes.fct.unl.pt/omateus/publications/specimen-level-cladistic-analysis-camarasaurus-dinosauria-sauropoda-and-revisio"
+      },
+      {
+        "type": "appendicular-anatomy",
+        "citation": "Tschopp & Mateus (2015), Articulated bone sets of manus and pedes of Camarasaurus",
+        "url": "https://doi.org/10.26879/559"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: camarasaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/camarasaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Species-level taxonomy needs modern specimen-level revision.",
+      "Feeding height and social behaviour are inferred.",
+      "Some historical referrals are non-diagnostic."
+    ],
+    "evidence": {
+      "score": 97,
+      "material": "Numerous partial to nearly complete skulls and skeletons from many individuals and growth stages.",
+      "formations": [
+        "Morrison Formation"
+      ],
+      "confidenceLimit": "Genus-level anatomy is exceptionally supported; species assignment, maximum mass and soft tissues remain less certain.",
+      "uncertainties": [
+        "Species-level taxonomy needs modern specimen-level revision.",
+        "Feeding height and social behaviour are inferred.",
+        "Some historical referrals are non-diagnostic."
+      ],
+      "summary": "Camarasaurus was an abundant macronarian sauropod from the Morrison Formation of western North America. Many skulls and skeletons across several growth stages document almost the entire anatomy, although the limits and validity of its named species still require revision.",
+      "sourceBasis": "Mateus & Tschopp (2013), A specimen-level cladistic analysis of Camarasaurus and revision of its species; Tschopp & Mateus (2015), Articulated bone sets of manus and pedes of Camarasaurus; Natural History Museum, Dino Directory: camarasaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

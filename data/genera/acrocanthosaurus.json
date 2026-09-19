@@ -1,0 +1,145 @@
+{
+  "id": "acrocanthosaurus",
+  "name": "Acrocanthosaurus",
+  "profile": {
+    "overview": [
+      "Acrocanthosaurus atokensis was the dominant large predator of Early Cretaceous North America (~115–108 Ma), an allosauroid reaching 11–12 metres long with tall neural spines forming a low muscle-supported ridge along its back — distinct from the full sails of Spinosaurus or Ouranosaurus. Trackways from Texas preserve the only direct evidence of a large theropod pursuing a sauropod.",
+      "As a carcharodontosaurid — more closely related to Giganotosaurus and Carcharodontosaurus than to Allosaurus despite superficial similarities — Acrocanthosaurus represents the North American branch of a Gondwanan predator lineage that briefly dominated the northern continents before tyrannosaurs replaced them."
+    ],
+    "fossilSites": [
+      {
+        "name": "Antlers Formation",
+        "region": "Oklahoma, USA",
+        "lat": 34.2,
+        "lon": -96.5,
+        "note": "Early Cretaceous fluvial deposits yielding the most complete Acrocanthosaurus specimens, including the holotype."
+      },
+      {
+        "name": "Twin Mountains Formation — Glen Rose",
+        "region": "Texas, USA",
+        "lat": 32.2,
+        "lon": -97.8,
+        "note": "Early Cretaceous limestone preserving the famous \"Texas Tracks\" — a large theropod (likely Acrocanthosaurus) pursuing a sauropod in a shallow lagoon."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Carcharodontosauridae",
+        "Acrocanthosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Carcharodontosauridae",
+          "label": "Giganotosaurus"
+        },
+        {
+          "from": "Carcharodontosauridae",
+          "label": "Carcharodontosaurus"
+        },
+        {
+          "from": "Tetanurae",
+          "label": "Allosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Named by Stovall and Langston in 1950 from Oklahoma material, Acrocanthosaurus was poorly known until the 1990s when well-preserved North Carolina specimens (NCSM 14345) became available for detailed study. The neural spine height — reaching up to 40 cm above the vertebral bodies — gives the animal its name (\"high-spined lizard\")."
+      },
+      {
+        "title": "The Texas trackways",
+        "body": "At Dinosaur Valley State Park near Glen Rose, Texas, a sequence of sauropod and large theropod tracks in Early Cretaceous limestone records what appears to be a pursuit event. The theropod tracks (three-toed, large, up to 64 cm) align with Acrocanthosaurus footprint morphology. The tracks show the theropod approaching behind the sauropod, with one sequence where the sauropod prints show evidence of an abrupt direction change."
+      },
+      {
+        "title": "Position in theropod evolution",
+        "body": "Originally allied with Allosaurus, Acrocanthosaurus is now firmly placed within Carcharodontosauridae — a lineage that originated in Gondwana and spread to Laurasia in the Early Cretaceous. Its presence in North America represents a major intercontinental dispersal event and shows that the carcharodontosaurid lineage reached near-cosmopolitan distribution before being replaced by tyrannosaurs in the Late Cretaceous."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Acrocanthosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/acrocanthosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Twin Mountains and Antlers formations, Oklahoma and Texas, USA; also Cloverly Formation, Wyoming",
+    "material": "Several partial to near-complete skeletons including a well-preserved skull.",
+    "completeness": "Well represented",
+    "paleo": "Early Cretaceous North American interior with large sauropods, ornithopods and the first flowering plants.",
+    "evidence": "Trackways in Texas preserve direct evidence of pursuit behaviour; the neural spines and skull confirm allosauroid identity."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "about 115-108 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Allosauroidea",
+        "Carcharodontosauria"
+      ],
+      "description": "Acrocanthosaurus atokensis was a very large carcharodontosaurian theropod from Aptian-Albian rocks of the south-central United States. Several partial skeletons, including one with much of the skull and postcranium, make its tall neural spines and general anatomy well documented.",
+      "facts": [
+        "No specimen is literally complete, but NCSM 14345 preserves much of the skull and skeleton.",
+        "The elongated neural spines supported a raised ridge of soft tissue; its display or physiological role is unknown."
+      ]
+    },
+    "ageReviewNote": "Secure records come chiefly from the Antlers and Twin Mountains formations, around the Aptian-Albian boundary.",
+    "sources": [
+      {
+        "type": "monographic-description",
+        "citation": "Stovall & Langston (1950), Acrocanthosaurus atokensis, a new genus and species of Lower Cretaceous Theropoda",
+        "url": "https://nmdigital.unm.edu/digital/collection/bulletins/id/1053/"
+      },
+      {
+        "type": "cranial-reanalysis",
+        "citation": "Eddy & Clarke (2011), New information on the cranial anatomy of Acrocanthosaurus",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3061882/"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: acrocanthosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/acrocanthosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "The function and external form of the dorsal ridge are unknown.",
+      "Some isolated eastern North American referrals are uncertain."
+    ],
+    "evidence": {
+      "score": 88,
+      "material": "Multiple partial skeletons and skulls, including one substantially complete individual.",
+      "formations": [
+        "Antlers Formation",
+        "Twin Mountains Formation"
+      ],
+      "confidenceLimit": "Overall dimensions are well constrained for a giant theropod, but mass estimates remain model-dependent.",
+      "uncertainties": [
+        "The function and external form of the dorsal ridge are unknown.",
+        "Some isolated eastern North American referrals are uncertain."
+      ],
+      "summary": "Acrocanthosaurus atokensis was a very large carcharodontosaurian theropod from Aptian-Albian rocks of the south-central United States. Several partial skeletons, including one with much of the skull and postcranium, make its tall neural spines and general anatomy well documented.",
+      "sourceBasis": "Stovall & Langston (1950), Acrocanthosaurus atokensis, a new genus and species of Lower Cretaceous Theropoda; Eddy & Clarke (2011), New information on the cranial anatomy of Acrocanthosaurus; Natural History Museum, Dino Directory: acrocanthosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

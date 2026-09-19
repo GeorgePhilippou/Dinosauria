@@ -1,0 +1,167 @@
+{
+  "id": "antarctosaurus",
+  "name": "Antarctosaurus",
+  "profile": {
+    "overview": [
+      "Antarctosaurus wichmannianus was a large titanosaurian sauropod from the Late Cretaceous of South America, described by Friedrich von Huene in 1929. Despite its name — which means 'non-northern lizard', not 'Antarctic lizard' — it lived in what is now Argentina, with additional referred material from Brazil, India, and Uruguay. Estimated at approximately 18 metres in length, it inhabited floodplain environments of the Neuquén Basin during the Coniacian to Campanian stages.",
+      "Von Huene also named a second species, Antarctosaurus giganteus, based on enormous femora that if correctly attributed would make it one of the largest land animals ever known. However, many subsequently named species of Antarctosaurus have been considered dubious or have been transferred to other genera. The taxonomy of the genus remains unsettled, and the type species alone is considered reliable."
+    ],
+    "fossilSites": [
+      {
+        "name": "Anacleto Formation (Neuquén Group)",
+        "region": "Neuquén, Argentina",
+        "lat": -38,
+        "lon": -68.5,
+        "note": "Multiple Antarctosaurus specimens have been found here in the Neuquén Basin, one of the most productive regions for South American titanosaurs."
+      },
+      {
+        "name": "Adamantina Formation (Bauru Group)",
+        "region": "São Paulo, Brazil",
+        "lat": -21.5,
+        "lon": -50.5,
+        "note": "Referred titanosaur material tentatively assigned to Antarctosaurus has been reported from this Brazilian formation."
+      },
+      {
+        "name": "Lameta Formation",
+        "region": "Maharashtra / Madhya Pradesh, India",
+        "lat": 22,
+        "lon": 77.5,
+        "note": "Fragmentary material from India has been assigned to Antarctosaurus, though its referral to this genus has been questioned by some researchers."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Macronaria",
+        "Titanosauriformes",
+        "Titanosauria",
+        "Lithostrotia",
+        "Antarctosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Lithostrotia",
+          "label": "Saltasauridae"
+        },
+        {
+          "from": "Titanosauria",
+          "label": "Lognkosauria"
+        },
+        {
+          "from": "Lithostrotia",
+          "label": "Nemegtosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Antarctosaurus wichmannianus was described by German palaeontologist Friedrich von Huene in 1929 from material collected in Neuquén and Río Negro provinces of Argentina. The generic name means 'not northern lizard' (combining Greek antarktikos, opposite north, with sauros), emphasising its Gondwanan origin. The species name honours Ricardo Wichmann, who collected the original specimens. In the same publication, von Huene also named Antarctosaurus giganteus from separate enormous limb bones."
+      },
+      {
+        "title": "Taxonomy and Species",
+        "body": "The genus Antarctosaurus has a complicated taxonomic history. Von Huene originally assigned multiple species to it, but subsequent studies have considered all but the type species A. wichmannianus as either dubious or belonging to other genera. The potential identity of A. giganteus, based on enormous limb bones suggesting a body mass rivalling Patagotitan, has not been definitively resolved due to the fragmentary nature of the specimens."
+      },
+      {
+        "title": "Anatomy",
+        "body": "The known material of Antarctosaurus wichmannianus includes cranial elements and postcranial bones, making it one of the more substantially known South American titanosaurs. The skull material is slender and lightly built, with teeth described as pencil-like and suited to bulk herbivory. The vertebrae exhibit the typical hollow, pneumatised construction of titanosaurs."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "Antarctosaurus inhabited the Neuquén Basin of Patagonia, which during the Late Cretaceous was a system of river floodplains and lakes in a seasonally dry climate. This region was one of the most dinosaur-rich environments on Gondwana, yielding numerous titanosaurs, abelisaurid theropods, rebbachisaurid sauropods, and other Cretaceous vertebrates."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Antarctosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/antarctosaurus.html"
+      },
+      {
+        "label": "Wikipedia: Antarctosaurus",
+        "url": "https://en.wikipedia.org/wiki/Antarctosaurus"
+      },
+      {
+        "label": "PBDB: Antarctosaurus occurrence data",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38685"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Anacleto Formation (Neuquén Group), Neuquén, Argentina; Adamantina Formation (Bauru Group), São Paulo, Brazil; Lameta Formation, Maharashtra / Madhya Pradesh, India",
+    "material": "The known material of Antarctosaurus wichmannianus includes cranial elements and postcranial bones, making it one of the more substantially known South American titanosaurs.",
+    "completeness": "Skeletal material known; 7 PBDB occurrence records.",
+    "paleo": "Multiple Antarctosaurus specimens have been found here in the Neuquén Basin, one of the most productive regions for South American titanosaurs.",
+    "evidence": "Von Huene also named a second species, Antarctosaurus giganteus, based on enormous femora that if correctly attributed would make it one of the largest land animals ever known."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "about 83-78 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Neosauropoda",
+        "Macronaria",
+        "Titanosauria"
+      ],
+      "description": "Antarctosaurus wichmannianus was a titanosaur from the Anacleto Formation of Patagonia. Its holotype is a disarticulated collection of cranial and postcranial bones whose association is uncertain, so it cannot support a confident complete-body reconstruction.",
+      "facts": [
+        "The type includes braincase, jaw, vertebral and limb elements found in association but not articulation.",
+        "Other species historically placed in Antarctosaurus are not automatically part of A. wichmannianus and several have been reassigned or regarded as dubious."
+      ],
+      "taxonomicStatus": "validity disputed because the fragmentary type assemblage may not be a single individual",
+      "length": null
+    },
+    "ageReviewNote": "The Anacleto Formation is early Campanian.",
+    "sources": [
+      {
+        "type": "comparative-revision",
+        "citation": "Gallina & Apesteguia (2011), Cranial anatomy and phylogenetic position of Bonitasaura, with comments on Antarctosaurus",
+        "url": "https://doi.org/10.4202/app.2010.0011"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: antarctosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/antarctosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "The holotype may combine more than one individual.",
+      "The genus-level diagnosis and phylogenetic position require revision.",
+      "Historical species referrals are heterogeneous."
+    ],
+    "evidence": {
+      "score": 35,
+      "material": "A disarticulated, fragmentary type assemblage with uncertain element association.",
+      "formations": [
+        "Anacleto Formation"
+      ],
+      "confidenceLimit": "Association problems and missing anatomy make body size and proportions highly uncertain.",
+      "uncertainties": [
+        "The holotype may combine more than one individual.",
+        "The genus-level diagnosis and phylogenetic position require revision.",
+        "Historical species referrals are heterogeneous."
+      ],
+      "summary": "Antarctosaurus wichmannianus was a titanosaur from the Anacleto Formation of Patagonia. Its holotype is a disarticulated collection of cranial and postcranial bones whose association is uncertain, so it cannot support a confident complete-body reconstruction.",
+      "sourceBasis": "Gallina & Apesteguia (2011), Cranial anatomy and phylogenetic position of Bonitasaura, with comments on Antarctosaurus; Natural History Museum, Dino Directory: antarctosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

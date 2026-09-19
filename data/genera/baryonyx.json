@@ -1,0 +1,149 @@
+{
+  "id": "baryonyx",
+  "name": "Baryonyx",
+  "profile": {
+    "overview": [
+      "Baryonyx walkeri was discovered in 1983 by amateur fossil hunter William Walker in a clay pit in Surrey, England — one of the most significant British dinosaur finds of the 20th century. Its preserved stomach contents included both fish scales and the bones of a juvenile Iguanodon, proving it had a dual diet as a fish specialist and an opportunistic predator of terrestrial prey.",
+      "A spinosaurid closely related to Suchomimus, Baryonyx had a long narrow skull, 96 interlocking conical teeth and an enormous thumb claw over 31 cm long — the feature that gives it its name (\"heavy claw\"). The original specimen is now one of the centrepiece displays at the Natural History Museum, London."
+    ],
+    "fossilSites": [
+      {
+        "name": "Weald Clay Formation",
+        "region": "Ockley, Surrey, England, UK",
+        "lat": 51.2,
+        "lon": -0.3,
+        "note": "Early Cretaceous fluvial clay deposit; type locality with the most complete known Baryonyx skeleton."
+      },
+      {
+        "name": "Wessex Formation",
+        "region": "Isle of Wight, England, UK",
+        "lat": 50.6,
+        "lon": -1.3,
+        "note": "Barremian fluvial deposits with additional spinosaurid material attributed to Baryonyx or close relatives."
+      },
+      {
+        "name": "Iberian spinosaurid sites",
+        "region": "Burgos Province, Spain",
+        "lat": 42.3,
+        "lon": -3.7,
+        "note": "Spanish Early Cretaceous beds with spinosaurid material comparable to Baryonyx."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Spinosauridae",
+        "Baryonychinae",
+        "Baryonyx"
+      ],
+      "sideBranches": [
+        {
+          "from": "Spinosauridae",
+          "label": "Spinosaurus"
+        },
+        {
+          "from": "Baryonychinae",
+          "label": "Suchomimus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "William Walker found a large claw in a clay pit near Ockley in January 1983; palaeontologists from the NHM then excavated one of the most complete large theropod skeletons known from Europe. Alan Charig and Angela Milner described it formally in 1986, naming the species walkeri in Walker's honour."
+      },
+      {
+        "title": "Diet and feeding",
+        "body": "The stomach region preserved fish scales of Lepidotes and bones attributed to a juvenile Iguanodon. The narrow snout and conical interlocking teeth are convergent with the skulls of fish-eating crocodilians. The huge thumb claw may have been used to hook fish from water, analogous to grizzly bears."
+      },
+      {
+        "title": "Significance",
+        "body": "Baryonyx was the first spinosaurid found with stomach contents, providing the first direct dietary evidence for the group. It confirmed that spinosaurids were fish specialists and opportunistic meat-eaters — a feeding ecology subsequently supported by isotope analysis of spinosaurid teeth from multiple species."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Baryonyx profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/baryonyx.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Weald Clay Formation, Surrey, England",
+    "material": "Partial skeleton including skull and forelimb material; stomach contents preserve fish scales and young Iguanodon bones.",
+    "completeness": "Partial skeleton with direct diet evidence",
+    "paleo": "Early Cretaceous wetland and river-influenced environments in southern England.",
+    "evidence": "Conical teeth, long jaws, large thumb claw and stomach contents support fish-eating and opportunistic predation."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "about 130-125 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Megalosauroidea",
+        "Spinosauridae",
+        "Baryonychinae"
+      ],
+      "description": "Baryonyx walkeri was a baryonychine spinosaurid from the Barremian Weald Clay Formation of England. The holotype is a substantial partial skull and skeleton, and associated gut-region remains provide rare direct evidence of both fish and ornithopod consumption.",
+      "facts": [
+        "The holotype includes much of the skull, vertebral column and limbs, including the enlarged first manual claw.",
+        "Fish scales and partly digested iguanodontian bones show a broad carnivorous diet, not exclusive fish-eating."
+      ]
+    },
+    "ageReviewNote": "The type locality is Barremian in the Weald Clay Formation.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Charig & Milner (1986), Baryonyx, a remarkable new theropod dinosaur",
+        "url": "https://doi.org/10.1038/324359a0"
+      },
+      {
+        "type": "comparative-systematics",
+        "citation": "Barker et al. (2021), New spinosaurids from the Wessex Formation and European spinosaurid diversity",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8481559/"
+      },
+      {
+        "type": "authoritative-museum-review",
+        "citation": "Natural History Museum, How Baryonyx changed what we knew about spinosaurs",
+        "url": "https://www.nhm.ac.uk/discover/how-did-baryonyx-change-what-we-knew-about-spinosaurs.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Some British and Iberian referrals are taxonomically uncertain.",
+      "The exact relationship to Suchomimus is debated but they are not established synonyms."
+    ],
+    "evidence": {
+      "score": 87,
+      "material": "One substantial partial skull and skeleton, supplemented by limited referred material.",
+      "formations": [
+        "Weald Clay Formation"
+      ],
+      "confidenceLimit": "The holotype strongly supports anatomy and diet evidence; exact maximum size and behaviour remain estimates.",
+      "uncertainties": [
+        "Some British and Iberian referrals are taxonomically uncertain.",
+        "The exact relationship to Suchomimus is debated but they are not established synonyms."
+      ],
+      "summary": "Baryonyx walkeri was a baryonychine spinosaurid from the Barremian Weald Clay Formation of England. The holotype is a substantial partial skull and skeleton, and associated gut-region remains provide rare direct evidence of both fish and ornithopod consumption.",
+      "sourceBasis": "Charig & Milner (1986), Baryonyx, a remarkable new theropod dinosaur; Barker et al. (2021), New spinosaurids from the Wessex Formation and European spinosaurid diversity; Natural History Museum, How Baryonyx changed what we knew about spinosaurs"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

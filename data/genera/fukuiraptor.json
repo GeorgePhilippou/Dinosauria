@@ -1,0 +1,161 @@
+{
+  "id": "fukuiraptor",
+  "name": "Fukuiraptor",
+  "profile": {
+    "overview": [
+      "Fukuiraptor (meaning 'Fukui plunderer') was a medium-sized carnivorous theropod from the Early Cretaceous of Japan, living approximately 127–113 million years ago. Estimated at around 4.2 metres in length, it is known from the Kitadani Formation of Fukui Prefecture and possibly the Sebayashi Formation. Fukuiraptor kitadaniensis holds the distinction of being the first carnivorous dinosaur described from Japan, and its discovery significantly advanced understanding of Cretaceous Asian theropod diversity.",
+      "Described by Azuma and Currie in 2000, Fukuiraptor was initially interpreted as a dromaeosaurid, but subsequent analyses place it within Megaraptora (Neovenatoridae) or as closely related to Australovenator of Australia. This placement suggests Fukuiraptor belonged to a group of medium-to-large theropods that achieved a wide distribution across Asia and Gondwana during the Cretaceous, making it important for understanding megaraptoran biogeography."
+    ],
+    "fossilSites": [
+      {
+        "name": "Kitadani Formation",
+        "region": "Fukui Prefecture, Japan",
+        "lat": 35.9,
+        "lon": 136.2,
+        "note": "Primary type locality and the richest dinosaur-bearing deposit in Japan; Aptian-age continental deposits have yielded multiple theropod and iguanodont fossils."
+      },
+      {
+        "name": "Sebayashi Formation",
+        "region": "Gunma Prefecture, Japan",
+        "lat": 36.4,
+        "lon": 138.9,
+        "note": "A possible referred occurrence from this Hauterivian-age formation; attribution to Fukuiraptor is tentative."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Coelurosauria",
+        "Neovenatoridae",
+        "Megaraptora",
+        "Fukuiraptor"
+      ],
+      "sideBranches": [
+        {
+          "from": "Megaraptora",
+          "label": "Australovenator (Australia)"
+        },
+        {
+          "from": "Megaraptora",
+          "label": "Megaraptor (South America)"
+        },
+        {
+          "from": "Neovenatoridae",
+          "label": "Neovenator (Europe)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Fukuiraptor kitadaniensis was described by Yoichi Azuma and Philip Currie in 2000 based on material from the Kitadani quarry in Fukui Prefecture, a region that has yielded Japan's richest dinosaur fauna. The genus name honours Fukui Prefecture, and the species name references the Kitadani Formation. Initial material included theropod teeth, claws, and partial skeletal elements."
+      },
+      {
+        "title": "Revised Phylogenetic Placement",
+        "body": "Early descriptions placed Fukuiraptor as a large dromaeosaurid because its large hand claws superficially resembled those of raptor dinosaurs. However, more thorough analysis of postcranial anatomy — particularly limb proportions and vertebral features — indicates Fukuiraptor belongs within Megaraptora, a clade of medium-to-large theropods. The Wikipedia entry notes it may be one of the basalmost megaraptorans or a sister to Australovenator."
+      },
+      {
+        "title": "Japan's First Carnivore",
+        "body": "Before Fukuiraptor, Japan's dinosaur record consisted primarily of herbivores and fragmentary material. Its formal description established Japan as a source of carnivorous theropod fossils comparable to those from China and Mongolia, and stimulated further excavation in Fukui Prefecture that would later yield additional theropods and the iguanodontid Fukuisaurus."
+      },
+      {
+        "title": "Megaraptoran Distribution",
+        "body": "Megaraptorans are now known from Asia (Fukuiraptor), Australia (Australovenator), and South America (Megaraptor, Aerosteon), reflecting a Gondwanan and pan-Cretaceous distribution. The group is characterised by enlarged hand claws used for prey capture, rather than the foot claws typical of dromaeosaurids. Their wide distribution suggests long-distance dispersal or an origin predating Gondwana's breakup."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Fukuiraptor profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/fukuiraptor.html"
+      },
+      {
+        "label": "Wikipedia: Fukuiraptor",
+        "url": "https://en.wikipedia.org/wiki/Fukuiraptor"
+      },
+      {
+        "label": "PBDB: Fukuiraptor occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Fukuiraptor&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Kitadani Formation, Fukui Prefecture, Japan; Sebayashi Formation, Gunma Prefecture, Japan",
+    "material": "However, more thorough analysis of postcranial anatomy — particularly limb proportions and vertebral features — indicates Fukuiraptor belongs within Megaraptora, a clade of medium-to-large theropods.",
+    "completeness": "Skeletal material known; 2 PBDB occurrence records.",
+    "paleo": "Primary type locality and the richest dinosaur-bearing deposit in Japan; Aptian-age continental deposits have yielded multiple theropod and iguanodont fossils.",
+    "evidence": "Described by Azuma and Currie in 2000, Fukuiraptor was initially interpreted as a dromaeosaurid, but subsequent analyses place it within Megaraptora (Neovenatoridae) or as closely related to Australovenator of Australia."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "Aptian, about 121-113 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Coelurosauria",
+        "Megaraptora"
+      ],
+      "description": "Fukuiraptor kitadaniensis was a medium-sized bipedal predatory megaraptoran from the Kitadani Formation of Japan. It is represented by a partial type skeleton and additional fragmentary individuals, including juveniles; early allosauroid interpretations are outdated.",
+      "facts": [
+        "The holotype is a partial skeleton, not a complete mounted animal.",
+        "The large hand claw was initially mistaken for a foot claw.",
+        "Megaraptoran relationships remain debated between allosauroid and coelurosaur/tyrannosauroid hypotheses."
+      ]
+    },
+    "ageReviewNote": "Restricted to the Aptian Kitadani Formation; referrals outside it are not used to extend the range.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Azuma & Currie (2000), A new carnosaur from the Lower Cretaceous of Japan",
+        "url": "https://doi.org/10.1139/e00-064"
+      },
+      {
+        "type": "growth-series-study",
+        "citation": "Currie & Azuma (2006), New specimens including a growth series of Fukuiraptor",
+        "url": "https://www.dinosaur.pref.fukui.jp/archive/memoir/memoir005-001.pdf"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Fukuiraptor",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Fukuiraptor"
+      }
+    ],
+    "residualUncertainty": [
+      "Megaraptoran higher relationships remain disputed.",
+      "Several referred bones are isolated and adult size is uncertain."
+    ],
+    "evidence": {
+      "score": 60,
+      "material": "Partial holotype plus fragmentary referred specimens spanning growth stages.",
+      "formations": [
+        "Kitadani Formation"
+      ],
+      "confidenceLimit": "Moderate-to-high for validity and predatory anatomy; moderate for classification and size.",
+      "uncertainties": [
+        "megaraptoran placement",
+        "referral of isolated material",
+        "adult size"
+      ],
+      "summary": "Fukuiraptor kitadaniensis was a medium-sized bipedal predatory megaraptoran from the Kitadani Formation of Japan. It is represented by a partial type skeleton and additional fragmentary individuals, including juveniles; early allosauroid interpretations are outdated.",
+      "sourceBasis": "Azuma & Currie (2000), A new carnosaur from the Lower Cretaceous of Japan; Currie & Azuma (2006), New specimens including a growth series of Fukuiraptor; Paleobiology Database taxon and occurrence context for Fukuiraptor"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

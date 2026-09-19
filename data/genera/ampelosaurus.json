@@ -1,0 +1,414 @@
+{
+  "id": "ampelosaurus",
+  "name": "Ampelosaurus",
+  "profile": {
+    "overview": [
+      "Ampelosaurus atacis was a titanosaurian sauropod from the Late Cretaceous of southern France and Spain, living approximately 71–66 million years ago. Estimated at about 15 metres in length, it is known from teeth, postcranial bones, and notably osteoderms — bony dermal armour — preserved in the Marnes Rouges Inférieures Formation of the Aude region. It inhabited the coastal lowlands of the Ibero-Armorican island landmass during the final stages of the Cretaceous.",
+      "Named by Le Loeuff in 1995, Ampelosaurus is classified within Lirainosaurinae, a group of European titanosaurs. The presence of osteoderms in an otherwise modestly-sized titanosaur makes it a valuable taxon for studying the evolution of armour in sauropods. It is one of the best-known European Late Cretaceous sauropods, with material recovered from multiple sites in France and Spain."
+    ],
+    "fossilSites": [
+      {
+        "name": "Marnes Rouges Inférieures Formation",
+        "region": "Languedoc-Roussillon, France",
+        "lat": 43.1,
+        "lon": 2.3,
+        "note": "The type locality of Ampelosaurus, yielding teeth, vertebrae, limb bones, and dermal osteoderms that define the genus."
+      },
+      {
+        "name": "Grès à Reptiles Formation",
+        "region": "Provence-Alpes-Côte d'Azur, France",
+        "lat": 43.5,
+        "lon": 5.5,
+        "note": "Additional referred titanosaur material from this southern French formation is attributed to Ampelosaurus."
+      },
+      {
+        "name": "Villalba de la Sierra Formation",
+        "region": "Castilla-La Mancha, Spain",
+        "lat": 40.2,
+        "lon": -2.3,
+        "note": "Spanish occurrences extend the range of Ampelosaurus into the Iberian Peninsula during the latest Cretaceous."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Macronaria",
+        "Titanosauriformes",
+        "Titanosauria",
+        "Lithostrotia",
+        "Ampelosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Lithostrotia",
+          "label": "Saltasauridae"
+        },
+        {
+          "from": "Titanosauria",
+          "label": "Lognkosauria"
+        },
+        {
+          "from": "Lithostrotia",
+          "label": "Alamosaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Ampelosaurus atacis was named by Jean Le Loeuff in 1995 based on material collected from the Marnes Rouges Inférieures Formation in the Aude department of southern France. The generic name derives from Greek ampelos (vineyard) and sauros (lizard), reflecting the vineyard-covered landscape of the discovery region. The species name refers to the Atax River (modern Aude)."
+      },
+      {
+        "title": "Anatomy and Osteoderms",
+        "body": "Ampelosaurus is distinguished from many other European titanosaurs by the preservation of bony osteoderms, which formed a dermal armour over parts of the body. These structures vary in shape and size and were embedded in the skin rather than attached to the skeleton. Vertebrae and limb elements show the typical lightweight, air-sac-filled construction of titanosaurs."
+      },
+      {
+        "title": "Ecology and Palaeoenvironment",
+        "body": "Ampelosaurus inhabited the Ibero-Armorican island, a landmass formed in southwestern Europe during the Late Cretaceous as the Tethys Sea encroached. This insularity may have influenced the body size and diversity of the dinosaur fauna, a phenomenon known as insular dwarfism seen in other European titanosaurs such as Magyarosaurus."
+      },
+      {
+        "title": "Significance",
+        "body": "As one of the most completely known Late Cretaceous sauropods from Europe, Ampelosaurus is a key reference for understanding titanosaur diversity on the European archipelago. Its osteoderm-bearing integument adds to evidence that armour evolved independently multiple times within Titanosauria, offering insights into the functional and ecological pressures shaping sauropod anatomy."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Ampelosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/ampelosaurus.html"
+      },
+      {
+        "label": "PBDB: Ampelosaurus occurrence data",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=65139"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Marnes Rouges Inférieures Formation, Languedoc-Roussillon, France; Grès à Reptiles Formation, Provence-Alpes-Côte d'Azur, France; Villalba de la Sierra Formation, Castilla-La Mancha, Spain",
+    "material": "Estimated at about 15 metres in length, it is known from teeth, postcranial bones, and notably osteoderms — bony dermal armour — preserved in the Marnes Rouges Inférieures Formation of the Aude region.",
+    "completeness": "Skeletal material known; 5 PBDB occurrence records.",
+    "paleo": "The type locality of Ampelosaurus, yielding teeth, vertebrae, limb bones, and dermal osteoderms that define the genus.",
+    "evidence": "Named by Le Loeuff in 1995, Ampelosaurus is classified within Lirainosaurinae, a group of European titanosaurs."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-09-19",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and classification",
+      "geological age and type locality",
+      "known skeletal and osteoderm material",
+      "body-size confidence",
+      "profile narrative and uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "early Maastrichtian, about 71.5 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Neosauropoda",
+        "Macronaria",
+        "Titanosauriformes",
+        "Titanosauria",
+        "Lithostrotia",
+        "Lirainosaurinae"
+      ],
+      "description": "Ampelosaurus atacis was an early Maastrichtian titanosaur from the Bellevue bonebed in southern France. The holotype is three connected dorsal vertebrae, while abundant referred material includes other vertebrae, girdle and limb bones, teeth and several forms of osteoderm. The bonebed contains multiple individuals, but not every titanosaur bone from Bellevue can automatically be assigned to Ampelosaurus.",
+      "facts": [
+        "The holotype MDE C3-247 consists of three connected middle dorsal vertebrae from the Bellevue locality.",
+        "The original diagnosis also drew on abundant disarticulated postcranial bones and plate-, bulb- and spine-shaped osteoderms.",
+        "The site preserves many individuals rather than one complete skeleton; later work has cautioned that more than one titanosaur morphotype may be present.",
+        "Bone histology shows prolonged growth and extensive remodelling, while exact adult size estimates remain dependent on associating isolated limb bones correctly.",
+        "Ampelosaurus is usually recovered among European lithostrotian titanosaurs, commonly within Lirainosaurinae."
+      ]
+    },
+    "presentation": {
+      "heroLead": "A French titanosaur from a rich bonebed, known from hundreds of bones and several kinds of bony armour, but not from a single complete skeleton.",
+      "heroMedia": {
+        "file": "AmpelosaurusDB.jpg",
+        "title": "Life restoration of Ampelosaurus atacis",
+        "alt": "Life restoration of the titanosaur Ampelosaurus atacis in side view",
+        "caption": "Life restoration by Dmitry Bogdanov. The arrangement of the osteoderms is hypothetical; only their shapes are known.",
+        "credit": "Dmitry Bogdanov · public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AmpelosaurusDB.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 71.5 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Aude, southern France"
+        },
+        {
+          "label": "Known size",
+          "value": "about 15 m · estimate"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Ampelosaurus was a medium-sized titanosaur that lived in southern France around 71 million years ago, when much of Europe was an archipelago of islands. It had the classic sauropod build of a long neck and tail, a deep body and pillar-like legs, and its skin was studded with bony osteoderms of several shapes.",
+        "It is known from the Bellevue bonebed near Campagne-sur-Aude, where hundreds of bones from many individuals accumulated. Vertebrae, girdle bones, limb bones, teeth and osteoderms are all represented, and cranial material including a braincase has been attributed to the genus.",
+        "The wealth of material makes Ampelosaurus one of the best-sampled European titanosaurs, but the bones are disarticulated and may not all belong to one species. Bone histology shows slow, prolonged growth, and mature size remains an estimate that depends on which isolated limb bones are associated together."
+      ],
+      "animalHighlights": [
+        "Hundreds of bones from the Bellevue bonebed document most regions of the skeleton.",
+        "Plate-, bulb- and spine-shaped osteoderms show that the skin carried bony armour of more than one form.",
+        "Bone microstructure records slow, extended growth compared with many other sauropods."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by teeth and body plan",
+          "reason": "Slender, peg-like teeth and the long neck fit a browsing herbivore. The specific plants eaten are not preserved."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal",
+          "level": "Supported by limb bones",
+          "reason": "Robust, columnar limb bones show habitual four-legged walking."
+        },
+        {
+          "label": "Known size",
+          "value": "about 15 m long",
+          "level": "Estimate from disarticulated bones",
+          "reason": "No single individual is complete, so length is reconstructed from separately found limb and vertebral elements."
+        },
+        {
+          "label": "Appearance",
+          "value": "Armoured skin confirmed",
+          "level": "Arrangement unknown",
+          "reason": "Osteoderm shapes are known, but none has been found in place on the body, so their layout is reconstructed."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous (early Maastrichtian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 71.5 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Marnes Rouges Inférieures Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Bellevue, Campagne-sur-Aude, Aude, France"
+        }
+      ],
+      "locality": {
+        "name": "Bellevue",
+        "region": "Campagne-sur-Aude, Aude, France",
+        "note": "Marnes Rouges Inférieures Formation, Upper Aude Valley. The map shows a regional reference because exact bonebed coordinates are not plotted."
+      },
+      "classificationSummary": "Ampelosaurus is a lithostrotian titanosaur, usually placed among the European forms grouped as Lirainosaurinae. Its exact relationships within Lithostrotia vary among analyses.",
+      "related": [
+        {
+          "id": "magyarosaurus",
+          "reason": "Compare with a dwarfed island titanosaur from Romania."
+        },
+        {
+          "id": "saltasaurus",
+          "reason": "Compare with an armoured South American titanosaur of similar age."
+        },
+        {
+          "id": "alamosaurus",
+          "reason": "Compare with a North American titanosaur that also carried osteoderms."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Is there more than one titanosaur at Bellevue?",
+          "copy": "Later studies have suggested that the bonebed may contain a second morphotype, so not every bone can be assumed to be Ampelosaurus."
+        },
+        {
+          "title": "Which bones belonged together?",
+          "copy": "The bones are disarticulated and come from many individuals. Reconstructing one animal means associating elements that were not found connected."
+        },
+        {
+          "title": "How were the osteoderms arranged?",
+          "copy": "Several osteoderm shapes are known, but their positions on the body have not been observed and remain reconstructed."
+        }
+      ],
+      "compactSources": true
+    },
+    "ageReviewNote": "The headline age is restricted to the early Maastrichtian Bellevue type locality. Wider French and Spanish referrals need specimen-level taxonomic review and should not silently extend the range of the genus.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Le Loeuff (1995), Ampelosaurus atacis, a new titanosaur from the Upper Aude Valley",
+        "url": "https://naturalhistory.si.edu/sites/default/files/media/translated_publications/LeLoeuff_95.pdf"
+      },
+      {
+        "type": "histology",
+        "citation": "Klein et al. (2012), Modified laminar bone in Ampelosaurus and other titanosaurs",
+        "url": "https://doi.org/10.1371/journal.pone.0036907"
+      },
+      {
+        "type": "chronostratigraphy",
+        "citation": "Fondevilla et al. (2016), Magnetostratigraphy of the Maastrichtian continental record in the Upper Aude Valley",
+        "url": "https://doi.org/10.1016/j.cretres.2015.08.009"
+      }
+    ],
+    "residualUncertainty": [
+      "The Bellevue accumulation may include more than one titanosaur taxon.",
+      "Many bones are disarticulated, complicating individual and species association.",
+      "The full arrangement of osteoderms is unknown.",
+      "Precise placement within Lithostrotia varies among analyses."
+    ],
+    "evidence": {
+      "score": 68,
+      "summary": "A multi-individual bonebed preserves abundant titanosaur material and several osteoderm forms, but it is not one complete skeleton and may include more than one morphotype.",
+      "material": "Holotype of three connected dorsal vertebrae plus abundant disarticulated vertebral, girdle, limb, dental and osteoderm material.",
+      "formations": "Bellevue locality, Upper Aude Valley, southern France.",
+      "confidenceLimit": "Many body regions are represented, while specimen association, maximum size and assignment of every bone to Ampelosaurus remain uncertain.",
+      "sourceBasis": "Le Loeuff 1995, Klein et al. 2012 and Fondevilla et al. 2016.",
+      "uncertainties": [
+        "multi-individual association",
+        "possible second titanosaur",
+        "osteoderm arrangement",
+        "maximum size"
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Three joined vertebrae name the species; a bonebed of many animals fills in the rest.",
+        "standfirst": "Ampelosaurus is anchored by three articulated dorsal vertebrae from Bellevue. The same bonebed has yielded hundreds of disarticulated bones, teeth and osteoderms from multiple individuals, which together document most of the skeleton without preserving any single complete animal.",
+        "coverage": {
+          "label": "Moderate",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Most skeletal regions are represented across the bonebed, but the material is disarticulated, comes from many individuals and may include a second titanosaur."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Composite from a bonebed"
+          },
+          {
+            "label": "Individuals",
+            "value": "Many"
+          },
+          {
+            "label": "Key limitation",
+            "value": "No associated skeleton"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Vertebrae from the neck, back and tail, girdle and limb bones, teeth, cranial elements including a braincase, and osteoderms of plate, bulb and spine form, all recovered from the Bellevue bonebed.",
+          "note": "Because the bones were not found in association, assigning every element to Ampelosaurus, and to a particular individual, depends on interpretation rather than direct observation."
+        },
+        "media": [
+          {
+            "file": "Ampelosaurus atacis holotype.jpg",
+            "kind": "Type material",
+            "title": "Holotype MDE C3-247, three articulated dorsal vertebrae",
+            "alt": "Photograph of the three articulated dorsal vertebrae that form the holotype of Ampelosaurus atacis",
+            "caption": "The holotype: three connected middle dorsal vertebrae on display at the Musée des Dinosaures, Espéraza.",
+            "credit": "Taxon34 · CC BY-SA 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ampelosaurus_atacis_holotype.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Isolated teeth and cranial elements including a braincase attributed to the genus; no complete skull."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Holotype dorsal series plus numerous cervical, dorsal and caudal vertebrae, ribs and chevrons from other individuals."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Scapulae, pelvic bones, humeri, femora and other limb elements; hand and foot bones are less well represented."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Osteoderms of several shapes and sampled bone histology; no skin impressions, colour or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "MDE C3-247 · holotype",
+            "description": "Three articulated middle dorsal vertebrae from Bellevue, selected by Le Loeuff in 1995 as the type of Ampelosaurus atacis.",
+            "meta": "Bellevue · Marnes Rouges Inférieures Formation · Musée des Dinosaures, Espéraza"
+          },
+          {
+            "kicker": "Referred bonebed material",
+            "title": "Bellevue assemblage",
+            "description": "Hundreds of disarticulated bones, teeth and osteoderms from many individuals excavated since the 1980s. Later work has cautioned that a second titanosaur morphotype may be present in the accumulation.",
+            "meta": "One bonebed · many individuals · association reconstructed"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "A holotype of three articulated vertebrae and an abundant, disarticulated multi-individual assemblage from the same site."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A mid-sized armoured lithostrotian titanosaur, one of the best-sampled Late Cretaceous sauropods of the European archipelago."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Which bones belong to which individual, whether all belong to one species, maximum adult size, and the arrangement of the osteoderms."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Le Loeuff · 1995",
+            "description": "Original naming and description of Ampelosaurus atacis from the Upper Aude Valley.",
+            "access": "Read online",
+            "url": "https://naturalhistory.si.edu/sites/default/files/media/translated_publications/LeLoeuff_95.pdf"
+          },
+          {
+            "type": "Histology",
+            "title": "Klein et al. · 2012",
+            "description": "Bone microstructure showing modified laminar bone and prolonged growth.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1371/journal.pone.0036907"
+          },
+          {
+            "type": "Chronostratigraphy",
+            "title": "Fondevilla et al. · 2016",
+            "description": "Magnetostratigraphic dating of the Maastrichtian record in the Upper Aude Valley.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1016/j.cretres.2015.08.009"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype photograph",
+            "description": "Source page, creator details and reuse licence for the holotype image.",
+            "access": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Ampelosaurus_atacis_holotype.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=65139"
+          }
+        ],
+        "limitations": "The coverage band describes the combined Bellevue material at genus level. It is an editorial evidence summary, not a published completeness percentage, and it may overstate coverage if a second taxon is present.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
+    }
+  }
+}

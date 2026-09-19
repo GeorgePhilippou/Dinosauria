@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "genera:validate": "node tools/validate-genera.mjs",
+    "genera:index": "node tools/build-genera-index.mjs",
     "audit": "node tools/run-audit.mjs",
     "audit:data": "node tools/run-audit.mjs --skip-smoke",
     "test": "node tools/smoke-test.mjs",

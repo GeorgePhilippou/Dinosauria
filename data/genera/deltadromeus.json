@@ -1,0 +1,158 @@
+{
+  "id": "deltadromeus",
+  "name": "Deltadromeus",
+  "profile": {
+    "overview": [
+      "Deltadromeus (meaning 'delta runner') was a large carnivorous theropod dinosaur that lived in North Africa during the Late Cretaceous period, approximately 99–94 million years ago. Known from a single partial skeleton discovered in the Kem Kem beds of Morocco, it reached an estimated length of about 8 metres and is thought to have been a lightly built, fast-moving predator. Its remains have also been tentatively associated with deposits in Egypt and Algeria, suggesting a broad North African range.",
+      "Deltadromeus was described in 1996 by Paul Sereno and colleagues, who originally placed it as a ceratosaur, though its exact phylogenetic position has been debated. PBDB data places it within Noasauridae, a family of slender ceratosaurian theropods. The combination of its gracile limb proportions and large size makes Deltadromeus an unusual taxon, and its classification remains uncertain pending more complete material."
+    ],
+    "fossilSites": [
+      {
+        "name": "Kem Kem Beds",
+        "region": "Drâa-Tafilalet, Morocco",
+        "lat": 30.5,
+        "lon": -3.8,
+        "note": "Primary locality; yielded the holotype partial skeleton alongside other large theropods such as Spinosaurus and Carcharodontosaurus."
+      },
+      {
+        "name": "Baharija Formation",
+        "region": "Matruh, Egypt",
+        "lat": 28.2,
+        "lon": 28.5,
+        "note": "Referred material tentatively attributed to Deltadromeus from this Cenomanian-age formation."
+      },
+      {
+        "name": "Gara Sbaa Formation",
+        "region": "Illizi, Algeria",
+        "lat": 26,
+        "lon": 9.5,
+        "note": "Additional occurrence records suggest the genus may have ranged across the Cenomanian Saharan coastline."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Neotheropoda",
+        "Ceratosauria",
+        "Noasauridae",
+        "Deltadromeus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ceratosauria",
+          "label": "Abelisauridae"
+        },
+        {
+          "from": "Noasauridae",
+          "label": "Elaphrosaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Deltadromeus was described in 1996 by Paul Sereno and a large team of collaborators based on material from Morocco's Kem Kem Beds. The genus name honours the Nile Delta region of Africa, and the species epithet agilis ('agile') references the animal's inferred athletic build. The holotype consists of a partial postcranial skeleton lacking a skull."
+      },
+      {
+        "title": "Physical Characteristics",
+        "body": "Deltadromeus was a large theropod estimated at roughly 8 metres long, but with proportionally slender, long limbs suggesting it was an active runner — unusually gracile for a dinosaur of its size. Its limb proportions have been compared with those of smaller, faster ceratosaurs rather than the robust large predators it co-existed with."
+      },
+      {
+        "title": "Classification Controversy",
+        "body": "The phylogenetic placement of Deltadromeus has proven contentious since its original description. Early analyses suggested ceratosaurian affinities, while some researchers placed it among basal tetanurans or even coelurosaurs. More recent work and PBDB taxon records place it within Noasauridae, though this assignment is considered provisional given the absence of skull material."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "Deltadromeus inhabited the Cenomanian coastline of Gondwana, a landscape characterised by river deltas, shallow seas, and rich fish fauna. It shared its environment with some of the largest predatory dinosaurs known, including Spinosaurus and Carcharodontosaurus, raising questions about ecological partitioning among these co-occurring giants."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Deltadromeus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/deltadromeus.html"
+      },
+      {
+        "label": "PBDB: Deltadromeus occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Deltadromeus&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Kem Kem Beds, Drâa-Tafilalet, Morocco; Baharija Formation, Matruh, Egypt; Gara Sbaa Formation, Illizi, Algeria",
+    "material": "The holotype consists of a partial postcranial skeleton lacking a skull.",
+    "completeness": "Partial skeletal material known; 6 PBDB occurrence records.",
+    "paleo": "Primary locality; yielded the holotype partial skeleton alongside other large theropods such as Spinosaurus and Carcharodontosaurus.",
+    "evidence": "Deltadromeus was described in 1996 by Paul Sereno and colleagues, who originally placed it as a ceratosaur, though its exact phylogenetic position has been debated."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Cenomanian, about 100-94 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Ceratosauria?"
+      ],
+      "description": "Deltadromeus agilis was a large, gracile-limbed bipedal theropod from the Kem Kem Group of Morocco. The holotype is a partial skeleton without a skull; its placement has shifted among coelurosaurs, ceratosaurs and noasaurids, so detailed head, diet and life appearance claims are not secure.",
+      "facts": [
+        "No skull or diagnostic teeth are known for the holotype.",
+        "Commercial Kem Kem teeth cannot be identified as Deltadromeus from the current type material.",
+        "Carnivory is plausible for a theropod but exact feeding ecology and even its closest relationships remain unresolved."
+      ]
+    },
+    "ageReviewNote": "Restricted to the Cenomanian Kem Kem Group type occurrence.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Sereno et al. (1996), Predatory dinosaurs from the Sahara and Late Cretaceous faunal differentiation",
+        "url": "https://doi.org/10.1126/science.272.5264.986"
+      },
+      {
+        "type": "geological-review",
+        "citation": "Ibrahim et al. (2020), Geology and paleontology of the Kem Kem Group",
+        "url": "https://doi.org/10.3897/zookeys.928.47517"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Deltadromeus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Deltadromeus"
+      }
+    ],
+    "residualUncertainty": [
+      "The skull and teeth are unknown.",
+      "Higher-level classification remains strongly disputed.",
+      "The referred Bahariasaurus material is not securely conspecific."
+    ],
+    "evidence": {
+      "score": 40,
+      "material": "One partial, headless postcranial skeleton with disputed referrals.",
+      "formations": [
+        "Kem Kem Group, Gara Sbaa Formation"
+      ],
+      "confidenceLimit": "Moderate for validity and bipedal locomotion; low for classification, skull, diet detail and size.",
+      "uncertainties": [
+        "phylogenetic position",
+        "cranial anatomy",
+        "referrals"
+      ],
+      "summary": "Deltadromeus agilis was a large, gracile-limbed bipedal theropod from the Kem Kem Group of Morocco. The holotype is a partial skeleton without a skull; its placement has shifted among coelurosaurs, ceratosaurs and noasaurids, so detailed head, diet and life appearance claims are not secure.",
+      "sourceBasis": "Sereno et al. (1996), Predatory dinosaurs from the Sahara and Late Cretaceous faunal differentiation; Ibrahim et al. (2020), Geology and paleontology of the Kem Kem Group; Paleobiology Database taxon and occurrence context for Deltadromeus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

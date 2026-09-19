@@ -1,0 +1,145 @@
+{
+  "id": "tyrannotitan",
+  "name": "Tyrannotitan",
+  "profile": {
+    "overview": [
+      "Tyrannotitan ('tyrant titan') was a massive carcharodontosaurid theropod from the Early Cretaceous of Argentina, living approximately 101 million years ago during the Aptian–Albian stages. It reached around 12 metres in length and weighed an estimated 7,000 kilograms, placing it among the largest terrestrial predators known from the Southern Hemisphere at that time. Fossils come from the Cerro Barcino Formation of Chubut Province, Patagonia.",
+      "Named in 2005 by Novas and colleagues, Tyrannotitan chubutensis is closely related to the giant carcharodontosaurids Giganotosaurus and Mapusaurus, which also came from Patagonia. Its discovery expanded knowledge of the diversity and longevity of carcharodontosaurids in South America. The association of Tyrannotitan teeth with remains of the giant titanosaur Patagotitan suggests it was either an active predator or scavenger of the largest sauropods of the Cretaceous."
+    ],
+    "fossilSites": [
+      {
+        "name": "Cerro Barcino Formation",
+        "region": "Chubut, Argentina",
+        "lat": -44,
+        "lon": -68,
+        "note": "The formation from which Tyrannotitan chubutensis was recovered in Patagonian Argentina."
+      },
+      {
+        "name": "Candeleros Formation area",
+        "region": "Neuquén, Argentina",
+        "lat": -38.5,
+        "lon": -70,
+        "note": "Nearby Patagonian Cretaceous deposits associated with related giant carcharodontosaurids."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Carnosauria",
+        "Carcharodontosauridae",
+        "Tyrannotitan"
+      ],
+      "sideBranches": [
+        {
+          "from": "Carcharodontosauridae",
+          "label": "Giganotosaurus carolinii"
+        },
+        {
+          "from": "Carcharodontosauridae",
+          "label": "Mapusaurus roseae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Tyrannotitan chubutensis was described in 2005 by Fernando Novas, Silvina de Valais, Patricia Vickers-Rich, and Tom Rich from fragmentary but diagnostic skeletal material from the Cerro Barcino Formation of Chubut Province, Patagonia. The name 'tyrant titan' was chosen to evoke both its enormous size and its dominant position in the ecosystem, while the species name references Chubut Province."
+      },
+      {
+        "title": "Relationship to Other Giants",
+        "body": "Tyrannotitan belongs to Carcharodontosauridae, a family of large to enormous carnivorous dinosaurs that radiated across Gondwana during the Cretaceous. Its closest relatives in South America include Giganotosaurus carolinii and Mapusaurus roseae, both from the slightly later Cenomanian of Patagonia. Together these taxa demonstrate that South America independently evolved giant theropod lineages comparable in size to those of Africa and North America."
+      },
+      {
+        "title": "Feeding and Ecology",
+        "body": "Fifty-seven teeth belonging to Tyrannotitan have been reported in association with remains of the giant titanosaur Patagotitan mayorum, indicating either active predation on this enormous sauropod or scavenging of carcasses. The very short forelimbs of Tyrannotitan, relative to body size, are typical of advanced carcharodontosaurids and suggest that the jaws were the primary weapon in prey acquisition."
+      },
+      {
+        "title": "Fragmentary Record",
+        "body": "The known material of Tyrannotitan is incomplete, comprising portions of the axial skeleton, limb bones, and teeth, which limits confident reconstruction of its exact dimensions and full anatomy. Most size estimates rely on comparison with better-known carcharodontosaurids such as Giganotosaurus. Further discoveries from the Cerro Barcino Formation could substantially clarify its biology."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Tyrannotitan profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/tyrannotitan.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Cerro Barcino Formation, Chubut, Argentina; Candeleros Formation area, Neuquén, Argentina",
+    "material": "It reached around 12 metres in length and weighed an estimated 7,000 kilograms, placing it among the largest terrestrial predators known from the Southern Hemisphere at that time.",
+    "completeness": "Skeletal material known; 3 PBDB occurrence records.",
+    "paleo": "The formation from which Tyrannotitan chubutensis was recovered in Patagonian Argentina.",
+    "evidence": "Named in 2005 by Novas and colleagues, Tyrannotitan chubutensis is closely related to the giant carcharodontosaurids Giganotosaurus and Mapusaurus, which also came from Patagonia."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "Aptian-Albian, about 121-101 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Carcharodontosauridae",
+        "Giganotosaurini"
+      ],
+      "massKg": null,
+      "description": "Tyrannotitan chubutensis was a giant carcharodontosaurid from the Cerro Barcino Formation of Patagonia, known from two incomplete individuals with cranial and postcranial material.",
+      "facts": [
+        "The holotype and paratype together document much of the axial and appendicular skeleton but no complete individual.",
+        "The catalogue seven-tonne mass is cleared because published estimates depend on scaling incomplete specimens."
+      ]
+    },
+    "ageReviewNote": "Published descriptions have called the Cerro Castaño Member Aptian or Albian; the single 101 Ma catalogue date is therefore overprecise.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Novas et al. (2005), original description of Tyrannotitan",
+        "url": "https://doi.org/10.1007/s00114-005-0623-3"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Canale, Novas & Pol (2015), osteology and relationships of Tyrannotitan",
+        "url": "https://doi.org/10.1080/08912963.2013.861830"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: tyrannotitan",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/tyrannotitan.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Formation age, maximum size and some specimen associations remain uncertain."
+    ],
+    "evidence": {
+      "score": 68,
+      "material": "Two incomplete individuals with skull, vertebral, girdle and limb elements.",
+      "formations": "Cerro Castaño Member, Cerro Barcino Formation, Argentina.",
+      "confidenceLimit": "Mass is cleared and composite completeness must not be assigned to one skeleton.",
+      "uncertainties": [
+        "mass",
+        "formation age resolution",
+        "individual association"
+      ],
+      "summary": "Tyrannotitan chubutensis was a giant carcharodontosaurid from the Cerro Barcino Formation of Patagonia, known from two incomplete individuals with cranial and postcranial material.",
+      "sourceBasis": "Novas et al. (2005), original description of Tyrannotitan; Canale, Novas & Pol (2015), osteology and relationships of Tyrannotitan; Natural History Museum Dino Directory: tyrannotitan"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

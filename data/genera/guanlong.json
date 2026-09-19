@@ -1,0 +1,153 @@
+{
+  "id": "guanlong",
+  "name": "Guanlong",
+  "profile": {
+    "overview": [
+      "Guanlong wucaii was a small-bodied tyrannosauroid theropod from the Late Jurassic Shishugou Formation of Xinjiang, China, dating to approximately 161–157 Ma (Oxfordian). At around 3 metres long it was lightly built and fast-moving — a far cry from its famous descendants — but its phylogenetic position makes it one of the most scientifically significant tyrannosauroids known. Named by Xu et al. in 2006 from specimens discovered in 2002, its name translates as 'crowned dragon', referencing the elaborate cranial crest that runs along its skull roof.",
+      "Guanlong is the oldest well-known member of Tyrannosauroidea and documents the group during a phase when its members were still small, crested, and ecologically subordinate to larger allosauroid predators sharing the same ecosystem. It provides critical evidence that the features later associated with giant tyrannosaurs — the large head, bipedal build, and reduced forelimbs — were already being established 90 million years before Tyrannosaurus rex."
+    ],
+    "fossilSites": [
+      {
+        "name": "Shishugou Formation",
+        "region": "Junggar Basin, Xinjiang, China",
+        "lat": 44.1,
+        "lon": 88.3,
+        "note": "Type locality for Guanlong; the Shishugou Formation also preserves Limusaurus, Monolophosaurus and the giant sauropod Mamenchisaurus, providing an exceptionally rich Late Jurassic fauna."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Tyrannosauroidea",
+        "Proceratosauridae",
+        "Guanlong"
+      ],
+      "sideBranches": [
+        {
+          "from": "Tyrannosauroidea",
+          "label": "Tyrannosauridae (T. rex lineage)"
+        },
+        {
+          "from": "Proceratosauridae",
+          "label": "Yutyrannus"
+        },
+        {
+          "from": "Coelurosauria",
+          "label": "Compsognathidae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and naming",
+        "body": "Two specimens were recovered from the Shishugou Formation in 2002 during a joint Chinese–American expedition: a near-complete adult and a nearly complete subadult, both preserved in close association. Xu et al. described and named the genus in Nature in 2006, placing it as the oldest known tyrannosauroid at the time. The species name wucaii refers to the five-coloured ('wucai') badlands where the fossils were found."
+      },
+      {
+        "title": "The cranial crest",
+        "body": "Guanlong's most striking feature is its thin, blade-like cranial crest running from the snout to above the orbits, formed primarily by the nasal and lacrimal bones. The crest is highly pneumatised (hollow) and structurally fragile — ruling out any role in combat — and is interpreted as a display structure for species recognition or mate attraction. The degree of crest development varies between the two known specimens, which may reflect ontogenetic or sexual variation."
+      },
+      {
+        "title": "Significance as an early tyrannosauroid",
+        "body": "Guanlong shows that tyrannosauroids were already present and geographically widespread by the Late Jurassic, when they were still small, three-fingered, and ecologically subordinate to larger predators such as Sinraptor. Features already present in Guanlong — the enlarged head relative to body size, the hinge-like ankle, and the beginnings of forelimb reduction — foreshadow the anatomy of Late Cretaceous giant tyrannosaurs, making it a key taxon for tracing the deep evolutionary history of the group."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "The Shishugou Formation represents a semi-arid floodplain environment with seasonal rivers and volcanic activity. Guanlong shared this ecosystem with a diverse fauna including the herbivorous ceratosaur Limusaurus, the theropod Monolophosaurus, and several sauropod taxa. The presence of multiple tyrannosauroid specimens suggests the group was not rare in this environment, though it was clearly not yet the dominant apex predator — that role was filled by larger allosauroids."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Guanlong profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/guanlong.html"
+      },
+      {
+        "label": "PBDB: Guanlong",
+        "url": "https://paleobiodb.org/navigator/?taxon_id=96723"
+      },
+      {
+        "label": "Wikipedia: Guanlong",
+        "url": "https://en.wikipedia.org/wiki/Guanlong"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Shishugou Formation, Junggar Basin, Xinjiang, China",
+    "material": "in 2006 from specimens discovered in 2002, its name translates as 'crowned dragon', referencing the elaborate cranial crest that runs along its skull roof.",
+    "completeness": "Partial material known; 1 PBDB occurrence records.",
+    "paleo": "Type locality for Guanlong; the Shishugou Formation also preserves Limusaurus, Monolophosaurus and the giant sauropod Mamenchisaurus, providing an exceptionally rich Late Jurassic fauna.",
+    "evidence": "Guanlong is the oldest well-known member of Tyrannosauroidea and documents the group during a phase when its members were still small, crested, and ecologically subordinate to larger allosauroid predators sharing the same ecosystem."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "Oxfordian, about 161-158 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Tyrannosauroidea",
+        "Proceratosauridae"
+      ],
+      "description": "Guanlong wucaii was an early crested tyrannosauroid from the Shishugou Formation of Xinjiang, China. Two associated skeletons, an adult and a juvenile, preserve much of the skull and body and show the long arms and three-fingered hands of early tyrannosauroids.",
+      "facts": [
+        "The adult skull bears a large, thin midline crest that was structurally unsuited to forceful combat.",
+        "The two known individuals provide limited but direct ontogenetic comparison.",
+        "Serrated teeth support predation; exact prey and social behaviour are unknown."
+      ]
+    },
+    "ageReviewNote": "Ash-bed dating places the relevant Shishugou interval in the Oxfordian, close to 160 Ma.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Xu et al. (2006), A basal tyrannosauroid dinosaur from the Late Jurassic of China",
+        "url": "https://doi.org/10.1038/nature04511"
+      },
+      {
+        "type": "formation-geochronology",
+        "citation": "Choiniere et al. (2014), A juvenile specimen and the age of the Shishugou theropod fauna",
+        "url": "https://doi.org/10.1080/14772019.2013.781067"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Guanlong",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Guanlong"
+      }
+    ],
+    "residualUncertainty": [
+      "Only two individuals are known.",
+      "Display is a plausible function of the crest but cannot be directly demonstrated."
+    ],
+    "evidence": {
+      "score": 80,
+      "material": "Two associated partial-to-near-complete skeletons including skulls, one adult and one juvenile.",
+      "formations": [
+        "Shishugou Formation"
+      ],
+      "confidenceLimit": "High for anatomy, age and predatory ecology; moderate for ontogeny; low for crest behaviour.",
+      "uncertainties": [
+        "crest function",
+        "population variation",
+        "social behaviour"
+      ],
+      "summary": "Guanlong wucaii was an early crested tyrannosauroid from the Shishugou Formation of Xinjiang, China. Two associated skeletons, an adult and a juvenile, preserve much of the skull and body and show the long arms and three-fingered hands of early tyrannosauroids.",
+      "sourceBasis": "Xu et al. (2006), A basal tyrannosauroid dinosaur from the Late Jurassic of China; Choiniere et al. (2014), A juvenile specimen and the age of the Shishugou theropod fauna; Paleobiology Database taxon and occurrence context for Guanlong"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

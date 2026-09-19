@@ -1,0 +1,120 @@
+{
+  "id": "scelidosaurus",
+  "name": "Scelidosaurus",
+  "profile": {
+    "overview": [
+      "Scelidosaurus harrisonii is one of the earliest armoured dinosaurs — an Early Jurassic ornithischian from the Charmouth Mudstone Formation of Dorset, England (~193 Ma). At about four metres, it bore rows of bony scutes (osteoderms) embedded in the skin along its back — the most complete armoured dinosaur from the Early Jurassic. Its exact position as either an early thyreophoran (Stegosauria/Ankylosauria ancestor) or a basal ornithischian outside Thyreophora is debated.",
+      "Scelidosaurus is historically significant as the first complete dinosaur skeleton to be described in scientific detail, predating the complete Iguanodon material from Belgium. Richard Owen described it in 1861 from marine sediment — the animal had drifted out to sea after death and been preserved in limestone nodules on the Jurassic coast."
+    ],
+    "fossilSites": [
+      {
+        "name": "Charmouth Mudstone Formation",
+        "region": "Dorset, England, UK",
+        "lat": 50.7,
+        "lon": -2.9,
+        "note": "Early Jurassic (Sinemurian) marine mudstones preserving the Scelidosaurus holotype — deposited by offshore carcass drift."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Scelidosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Thyreophora",
+          "label": "Stegosauria"
+        },
+        {
+          "from": "Thyreophora",
+          "label": "Ankylosauria"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Owen's description",
+        "body": "Scelidosaurus was found in marine Jurassic cliffs near Charmouth, Dorset, in the 1850s. Richard Owen described it in 1861 as the first complete dinosaur known to science — a milestone given that Iguanodon and Megalosaurus were known only from fragments at the time. The marine preservation is explained by the carcass floating out to sea before sinking and being buried."
+      },
+      {
+        "title": "Armour and taxonomy",
+        "body": "The osteoderms of Scelidosaurus are varied: keeled scutes, oval knobs and smaller granular elements. The arrangement and diversity of these armour elements is reminiscent of ankylosaur armour, leading most phylogenetic analyses to place Scelidosaurus as a basal thyreophoran ancestral to or sister to Ankylosauria. A minority view places it outside Thyreophora entirely."
+      },
+      {
+        "title": "Early Jurassic context",
+        "body": "The Early Jurassic was a time of rapid dinosaurian diversification following the end-Triassic mass extinction. Scelidosaurus represents the early evolution of armoured herbivores in a lineage that would eventually produce the massively armoured ankylosaurs and the plated stegosaurs. Its modest size (4 m) and basic armour contrast with the elaborate defences of its much later relatives."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Scelidosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/scelidosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Charmouth Mudstone Formation, Dorset, England",
+    "material": "Several partial to near-complete articulated skeletons.",
+    "completeness": "Good for an early thyreophoran",
+    "paleo": "Early Jurassic nearshore marine environment — the Dorset specimens were apparently washed out to sea after death.",
+    "evidence": "Rows of scutes along the back and primitive thyreophoran skeletal features document its position near the base of the armoured dinosaur radiation."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Early Jurassic",
+      "mya": "late Sinemurian, about 195-193 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora"
+      ],
+      "description": "Scelidosaurus harrisonii was an early armoured ornithischian from the Charmouth Mudstone Formation of Dorset, known from several skeletons including a nearly complete skull and postcranium.",
+      "facts": [
+        "Modern redescription places it near the base of Thyreophora rather than securely inside Ankylosauria.",
+        "Its osteoderms and spikes are directly preserved, although colour and keratin coverings are unknown."
+      ]
+    },
+    "ageReviewNote": "Ammonite zonation places the Dorset material in the upper Sinemurian, approximately 195-193 Ma on the current time scale.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Norman (2020), postcranial anatomy of Scelidosaurus",
+        "url": "https://doi.org/10.1093/zoolinnean/zlz078"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Norman (2021), biology and phylogenetic relationships of Scelidosaurus",
+        "url": "https://doi.org/10.1093/zoolinnean/zlaa061"
+      }
+    ],
+    "residualUncertainty": [
+      "Armour arrangement and exact position at the base of Thyreophora continue to be refined."
+    ],
+    "evidence": {
+      "score": 94,
+      "material": "Several skeletons, including a nearly complete type and excellent skull material.",
+      "formations": "Charmouth Mudstone Formation, Dorset, England.",
+      "confidenceLimit": "Keratinous coverings and behaviour are not preserved.",
+      "uncertainties": [
+        "fine phylogenetic position",
+        "armour soft tissue"
+      ],
+      "summary": "Scelidosaurus harrisonii was an early armoured ornithischian from the Charmouth Mudstone Formation of Dorset, known from several skeletons including a nearly complete skull and postcranium.",
+      "sourceBasis": "Norman (2020), postcranial anatomy of Scelidosaurus; Norman (2021), biology and phylogenetic relationships of Scelidosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

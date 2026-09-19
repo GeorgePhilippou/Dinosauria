@@ -1,0 +1,152 @@
+{
+  "id": "atlascopcosaurus",
+  "name": "Atlascopcosaurus",
+  "profile": {
+    "overview": [
+      "Atlascopcosaurus loadsi was a small herbivorous ornithopod dinosaur from the Early Cretaceous of Victoria, Australia, living approximately 126–110 million years ago during the Barremian to Albian stages. About 3 metres long, it is known from fragmentary dental and jaw material recovered from the Eumeralla Formation (also known from the Strzelecki Group exposures) at sites near Dinosaur Cove along the Victorian coast. The genus is named in honour of Atlas Copco, the mining equipment company that provided drilling machinery used during excavations.",
+      "Described by Rich and Rich (Vickers-Rich) in 1989, Atlascopcosaurus is placed within Elasmaria, a clade of basal ornithopods thought to have inhabited Gondwana. Its Australian provenance is significant, as it inhabited a polar or near-polar environment during the Early Cretaceous, when Victoria was within the Antarctic Circle. This makes it part of a unique dinosaur fauna adapted to the prolonged polar darkness that characterised these high-latitude habitats."
+    ],
+    "fossilSites": [
+      {
+        "name": "Eumeralla Formation (Otway Group)",
+        "region": "Victoria, Australia",
+        "lat": -38.8,
+        "lon": 143.5,
+        "note": "Fragmentary jaw and dental material of Atlascopcosaurus was found in coastal cliffs at Dinosaur Cove, one of the most productive Early Cretaceous polar dinosaur sites in the world."
+      },
+      {
+        "name": "Strzelecki Group (Wonthaggi Formation)",
+        "region": "Victoria, Australia",
+        "lat": -38.5,
+        "lon": 145.5,
+        "note": "Additional ornithopod material from the Strzelecki Group may be referable to Atlascopcosaurus, extending its known stratigraphic and geographic range in Victoria."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Euornithopoda",
+        "Elasmaria",
+        "Atlascopcosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Elasmaria",
+          "label": "Leaellynasaura"
+        },
+        {
+          "from": "Euornithopoda",
+          "label": "Iguanodontia"
+        },
+        {
+          "from": "Elasmaria",
+          "label": "Qantassaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Atlascopcosaurus loadsi was described by Thomas Rich and Patricia Vickers-Rich in 1989 from jaw fragments found at Dinosaur Cove, Victoria. The generic name honours Atlas Copco, whose compressed-air drilling equipment was essential for excavating the hard rock in which the fossils were entombed. The species name recognises William Loads of Atlas Copco Australia. Excavation at Dinosaur Cove was an extraordinarily difficult undertaking, involving tunnelling into sea cliffs."
+      },
+      {
+        "title": "Anatomy",
+        "body": "Atlascopcosaurus is known from fragmentary jaw material and teeth, limiting detailed anatomical description. The teeth are characterised by features consistent with a basal ornithopod, including relatively simple crown morphology suited to herbivory. Its estimated body length of approximately 3 metres places it among the smaller ornithopods known from Australia. Classification within Elasmaria reflects its similarities to other Gondwanan ornithopods."
+      },
+      {
+        "title": "Polar Dinosaur Environment",
+        "body": "During the Early Cretaceous, Victoria was located within the Antarctic Circle at approximately 75–80 degrees south latitude. This meant Atlascopcosaurus endured several months of complete polar darkness each year. Whether these dinosaurs were resident year-round or migrated is debated. The presence of large-eyed relatives like Leaellynasaura from the same formation has been used to argue for year-round residence with adaptations for low-light conditions."
+      },
+      {
+        "title": "Significance",
+        "body": "Atlascopcosaurus is part of a distinctive polar dinosaur assemblage from the Eumeralla Formation that provides crucial evidence for dinosaur life at high latitudes. Australian Early Cretaceous dinosaurs occupied an isolated landmass connected to Antarctica, meaning this fauna evolved largely in isolation from contemporaneous Asian and North American communities. The fragmentary nature of Atlascopcosaurus material highlights the challenges of recovering and interpreting polar fossil vertebrates."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Atlascopcosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/atlascopcosaurus.html"
+      },
+      {
+        "label": "Wikipedia: Atlascopcosaurus",
+        "url": "https://en.wikipedia.org/wiki/Atlascopcosaurus"
+      },
+      {
+        "label": "PBDB: Atlascopcosaurus occurrence data",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=57103"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Eumeralla Formation (Otway Group), Victoria, Australia; Strzelecki Group (Wonthaggi Formation), Victoria, Australia",
+    "material": "Atlascopcosaurus is known from fragmentary jaw material and teeth, limiting detailed anatomical description.",
+    "completeness": "Fragmentary material only; 7 PBDB occurrence records.",
+    "paleo": "Fragmentary jaw and dental material of Atlascopcosaurus was found in coastal cliffs at Dinosaur Cove, one of the most productive Early Cretaceous polar dinosaur sites in the world.",
+    "evidence": "Described by Rich and Rich (Vickers-Rich) in 1989, Atlascopcosaurus is placed within Elasmaria, a clade of basal ornithopods thought to have inhabited Gondwana."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "approximately 115-100 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Cerapoda",
+        "Ornithopoda",
+        "Elasmaria"
+      ],
+      "description": "Atlascopcosaurus loadsi was a small ornithopod from the Albian Eumeralla Formation of Victoria, Australia. It is based on a partial upper jaw and isolated jaw and tooth material, so nearly all postcranial and body-size details are inferred.",
+      "facts": [
+        "The holotype is a partial maxilla with teeth.",
+        "Modern Australian reviews retain it provisionally as valid while recognising weak phylogenetic resolution."
+      ],
+      "length": null
+    },
+    "ageReviewNote": "The Eumeralla Formation material is Albian rather than spanning most of the Early Cretaceous.",
+    "sources": [
+      {
+        "type": "continental-review",
+        "citation": "Poropat et al. (2023), An annotated checklist of Australian Mesozoic tetrapods",
+        "url": "https://doi.org/10.1080/03115518.2023.2228367"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: atlascopcosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/atlascopcosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "The diagnosis relies on limited dental characters.",
+      "Its exact position within Gondwanan ornithopods is unresolved."
+    ],
+    "evidence": {
+      "score": 28,
+      "material": "A partial maxilla plus isolated dentaries and teeth.",
+      "formations": [
+        "Eumeralla Formation"
+      ],
+      "confidenceLimit": "Jaw fragments cannot support a precise total length, mass or locomotor profile.",
+      "uncertainties": [
+        "The diagnosis relies on limited dental characters.",
+        "Its exact position within Gondwanan ornithopods is unresolved."
+      ],
+      "summary": "Atlascopcosaurus loadsi was a small ornithopod from the Albian Eumeralla Formation of Victoria, Australia. It is based on a partial upper jaw and isolated jaw and tooth material, so nearly all postcranial and body-size details are inferred.",
+      "sourceBasis": "Poropat et al. (2023), An annotated checklist of Australian Mesozoic tetrapods; Natural History Museum, Dino Directory: atlascopcosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

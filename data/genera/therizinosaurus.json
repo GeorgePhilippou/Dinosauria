@@ -1,0 +1,132 @@
+{
+  "id": "therizinosaurus",
+  "name": "Therizinosaurus",
+  "profile": {
+    "overview": [
+      "Therizinosaurus cheloniformis is known primarily from enormous claws — the longest manual claws of any known animal, reaching nearly 1 metre along their outer curve. Found in the Late Cretaceous Nemegt Formation of Mongolia (~70 Ma), the animal was initially described as a giant turtle-like creature before additional material from relatives (therizinosaurs from China) revealed its true nature as a large, bizarre herbivorous theropod.",
+      "Therizinosaurs represent one of the most dramatic evolutionary reversals in dinosaur history: derived from carnivorous coelurosaur ancestors, they evolved broad hips (convergent with ornithischians), leaf-shaped teeth and long necks suited for browsing vegetation. Therizinosaurus itself may have reached 9–10 metres, making it the largest known therizinosaur."
+    ],
+    "fossilSites": [
+      {
+        "name": "Nemegt Formation",
+        "region": "Ömnögovi Province, Mongolia",
+        "lat": 43.2,
+        "lon": 101,
+        "note": "Late Cretaceous deposits yielding the massive Therizinosaurus forelimb and claw material."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Maniraptora",
+        "Therizinosauria",
+        "Therizinosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Therizinosauria",
+          "label": "Nothronychus (North America)"
+        },
+        {
+          "from": "Maniraptora",
+          "label": "Oviraptorosauria"
+        },
+        {
+          "from": "Maniraptora",
+          "label": "Dromaeosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and initial misidentification",
+        "body": "Maleev described the enormous claws and forelimb elements in 1954, initially interpreting them as a giant turtle — \"cheloniformis\" (turtle-form) remains in the species name. Only when well-preserved therizinosaurs were found in China (Alxasaurus, Beipiaosaurus) in the 1980s–90s was it established that Therizinosaurus was a large theropod with a full herbivorous therizinosaur body plan."
+      },
+      {
+        "title": "The giant claws",
+        "body": "The manual claws of Therizinosaurus are the largest known of any non-avian dinosaur: the outer curve of the first digit claw is estimated at ~80–92 cm in larger specimens. Their function is debated: pulling down branches for feeding (like a giant ground sloth), defence against predators, or display are the main hypotheses. All three are compatible with the herbivorous lifestyle established for therizinosaurs generally."
+      },
+      {
+        "title": "Herbivory in a theropod lineage",
+        "body": "Therizinosaurs acquired herbivory from a carnivorous ancestor — a profound ecological shift within Theropoda. The transition involved: broadening of the pelvis (to accommodate a larger gut), leaf-shaped teeth for processing vegetation (from the sharp blade-teeth of ancestors), shortening of the skull, lengthening of the neck, and development of a large digestive tract. Beipiaosaurus and Alxasaurus preserve feathers, confirming that therizinosaurs were feathered theropods."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Therizinosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/therizinosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Nemegt Formation, Mongolia",
+    "material": "Fragmentary forelimb material, especially enormous manual claws.",
+    "completeness": "Fragmentary but diagnostic",
+    "paleo": "Late Cretaceous Mongolian floodplain ecosystems.",
+    "evidence": "Giant claws and related therizinosaur skeletons support its unusual herbivorous/omnivorous theropod body plan."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Maastrichtian, about 70-66 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Therizinosauria",
+        "Therizinosauridae"
+      ],
+      "massKg": null,
+      "description": "Therizinosaurus cheloniformis was a giant therizinosaurid from the Nemegt Formation, known mainly from enormous forelimbs and claws plus limited hindlimb material.",
+      "facts": [
+        "No complete skull or skeleton is known.",
+        "Herbivory is inferred from close relatives; the five-tonne catalogue mass is too precise for the fragmentary material and is removed."
+      ]
+    },
+    "ageReviewNote": "All secure material is Maastrichtian Nemegt Formation.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Lautenschlager (2014), functional analysis of therizinosaur claws",
+        "url": "https://doi.org/10.1098/rspb.2014.0497"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Zanno (2010), therizinosaur systematics",
+        "url": "https://doi.org/10.1080/14772019.2010.488045"
+      }
+    ],
+    "residualUncertainty": [
+      "Size, skull anatomy and claw function remain uncertain."
+    ],
+    "evidence": {
+      "score": 38,
+      "material": "Partial forelimbs with giant manual unguals and limited hindlimb remains.",
+      "formations": "Nemegt Formation, Mongolia.",
+      "confidenceLimit": "Mass is cleared; most of the body is reconstructed from relatives.",
+      "uncertainties": [
+        "mass",
+        "skull",
+        "claw function"
+      ],
+      "summary": "Therizinosaurus cheloniformis was a giant therizinosaurid from the Nemegt Formation, known mainly from enormous forelimbs and claws plus limited hindlimb material.",
+      "sourceBasis": "Lautenschlager (2014), functional analysis of therizinosaur claws; Zanno (2010), therizinosaur systematics"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

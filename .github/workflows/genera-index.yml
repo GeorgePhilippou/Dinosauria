@@ -1,0 +1,42 @@
+# Keep data/genera-index.js in sync with hand edits to data/genera/*.json.
+#
+# index.html boots the catalogue from genera-index.js (a small extract of each
+# genus's reviewed record fields) and fetches the full genus file only when a
+# profile opens. Editing a genus file on GitHub therefore needs the index
+# rebuilt; this workflow validates the files, rebuilds the index and commits it.
+name: genera-index
+
+on:
+  push:
+    paths:
+      - 'data/genera/**'
+      - 'tools/build-genera-index.mjs'
+      - 'tools/validate-genera.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate genus files
+        run: node tools/validate-genera.mjs
+      - name: Rebuild index
+        run: node tools/build-genera-index.mjs
+      - name: Commit index if changed
+        run: |
+          if git diff --quiet -- data/genera-index.js; then
+            echo "index unchanged"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/genera-index.js
+            git commit -m "Rebuild genera index"
+            git push
+          fi

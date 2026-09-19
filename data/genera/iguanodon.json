@@ -1,0 +1,160 @@
+{
+  "id": "iguanodon",
+  "name": "Iguanodon",
+  "profile": {
+    "overview": [
+      "Iguanodon bernissartensis was the second dinosaur formally described — named by Gideon Mantell in 1825 from teeth found in Sussex — and one of the three genera that Richard Owen used to define Dinosauria in 1842. In 1878 coal miners in Bernissart, Belgium discovered 38 nearly complete skeletons, providing the first opportunity for scientists to study a dinosaur in full and transforming palaeontology.",
+      "For over a century Iguanodon was reconstructed walking upright like a kangaroo, with the famous thumb spike placed on the nose as a horn. Modern analysis shows it walked on four legs with the body held horizontally, and the thumb spike was a true defensive weapon — or possibly a tool for foraging. At 10 metres and 4 tonnes it was one of the largest Early Cretaceous herbivores."
+    ],
+    "fossilSites": [
+      {
+        "name": "Sainte-Barbe Clay Formation — Bernissart",
+        "region": "Hainaut Province, Belgium",
+        "lat": 50.5,
+        "lon": 3.7,
+        "note": "Early Cretaceous coal-mine deposits with 38 nearly complete Iguanodon skeletons recovered between 1878 and 1881 — a watershed moment in palaeontology."
+      },
+      {
+        "name": "Wessex Formation",
+        "region": "Isle of Wight, England, UK",
+        "lat": 50.6,
+        "lon": -1.3,
+        "note": "Barremian fluvial deposits with Iguanodon material including fragmentary specimens and trackways."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Iguanodontidae",
+        "Iguanodon"
+      ],
+      "sideBranches": [
+        {
+          "from": "Iguanodontia",
+          "label": "Hadrosauridae"
+        },
+        {
+          "from": "Iguanodontia",
+          "label": "Camptosaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "The Bernissart discovery",
+        "body": "Coal miners at the Sainte-Barbe pit in Bernissart hit a pocket of clay rich in dinosaur skeletons at a depth of 322 metres in 1878. Paleontologist Louis Dollo supervised the excavation and reconstruction of the animals over the following decades. The resulting mounted skeletons — 30 of which are now displayed at the Royal Belgian Institute of Natural Sciences in Brussels — gave scientists their first view of a complete ornithopod, though Dollo's erect bipedal reconstruction stood for decades before being corrected."
+      },
+      {
+        "title": "The thumb spike",
+        "body": "Mantell initially placed the thumb spike on Iguanodon's nose as a rhinoceros-like horn — this was immortalised in the Crystal Palace statues of 1853 which still stand in London. The correct position on the thumb was established only when articulated Bernissart skeletons showed the spike attached to the first digit. Its function — defensive weapon, foraging tool for breaking open fruit, or intraspecific combat — is still debated."
+      },
+      {
+        "title": "Locomotion",
+        "body": "The wrist bones of Iguanodon form a fused, weight-bearing structure suited to quadrupedal locomotion. Modern analysis confirms it walked primarily on all fours with the body held horizontally, rearing bipedally only to reach higher vegetation. Its dental battery — cheek teeth capable of grinding — represents an advance over the simpler teeth of Camptosaurus, foreshadowing the efficient grinding dentition of hadrosaurs."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Iguanodon profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/iguanodon.html"
+      },
+      {
+        "label": "Royal Belgian Institute: Bernissart Iguanodons at a glance",
+        "url": "https://www.naturalsciences.be/en/discover-join/discover/the-bernissart-iguanodons-at-a-glance"
+      },
+      {
+        "label": "RBINS collection: Iguanodon bernissartensis holotype",
+        "url": "https://collections.naturalsciences.be/ssh-paleontology/masterpieces/bernissart"
+      },
+      {
+        "label": "RBINS open access: Iguanodon bernissartensis memoir",
+        "url": "https://biblio.naturalsciences.be/rbins-publications/memoirs-of-the-royal-belgian-institute-of-natural-sciences-first-series/bulletin-of-the-royal-belgian-institute-of-natural-sciences-memoirs-of-the-royal-belgian-institute-of-natural-sciences-first-series/7877037054a3478584b906a088fbf5d0"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Wealden Group, UK; Sainte-Barbe Clays/Bernissart, Belgium",
+    "material": "Many skeletons, including the famous Bernissart assemblage.",
+    "completeness": "Very well represented",
+    "paleo": "Early Cretaceous European floodplain and wetland settings.",
+    "evidence": "Thumb spikes, beaked jaws and abundant skeletons transformed early dinosaur reconstruction."
+  },
+  "remainsImage": {
+    "file": "Bernissart Iguanodon mounted skeleton.jpg",
+    "label": "Bernissart Iguanodon mounted skeleton",
+    "note": "Historic image of the Bernissart Iguanodon mounting work."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "late Barremian-early Aptian, roughly 126-122 million years ago for I. bernissartensis",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Ankylopollexia",
+        "Styracosterna"
+      ],
+      "description": "Iguanodon bernissartensis was a large herbivorous iguanodontian best known from the Bernissart mine in Belgium, where numerous associated skeletons and skulls were recovered. Modern revision restricts Iguanodon more narrowly than older books that placed many Early Cretaceous species from Europe and elsewhere in the genus.",
+      "facts": [
+        "The thumb spike was on the hand, not the nose as in the earliest reconstruction.",
+        "Forelimb and hand anatomy support habitual quadrupedal walking with facultative bipedality.",
+        "The Bernissart assemblage contains multiple individuals but does not by itself prove a permanent herd."
+      ]
+    },
+    "ageReviewNote": "I. bernissartensis is late Barremian-early Aptian; older broad genus ranges largely reflect reassigned species.",
+    "sources": [
+      {
+        "type": "taxonomic-revision",
+        "citation": "Paul (2008), A revised taxonomy of the iguanodont dinosaurs",
+        "url": "https://doi.org/10.1016/j.cretres.2007.04.009"
+      },
+      {
+        "type": "variation-study",
+        "citation": "Verdú et al. (2017), Individual variation in Iguanodon bernissartensis",
+        "url": "https://doi.org/10.1016/j.cretres.2017.02.006"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Iguanodon bernissartensis",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Iguanodon%20bernissartensis"
+      }
+    ],
+    "residualUncertainty": [
+      "Some historical European specimens remain difficult to assign.",
+      "Exact gait frequency, herd behaviour and species boundaries outside Bernissart remain uncertain."
+    ],
+    "evidence": {
+      "score": 90,
+      "material": "Numerous skulls and associated partial-to-near-complete skeletons, especially from Bernissart.",
+      "formations": [
+        "Sainte-Barbe Clays Formation",
+        "Wessex Formation"
+      ],
+      "confidenceLimit": "Very high for anatomy and herbivory; high for locomotor capability; moderate for external referrals.",
+      "uncertainties": [
+        "external referrals",
+        "species boundaries",
+        "herd behaviour"
+      ],
+      "summary": "Iguanodon bernissartensis was a large herbivorous iguanodontian best known from the Bernissart mine in Belgium, where numerous associated skeletons and skulls were recovered. Modern revision restricts Iguanodon more narrowly than older books that placed many Early Cretaceous species from Europe and elsewhere in the genus.",
+      "sourceBasis": "Paul (2008), A revised taxonomy of the iguanodont dinosaurs; Verdú et al. (2017), Individual variation in Iguanodon bernissartensis; Paleobiology Database taxon and occurrence context for Iguanodon bernissartensis"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

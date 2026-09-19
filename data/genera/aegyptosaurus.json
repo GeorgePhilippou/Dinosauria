@@ -1,0 +1,117 @@
+{
+  "id": "aegyptosaurus",
+  "name": "Aegyptosaurus",
+  "profile": {
+    "overview": [
+      "Aegyptosaurus was a titanosaurian sauropod from Cretaceous North Africa. The wiki dataset records it from Egypt and Niger, and PBDB links it to several units including the Baharije Formation and Tegama-related deposits.",
+      "Its scientific history is shaped by loss as much as discovery: early North African dinosaur material described by Ernst Stromer was heavily affected by wartime destruction. As a result, Aegyptosaurus remains a useful but incomplete signal of sauropod diversity in northern Africa."
+    ],
+    "fossilSites": [
+      {
+        "name": "Baharije Formation",
+        "region": "Matruh, Egypt",
+        "lat": 29.2,
+        "lon": 25.5,
+        "note": "PBDB-listed Egyptian record for Aegyptosaurus."
+      },
+      {
+        "name": "Tegama-related deposits",
+        "region": "Niger",
+        "lat": 16.5,
+        "lon": 8,
+        "note": "PBDB lists Nigerien records from Tegama and associated units."
+      }
+    ],
+    "articles": [
+      {
+        "title": "Why it matters",
+        "body": "Aegyptosaurus helps document African titanosaur distribution before the latest Cretaceous, even though its material is incomplete."
+      },
+      {
+        "title": "Evidence limit",
+        "body": "Because historical material was lost and the taxon is not represented by abundant complete skeletons, size and anatomy should be treated as approximate."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Aegyptosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/aegyptosaurus.html"
+      },
+      {
+        "label": "Wikipedia: Aegyptosaurus",
+        "url": "https://en.wikipedia.org/wiki/Aegyptosaurus"
+      },
+      {
+        "label": "PBDB: Aegyptosaurus",
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38681"
+      }
+    ]
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "about 100-94 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Neosauropoda",
+        "Macronaria",
+        "Titanosauriformes",
+        "Titanosauria"
+      ],
+      "description": "Aegyptosaurus baharijensis was a titanosaur from Cenomanian rocks of Egypt. Its name-bearing bones were fragmentary and were destroyed during the Second World War, so much of its diagnosis now depends on Stromer's descriptions and illustrations.",
+      "facts": [
+        "The type series included vertebrae and limb bones, not a complete skeleton.",
+        "Material from elsewhere in North Africa has been referred historically, but not all referrals can be demonstrated to belong to the type species."
+      ],
+      "length": null
+    },
+    "ageReviewNote": "The type material came from the Cenomanian Bahariya Formation.",
+    "sources": [
+      {
+        "type": "historical-monograph",
+        "citation": "Stromer (1932), Ergebnisse der Forschungsreisen Prof. E. Stromers in den Wuesten Aegyptens: Aegyptosaurus",
+        "url": "https://www.biodiversitylibrary.org/page/28682600"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: aegyptosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/aegyptosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "The type material is destroyed.",
+      "The taxon needs modern specimen-based reassessment.",
+      "Many historical referrals are insecure."
+    ],
+    "evidence": {
+      "score": 32,
+      "material": "A fragmentary, now-destroyed type series of vertebral and appendicular bones.",
+      "formations": [
+        "Bahariya Formation"
+      ],
+      "confidenceLimit": "No precise body plan or maximum size can be established from the lost fragmentary type.",
+      "uncertainties": [
+        "The type material is destroyed.",
+        "The taxon needs modern specimen-based reassessment.",
+        "Many historical referrals are insecure."
+      ],
+      "summary": "Aegyptosaurus baharijensis was a titanosaur from Cenomanian rocks of Egypt. Its name-bearing bones were fragmentary and were destroyed during the Second World War, so much of its diagnosis now depends on Stromer's descriptions and illustrations.",
+      "sourceBasis": "Stromer (1932), Ergebnisse der Forschungsreisen Prof. E. Stromers in den Wuesten Aegyptens: Aegyptosaurus; Natural History Museum, Dino Directory: aegyptosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

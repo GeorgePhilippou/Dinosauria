@@ -1,0 +1,125 @@
+{
+  "id": "tsintaosaurus",
+  "name": "Tsintaosaurus",
+  "profile": {
+    "overview": [
+      "Tsintaosaurus spinorhinus was a lambeosaurine hadrosaur from the Late Cretaceous Wangshi Formation of Shandong, China (~70 Ma), famous for what appeared to be a unicorn-like spike projecting upward from the skull. This spike was originally interpreted as a nasal crest; subsequent analysis of the skull showed that the spike is actually a solid nasal process forming a different crest shape from other lambeosaurines.",
+      "Asian hadrosaurs provide important data on the dispersal of hadrosaurs from their North American origin to Asia (via Beringia) and subsequently to Europe. Tsintaosaurus shows that lambeosaurines — the crested hadrosaur lineage — successfully colonised Asia, producing a distinct Asian clade that paralleled the North American radiation."
+    ],
+    "fossilSites": [
+      {
+        "name": "Wangshi Formation",
+        "region": "Shandong Province, China",
+        "lat": 36.7,
+        "lon": 119.1,
+        "note": "Late Cretaceous (Maastrichtian) continental deposits with the Tsintaosaurus holotype and several referred specimens."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Hadrosauridae",
+        "Lambeosaurinae",
+        "Tsintaosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Lambeosaurinae",
+          "label": "Corythosaurus (North America)"
+        },
+        {
+          "from": "Lambeosaurinae",
+          "label": "Parasaurolophus (North America)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and the unicorn crest",
+        "body": "Described by C. C. Young in 1958 from material found in Shandong Province (then transliterated as Tsingtao). The forward-projecting spine on the skull was reconstructed as an upright unicorn-like crest — a striking feature that made Tsintaosaurus famous among popular dinosaur books. Subsequent re-examination of the skull showed the crest is formed differently from other lambeosaurine crests, with a more complex nasal bone configuration."
+      },
+      {
+        "title": "Asian hadrosaur radiation",
+        "body": "Hadrosaurs originated in North America and dispersed to Asia across the Beringian land connection in the Late Cretaceous, then from Asia to Europe. Asian lambeosaurines like Tsintaosaurus, Pararhabdodon (Spain) and Magnapaulia (Mexico) represent the westward dispersal from the Asian lambeosaurine radiation. This transcontinental dispersal occurred at roughly the same time as the last land connections before sea-level rise isolated the continents."
+      },
+      {
+        "title": "Wangshi fauna",
+        "body": "The Wangshi Formation of Shandong preserves a diverse Late Cretaceous fauna including other hadrosaurs (Tanius, Shantungosaurus — one of the largest hadrosaurs at up to 16 m), theropods and pterosaurs. The region was a lowland plain near the Late Cretaceous sea margin of eastern Asia."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Tsintaosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/tsintaosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Wangshi Group, Shandong Province, China",
+    "material": "Skulls and partial skeletal material.",
+    "completeness": "Partial but diagnostic",
+    "paleo": "Late Cretaceous of eastern China, in fluvial and floodplain settings.",
+    "evidence": "The distinctive forward-projecting hollow crest was confirmed by later more complete specimens after initial scepticism."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian, about 75-72 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Lambeosaurinae"
+      ],
+      "description": "Tsintaosaurus spinorhinus was a lambeosaurine hadrosaurid from the Wangshi Group of Shandong, known from multiple skull and skeletal specimens.",
+      "facts": [
+        "Modern reconstruction shows a complex crest involving several bones, not a single unicorn-like spike.",
+        "The crest was hollow and connected to nasal passages, but exact sound and soft tissue are unknown."
+      ]
+    },
+    "ageReviewNote": "The type-bearing Wangshi units are late Campanian, not a single exact 75 Ma date.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Prieto-Márquez & Wagner (2013), cranial crest reconstruction of Tsintaosaurus",
+        "url": "https://doi.org/10.1371/journal.pone.0082268"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Prieto-Márquez (2010), hadrosaurid phylogeny",
+        "url": "https://doi.org/10.1111/j.1096-3642.2009.00617.x"
+      }
+    ],
+    "residualUncertainty": [
+      "Crest soft tissue and species-level referrals remain uncertain."
+    ],
+    "evidence": {
+      "score": 82,
+      "material": "Multiple skulls and partial skeletons, some historically reconstructed incorrectly.",
+      "formations": "Wangshi Group, Shandong, China.",
+      "confidenceLimit": "Use the modern multi-bone crest, not the old spike reconstruction.",
+      "uncertainties": [
+        "crest soft tissue",
+        "referrals"
+      ],
+      "summary": "Tsintaosaurus spinorhinus was a lambeosaurine hadrosaurid from the Wangshi Group of Shandong, known from multiple skull and skeletal specimens.",
+      "sourceBasis": "Prieto-Márquez & Wagner (2013), cranial crest reconstruction of Tsintaosaurus; Prieto-Márquez (2010), hadrosaurid phylogeny"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

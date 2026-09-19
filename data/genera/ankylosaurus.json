@@ -1,0 +1,151 @@
+{
+  "id": "ankylosaurus",
+  "name": "Ankylosaurus",
+  "profile": {
+    "overview": [
+      "Ankylosaurus magniventris was the largest known ankylosaurid, reaching about six to eight metres, from the latest Cretaceous Hell Creek Formation (~68–66 Ma). Its massive bony tail club — formed by two large oval knobs fused to a rigid tail handle — could swing laterally to deliver bone-breaking blows to attacking Tyrannosaurus. Ankylosaurus was one of the last surviving non-avian dinosaurs before the K-Pg mass extinction.",
+      "Despite being the most famous ankylosaur, Ankylosaurus is known from surprisingly little material: three incomplete skulls and fragmentary postcranial remains. No complete skeleton exists. Most popular reconstructions are based heavily on the better-known Euoplocephalus, which is known from dozens of specimens and is a close but smaller relative."
+    ],
+    "fossilSites": [
+      {
+        "name": "Hell Creek Formation",
+        "region": "Montana, USA",
+        "lat": 46.8,
+        "lon": -104.2,
+        "note": "Latest Cretaceous (Maastrichtian) beds with Ankylosaurus skull and fragmentary postcranial material alongside T. rex and Triceratops."
+      },
+      {
+        "name": "Lance Formation",
+        "region": "Wyoming, USA",
+        "lat": 43,
+        "lon": -105.5,
+        "note": "Coeval latest Cretaceous deposits with additional fragmentary Ankylosaurus material."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Ankylosauridae",
+        "Ankylosaurinae",
+        "Ankylosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ankylosaurinae",
+          "label": "Euoplocephalus"
+        },
+        {
+          "from": "Ankylosauria",
+          "label": "Nodosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and incomplete record",
+        "body": "Named by Brown in 1908 from Hell Creek Formation material. Only three skull specimens and scattered postcranial elements are known — surprisingly few for such a famous dinosaur. Most popular reconstructions rely on Euoplocephalus proportions. The skull is wide, flat and covered with fused bony plates; the nasal passages are elaborate and convoluted, possibly for thermoregulation, enhanced olfaction or vocalization."
+      },
+      {
+        "title": "Tail club and defence",
+        "body": "The Ankylosaurus tail club is the largest known for any ankylosaurid — proportionally massive even compared to Euoplocephalus. Finite element analysis shows the club knobs could withstand impact forces consistent with striking bone without fracturing. Bone injury studies on Tyrannosaurus legs may eventually document direct combat evidence, though no confirmed T. rex injury from an ankylosaur blow has yet been published."
+      },
+      {
+        "title": "Hell Creek ecosystem",
+        "body": "Ankylosaurus was one of three major megaherbivores in the Hell Creek ecosystem alongside Triceratops and Edmontosaurus. Its heavy armour, wide body and low centre of gravity suggest it could resist Tyrannosaurus attacks more effectively than the ceratopsids or hadrosaurs. As one of the last surviving non-avian dinosaurs, it was extinguished at the K-Pg boundary 66 million years ago."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Ankylosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/ankylosaurus.html"
+      },
+      {
+        "label": "Open access: estimating ankylosaurid tail-club impact forces",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2726940/"
+      },
+      {
+        "label": "The Anatomical Record: finite element analyses of ankylosaurid tail clubs",
+        "url": "https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.20987"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Hell Creek, Lance and Scollard formations, North America",
+    "material": "Fragmentary skull, armour, vertebrae and tail-club material.",
+    "completeness": "Fragmentary but diagnostic",
+    "paleo": "Latest Cretaceous western North American floodplains.",
+    "evidence": "Armour plates, skull bones and tail-club elements define the heavily armoured body plan."
+  },
+  "remainsImage": {
+    "file": "Skull of Ankylosaurus.jpg",
+    "label": "Ankylosaurus skull",
+    "note": "Actual skull material image; the profile still notes the lack of a complete skeleton."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "about 68-66 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Ankylosauridae",
+        "Ankylosaurinae"
+      ],
+      "description": "Ankylosaurus magniventris was a very large ankylosaurid from latest Cretaceous rocks of western North America. Several incomplete skeletons and skulls collectively document its broad body, armour and tail club, but no single complete skeleton is known.",
+      "facts": [
+        "The tail club is known from referred material and was capable of powerful lateral motion.",
+        "Much familiar full-body restoration combines non-overlapping specimens and comparison with relatives."
+      ]
+    },
+    "ageReviewNote": "Secure specimens are late Maastrichtian, principally from the Hell Creek, Lance and Scollard formations.",
+    "sources": [
+      {
+        "type": "systematic-revision",
+        "citation": "Arbour & Mallon (2017), Unusual cranial and postcranial anatomy of Ankylosaurus magniventris",
+        "url": "https://doi.org/10.1139/facets-2017-0063"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: ankylosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/ankylosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "No complete articulated skeleton is known.",
+      "Exact armour placement and maximum size remain estimates."
+    ],
+    "evidence": {
+      "score": 72,
+      "material": "Several incomplete skulls and skeletons with complementary armour and tail material.",
+      "formations": [
+        "Hell Creek Formation",
+        "Lance Formation",
+        "Scollard Formation"
+      ],
+      "confidenceLimit": "Composite anatomy is strong, but total body mass and exact armour arrangement are not directly preserved in one individual.",
+      "uncertainties": [
+        "No complete articulated skeleton is known.",
+        "Exact armour placement and maximum size remain estimates."
+      ],
+      "summary": "Ankylosaurus magniventris was a very large ankylosaurid from latest Cretaceous rocks of western North America. Several incomplete skeletons and skulls collectively document its broad body, armour and tail club, but no single complete skeleton is known.",
+      "sourceBasis": "Arbour & Mallon (2017), Unusual cranial and postcranial anatomy of Ankylosaurus magniventris; Natural History Museum, Dino Directory: ankylosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

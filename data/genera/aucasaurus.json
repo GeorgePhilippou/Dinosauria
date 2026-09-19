@@ -1,0 +1,147 @@
+{
+  "id": "aucasaurus",
+  "name": "Aucasaurus",
+  "profile": {
+    "overview": [
+      "Aucasaurus garridoi was an abelisaurid theropod dinosaur from the Late Cretaceous of Patagonia, Argentina, living approximately 84–72 million years ago during the Campanian stage. Estimated at about 5 metres in length, it is known from an almost complete skeleton recovered from the Anacleto Formation of Neuquén Province, making it one of the most completely known abelisaurids. Its name refers to Auca Mahuevo, the site near which it was found.",
+      "Named by Coria, Chiappe, and Dingus in 2002, Aucasaurus is placed within the family Abelisauridae, a group of robust, short-armed theropods that dominated large predator niches in Gondwana during the Cretaceous. It is more completely known than many abelisaurids and has provided important anatomical data about the group, including details of the highly reduced forelimbs and the robust skull morphology characteristic of abelisaurids."
+    ],
+    "fossilSites": [
+      {
+        "name": "Anacleto Formation (Neuquén Group)",
+        "region": "Neuquén, Argentina",
+        "lat": -37.5,
+        "lon": -70,
+        "note": "An almost complete Aucasaurus skeleton was found in the Anacleto Formation near Auca Mahuevo, the same site famous for titanosaur nesting colonies, making it among the most complete abelisaurids known."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Ceratosauria",
+        "Abelisauridae",
+        "Brachyrostra",
+        "Aucasaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Abelisauridae",
+          "label": "Carnotaurus"
+        },
+        {
+          "from": "Abelisauridae",
+          "label": "Majungasaurus"
+        },
+        {
+          "from": "Brachyrostra",
+          "label": "Abelisaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Aucasaurus garridoi was described by Rodolfo Coria, Luis Chiappe, and Lowell Dingus in 2002. The fossils were found near Auca Mahuevo in Neuquén Province, an area renowned for yielding massive titanosaur nesting colonies. The generic name combines the local place name Auca with Greek sauros (lizard). The species name honours Héctor Garrido, who participated in the discovery."
+      },
+      {
+        "title": "Anatomy",
+        "body": "Aucasaurus possessed the characteristic abelisaurid body plan: a large, deep skull with rough, ornamented bone surfaces on the snout and brow regions, very short and reduced forelimbs with vestigial fingers, and robust hind limbs for ground locomotion. The skull shows small rugosities above the orbits that may represent the base of horn-like structures. The nearly complete skeleton has allowed researchers to reconstruct much of its musculature and inferred biomechanics."
+      },
+      {
+        "title": "Ecology and Predation",
+        "body": "As a mid-sized abelisaurid, Aucasaurus was likely a predator of medium to large prey in the Patagonian ecosystem. Abelisaurids are thought to have used their powerful neck and jaws rather than their arms for prey capture. Aucasaurus co-occurred with titanosaur nesting sites at Auca Mahuevo, and it has been speculated it may have opportunistically fed on eggs or hatchlings, though direct evidence for this is lacking."
+      },
+      {
+        "title": "Significance",
+        "body": "The near-completeness of the Aucasaurus skeleton makes it one of the most informative abelisaurids known and has contributed substantially to understanding the anatomy and phylogeny of this distinctive theropod family. Abelisaurids were the dominant large predators of Gondwana throughout the Cretaceous, filling the ecological roles occupied by tyrannosaurids in the Northern Hemisphere."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Aucasaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/aucasaurus.html"
+      },
+      {
+        "label": "PBDB: Aucasaurus occurrence data",
+        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=54523"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Anacleto Formation (Neuquén Group), Neuquén, Argentina",
+    "material": "The nearly complete skeleton has allowed researchers to reconstruct much of its musculature and inferred biomechanics.",
+    "completeness": "Nearly complete specimen known; 2 PBDB occurrence records.",
+    "paleo": "An almost complete Aucasaurus skeleton was found in the Anacleto Formation near Auca Mahuevo, the same site famous for titanosaur nesting colonies, making it among the most complete abelisaurids known.",
+    "evidence": "Named by Coria, Chiappe, and Dingus in 2002, Aucasaurus is placed within the family Abelisauridae, a group of robust, short-armed theropods that dominated large predator niches in Gondwana during the Cretaceous."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "about 83-78 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Ceratosauria",
+        "Abelisauridae",
+        "Carnotaurinae"
+      ],
+      "description": "Aucasaurus garridoi was an abelisaurid theropod from the Anacleto Formation of Patagonia. Its single holotype preserves a nearly complete skull and much of the articulated skeleton, making it one of the anatomically best known abelisaurids.",
+      "facts": [
+        "The forelimbs are extremely reduced and anatomically specialised.",
+        "Damage around the skull has inspired death-scenario proposals, but the cause is not established."
+      ]
+    },
+    "ageReviewNote": "The Anacleto Formation is early Campanian.",
+    "sources": [
+      {
+        "type": "axial-anatomy",
+        "citation": "Baiano et al. (2023), Axial skeleton of Aucasaurus garridoi",
+        "url": "https://doi.org/10.7717/peerj.16236"
+      },
+      {
+        "type": "endocranial-anatomy",
+        "citation": "Paulina-Carabajal & Succar (2015), The endocranial morphology and inner ear of Aucasaurus",
+        "url": "https://www.app.pan.pl/article/item/app20130037.html"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: aucasaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/aucasaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Only one principal individual is known.",
+      "The cause of cranial damage and details of soft tissue are unknown."
+    ],
+    "evidence": {
+      "score": 91,
+      "material": "One nearly complete, partly articulated skull and skeleton.",
+      "formations": [
+        "Anacleto Formation"
+      ],
+      "confidenceLimit": "One excellent individual documents anatomy but cannot establish population variation or maximum size.",
+      "uncertainties": [
+        "Only one principal individual is known.",
+        "The cause of cranial damage and details of soft tissue are unknown."
+      ],
+      "summary": "Aucasaurus garridoi was an abelisaurid theropod from the Anacleto Formation of Patagonia. Its single holotype preserves a nearly complete skull and much of the articulated skeleton, making it one of the anatomically best known abelisaurids.",
+      "sourceBasis": "Baiano et al. (2023), Axial skeleton of Aucasaurus garridoi; Paulina-Carabajal & Succar (2015), The endocranial morphology and inner ear of Aucasaurus; Natural History Museum, Dino Directory: aucasaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "id": "prenocephale",
+  "name": "Prenocephale",
+  "profile": {
+    "overview": [
+      "Prenocephale (meaning 'sloping head') was a small herbivorous pachycephalosaur from the Late Cretaceous of Mongolia, living approximately 83–66 million years ago. Named by Maryańska and Osmólska in 1974, it reached about 2.4 metres in length and is known from the Nemegt and Baruungoyot Formations of the Omnogov province. It is distinguished by its strongly domed skull with a smooth, rounded cranial surface and clusters of small nodes around the dome's margin.",
+      "Prenocephale is a member of Pachycephalosauridae within Pachycephalosauria and belongs to the subgroup Eupachycephalosauria. Its thick cranial dome has been central to debates about head-butting behaviour in pachycephalosaurs—whether they engaged in intraspecific combat or used their skulls for flank-butting displays. PBDB records also tentatively indicate possible North American occurrences (New Mexico), though these may represent distinct taxa."
+    ],
+    "fossilSites": [
+      {
+        "name": "Nemegt Formation",
+        "region": "Omnogov, Mongolia",
+        "lat": 43.5,
+        "lon": 100.5,
+        "note": "Rich Late Cretaceous formation from which the Prenocephale type material was recovered alongside diverse dinosaur faunas."
+      },
+      {
+        "name": "Baruungoyot Formation",
+        "region": "Omnogov, Mongolia",
+        "lat": 43.2,
+        "lon": 100.8,
+        "note": "Campanian desert-dune deposits preserving Prenocephale and co-occurring ankylosaurs and theropods."
+      },
+      {
+        "name": "Kirtland Formation",
+        "region": "New Mexico, USA",
+        "lat": 36.7,
+        "lon": -108,
+        "note": "Possible North American pachycephalosaur occurrences tentatively referred to Prenocephale, though their attribution is uncertain."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Neornithischia",
+        "Cerapoda",
+        "Marginocephalia",
+        "Pachycephalosauria",
+        "Pachycephalosauridae",
+        "Prenocephale"
+      ],
+      "sideBranches": [
+        {
+          "from": "Pachycephalosauria",
+          "label": "Homalocephalidae"
+        },
+        {
+          "from": "Marginocephalia",
+          "label": "Ceratopsia"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Prenocephale prenes was described in 1974 by Polish palaeontologists Teresa Maryańska and Halszka Osmólska from material collected during the Polish-Mongolian Palaeontological Expeditions to the Gobi Desert. The genus name refers to the animal's characteristically sloped, domed skull roof."
+      },
+      {
+        "title": "Head-Butting Debate",
+        "body": "The dome of Prenocephale is smooth and strongly vaulted, and the animal has been frequently cited in discussions of pachycephalosaur headbutting behaviour. Some researchers argue the dome was used in direct cranial impacts between rivals, while others favour flank-butting or display functions; biomechanical studies remain inconclusive."
+      },
+      {
+        "title": "Skull Anatomy",
+        "body": "The skull is notable for its high, rounded dome of compact bone above the braincase, bordered by small bony nodes and knobs. Unlike some other pachycephalosaurs, Prenocephale lacks a flat-headed morphology, placing it firmly within the domed pachycephalosaur lineage. Its teeth are small and leaf-shaped, consistent with plant-eating."
+      },
+      {
+        "title": "Ecological Context",
+        "body": "Prenocephale shared the Late Cretaceous Mongolian environment with large sauropods such as Nemegtosaurus, theropods including Tarbosaurus, and the ankylosaur Saichania. It was likely a browser of low vegetation and fruit, occupying an herbivore niche distinct from the larger hadrosaurs of the same region."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Prenocephale profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/prenocephale.html"
+      },
+      {
+        "label": "PBDB: Prenocephale occurrences",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Prenocephale&show=loc,time,strat,ident,phylo"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Nemegt Formation, Omnogov, Mongolia; Baruungoyot Formation, Omnogov, Mongolia; Kirtland Formation, New Mexico, USA",
+    "material": "Named by Maryańska and Osmólska in 1974, it reached about 2.4 metres in length and is known from the Nemegt and Baruungoyot Formations of the Omnogov province.",
+    "completeness": "Partial material known; 6 PBDB occurrence records.",
+    "paleo": "Rich Late Cretaceous formation from which the Prenocephale type material was recovered alongside diverse dinosaur faunas.",
+    "evidence": "Prenocephale is a member of Pachycephalosauridae within Pachycephalosauria and belongs to the subgroup Eupachycephalosauria."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "late Campanian, about 75-72 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Pachycephalosauria",
+        "Pachycephalosauridae"
+      ],
+      "description": "Prenocephale prenes was a dome-headed pachycephalosaurid from the Baruungoyot Formation of Mongolia, known from a skull with partial postcranium and additional cranial material.",
+      "facts": [
+        "The rounded frontoparietal dome and surrounding nodes are directly preserved.",
+        "Homalocephale has been proposed as a juvenile growth stage, but this synonymy is not universally accepted.",
+        "Bipedality is secure; herbivory or omnivory and head-striking behaviour remain inferential."
+      ]
+    },
+    "ageReviewNote": "The type is late Campanian Baruungoyot Formation; a range to 66 Ma is not supported by the type species.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Sullivan (2003), Revision of the dinosaur Stegoceras Lambe (Ornithischia, Pachycephalosauridae)",
+        "url": "https://www.tandfonline.com/doi/abs/10.1671/0272-4634%282003%2923%5B181%3AROTDSL%5D2.0.CO%3B2"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: prenocephale",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/prenocephale.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Ontogenetic synonymy with Homalocephale remains debated.",
+      "Diet and dome function are unresolved."
+    ],
+    "evidence": {
+      "score": 61,
+      "material": "Holotype skull and partial skeleton plus referred skull material.",
+      "formations": "Baruungoyot Formation, Mongolia.",
+      "confidenceLimit": "Do not state head-butting or a specific diet as observed fact.",
+      "uncertainties": [
+        "Homalocephale synonymy",
+        "dome function",
+        "diet"
+      ],
+      "summary": "Prenocephale prenes was a dome-headed pachycephalosaurid from the Baruungoyot Formation of Mongolia, known from a skull with partial postcranium and additional cranial material.",
+      "sourceBasis": "Sullivan (2003), Revision of the dinosaur Stegoceras Lambe (Ornithischia, Pachycephalosauridae); Natural History Museum Dino Directory: prenocephale"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

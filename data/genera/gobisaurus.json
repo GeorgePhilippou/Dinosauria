@@ -1,0 +1,147 @@
+{
+  "id": "gobisaurus",
+  "name": "Gobisaurus",
+  "profile": {
+    "overview": [
+      "Gobisaurus (meaning 'Gobi lizard') was a herbivorous ankylosaurid dinosaur from the Early Cretaceous of China, living approximately 121–100 million years ago. It is known from a skull and associated postcranial material discovered in Inner Mongolia and Henan, with the skull's proportions suggesting a body length of up to 5 metres. Like other ankylosaurids, it was heavily armoured with osteoderms and walked on four stocky legs. It was named by Vickaryous, Russell, Currie and Zhao in 2001.",
+      "Gobisaurus is classified within Ankylosauridae and represents one of the earlier members of this lineage from Asia, providing data on the early diversification of ankylosaurs in Cretaceous East Asia. Its description helped clarify the distinction between nodosaurids and ankylosaurids in the Asian record. The specimens from the Miaogou and Haoling formations contribute to understanding the distribution of armoured dinosaurs during the Aptian stage."
+    ],
+    "fossilSites": [
+      {
+        "name": "Miaogou Formation",
+        "region": "Inner Mongolia, China",
+        "lat": 41,
+        "lon": 112,
+        "note": "One of the primary source formations for Gobisaurus material, dating to the Aptian of the Early Cretaceous."
+      },
+      {
+        "name": "Haoling Formation",
+        "region": "Henan, China",
+        "lat": 34,
+        "lon": 113.5,
+        "note": "Yielded additional Gobisaurus occurrences, extending the genus's known distribution southward within China."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Ankylosauridae",
+        "Gobisaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ankylosauria",
+          "label": "Nodosauridae"
+        },
+        {
+          "from": "Thyreophora",
+          "label": "Stegosauria"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Gobisaurus domoculus was described in 2001 by Vickaryous, Russell, Currie and Zhao from material collected in China. The species name 'domoculus' refers to the dome-shaped eyes of the skull. Its description added to the growing record of ankylosaurs from the Early Cretaceous of Asia."
+      },
+      {
+        "title": "Anatomy and Armour",
+        "body": "The skull of Gobisaurus is broad and low-slung, consistent with the ankylosaurid body plan. Although the full extent of body armour is not completely documented, Gobisaurus likely bore the characteristic fused osteoderms and a tail club seen in derived ankylosaurids. Skull proportions suggest a body length approaching 5 metres."
+      },
+      {
+        "title": "Palaeoenvironment",
+        "body": "The Early Cretaceous formations of Inner Mongolia and Henan record varied terrestrial environments ranging from floodplains to more arid settings. Gobisaurus would have been a low-browsing herbivore exploiting ground-level vegetation in these habitats, sharing its environment with theropods, sauropods, and other ornithischians."
+      },
+      {
+        "title": "Scientific Significance",
+        "body": "Gobisaurus helps fill a gap in the Asian ankylosaur record from the early part of the Cretaceous. Its phylogenetic placement within Ankylosauridae and its age inform hypotheses about when and where the ankylosaurid lineage diversified across Laurasia."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Gobisaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/gobisaurus.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Miaogou Formation, Inner Mongolia, China; Haoling Formation, Henan, China",
+    "material": "It is known from a skull and associated postcranial material discovered in Inner Mongolia and Henan, with the skull's proportions suggesting a body length of up to 5 metres.",
+    "completeness": "Partial material known; 2 PBDB occurrence records.",
+    "paleo": "One of the primary source formations for Gobisaurus material, dating to the Aptian of the Early Cretaceous.",
+    "evidence": "Gobisaurus is classified within Ankylosauridae and represents one of the earlier members of this lineage from Asia, providing data on the early diversification of ankylosaurs in Cretaceous East Asia."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "Aptian-Albian, approximately 125-100 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Ankylosauridae",
+        "Shamosaurinae"
+      ],
+      "description": "Gobisaurus domoculus was a large ankylosaur from the Ulansuhai Formation of Inner Mongolia. Its holotype is dominated by a well-preserved skull; associated postcranial remains have been mentioned but are incompletely described, so most body details come from relatives.",
+      "facts": [
+        "The skull is the primary diagnostic evidence.",
+        "A broad muzzle and herbivorous ankylosaur jaw apparatus are documented.",
+        "A tail club cannot be confidently described for Gobisaurus from the published type material."
+      ]
+    },
+    "ageReviewNote": "The Ulansuhai Formation is Early Cretaceous, but its detailed numerical age has varied among correlations.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Vickaryous et al. (2001), A new ankylosaurid from the Lower Cretaceous of China",
+        "url": "https://doi.org/10.1139/e01-051"
+      },
+      {
+        "type": "ankylosaur-review",
+        "citation": "Arbour & Currie (2016), Systematics, phylogeny and palaeobiogeography of ankylosaurid dinosaurs",
+        "url": "https://doi.org/10.1080/14772019.2015.1059985"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Gobisaurus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gobisaurus"
+      }
+    ],
+    "residualUncertainty": [
+      "Most postcranial material is unpublished or insufficiently described.",
+      "Formation age and shamosaurine relationships remain approximate."
+    ],
+    "evidence": {
+      "score": 40,
+      "material": "Diagnostic skull with poorly documented associated postcranium.",
+      "formations": [
+        "Ulansuhai Formation"
+      ],
+      "confidenceLimit": "High for cranial diagnosis; low-to-moderate for postcranial anatomy and armour.",
+      "uncertainties": [
+        "postcranial anatomy",
+        "armour arrangement",
+        "formation age"
+      ],
+      "summary": "Gobisaurus domoculus was a large ankylosaur from the Ulansuhai Formation of Inner Mongolia. Its holotype is dominated by a well-preserved skull; associated postcranial remains have been mentioned but are incompletely described, so most body details come from relatives.",
+      "sourceBasis": "Vickaryous et al. (2001), A new ankylosaurid from the Lower Cretaceous of China; Arbour & Currie (2016), Systematics, phylogeny and palaeobiogeography of ankylosaurid dinosaurs; Paleobiology Database taxon and occurrence context for Gobisaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

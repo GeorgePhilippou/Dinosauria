@@ -1,0 +1,169 @@
+{
+  "id": "allosaurus",
+  "name": "Allosaurus",
+  "profile": {
+    "overview": [
+      "Allosaurus fragilis was the dominant predator of the Late Jurassic Morrison Formation, reaching nearly ten metres and 2.7 tonnes. Its wide-opening jaws were used in a distinctive axe-strike attack — driving the upper jaw downward into prey — rather than the crushing bite of a tyrannosaur, allowing it to wound and incapacitate animals far larger than itself.",
+      "Dozens of specimens are known, making it one of the best-studied large theropods. The Cleveland-Lloyd Quarry in Utah has yielded over 70 individuals — probably a predator trap accumulation. Direct fossil evidence of predator-prey interaction with Stegosaurus survives as reciprocal bone injuries on both species."
+    ],
+    "fossilSites": [
+      {
+        "name": "Morrison Formation — Cleveland-Lloyd Quarry",
+        "region": "Emery County, Utah, USA",
+        "lat": 39.3,
+        "lon": -110.7,
+        "note": "The most productive Allosaurus site worldwide; over 70 individuals, probable predator trap."
+      },
+      {
+        "name": "Morrison Formation — Dinosaur National Monument",
+        "region": "Utah/Colorado, USA",
+        "lat": 40.4,
+        "lon": -109.3,
+        "note": "Classic Morrison bone quarry with Allosaurus alongside Stegosaurus, Camarasaurus and Diplodocus."
+      },
+      {
+        "name": "Lourinhã Formation",
+        "region": "Lourinhã, Portugal",
+        "lat": 39.2,
+        "lon": -9.3,
+        "note": "Late Jurassic Portuguese deposits with Allosaurus europaeus, showing a trans-Atlantic distribution."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Carnosauria",
+        "Allosauridae",
+        "Allosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Carnosauria",
+          "label": "Carcharodontosauridae"
+        },
+        {
+          "from": "Tetanurae",
+          "label": "Spinosauridae"
+        },
+        {
+          "from": "Tetanurae",
+          "label": "Coelurosauria"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Named by Marsh in 1877 from fragmentary material, Allosaurus became properly known through numerous Morrison Formation quarries. \"Big Al\" — a 95% complete juvenile from Wyoming (1991) — and \"Big Al Two\" (2002) provided exceptional anatomical and pathological detail. A. jimmadseni (named 2020) is now recognised as a slightly older, distinct species from earlier Morrison strata."
+      },
+      {
+        "title": "Feeding mechanics",
+        "body": "Biomechanical analysis shows relatively low bite force for its size but an extremely wide gape (up to 79°). The axe-strike hypothesis — driving the upper jaw into prey like a hatchet — is supported by skull kinetics studies. Three large curved hand claws gripped prey during the strike. An Allosaurus vertebra pierced by a Stegosaurus tail spike, and Stegosaurus plates bearing Allosaurus tooth marks, are the most direct evidence of predator-prey interaction in the Morrison."
+      },
+      {
+        "title": "Population biology",
+        "body": "Growth ring analysis shows adult size was reached in 15–20 years, with mortality peaking at intermediate juvenile stages. The Cleveland-Lloyd concentration — animals attracted to mired prey over years — implies Allosaurus was at times an opportunistic scavenger as well as an active hunter. It was sympatric with Ceratosaurus and the rarer Torvosaurus, likely occupying distinct prey-size niches."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Allosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html"
+      },
+      {
+        "label": "BLM: Cleveland-Lloyd Dinosaur Quarry / Jurassic National Monument",
+        "url": "https://www.blm.gov/programs/national-conservation-lands/utah/jurassic-national-monument/explore"
+      },
+      {
+        "label": "Open access: Cleveland-Lloyd taphonomic framework",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5463971/"
+      },
+      {
+        "label": "Museum of the Rockies: Big Al display context",
+        "url": "https://museumoftherockies.org/exhibitions/siebel-dinosaur-complex"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Morrison Formation, western USA; also reported from Portugal",
+    "material": "Many skulls and partial to near-complete skeletons, including large quarry samples.",
+    "completeness": "Very well represented",
+    "paleo": "Late Jurassic Morrison floodplains with sauropods, stegosaurs and other theropods.",
+    "evidence": "Skulls, teeth, limb bones and healed injuries support interpretations of feeding, growth and predatory behaviour."
+  },
+  "remainsImage": {
+    "file": "Big Al Allosaurus.jpg",
+    "label": "Big Al Allosaurus skeleton",
+    "note": "Nearly complete Allosaurus skeleton on display at the Museum of the Rockies."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "about 155-148 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Allosauroidea",
+        "Allosauridae"
+      ],
+      "description": "Allosaurus was a large allosaurid theropod abundant in the Morrison Formation of western North America. Many skulls and skeletons document its anatomy and growth, although the boundaries and diagnoses of named species remain under active revision.",
+      "facts": [
+        "A. fragilis and A. jimmadseni are widely recognised North American species.",
+        "Bonebeds and healed injuries provide population-level evidence but do not establish pack hunting or a single feeding strategy."
+      ]
+    },
+    "ageReviewNote": "Secure North American material is Kimmeridgian-Tithonian in the Morrison Formation.",
+    "sources": [
+      {
+        "type": "species-description",
+        "citation": "Chure & Loewen (2020), Cranial anatomy of Allosaurus jimmadseni",
+        "url": "https://doi.org/10.7717/peerj.7803"
+      },
+      {
+        "type": "cranial-anatomy",
+        "citation": "Evers et al. (2020), Notes on the cheek region of the Late Jurassic theropod dinosaur Allosaurus",
+        "url": "https://doi.org/10.7717/peerj.8493"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: allosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Species taxonomy and historical referrals require specimen-level treatment.",
+      "Social and hunting behaviour are not directly established."
+    ],
+    "evidence": {
+      "score": 96,
+      "material": "Many partial to near-complete skeletons and skulls from numerous individuals.",
+      "formations": [
+        "Morrison Formation"
+      ],
+      "confidenceLimit": "Anatomy is exceptionally well sampled; species assignment, maximum mass and behaviour carry more uncertainty.",
+      "uncertainties": [
+        "Species taxonomy and historical referrals require specimen-level treatment.",
+        "Social and hunting behaviour are not directly established."
+      ],
+      "summary": "Allosaurus was a large allosaurid theropod abundant in the Morrison Formation of western North America. Many skulls and skeletons document its anatomy and growth, although the boundaries and diagnoses of named species remain under active revision.",
+      "sourceBasis": "Chure & Loewen (2020), Cranial anatomy of Allosaurus jimmadseni; Evers et al. (2020), Notes on the cheek region of the Late Jurassic theropod dinosaur Allosaurus; Natural History Museum, Dino Directory: allosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

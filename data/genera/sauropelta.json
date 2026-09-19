@@ -1,0 +1,124 @@
+{
+  "id": "sauropelta",
+  "name": "Sauropelta",
+  "profile": {
+    "overview": [
+      "Sauropelta edwardsorum was a large nodosaurid ankylosaur from the Early Cretaceous Cloverly Formation of Montana and Wyoming (~108–110 Ma), reaching about five metres and protected by rows of keeled bony scutes and large spines projecting from the sides of the neck and shoulders. Unlike ankylosaurids, nodosaurids like Sauropelta lacked a tail club and relied entirely on passive armour for protection.",
+      "Sauropelta is among the most completely known nodosaurids, allowing detailed reconstruction of its armour arrangement. The prominent lateral neck spines — projecting outward from the sides of the neck — would have been hazardous for any predator attempting to bite the neck from the side, the most vulnerable region for a heavily armoured quadruped."
+    ],
+    "fossilSites": [
+      {
+        "name": "Cloverly Formation",
+        "region": "Montana and Wyoming, USA",
+        "lat": 46,
+        "lon": -108,
+        "note": "Early Cretaceous (Aptian–Albian) fluvial deposits with Sauropelta material and contemporaneous Deinonychus fossils."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Nodosauridae",
+        "Sauropelta"
+      ],
+      "sideBranches": [
+        {
+          "from": "Nodosauridae",
+          "label": "Polacanthus (European)"
+        },
+        {
+          "from": "Ankylosauria",
+          "label": "Ankylosauridae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Named by John Ostrom in 1970 from Cloverly Formation material — the same formation that yielded the Deinonychus specimens that sparked the Dinosaur Renaissance. Sauropelta and Deinonychus were thus both described by Ostrom from the same unit, providing an ecological snapshot of Early Cretaceous Montana. The species name honours the Edwards family on whose ranch the material was found."
+      },
+      {
+        "title": "Armour system",
+        "body": "Sauropelta's armour includes large keeled scutes over the back and sides, smaller flat ossicles filling the gaps, and prominent neck spines. The entire system was embedded in skin rather than attached to bone, forming a flexible mosaic that could accommodate body movement. The neck spines are particularly prominent — oriented laterally to protect the neck from attack."
+      },
+      {
+        "title": "Nodosaurid ecology",
+        "body": "Without a tail club, Sauropelta's defence was entirely passive: heavy armour covering the dorsal surface and flanks, combined with a low centre of gravity that would make flipping difficult for even large theropods. Nodosaurids were predominantly low browsers, feeding on ground-level vegetation with their relatively narrow beaks."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Sauropelta profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/sauropelta.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Cloverly Formation, Wyoming/Montana, USA",
+    "material": "Skeletons with armour and shoulder-spine material.",
+    "completeness": "Good ankylosaur material",
+    "paleo": "Early Cretaceous North American terrestrial deposits.",
+    "evidence": "Armour plates and long shoulder spines define this nodosaurid ankylosaur."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Early Cretaceous",
+      "mya": "Aptian-Albian, about 115-105 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Nodosauridae"
+      ],
+      "description": "Sauropelta edwardsorum was a nodosaurid from the Cloverly Formation of Wyoming and Montana, represented by a partial skeleton and additional specimens with extensive armour.",
+      "facts": [
+        "Large shoulder spines and rows of osteoderms are directly represented, but full armour placement is composite.",
+        "It lacked an ankylosaurid-style tail club."
+      ]
+    },
+    "ageReviewNote": "The Cloverly sample is Aptian-Albian and not a genus lifespan to 100 Ma.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Carpenter (1984), skeletal reconstruction and armour of Sauropelta",
+        "url": "https://www.biodiversitylibrary.org/page/52128534"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: sauropelta",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/sauropelta.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Skull material and association of armour among individuals are incomplete."
+    ],
+    "evidence": {
+      "score": 73,
+      "material": "Several partial skeletons, including substantial postcranium and osteoderms.",
+      "formations": "Cloverly Formation, Wyoming and Montana, USA.",
+      "confidenceLimit": "Armour layout and body mass are reconstructed across specimens.",
+      "uncertainties": [
+        "armour association",
+        "skull completeness"
+      ],
+      "summary": "Sauropelta edwardsorum was a nodosaurid from the Cloverly Formation of Wyoming and Montana, represented by a partial skeleton and additional specimens with extensive armour.",
+      "sourceBasis": "Carpenter (1984), skeletal reconstruction and armour of Sauropelta; Natural History Museum Dino Directory: sauropelta"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

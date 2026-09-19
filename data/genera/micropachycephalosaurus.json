@@ -1,0 +1,131 @@
+{
+  "id": "micropachycephalosaurus",
+  "name": "Micropachycephalosaurus",
+  "profile": {
+    "overview": [
+      "Micropachycephalosaurus was a very small ornithischian dinosaur that lived during the Late Cretaceous (Campanian), approximately 75 million years ago, in what is now Shandong Province, China. Estimated at only about 0.5–1 metre in length, it is one of the smallest known Cretaceous dinosaurs. The type and only species is Micropachycephalosaurus hongtuyanensis, which holds the distinction of having the longest name of any dinosaur — 23 letters in the genus name alone.",
+      "Described in 1978 by Dong Zhiming, Micropachycephalosaurus was originally interpreted as a small pachycephalosaur (dome-headed dinosaur), but subsequent analyses have suggested it may instead be a basal marginocephalian or even a ceratopsian rather than a pachycephalosaur. This taxonomic uncertainty partly reflects the limited and fragmentary nature of the material. Its phylogenetic placement remains unresolved and it is considered by some researchers to be a nomen dubium."
+    ],
+    "fossilSites": [
+      {
+        "name": "Jiangjunding Formation",
+        "region": "Shandong Province, China",
+        "lat": 36,
+        "lon": 117,
+        "note": "The holotype fragmentary material of Micropachycephalosaurus hongtuyanensis was recovered from Late Cretaceous deposits in Shandong Province."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Marginocephalia",
+        "Micropachycephalosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Marginocephalia",
+          "label": "Pachycephalosauria"
+        },
+        {
+          "from": "Marginocephalia",
+          "label": "Ceratopsia"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Micropachycephalosaurus hongtuyanensis was described in 1978 by Dong Zhiming, one of China's leading vertebrate palaeontologists. The genus name combines Greek and Latin elements meaning 'small thick-headed lizard', in reference to its presumed pachycephalosaur affinities and tiny size. The species name hongtuyanensis refers to the Hongtuyangou locality in Shandong where the fossils were found. Its full binomial name of 37 letters gives it the distinction of the longest name of any dinosaur."
+      },
+      {
+        "title": "Taxonomic Uncertainty",
+        "body": "When originally described, Micropachycephalosaurus was placed in Pachycephalosauria, the dome-headed dinosaurs. However, subsequent phylogenetic analyses have challenged this placement, with some researchers suggesting it may be a basal ceratopsian or a more basal marginocephalian outside both Pachycephalosauria and Ceratopsia. The fragmentary nature of the material means that this uncertainty may not be fully resolved without new, better-preserved specimens."
+      },
+      {
+        "title": "Tiny Size",
+        "body": "Micropachycephalosaurus is among the smallest known Cretaceous dinosaurs, with estimates of adult body length typically below 1 metre. If it was indeed a pachycephalosaur, its tiny size would contrast with most members of that group, which were generally larger. Its small stature likely meant it fed on low-growing vegetation or possibly invertebrates, and it would have been prey for many of the carnivorous dinosaurs of its time."
+      },
+      {
+        "title": "Record-Breaking Nomenclature",
+        "body": "The genus name Micropachycephalosaurus is the longest of any dinosaur genus, with 23 letters, while the full species name Micropachycephalosaurus hongtuyanensis totals 37 letters in the binomial. This distinction has made it a popular trivia fact in palaeontology, though scientifically it reflects nothing beyond the normal conventions for naming taxa after their morphology and locality."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Micropachycephalosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/micropachycephalosaurus.html"
+      },
+      {
+        "label": "Wikipedia: Micropachycephalosaurus",
+        "url": "https://en.wikipedia.org/wiki/Micropachycephalosaurus"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Jiangjunding Formation, Shandong Province, China",
+    "material": "This taxonomic uncertainty partly reflects the limited and fragmentary nature of the material.",
+    "completeness": "Fragmentary material only; 1 PBDB occurrence records.",
+    "paleo": "The holotype fragmentary material of Micropachycephalosaurus hongtuyanensis was recovered from Late Cretaceous deposits in Shandong Province.",
+    "evidence": "Described in 1978 by Dong Zhiming, Micropachycephalosaurus was originally interpreted as a small pachycephalosaur (dome-headed dinosaur), but subsequent analyses have suggested it may instead be a basal marginocephalian or even a ceratopsian rather than a pachycephalosaur."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Campanian, about 84-72 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Cerapoda incertae sedis"
+      ],
+      "description": "Micropachycephalosaurus hongtuyanensis is a very fragmentary small ornithischian from the Wangshi Group of Shandong, China. Redescription found it diagnosable but found no character demonstrating that it was a pachycephalosaur.",
+      "facts": [
+        "The holotype consists principally of incomplete vertebral, pelvic and hindlimb material.",
+        "Purported skull-roof bones could not be located for the modern revision.",
+        "The name does not establish a tiny dome-headed dinosaur; its position within Cerapoda is unresolved."
+      ]
+    },
+    "ageReviewNote": "The reviewed age follows the Campanian assignment of the Wangshi material; a narrower numerical range is not justified.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Butler & Zhao (2009), redescription of Micropachycephalosaurus and Wannanosaurus",
+        "url": "https://doi.org/10.1016/j.cretres.2008.03.002"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: micropachycephalosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/micropachycephalosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Its relationships cannot be resolved from the surviving material.",
+      "Some originally mentioned elements are missing."
+    ],
+    "evidence": {
+      "score": 22,
+      "material": "Extremely fragmentary postcranial holotype; reported skull-roof elements unavailable.",
+      "formations": "Wangshi Group, Shandong, China.",
+      "confidenceLimit": "Body shape, skull ornament and size beyond the preserved bones are mostly unknown.",
+      "uncertainties": [
+        "Cerapoda position",
+        "missing elements"
+      ],
+      "summary": "Micropachycephalosaurus hongtuyanensis is a very fragmentary small ornithischian from the Wangshi Group of Shandong, China. Redescription found it diagnosable but found no character demonstrating that it was a pachycephalosaur.",
+      "sourceBasis": "Butler & Zhao (2009), redescription of Micropachycephalosaurus and Wannanosaurus; Natural History Museum Dino Directory: micropachycephalosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "avimimus",
+  "name": "Avimimus",
+  "profile": {
+    "overview": [
+      "Avimimus portentosus (\"bird mimic\") was a small Late Cretaceous oviraptorosaur from Mongolia (~70 Ma), known for its highly bird-like proportions: a large rounded braincase, toothless beak, large eyes, and long slender hindlimbs. Its name reflects the striking resemblance to birds noticed by its describer, Kurzanov, in 1981.",
+      "A quill-attachment ridge on the ulna of Avimimus — one of the earliest such structures described in non-avian dinosaurs — suggests it bore arm feathers, consistent with its oviraptorosaur relationships. Its unusually large brain relative to body size places it among the most neurologically advanced non-avian dinosaurs known."
+    ],
+    "fossilSites": [
+      {
+        "name": "Nemegt Formation",
+        "region": "Ömnögovi Province, Mongolia",
+        "lat": 43.2,
+        "lon": 101,
+        "note": "Late Cretaceous fluvial deposits with multiple Avimimus specimens found in association, potentially indicating gregarious behaviour."
+      },
+      {
+        "name": "Djadokhta Formation",
+        "region": "Ömnögovi Province, Mongolia",
+        "lat": 44.1,
+        "lon": 103.8,
+        "note": "Campanian aeolian deposits with isolated Avimimus material."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Oviraptorosauria",
+        "Avimimus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Oviraptorosauria",
+          "label": "Oviraptor"
+        },
+        {
+          "from": "Oviraptorosauria",
+          "label": "Caudipteryx"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Described by Sergei Kurzanov in 1981 from Mongolian material collected by Soviet-Mongolian expeditions. The name \"Avimimus\" — bird mimic — reflects Kurzanov's view that the animal was extremely bird-like; he even briefly proposed it might have been a flier, though this was quickly discounted. A bone bed with multiple Avimimus individuals at one site suggests it may have been gregarious."
+      },
+      {
+        "title": "Anatomy",
+        "body": "The skull is proportionally large and rounded, with a toothless beak. The braincase is expanded relative to body size, one of the largest brain-to-body ratios in non-avian dinosaurs. The legs are long and gracile, optimised for fast running. The quill attachment ridge (calamus scar) on the ulna is interpreted as evidence of arm feathers."
+      },
+      {
+        "title": "Oviraptorosaur context",
+        "body": "Avimimus is among the more basal oviraptorosaurs phylogenetically, and understanding its position helps trace the evolution of the group. Oviraptorosaurs ranged from Avimimus and Caudipteryx to the giant Gigantoraptor (8 m, 1.4 tonnes). Most had beaks, crests and were probably omnivores to herbivores, occupying a diverse range of body sizes and ecological niches."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Avimimus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/avimimus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Nemegt Formation, Mongolia (formerly attributed to the Djadokhta Formation, since corrected)",
+    "material": "Partial skeletal material and a bonebed preserving many individuals.",
+    "completeness": "Partial but informative",
+    "paleo": "Late Cretaceous Mongolian floodplain ecosystems.",
+    "evidence": "Quill knobs on the arm bones and overall bird-like proportions document its close relationship to modern birds."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "about 72-66 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Maniraptora",
+        "Oviraptorosauria",
+        "Avimimidae"
+      ],
+      "description": "Avimimus portentosus was a small, long-legged oviraptorosaur from the Maastrichtian Nemegt Formation of Mongolia. It is represented by several partial skeletons, while a separate species, A. nemegtensis, is known from an older bonebed.",
+      "facts": [
+        "The type species combines toothless jaws, a fused hand and cursorial hind limbs.",
+        "Feathering is strongly expected from its oviraptorosaur relationships, but detailed plumage is not directly preserved in the principal specimens."
+      ]
+    },
+    "ageReviewNote": "A. portentosus is from the Maastrichtian Nemegt Formation; A. nemegtensis should be treated separately.",
+    "sources": [
+      {
+        "type": "cranial-anatomy",
+        "citation": "Tsuihiji et al. (2017), New information on the cranial morphology of Avimimus",
+        "url": "https://doi.org/10.1080/02724634.2017.1347177"
+      },
+      {
+        "type": "bonebed-study",
+        "citation": "Funston et al. (2016), The first oviraptorosaur bonebed",
+        "url": "https://doi.org/10.1038/srep35782"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: avimimus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/avimimus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Some historical referrals may belong to A. nemegtensis.",
+      "Diet and plumage details are inferred rather than directly preserved."
+    ],
+    "evidence": {
+      "score": 70,
+      "material": "Several incomplete cranial and postcranial skeletons.",
+      "formations": [
+        "Nemegt Formation"
+      ],
+      "confidenceLimit": "Complementary specimens support the body plan, but species assignment and soft tissues remain uncertain.",
+      "uncertainties": [
+        "Some historical referrals may belong to A. nemegtensis.",
+        "Diet and plumage details are inferred rather than directly preserved."
+      ],
+      "summary": "Avimimus portentosus was a small, long-legged oviraptorosaur from the Maastrichtian Nemegt Formation of Mongolia. It is represented by several partial skeletons, while a separate species, A. nemegtensis, is known from an older bonebed.",
+      "sourceBasis": "Tsuihiji et al. (2017), New information on the cranial morphology of Avimimus; Funston et al. (2016), The first oviraptorosaur bonebed; Natural History Museum, Dino Directory: avimimus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

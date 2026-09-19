@@ -1,0 +1,146 @@
+{
+  "id": "ceratosaurus",
+  "name": "Ceratosaurus",
+  "profile": {
+    "overview": [
+      "Ceratosaurus nasicornis was a medium-large Late Jurassic theropod of the Morrison Formation, about six metres long, recognised by a prominent nasal horn, smaller paired brow horns, and a unique row of small osteoderms along the dorsal midline. It coexisted with the larger and more common Allosaurus.",
+      "Ceratosaurus belongs to Ceratosauria — a lineage that diverged from the main tetanuran theropods early in the Jurassic. Its comparatively longer teeth and possible association with fish-bearing deposits have led to suggestions of a partially aquatic hunting strategy, though this remains debated."
+    ],
+    "fossilSites": [
+      {
+        "name": "Morrison Formation — Garden Park",
+        "region": "Fremont County, Colorado, USA",
+        "lat": 38.5,
+        "lon": -105.2,
+        "note": "Classic Morrison quarry system yielding the first known Ceratosaurus skulls and much of the type material."
+      },
+      {
+        "name": "Morrison Formation — Dry Mesa Quarry",
+        "region": "Delta County, Colorado, USA",
+        "lat": 38.8,
+        "lon": -108.1,
+        "note": "Large bone quarry with Ceratosaurus alongside Allosaurus, sauropods and stegosaurs."
+      },
+      {
+        "name": "Lourinhã Formation",
+        "region": "Lourinhã, Portugal",
+        "lat": 39.2,
+        "lon": -9.3,
+        "note": "Late Jurassic Portuguese deposits confirming Ceratosaurus had a trans-Atlantic Pangaean distribution."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Ceratosauria",
+        "Ceratosauridae",
+        "Ceratosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ceratosauria",
+          "label": "Abelisauridae"
+        },
+        {
+          "from": "Theropoda",
+          "label": "Tetanurae"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Named by O. C. Marsh in 1884 from a well-preserved skull and much of the skeleton found during the Bone Wars at Garden Park, Colorado. The dorsal osteoderms — small keeled bones along the back midline — are unique among large theropods and may have functioned in display. At least two species are recognised."
+      },
+      {
+        "title": "Anatomy and comparison with Allosaurus",
+        "body": "Ceratosaurus had four-fingered hands (Allosaurus had three) and proportionally longer teeth. Biomechanical work suggests its skull was less optimised for high bite force than that of Allosaurus but that its more flexible tail may have aided aquatic locomotion. The nasal horn is formed by fused nasals."
+      },
+      {
+        "title": "Niche partitioning with Allosaurus",
+        "body": "Allosaurus was far more common at most Morrison sites. Ceratosaurus may have hunted nearer water margins, taking fish and crocodylians as well as dinosaurian prey — a different ecological role within the same predator guild. Isotopic and bone pathology evidence offers partial support for this hypothesis."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Ceratosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/ceratosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Morrison Formation, USA; Lourinhã Formation, Portugal",
+    "material": "Several partial skeletons and skull material.",
+    "completeness": "Moderately represented",
+    "paleo": "Late Jurassic ecosystems shared with larger allosauroids and sauropod prey.",
+    "evidence": "Nasal horn, blade-like teeth and distinctive skull anatomy identify this ceratosaurian theropod."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "about 153-148 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Ceratosauria",
+        "Ceratosauridae"
+      ],
+      "description": "Ceratosaurus nasicornis was a horned ceratosaurian theropod from the Morrison Formation of western North America. The holotype preserves a skull and much of the skeleton; additional specimens improve coverage, while several proposed species and referrals remain disputed.",
+      "facts": [
+        "The midline nasal horn core and paired orbital rugosities are directly preserved.",
+        "A lateral row of small osteoderms is associated with the holotype, but their complete arrangement is unknown."
+      ]
+    },
+    "ageReviewNote": "Secure C. nasicornis material is Kimmeridgian-Tithonian in the Morrison Formation.",
+    "sources": [
+      {
+        "type": "monographic-description",
+        "citation": "Gilmore (1920), Osteology of the carnivorous Dinosauria in the United States National Museum",
+        "url": "https://repository.si.edu/handle/10088/10108"
+      },
+      {
+        "type": "theropod-systematics",
+        "citation": "Carrano, Benson & Sampson (2012), The phylogeny of Tetanurae and comparative theropod taxonomy",
+        "url": "https://doi.org/10.1080/14772019.2011.630927"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: ceratosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/ceratosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "C. dentisulcatus and C. magnicornis may not be distinct species.",
+      "European and African referrals are debated."
+    ],
+    "evidence": {
+      "score": 82,
+      "material": "One substantial partial skull and skeleton plus several incomplete referred individuals.",
+      "formations": [
+        "Morrison Formation"
+      ],
+      "confidenceLimit": "Core anatomy is strong; species boundaries, armour layout, maximum size and ecology are less secure.",
+      "uncertainties": [
+        "C. dentisulcatus and C. magnicornis may not be distinct species.",
+        "European and African referrals are debated."
+      ],
+      "summary": "Ceratosaurus nasicornis was a horned ceratosaurian theropod from the Morrison Formation of western North America. The holotype preserves a skull and much of the skeleton; additional specimens improve coverage, while several proposed species and referrals remain disputed.",
+      "sourceBasis": "Gilmore (1920), Osteology of the carnivorous Dinosauria in the United States National Museum; Carrano, Benson & Sampson (2012), The phylogeny of Tetanurae and comparative theropod taxonomy; Natural History Museum, Dino Directory: ceratosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

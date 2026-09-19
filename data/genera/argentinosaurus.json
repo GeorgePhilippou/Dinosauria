@@ -1,0 +1,143 @@
+{
+  "id": "argentinosaurus",
+  "name": "Argentinosaurus",
+  "profile": {
+    "overview": [
+      "Argentinosaurus huinculensis is one of the candidates for the largest land animal that has ever existed, from the Cenomanian of Patagonia (~96 Ma). Known from fragmentary remains — several dorsal vertebrae, a tibia and rib fragments — size estimates based on scaling from these elements suggest a body length of 30–40 metres and a mass of 70–80 tonnes or more, though the uncertainty ranges are very wide given the incompleteness of the material.",
+      "The fragmentary nature of Argentinosaurus makes precise size determination difficult, and it has been challenged for the \"largest dinosaur\" title by Patagotitan mayorum (described 2017, known from much more complete material) and possibly Notocolossus. What is clear is that Argentinosaurus represents the upper end of titanosaur gigantism, living in the same ecosystem as the giant theropod Giganotosaurus."
+    ],
+    "fossilSites": [
+      {
+        "name": "Huincul Formation",
+        "region": "Neuquén Province, Patagonia, Argentina",
+        "lat": -38.5,
+        "lon": -68,
+        "note": "Cenomanian continental deposits with the fragmentary Argentinosaurus material alongside Giganotosaurus in the same unit."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Titanosauria",
+        "Argentinosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Titanosauria",
+          "label": "Dreadnoughtus"
+        },
+        {
+          "from": "Titanosauria",
+          "label": "Patagotitan"
+        },
+        {
+          "from": "Titanosauria",
+          "label": "Saltasaurus"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "Rodolfo Coria and José Bonaparte described Argentinosaurus huinculensis in 1993 from material found by rancher Guillermo Heredia on his property in Neuquén Province. The dorsal vertebrae alone are over 1.5 metres tall. Despite the fragmentary record, the sheer scale of the elements is unmistakable."
+      },
+      {
+        "title": "Size estimation challenges",
+        "body": "Scaling from single elements (tibia, vertebrae) to whole-body mass introduces large errors because different size scaling equations give very different results. Published mass estimates for Argentinosaurus range from 60 to 110 tonnes, with 70–80 tonnes being the most frequently cited. Until more complete material is found, the true maximum size cannot be determined with confidence."
+      },
+      {
+        "title": "Predator-prey interaction",
+        "body": "The co-occurrence of Argentinosaurus in the Huincul Formation with Giganotosaurus — one of the largest carnivorous dinosaurs — in the same stratigraphic unit has prompted speculation about predator-prey relationships. Whether Giganotosaurus regularly attacked healthy Argentinosaurus adults (which would have been nearly invulnerable at maximum size) or focused on juveniles, sick individuals and carcasses remains unknown."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Argentinosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/argentinosaurus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Huincul Formation, Argentina",
+    "material": "Fragmentary giant sauropod material, especially vertebrae and limb elements.",
+    "completeness": "Fragmentary",
+    "paleo": "Cretaceous Patagonian terrestrial ecosystems with large titanosaurs and theropods.",
+    "evidence": "Gigantic vertebrae and limb bones are the basis for its extreme size estimates."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "about 96-93 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Neosauropoda",
+        "Macronaria",
+        "Titanosauria",
+        "Colossosauria"
+      ],
+      "description": "Argentinosaurus huinculensis was a giant titanosaur from the Huincul Formation of Patagonia. Despite its fame, it is known from a small set of enormous vertebrae, ribs and limb-girdle elements; precise maximum length and mass are highly extrapolative.",
+      "facts": [
+        "The holotype includes several dorsal vertebrae, part of the sacrum, an anterior caudal, ribs and a right tibia.",
+        "A giant femoral shaft often discussed with it is not securely associated with the holotype."
+      ],
+      "length": null,
+      "massKg": null
+    },
+    "ageReviewNote": "The lower Huincul Formation is late Cenomanian to early Turonian.",
+    "sources": [
+      {
+        "type": "biomechanical-reconstruction",
+        "citation": "Sellers et al. (2013), March of the titans: locomotor capabilities of Argentinosaurus",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3864407/"
+      },
+      {
+        "type": "giant-sauropod-review",
+        "citation": "Carballido et al. (2023), A new giant titanosaur and the evolution of gigantism",
+        "url": "https://www.app.pan.pl/archive/published/app68/app010862023.pdf"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: argentinosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/argentinosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "No skull or complete limb is known.",
+      "Some referred elements may not belong to the genus.",
+      "Its exact titanosaurian position varies."
+    ],
+    "evidence": {
+      "score": 45,
+      "material": "One very incomplete giant postcranial skeleton; some referred giant bones are uncertain.",
+      "formations": [
+        "Huincul Formation"
+      ],
+      "confidenceLimit": "Extreme incompleteness makes length and especially mass estimates model-dependent.",
+      "uncertainties": [
+        "No skull or complete limb is known.",
+        "Some referred elements may not belong to the genus.",
+        "Its exact titanosaurian position varies."
+      ],
+      "summary": "Argentinosaurus huinculensis was a giant titanosaur from the Huincul Formation of Patagonia. Despite its fame, it is known from a small set of enormous vertebrae, ribs and limb-girdle elements; precise maximum length and mass are highly extrapolative.",
+      "sourceBasis": "Sellers et al. (2013), March of the titans: locomotor capabilities of Argentinosaurus; Carballido et al. (2023), A new giant titanosaur and the evolution of gigantism; Natural History Museum, Dino Directory: argentinosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

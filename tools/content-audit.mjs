@@ -12,14 +12,14 @@ const DATA_FILES = [
   'data/pbdb-enrichment.js',
   'data/wiki-enrichment.js',
   'data/content-overrides.js',
-  'data/scientific-reviews.js',
-  'data/scientific-baseline-audit.js',
-  'data/review-batches/reviews-a-c.js',
-  'data/review-batches/reviews-d-l.js',
-  'data/review-batches/reviews-m-r.js',
-  'data/review-batches/reviews-s-z.js',
-  'data/review-batches/reviews-s-z-remainder.js',
-  'data/review-batches/merge-reviews.js'
+  'data/legacy/scientific-reviews.js',
+  'data/legacy/scientific-baseline-audit.js',
+  'data/legacy/review-batches/reviews-a-c.js',
+  'data/legacy/review-batches/reviews-d-l.js',
+  'data/legacy/review-batches/reviews-m-r.js',
+  'data/legacy/review-batches/reviews-s-z.js',
+  'data/legacy/review-batches/reviews-s-z-remainder.js',
+  'data/legacy/review-batches/merge-reviews.js'
 ];
 
 function assert(condition, message) {

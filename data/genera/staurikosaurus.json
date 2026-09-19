@@ -1,0 +1,137 @@
+{
+  "id": "staurikosaurus",
+  "name": "Staurikosaurus",
+  "profile": {
+    "overview": [
+      "Staurikosaurus (meaning 'Southern Cross lizard') was one of the earliest known dinosaurs, living during the Late Triassic approximately 227–221 million years ago in what is now southern Brazil. It was a small, lightly built biped about 2 metres long, classified within Herrerasauridae — a group of very early saurischian dinosaurs whose exact phylogenetic position (whether basal theropods or a separate early saurischian lineage) has long been debated. Its discovery was pivotal in establishing that carnivorous dinosaurs were already present in South America by the early Late Triassic.",
+      "Named by Edwin Colbert in 1970 from material collected earlier in Brazil, Staurikosaurus pricei is known from a partial skeleton that preserves much of the vertebral column, pelvis, and hindlimbs. It is among a small cohort of Triassic dinosaurs — including Eoraptor and Herrerasaurus from Argentina — that document the earliest phases of dinosaur evolution. Its study has been instrumental in understanding the body plan of the dinosaurian common ancestor."
+    ],
+    "fossilSites": [
+      {
+        "name": "Santa Maria Formation (Alemoa Member)",
+        "region": "Rio Grande do Sul, Brazil",
+        "lat": -29.5,
+        "lon": -53.5,
+        "note": "The holotype was discovered in the Carnian-age Santa Maria Formation, one of the richest sources of early dinosaurs and dinosaur precursors in the world."
+      },
+      {
+        "name": "Ischigualasto / Chañares Formation equivalents",
+        "region": "South America (correlative)",
+        "lat": -29,
+        "lon": -67.5,
+        "note": "Contemporaneous Carnian formations in Argentina have yielded close relatives including Herrerasaurus, indicating a shared early dinosaur fauna across southern Gondwana."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Herrerasauridae",
+        "Staurikosaurus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Herrerasauridae",
+          "label": "Herrerasaurus"
+        },
+        {
+          "from": "Saurischia",
+          "label": "Theropoda"
+        },
+        {
+          "from": "Saurischia",
+          "label": "Sauropodomorpha"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and Naming",
+        "body": "Staurikosaurus pricei was named by Edwin Colbert in 1970 from material originally collected by Llewellyn Ivor Price in southern Brazil. The genus name references the Southern Cross constellation (Crux Australis), visible in the southern skies over Brazil; the species honours Price. The holotype partial skeleton was found in the Late Triassic Santa Maria Formation of Rio Grande do Sul."
+      },
+      {
+        "title": "One of the Earliest Dinosaurs",
+        "body": "At approximately 228–225 million years old, Staurikosaurus is among the very earliest known dinosaurs. This places it near the origin of the entire dinosaur lineage, which most evidence suggests arose in South America or Gondwana during the Carnian stage of the Late Triassic. Studying Staurikosaurus helps palaeontologists understand what the ancestral dinosaur body plan looked like before the major lineages (Theropoda, Sauropodomorpha, Ornithischia) diverged."
+      },
+      {
+        "title": "Herrerasaurid Classification Debate",
+        "body": "Herrerasauridae, the family to which Staurikosaurus belongs, occupies an uncertain position in the dinosaur family tree. Some analyses place herrerasaurids as the most basal saurischians, others as early theropods, and still others as a sister group to all other dinosaurs. The fragmentary material available for Staurikosaurus has made it difficult to resolve these questions definitively."
+      },
+      {
+        "title": "Triassic Ecosystem",
+        "body": "The Santa Maria Formation preserves a diverse Triassic fauna including rhynchosaurs, cynodonts, aetosaurs, and rauisuchians alongside the early dinosaurs Staurikosaurus and Saturnalia. These non-dinosaur archosaurs and mammal relatives dominated the ecosystem; dinosaurs were just one of many groups vying for ecological space during the Triassic."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Staurikosaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/staurikosaurus.html"
+      }
+    ],
+    "provenance": "ai-drafted"
+  },
+  "fossilRecord": {
+    "formations": "Santa Maria Formation (Alemoa Member), Rio Grande do Sul, Brazil; Ischigualasto / Chañares Formation equivalents, South America (correlative)",
+    "material": "The holotype partial skeleton was found in the Late Triassic Santa Maria Formation of Rio Grande do Sul.",
+    "completeness": "Partial skeletal material known; 2 PBDB occurrence records.",
+    "paleo": "The holotype was discovered in the Carnian-age Santa Maria Formation, one of the richest sources of early dinosaurs and dinosaur precursors in the world.",
+    "evidence": "Named by Edwin Colbert in 1970 from material collected earlier in Brazil, Staurikosaurus pricei is known from a partial skeleton that preserves much of the vertebral column, pelvis, and hindlimbs."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Triassic",
+      "mya": "Carnian, about 233 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Herrerasauria",
+        "Herrerasauridae"
+      ],
+      "description": "Staurikosaurus pricei was a small herrerasaurid from the Santa Maria Formation of Brazil, known from one incomplete skeleton with jaw and postcranial material.",
+      "facts": [
+        "It is substantially older than the catalogue range of 227-221 Ma.",
+        "Carnivory and bipedality are supported, but skull and forelimb anatomy are incomplete."
+      ]
+    },
+    "ageReviewNote": "Radiometric and biostratigraphic work places the type in the Carnian near 233 Ma.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Bittencourt & Kellner (2009), anatomy and relationships of Staurikosaurus",
+        "url": "https://doi.org/10.11646/zootaxa.2079.1.1"
+      },
+      {
+        "type": "authoritative-museum",
+        "citation": "Natural History Museum Dino Directory: staurikosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/staurikosaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Herrerasaur placement relative to Dinosauria varies among analyses."
+    ],
+    "evidence": {
+      "score": 60,
+      "material": "Single incomplete skeleton with lower jaw, vertebrae, pelvis and hindlimbs.",
+      "formations": "Santa Maria Formation, Rio Grande do Sul, Brazil.",
+      "confidenceLimit": "Much of the skull, forelimbs and exact adult size are unknown.",
+      "uncertainties": [
+        "herrerasaur phylogeny",
+        "missing anatomy"
+      ],
+      "summary": "Staurikosaurus pricei was a small herrerasaurid from the Santa Maria Formation of Brazil, known from one incomplete skeleton with jaw and postcranial material.",
+      "sourceBasis": "Bittencourt & Kellner (2009), anatomy and relationships of Staurikosaurus; Natural History Museum Dino Directory: staurikosaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

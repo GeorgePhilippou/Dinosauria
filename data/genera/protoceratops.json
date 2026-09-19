@@ -1,0 +1,134 @@
+{
+  "id": "protoceratops",
+  "name": "Protoceratops",
+  "profile": {
+    "overview": [
+      "Protoceratops andrewsi was a small sheep-sized ceratopsian (~1.8 m) from the Campanian of Mongolia (~75 Ma), known from hundreds of specimens including eggs, embryos and every growth stage — the most complete growth series of any non-avian dinosaur outside Psittacosaurus. Roy Chapman Andrews' 1923 American Museum expeditions found the first dinosaur eggs ever confirmed as such alongside Protoceratops nests.",
+      "A famous specimen preserves Protoceratops and Velociraptor locked together in combat — the \"Fighting Dinosaurs\" — killed and buried simultaneously during a sandstorm or collapsing dune. Protoceratops had a neck frill but no horns — the skull shows the developmental trajectory from small frill in juveniles to large frill in adults, with males likely having larger frills than females."
+    ],
+    "fossilSites": [
+      {
+        "name": "Djadokhta Formation — Bayanzag (Flaming Cliffs)",
+        "region": "Ömnögovi Province, Mongolia",
+        "lat": 44.1,
+        "lon": 103.8,
+        "note": "Campanian aeolian dune deposits with hundreds of Protoceratops specimens and the first confirmed dinosaur nests and eggs."
+      },
+      {
+        "name": "Djadokhta Formation — Tögrögiin Shiree",
+        "region": "Ömnögovi Province, Mongolia",
+        "lat": 43.8,
+        "lon": 103.6,
+        "note": "Site of the \"Fighting Dinosaurs\" specimen preserving Protoceratops and Velociraptor in mortal combat."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Ornithischia",
+        "Marginocephalia",
+        "Ceratopsia",
+        "Protoceratopsidae",
+        "Protoceratops"
+      ],
+      "sideBranches": [
+        {
+          "from": "Ceratopsia",
+          "label": "Psittacosauridae (earlier, more basal)"
+        },
+        {
+          "from": "Ceratopsia",
+          "label": "Ceratopsidae (Triceratops etc.)"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Andrews and the first eggs",
+        "body": "Roy Chapman Andrews' Central Asiatic Expeditions (1922–1930) found the first confirmed dinosaur eggs at Bayanzag. Initially attributed to a large theropod hypothesised to prey on Protoceratops, the eggs were subsequently identified as Oviraptor eggs — and Oviraptor, previously thought a nest raider, was actually brooding its own eggs. Protoceratops eggs are now known but are smaller and different in shape."
+      },
+      {
+        "title": "Sexual dimorphism and frill",
+        "body": "Protoceratops shows two skull morphs in adult specimens: one with a taller, more elaborate frill and more robust nasal region; another with a shallower frill. These are tentatively interpreted as male and female, with the larger-frilled morph being male. The frill grew substantially through ontogeny, suggesting it was a socially significant display structure rather than a purely defensive shield."
+      },
+      {
+        "title": "Fighting Dinosaurs",
+        "body": "The ZPAL MgD-I/95 specimen — preserved in Mongolia since 1971 by Soviet-Mongolian expeditions — shows Velociraptor's hand claw embedded in Protoceratops's neck region while Protoceratops grips Velociraptor's right arm with its beak. Rapid burial by a collapsing sand dune is the most widely accepted explanation for simultaneous preservation of both animals in combat posture. It is one of the most spectacular behavioural snapshots in the entire fossil record."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Protoceratops profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/protoceratops.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Djadokhta and Barun Goyot formations, Mongolia/China",
+    "material": "Many skulls and skeletons, including juveniles and famous predator-prey association with Velociraptor.",
+    "completeness": "Very well represented",
+    "paleo": "Late Cretaceous Gobi Desert dune and interdune settings.",
+    "evidence": "Growth series, skulls and the Fighting Dinosaurs fossil document ceratopsian anatomy and ecology."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size, diet and locomotion confidence",
+      "major scientific uncertainty"
+    ],
+    "record": {
+      "period": "Late Cretaceous",
+      "mya": "Campanian, about 75-71 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ceratopsia",
+        "Neoceratopsia",
+        "Protoceratopsidae"
+      ],
+      "description": "Protoceratops andrewsi was a sheep-sized neoceratopsian from the Djadokhta Formation of Mongolia, known from abundant skulls and skeletons across growth stages.",
+      "facts": [
+        "The famous fighting specimen preserves direct interaction with Velociraptor.",
+        "Eggs historically assigned to Protoceratops were oviraptorosaur eggs; some genuine protoceratopsian nesting evidence is now known separately.",
+        "Large samples document growth, but strong sexual dimorphism in frill shape has not been demonstrated securely."
+      ]
+    },
+    "ageReviewNote": "The core P. andrewsi record is Campanian Djadokhta Formation; P. hellenikorhinus is a separate species from Bayan Mandahu.",
+    "sources": [
+      {
+        "type": "primary-literature",
+        "citation": "Brown & Schlaikjer (1940), anatomy and growth series of Protoceratops",
+        "url": "https://digitallibrary.amnh.org/items/427f573c-56ce-4dde-9a1d-6c4a3f66400c"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Maiorino et al. (2015), sexual dimorphism test in Protoceratops",
+        "url": "https://doi.org/10.1371/journal.pone.0126464"
+      }
+    ],
+    "residualUncertainty": [
+      "Species boundaries and purported sexual dimorphism continue to be tested.",
+      "Colour and social structure are unknown."
+    ],
+    "evidence": {
+      "score": 97,
+      "material": "Hundreds of skulls and skeletons from hatchling to adult stages, including exceptional articulated specimens.",
+      "formations": "Djadokhta Formation, Mongolia; related Bayan Mandahu species in China.",
+      "confidenceLimit": "Abundance supports anatomy and growth, not every claimed behaviour or sex difference.",
+      "uncertainties": [
+        "sexual dimorphism",
+        "species separation",
+        "sociality"
+      ],
+      "summary": "Protoceratops andrewsi was a sheep-sized neoceratopsian from the Djadokhta Formation of Mongolia, known from abundant skulls and skeletons across growth stages.",
+      "sourceBasis": "Brown & Schlaikjer (1940), anatomy and growth series of Protoceratops; Maiorino et al. (2015), sexual dimorphism test in Protoceratops"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

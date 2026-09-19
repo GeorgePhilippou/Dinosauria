@@ -1,0 +1,142 @@
+{
+  "id": "compsognathus",
+  "name": "Compsognathus",
+  "profile": {
+    "overview": [
+      "Compsognathus longipes was one of the smallest non-avian dinosaurs, about the size of a turkey (0.65–1 m), from the Late Jurassic Solnhofen Limestone of Germany (~150 Ma). For over a century it held the record as the smallest known dinosaur, and the first specimen described was the most complete theropod known at the time — providing crucial evidence that dinosaurs were slender, active animals rather than lumbering reptiles.",
+      "The Solnhofen lagoon-margin environment where Compsognathus is found also preserves Archaeopteryx, and the similarity between the two — a small feathered theropod and a small non-feathered theropod of similar size — fuelled early debates about the origin of birds. Its stomach contents in both known specimens include small lizards, confirming it was a fast active predator."
+    ],
+    "fossilSites": [
+      {
+        "name": "Solnhofen Limestone",
+        "region": "Bavaria, Germany",
+        "lat": 48.9,
+        "lon": 11.1,
+        "note": "Late Jurassic (Tithonian) lagoonal deposits famous for exceptional preservation; yields Compsognathus alongside Archaeopteryx and a diverse marine fauna."
+      },
+      {
+        "name": "Canjuers Limestone",
+        "region": "Var Department, France",
+        "lat": 43.7,
+        "lon": 6.3,
+        "note": "Late Jurassic lagoonal deposits with the larger French Compsognathus specimen."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Compsognathidae",
+        "Compsognathus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Compsognathidae",
+          "label": "Sinosauropteryx"
+        },
+        {
+          "from": "Coelurosauria",
+          "label": "Other early coelurosaur groups"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery",
+        "body": "The first specimen was found in Bavaria around 1859 and described by Johann Andreas Wagner in 1861, who initially classified it as a lizard. Thomas Henry Huxley recognised its dinosaurian nature and compared it to Archaeopteryx in 1868, arguing that it demonstrated the close relationship between dinosaurs and birds. A second, larger specimen from France described in 1978 may represent a distinct species (C. corallestris or a female with different proportions)."
+      },
+      {
+        "title": "Stomach contents and diet",
+        "body": "Both known specimens preserve the remains of small lizards in the stomach region. The German specimen contains a nearly complete skeleton of Bavarisaurus — a small, fast lizard — implying that Compsognathus was an active pursuit predator capable of catching agile prey. Its two-fingered hand (some relatives have three) shows early reduction of the hand in some coelurosaur lineages."
+      },
+      {
+        "title": "Size and significance",
+        "body": "Compsognathus was the smallest adult dinosaur known for over a century until the discovery of smaller species in the Cretaceous feathered dinosaur record from China. Its small size, fine bones and active lifestyle made it the archetypal \"bird-like\" non-avian dinosaur in Victorian science, and it features in Conan Doyle's The Lost World (1912) as the miniature dinosaurs encountered by the expedition."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Compsognathus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/compsognathus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Solnhofen Limestone, Bavaria, Germany; Canjuers Formation, France",
+    "material": "Two articulated skeletons with exceptional soft-tissue detail; one preserves stomach contents.",
+    "completeness": "Exceptional for a small theropod",
+    "paleo": "Late Jurassic shallow lagoon environments in what are now southern Germany and southern France.",
+    "evidence": "Stomach contents document its diet of small lizards; exquisite preservation confirms body outline and limb proportions."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Late Jurassic",
+      "mya": "about 150-145 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Coelurosauria",
+        "Compsognathidae"
+      ],
+      "description": "Compsognathus longipes was a small coelurosaur from the Tithonian lagoonal limestones of Germany and France. Two nearly complete skeletons of different sizes document its slender bipedal body; C. corallestris is generally treated as the same species.",
+      "facts": [
+        "The smaller German specimen contains lizard remains in its abdominal region, direct evidence of predation or scavenging.",
+        "The larger French specimen shows that the famously tiny German individual was not the maximum adult size."
+      ]
+    },
+    "ageReviewNote": "The Solnhofen and Canjuers lagoonal deposits are Tithonian.",
+    "sources": [
+      {
+        "type": "manual-anatomy",
+        "citation": "Gishlick (2007), Manual morphology of Compsognathus longipes and diagnosis of Compsognathidae",
+        "url": "https://doi.org/10.1111/j.1096-3642.2007.00269.x"
+      },
+      {
+        "type": "museum-specimen-record",
+        "citation": "Smithsonian Institution, Compsognathus longipes specimen record",
+        "url": "https://www.si.edu/object/nmnhpaleobiology_3451169"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: compsognathus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/compsognathus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "The ontogenetic stage of each specimen is debated.",
+      "No direct feather impressions are known for Compsognathus itself.",
+      "Compsognathid monophyly is contested."
+    ],
+    "evidence": {
+      "score": 90,
+      "material": "Two nearly complete skeletons, one with gut-region prey remains.",
+      "formations": [
+        "Solnhofen Limestone",
+        "Canjuers Lagerstaette"
+      ],
+      "confidenceLimit": "Two good skeletons support anatomy and small-prey feeding; growth stage, feathers and population size range remain uncertain.",
+      "uncertainties": [
+        "The ontogenetic stage of each specimen is debated.",
+        "No direct feather impressions are known for Compsognathus itself.",
+        "Compsognathid monophyly is contested."
+      ],
+      "summary": "Compsognathus longipes was a small coelurosaur from the Tithonian lagoonal limestones of Germany and France. Two nearly complete skeletons of different sizes document its slender bipedal body; C. corallestris is generally treated as the same species.",
+      "sourceBasis": "Gishlick (2007), Manual morphology of Compsognathus longipes and diagnosis of Compsognathidae; Smithsonian Institution, Compsognathus longipes specimen record; Natural History Museum, Dino Directory: compsognathus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "anchisaurus",
+  "name": "Anchisaurus",
+  "profile": {
+    "overview": [
+      "Anchisaurus was a small early sauropodomorph from the Early Jurassic of northeastern North America. It lived before the gigantic sauropods, at a stage when sauropodomorphs were still relatively light-bodied animals that could move actively on land.",
+      "The genus has a tangled naming history, replacing earlier names that were already occupied. PBDB records it from the Portland / Agawam unit in Connecticut and Massachusetts, making it part of the early Jurassic rift-basin dinosaur record of eastern North America."
+    ],
+    "fossilSites": [
+      {
+        "name": "Portland / Agawam Formation",
+        "region": "Connecticut and Massachusetts, USA",
+        "lat": 41.8,
+        "lon": -72.7,
+        "note": "PBDB-listed Early Jurassic source unit for Anchisaurus."
+      }
+    ],
+    "articles": [
+      {
+        "title": "Why it matters",
+        "body": "Anchisaurus captures sauropodomorphs before the full sauropod body plan: still small, active and close to the evolutionary transition toward giant quadrupedal herbivores."
+      },
+      {
+        "title": "Naming history",
+        "body": "Its history includes replacement names and taxonomic housekeeping, a reminder that early North American dinosaur nomenclature was often unstable."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Anchisaurus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/anchisaurus.html"
+      },
+      {
+        "label": "Wikipedia: Anchisaurus",
+        "url": "https://en.wikipedia.org/wiki/Anchisaurus"
+      },
+      {
+        "label": "PBDB: Anchisaurus",
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38637"
+      }
+    ]
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria A-C systematic scientific review",
+    "consensusScope": [
+      "accepted name and broad classification",
+      "geological age and formation",
+      "name-bearing and referred fossil material",
+      "skeletal-completeness wording",
+      "size, diet and locomotion confidence",
+      "profile narrative and residual uncertainty"
+    ],
+    "record": {
+      "period": "Early Jurassic",
+      "mya": "about 201-190 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Anchisauria"
+      ],
+      "description": "Anchisaurus polyzelus was a small early sauropodomorph from the Portland Formation of Connecticut and Massachusetts. Its anatomy is based on several incomplete skeletons, including the neotype YPM 1883; Ammosaurus is a junior synonym.",
+      "facts": [
+        "The accepted species spelling is polyzelus, not polyzelous.",
+        "The Manchester quarry material formerly named Ammosaurus major belongs to Anchisaurus in the modern revision."
+      ]
+    },
+    "ageReviewNote": "The Portland Formation material is Early Jurassic, broadly Hettangian-Sinemurian.",
+    "sources": [
+      {
+        "type": "systematic-revision",
+        "citation": "Yates (2010), Revision of the Manchester sauropodomorphs and status of Anchisaurus",
+        "url": "https://doi.org/10.1111/j.1475-4983.2010.00952.x"
+      },
+      {
+        "type": "nomenclatural-ruling",
+        "citation": "ICZN (2015), Opinion 2361: Anchisaurus polyzelus conserved by neotype designation",
+        "url": "https://www.biotaxa.org/bzn/article/view/37953"
+      },
+      {
+        "type": "authoritative-museum-reference",
+        "citation": "Natural History Museum, Dino Directory: anchisaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/anchisaurus.html"
+      }
+    ],
+    "residualUncertainty": [
+      "Its exact phylogenetic position near Sauropoda varies.",
+      "Some historical referrals require renewed comparison."
+    ],
+    "evidence": {
+      "score": 76,
+      "material": "Several incomplete skeletons, one substantially complete and designated as neotype.",
+      "formations": [
+        "Portland Formation"
+      ],
+      "confidenceLimit": "General anatomy is sound, but its precise mass and stance depend on reconstruction.",
+      "uncertainties": [
+        "Its exact phylogenetic position near Sauropoda varies.",
+        "Some historical referrals require renewed comparison."
+      ],
+      "summary": "Anchisaurus polyzelus was a small early sauropodomorph from the Portland Formation of Connecticut and Massachusetts. Its anatomy is based on several incomplete skeletons, including the neotype YPM 1883; Ammosaurus is a junior synonym.",
+      "sourceBasis": "Yates (2010), Revision of the Manchester sauropodomorphs and status of Anchisaurus; ICZN (2015), Opinion 2361: Anchisaurus polyzelus conserved by neotype designation; Natural History Museum, Dino Directory: anchisaurus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}

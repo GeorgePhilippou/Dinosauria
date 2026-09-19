@@ -1,0 +1,130 @@
+{
+  "id": "eodromaeus",
+  "name": "Eodromaeus",
+  "profile": {
+    "overview": [
+      "Eodromaeus murphi (\"dawn runner\") is one of the earliest known true theropods, described in 2011 from the Ischigualasto Formation of Argentina (~231 Ma). At 1.2 metres long and under 5 kg, it was a small, agile predator whose anatomy is remarkably close to what cladistic analysis predicts for the ancestral theropod — making it a crucial reference point for reconstructing the origin of the theropod lineage.",
+      "Found in the same beds as the larger Herrerasaurus and the herbivore Eoraptor, Eodromaeus lived at the very dawn of the dinosaur radiation. Its discovery helped clarify that Eoraptor was actually a basal sauropodomorph rather than a basal theropod, and that true theropods appear in the fossil record as small, fast predators right from the outset."
+    ],
+    "fossilSites": [
+      {
+        "name": "Ischigualasto Formation",
+        "region": "San Juan Province, Argentina",
+        "lat": -29.9,
+        "lon": -68,
+        "note": "Late Triassic (~231 Ma) beds with the most diverse early dinosaur fauna known, yielding Eodromaeus, Eoraptor and Herrerasaurus."
+      }
+    ],
+    "focusedClade": {
+      "trunk": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Eodromaeus"
+      ],
+      "sideBranches": [
+        {
+          "from": "Theropoda",
+          "label": "Coelophysoidea"
+        },
+        {
+          "from": "Theropoda",
+          "label": "Later large theropod lineages"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "title": "Discovery and significance",
+        "body": "Martinez and colleagues described Eodromaeus murphi in 2011, naming it for the \"dawn\" of the theropod lineage. Its skull preserves features consistent with basal theropod ancestry — including antorbital fenestrae, recurved serrated teeth and pneumatised skull bones. Its overall anatomy allowed researchers to reconsider whether Eoraptor (which lacks some theropod features) belonged in Theropoda at all."
+      },
+      {
+        "title": "Anatomy",
+        "body": "The skull is elongate and lightly built with large eye sockets. The hindlimbs are long and slender relative to body size, indicating a fast runner. Three large-clawed fingers were suited to grasping small prey. The cervical vertebrae are pneumatised — a character shared with later theropods and birds."
+      },
+      {
+        "title": "Early theropod ecology",
+        "body": "At 231 Ma, Eodromaeus lived in a world still recovering from the Carnian Pluvial Event. In the Ischigualasto fauna, small theropods like Eodromaeus coexisted with the larger Herrerasaurus and a variety of non-dinosaurian archosaurs. Eodromaeus was probably an insectivore and small vertebrate predator, occupying a niche that small theropods would maintain throughout the Mesozoic."
+      }
+    ],
+    "citations": [
+      {
+        "label": "NHM: Eodromaeus profile",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/eodromaeus.html"
+      }
+    ]
+  },
+  "fossilRecord": {
+    "formations": "Ischigualasto Formation, San Juan Province, Argentina",
+    "material": "Two partial skeletons preserving skulls and much of the postcranium.",
+    "completeness": "Good for an early theropod",
+    "paleo": "Late Triassic ecosystem of the Ischigualasto basin, one of the earliest well-known dinosaur faunas.",
+    "evidence": "A combination of theropod and more basal features places Eodromaeus near the base of the theropod lineage."
+  },
+  "review": {
+    "status": "reviewed",
+    "reviewedOn": "2026-07-16",
+    "reviewer": "Dinosauria editorial review",
+    "consensusScope": [
+      "accepted name and taxonomic status",
+      "geological age and formation",
+      "known material and skeletal completeness",
+      "broad classification",
+      "size-confidence limits",
+      "diet, locomotion and major uncertainty wording"
+    ],
+    "record": {
+      "period": "Late Triassic",
+      "mya": "late Carnian, approximately 231-229 million years ago",
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda?"
+      ],
+      "description": "Eodromaeus murphi was a small, lightly built early saurischian from the Ischigualasto Formation of Argentina. Several partial skeletons, including a substantial skull and limbs, support a bipedal animal close to the origin of Theropoda, although some analyses place it just outside the theropod crown.",
+      "facts": [
+        "Serrated, recurved teeth support small-prey carnivory.",
+        "The best specimens are substantial but not complete.",
+        "Its importance near the dinosaur root means classification remains sensitive to competing phylogenies."
+      ]
+    },
+    "ageReviewNote": "The Cancha de Bochas Member of the Ischigualasto Formation is radiometrically constrained near 231-229 Ma.",
+    "sources": [
+      {
+        "type": "original-description",
+        "citation": "Martinez et al. (2011), A basal dinosaur from the dawn of the dinosaur era",
+        "url": "https://doi.org/10.1126/science.1198467"
+      },
+      {
+        "type": "early-dinosaur-review",
+        "citation": "Langer et al. (2017), Untangling the dinosaur family tree",
+        "url": "https://doi.org/10.1038/nature24011"
+      },
+      {
+        "type": "authoritative-occurrence-context",
+        "citation": "Paleobiology Database taxon and occurrence context for Eodromaeus",
+        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Eodromaeus"
+      }
+    ],
+    "residualUncertainty": [
+      "Its placement as a basal theropod versus non-theropod saurischian remains debated.",
+      "Some skeletal associations and adult size are imperfectly known."
+    ],
+    "evidence": {
+      "score": 80,
+      "material": "Several partial skeletons including substantial cranial and appendicular remains.",
+      "formations": [
+        "Ischigualasto Formation, Cancha de Bochas Member"
+      ],
+      "confidenceLimit": "High for anatomy, age, bipedality and carnivory; moderate for root-level classification.",
+      "uncertainties": [
+        "phylogenetic position",
+        "adult size",
+        "specimen association"
+      ],
+      "summary": "Eodromaeus murphi was a small, lightly built early saurischian from the Ischigualasto Formation of Argentina. Several partial skeletons, including a substantial skull and limbs, support a bipedal animal close to the origin of Theropoda, although some analyses place it just outside the theropod crown.",
+      "sourceBasis": "Martinez et al. (2011), A basal dinosaur from the dawn of the dinosaur era; Langer et al. (2017), Untangling the dinosaur family tree; Paleobiology Database taxon and occurrence context for Eodromaeus"
+    },
+    "scientificDisposition": "reviewed"
+  }
+}
