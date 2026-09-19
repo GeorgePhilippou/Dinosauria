@@ -529,8 +529,10 @@ async function main() {
     assert(othnieliaEcologyText.includes('historical or synonymised name'), 'A rejected nomen dubium such as Othnielia should retain its historical-material warning.');
 
     await page.goto(`${BASE_URL}/index.html?smoke=mixed-size-provenance#dino/camarasaurus`, { waitUntil: 'load' });
-    const camarasaurusSizeText = (await page.locator('.interpretation-item').filter({ hasText: 'Body size' }).textContent()) || '';
-    assert(camarasaurusSizeText.includes('Source-reported estimate'), 'An inherited Camarasaurus length must remain source-reported when the review only clears mass.');
+    // Camarasaurus now carries a presentation block, so size provenance is
+    // voiced by its "Known size" life card rather than the inherited size row.
+    const camarasaurusSizeText = (await page.locator('.interpretation-item').filter({ hasText: 'Known size' }).textContent()) || '';
+    assert(/estimate/i.test(camarasaurusSizeText), 'The Camarasaurus size card must present mass as an estimate.');
     assert(!camarasaurusSizeText.includes('Reviewed approximate estimate'), 'A cleared reviewed mass field must not make an inherited length look reviewed.');
 
     for (const id of ['muttaburrasaurus', 'ouranosaurus', 'velociraptor', 'noasaurus', 'patagosaurus']) {

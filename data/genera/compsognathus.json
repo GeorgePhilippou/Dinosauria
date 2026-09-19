@@ -72,7 +72,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria A-C systematic scientific review",
     "consensusScope": [
       "accepted name and broad classification",
@@ -98,6 +98,124 @@
         "The larger French specimen shows that the famously tiny German individual was not the maximum adult size."
       ]
     },
+    "presentation": {
+      "heroLead": "A turkey-sized Late Jurassic predator from the Solnhofen lagoons, one of the first small dinosaurs ever found and long a benchmark for the bird-like build of coelurosaurs.",
+      "heroMedia": {
+        "file": "Compsognathus Conty.png",
+        "title": "Life restoration of Compsognathus longipes",
+        "alt": "Life restoration of Compsognathus longipes running, shown with a coat of simple filaments",
+        "caption": "Life restoration by Conty based on a modern skeletal reconstruction. The filament covering and colour are modelled on the related Sinosauropteryx; no feathers are preserved on Compsognathus itself.",
+        "credit": "Conty · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Compsognathus_Conty.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Jurassic · about 150–145 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Bavaria, Germany · Var, France"
+        },
+        {
+          "label": "Known size",
+          "value": "about 0.9–1.25 m · estimated 1–3.5 kg"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Compsognathus longipes was a lightly built theropod with a small, pointed head, a long neck, slender hindlimbs and a tail that made up about half its length. The German skeleton is under a metre long and was for many years the smallest dinosaur known; the later French specimen is about a third larger.",
+        "Its diet is documented unusually well. The German specimen preserves the skeleton of a small lizard, Bavarisaurus, in the region of the gut, showing that it caught or scavenged fast-moving small prey. The forelimbs were short, with hands that Gishlick and Gauthier reinterpreted in 2007 as having two functional fingers and a reduced third.",
+        "Compsognathus lived on islands and shorelines of a shallow tropical sea, where fine limestone mud entombed carcasses with remarkable fidelity. The same deposits yield Archaeopteryx, and the two animals were compared closely in nineteenth-century debates about the origin of birds."
+      ],
+      "animalHighlights": [
+        "Two articulated skeletons of different sizes are known, one from Germany and one from France.",
+        "A lizard skeleton preserved in the gut region of the German specimen is direct evidence of what it ate.",
+        "Its slender build and long legs mark it as a fast-moving pursuit predator of small animals."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Small-prey carnivore",
+          "level": "Directly evidenced by gut contents",
+          "reason": "A lizard skeleton inside the German specimen shows small vertebrate prey. The wider diet is inferred from the teeth."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal runner",
+          "level": "Inferred from limb proportions",
+          "reason": "Long shins and feet relative to the thigh suggest a fast runner; actual speeds are not measured."
+        },
+        {
+          "label": "Known size",
+          "value": "about 0.9–1.25 m long",
+          "level": "Two individuals",
+          "reason": "Both skeletons are nearly complete, so their lengths are well constrained, but their growth stages and the adult size range are debated."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeleton well known",
+          "level": "Body covering inferred",
+          "reason": "No feathers or skin are preserved. A coat of simple filaments is inferred from Sinosauropteryx and other relatives; some authors have suggested scales on the tail."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Jurassic"
+        },
+        {
+          "label": "Approximate age",
+          "value": "Tithonian, about 150–145 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Solnhofen Limestone (Germany); Canjuers lithographic limestone (France)"
+        },
+        {
+          "label": "Type locality",
+          "value": "Near Kelheim, Bavaria, Germany"
+        }
+      ],
+      "locality": {
+        "name": "Solnhofen lithographic limestone",
+        "region": "Kelheim area, Bavaria, Germany",
+        "note": "The holotype came from lithographic limestone quarries near Kelheim in the 1850s; the second specimen was found at Canjuers in southern France in 1971. The map shows the Bavarian type region."
+      },
+      "classificationSummary": "Compsognathus is a small coelurosaur and the name-bearer of Compsognathidae, a group that may also include Sinosauropteryx, Juravenator and others. Whether Compsognathidae is a natural group or a grade of small early coelurosaurs is contested.",
+      "related": [
+        {
+          "id": "sinosauropteryx",
+          "reason": "Compare with a closely related Chinese compsognathid that preserves filamentous feathers and colour banding."
+        },
+        {
+          "id": "juravenator",
+          "reason": "Compare with another small theropod from the Solnhofen region, known from a juvenile."
+        },
+        {
+          "id": "archaeopteryx",
+          "reason": "Compare with the early bird found in the same limestones and long contrasted with Compsognathus."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Was it feathered?",
+          "copy": "No feathers are preserved on either specimen. A filament coat is inferred from relatives, and the possibility of scaly patches on the tail has been raised."
+        },
+        {
+          "title": "How old were the two animals?",
+          "copy": "The German specimen is often called a juvenile and the French one an adult, but bone histology has not settled the growth stage of either."
+        },
+        {
+          "title": "Is Compsognathidae a real group?",
+          "copy": "Some analyses recover the compsognathids as a clade; others scatter them among early coelurosaurs, sometimes as juveniles of other lineages."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The Solnhofen and Canjuers lagoonal deposits are Tithonian.",
     "sources": [
       {
@@ -114,6 +232,11 @@
         "type": "authoritative-museum-reference",
         "citation": "Natural History Museum, Dino Directory: compsognathus",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/compsognathus.html"
+      },
+      {
+        "type": "taxonomic-revision",
+        "citation": "Peyer (2006), A reconsideration of Compsognathus from the upper Tithonian of Canjuers, southeastern France",
+        "url": "https://doi.org/10.1671/0272-4634(2006)26%5B879:AROCFT%5D2.0.CO;2"
       }
     ],
     "residualUncertainty": [
@@ -135,7 +258,147 @@
         "Compsognathid monophyly is contested."
       ],
       "summary": "Compsognathus longipes was a small coelurosaur from the Tithonian lagoonal limestones of Germany and France. Two nearly complete skeletons of different sizes document its slender bipedal body; C. corallestris is generally treated as the same species.",
-      "sourceBasis": "Gishlick (2007), Manual morphology of Compsognathus longipes and diagnosis of Compsognathidae; Smithsonian Institution, Compsognathus longipes specimen record; Natural History Museum, Dino Directory: compsognathus"
+      "sourceBasis": "Gishlick (2007), Manual morphology of Compsognathus longipes and diagnosis of Compsognathidae; Smithsonian Institution, Compsognathus longipes specimen record; Natural History Museum, Dino Directory: compsognathus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "BSP AS I 563",
+          "institution": "Bayerische Staatssammlung für Paläontologie und Geologie, Munich",
+          "note": "Articulated skeleton about 89 centimetres long on a Solnhofen limestone slab, with the lizard Bavarisaurus in the gut region."
+        },
+        {
+          "name": "French referred specimen",
+          "id": "MNHN CNJ 79",
+          "institution": "Muséum national d'Histoire naturelle, Paris",
+          "note": "Larger articulated skeleton from Canjuers, Var, originally named C. corallestris; referred to C. longipes by Peyer (2006)."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Two near-complete articulated skeletons from lagoon limestones.",
+        "standfirst": "Compsognathus longipes is known from the German holotype, an articulated skeleton on a limestone slab with a lizard in its gut region, and a larger, slightly less complete skeleton from Canjuers in France originally named C. corallestris.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Almost every skeletal region is preserved in articulation in the German specimen and repeated in the French one, but only two individuals exist and parts of the hands, feet and skull are crushed or incomplete."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Two articulated skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "2"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Growth stages uncertain"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The skull, complete vertebral column, ribs, gastralia, shoulder and pelvic girdles, forelimbs and hindlimbs of the holotype, all lying articulated on a single slab, plus a comparable but larger skeleton from France.",
+          "note": "Both skeletons are flattened, and the small hand bones are hard to interpret; the French specimen lacks the skull tip and parts of the limbs. No feathers or skin are preserved."
+        },
+        "media": [
+          {
+            "file": "Compsognathus longipes 01.JPG",
+            "kind": "Holotype cast",
+            "title": "Cast of the Compsognathus longipes holotype slab",
+            "alt": "Cast of the Compsognathus longipes holotype skeleton curled on a limestone slab",
+            "caption": "A cast of the German holotype as displayed in Karlsruhe. The skeleton lies in a curled posture typical of Solnhofen fossils; the original slab is held in Munich.",
+            "credit": "H. Zell · CC BY-SA 3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Compsognathus_longipes_01.JPG"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Complete but crushed skull and lower jaws with small, pointed teeth in both specimens."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal, sacral and caudal vertebrae with ribs and gastralia; the long tail is nearly complete in the holotype."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Shoulder and pelvic girdles, short forelimbs with disputed finger counts, and long hindlimbs with complete feet in the holotype."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "A lizard skeleton in the gut region of the holotype and possible eggs near the French specimen; no feathers, skin or colour are preserved."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "BSP AS I 563 · holotype",
+            "description": "An articulated skeleton about 89 centimetres long on a Solnhofen limestone slab, collected in the 1850s and described by Johann Andreas Wagner in 1859. The gut region contains the lizard Bavarisaurus.",
+            "meta": "Near Kelheim · Solnhofen Limestone · Bayerische Staatssammlung für Paläontologie und Geologie, Munich"
+          },
+          {
+            "kicker": "Referred specimen",
+            "title": "MNHN CNJ 79 · French skeleton",
+            "description": "A larger articulated skeleton found at Canjuers in 1971 and named Compsognathus corallestris by Bidar and colleagues in 1972. Peyer's 2006 restudy referred it to C. longipes and showed the supposed flipper-like hands were an artefact.",
+            "meta": "Canjuers, Var · Tithonian lithographic limestone · Muséum national d'Histoire naturelle, Paris"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Two articulated skeletons, small pointed teeth, long hindlimbs and a lizard preserved in the gut region of the holotype."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A fast, agile predator of small vertebrates; a body covering of simple filaments inferred from feathered compsognathid relatives."
+          },
+          {
+            "label": "Still unknown",
+            "value": "The growth stage of each specimen, the adult size range, the exact number of functional fingers, and whether the animal bore feathers, scales or both."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Modern revision",
+            "title": "Peyer · 2006",
+            "description": "Reconsideration of the French specimen and its referral to Compsognathus longipes.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1671/0272-4634(2006)26%5B879:AROCFT%5D2.0.CO;2"
+          },
+          {
+            "type": "Anatomical study",
+            "title": "Gishlick and Gauthier · 2007",
+            "description": "Manual morphology of the holotype and the diagnosis of Compsognathidae.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1111/j.1096-3642.2007.00269.x"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of Compsognathus, its size and its prey.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/compsognathus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype cast in Karlsruhe",
+            "description": "Source page, photographer and reuse licence for the cast photograph.",
+            "access": "CC BY-SA 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Compsognathus_longipes_01.JPG"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38538"
+          }
+        ],
+        "limitations": "The coverage band describes the two articulated skeletons. It is an editorial evidence summary, not a published percentage, and it does not resolve the debated growth stage of either individual.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

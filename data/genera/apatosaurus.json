@@ -77,7 +77,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria A-C systematic scientific review",
     "consensusScope": [
       "accepted name and broad classification",
@@ -106,6 +106,124 @@
         "Brontosaurus was synonymised with Apatosaurus for much of the twentieth century, but a 2015 specimen-level analysis revived it as a separate genus; that result is influential but still tested in later work."
       ]
     },
+    "presentation": {
+      "heroLead": "A massively built, long-necked diplodocid from the Late Jurassic of western North America, known from several good skeletons but only a handful of skulls, and at the centre of the long argument over Brontosaurus.",
+      "heroMedia": {
+        "file": "Apatosaurus TD.png",
+        "title": "Life restoration of Apatosaurus",
+        "alt": "Life restoration of the sauropod Apatosaurus in side view, with a long neck held forward and a whip-like tail",
+        "caption": "Life restoration by TotalDino. Overall proportions follow mounted skeletons; the neck posture, skin texture and colour are interpretive.",
+        "credit": "TotalDino · CC0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apatosaurus_TD.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Jurassic · about 154–150 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Western USA · Morrison Formation"
+        },
+        {
+          "label": "Known size",
+          "value": "about 21–23 m · roughly 16–22 t"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Apatosaurus was one of the heaviest animals of the Morrison Formation, a four-legged plant-eater some twenty-one to twenty-three metres long with a deep body, a long neck of unusually broad, robust vertebrae and a whip-like tail. Mass estimates from the best skeleton cluster around sixteen to twenty-two tonnes, although any figure for a sauropod depends on the method used.",
+        "Its head was small and horse-like, with peg-shaped teeth confined to the front of the jaws, a skull type known with confidence only from a few specimens found near articulated skeletons. The neck bones carry huge downward-projecting cervical ribs, which has prompted suggestions about neck-based display or combat, but these remain hypotheses.",
+        "Two species are widely accepted, Apatosaurus ajax and A. louisae. For most of the twentieth century Brontosaurus was treated as a junior synonym, but a specimen-level analysis in 2015 argued that it is distinct; that conclusion is influential and still being tested, so the boundary between the two names is a live research question rather than settled fact."
+      ],
+      "animalHighlights": [
+        "Exceptionally broad, heavily built neck vertebrae with large, downward-projecting cervical ribs.",
+        "A small, low skull with peg-like teeth restricted to the front of the mouth, known from only a few associated specimens.",
+        "A long, tapering tail ending in slender whip-like vertebrae, shared with other diplodocids."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by skull and tooth anatomy",
+          "reason": "Peg-like teeth with wear facets indicate cropping vegetation without chewing. Feeding height and preferred plants are inferred from neck posture models, not directly preserved."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal",
+          "level": "Directly evidenced",
+          "reason": "Complete limbs and girdles from several skeletons, together with Morrison sauropod trackways, establish four-legged walking. Speed is modelled, not measured."
+        },
+        {
+          "label": "Known size",
+          "value": "about 21–23 m · 16–22 t",
+          "level": "Well constrained for length",
+          "reason": "The near-complete A. louisae skeleton CM 3018 fixes length closely; mass depends on the reconstruction method and varies by several tonnes."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeletal outline well supported",
+          "level": "Soft tissues reconstructed",
+          "reason": "Body proportions are secure. No skin, colour or keratinous structures are known for Apatosaurus itself; small dorsal spines shown in some restorations come from an unidentified diplodocid."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Jurassic (Kimmeridgian–Tithonian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 154–150 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Morrison Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Lakes' Quarry 10, near Morrison, Jefferson County, Colorado, USA"
+        }
+      ],
+      "locality": {
+        "name": "Lakes' Quarry 10, Morrison",
+        "region": "Jefferson County, Colorado, USA",
+        "note": "Morrison Formation. The A. ajax holotype came from Arthur Lakes' excavations near Morrison; the A. louisae holotype came from the Carnegie Quarry, now Dinosaur National Monument, Utah."
+      },
+      "classificationSummary": "Apatosaurus is the name-bearing genus of Apatosaurinae within Diplodocidae. Its place among diplodocids is secure; what remains contested is how many species and genera the apatosaurine material represents, including whether Brontosaurus is separate.",
+      "related": [
+        {
+          "id": "diplodocus",
+          "reason": "Compare with the lighter-built diplodocine that shared the Morrison floodplains."
+        },
+        {
+          "id": "barosaurus",
+          "reason": "Compare with a longer-necked diplodocid relative from the same formation."
+        },
+        {
+          "id": "camarasaurus",
+          "reason": "Compare with the commonest Morrison sauropod, whose skull was once wrongly placed on Apatosaurus mounts."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Is Brontosaurus a separate genus?",
+          "copy": "The 2015 specimen-level analysis by Tschopp and colleagues found enough differences to separate the two. Later studies have accepted, questioned or refined this, so the answer depends on the analysis followed."
+        },
+        {
+          "title": "Which skull goes with which skeleton?",
+          "copy": "Only a few skulls have been found close to Apatosaurus skeletons. Historic mounts carried Camarasaurus-like skulls for decades, and some skull-to-skeleton associations remain uncertain."
+        },
+        {
+          "title": "What were the huge cervical ribs for?",
+          "copy": "The broad, heavily built neck is unlike other diplodocids. Suggestions include neck-to-neck combat or display, but no direct evidence tests these ideas."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Diagnostic material is Kimmeridgian-Tithonian within the Morrison Formation.",
     "sources": [
       {
@@ -117,6 +235,11 @@
         "type": "authoritative-museum-reference",
         "citation": "Natural History Museum, Dino Directory: apatosaurus",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/apatosaurus.html"
+      },
+      {
+        "type": "cranial-description",
+        "citation": "Berman & McIntosh (1978), Skull and relationships of the Upper Jurassic sauropod Apatosaurus (Reptilia, Saurischia)",
+        "url": "https://doi.org/10.5962/p.228587"
       }
     ],
     "residualUncertainty": [
@@ -135,7 +258,153 @@
         "Some historical skull and skeleton associations are uncertain."
       ],
       "summary": "Apatosaurus was a robust diplodocid sauropod from the Morrison Formation of western North America. Multiple partial skeletons document most of the body, but skulls are rare and species-level referrals have been repeatedly revised.",
-      "sourceBasis": "Tschopp, Mateus & Benson (2015), A specimen-level phylogenetic analysis and taxonomic revision of Diplodocidae; Natural History Museum, Dino Directory: apatosaurus"
+      "sourceBasis": "Tschopp, Mateus & Benson (2015), A specimen-level phylogenetic analysis and taxonomic revision of Diplodocidae; Natural History Museum, Dino Directory: apatosaurus",
+      "specimens": [
+        {
+          "name": "Holotype of Apatosaurus ajax",
+          "id": "YPM 1860",
+          "institution": "Yale Peabody Museum",
+          "note": "A partial postcranial skeleton of a subadult, including neck and back vertebrae, sacrum and pelvis, collected by Arthur Lakes near Morrison, Colorado, and named by Marsh in 1877."
+        },
+        {
+          "name": "Holotype of Apatosaurus louisae",
+          "id": "CM 3018",
+          "institution": "Carnegie Museum of Natural History",
+          "note": "A nearly complete skeleton from the Carnegie Quarry, Utah, named by Holland in 1916 and mounted in Pittsburgh. A skull found nearby, CM 11162, is generally accepted as belonging to the species."
+        },
+        {
+          "name": "Referred A. louisae skeleton",
+          "id": "LACM 52844",
+          "institution": "Natural History Museum of Los Angeles County",
+          "note": "A well-preserved partial skeleton with associated skull from the Carnegie Quarry, important in confirming the diplodocid-type skull of Apatosaurus."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Several good skeletons and a near-complete holotype, but skulls are rare.",
+        "standfirst": "Apatosaurus is known from multiple partial to nearly complete skeletons across Colorado, Wyoming, Utah and Oklahoma. The A. louisae holotype CM 3018 is one of the best sauropod skeletons ever found. Skull material is scarce, and which specimens belong to which species has been revised repeatedly.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every skeletal region is represented, most by several individuals, including a near-complete articulated skeleton; skulls are the least sampled region."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Near-complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "More than 10"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Few skulls · species boundaries"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete vertebral columns from neck to tail tip, pectoral and pelvic girdles, complete fore- and hindlimbs and feet, chevrons and ribs from several skeletons, plus a small number of skulls found associated with or close to skeletons.",
+          "note": "Because so few skulls are known and early mounts used the wrong skull, the head of Apatosaurus is reconstructed from a handful of specimens. Species assignment of many partial skeletons depends on which phylogenetic analysis is followed."
+        },
+        "media": [
+          {
+            "file": "Apatosaurus louisae - CM.jpg",
+            "kind": "Type specimen",
+            "title": "Holotype CM 3018 mounted at the Carnegie Museum",
+            "alt": "Mounted skeleton of the Apatosaurus louisae holotype CM 3018 in the Carnegie Museum of Natural History, Pittsburgh",
+            "caption": "The A. louisae holotype as mounted in Pittsburgh. The skeleton is largely real bone; the skull is a cast of a specimen found nearby in the same quarry.",
+            "credit": "AbstractionBlue · CC BY-SA 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apatosaurus_louisae_-_CM.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "A few skulls with braincases and peg-like teeth, including CM 11162 and the LACM 52844 skull; most skeletons lack the head."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete cervical, dorsal, sacral and caudal series in the best specimens, with the massive cervical ribs, chevrons and dorsal ribs."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Complete scapulocoracoids, pelves, forelimbs and hindlimbs with hands and feet from several individuals."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Bone histology has been sampled for growth studies; no skin impressions, colour or gut contents are known for Apatosaurus itself."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "YPM 1860 · holotype of A. ajax",
+            "description": "A partial skeleton of a not fully grown animal from Lakes' Quarry 10 near Morrison, Colorado, named by Marsh in 1877. Its immaturity complicated comparisons with other apatosaurines for over a century.",
+            "meta": "Morrison, Colorado · Morrison Formation · Yale Peabody Museum"
+          },
+          {
+            "kicker": "Most complete specimen",
+            "title": "CM 3018 · holotype of A. louisae",
+            "description": "A nearly complete articulated skeleton excavated from the Carnegie Quarry in Utah and described by Holland in 1916. It anchors most measurements of Apatosaurus size and proportions.",
+            "meta": "Carnegie Quarry, Dinosaur National Monument, Utah · Morrison Formation · Carnegie Museum of Natural History"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Several partial to near-complete skeletons, a few associated skulls and abundant isolated bones from Morrison quarries in four states."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A heavily built, low- to mid-browsing diplodocid whose robust neck sets it apart from Diplodocus; the two apparently shared the same floodplain habitats."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Whether Brontosaurus is distinct, the function of the giant cervical ribs, habitual neck posture, precise mass and all external soft tissues."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Systematic revision",
+            "title": "Tschopp, Mateus & Benson · 2015",
+            "description": "Specimen-level phylogenetic analysis of Diplodocidae that re-separated Brontosaurus from Apatosaurus.",
+            "access": "Open access",
+            "url": "https://doi.org/10.7717/peerj.857"
+          },
+          {
+            "type": "Skull description",
+            "title": "Berman & McIntosh · 1978",
+            "description": "Description of the Apatosaurus skull and demonstration that the genus had a diplodocid-type head.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.5962/p.228587"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of size, age and distribution.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/apatosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "CM 3018 mount",
+            "description": "Source page, photographer and reuse licence for the Carnegie Museum holotype mount.",
+            "access": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Apatosaurus_louisae_-_CM.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38665"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

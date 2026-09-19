@@ -101,7 +101,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria A-C systematic scientific review",
     "consensusScope": [
       "accepted name and broad classification",
@@ -128,6 +128,124 @@
         "Bonebeds and healed injuries provide population-level evidence but do not establish pack hunting or a single feeding strategy."
       ]
     },
+    "presentation": {
+      "heroLead": "The commonest large predator of the Late Jurassic Morrison Formation, known from dozens of skulls and skeletons that make it one of the best-documented theropods anywhere.",
+      "heroMedia": {
+        "file": "Allosaurus Revised.jpg",
+        "title": "Life restoration of Allosaurus fragilis",
+        "alt": "Life restoration of the theropod Allosaurus fragilis in side view",
+        "caption": "Life restoration by Fred Wierum, proportioned on a published skeletal reconstruction of the Utah specimen UUVP 6000. Skin texture, the size of the brow hornlets and colour are interpretive.",
+        "credit": "Fred Wierum · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allosaurus_Revised.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Jurassic · about 155–148 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Western USA · Morrison Formation"
+        },
+        {
+          "label": "Known size",
+          "value": "about 8.5 m typical · larger individuals up to about 10 m"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Allosaurus was a large, two-legged meat-eater that lived across the floodplains of western North America in the Late Jurassic. Typical adults were about eight to nine metres long and weighed roughly one and a half to two tonnes; a few individuals were larger, and the upper end of its size range is still debated because the biggest bones are fragmentary or of contested identity.",
+        "Its skull was lightweight for its size, with a pair of short horn-like bosses in front of the eyes and rows of serrated, blade-like teeth. The neck was strongly muscled, the arms were relatively long with three large hooked claws, and the tail was long and deep. Biomechanical work suggests the jaws opened very widely and that the skull was built to withstand vertical strikes rather than an exceptionally powerful bite.",
+        "Two species are widely recognised from the Morrison Formation: Allosaurus fragilis and the somewhat older A. jimmadseni, named in 2020. Because the genus is known from so many individuals of different sizes, it is a standard reference for theropod growth, injury and skull function. Bonebeds such as the Cleveland-Lloyd Dinosaur Quarry preserve dozens of animals together, but how they came to be there, and whether Allosaurus ever cooperated when feeding, remains unresolved."
+      ],
+      "animalHighlights": [
+        "A light, deep skull with short paired brow bosses and serrated blade-like teeth, capable of a very wide gape.",
+        "Long, powerful arms with three strongly curved claws, unlike the reduced forelimbs of later tyrannosaurs.",
+        "Dozens of individuals from juveniles to large adults, including one of the most complete theropod skeletons known."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Large carnivore",
+          "level": "Directly evidenced",
+          "reason": "Blade-like teeth, tooth-marked bones of Morrison sauropods and stegosaurs, and a puncture in an Allosaurus tail vertebra matching a Stegosaurus tail spike record predation and combat. Cooperative hunting is not established."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal walker",
+          "level": "Speed estimated from limb models",
+          "reason": "Hindlimb anatomy and Morrison trackways support two-legged walking; running speed estimates rest on biomechanical models rather than direct observation."
+        },
+        {
+          "label": "Known size",
+          "value": "about 8.5 m · 1.5–2 t",
+          "level": "Well constrained for typical adults",
+          "reason": "Several near-complete skeletons fix the size of ordinary adults; the largest reported individuals rest on isolated bones whose species identity is contested."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeletal outline well supported",
+          "level": "Soft tissues reconstructed",
+          "reason": "Proportions are known from complete skeletons. No skin impressions, feathers, colour or the exact form of the brow horns' keratin covering are directly preserved."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Jurassic (Kimmeridgian–Tithonian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 155–148 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Morrison Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Garden Park, Fremont County, Colorado, USA"
+        }
+      ],
+      "locality": {
+        "name": "Garden Park",
+        "region": "Fremont County, Colorado, USA",
+        "note": "Morrison Formation. The holotype came from Garden Park near Cañon City; most referred skeletons come from Utah, Wyoming and Colorado quarries such as Cleveland-Lloyd, Dinosaur National Monument and the Howe Quarry."
+      },
+      "classificationSummary": "Allosaurus is the name-bearing genus of Allosauridae within Allosauroidea, a group of large tetanuran theropods. Its position is stable; the live questions concern how many species the Morrison material contains and whether the giant Saurophaganax bones belong to Allosaurus.",
+      "related": [
+        {
+          "id": "ceratosaurus",
+          "reason": "Compare with the rarer horned theropod that shared the Morrison floodplains."
+        },
+        {
+          "id": "torvosaurus",
+          "reason": "Compare with the heavier-built megalosauroid predator of the same formation."
+        },
+        {
+          "id": "acrocanthosaurus",
+          "reason": "Compare with a later, larger allosauroid from the Early Cretaceous of North America."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How many species are there?",
+          "copy": "Allosaurus fragilis and A. jimmadseni are widely accepted. Older names such as A. europaeus, Antrodemus and Creosaurus, and the referral of individual specimens, still need specimen-by-specimen treatment."
+        },
+        {
+          "title": "Did it hunt in groups?",
+          "copy": "Bonebeds with many individuals have been read as evidence of gregarious behaviour, but they can equally represent predator traps or repeated attraction to carcasses. No direct evidence of cooperative hunting exists."
+        },
+        {
+          "title": "How big did it get?",
+          "copy": "Ordinary adults are well measured, but the largest bones assigned to Allosaurus or to Saurophaganax are isolated, so the maximum size and its taxonomic meaning remain open."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Secure North American material is Kimmeridgian-Tithonian in the Morrison Formation.",
     "sources": [
       {
@@ -144,6 +262,11 @@
         "type": "authoritative-museum-reference",
         "citation": "Natural History Museum, Dino Directory: allosaurus",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html"
+      },
+      {
+        "type": "historical-osteology",
+        "citation": "Gilmore (1920), Osteology of the carnivorous Dinosauria in the United States National Museum, with special reference to the genera Antrodemus (Allosaurus) and Ceratosaurus",
+        "url": "https://doi.org/10.5479/si.03629236.110.i"
       }
     ],
     "residualUncertainty": [
@@ -162,7 +285,166 @@
         "Social and hunting behaviour are not directly established."
       ],
       "summary": "Allosaurus was a large allosaurid theropod abundant in the Morrison Formation of western North America. Many skulls and skeletons document its anatomy and growth, although the boundaries and diagnoses of named species remain under active revision.",
-      "sourceBasis": "Chure & Loewen (2020), Cranial anatomy of Allosaurus jimmadseni; Evers et al. (2020), Notes on the cheek region of the Late Jurassic theropod dinosaur Allosaurus; Natural History Museum, Dino Directory: allosaurus"
+      "sourceBasis": "Chure & Loewen (2020), Cranial anatomy of Allosaurus jimmadseni; Evers et al. (2020), Notes on the cheek region of the Late Jurassic theropod dinosaur Allosaurus; Natural History Museum, Dino Directory: allosaurus",
+      "specimens": [
+        {
+          "name": "Holotype of Allosaurus fragilis",
+          "id": "YPM 1930",
+          "institution": "Yale Peabody Museum",
+          "note": "Fragmentary: a partial tooth, a few vertebral centra, rib fragments and a toe bone from Garden Park, Colorado, described by Marsh in 1877. Too incomplete to diagnose the species on its own; USNM 4734 has been proposed as a neotype."
+        },
+        {
+          "name": "Holotype of Allosaurus jimmadseni",
+          "id": "DINO 11541",
+          "institution": "Dinosaur National Monument",
+          "note": "A nearly complete, largely articulated skeleton with skull from the Salt Wash Member at Dinosaur National Monument, Utah, described by Chure and Loewen in 2020."
+        },
+        {
+          "name": "\"Big Al\"",
+          "id": "MOR 693",
+          "institution": "Museum of the Rockies",
+          "note": "A subadult skeleton from the Howe Quarry area, Wyoming, about 95 per cent complete with numerous healed and unhealed injuries; now generally referred to A. jimmadseni."
+        },
+        {
+          "name": "Cleveland-Lloyd Dinosaur Quarry assemblage",
+          "id": "UMNH VP series",
+          "institution": "Natural History Museum of Utah",
+          "note": "Thousands of disarticulated bones representing at least 46 Allosaurus individuals of all sizes, the basis of Madsen's 1976 osteology."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Dozens of skulls and skeletons from the Morrison Formation, several nearly complete.",
+        "standfirst": "Allosaurus is one of the best-sampled large theropods. Near-complete articulated skeletons, complete skulls and a bonebed holding at least 46 individuals document every part of the body across a wide range of ages. The weak point is the name itself: the original holotype is a handful of fragments.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every skeletal region is known from multiple individuals, including articulated skulls, complete limbs and a growth series from juveniles to large adults."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Near-complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Many dozens"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Fragmentary original holotype"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete skulls with dentition and braincases, full vertebral columns, pectoral and pelvic girdles, forelimbs with three-clawed hands, hindlimbs and feet, furculae and gastralia, from many individuals. Pathologies such as healed fractures and infections are common, and bone histology has been sampled across the growth series.",
+          "note": "The Marsh holotype YPM 1930 is too fragmentary to diagnose the species, so the identity of Allosaurus fragilis rests in practice on well-preserved referred skeletons and a proposed neotype rather than on the name-bearing specimen."
+        },
+        "media": [
+          {
+            "file": "Allosaurus holotype gilmore1920.png",
+            "kind": "Type figure",
+            "title": "Casts of the holotype YPM 1930, figured by Gilmore in 1920",
+            "alt": "Photographic plate from 1920 showing a toe bone and two vertebral centra of the Allosaurus fragilis holotype",
+            "caption": "Gilmore's 1920 plate of casts of the type specimen: a proximal toe phalanx, a posterior dorsal centrum and a probable sacral centrum. It shows how little of the name-bearing animal exists compared with the referred skeletons.",
+            "credit": "Charles W. Gilmore · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allosaurus_holotype_gilmore1920.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Many complete skulls with teeth, palates, braincases and hyoids, including the articulated skull of the A. jimmadseni holotype."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete cervical, dorsal, sacral and caudal series in several skeletons, with ribs, gastralia and chevrons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Complete shoulder and hip girdles, furculae, forelimbs with three-fingered clawed hands, hindlimbs and feet from numerous individuals."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Abundant healed injuries and infections, bone histology across a growth series and bite-marked prey bones; no skin, feathers, colour or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "YPM 1930 · holotype of A. fragilis",
+            "description": "A partial tooth, vertebral centra, rib fragments and a toe bone collected at Garden Park, Colorado, and named by Marsh in 1877. Because it is undiagnostic, Paul and Carpenter proposed the near-complete USNM 4734 as a neotype in 2010.",
+            "meta": "Garden Park, Colorado · Morrison Formation · Yale Peabody Museum"
+          },
+          {
+            "kicker": "Most complete skeletons",
+            "title": "DINO 11541 and MOR 693 (\"Big Al\")",
+            "description": "DINO 11541, the holotype of A. jimmadseni, is a nearly complete articulated skeleton with skull from Dinosaur National Monument. Big Al, about 95 per cent complete, preserves numerous injuries and is referred to the same species.",
+            "meta": "Utah and Wyoming · Morrison Formation · Dinosaur National Monument and Museum of the Rockies"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Dozens of skulls and skeletons of all sizes, mass-death bonebeds, healed injuries and tooth-marked bones of prey animals."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A wide-gaping, hatchet-headed predator of the Morrison floodplains that grew quickly to adult size and took prey up to the size of stegosaurs and young sauropods."
+          },
+          {
+            "label": "Still unknown",
+            "value": "The full species list, the identity of the largest bones, whether individuals ever fed or hunted together, running speed and all external soft tissues."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Species description",
+            "title": "Chure & Loewen · 2020",
+            "description": "Description of Allosaurus jimmadseni and its skull, with a review of the Morrison Allosaurus record.",
+            "access": "Open access",
+            "url": "https://doi.org/10.7717/peerj.7803"
+          },
+          {
+            "type": "Cranial anatomy",
+            "title": "Evers et al. · 2020",
+            "description": "Notes on the cheek region of the Allosaurus skull and the bones behind the eye.",
+            "access": "Open access",
+            "url": "https://doi.org/10.7717/peerj.8493"
+          },
+          {
+            "type": "Historical osteology",
+            "title": "Gilmore · 1920",
+            "description": "Classic bone-by-bone description of the Smithsonian skeletons, including the plate of the holotype casts.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.5479/si.03629236.110.i"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of size, age and distribution.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype plate",
+            "description": "Source page and reuse status for Gilmore's figure of the type specimen casts.",
+            "access": "Public domain",
+            "url": "https://commons.wikimedia.org/wiki/File:Allosaurus_holotype_gilmore1920.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38590"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

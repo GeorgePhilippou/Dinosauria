@@ -65,7 +65,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -91,6 +91,124 @@
         "Body size is less secure than skull anatomy because associated skeletons are rare."
       ]
     },
+    "presentation": {
+      "heroLead": "The largest of the dome-headed dinosaurs, known almost entirely from thick skull roofs whose changing shape through growth has redrawn the family tree of its relatives.",
+      "heroMedia": {
+        "file": "Pachycephalosaurus Reconstruction.jpg",
+        "title": "Life restoration of Pachycephalosaurus wyomingensis",
+        "alt": "Life restoration of Pachycephalosaurus wyomingensis in side view, showing the domed skull and spiked squamosals",
+        "caption": "Life restoration by Fred Wierum, based on the partial skeleton nicknamed Sandy. Body proportions beyond the skull, skin texture and colour are interpretive because associated postcranial material is scarce.",
+        "credit": "Fred Wierum · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pachycephalosaurus_Reconstruction.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 69–66 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Montana, Wyoming, South Dakota, USA"
+        },
+        {
+          "label": "Known size",
+          "value": "about 4.5 m · estimate"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore or omnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Pachycephalosaurus was a two-legged ornithischian from the final two million years of the Cretaceous, living alongside Tyrannosaurus, Triceratops and Edmontosaurus on the floodplains of western North America. It is the largest known pachycephalosaur, with skulls approaching 60 centimetres in length; body length estimates of around four and a half metres rest on scaling the skull against smaller relatives.",
+        "Its defining feature is a solid dome of bone on the skull roof, up to about 25 centimetres thick, ringed by bony knobs and, at the back of the skull, short spikes. Small, leaf-shaped cheek teeth suggest a diet of soft plants, though the front of the jaw carried more pointed teeth and an omnivorous diet has been proposed.",
+        "Growth studies of dozens of skull roofs suggest the dome only formed late in life. Younger animals had flat skulls and long spikes, and the animals once named Dracorex and Stygimoloch are now widely, though not universally, regarded as juvenile and subadult Pachycephalosaurus."
+      ],
+      "animalHighlights": [
+        "A thickened skull dome up to about 25 cm deep, surrounded by knobs and short spikes on the squamosal bones.",
+        "Skull roofs from many individuals record a growth series from flat-headed juveniles to fully domed adults.",
+        "Small, serrated cheek teeth and pointed front teeth leave the exact diet open; postcranial bones are rarely preserved."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater, possibly omnivore",
+          "level": "Inferred from teeth",
+          "reason": "Leaf-shaped cheek teeth support a plant diet; heterodont front teeth have prompted suggestions of omnivory. No gut contents are known."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Inferred from relatives",
+          "reason": "Pachycephalosaur postcrania from better-known genera such as Stegoceras and Homalocephale are bipedal; Pachycephalosaurus itself has little limb material."
+        },
+        {
+          "label": "Known size",
+          "value": "about 4.5 m long",
+          "level": "Extrapolated from skulls",
+          "reason": "No complete skeleton exists. Length and mass estimates scale skull size against smaller pachycephalosaurs and carry wide error."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skull well known",
+          "level": "Body reconstructed",
+          "reason": "Dome, knobs and spikes are directly preserved; body shape, skin and colour follow other pachycephalosaurs."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous (latest Maastrichtian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 69–66 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Lance, Hell Creek and equivalent formations"
+        },
+        {
+          "label": "Type locality",
+          "value": "Lance Formation, Niobrara County, Wyoming, USA"
+        }
+      ],
+      "locality": {
+        "name": "Lance Creek area",
+        "region": "Niobrara County, Wyoming, USA",
+        "note": "Type locality of USNM 12031 in the Lance Formation. Referred skulls come from the Hell Creek Formation of Montana and South Dakota; the map shows a regional reference."
+      },
+      "classificationSummary": "Pachycephalosaurus gives its name to Pachycephalosauria and Pachycephalosauridae, the dome-headed ornithischians allied to the horned dinosaurs within Marginocephalia. Whether Dracorex and Stygimoloch are growth stages of Pachycephalosaurus or distinct genera remains the main taxonomic question.",
+      "related": [
+        {
+          "id": "stygimoloch",
+          "reason": "A spiky-skulled Hell Creek pachycephalosaur widely interpreted as a subadult Pachycephalosaurus."
+        },
+        {
+          "id": "dracorex",
+          "reason": "A flat-skulled form now usually read as a juvenile stage of Pachycephalosaurus."
+        },
+        {
+          "id": "stegoceras",
+          "reason": "A smaller, older pachycephalosaur known from a partial skeleton, the main reference for body form."
+        }
+      ],
+      "questions": [
+        {
+          "title": "What was the dome for?",
+          "copy": "Head-to-head or flank butting is inferred from dome shape, neck anatomy and healed skull lesions found on many domes, but no behaviour was ever observed and display remains a live alternative."
+        },
+        {
+          "title": "Are Dracorex and Stygimoloch the same animal?",
+          "copy": "Bone histology and skull shape support a single growth series, yet some workers still treat Stygimoloch as distinct. The evidence is skull-only and sample sizes are small."
+        },
+        {
+          "title": "What did the rest of the body look like?",
+          "copy": "Nearly all fossils are skull roofs. Limb, hip and tail anatomy are reconstructed from smaller relatives, so size estimates could shift if an associated skeleton is fully described."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Secure records are latest Maastrichtian Hell Creek, Lance and equivalent units.",
     "sources": [
       {
@@ -102,6 +220,11 @@
         "type": "primary-literature",
         "citation": "Goodwin & Evans (2016), juvenile Pachycephalosaurus cranial development",
         "url": "https://doi.org/10.1080/02724634.2016.1078343"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Pachycephalosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/pachycephalosaurus.html"
       }
     ],
     "residualUncertainty": [
@@ -119,7 +242,153 @@
         "diet"
       ],
       "summary": "Pachycephalosaurus wyomingensis was a large dome-headed pachycephalosaurid from latest Cretaceous western North America, known mainly from skull roofs and incomplete skulls; postcranial remains are scarce.",
-      "sourceBasis": "Horner & Goodwin (2009), extreme cranial ontogeny in Pachycephalosaurus; Goodwin & Evans (2016), juvenile Pachycephalosaurus cranial development"
+      "sourceBasis": "Horner & Goodwin (2009), extreme cranial ontogeny in Pachycephalosaurus; Goodwin & Evans (2016), juvenile Pachycephalosaurus cranial development",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "USNM 12031",
+          "institution": "Smithsonian National Museum of Natural History",
+          "note": "A partial skull roof from the Lance Formation of Niobrara County, Wyoming, first described by Gilmore in 1931 as Troodon wyomingensis and made the type of Pachycephalosaurus by Brown and Schlaikjer in 1943."
+        },
+        {
+          "name": "Referred skull",
+          "id": "AMNH 1696",
+          "institution": "American Museum of Natural History",
+          "note": "A nearly complete skull collected near Ekalaka, Carter County, Montana, in 1940; the holotype of the synonymised species P. grangeri and the most mature skull in published growth series."
+        },
+        {
+          "name": "Growth-series skulls and domes",
+          "id": "",
+          "institution": "Museum of the Rockies, UCMP and other collections",
+          "note": "Dozens of isolated domes and partial skulls across growth stages, including the specimens named Dracorex and Stygimoloch, which many workers now assign to Pachycephalosaurus."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Many skull roofs, a few good skulls, and almost no skeleton.",
+        "standfirst": "Pachycephalosaurus is documented by dozens of thick domes and partial skulls from the Lance and Hell Creek formations, spanning juveniles to old adults. Associated bones from the rest of the body are rare, so the animal below the head is largely reconstructed from smaller relatives.",
+        "coverage": {
+          "label": "Moderate",
+          "level": 2,
+          "maximum": 4,
+          "basis": "The skull is known from many individuals at several growth stages, but the vertebral column, girdles and limbs are represented only by sparse, mostly undescribed material."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Skulls and domes"
+          },
+          {
+            "label": "Individuals",
+            "value": "Dozens of skulls"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Postcranium barely known"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Numerous frontoparietal domes and skull roofs, several nearly complete skulls with jaws and teeth, and a small amount of associated postcranial material from one partial skeleton.",
+          "note": "Because most specimens are isolated domes, growth and pathology are well studied while body proportions, limb anatomy and mass remain poorly constrained."
+        },
+        "media": [
+          {
+            "file": "Holotype of Pachycephalosaurus wyomingensis.jpg",
+            "kind": "Type specimen",
+            "title": "Holotype skull roof USNM 12031",
+            "alt": "Photograph of the Pachycephalosaurus wyomingensis holotype skull roof, USNM 12031, at the Smithsonian",
+            "caption": "The name-bearing skull roof from the Lance Formation of Wyoming, showing the thickened dome and knobbed rim. The rest of the skull and the skeleton are not preserved in this specimen.",
+            "credit": "Michael Brett-Surman · CC0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Holotype_of_Pachycephalosaurus_wyomingensis.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Many domes and skull roofs; several near-complete skulls with braincase, snout and dentition, plus juvenile and subadult skulls."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Little described material; a partial skeleton nicknamed Sandy preserves some vertebrae and ribs but awaits full publication."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Sparse. Limb and hip anatomy are inferred from Stegoceras, Homalocephale and other pachycephalosaurs."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Healed lesions on many domes and bone histology across growth stages; no skin, colour or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "USNM 12031 · holotype",
+            "description": "A partial skull roof collected from the Lance Formation of Wyoming. Gilmore described it in 1931 as a species of Troodon; Brown and Schlaikjer recognised it as a distinct dome-headed genus in 1943.",
+            "meta": "Niobrara County, Wyoming · Lance Formation · Smithsonian National Museum of Natural History"
+          },
+          {
+            "kicker": "Best skull",
+            "title": "AMNH 1696 · referred skull",
+            "description": "A nearly complete skull from Carter County, Montana, originally named Pachycephalosaurus grangeri. It anchors the adult end of the published growth series and shows the fully developed dome and reduced spikes.",
+            "meta": "Ekalaka, Montana · Hell Creek Formation · American Museum of Natural History"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Thick domed skull roofs, knobbed and spiked skull margins, small heterodont teeth, skull lesions and a growth series from flat-headed juveniles to domed adults."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A bipedal marginocephalian whose dome grew late in life and was probably used in intraspecific combat or display; Dracorex and Stygimoloch as its younger growth stages."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Body proportions, adult mass, limb anatomy, diet in detail, how the dome was actually used, and whether every Hell Creek pachycephalosaur belongs to one species."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Growth study",
+            "title": "Horner & Goodwin · 2009",
+            "description": "Cranial ontogeny across dozens of skulls, proposing Dracorex and Stygimoloch as growth stages of Pachycephalosaurus.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1371/journal.pone.0007626"
+          },
+          {
+            "type": "Juvenile description",
+            "title": "Goodwin & Evans · 2016",
+            "description": "The youngest known Pachycephalosaurus skull and its implications for dome and spike development.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1080/02724634.2016.1078343"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus, its age and its known material.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/pachycephalosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype skull roof photograph",
+            "description": "Source page, creator details and reuse licence for the USNM 12031 photograph.",
+            "access": "CC0",
+            "url": "https://commons.wikimedia.org/wiki/File:Holotype_of_Pachycephalosaurus_wyomingensis.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38786"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

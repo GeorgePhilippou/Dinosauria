@@ -80,7 +80,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria A-C systematic scientific review",
     "consensusScope": [
       "accepted name and broad classification",
@@ -108,6 +108,124 @@
         "Fish scales and partly digested iguanodontian bones show a broad carnivorous diet, not exclusive fish-eating."
       ]
     },
+    "presentation": {
+      "heroLead": "A crocodile-snouted, heavy-clawed spinosaurid from Early Cretaceous England, and one of the few dinosaurs whose last meal is preserved.",
+      "heroMedia": {
+        "file": "Baryonyx Andrey Atuchin.jpg",
+        "title": "Life restoration of Baryonyx walkeri",
+        "alt": "Life restoration of Baryonyx walkeri, a long-snouted theropod with large hand claws, standing by water",
+        "caption": "Life restoration by Andrey Atuchin. The long, narrow snout and enlarged thumb claw are documented by the holotype; skin texture, colour and the setting are interpretive.",
+        "credit": "Andrey Atuchin · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baryonyx_Andrey_Atuchin.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Early Cretaceous · Barremian · about 130–125 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Surrey, England"
+        },
+        {
+          "label": "Known size",
+          "value": "about 7.5–10 m · possibly immature"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore · fish and other dinosaurs"
+        }
+      ],
+      "animalParagraphs": [
+        "Baryonyx was a large theropod with a long, low snout lined with many conical teeth, a kinked upper jaw and a large hooked claw, about 31 centimetres along its curve, on the first finger of each hand. The name means 'heavy claw'. It was the first spinosaurid known from a substantial skeleton, and it reshaped how palaeontologists understood the group.",
+        "The holotype, found by amateur collector William Walker in a Surrey clay pit in 1983, is roughly two-thirds of a skeleton. Its bones were not fully fused, so the individual may not have been fully grown. Published lengths of around 7.5 to 10 metres and masses of about 1.2 to 1.7 tonnes rest on this one animal.",
+        "Fish scales and teeth of the fish Scheenstia, together with partly digested bones of a young iguanodontian, were found in the region of the stomach. This is rare direct evidence of diet in a non-avian dinosaur and shows that Baryonyx took both aquatic and terrestrial prey, whether by hunting or scavenging."
+      ],
+      "animalHighlights": [
+        "A long, crocodile-like snout with about twice as many teeth as a typical large theropod.",
+        "Gut-region remains preserve fish scales and iguanodontian bones, direct evidence of a mixed carnivorous diet.",
+        "The enlarged thumb claw gives the genus its name and is preserved on the holotype."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Fish and dinosaur prey",
+          "level": "Directly observed",
+          "reason": "Fish scales and partly digested iguanodontian bones lay within the holotype's rib cage; whether prey was hunted or scavenged cannot be told."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Supported by the holotype limbs",
+          "reason": "Hindlimb and pelvic bones show a typical large theropod stance; the robust forelimbs did not bear weight in normal walking."
+        },
+        {
+          "label": "Known size",
+          "value": "about 7.5–10 m · 1.2–1.7 t",
+          "level": "One partial individual",
+          "reason": "Estimates derive from the holotype, which may not have been fully grown; larger adults are possible but not documented."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skull and body outline supported",
+          "level": "Soft tissues reconstructed",
+          "reason": "The skeleton constrains proportions well; skin, colour and any soft crest or sail are not preserved."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Early Cretaceous · Barremian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 130–125 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Upper Weald Clay Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Smokejacks Pit, Ockley, Surrey, England"
+        }
+      ],
+      "locality": {
+        "name": "Smokejacks Pit",
+        "region": "Ockley, Surrey, England",
+        "note": "Upper Weald Clay Formation. A working brick-clay pit where William Walker found the large claw in January 1983; the Natural History Museum excavated the skeleton later that year."
+      },
+      "classificationSummary": "Baryonyx is a spinosaurid theropod and the name-giving member of Baryonychinae, the branch with more numerous teeth and less specialised jaws than Spinosaurus. Its relationship to Suchomimus is close and sometimes debated, but the two are not treated as synonyms.",
+      "related": [
+        {
+          "id": "suchomimus",
+          "reason": "A very similar baryonychine from Niger, sometimes argued to be extremely close to Baryonyx."
+        },
+        {
+          "id": "spinosaurus",
+          "reason": "The larger, more aquatic-adapted spinosaurine that Baryonyx helped to reinterpret."
+        },
+        {
+          "id": "iguanodon",
+          "reason": "A contemporary Wealden herbivore; a young iguanodontian formed part of the holotype's last meals."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Was the holotype fully grown?",
+          "copy": "Unfused bones suggest it may not have been, so the size of a mature Baryonyx remains open."
+        },
+        {
+          "title": "Which other fossils belong to it?",
+          "copy": "Isolated teeth and bones from England, Spain and Portugal have been referred to Baryonyx, but many cannot be distinguished from other baryonychines."
+        },
+        {
+          "title": "How did it hunt?",
+          "copy": "The gut contents show what it ate, not how. Wading and snatching fish is a reasonable inference from the jaws and claws, but it is not directly observed."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The type locality is Barremian in the Weald Clay Formation.",
     "sources": [
       {
@@ -124,6 +242,11 @@
         "type": "authoritative-museum-review",
         "citation": "Natural History Museum, How Baryonyx changed what we knew about spinosaurs",
         "url": "https://www.nhm.ac.uk/discover/how-did-baryonyx-change-what-we-knew-about-spinosaurs.html"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Baryonyx",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/baryonyx.html"
       }
     ],
     "residualUncertainty": [
@@ -142,7 +265,148 @@
         "The exact relationship to Suchomimus is debated but they are not established synonyms."
       ],
       "summary": "Baryonyx walkeri was a baryonychine spinosaurid from the Barremian Weald Clay Formation of England. The holotype is a substantial partial skull and skeleton, and associated gut-region remains provide rare direct evidence of both fish and ornithopod consumption.",
-      "sourceBasis": "Charig & Milner (1986), Baryonyx, a remarkable new theropod dinosaur; Barker et al. (2021), New spinosaurids from the Wessex Formation and European spinosaurid diversity; Natural History Museum, How Baryonyx changed what we knew about spinosaurs"
+      "sourceBasis": "Charig & Milner (1986), Baryonyx, a remarkable new theropod dinosaur; Barker et al. (2021), New spinosaurids from the Wessex Formation and European spinosaurid diversity; Natural History Museum, How Baryonyx changed what we knew about spinosaurs",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "NHMUK PV R 9951",
+          "institution": "Natural History Museum, London",
+          "note": "Partial skull and about two-thirds of the skeleton of a single individual, including the large first-finger claw, with fish scales and iguanodontian bones from the gut region. Found in 1983 and described by Charig and Milner in 1986."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "One substantial skeleton with its last meals preserved.",
+        "standfirst": "Baryonyx is anchored by a single partial skull and skeleton from a Surrey clay pit, the most complete spinosaurid skeleton found in Europe. Referred teeth and bones from elsewhere add little that is diagnostic.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Most skeletal regions are present in one individual, but the skull is incomplete, the tail and parts of the limbs are missing, and no second good skeleton exists."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Partial skull and skeleton"
+          },
+          {
+            "label": "Individuals",
+            "value": "1 substantial · referred fragments"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Single, possibly immature animal"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The holotype includes the front of the snout, parts of the braincase and lower jaw, many teeth, vertebrae from neck to tail, ribs and gastralia, the shoulder girdle and forelimbs with the large claw, the pelvis and much of the hindlimb.",
+          "note": "The skeleton was partly weathered and disturbed before collection, and much of the tail and the ends of some limbs are missing. Gut-region fish scales and iguanodontian bones are preserved with it."
+        },
+        "media": [
+          {
+            "file": "Baryonyx fossil elements.jpg",
+            "kind": "Holotype photograph",
+            "title": "Holotype skull and skeletal elements of Baryonyx walkeri",
+            "alt": "Photograph of the holotype bones of Baryonyx walkeri laid out in the Natural History Museum collection",
+            "caption": "Skull and postcranial elements of holotype NHMUK PV R 9951 photographed by the Natural History Museum, London.",
+            "credit": "The Trustees of the Natural History Museum, London · CC BY 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baryonyx_fossil_elements.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Conjoined premaxillae, part of the maxilla, nasals, lacrimal, postorbital, braincase elements, parts of both lower jaws and numerous teeth; the middle of the skull is largely missing."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal, sacral and some caudal vertebrae with ribs, chevrons and gastralia; most of the tail is absent."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Scapula, coracoid, humerus, radius, ulna and hand bones including the large first-finger claw; ilium, pubis, ischium, femur, tibia, fibula and foot bones."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Fish scales and teeth and partly digested iguanodontian bones from the gut region; no skin or feather impressions."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "NHMUK PV R 9951 · holotype",
+            "description": "Found by William Walker at Smokejacks Pit in January 1983 and excavated by the Natural History Museum. Described briefly by Charig and Milner in 1986 and in full in 1997, it remains the reference skeleton for Baryonychinae.",
+            "meta": "Smokejacks Pit · Upper Weald Clay Formation · Natural History Museum, London"
+          },
+          {
+            "kicker": "Referred material",
+            "title": "Isolated teeth and bones",
+            "description": "Teeth and fragmentary bones from the Isle of Wight, Spain and Portugal have been assigned to Baryonyx or to Baryonyx-like spinosaurids. Most lack the features needed to confirm the genus.",
+            "meta": "Wessex Formation and Iberian sites · referrals uncertain"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "A partial skull with many conical teeth, most of the postcranial skeleton of one individual, a 31-centimetre hand claw and gut-region fish and dinosaur remains."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A semi-aquatic-capable generalist predator that took both fish and terrestrial prey, with jaw and claw anatomy suited to seizing slippery prey."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Adult size, the complete skull outline, the full tail, soft-tissue features, and which referred Iberian and British fossils truly belong to the genus."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Charig & Milner · 1986",
+            "description": "Original announcement of Baryonyx walkeri in Nature, naming the species and introducing the skeleton.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1038/324359a0"
+          },
+          {
+            "type": "Modern revision",
+            "title": "Barker et al. · 2021",
+            "description": "Open-access description of new Wessex Formation spinosaurids with a reassessment of Baryonyx and European spinosaurid diversity.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1038/s41598-021-97870-8"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus from the institution that holds the holotype.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/baryonyx.html"
+          },
+          {
+            "type": "Museum feature",
+            "title": "How Baryonyx changed what we knew about spinosaurs",
+            "description": "Natural History Museum account of the discovery and its impact.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/how-did-baryonyx-change-what-we-knew-about-spinosaurs.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype photograph",
+            "description": "Source page, creator details and reuse licence for the holotype photograph.",
+            "access": "CC BY 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Baryonyx_fossil_elements.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=58891"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

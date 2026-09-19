@@ -9948,7 +9948,9 @@ function loadGenus(id) {
   const existing = genusLoadState.get(id);
   if (existing) return existing.promise;
   const entry = { done: false, promise: null };
-  entry.promise = fetch(`${GENUS_DATA_BASE}${encodeURIComponent(id)}.json`)
+  // Revalidate with the server so an edit to a genus file shows on the next
+  // load rather than after the browser's heuristic cache expires.
+  entry.promise = fetch(`${GENUS_DATA_BASE}${encodeURIComponent(id)}.json`, { cache: 'no-cache' })
     .then(response => {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       return response.json();

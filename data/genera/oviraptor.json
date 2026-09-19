@@ -65,7 +65,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -93,6 +93,124 @@
         "Brooding is strongly evidenced across oviraptorids, but exact diet remains unresolved."
       ]
     },
+    "presentation": {
+      "heroLead": "The misnamed \"egg thief\" of the Gobi, known from a single crushed skeleton found lying on a nest that turned out to be its own kind's.",
+      "heroMedia": {
+        "file": "Oviraptor Restoration.png",
+        "title": "Life restoration of Oviraptor philoceratops",
+        "alt": "Life restoration of the feathered oviraptorid Oviraptor philoceratops in side view",
+        "caption": "Life restoration by PaleoNeolitic. Feathering follows evidence from related oviraptorosaurs; the crest outline, colour and much of the body proportion are interpretive because the only known skull is crushed.",
+        "credit": "PaleoNeolitic · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oviraptor_Restoration.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 75–71 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Ömnögovi, Mongolia"
+        },
+        {
+          "label": "Known size",
+          "value": "about 1.6–2 m · estimate"
+        },
+        {
+          "label": "Diet",
+          "value": "Unresolved · toothless beak"
+        }
+      ],
+      "animalParagraphs": [
+        "Oviraptor was a lightly built, bird-like theropod with a short, deep, toothless skull, long grasping hands and a crest of some kind above the snout. It lived in the dune fields of the Djadokhta Formation of Mongolia during the Campanian, alongside Protoceratops and Velociraptor. Estimates of around one and a half to two metres in length come from the single incomplete skeleton.",
+        "Its name, \"egg thief\", records a mistake. Roy Chapman Andrews's expedition found the skeleton in 1923 lying over a clutch of eggs assumed to belong to Protoceratops, and Osborn suggested it had been caught raiding the nest. Embryos found inside identical eggs in the 1990s showed that the eggs were oviraptorid, so the animal was almost certainly a parent, not a thief.",
+        "Oviraptor is much less well known than its fame suggests. The familiar tall-crested skeletons in museums and books are mostly the relative Citipati, described in 2001. The Oviraptor holotype has a badly crushed skull, so the exact shape of its crest and the finer details of its anatomy remain uncertain."
+      ],
+      "animalHighlights": [
+        "A short, deep, toothless skull with a beak and a crest whose true outline is obscured by crushing.",
+        "Long arms and three-fingered hands with strongly curved claws, suited to grasping.",
+        "Found on a nest of oviraptorid eggs, making it a probable brooding parent rather than an egg raider."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Unresolved",
+          "level": "Beak, no teeth",
+          "reason": "A toothless beak and deep jaws are compatible with plants, eggs, shellfish or small animals; no direct dietary evidence exists for Oviraptor itself."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Inferred from skeleton and relatives",
+          "reason": "Hindlimb and pelvic bones in the holotype and complete skeletons of related oviraptorids show a two-legged runner."
+        },
+        {
+          "label": "Known size",
+          "value": "about 1.6–2 m long",
+          "level": "One incomplete skeleton",
+          "reason": "Length is extrapolated from partial remains; mass estimates of a few tens of kilograms are rough."
+        },
+        {
+          "label": "Appearance",
+          "value": "Crest shape uncertain",
+          "level": "Feathers inferred from relatives",
+          "reason": "The crushed skull leaves the crest profile open; feathering is known in other oviraptorosaurs but not preserved in this specimen."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous (Campanian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 75–71 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Djadokhta Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Bayn Dzak (Flaming Cliffs), Ömnögovi, Mongolia"
+        }
+      ],
+      "locality": {
+        "name": "Bayn Dzak (Flaming Cliffs)",
+        "region": "Ömnögovi Province, Mongolia",
+        "note": "Djadokhta Formation. The holotype was collected by George Olsen in 1923 during the Central Asiatic Expeditions; the map shows the Flaming Cliffs area as a regional reference."
+      },
+      "classificationSummary": "Oviraptor is the name-bearing genus of Oviraptoridae and Oviraptorosauria, a group of feathered, beaked maniraptoran theropods. Its exact position within Oviraptoridae is hard to fix because the holotype is crushed; several specimens once called Oviraptor have been moved to Citipati and other genera.",
+      "related": [
+        {
+          "id": "citipati",
+          "reason": "The tall-crested oviraptorid that most museum \"Oviraptor\" skeletons and brooding specimens actually represent."
+        },
+        {
+          "id": "khaan",
+          "reason": "A smaller crestless oviraptorid from the same formation known from complete skeletons."
+        },
+        {
+          "id": "protoceratops",
+          "reason": "The animal whose eggs Oviraptor was wrongly accused of stealing."
+        }
+      ],
+      "questions": [
+        {
+          "title": "What did the crest look like?",
+          "copy": "The skull is shattered and flattened. Restorations range from a low ridge to a tall Citipati-like casque, and none can be confirmed from the holotype."
+        },
+        {
+          "title": "What did it eat?",
+          "copy": "Lizard bones were reported in the holotype's body cavity, and shellfish, eggs and plants have all been proposed. No study has settled the question."
+        },
+        {
+          "title": "How much of what we know is really Oviraptor?",
+          "copy": "Only the holotype is securely assigned. Referred material from Zamyn Khondt and elsewhere belongs to Citipati or remains unnamed, so most published \"Oviraptor\" anatomy needs a second look."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The Djadokhta type horizon is Campanian, approximately 75-71 Ma.",
     "sources": [
       {
@@ -104,6 +222,11 @@
         "type": "primary-literature",
         "citation": "Norell et al. (1994), dinosaur embryos and identity of oviraptorosaur eggs",
         "url": "https://doi.org/10.1126/science.266.5186.779"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Oviraptor",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/oviraptor.html"
       }
     ],
     "residualUncertainty": [
@@ -122,7 +245,147 @@
         "nest association details"
       ],
       "summary": "Oviraptor philoceratops was an oviraptorid from the Djadokhta Formation of Mongolia, known from one incomplete skeleton with a crushed skull found beside a nest. Many complete museum reconstructions actually represent Citipati.",
-      "sourceBasis": "Osborn (1924), original description of Oviraptor; Norell et al. (1994), dinosaur embryos and identity of oviraptorosaur eggs"
+      "sourceBasis": "Osborn (1924), original description of Oviraptor; Norell et al. (1994), dinosaur embryos and identity of oviraptorosaur eggs",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "AMNH 6517",
+          "institution": "American Museum of Natural History",
+          "note": "An incomplete skeleton with a crushed skull, collected at Bayn Dzak in 1923 and described by Osborn in 1924. It was found directly on top of the egg nest AMNH 6508."
+        },
+        {
+          "name": "Associated nest",
+          "id": "AMNH 6508",
+          "institution": "American Museum of Natural History",
+          "note": "The clutch of elongated eggs beneath the holotype, originally assigned to Protoceratops; later embryo finds showed such eggs are oviraptorid."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "One crushed skeleton on a nest, and a name that outgrew it.",
+        "standfirst": "Oviraptor philoceratops rests on a single incomplete skeleton with a badly crushed skull, found lying over a clutch of eggs at the Flaming Cliffs in 1923. Most of the complete oviraptorid skeletons displayed as Oviraptor belong to Citipati.",
+        "coverage": {
+          "label": "Moderate",
+          "level": 2,
+          "maximum": 4,
+          "basis": "The holotype preserves the skull, parts of the vertebral column, the shoulder girdle and forelimbs, the pelvis and some hindlimb bones, but the skull is shattered, the tail is largely missing and no second individual is securely referred."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Partial skeleton, crushed skull"
+          },
+          {
+            "label": "Individuals",
+            "value": "1 secure"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Crest and skull shape uncertain"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "A crushed and disarticulated skull with lower jaws, cervical and dorsal vertebrae, ribs, a furcula and shoulder girdle, both forelimbs with hands, the pelvis and partial hindlimbs, all from one animal, plus the nest of eggs it lay upon.",
+          "note": "Because only one specimen is securely assigned, growth, variation and the true crest profile cannot be assessed. Anatomy described from referred Zamyn Khondt material is now attributed to Citipati."
+        },
+        "media": [
+          {
+            "file": "Oviraptor skull.jpg",
+            "kind": "Type figure",
+            "title": "Holotype skull AMNH 6517 as figured by Osborn in 1924",
+            "alt": "Published 1924 drawing of the crushed Oviraptor philoceratops holotype skull, AMNH 6517, in right and left views",
+            "caption": "Osborn's figure of the type skull exactly as it lay in the sandstone, with the shattered bones drawn in outline. The crushing is why the crest shape remains debated.",
+            "credit": "Henry Fairfield Osborn · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oviraptor_skull.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "A complete but shattered skull and lower jaws, toothless, with the base of a crest preserved in poor condition."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical and dorsal vertebrae with ribs; the sacrum is partly known and the tail is largely missing."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Furcula, scapulocoracoids, both forelimbs with three-fingered hands, the pelvis and partial hindlimb bones."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Direct association with a nest of oviraptorid eggs; reported lizard bones in the body cavity. No feathers, skin or colour are preserved."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "AMNH 6517 · holotype",
+            "description": "Collected by George Olsen in 1923 during the third Central Asiatic Expedition and described by Osborn in 1924. The skull was found crushed flat in the sandstone directly above the eggs, which led to the original egg-thief interpretation.",
+            "meta": "Bayn Dzak, Mongolia · Djadokhta Formation · American Museum of Natural History"
+          },
+          {
+            "kicker": "Associated nest",
+            "title": "AMNH 6508 · egg clutch",
+            "description": "The elongated eggs beneath the skeleton were assigned to Protoceratops in 1924. Embryos found in matching eggs in 1993 showed they belong to oviraptorids, reinterpreting the holotype as a probable brooding adult.",
+            "meta": "Same site as the holotype · eggs of the elongatoolithid type"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "One incomplete skeleton with a crushed toothless skull, long clawed hands and a pelvis, lying on a clutch of oviraptorid-type eggs."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A feathered, bipedal oviraptorid that was probably brooding its own nest; feathering and brooding posture are inferred from close relatives such as Citipati."
+          },
+          {
+            "label": "Still unknown",
+            "value": "The shape of the crest, the complete skull outline, adult size range, tail anatomy, diet, and which if any other specimens belong to the genus."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Osborn · 1924",
+            "description": "Original description of Oviraptor, Velociraptor and Saurornithoides from the Flaming Cliffs, with figures of the crushed holotype skull.",
+            "access": "AMNH Digital Library",
+            "url": "https://digitallibrary.amnh.org/items/5dd7157d-f9ea-4d37-89d7-bd7a6c049de6"
+          },
+          {
+            "type": "Egg reassessment",
+            "title": "Norell et al. · 1994",
+            "description": "Oviraptorid embryo inside an egg of the type found beneath the holotype, overturning the egg-thief hypothesis.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1126/science.266.5186.779"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus, its age and its known material.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/oviraptor.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype skull figure",
+            "description": "Source page and licence details for Osborn's 1924 figure of the type skull.",
+            "access": "Public domain",
+            "url": "https://commons.wikimedia.org/wiki/File:Oviraptor_skull.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38559"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

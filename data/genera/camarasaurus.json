@@ -73,7 +73,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria A-C systematic scientific review",
     "consensusScope": [
       "accepted name and broad classification",
@@ -102,6 +102,124 @@
       ],
       "massKg": null
     },
+    "presentation": {
+      "heroLead": "The most abundant sauropod of the Morrison Formation, known from many skulls and skeletons that document its short, deep head and robust spoon-shaped teeth.",
+      "heroMedia": {
+        "file": "Camarasaurus BW.jpg",
+        "title": "Life restoration of Camarasaurus supremus",
+        "alt": "Scientific life restoration of Camarasaurus supremus standing in side view with a raised neck and boxy head",
+        "caption": "Life restoration by Nobu Tamura. The body outline follows the skeleton; skin texture, colour and neck posture are interpretive.",
+        "credit": "Nobu Tamura · CC BY 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camarasaurus_BW.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Jurassic · Kimmeridgian–Tithonian · about 155–149 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Colorado, Utah, Wyoming and neighbouring states, USA"
+        },
+        {
+          "label": "Known size",
+          "value": "about 15–18 m · species vary"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Camarasaurus was a heavily built sauropod with a comparatively short neck and tail for its group, a boxy skull with large nostril openings, and stout, spoon-shaped teeth set along the full length of the jaws. Adults of the smaller species reached about fifteen metres; the type species, Camarasaurus supremus, was larger and is among the biggest animals in the Morrison Formation.",
+        "Its teeth were thicker and more heavily worn than those of the diplodocids with which it shared the landscape, indicating that it processed tougher vegetation and probably fed at a different range of heights. Gut contents are not preserved, so the actual plants it ate are inferred from tooth wear and from the Morrison flora.",
+        "The name means chambered lizard, a reference to the hollowed vertebrae Cope described in 1877. Camarasaurus is by far the most commonly recovered sauropod in the Morrison Formation, and juvenile, subadult and adult skeletons together record how it grew."
+      ],
+      "animalHighlights": [
+        "A short, deep skull with a blunt snout and large bony nostril openings set well forward of the eyes.",
+        "Robust spoon-shaped teeth along the whole jaw margin, with heavy wear indicating a coarser diet than contemporary diplodocids.",
+        "Hollowed vertebrae lightened the neck and back; the neck was shorter relative to the body than in Diplodocus or Brachiosaurus."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by teeth and jaws",
+          "reason": "Broad, worn teeth and a strong jaw show bulk browsing on tougher plants. Feeding height and the specific plants eaten are inferred, not observed."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal",
+          "level": "Supported by complete limbs",
+          "reason": "Articulated hands and feet show columnar, weight-bearing limbs. Any herd behaviour is inferred from bonebeds and trackways rather than demonstrated."
+        },
+        {
+          "label": "Known size",
+          "value": "about 15–18 m long",
+          "level": "Adult skeletons known",
+          "reason": "Lengths are measured from well-preserved individuals; masses of ten to twenty tonnes are model-based estimates, and the largest supremus material is fragmentary."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeletal outline well supported",
+          "level": "Soft tissues remain reconstructed",
+          "reason": "Skull, body and limb proportions are known from articulated skeletons; skin, colour and the position of the fleshy nostrils are interpretive."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Jurassic, Kimmeridgian–Tithonian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 155–149 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Morrison Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Garden Park, near Cañon City, Fremont County, Colorado, USA"
+        }
+      ],
+      "locality": {
+        "name": "Garden Park",
+        "region": "Fremont County, Colorado, USA",
+        "note": "Cope's collectors excavated the first Camarasaurus bones here in 1877. The Carnegie Quarry at Dinosaur National Monument, Utah, later produced the most complete skeletons."
+      },
+      "classificationSummary": "Camarasaurus is a macronarian sauropod and the namesake of Camarasauridae, a lineage of broad-toothed, relatively short-necked sauropods that sits outside the titanosauriform group containing Brachiosaurus. Four species are commonly recognised, but their boundaries are still under revision.",
+      "related": [
+        {
+          "id": "apatosaurus",
+          "reason": "Compare with a contemporary diplodocid whose slender teeth and longer neck suggest a different feeding style."
+        },
+        {
+          "id": "diplodocus",
+          "reason": "Compare with the best-known Morrison diplodocid that shared the same floodplains."
+        },
+        {
+          "id": "brachiosaurus",
+          "reason": "Compare with a rarer, longer-armed macronarian from the same formation."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How many species are valid?",
+          "copy": "Four species are usually listed, but specimen-level analysis shows that the differences between them are subtle and some historical referrals cannot be tested."
+        },
+        {
+          "title": "How heavy was a large adult?",
+          "copy": "Mass estimates range widely because they depend on modelling methods and on which individuals are chosen as adults."
+        },
+        {
+          "title": "How did it feed?",
+          "copy": "Tooth wear and skull shape support coarse browsing, but neck posture, feeding height and how it shared resources with diplodocids are inferred."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Diagnostic material spans much of the Kimmeridgian-Tithonian Morrison Formation.",
     "sources": [
       {
@@ -118,6 +236,11 @@
         "type": "authoritative-museum-reference",
         "citation": "Natural History Museum, Dino Directory: camarasaurus",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/camarasaurus.html"
+      },
+      {
+        "type": "classic-description",
+        "citation": "Gilmore (1925), A nearly complete articulated skeleton of Camarasaurus, a saurischian dinosaur from the Dinosaur National Monument, Utah",
+        "url": "https://doi.org/10.5962/p.217807"
       }
     ],
     "residualUncertainty": [
@@ -138,7 +261,154 @@
         "Some historical referrals are non-diagnostic."
       ],
       "summary": "Camarasaurus was an abundant macronarian sauropod from the Morrison Formation of western North America. Many skulls and skeletons across several growth stages document almost the entire anatomy, although the limits and validity of its named species still require revision.",
-      "sourceBasis": "Mateus & Tschopp (2013), A specimen-level cladistic analysis of Camarasaurus and revision of its species; Tschopp & Mateus (2015), Articulated bone sets of manus and pedes of Camarasaurus; Natural History Museum, Dino Directory: camarasaurus"
+      "sourceBasis": "Mateus & Tschopp (2013), A specimen-level cladistic analysis of Camarasaurus and revision of its species; Tschopp & Mateus (2015), Articulated bone sets of manus and pedes of Camarasaurus; Natural History Museum, Dino Directory: camarasaurus",
+      "specimens": [
+        {
+          "name": "Camarasaurus supremus type series",
+          "id": "AMNH 5760",
+          "institution": "American Museum of Natural History",
+          "note": "Vertebrae and associated bones collected at Garden Park, Colorado, and named by Cope in 1877."
+        },
+        {
+          "name": "Juvenile skeleton",
+          "id": "CM 11338",
+          "institution": "Carnegie Museum of Natural History",
+          "note": "Nearly complete articulated juvenile Camarasaurus lentus with skull from the Carnegie Quarry, described by Gilmore in 1925."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Many skulls and skeletons across growth stages from one great rock unit.",
+        "standfirst": "Camarasaurus is the most commonly found sauropod in the Morrison Formation. Articulated skeletons with skulls, including a nearly complete juvenile from the Carnegie Quarry, mean that its anatomy is better known than that of almost any other sauropod.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every region of the skeleton, including complete skulls, articulated hands and feet and full vertebral series, is known from multiple individuals of several growth stages."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Nearly complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Dozens"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Species boundaries unresolved"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete skulls with teeth, entire vertebral columns, both limb girdles, articulated hands and feet, and skeletons ranging from juveniles to large adults, collected from Colorado, Utah, Wyoming and neighbouring states since 1877.",
+          "note": "Abundance does not mean every mounted display is one animal: most mounts combine material, and some historic referrals to particular species rest on non-diagnostic bones."
+        },
+        "media": [
+          {
+            "file": "Camarasaurus lentus Carnegie.jpg",
+            "kind": "Articulated skeleton",
+            "title": "Juvenile skeleton CM 11338 at the Carnegie Museum",
+            "alt": "Nearly complete articulated juvenile Camarasaurus lentus skeleton preserved in sandstone matrix on display at the Carnegie Museum of Natural History",
+            "caption": "The nearly complete juvenile CM 11338 from the Carnegie Quarry, Dinosaur National Monument, displayed in its original sandstone matrix; described by Gilmore in 1925.",
+            "credit": "James St. John · CC BY 2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camarasaurus_lentus_Carnegie.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Numerous complete and partial skulls with dentition; braincases and skull growth series."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete cervical, dorsal, sacral and caudal series in several individuals, with ribs and chevrons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Complete shoulder and hip girdles, and articulated forelimbs and hindlimbs including hands and feet."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Articulated skeletons in original matrix and juvenile-to-adult growth series; no skin, colour or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "AMNH 5760 · Camarasaurus supremus type series",
+            "description": "Vertebrae and other bones collected for Edward Drinker Cope at Garden Park, Colorado, in 1877 and named that year. The hollowed vertebral chambers gave the genus its name.",
+            "meta": "Garden Park, Colorado · Morrison Formation · American Museum of Natural History"
+          },
+          {
+            "kicker": "Most complete specimen",
+            "title": "CM 11338 · juvenile Camarasaurus lentus",
+            "description": "A nearly complete articulated juvenile skeleton with skull from the Carnegie Quarry, described by Charles Gilmore in 1925 and long regarded as the most complete sauropod skeleton known.",
+            "meta": "Dinosaur National Monument, Utah · Morrison Formation · Carnegie Museum of Natural History"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Complete skulls, articulated skeletons and a growth series from juvenile to adult, all from the Morrison Formation."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A common bulk-browsing macronarian sauropod that processed coarser vegetation than contemporary diplodocids and probably fed at different heights."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Firm species boundaries, maximum adult mass, skin and colour, and whether the bonebed associations record herds."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Classic description",
+            "title": "Gilmore · 1925",
+            "description": "Monograph on the nearly complete juvenile skeleton CM 11338 from Dinosaur National Monument.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.5962/p.217807"
+          },
+          {
+            "type": "Modern revision",
+            "title": "Mateus & Tschopp · 2013",
+            "description": "Specimen-level analysis of Camarasaurus and revision of its species.",
+            "access": "Author repository",
+            "url": "https://docentes.fct.unl.pt/omateus/publications/specimen-level-cladistic-analysis-camarasaurus-dinosauria-sauropoda-and-revisio"
+          },
+          {
+            "type": "Anatomical study",
+            "title": "Tschopp & Mateus · 2015",
+            "description": "Articulated hand and foot bone sets of Camarasaurus and what they show about sauropod limb anatomy.",
+            "access": "Open access",
+            "url": "https://doi.org/10.26879/559"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus and its place in the Morrison fauna.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/camarasaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Juvenile skeleton CM 11338",
+            "description": "Source page, creator details and reuse licence for the photograph of the Carnegie Museum specimen.",
+            "access": "CC BY 2.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Camarasaurus_lentus_Carnegie.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38697"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

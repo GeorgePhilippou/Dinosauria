@@ -73,7 +73,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -101,6 +101,124 @@
         "Large growth-series samples document rapid growth and population structure."
       ]
     },
+    "presentation": {
+      "heroLead": "The good mother lizard: a Montana duck-billed dinosaur whose nesting colonies, eggs, hatchlings and vast bonebeds record a dinosaur life history from embryo to adult.",
+      "heroMedia": {
+        "file": "Maiasaura peeblesorum.png",
+        "title": "Life restoration of Maiasaura peeblesorum",
+        "alt": "Scientific life restoration of Maiasaura peeblesorum standing in side view with a low, broad skull and small crest above the eyes",
+        "caption": "Life restoration by Connor Ashbridge. The body follows adult skeletons; colour and skin texture are interpretive.",
+        "credit": "Connor Ashbridge · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maiasaura_peeblesorum.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · late Campanian · about 77–75 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Teton County, Montana, USA"
+        },
+        {
+          "label": "Known size",
+          "value": "about 7–9 m · adults known"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Maiasaura was a medium to large hadrosaurid, with adults roughly seven to nine metres long. It had a broad, flat-headed skull with a small solid crest in front of the eyes, a wide beak and grinding dental batteries. Hatchlings were less than half a metre long, and bone histology shows that they grew rapidly, approaching adult size within about eight years.",
+        "It is famous for the nesting grounds discovered near Choteau, Montana, in 1978. Nests containing hatchlings with worn teeth but poorly ossified limb joints indicated that young stayed in the nest and were fed, evidence that gave the genus its name. The record supports extended nest occupancy and repeated use of the same nesting sites, though the sex of the caring parent and the details of provisioning are not known.",
+        "Elsewhere in the Two Medicine Formation, a bonebed containing the remains of thousands of individuals killed together preserves a cross-section of a population. Sampling of that bonebed has produced one of the most detailed growth and survivorship records for any dinosaur."
+      ],
+      "animalHighlights": [
+        "Nest colonies with eggs, embryos and nest-bound hatchlings, the first strong evidence of extended parental care in a dinosaur.",
+        "A growth series from embryo to adult showing rapid early growth and near-adult size in under a decade.",
+        "A flat, broad skull with a small solid crest above the snout, unlike the hollow crests of lambeosaurine relatives."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by teeth and jaws",
+          "reason": "Dental batteries and tooth wear show grinding of tough plants; worn teeth in hatchlings indicate that nestlings ate plant material too."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal and bipedal",
+          "level": "Supported by limb proportions",
+          "reason": "Limb anatomy allows both gaits, and growth changes suggest juveniles were more bipedal than adults. Habitual speed is inferred."
+        },
+        {
+          "label": "Known size",
+          "value": "about 7–9 m long",
+          "level": "Adults and full growth series",
+          "reason": "Adult lengths come from bonebed material; masses of a few tonnes are model-based estimates."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeletal outline well supported",
+          "level": "Soft tissues remain reconstructed",
+          "reason": "Skull and body proportions are known at every growth stage, but skin, colour and any soft crest are not preserved for this genus."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous, late Campanian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 77–75 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Two Medicine Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Willow Creek Anticline near Choteau, Teton County, Montana, USA"
+        }
+      ],
+      "locality": {
+        "name": "Willow Creek Anticline and Egg Mountain",
+        "region": "Teton County, Montana, USA",
+        "note": "The nesting grounds and type material come from exposures of the Two Medicine Formation west of Choteau. The large bonebed lies elsewhere in the same formation."
+      },
+      "classificationSummary": "Maiasaura is a saurolophine hadrosaurid within Brachylophosaurini, a group of flat-headed duck-billed dinosaurs with small solid crests that also includes Brachylophosaurus. Its position is consistent across recent analyses.",
+      "related": [
+        {
+          "id": "brachylophosaurus",
+          "reason": "Compare with its closest well-known relative, a solid-crested hadrosaurid from Montana and Alberta."
+        },
+        {
+          "id": "hypacrosaurus",
+          "reason": "Compare with a hollow-crested hadrosaurid also known from eggs and embryos in the Two Medicine Formation."
+        },
+        {
+          "id": "orodromeus",
+          "reason": "A small plant-eater whose eggs and nests were found at the same Egg Mountain site."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How exactly were the young cared for?",
+          "copy": "Nest-bound hatchlings show that adults attended nests, but which sex did so, whether food was brought or regurgitated, and how long care lasted are inferences."
+        },
+        {
+          "title": "What killed the bonebed population?",
+          "copy": "The mass-death assemblage may record a single catastrophic event or a combination of events, which affects how its population structure is read."
+        },
+        {
+          "title": "How many species are there?",
+          "copy": "Only Maiasaura peeblesorum is recognised. Whether all Two Medicine material belongs to one species has not been fully tested at specimen level."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The Two Medicine Maiasaura record is late Campanian, approximately 76.7-75 Ma.",
     "sources": [
       {
@@ -112,6 +230,16 @@
         "type": "primary-literature",
         "citation": "Woodward et al. (2015), life history of Maiasaura from bone histology",
         "url": "https://doi.org/10.1017/pab.2015.19"
+      },
+      {
+        "type": "perinatal-osteology",
+        "citation": "Prieto-Márquez & Guenther (2018), Perinatal specimens of Maiasaura from the Upper Cretaceous of Montana",
+        "url": "https://doi.org/10.7717/peerj.4734"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Maiasaura",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/maiasaura.html"
       }
     ],
     "residualUncertainty": [
@@ -128,7 +256,160 @@
         "bonebed taphonomy"
       ],
       "summary": "Maiasaura peeblesorum was a hadrosaurid from the Two Medicine Formation of Montana, documented by nesting grounds, eggs, juveniles, adults and large bonebeds.",
-      "sourceBasis": "Horner & Makela (1979), nesting grounds of Maiasaura; Woodward et al. (2015), life history of Maiasaura from bone histology"
+      "sourceBasis": "Horner & Makela (1979), nesting grounds of Maiasaura; Woodward et al. (2015), life history of Maiasaura from bone histology",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "YPM-PU 22405",
+          "institution": "Yale Peabody Museum, Princeton collection",
+          "note": "Partial adult skull from the Willow Creek Anticline, described by Horner and Makela in 1979."
+        },
+        {
+          "name": "Perinatal nest material",
+          "id": "YPM-PU 22400",
+          "institution": "Yale Peabody Museum, Princeton collection",
+          "note": "Embryonic and hatchling bones from the nesting grounds, redescribed in 2018."
+        },
+        {
+          "name": "Bonebed and nest collections",
+          "id": "",
+          "institution": "Museum of the Rockies",
+          "note": "Extensive Two Medicine Formation material spanning eggs, hatchlings, juveniles and adults."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Eggs, nests, hatchlings and thousands of bones from one Montana rock unit.",
+        "standfirst": "Maiasaura is known from nesting colonies, embryos, hatchlings, juveniles and adults, and from a bonebed containing the remains of thousands of individuals. Few dinosaurs are documented across so much of their life cycle.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every skeletal region is known from many individuals at every growth stage, from embryo to adult, together with eggs and nests."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Full growth series"
+          },
+          {
+            "label": "Individuals",
+            "value": "Thousands"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Much material disarticulated"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Skulls and skeletons of adults and juveniles, embryos and hatchlings within nests, eggs and eggshell, and bonebed material representing all skeletal regions across the growth series.",
+          "note": "The name-bearing specimen is a partial adult skull. Much of the vast bonebed material is disarticulated, so complete individual skeletons are rarer than the sheer number of bones suggests."
+        },
+        "media": [
+          {
+            "file": "Maiasaura MOR.jpg",
+            "kind": "Mounted skeleton",
+            "title": "Skeleton on display at the Museum of the Rockies",
+            "alt": "Mounted skeleton of Maiasaura peeblesorum on display at the Museum of the Rockies, Bozeman, Montana",
+            "caption": "A mounted Maiasaura skeleton at the Museum of the Rockies, which holds the principal Two Medicine collections. Museum mounts may combine material and reconstructed elements.",
+            "credit": "Montanoceratops · CC0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maiasaura_MOR.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "The holotype partial skull, further adult and juvenile skulls, and embryonic and hatchling skull bones with worn teeth."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Vertebrae from all regions, ribs and ossified tendons from many individuals of different ages."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Girdles and complete limb elements across the growth series; limb bone histology has been sampled extensively."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Eggs, eggshell, embryos and nest-bound hatchlings in nest structures; no skin, colour or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "YPM-PU 22405 · holotype",
+            "description": "A partial adult skull from the Willow Creek Anticline, described by John Horner and Robert Makela in 1979 together with nest material and juveniles.",
+            "meta": "near Choteau, Montana · Two Medicine Formation · Yale Peabody Museum, Princeton collection"
+          },
+          {
+            "kicker": "Nest and bonebed material",
+            "title": "Egg Mountain nests and the mass-death bonebed",
+            "description": "Nests with eggs, embryos and hatchlings from the nesting grounds, and a bonebed sample spanning all growth stages that underpins the genus's growth and survivorship record.",
+            "meta": "Two Medicine Formation · Museum of the Rockies · thousands of individuals"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Nests with eggs, embryos and hatchlings, and skeletal material from every growth stage, all from the Two Medicine Formation."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A colonial nester whose hatchlings stayed in the nest and were cared for, growing rapidly to adult size; a herbivore that may have moved in large groups."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Which parent provided care and how, colour and skin, the cause of the bonebed mortality, and whether every referred specimen is one species."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Horner & Makela · 1979",
+            "description": "Original description of the nesting grounds and the naming of Maiasaura.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1038/282296a0"
+          },
+          {
+            "type": "Life-history study",
+            "title": "Woodward et al. · 2015",
+            "description": "Bone histology of the bonebed population, documenting growth rates and survivorship.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1017/pab.2015.19"
+          },
+          {
+            "type": "Perinatal osteology",
+            "title": "Prieto-Márquez & Guenther · 2018",
+            "description": "Description of embryonic and hatchling specimens of Maiasaura.",
+            "access": "Open access",
+            "url": "https://doi.org/10.7717/peerj.4734"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus and its nesting evidence.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/maiasaura.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Museum of the Rockies skeleton",
+            "description": "Source page, creator details and reuse licence for the photograph of the mounted skeleton.",
+            "access": "CC0",
+            "url": "https://commons.wikimedia.org/wiki/File:Maiasaura_MOR.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38765"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

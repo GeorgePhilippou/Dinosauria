@@ -69,7 +69,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria A-C systematic scientific review",
     "consensusScope": [
       "accepted name and broad classification",
@@ -100,6 +100,124 @@
       "length": null,
       "massKg": null
     },
+    "presentation": {
+      "heroLead": "One of the largest land animals ever named, yet a giant titanosaur known from little more than a few enormous vertebrae, ribs and a single leg bone.",
+      "heroMedia": {
+        "file": "Argentinosaurus BW.jpg",
+        "title": "Life restoration of Argentinosaurus huinculensis",
+        "alt": "Life restoration of Argentinosaurus huinculensis, a giant long-necked titanosaur, in side view",
+        "caption": "Hypothetical life restoration by Nobu Tamura. Because no skull, neck or complete limb is known, the proportions follow other titanosaurs and the body outline, skin and colour are interpretive.",
+        "credit": "Nobu Tamura · CC BY 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Argentinosaurus_BW.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · Cenomanian–Turonian · about 96–93 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Neuquén Province, Patagonia, Argentina"
+        },
+        {
+          "label": "Known size",
+          "value": "roughly 30–35 m · extrapolated"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Argentinosaurus was a titanosaur, one of the long-necked, four-legged sauropods that dominated the Cretaceous of South America. Its dorsal vertebrae are among the largest ever found, well over a metre across, and the leg bone recovered with them is about 1.55 metres long. These bones make it a genuine contender for the heaviest land animal known.",
+        "Everything beyond those bones is reconstruction. Length estimates of about 30 to 35 metres and masses of roughly 65 to 75 tonnes come from scaling the vertebrae and limb bone against more complete titanosaurs such as Patagotitan and Dreadnoughtus. Different methods give different answers, and the figures should be read as a range rather than a measurement.",
+        "As a sauropod, Argentinosaurus was a plant-eater that moved on all four limbs. A 2013 computer simulation by Sellers and colleagues, built on a museum skeletal reconstruction, suggested a slow walking gait of around two metres per second, but this rests on a largely hypothetical skeleton."
+      ],
+      "animalHighlights": [
+        "Dorsal vertebrae more than a metre wide place it among the very largest sauropods.",
+        "Its body length and mass are extrapolations from a handful of bones, not measurements of a skeleton.",
+        "It lived in the Huincul Formation alongside the giant predator Mapusaurus."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Inferred from sauropod anatomy",
+          "reason": "No skull or teeth are known. Herbivory is secure for sauropods as a group, but the feeding height and preferred plants of Argentinosaurus are unknown."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal",
+          "level": "Inferred from sauropod body plan",
+          "reason": "The only limb element is a single lower-leg bone. Locomotor simulations use a reconstructed skeleton borrowed from other titanosaurs."
+        },
+        {
+          "label": "Known size",
+          "value": "about 30–35 m · 65–75 t",
+          "level": "Loose extrapolation",
+          "reason": "Estimates scale the vertebrae and lower-leg bone against more complete titanosaurs; published figures vary widely with method."
+        },
+        {
+          "label": "Appearance",
+          "value": "Largely reconstructed",
+          "level": "Head, neck and tail unknown",
+          "reason": "The generalised titanosaur outline is borrowed from relatives; skin, colour and the shape of the head are not preserved."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous · Cenomanian–Turonian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 96–93 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Huincul Formation, Neuquén Group"
+        },
+        {
+          "label": "Type locality",
+          "value": "near Plaza Huincul, Neuquén Province, Argentina"
+        }
+      ],
+      "locality": {
+        "name": "Plaza Huincul area",
+        "region": "Neuquén Province, Patagonia, Argentina",
+        "note": "Huincul Formation. The holotype was found on a ranch near Plaza Huincul in 1987 and is held at the Museo Municipal Carmen Funes in the same town."
+      },
+      "classificationSummary": "Argentinosaurus is a titanosaurian sauropod, usually recovered among the giant lognkosaurs within Colossosauria alongside Patagotitan and Futalognkosaurus. Its position shifts between analyses because so few characters can be scored from the fragmentary holotype.",
+      "related": [
+        {
+          "id": "patagotitan",
+          "reason": "A comparably sized titanosaur from the same region known from far more complete material, and the main yardstick for scaling Argentinosaurus."
+        },
+        {
+          "id": "dreadnoughtus",
+          "reason": "A giant titanosaur with a well-preserved skeleton that shows what a body of this scale actually looks like."
+        },
+        {
+          "id": "mapusaurus",
+          "reason": "A giant carcharodontosaurid predator from the same Huincul Formation."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Was it the largest dinosaur?",
+          "copy": "Possibly, but the claim cannot be settled. Its bones are among the largest known, yet estimates for Argentinosaurus, Patagotitan and other giants overlap within their error margins."
+        },
+        {
+          "title": "Does the giant femur belong to it?",
+          "copy": "A huge femoral shaft from the region is often quoted with Argentinosaurus, but it was not found with the holotype and its assignment is not secure."
+        },
+        {
+          "title": "What did the rest of the animal look like?",
+          "copy": "No skull, neck, tail or forelimb is known. Every full-body reconstruction fills those gaps with other titanosaurs."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The lower Huincul Formation is late Cenomanian to early Turonian.",
     "sources": [
       {
@@ -116,6 +234,11 @@
         "type": "authoritative-museum-reference",
         "citation": "Natural History Museum, Dino Directory: argentinosaurus",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/argentinosaurus.html"
+      },
+      {
+        "type": "biomechanical-reconstruction",
+        "citation": "Sellers et al. (2013), March of the titans, DOI record",
+        "url": "https://doi.org/10.1371/journal.pone.0078733"
       }
     ],
     "residualUncertainty": [
@@ -136,7 +259,147 @@
         "Its exact titanosaurian position varies."
       ],
       "summary": "Argentinosaurus huinculensis was a giant titanosaur from the Huincul Formation of Patagonia. Despite its fame, it is known from a small set of enormous vertebrae, ribs and limb-girdle elements; precise maximum length and mass are highly extrapolative.",
-      "sourceBasis": "Sellers et al. (2013), March of the titans: locomotor capabilities of Argentinosaurus; Carballido et al. (2023), A new giant titanosaur and the evolution of gigantism; Natural History Museum, Dino Directory: argentinosaurus"
+      "sourceBasis": "Sellers et al. (2013), March of the titans: locomotor capabilities of Argentinosaurus; Carballido et al. (2023), A new giant titanosaur and the evolution of gigantism; Natural History Museum, Dino Directory: argentinosaurus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "MCF-PVPH-1",
+          "institution": "Museo Municipal Carmen Funes, Plaza Huincul",
+          "note": "Several dorsal vertebrae, part of the sacrum, ribs and a right lower-leg bone originally identified as a tibia and later reinterpreted as a fibula. Found in 1987 and described by Bonaparte and Coria in 1993."
+        },
+        {
+          "name": "Referred femoral shaft",
+          "id": "",
+          "institution": "Museo de La Plata",
+          "note": "A giant partial femur from the Huincul Formation often discussed with Argentinosaurus; it was not found with the holotype and its referral is not secure."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "A few giant vertebrae, ribs and one leg bone.",
+        "standfirst": "Argentinosaurus rests on a single very incomplete postcranial skeleton from the Huincul Formation. No skull, neck, tail, forelimb or complete hindlimb is known, so its famous size is an extrapolation.",
+        "coverage": {
+          "label": "Low",
+          "level": 1,
+          "maximum": 4,
+          "basis": "Only part of the back, part of the sacrum, ribs and one lower-leg bone are securely known from one individual. Most skeletal regions are entirely missing."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Vertebrae, ribs, one leg bone"
+          },
+          {
+            "label": "Individuals",
+            "value": "1 secure"
+          },
+          {
+            "label": "Key limitation",
+            "value": "No skull or limbs to scale from"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The holotype preserves several dorsal vertebrae, the front part of the sacrum, rib fragments and a right lower-leg bone. A giant femoral shaft from elsewhere in the formation is sometimes referred but was not found with the type.",
+          "note": "The lower-leg bone was described as a tibia but is generally reinterpreted as a fibula; this matters because it changes how the leg, and therefore the whole animal, is scaled."
+        },
+        "media": [
+          {
+            "file": "Argentinosaurus Holotype PLoS ONE.png",
+            "kind": "Holotype photograph",
+            "title": "Holotype material of Argentinosaurus huinculensis",
+            "alt": "Photographs of the holotype vertebrae and lower-leg bone of Argentinosaurus huinculensis",
+            "caption": "The holotype bones of Argentinosaurus as figured by Sellers and colleagues in 2013: giant dorsal vertebrae and a lower-leg bone, essentially all of the securely known material.",
+            "credit": "Sellers et al. 2013 · CC BY 2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Argentinosaurus_Holotype_PLoS_ONE.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "None known."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Several dorsal vertebrae, the anterior part of the sacrum and rib fragments. No cervical vertebrae are known and the tail is essentially unrepresented."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "A right lower-leg bone about 1.55 metres long, originally called a tibia and now usually treated as a fibula. A giant femoral shaft is referred with low confidence."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "None. No skin, osteoderms, eggs or gut contents are associated with the genus."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "MCF-PVPH-1 · holotype",
+            "description": "Found on a Neuquén ranch in 1987 and described by Bonaparte and Coria in 1993. The dorsal vertebrae are among the largest known from any animal, but they represent only a small fraction of the skeleton.",
+            "meta": "Huincul Formation · Plaza Huincul · Museo Municipal Carmen Funes"
+          },
+          {
+            "kicker": "Referred material",
+            "title": "Giant femoral shaft",
+            "description": "An incomplete femur from the Huincul Formation, held at the Museo de La Plata, that is often cited alongside Argentinosaurus. It was not found with the holotype and cannot be securely assigned to the genus.",
+            "meta": "Separate find · referral uncertain"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Giant dorsal vertebrae, part of the sacrum, ribs and one lower-leg bone from a single individual."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A colossal titanosaur whose length and mass are scaled from these bones using more complete relatives; locomotor simulations use a hypothetical full skeleton."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Skull, neck, tail, forelimbs and most of the hindlimb; actual length and mass; whether the referred femur belongs to it."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Biomechanical study",
+            "title": "Sellers et al. · 2013",
+            "description": "Open-access locomotor simulation that also figures and inventories the holotype material.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1371/journal.pone.0078733"
+          },
+          {
+            "type": "Modern review",
+            "title": "Carballido et al. · 2023",
+            "description": "Description of a new giant titanosaur with a review of size estimates for Argentinosaurus and other giants.",
+            "access": "Open access",
+            "url": "https://doi.org/10.4202/app.01086.2023"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus and its fragmentary remains.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/argentinosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype photograph",
+            "description": "Source page, creator details and reuse licence for the holotype figure.",
+            "access": "CC BY 2.5",
+            "url": "https://commons.wikimedia.org/wiki/File:Argentinosaurus_Holotype_PLoS_ONE.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=66645"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

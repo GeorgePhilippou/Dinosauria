@@ -73,7 +73,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -101,6 +101,124 @@
         "Species differ in crest curvature and stratigraphic distribution and should not be merged into one skeleton."
       ]
     },
+    "presentation": {
+      "heroLead": "A long-crested duck-billed dinosaur whose hollow head-crest carried the nasal passages in a great backward loop, and whose three species are kept apart on crest shape and rock age.",
+      "heroMedia": {
+        "file": "Life reconstruction of Parasaurolophus walkeri.png",
+        "title": "Life restoration of Parasaurolophus walkeri",
+        "alt": "Life restoration of Parasaurolophus walkeri standing in side view with a long tubular crest sweeping back from the skull",
+        "caption": "A modern restoration of the Alberta species. The crest and body outline follow the skeleton; skin colour, any soft-tissue frill and the exact texture are interpretive.",
+        "credit": "Connor Ashbridge · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Parasaurolophus_walkeri.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 77–73 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Alberta, Canada · New Mexico and Utah, USA"
+        },
+        {
+          "label": "Known size",
+          "value": "about 9–10 m · estimated"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Parasaurolophus was a large lambeosaurine hadrosaurid, a duck-billed plant-eater with a broad toothless beak and dental batteries of hundreds of tightly packed grinding teeth. Estimates of roughly 9–10 metres in length rest on the incomplete Alberta type skeleton scaled against better-known relatives, so the figure is an approximation rather than a measurement.",
+        "Its defining feature is the crest: a long, backward-curving tube of bone rising from the snout, hollow inside and threaded by the nasal passages. In the type species the tube reached well beyond the back of the skull. Growth-series specimens, including a very young animal from Utah, show that the crest began as a low dome and lengthened through life.",
+        "Acoustic modelling of the internal passages supports the idea that the crest acted as a resonating chamber that lowered and amplified the animal's calls, and its size and shape also make visual display likely. These remain functional hypotheses supported by anatomy; no call can be reconstructed with certainty, and colour, skin patterning and any soft-tissue extension of the crest are unknown."
+      ],
+      "animalHighlights": [
+        "A hollow, tubular crest housed elongated nasal passages and changed markedly in shape during growth.",
+        "Three species are separated by crest curvature and by their stratigraphic position in Alberta, New Mexico and Utah.",
+        "Skin impressions on the type specimen show a covering of small, non-overlapping scales on parts of the body."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by beak and dental batteries",
+          "reason": "The toothless beak and grinding dental batteries are typical of hadrosaurids and indicate processing of tough vegetation; the actual plants eaten are not preserved."
+        },
+        {
+          "label": "Movement",
+          "value": "Two- and four-legged",
+          "level": "Inferred from hadrosaurid limb anatomy",
+          "reason": "Hadrosaurids could walk on all fours and rise onto the hind legs; Parasaurolophus limb material is incomplete, so this is inferred from close relatives."
+        },
+        {
+          "label": "Known size",
+          "value": "about 9–10 m long",
+          "level": "Estimate from an incomplete skeleton",
+          "reason": "The type skeleton lacks most of the tail and the lower hind limbs, so total length is extrapolated from relatives."
+        },
+        {
+          "label": "Appearance",
+          "value": "Crest and body outline known",
+          "level": "Soft tissues remain reconstructed",
+          "reason": "The bony crest and skin-scale impressions are directly preserved; colour, any soft-tissue crest extension and pattern are not."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous, late Campanian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 77–73 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Dinosaur Park Formation (type); Kirtland and Kaiparowits formations"
+        },
+        {
+          "label": "Type locality",
+          "value": "Red Deer River near Sand Creek, Alberta, Canada"
+        }
+      ],
+      "locality": {
+        "name": "Red Deer River, Sand Creek area",
+        "region": "Alberta, Canada",
+        "note": "Dinosaur Park Formation, collected in 1920 by a University of Toronto party. The other two species come from the San Juan Basin of New Mexico and the Kaiparowits Formation of Utah."
+      },
+      "classificationSummary": "Parasaurolophus is a lambeosaurine hadrosaurid and the namesake of Parasaurolophini, the tube-crested group that also includes Charonosaurus from China and Tlatolophus from Mexico. Its placement within Lambeosaurinae is stable; relationships among the three species vary between analyses.",
+      "related": [
+        {
+          "id": "lambeosaurus",
+          "reason": "Compare with a contemporary lambeosaurine whose hollow crest took a hatchet-like rather than tubular form."
+        },
+        {
+          "id": "corythosaurus",
+          "reason": "Compare with a helmet-crested lambeosaurine known from many more complete skeletons."
+        },
+        {
+          "id": "edmontosaurus",
+          "reason": "Compare with a crestless hadrosaurid from the same region and later beds."
+        }
+      ],
+      "questions": [
+        {
+          "title": "What did the crest sound like?",
+          "copy": "Resonance modelling gives plausible frequency ranges for the nasal passages, but the larynx and soft tissues are unknown, so actual calls cannot be reconstructed."
+        },
+        {
+          "title": "Was there a soft-tissue frill behind the crest?",
+          "copy": "A notch in the back vertebrae of the type specimen has been read as an anchor for a skin flap or a resting point for the crest, but neither idea is confirmed."
+        },
+        {
+          "title": "Do the three species belong to one lineage?",
+          "copy": "Crest shape and rock age separate the species, but their relationships to one another and to the Asian Charonosaurus differ between studies."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The genus spans late Campanian Dinosaur Park, Kaiparowits and Kirtland formations, approximately 77-73 Ma.",
     "sources": [
       {
@@ -112,6 +230,16 @@
         "type": "primary-literature",
         "citation": "Weishampel (1981), acoustic analyses of lambeosaurine crests",
         "url": "https://doi.org/10.1017/S0094837300004036"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Farke et al. (2013), Ontogeny in the tube-crested dinosaur Parasaurolophus and heterochrony in hadrosaurids",
+        "url": "https://doi.org/10.7717/peerj.182"
+      },
+      {
+        "type": "original-description",
+        "citation": "Parks (1922), Parasaurolophus walkeri, a new genus and species of trachodont dinosaur",
+        "url": "https://commons.wikimedia.org/wiki/File:Parasaurolophus_walkeri,_a_new_genus_and_species_of_trachodont_dinosaur.pdf"
       }
     ],
     "residualUncertainty": [
@@ -128,7 +256,166 @@
         "fragmentary referrals"
       ],
       "summary": "Parasaurolophus was a long-crested lambeosaurine hadrosaurid from western North America, represented by three named species with several skulls and partial skeletons.",
-      "sourceBasis": "Gates et al. (2021), new skull and ontogeny of Parasaurolophus; Weishampel (1981), acoustic analyses of lambeosaurine crests"
+      "sourceBasis": "Gates et al. (2021), new skull and ontogeny of Parasaurolophus; Weishampel (1981), acoustic analyses of lambeosaurine crests",
+      "specimens": [
+        {
+          "name": "Holotype of P. walkeri",
+          "id": "ROM 768",
+          "institution": "Royal Ontario Museum",
+          "note": "Skull and front half of the skeleton with skin impressions; tail and lower hind limbs missing."
+        },
+        {
+          "name": "Holotype of P. tubicen",
+          "id": "PMU R1250",
+          "institution": "Uppsala University Museum of Evolution",
+          "note": "Partial skull collected from the Kirtland Formation, New Mexico, described by Wiman in 1931."
+        },
+        {
+          "name": "Holotype of P. cyrtocristatus",
+          "id": "FMNH P 27393",
+          "institution": "Field Museum of Natural History",
+          "note": "Skull and partial skeleton from the San Juan Basin, New Mexico, described by Ostrom in 1961."
+        },
+        {
+          "name": "Juvenile skeleton",
+          "id": "RAM 14000",
+          "institution": "Raymond M. Alf Museum of Paleontology",
+          "note": "Nearly complete young individual from the Kaiparowits Formation, Utah."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "A handful of skulls and partial skeletons spread across three species.",
+        "standfirst": "Parasaurolophus is known from an Alberta type skeleton with skin impressions, several skulls from New Mexico and Utah, and a nearly complete juvenile. Good cranial material supports the crest studies, but no adult skeleton is complete.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Skulls are well represented across the growth series and the type skeleton preserves most of the body, but tail, lower hind limbs and complete adult skeletons are lacking, and material is thin for each species."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Skulls and partial skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Several per species"
+          },
+          {
+            "label": "Key limitation",
+            "value": "No complete adult skeleton"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The holotype ROM 768 is a skull with the front half of the skeleton, including the neck, back, shoulder girdle, forelimbs and pelvis, with patches of scaly skin. Other species rest chiefly on skulls, notably a near-complete skull of P. tubicen and the P. cyrtocristatus type skull, and a young individual from Utah preserves most of its skeleton.",
+          "note": "Because most specimens are skulls, statements about body proportions lean heavily on the single Alberta skeleton and on other hadrosaurids."
+        },
+        "media": [
+          {
+            "file": "Parasaurolophus holotype skulls.png",
+            "kind": "Type specimens",
+            "title": "Holotype skulls of the three species",
+            "alt": "Photographs of the three Parasaurolophus holotype skulls in side view, showing different crest curvatures",
+            "caption": "Skulls of P. cyrtocristatus (holotype FMNH P 27393), P. walkeri (holotype ROM 768) and P. tubicen (the near-complete NMMNH P-25100), from Gates and colleagues' 2021 study; the differing crest curves separate the species.",
+            "credit": "Terry A. Gates, David C. Evans and Joseph J. W. Sertich · CC BY 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parasaurolophus_holotype_skulls.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Several complete or near-complete skulls with crests, including the type skulls of all three species and juvenile skulls; internal nasal passages studied by CT."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical and dorsal series and sacrum in the type skeleton; the tail is largely missing in the holotype and best known from the Utah juvenile."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Shoulder girdle, forelimbs and pelvis in ROM 768; hind limbs incomplete below the knee in the holotype."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Impressions of small, non-overlapping scales on the type specimen; no colour, feathers or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "ROM 768 · holotype of P. walkeri",
+            "description": "A skull and front half of the skeleton found in 1920 by a University of Toronto party on the Red Deer River and described by William Parks in 1922. It preserves skin impressions but lacks most of the tail and the hind limbs below the knee.",
+            "meta": "Red Deer River, Alberta · Dinosaur Park Formation · Royal Ontario Museum"
+          },
+          {
+            "kicker": "Growth-series specimen",
+            "title": "RAM 14000 · juvenile from Utah",
+            "description": "A nearly complete young animal from the Kaiparowits Formation described in 2013. It shows that the crest was already a low bump at about a year old and helps calibrate crest growth across the genus.",
+            "meta": "Grand Staircase-Escalante, Utah · Kaiparowits Formation · Raymond M. Alf Museum"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Skulls with hollow tubular crests across a growth series, one partial adult skeleton with skin impressions, and a nearly complete juvenile."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "The crest housed looping nasal passages that probably resonated calls and served in display; species differ in crest curvature and age of their rock units."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Exact vocalisations, colour and any soft-tissue extension of the crest, complete adult proportions, and the species identity of fragmentary referred material."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Parks · 1922",
+            "description": "Original description of Parasaurolophus walkeri and the ROM 768 skeleton, with skeletal plates.",
+            "access": "Scanned monograph",
+            "url": "https://commons.wikimedia.org/wiki/File:Parasaurolophus_walkeri,_a_new_genus_and_species_of_trachodont_dinosaur.pdf"
+          },
+          {
+            "type": "Modern revision",
+            "title": "Gates et al. · 2021",
+            "description": "New skull material, species comparison and crest ontogeny across the genus.",
+            "access": "Open access",
+            "url": "https://doi.org/10.7717/peerj.10669"
+          },
+          {
+            "type": "Growth study",
+            "title": "Farke et al. · 2013",
+            "description": "Description of the juvenile RAM 14000 and what it shows about crest development.",
+            "access": "Open access",
+            "url": "https://doi.org/10.7717/peerj.182"
+          },
+          {
+            "type": "Functional study",
+            "title": "Weishampel · 1981",
+            "description": "Acoustic analysis of lambeosaurine crests as resonating chambers.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1017/S0094837300004036"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype skulls figure",
+            "description": "Source page, authors and reuse licence for the three-species skull comparison.",
+            "access": "CC BY 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Parasaurolophus_holotype_skulls.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38766"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level across all three species. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

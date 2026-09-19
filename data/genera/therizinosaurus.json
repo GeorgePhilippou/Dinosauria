@@ -70,7 +70,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -98,6 +98,124 @@
         "Herbivory is inferred from close relatives; the five-tonne catalogue mass is too precise for the fragmentary material and is removed."
       ]
     },
+    "presentation": {
+      "heroLead": "A giant, long-armed theropod from Late Cretaceous Mongolia, famous for the longest known claws of any land animal and known chiefly from those arms.",
+      "heroMedia": {
+        "file": "Therizinosaurus Restoration.png",
+        "title": "Life restoration of Therizinosaurus cheloniformis",
+        "alt": "Life restoration of Therizinosaurus cheloniformis standing with long clawed forelimbs",
+        "caption": "Life restoration with the arms and claws based on the holotype and referred forelimb specimens. The head, neck, body and feather covering are reconstructed from relatives and remain interpretive.",
+        "credit": "PaleoNeolitic · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Therizinosaurus_Restoration.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · Maastrichtian · about 70–66 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Nemegt Formation, Ömnögovi, Mongolia"
+        },
+        {
+          "label": "Known size",
+          "value": "claws up to about 50 cm · body length extrapolated"
+        },
+        {
+          "label": "Diet",
+          "value": "Probable herbivore · inferred from relatives"
+        }
+      ],
+      "animalParagraphs": [
+        "Therizinosaurus was one of the largest members of Therizinosauria, an unusual group of theropods that turned away from meat-eating. Its forelimbs were enormous: the complete arm of one referred specimen is about 2.4 metres long, and the hand claws reach around half a metre along their curve, the longest known from any land animal.",
+        "Almost everything else about its body is inferred. No skull, neck or trunk has been found, so the small head, long neck, wide belly and short tail seen in reconstructions come from better-known relatives such as Erlikosaurus, Segnosaurus and Nothronychus rather than from Therizinosaurus itself. Published lengths of nine to ten metres and masses of several tonnes are extrapolations from the limb bones.",
+        "The function of the claws is still debated. Biomechanical modelling by Lautenschlager in 2014 found that the long, slender unguals of Therizinosaurus were poorly suited to digging or forceful strikes and were better matched to hooking and pulling vegetation, although display, defence and intraspecific combat cannot be excluded."
+      ],
+      "animalHighlights": [
+        "Hand claws up to roughly 50 centimetres long on arms about 2.4 metres in length are directly measured from fossils.",
+        "Its herbivorous, wide-bodied build is inferred from the anatomy of smaller, better-known therizinosaurids.",
+        "Modelling suggests the slender claws were suited to hooking and pulling branches rather than to fighting or digging."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Probable plant-eater",
+          "level": "Inferred from relatives",
+          "reason": "No skull or teeth are known. Herbivory rests on the beaked, small-toothed skulls and wide guts of other therizinosaurids."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Supported by hindlimb material",
+          "reason": "The stout hindlimb bones and four weight-bearing toes are consistent with a slow, upright biped, as in other therizinosaurids."
+        },
+        {
+          "label": "Known size",
+          "value": "arms about 2.4 m · length extrapolated",
+          "level": "Loose extrapolation",
+          "reason": "Only the forelimbs and parts of the hindlimb are measured; whole-body length and mass depend on scaling from relatives."
+        },
+        {
+          "label": "Appearance",
+          "value": "Largely reconstructed",
+          "level": "Head and body from relatives",
+          "reason": "The arms are well known; the skull shape, neck length, plumage and colour are not preserved for this genus."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous · Maastrichtian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 70–66 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Nemegt Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Nemegt Basin, Ömnögovi Province, southern Mongolia"
+        }
+      ],
+      "locality": {
+        "name": "Nemegt Basin",
+        "region": "Ömnögovi Province, Mongolia",
+        "note": "Nemegt Formation. The holotype was collected by a Soviet–Mongolian expedition in 1948; later Mongolian and joint expeditions recovered the referred forelimb and hindlimb material from the same formation."
+      },
+      "classificationSummary": "Therizinosaurus is the name-giving member of Therizinosauridae, a group of coelurosaurian theropods that evolved a plant-eating body plan. Its position within the family is stable, but its fragmentary remains limit how many characters it contributes to phylogenetic analyses.",
+      "related": [
+        {
+          "id": "erlikosaurus",
+          "reason": "A smaller therizinosaurid with a well-preserved skull that supplies the head anatomy Therizinosaurus lacks."
+        },
+        {
+          "id": "segnosaurus",
+          "reason": "Another Mongolian therizinosaurid known from jaws, pelvis and limbs that inform the reconstructed body plan."
+        },
+        {
+          "id": "deinocheirus",
+          "reason": "A contemporary Nemegt giant that was also long known only from enormous arms until more complete material emerged."
+        }
+      ],
+      "questions": [
+        {
+          "title": "What did its head look like?",
+          "copy": "No cranial material is known. The small, beaked head shown in reconstructions is borrowed from Erlikosaurus and other relatives."
+        },
+        {
+          "title": "What were the claws for?",
+          "copy": "Biomechanical modelling favours hooking and pulling vegetation, but display, defence and other uses remain possible and are not directly testable from the fossils."
+        },
+        {
+          "title": "How big was it really?",
+          "copy": "Length and mass estimates scale the arms and hindlimb against smaller therizinosaurids; the catalogue carries no mass figure because none can be measured directly."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "All secure material is Maastrichtian Nemegt Formation.",
     "sources": [
       {
@@ -109,6 +227,16 @@
         "type": "primary-literature",
         "citation": "Zanno (2010), therizinosaur systematics",
         "url": "https://doi.org/10.1080/14772019.2010.488045"
+      },
+      {
+        "type": "comparative-study",
+        "citation": "Kobayashi et al. (2022), New therizinosaurid dinosaur from the marine Osoushinai Formation provides insight for function and evolution of therizinosaur claws",
+        "url": "https://doi.org/10.1038/s41598-022-11063-5"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Therizinosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/therizinosaurus.html"
       }
     ],
     "residualUncertainty": [
@@ -125,7 +253,160 @@
         "claw function"
       ],
       "summary": "Therizinosaurus cheloniformis was a giant therizinosaurid from the Nemegt Formation, known mainly from enormous forelimbs and claws plus limited hindlimb material.",
-      "sourceBasis": "Lautenschlager (2014), functional analysis of therizinosaur claws; Zanno (2010), therizinosaur systematics"
+      "sourceBasis": "Lautenschlager (2014), functional analysis of therizinosaur claws; Zanno (2010), therizinosaur systematics",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "PIN 551-483",
+          "institution": "Palaeontological Institute, Russian Academy of Sciences, Moscow",
+          "note": "Several giant manual unguals, a metacarpal fragment and rib fragments collected in 1948; originally interpreted by Maleev as a turtle-like reptile."
+        },
+        {
+          "name": "Referred forelimb",
+          "id": "IGM 100/15",
+          "institution": "Institute of Palaeontology, Mongolian Academy of Sciences, Ulaanbaatar",
+          "note": "A largely complete forelimb with scapulocoracoid, humerus, radius, ulna and hand, described by Barsbold in 1976 and the main basis for the reconstructed arm."
+        },
+        {
+          "name": "Referred hindlimb material",
+          "id": "IGM 100/45",
+          "institution": "Institute of Palaeontology, Mongolian Academy of Sciences, Ulaanbaatar",
+          "note": "Partial hindlimb described by Perle in 1982 that first linked the arms to a theropod body plan."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Giant arms and claws, a partial hindlimb, and no skull.",
+        "standfirst": "Therizinosaurus is known from a handful of Nemegt Formation specimens dominated by forelimb bones and enormous hand claws. Limited hindlimb material is referred to it; the skull, neck, trunk and tail have never been found.",
+        "coverage": {
+          "label": "Low",
+          "level": 1,
+          "maximum": 4,
+          "basis": "Forelimbs are well represented and a partial hindlimb is referred, but there is no skull, vertebral column, pelvis or associated skeleton, and the specimens come from separate finds."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Forelimbs, claws, partial hindlimb"
+          },
+          {
+            "label": "Individuals",
+            "value": "Several, from separate finds"
+          },
+          {
+            "label": "Key limitation",
+            "value": "No skull or body skeleton"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The holotype consists of giant hand claws with a metacarpal fragment and ribs. A referred specimen preserves a nearly complete forelimb, including the shoulder girdle, and a further specimen preserves part of a hindlimb and foot.",
+          "note": "Because the material comes from separate finds with no overlapping skeleton, the referral of the hindlimb rests on size and Nemegt provenance rather than on direct association with the claws."
+        },
+        "media": [
+          {
+            "file": "Therizinosaurus ungual morphology.png",
+            "kind": "Specimen photograph",
+            "title": "Hand claw of referred specimen MPC-D 100/15",
+            "alt": "Photograph of the proximal end of a Therizinosaurus hand claw in oblique view",
+            "caption": "The proximal end of a Therizinosaurus ungual from the referred forelimb specimen MPC-D 100/15 (also cited as IGM 100/15), figured by Kobayashi and colleagues in 2022.",
+            "credit": "Kobayashi et al. 2022 · CC BY 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Therizinosaurus_ungual_morphology.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "None known. Head anatomy is reconstructed entirely from other therizinosaurids."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "No vertebrae are securely known; only rib fragments accompany the holotype claws."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Scapulocoracoid, humerus, radius, ulna, metacarpals, phalanges and giant unguals from the forelimb; partial tibia, fibula, ankle and foot bones from the hindlimb."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "None. No skin, feathers, keratin sheaths or gut contents are preserved."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "PIN 551-483 · holotype",
+            "description": "Several enormous manual unguals with a metacarpal fragment and ribs, collected by the 1948 Soviet–Mongolian expedition. Maleev described them in 1954 as belonging to a giant turtle-like reptile, which is why the species is called cheloniformis.",
+            "meta": "Nemegt Formation · Ömnögovi Province · Palaeontological Institute, Moscow"
+          },
+          {
+            "kicker": "Most informative specimen",
+            "title": "IGM 100/15 · referred forelimb",
+            "description": "A nearly complete forelimb about 2.4 metres long with the shoulder girdle, described by Barsbold in 1976. It established that the claws belonged to a theropod with long arms and three-fingered hands.",
+            "meta": "Nemegt Formation · Institute of Palaeontology, Ulaanbaatar"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Giant hand claws, a near-complete forelimb with shoulder girdle, rib fragments and part of a hindlimb and foot, all from the Nemegt Formation."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A very large therizinosaurid whose slender claws were probably used to hook and pull vegetation; body form and herbivory are inferred from smaller relatives with skulls and bodies preserved."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Skull, teeth or beak, neck, trunk, pelvis and tail; body length, mass, plumage, colour and whether all referred specimens represent one species."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Modern revision",
+            "title": "Zanno · 2010",
+            "description": "Systematic review of Therizinosauria that re-examines the material and diagnosis of Therizinosaurus.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1080/14772019.2010.488045"
+          },
+          {
+            "type": "Functional study",
+            "title": "Lautenschlager · 2014",
+            "description": "Finite-element analysis of therizinosaur claws, testing digging, hooking and fighting hypotheses.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1098/rspb.2014.0497"
+          },
+          {
+            "type": "Comparative study",
+            "title": "Kobayashi et al. · 2022",
+            "description": "Open-access description of a Japanese therizinosaurid that figures and compares the Therizinosaurus claws.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1038/s41598-022-11063-5"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus and its unusual claws.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/therizinosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Referred claw photograph",
+            "description": "Source page, creator details and reuse licence for the ungual photograph.",
+            "access": "CC BY 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Therizinosaurus_ungual_morphology.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38553"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

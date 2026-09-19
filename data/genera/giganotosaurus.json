@@ -69,7 +69,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -97,6 +97,124 @@
         "It rivalled the largest theropods in length, but claims that it was definitively larger than Tyrannosaurus depend on uncertain reconstructions and mass models.",
         "Blade-like serrated teeth support predation on large vertebrates; specific prey and hunting groups are unknown."
       ]
+    },
+    "presentation": {
+      "heroLead": "One of the largest known land predators, a Patagonian carcharodontosaurid known chiefly from a single incomplete skeleton found in 1993.",
+      "heroMedia": {
+        "file": "Giganotosaurus carolinii by durbed.jpg",
+        "title": "Life restoration of Giganotosaurus carolinii",
+        "alt": "Life restoration of Giganotosaurus carolinii in side view with a human silhouette for scale",
+        "caption": "A restoration with proportions matched to published skeletal reconstructions. Skin texture, colour and the shape of missing skull regions are interpretive.",
+        "credit": "Durbed · CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giganotosaurus_carolinii_by_durbed.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 99–97 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Neuquén Province, Argentina"
+        },
+        {
+          "label": "Known size",
+          "value": "about 12–13 m · estimated"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Giganotosaurus was a huge theropod from the early Late Cretaceous of Patagonia. Length estimates of roughly 12–13 metres and mass estimates from about four to eight tonnes come from an incomplete skeleton and depend on how the missing parts are reconstructed, so comparisons with Tyrannosaurus and Spinosaurus are not settled.",
+        "Its skull was long and low with blade-like, serrated teeth suited to slicing flesh rather than crushing bone, and its braincase was small relative to body size. The skull bones are incomplete and distorted, so the published skull length of around 1.5–1.8 metres is a reconstruction.",
+        "It lived alongside giant titanosaurian sauropods such as Andesaurus and rebbachisaurids, and large sauropods are usually assumed to have been among its prey. Whether it hunted alone or in groups is unknown; the related Mapusaurus has been found in a multi-individual bonebed, but no such evidence exists for Giganotosaurus."
+      ],
+      "animalHighlights": [
+        "Among the largest theropods known, though its exact size relative to Tyrannosaurus depends on reconstruction.",
+        "Blade-like teeth and a long, low skull mark it as a carcharodontosaurid rather than a tyrannosaur-like bone-crusher.",
+        "Discovered by an amateur fossil hunter, Rubén Carolini, whose name the species carries."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Meat-eater",
+          "level": "Supported by teeth and jaws",
+          "reason": "Serrated, laterally compressed teeth indicate slicing flesh from large prey; specific prey species are not documented by bite marks or gut contents."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Supported by hindlimb anatomy",
+          "reason": "Robust hindlimbs and small forelimbs indicate two-legged walking; speed estimates are model-based and vary widely."
+        },
+        {
+          "label": "Known size",
+          "value": "about 12–13 m long",
+          "level": "Estimate from one incomplete skeleton",
+          "reason": "The holotype is described as about 70 per cent complete; length and mass rely on reconstructing missing regions, and a second jaw suggests slightly larger individuals existed."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeletal outline reconstructed",
+          "level": "Skull shape partly uncertain",
+          "reason": "Body proportions are reasonably constrained; the distorted skull, skin texture and colour are not directly known."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous, early Cenomanian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 99–97 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Candeleros Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Near Villa El Chocón, Neuquén Province, Argentina"
+        }
+      ],
+      "locality": {
+        "name": "Villa El Chocón",
+        "region": "Neuquén Province, Patagonia, Argentina",
+        "note": "Candeleros Formation badlands south of the Ezequiel Ramos Mexía reservoir. The skeleton is housed in the local Museo Municipal Ernesto Bachmann."
+      },
+      "classificationSummary": "Giganotosaurus is a carcharodontosaurine carcharodontosaurid, a member of the giant allosauroid radiation that dominated Gondwanan faunas in the mid-Cretaceous. It is closely related to Mapusaurus from slightly younger Argentine rocks and to Carcharodontosaurus from North Africa.",
+      "related": [
+        {
+          "id": "mapusaurus",
+          "reason": "A close relative from the overlying Huincul Formation known from a multi-individual bonebed."
+        },
+        {
+          "id": "carcharodontosaurus",
+          "reason": "Compare with the African carcharodontosaurid that gives the family its name."
+        },
+        {
+          "id": "tyrannosaurus",
+          "reason": "Compare with the North American giant it is most often measured against."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How heavy was it?",
+          "copy": "Estimates range from about four to over eight tonnes depending on the model and on how the incomplete skeleton is reconstructed."
+        },
+        {
+          "title": "What did the complete skull look like?",
+          "copy": "The preserved skull bones are incomplete and distorted, so total skull length and snout shape are reconstructed rather than measured."
+        },
+        {
+          "title": "Did it hunt sauropods in groups?",
+          "copy": "Giant sauropods shared its habitat, but no bite marks, trackways or bonebeds document either its prey or any group behaviour."
+        }
+      ],
+      "compactSources": true
     },
     "ageReviewNote": "The Candeleros Formation is early Cenomanian, approximately 99-97 Ma.",
     "sources": [
@@ -134,7 +252,147 @@
         "social behaviour"
       ],
       "summary": "Giganotosaurus carolinii was a giant carcharodontosaurid predator from the Candeleros Formation of Patagonia. It is known from one incomplete skeleton with much of the skull and a referred partial lower jaw; no complete skeleton exists.",
-      "sourceBasis": "Coria & Salgado (1995), A new giant carnivorous dinosaur from the Cretaceous of Patagonia; Coria & Currie (2002), The braincase of Giganotosaurus carolinii; Paleobiology Database taxon and occurrence context for Giganotosaurus"
+      "sourceBasis": "Coria & Salgado (1995), A new giant carnivorous dinosaur from the Cretaceous of Patagonia; Coria & Currie (2002), The braincase of Giganotosaurus carolinii; Paleobiology Database taxon and occurrence context for Giganotosaurus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "MUCPv-Ch1",
+          "institution": "Museo Municipal Ernesto Bachmann, Villa El Chocón",
+          "note": "Incomplete skeleton with much of the skull, braincase, vertebrae, pelvis and hindlimbs; estimated at about 70 per cent complete by its describers."
+        },
+        {
+          "name": "Referred dentary",
+          "id": "MUCPv-95",
+          "institution": "Museo de Geología y Paleontología, Universidad Nacional del Comahue",
+          "note": "Partial lower jaw about eight per cent larger than the holotype, referred by Calvo and Coria in 1998."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "One substantial skeleton and a second lower jaw.",
+        "standfirst": "Giganotosaurus rests on a single incomplete skeleton with much of the skull, pelvis and limbs, plus a referred partial dentary from a slightly larger animal. Its giant size is secure; its precise proportions are not.",
+        "coverage": {
+          "label": "Moderate",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Most skeletal regions are represented in the holotype, but from one individual, with an incomplete and distorted skull and missing forelimb and tail elements."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Partial skeleton and skull"
+          },
+          {
+            "label": "Individuals",
+            "value": "2"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Single incomplete skeleton"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The holotype includes much of the skull and lower jaws, the braincase, most of the vertebral column, ribs, the pelvis and the hindlimbs, and was estimated by its describers at about 70 per cent complete. A separate partial dentary about eight per cent larger was later referred to the genus.",
+          "note": "Because a single individual supplies almost all the anatomy, size estimates and skull proportions carry more uncertainty than the animal's fame suggests."
+        },
+        "media": [
+          {
+            "file": "Giganotosaurus restos originales del cráneo.JPG",
+            "kind": "Type specimen",
+            "title": "Original skull bones of the holotype",
+            "alt": "Original fossil bones from the right side of the Giganotosaurus carolinii holotype skull displayed at the Museo Paleontológico Ernesto Bachmann",
+            "caption": "Original bones from the right side of the holotype skull on display at Villa El Chocón. The mounted skeleton nearby is a cast with the missing regions reconstructed.",
+            "credit": "Neloadino · CC BY-SA 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giganotosaurus_restos_originales_del_cráneo.JPG"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Much of the skull including maxillae, lower jaws with teeth and a well-preserved braincase; bones are incomplete and distorted, so total skull length is reconstructed."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Most of the neck, back and sacrum with part of the tail and ribs; the tail end is missing."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Pelvis and hindlimbs including femur and tibia; the forelimbs are poorly represented."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "None. No skin, feathers, gut contents or bite-marked prey are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "MUCPv-Ch1 · holotype",
+            "description": "An incomplete skeleton found by Rubén Carolini in 1993 in the Candeleros Formation and described by Rodolfo Coria and Leonardo Salgado in 1995. It includes skull, braincase, vertebrae, pelvis and hindlimb bones.",
+            "meta": "Villa El Chocón, Neuquén · Candeleros Formation · Museo Municipal Ernesto Bachmann"
+          },
+          {
+            "kicker": "Referred specimen",
+            "title": "MUCPv-95 · partial dentary",
+            "description": "A fragment of lower jaw about eight per cent larger than the holotype's, described in 1998 and taken to show that Giganotosaurus reached somewhat larger sizes than the type individual.",
+            "meta": "Candeleros Formation · Neuquén · Museo de la Universidad Nacional del Comahue"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "A single partial skeleton with much of the skull, plus a larger isolated dentary, both from the Candeleros Formation."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A giant carcharodontosaurid predator of large prey, roughly comparable in length to Tyrannosaurus though with a lighter skull build; size rankings depend on reconstruction."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Body mass, complete skull shape, forelimb and tail anatomy, growth, hunting behaviour and prey."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Coria & Salgado · 1995",
+            "description": "Original description of the holotype skeleton in Nature.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1038/377224a0"
+          },
+          {
+            "type": "Osteology",
+            "title": "Coria & Currie · 2002",
+            "description": "Detailed description of the holotype braincase.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1671/0272-4634(2002)022%5B0802:TBOGCD%5D2.0.CO;2"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the animal and its discovery.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/giganotosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype skull bones",
+            "description": "Source page, photographer and reuse licence for the photograph of the original skull material.",
+            "access": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Giganotosaurus_restos_originales_del_cráneo.JPG"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=54540"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

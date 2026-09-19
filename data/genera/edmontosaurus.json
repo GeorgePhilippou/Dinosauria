@@ -77,7 +77,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -106,6 +106,124 @@
         "It could move both quadrupedally and bipedally; habitual speed and herd structure are not directly known."
       ]
     },
+    "presentation": {
+      "heroLead": "A large, broad-beaked duck-billed dinosaur from the Late Cretaceous of Alberta, known from many skulls and skeletons and from rare specimens preserving skin and a fleshy head comb.",
+      "heroMedia": {
+        "file": "Life reconstruction of Edmontosaurus regalis.png",
+        "title": "Life restoration of Edmontosaurus regalis",
+        "alt": "Scientific life restoration of Edmontosaurus regalis walking on four legs in side view",
+        "caption": "Life restoration by Connor Ashbridge. Body proportions follow the skeletons; colour and skin pattern are interpretive, although scale impressions and a soft comb are known from fossils.",
+        "credit": "Connor Ashbridge · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Edmontosaurus_regalis.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · late Campanian–early Maastrichtian · about 73–69 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Alberta, Canada"
+        },
+        {
+          "label": "Known size",
+          "value": "about 9–12 m · adults known"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Edmontosaurus regalis was one of the largest hadrosaurids, with adults around nine to twelve metres long. Its skull was long and low, ending in a broad, toothless beak, and behind the beak the jaws carried dental batteries of hundreds of closely packed teeth that formed a continuous grinding surface. Unlike its crested relatives it had no hollow bony crest.",
+        "The animal is known from many individuals of different sizes, so its growth is unusually well documented. Skull shape changed considerably as it grew, and some historic species names were founded on juveniles or on individuals of the closely related, later species Edmontosaurus annectens. This profile is scoped to E. regalis.",
+        "A specimen from the Wapiti Formation preserves the impression of a fleshy comb on top of the head, a structure that bones alone would never have revealed. Other specimens preserve patches of small, non-overlapping scales. Neither shows colour, and the comb's function is unknown."
+      ],
+      "animalHighlights": [
+        "A broad, flattened beak backed by dental batteries with hundreds of teeth arranged in a grinding surface.",
+        "No bony crest, but one specimen preserves a soft, fleshy comb on top of the head.",
+        "A juvenile-to-adult growth series shows how the skull lengthened and deepened with age."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by dental batteries and wear",
+          "reason": "Tooth wear and jaw mechanics show grinding of tough plant material. The particular plants eaten by E. regalis are not directly preserved."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal and bipedal",
+          "level": "Supported by limb anatomy",
+          "reason": "Hoof-like hands and strong hindlimbs allow both gaits; how often it used each, and its speed, are inferred."
+        },
+        {
+          "label": "Known size",
+          "value": "about 9–12 m long",
+          "level": "Adult skeletons known",
+          "reason": "Lengths come from well-preserved adults; masses of several tonnes are model-based estimates."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skin and comb partly known",
+          "level": "Colour remains unknown",
+          "reason": "Scale impressions and a fleshy head comb are preserved, but colour, pattern and the extent of soft structures over the rest of the body are not."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous, late Campanian to early Maastrichtian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 73–69 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Horseshoe Canyon Formation; also Wapiti Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Red Deer River valley, Alberta, Canada"
+        }
+      ],
+      "locality": {
+        "name": "Red Deer River valley",
+        "region": "Alberta, Canada",
+        "note": "The type specimens were collected from the Horseshoe Canyon Formation along the Red Deer River in 1912. The comb-bearing specimen comes from the Wapiti Formation near Grande Prairie."
+      },
+      "classificationSummary": "Edmontosaurus is a saurolophine hadrosaurid, one of the flat-headed duck-billed dinosaurs that lacked the hollow crests of lambeosaurines. E. regalis is the type species; E. annectens from the latest Maastrichtian is a separate, later species.",
+      "related": [
+        {
+          "id": "saurolophus",
+          "reason": "Compare with a solid-crested saurolophine from the same formation."
+        },
+        {
+          "id": "hypacrosaurus",
+          "reason": "Compare with a hollow-crested lambeosaurine that shared the Horseshoe Canyon Formation."
+        },
+        {
+          "id": "shantungosaurus",
+          "reason": "Compare with the largest known hadrosaurid, a close relative from China."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Which specimens belong to which species?",
+          "copy": "Several historic names and specimens need reassessment. Juvenile skulls in particular have been confused with separate species."
+        },
+        {
+          "title": "Did all individuals have a comb?",
+          "copy": "The fleshy comb is known from one specimen. Whether it was present in both sexes or at all ages is unknown."
+        },
+        {
+          "title": "Did it live in herds?",
+          "copy": "Bonebeds elsewhere show that Edmontosaurus could occur in large groups, but herd structure and social behaviour are inferred rather than observed."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The profile is scoped to E. regalis, primarily about 73-69 Ma; E. annectens extends the genus into the latest Maastrichtian but is taxonomically distinct.",
     "sources": [
       {
@@ -122,6 +240,16 @@
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Edmontosaurus regalis",
         "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Edmontosaurus%20regalis"
+      },
+      {
+        "type": "type-redescription",
+        "citation": "Xing, Mallon & Currie (2017), Supplementary cranial description of the types of Edmontosaurus regalis",
+        "url": "https://doi.org/10.1371/journal.pone.0175253"
+      },
+      {
+        "type": "soft-tissue-study",
+        "citation": "Bell et al. (2013), A distinctive fleshy cranial crest in Edmontosaurus regalis",
+        "url": "https://doi.org/10.1016/j.cub.2013.11.008"
       }
     ],
     "residualUncertainty": [
@@ -142,7 +270,160 @@
         "herd behaviour"
       ],
       "summary": "Edmontosaurus regalis was a large, broad-beaked saurolophine hadrosaurid from the Horseshoe Canyon and equivalent formations of Canada. Numerous skulls and skeletons across growth stages document its anatomy; later Maastrichtian E. annectens is a separate species and should not be blended into one undifferentiated profile.",
-      "sourceBasis": "Campione & Evans (2011), Cranial growth and variation in Edmontosaurus; Berruyer et al. (2024), A juvenile Edmontosaurus regalis and growth; Paleobiology Database taxon and occurrence context for Edmontosaurus regalis"
+      "sourceBasis": "Campione & Evans (2011), Cranial growth and variation in Edmontosaurus; Berruyer et al. (2024), A juvenile Edmontosaurus regalis and growth; Paleobiology Database taxon and occurrence context for Edmontosaurus regalis",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "CMN 2288",
+          "institution": "Canadian Museum of Nature",
+          "note": "Skull and partial skeleton collected in 1912 from the Horseshoe Canyon Formation; described by Lambe in 1917."
+        },
+        {
+          "name": "Paratype",
+          "id": "CMN 2289",
+          "institution": "Canadian Museum of Nature",
+          "note": "Second skull and skeleton from the same formation, described with the holotype."
+        },
+        {
+          "name": "Comb-bearing specimen",
+          "id": "UALVP 53722",
+          "institution": "University of Alberta Laboratory for Vertebrate Paleontology",
+          "note": "Skull with skin impressions preserving a fleshy cranial comb, from the Wapiti Formation."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Many skulls and skeletons, a growth series and rare soft-tissue impressions.",
+        "standfirst": "Edmontosaurus regalis is known from numerous skulls and substantial skeletons from Alberta, including the two type specimens described by Lawrence Lambe in 1917 and a specimen preserving skin and a fleshy comb. It is among the best-documented hadrosaurids.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every skeletal region is known from multiple individuals of different growth stages, with complete skulls, near-complete skeletons and soft-tissue impressions."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Nearly complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Many"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Species referrals of some specimens"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete and partial skulls with dental batteries, full vertebral series, both girdles, complete limbs with hands and feet, juveniles through large adults, and impressions of scaly skin and a soft cranial comb.",
+          "note": "Some historic specimens were assigned to other species or genera and still require reassessment; the broader genus, including E. annectens, adds famous mummified specimens from the United States that are not E. regalis."
+        },
+        "media": [
+          {
+            "file": "Edmontosaurus regalis skull CMN 2288.png",
+            "kind": "Type specimen",
+            "title": "Holotype skull CMN 2288",
+            "alt": "Photographs and line drawings of the incomplete Edmontosaurus regalis holotype skull CMN 2288 in left lateral and dorsal views",
+            "caption": "The holotype cranium in left side and top views, from the 2017 redescription of the type specimens at the Canadian Museum of Nature.",
+            "credit": "Hai Xing, Jordan C. Mallon and Margaret L. Currie · CC BY 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edmontosaurus_regalis_skull_CMN_2288.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Many complete and partial skulls with dental batteries and beaks, spanning juvenile to adult."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete cervical, dorsal, sacral and caudal series with ossified tendons, ribs and chevrons in several individuals."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Complete shoulder and hip girdles and all limb elements, including hooved hands and feet."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Impressions of small scales and a fleshy head comb; no colour or gut contents are known for E. regalis."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "CMN 2288 · holotype",
+            "description": "A skull and partial skeleton collected by Levi Sternberg in 1912 from the Horseshoe Canyon Formation and described by Lambe in 1917, together with the paratype CMN 2289. Both are held by the Canadian Museum of Nature.",
+            "meta": "Red Deer River, Alberta · Horseshoe Canyon Formation · Canadian Museum of Nature"
+          },
+          {
+            "kicker": "Soft-tissue specimen",
+            "title": "UALVP 53722 · comb-bearing skull",
+            "description": "A skull with skin impressions from the Wapiti Formation preserving a fleshy comb above the head, described in 2013 as the first such structure known for any dinosaur.",
+            "meta": "near Grande Prairie, Alberta · Wapiti Formation · University of Alberta"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Numerous skulls and skeletons across growth stages, dental batteries with wear, scale impressions and a soft cranial comb."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A large grinding herbivore able to walk on two or four legs, whose comb was probably a display structure and whose growth changed skull proportions markedly."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Colour, how widespread the comb was, herd structure, habitual gait and the correct species assignment of some historic specimens."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Type redescription",
+            "title": "Xing, Mallon & Currie · 2017",
+            "description": "Supplementary cranial description of the holotype and paratype of Edmontosaurus regalis.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1371/journal.pone.0175253"
+          },
+          {
+            "type": "Growth study",
+            "title": "Campione & Evans · 2011",
+            "description": "Cranial growth and variation, resolving several historic species names.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1371/journal.pone.0025186"
+          },
+          {
+            "type": "Soft-tissue study",
+            "title": "Bell et al. · 2013",
+            "description": "Description of the fleshy cranial comb preserved on a Wapiti Formation specimen.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1016/j.cub.2013.11.008"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/edmontosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype skull CMN 2288",
+            "description": "Source page, creator details and reuse licence for the figure of the type cranium.",
+            "access": "CC BY 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Edmontosaurus_regalis_skull_CMN_2288.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38761"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

@@ -69,7 +69,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria A-C systematic scientific review",
     "consensusScope": [
       "accepted name and broad classification",
@@ -96,6 +96,124 @@
         "Skin impressions show varied non-overlapping scales; an osteoderm-studded body or a specific colour pattern is not supported."
       ]
     },
+    "presentation": {
+      "heroLead": "A horned, stub-armed abelisaurid predator from the last few million years of the Cretaceous in Patagonia, known from one superbly preserved skeleton with skin impressions.",
+      "heroMedia": {
+        "file": "Carnotaurus Reconstruction (2022).png",
+        "title": "Life restoration of Carnotaurus sastrei",
+        "alt": "Life restoration of Carnotaurus sastrei in side view showing paired brow horns and tiny forelimbs",
+        "caption": "Life restoration by Fred Wierum, drawn to take account of the 2022 re-study of the skin impressions. The scale pattern follows the fossil; colour is interpretive.",
+        "credit": "Fred Wierum · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carnotaurus_Reconstruction_(2022).png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 72–69 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Chubut, Argentina"
+        },
+        {
+          "label": "Known size",
+          "value": "about 7.5–8 m · estimated 1.3–2 t"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Carnotaurus sastrei was a medium-large theropod with a short, deep skull topped by a pair of thick, forward-facing horns above the eyes. The jaws were relatively slender and the teeth small for an animal of its size, which has prompted debate over how it dealt with prey.",
+        "Its forelimbs were among the most reduced of any large theropod: the upper arm was short, the forearm tiny and the four fingers barely functional. In contrast, the hindlimbs were long and the tail carried enormous muscle attachments, which biomechanical studies interpret as evidence of powerful, fast running.",
+        "Because Carnotaurus is known from a single individual, the figures quoted for its length and weight describe that one animal, and the extent of variation in the species is unknown. Skin impressions preserved along much of the body show a covering of small scales without feathers."
+      ],
+      "animalHighlights": [
+        "Paired brow horns, directly preserved on the skull, are unique among well-known theropods; their function is still debated.",
+        "The forelimbs are extraordinarily short, with a tiny forearm and stubby fingers that could not have grasped prey.",
+        "Extensive skin impressions show non-overlapping scales of varying size along the flanks, tail and neck, with no evidence of feathers."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Carnivore",
+          "level": "Supported by teeth and skull",
+          "reason": "Blade-like teeth and a deep skull identify a meat-eater; whether it hunted large or small prey is a biomechanical interpretation."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal runner",
+          "level": "Speed inferred from tail anatomy",
+          "reason": "Enlarged caudofemoral muscle attachments suggest strong running ability; exact speeds are modelled, not measured."
+        },
+        {
+          "label": "Known size",
+          "value": "about 7.5–8 m long",
+          "level": "One individual only",
+          "reason": "The holotype is nearly complete, so its length is well constrained; mass estimates of about 1.3 to 2 tonnes vary with method."
+        },
+        {
+          "label": "Appearance",
+          "value": "Scaly skin preserved",
+          "level": "Colour unknown",
+          "reason": "Skin impressions show small scales of differing sizes; earlier claims of rows of large feature scales were not confirmed by re-study. Colour is not preserved."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous"
+        },
+        {
+          "label": "Approximate age",
+          "value": "late Campanian–Maastrichtian, about 72–69 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "La Colonia Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Estancia Pocho Sastre, near Bajada Moreno, Chubut, Argentina"
+        }
+      ],
+      "locality": {
+        "name": "Estancia Pocho Sastre",
+        "region": "Telsen Department, Chubut, Argentina",
+        "note": "La Colonia Formation. The skeleton was excavated in 1984 by a team from the Museo Argentino de Ciencias Naturales. The map shows an approximate position within Chubut Province."
+      },
+      "classificationSummary": "Carnotaurus is an abelisaurid ceratosaur and the name-giver of the subfamily Carnotaurinae, which groups the short-faced, often horned abelisaurids of Gondwana. Its closest relatives include Aucasaurus and Abelisaurus from Argentina and Majungasaurus from Madagascar.",
+      "related": [
+        {
+          "id": "aucasaurus",
+          "reason": "Compare with a smaller, closely related Argentine abelisaurid known from a nearly complete skeleton."
+        },
+        {
+          "id": "majungasaurus",
+          "reason": "Compare with a single-horned abelisaurid from Madagascar known from many specimens."
+        },
+        {
+          "id": "abelisaurus",
+          "reason": "Compare with the name-bearer of the family, known from a skull alone."
+        }
+      ],
+      "questions": [
+        {
+          "title": "What were the horns for?",
+          "copy": "Head-butting, shoving contests and display have all been proposed on biomechanical grounds. No direct evidence of horn use survives."
+        },
+        {
+          "title": "How fast could it run?",
+          "copy": "The huge tail-based leg muscles suggest a powerful runner, but published speed estimates are models built on one skeleton."
+        },
+        {
+          "title": "Was every Carnotaurus like this one?",
+          "copy": "With a single specimen, differences between sexes, ages or individuals cannot be assessed. Its exact age within the La Colonia Formation is also debated."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The La Colonia Formation is latest Cretaceous, but the exact late Campanian-Maastrichtian age of the type horizon remains uncertain.",
     "sources": [
       {
@@ -112,6 +230,11 @@
         "type": "authoritative-museum-reference",
         "citation": "Natural History Museum, Dino Directory: carnotaurus",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/carnotaurus.html"
+      },
+      {
+        "type": "skull-revision",
+        "citation": "Cerroni et al. (2020), The skull of Carnotaurus sastrei revisited",
+        "url": "https://doi.org/10.1080/08912963.2020.1802445"
       }
     ],
     "residualUncertainty": [
@@ -132,7 +255,142 @@
         "Horn and tail functions are biomechanical hypotheses."
       ],
       "summary": "Carnotaurus sastrei was a horned abelisaurid from the La Colonia Formation of Patagonia. Its single holotype is a nearly complete articulated skeleton with a skull and extensive skin impressions, providing exceptional anatomical evidence from one individual.",
-      "sourceBasis": "Bonaparte, Novas & Coria (1990), Carnotaurus sastrei; Hendrickx & Bell (2022), The scaly skin of Carnotaurus sastrei; Natural History Museum, Dino Directory: carnotaurus"
+      "sourceBasis": "Bonaparte, Novas & Coria (1990), Carnotaurus sastrei; Hendrickx & Bell (2022), The scaly skin of Carnotaurus sastrei; Natural History Museum, Dino Directory: carnotaurus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "MACN-CH 894",
+          "institution": "Museo Argentino de Ciencias Naturales, Buenos Aires",
+          "note": "Near-complete articulated skull and skeleton lacking the lower hindlimbs, feet and tail tip, with extensive skin impressions. The only known specimen."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "One near-complete articulated skeleton with skin impressions.",
+        "standfirst": "Carnotaurus sastrei rests on a single specimen, the holotype MACN-CH 894, which preserves the skull, most of the vertebral column, the girdles and forelimbs, the thigh bones and extensive patches of scaly skin. Only one individual is known.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Almost every skeletal region is preserved in articulation, but from a single individual, and the lower hindlimbs, feet and the end of the tail are missing."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Near-complete skeleton"
+          },
+          {
+            "label": "Individuals",
+            "value": "1"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Single specimen"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "A complete skull and lower jaws, the neck, back and sacrum, most of the tail, the shoulder girdle with both forelimbs, the pelvis and both femora, together with skin impressions from the right side of the body.",
+          "note": "The skull was somewhat crushed during fossilisation, which affects reconstructions of its exact shape. The shins, feet and tail tip are not preserved and are restored from related abelisaurids."
+        },
+        "media": [
+          {
+            "file": "Carnotaurus skull lateral view.JPG",
+            "kind": "Fossil skull",
+            "title": "Skull of Carnotaurus sastrei in side view",
+            "alt": "Skull of Carnotaurus sastrei in left lateral view showing the brow horns and short snout",
+            "caption": "The distinctive deep, short skull with paired horns. All Carnotaurus skulls on display derive from the single holotype, either the original or casts of it.",
+            "credit": "Bramfab · CC BY-SA 3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carnotaurus_skull_lateral_view.JPG"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Complete skull with horns, braincase, palate and both lower jaws; somewhat crushed but revisited in detail in 2020."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal and sacral vertebrae with ribs, and most of the tail; the terminal caudals are missing."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Shoulder girdle and both diminutive forelimbs, the pelvis and both femora; tibiae, fibulae and feet are not preserved."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Extensive skin impressions from the neck, flank and tail showing small non-overlapping scales; no colour or gut contents are preserved."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "MACN-CH 894 · holotype",
+            "description": "The only known specimen, discovered in 1984 and described by José Bonaparte and colleagues in 1990. The skeleton lay articulated on its right side, and the skin impressions were preserved on the underlying surface.",
+            "meta": "Estancia Pocho Sastre · La Colonia Formation · Museo Argentino de Ciencias Naturales, Buenos Aires"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Paired frontal horns, an articulated skull and skeleton, extremely reduced forelimbs and scaly skin impressions from one animal."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A fast-running predator with a strong tail-driven leg stroke and horns used in some form of intraspecific behaviour; a body mass of roughly 1.3 to 2 tonnes scaled from the skeleton."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Colour, the structure of the shins and feet, variation within the species, and the precise age of the type horizon within the La Colonia Formation."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Bonaparte, Novas and Coria · 1990",
+            "description": "Full osteology of the holotype in the Natural History Museum of Los Angeles County Contributions in Science.",
+            "access": "Biodiversity Heritage Library",
+            "url": "https://www.biodiversitylibrary.org/part/226819"
+          },
+          {
+            "type": "Modern revision",
+            "title": "Cerroni et al. · 2020",
+            "description": "Re-examination of the skull, palate and lower jaw of the holotype.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1080/08912963.2020.1802445"
+          },
+          {
+            "type": "Integument study",
+            "title": "Hendrickx and Bell · 2022",
+            "description": "Detailed re-study of the scaly skin impressions across the body.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1016/j.cretres.2021.104994"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of Carnotaurus and its horns.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/carnotaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Skull in lateral view",
+            "description": "Source page, photographer and reuse licence for the skull photograph.",
+            "access": "CC BY-SA 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Carnotaurus_skull_lateral_view.JPG"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=54533"
+          }
+        ],
+        "limitations": "The coverage band reflects one articulated individual. It is an editorial evidence summary, not a published percentage, and it cannot speak to variation within the species because no second specimen exists.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

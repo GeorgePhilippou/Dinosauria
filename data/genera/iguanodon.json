@@ -89,7 +89,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -117,6 +117,124 @@
         "The Bernissart assemblage contains multiple individuals but does not by itself prove a permanent herd."
       ]
     },
+    "presentation": {
+      "heroLead": "A large, thumb-spiked plant-eater known from dozens of associated skeletons recovered from a Belgian coal mine, making it one of the best-documented ornithopods.",
+      "heroMedia": {
+        "file": "Iguanodon paleoart 2025.png",
+        "title": "Life restoration of Iguanodon bernissartensis",
+        "alt": "Life restoration of Iguanodon bernissartensis walking on all fours with the thumb spike visible",
+        "caption": "Life restoration by Sauroarchive. Skeletal proportions follow the Bernissart skeletons; skin texture and colour are interpretive.",
+        "credit": "Sauroarchive · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iguanodon_paleoart_2025.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Early Cretaceous · about 126–122 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Bernissart, Belgium · also England"
+        },
+        {
+          "label": "Known size",
+          "value": "about 9–11 m · estimated 3–4 t"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Iguanodon bernissartensis was a bulky ornithopod with a long, deep skull ending in a toothless beak, batteries of leaf-shaped cheek teeth and a heavy tail stiffened by ossified tendons. Its most famous feature is a conical thumb spike, once mistakenly placed on the nose, whose function remains debated.",
+        "The forelimbs are long and stout, with a wrist bound by fused bones and three central fingers that bore hoof-like claws. This anatomy supports habitual walking on all fours, while the powerful hindlimbs indicate that the animal could also rear or move bipedally when needed.",
+        "Because more than thirty individuals were recovered from the Sainte-Barbe Clays at Bernissart, palaeontologists can study variation between animals of the same species. The length and mass figures quoted for Iguanodon are still estimates: they are scaled from mounted skeletons rather than measured from living animals."
+      ],
+      "animalHighlights": [
+        "A conical thumb spike on each hand is the signature feature; its use in defence, feeding or display is interpretation rather than observation.",
+        "Cheek teeth with ridged crowns and a mobile upper jaw allowed the animal to grind plant material, an unusually sophisticated chewing system for a reptile.",
+        "Robust forelimbs and hoof-like middle fingers show that Iguanodon habitually walked on four legs, with bipedal movement available."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Directly evidenced by teeth and jaws",
+          "reason": "Dense batteries of worn cheek teeth and a horny beak are preserved on many skulls. Which plants were eaten is not recorded by gut contents."
+        },
+        {
+          "label": "Movement",
+          "value": "Mostly quadrupedal",
+          "level": "Facultatively bipedal",
+          "reason": "Hand and wrist anatomy support weight-bearing on the forelimbs; how often the animal walked on two legs is inferred, not observed."
+        },
+        {
+          "label": "Known size",
+          "value": "about 9–11 m long",
+          "level": "Estimates from many skeletons",
+          "reason": "Numerous near-complete individuals constrain proportions well, but mass estimates of roughly three to four tonnes depend on the modelling method used."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeleton well established",
+          "level": "Skin and colour reconstructed",
+          "reason": "Proportions are among the best known for any dinosaur. Skin texture, colour and any soft-tissue crests are not preserved for this species."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Early Cretaceous"
+        },
+        {
+          "label": "Approximate age",
+          "value": "late Barremian–early Aptian, about 126–122 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Sainte-Barbe Clays Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Bernissart colliery, Hainaut, Belgium"
+        }
+      ],
+      "locality": {
+        "name": "Bernissart colliery",
+        "region": "Hainaut, Belgium",
+        "note": "Sainte-Barbe Clays Formation, encountered in 1878 at a depth of more than 300 metres in the Sainte-Barbe pit. The map plots the village of Bernissart rather than the mine shaft."
+      },
+      "classificationSummary": "Iguanodon is a styracosternan iguanodontian, part of the lineage leading towards hadrosaurs. Modern revisions restrict the genus to I. bernissartensis and a few close relatives; many species once called Iguanodon are now placed in other genera such as Mantellisaurus.",
+      "related": [
+        {
+          "id": "ouranosaurus",
+          "reason": "Compare with a sail-backed African iguanodontian of similar age and build."
+        },
+        {
+          "id": "camptosaurus",
+          "reason": "Compare with a smaller, earlier ankylopollexian from the Late Jurassic of North America."
+        },
+        {
+          "id": "hypsilophodon",
+          "reason": "Compare with a small, agile ornithopod from the same Wealden landscapes of southern England."
+        }
+      ],
+      "questions": [
+        {
+          "title": "What was the thumb spike for?",
+          "copy": "Defence, breaking into plant food and intraspecific combat have all been proposed. None is directly testable from the fossils."
+        },
+        {
+          "title": "Did Iguanodon live in herds?",
+          "copy": "The Bernissart animals were buried together, but the deposit may have accumulated over time. It does not by itself prove permanent group living."
+        },
+        {
+          "title": "Which species belong in the genus?",
+          "copy": "Only I. bernissartensis is uncontroversial. Some historical European specimens and I. galvensis from Spain remain difficult to assign with confidence."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "I. bernissartensis is late Barremian-early Aptian; older broad genus ranges largely reflect reassigned species.",
     "sources": [
       {
@@ -133,6 +251,11 @@
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Iguanodon bernissartensis",
         "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Iguanodon%20bernissartensis"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Iguanodon",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/iguanodon.html"
       }
     ],
     "residualUncertainty": [
@@ -153,7 +276,147 @@
         "herd behaviour"
       ],
       "summary": "Iguanodon bernissartensis was a large herbivorous iguanodontian best known from the Bernissart mine in Belgium, where numerous associated skeletons and skulls were recovered. Modern revision restricts Iguanodon more narrowly than older books that placed many Early Cretaceous species from Europe and elsewhere in the genus.",
-      "sourceBasis": "Paul (2008), A revised taxonomy of the iguanodont dinosaurs; Verdú et al. (2017), Individual variation in Iguanodon bernissartensis; Paleobiology Database taxon and occurrence context for Iguanodon bernissartensis"
+      "sourceBasis": "Paul (2008), A revised taxonomy of the iguanodont dinosaurs; Verdú et al. (2017), Individual variation in Iguanodon bernissartensis; Paleobiology Database taxon and occurrence context for Iguanodon bernissartensis",
+      "specimens": [
+        {
+          "name": "Neotype",
+          "id": "IRSNB 1534",
+          "institution": "Royal Belgian Institute of Natural Sciences, Brussels",
+          "note": "Near-complete articulated skeleton from Bernissart, designated neotype of I. bernissartensis by ICZN Opinion 1947 (2000) in place of the fragmentary English type material of the genus."
+        },
+        {
+          "name": "Bernissart referred skeletons",
+          "id": "IRSNB series",
+          "institution": "Royal Belgian Institute of Natural Sciences, Brussels",
+          "note": "More than thirty individuals from the Sainte-Barbe Clays; many articulated, several mounted."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Dozens of associated skeletons from a single Belgian coal mine.",
+        "standfirst": "Iguanodon bernissartensis is known from more than thirty individuals recovered at Bernissart between 1878 and 1881, many of them articulated and near complete, together with skulls, hands, feet and ossified tail tendons.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every region of the skeleton, including the skull, hands, feet and tail, is represented by multiple articulated individuals from the Bernissart assemblage."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Near-complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "More than 30"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Referrals outside Bernissart"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Articulated skulls with tooth batteries, complete vertebral columns with ossified tendons, shoulder and hip girdles, and full forelimbs and hindlimbs including the spiked hands and three-toed feet, all from many individuals.",
+          "note": "The Belgian material is extraordinarily complete, but pyrite decay has damaged some bones since excavation, and specimens from England and Spain referred to the genus are far less complete."
+        },
+        "media": [
+          {
+            "file": "Iguanodon de Bernissart IRSNB 01.JPG",
+            "kind": "Mounted specimen",
+            "title": "Bernissart Iguanodon mounted in a quadrupedal pose",
+            "alt": "Mounted skeleton of Iguanodon bernissartensis in a four-legged pose in Brussels",
+            "caption": "One of the Bernissart skeletons displayed at the Royal Belgian Institute of Natural Sciences, Brussels, mounted in the modern quadrupedal posture. The historic mounts in the same hall retain the upright pose favoured by Louis Dollo.",
+            "credit": "Ben2 · CC BY-SA 3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iguanodon_de_Bernissart_IRSNB_01.JPG"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Numerous complete skulls with beaks, dental batteries and braincases, allowing detailed study of jaw mechanics."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete cervical, dorsal, sacral and caudal series with ribs and lattices of ossified tendons along the back and tail."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Complete shoulder and pelvic girdles; forelimbs with fused wrists, thumb spikes and hoofed fingers; hindlimbs and three-toed feet."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Articulated, associated skeletons and ossified tendons; no skin, gut contents or colour are preserved for this species."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "IRSNB 1534 · neotype",
+            "description": "A near-complete articulated skeleton from Bernissart, designated the neotype of Iguanodon bernissartensis by the International Commission on Zoological Nomenclature in 2000 to anchor the genus to the Belgian material.",
+            "meta": "Bernissart · Sainte-Barbe Clays Formation · Royal Belgian Institute of Natural Sciences"
+          },
+          {
+            "kicker": "Referred assemblage",
+            "title": "The Bernissart skeletons",
+            "description": "Dozens of individuals of varying size recovered from two bone-bearing levels in the mine; about two dozen are mounted or displayed in Brussels. Verdú and colleagues used this sample to document individual variation within one species.",
+            "meta": "Excavated 1878–1881 · Royal Belgian Institute of Natural Sciences"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Complete skulls, dental batteries, articulated skeletons, thumb spikes, hoof-like fingers and ossified tendons from many individuals."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "Habitual quadrupedal walking with facultative bipedality, sophisticated grinding of plant food, and a body mass of a few tonnes scaled from the mounts."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Skin texture and colour, the purpose of the thumb spike, whether the animals lived in herds, and the assignment of some historical specimens from outside Belgium."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Taxonomic revision",
+            "title": "Paul · 2008",
+            "description": "Revised taxonomy of the iguanodonts, restricting Iguanodon and separating Mantellisaurus.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1016/j.cretres.2007.04.009"
+          },
+          {
+            "type": "Modern study",
+            "title": "Verdú et al. · 2017",
+            "description": "Individual variation across the Bernissart sample of Iguanodon bernissartensis.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1016/j.cretres.2017.02.006"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of Iguanodon, its discovery and its thumb spike.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/iguanodon.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Bernissart mounted skeleton",
+            "description": "Source page, photographer and reuse licence for the Brussels mount.",
+            "access": "CC BY-SA 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Iguanodon_de_Bernissart_IRSNB_01.JPG"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38749"
+          }
+        ],
+        "limitations": "The coverage band describes the Bernissart material of I. bernissartensis. It is an editorial evidence summary, not a published percentage, and it does not extend to the fragmentary specimens referred to the genus from England and Spain.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

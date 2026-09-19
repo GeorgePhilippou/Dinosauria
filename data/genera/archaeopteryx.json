@@ -77,7 +77,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria A-C systematic scientific review",
     "consensusScope": [
       "accepted name and broad classification",
@@ -106,6 +106,124 @@
       ],
       "locomotion": "bipedal; capable of active flight, exact flight style debated"
     },
+    "presentation": {
+      "heroLead": "A crow-sized feathered theropod from the Solnhofen lagoons of Germany, long treated as the earliest bird and still the classic fossil of the dinosaur–bird transition.",
+      "heroMedia": {
+        "file": "Archaeopteryx lithographica by durbed.jpg",
+        "title": "Life restoration of Archaeopteryx lithographica",
+        "alt": "Life restoration of a feathered Archaeopteryx running with wings spread in pursuit of a small theropod at night",
+        "caption": "A restoration showing Archaeopteryx with the asymmetrical wing feathers and long feathered tail preserved in the fossils. The nocturnal setting, the prey and colour are interpretive; melanosome evidence suggests at least some black feathers.",
+        "credit": "Durbed · CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Archaeopteryx_lithographica_by_durbed.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Jurassic · about 151–148 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Bavaria, Germany"
+        },
+        {
+          "label": "Known size",
+          "value": "about 0.5 m · near-complete skeletons"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore, probably small prey"
+        }
+      ],
+      "animalParagraphs": [
+        "Archaeopteryx was a small feathered theropod about half a metre long from snout to tail-tip, roughly the size of a raven, with a mass estimated at under a kilogram. It combined bird-like features, including a wishbone, a partly reversed first toe and true flight feathers, with ancestral traits such as toothed jaws, three clawed fingers and a long bony tail.",
+        "The animals lived on islands in a shallow tropical sea, and their carcasses sank into fine lime mud that preserved feather impressions in exquisite detail. The wing feathers are asymmetrical, as in flying birds, and the bone walls of the wing are proportioned like those of birds that flap in short bursts, supporting some capacity for powered flight even though the shoulder lacks a modern bird's arrangement.",
+        "Its teeth and claws suggest a diet of insects and small vertebrates, but no gut contents are known. Feathers preserved on the body, legs and tail are directly observed; the colour of the animal rests on a single isolated feather whose melanosomes suggest black, and that feather's assignment to Archaeopteryx is itself uncertain."
+      ],
+      "animalHighlights": [
+        "Asymmetrical flight feathers and a long feathered tail are preserved directly on several skeletons.",
+        "Toothed jaws, clawed hands and a long bony tail mark it as a theropod dinosaur as well as an early avialan.",
+        "Around a dozen skeletons from one region make it one of the best-documented small Jurassic theropods."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Small-prey carnivore",
+          "level": "Inferred from teeth and claws",
+          "reason": "Small pointed teeth and grasping hands point to insects and small animals; no stomach contents have been found."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal, flight-capable",
+          "level": "Flight style debated",
+          "reason": "Feather shape and wing-bone geometry support some powered flight, but the shoulder and breastbone differ from modern birds so its flight style is contested."
+        },
+        {
+          "label": "Known size",
+          "value": "about 0.5 m long",
+          "level": "Measured from near-complete skeletons",
+          "reason": "Several articulated specimens give lengths directly; individuals differ in size, and some may be immature."
+        },
+        {
+          "label": "Appearance",
+          "value": "Plumage preserved",
+          "level": "Colour largely unknown",
+          "reason": "Wing, tail and leg feathers are preserved as impressions; overall colouring is unknown apart from evidence for black in one feather."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Jurassic, late Kimmeridgian–early Tithonian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 151–148 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Solnhofen Limestone and Altmühltal Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Langenaltheim quarry district near Solnhofen, Bavaria"
+        }
+      ],
+      "locality": {
+        "name": "Solnhofen lithographic limestones",
+        "region": "Altmühltal, Bavaria, Germany",
+        "note": "Specimens come from several quarries around Solnhofen, Eichstätt and Schamhaupten. The lagoon deposits also yield Compsognathus, pterosaurs and many marine animals."
+      },
+      "classificationSummary": "Archaeopteryx is an early member of Avialae, the branch of maniraptoran theropods that includes birds. Its exact position relative to Anchiornis-like paravians and later birds has shifted between analyses, and the number of valid species within the genus remains debated.",
+      "related": [
+        {
+          "id": "compsognathus",
+          "reason": "A small non-avialan theropod from the same Solnhofen deposits, useful for comparison."
+        },
+        {
+          "id": "anchiornis",
+          "reason": "Compare with a slightly older feathered paravian from China with similar wing and leg plumage."
+        },
+        {
+          "id": "confuciusornis",
+          "reason": "Compare with a later toothless Early Cretaceous bird that shows the next steps in avian evolution."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How many species are there?",
+          "copy": "A. lithographica and A. siemensii are widely accepted, but some specimens have been placed in separate genera and the boundaries between species are contested."
+        },
+        {
+          "title": "Could it really fly?",
+          "copy": "Feather asymmetry and wing-bone geometry support flapping flight over short distances, yet the flight stroke of a modern bird was probably not possible."
+        },
+        {
+          "title": "What colour was it?",
+          "copy": "Melanosome evidence suggests black in one isolated feather, but that feather may not belong to Archaeopteryx and the rest of the plumage is unknown."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The principal Solnhofen and Altmuehltal specimens are late Kimmeridgian to early Tithonian.",
     "sources": [
       {
@@ -122,6 +240,11 @@
         "type": "authoritative-museum-reference",
         "citation": "Natural History Museum, Dino Directory: archaeopteryx",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/archaeopteryx.html"
+      },
+      {
+        "type": "original-description",
+        "citation": "Owen (1863), On the Archeopteryx of von Meyer, with a description of the fossil remains of a long-tailed species from the lithographic stone of Solenhofen",
+        "url": "https://doi.org/10.1098/rstl.1863.0003"
       }
     ],
     "residualUncertainty": [
@@ -141,7 +264,154 @@
         "Powered-flight ability and ecology depend on biomechanical interpretation."
       ],
       "summary": "Archaeopteryx was a feathered early avialan from the Solnhofen Archipelago limestones of Germany. More than a dozen skeletal specimens, many with flight-feather impressions, document a mosaic of avian and non-avian theropod features.",
-      "sourceBasis": "Rauhut, Foth & Tischlinger (2018), The oldest Archaeopteryx and a tooth-bearing avialan diversity; Voeten et al. (2018), Wing bone geometry reveals active flight in Archaeopteryx; Natural History Museum, Dino Directory: archaeopteryx"
+      "sourceBasis": "Rauhut, Foth & Tischlinger (2018), The oldest Archaeopteryx and a tooth-bearing avialan diversity; Voeten et al. (2018), Wing bone geometry reveals active flight in Archaeopteryx; Natural History Museum, Dino Directory: archaeopteryx",
+      "specimens": [
+        {
+          "name": "Holotype (London specimen)",
+          "id": "NHMUK PV OR 37001",
+          "institution": "Natural History Museum, London",
+          "note": "Largely complete skeleton with feather impressions found in 1861; fixed as the name-bearing type of A. lithographica by the ICZN in 2011."
+        },
+        {
+          "name": "Berlin specimen",
+          "id": "MB.Av.101",
+          "institution": "Museum für Naturkunde, Berlin",
+          "note": "The most complete specimen, with skull, wings and tail feathers preserved; type of A. siemensii."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "About a dozen slab skeletons, several nearly complete with feathers.",
+        "standfirst": "Archaeopteryx is known from roughly a dozen skeletal specimens and an isolated feather, all from the Late Jurassic lithographic limestones of Bavaria. The London and Berlin specimens alone preserve almost the whole skeleton with wing and tail plumage.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every skeletal region is known from multiple articulated individuals, several with feather impressions, though most are crushed flat on slabs and skull detail depends on a few specimens."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Near-complete slab skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "About 12"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Species boundaries unsettled"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Articulated skeletons with skulls, vertebral columns, long bony tails, wishbones, wings with three clawed fingers, pelves and hindlimbs, plus impressions of wing, tail and leg feathers on several specimens. An isolated feather found in 1861 is of uncertain attribution.",
+          "note": "The fossils are preserved as flattened impressions in fine limestone, so three-dimensional skull anatomy and braincase detail rely on a few specimens and CT scanning."
+        },
+        "media": [
+          {
+            "file": "Berlin Archaeopteryx.jpg",
+            "kind": "Referred specimen",
+            "title": "The Berlin specimen, MB.Av.101",
+            "alt": "The Berlin specimen of Archaeopteryx on its limestone slab, showing the skull, spread wings with feather impressions and long feathered tail",
+            "caption": "The original Berlin specimen at the Museum für Naturkunde, discovered around 1874–75 and the most complete Archaeopteryx skeleton, with clear wing and tail feather impressions.",
+            "credit": "Emily Willoughby · CC BY-SA 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berlin_Archaeopteryx.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Several skulls with toothed jaws, mostly crushed; braincase and inner ear studied by CT in the London specimen."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete neck, back and sacrum, and the long bony tail of about twenty vertebrae, in several articulated specimens."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Furcula, shoulder girdle, wings with three clawed fingers, pelvis and hindlimbs with a partly reversed first toe."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Impressions of asymmetrical wing feathers, tail feathers and leg plumage on several specimens; melanosomes reported from an isolated feather."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "NHMUK PV OR 37001 · London specimen",
+            "description": "A largely complete skeleton with feather impressions, found in 1861 near Langenaltheim, purchased by the British Museum and described by Richard Owen in 1863. It was formally fixed as the name-bearing type of A. lithographica in 2011.",
+            "meta": "Langenaltheim, Bavaria · Solnhofen Limestone · Natural History Museum, London"
+          },
+          {
+            "kicker": "Most complete specimen",
+            "title": "MB.Av.101 · Berlin specimen",
+            "description": "Discovered in the Blumenberg quarry near Eichstätt and acquired by the Berlin museum in 1880. It preserves the skull, wings and tail with feathers in place and is the basis for most reconstructions.",
+            "meta": "Eichstätt, Bavaria · Solnhofen Limestone · Museum für Naturkunde, Berlin"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Around a dozen articulated skeletons with toothed skulls, clawed wings, long bony tails and impressions of flight and body feathers."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "An early avialan capable of at least short bursts of flapping flight, combining bird and non-avian theropod features; species divisions rest on subtle skeletal differences."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Overall plumage colour, flight performance and ecology, diet, and whether all specimens belong to one or several species."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Owen · 1863",
+            "description": "Description of the London specimen, the name-bearing type of Archaeopteryx lithographica.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1098/rstl.1863.0003"
+          },
+          {
+            "type": "Modern revision",
+            "title": "Rauhut, Foth & Tischlinger · 2018",
+            "description": "Description of the oldest specimen with a review of specimen anatomy and species diversity.",
+            "access": "Open access",
+            "url": "https://doi.org/10.7717/peerj.4191"
+          },
+          {
+            "type": "Flight study",
+            "title": "Voeten et al. · 2018",
+            "description": "Wing-bone geometry compared with modern birds to test for active flight.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1038/s41467-018-03296-8"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview from the museum that holds the London specimen.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/archaeopteryx.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Berlin specimen photograph",
+            "description": "Source page, photographer and reuse licence for the image of MB.Av.101.",
+            "access": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Berlin_Archaeopteryx.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=39240"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

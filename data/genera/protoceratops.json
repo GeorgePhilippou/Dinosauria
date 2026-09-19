@@ -72,7 +72,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -99,6 +99,124 @@
         "Large samples document growth, but strong sexual dimorphism in frill shape has not been demonstrated securely."
       ]
     },
+    "presentation": {
+      "heroLead": "A sheep-sized frilled dinosaur from the Gobi Desert, known from so many skeletons at every age that it is a standard reference for how a dinosaur grew.",
+      "heroMedia": {
+        "file": "Protoceratops andrewsi Restoration.png",
+        "title": "Life restoration of Protoceratops andrewsi",
+        "alt": "Life restoration of Protoceratops andrewsi in side view, showing the frill, beak and quadrupedal stance",
+        "caption": "Life restoration by PaleoNeolitic. Proportions follow the many complete skeletons; colour and any bristles or other soft-tissue detail are interpretive.",
+        "credit": "PaleoNeolitic · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protoceratops_andrewsi_Restoration.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 75–71 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Ömnögovi, Mongolia · Inner Mongolia, China"
+        },
+        {
+          "label": "Known size",
+          "value": "about 1.8–2.5 m · well constrained"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Protoceratops was a stocky, four-legged plant-eater about the size of a sheep, with a parrot-like beak, a broad bony frill at the back of the skull and no true horns. It lived in the sand-dune and oasis landscapes recorded by the Djadokhta Formation of Mongolia and equivalent rocks in Inner Mongolia during the Campanian.",
+        "Adults reached roughly two metres in length, and hundreds of specimens from hatchlings to old individuals let palaeontologists trace how the frill and nasal boss enlarged with age. Whether the differences seen among adult frills reflect males and females has been tested statistically and not confirmed.",
+        "Protoceratops is also famous for what happened around it. The Fighting Dinosaurs specimen preserves one locked in combat with a Velociraptor, and a nest of fifteen juveniles shows that young animals stayed together after hatching. The eggs once attributed to it, however, turned out to belong to the oviraptorosaur Oviraptor."
+      ],
+      "animalHighlights": [
+        "A short, deep skull with a hooked beak, cheek teeth in shearing batteries and a frill that grew larger with age.",
+        "Hundreds of individuals across all growth stages, one of the best growth series for any dinosaur.",
+        "Direct associations with a predator and with a clutch of juveniles are preserved in the fossil record."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by jaws and teeth",
+          "reason": "A strong beak and shearing tooth batteries fit tough, low-growing vegetation; the particular plants are not preserved."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal",
+          "level": "Directly evidenced",
+          "reason": "Complete articulated skeletons and limb proportions show a four-legged walker; a hand print has also been referred to the genus."
+        },
+        {
+          "label": "Known size",
+          "value": "about 1.8–2.5 m long",
+          "level": "Well constrained",
+          "reason": "Many complete adult skeletons give reliable lengths; mass estimates of roughly 80 kilograms still depend on the reconstruction method."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeleton fully known",
+          "level": "Skin partly reported",
+          "reason": "Bone proportions are secure; possible skin impressions have been reported, but colour and any tail bristles remain speculative."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous (Campanian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 75–71 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Djadokhta Formation and Bayan Mandahu equivalents"
+        },
+        {
+          "label": "Type locality",
+          "value": "Bayn Dzak (Flaming Cliffs), Ömnögovi, Mongolia"
+        }
+      ],
+      "locality": {
+        "name": "Bayn Dzak (Flaming Cliffs)",
+        "region": "Ömnögovi Province, Mongolia",
+        "note": "Djadokhta Formation. Discovered by the Central Asiatic Expeditions in 1922; the second species P. hellenikorhinus comes from Bayan Mandahu in Inner Mongolia, China."
+      },
+      "classificationSummary": "Protoceratops is the name-bearing genus of Protoceratopsidae, a group of small hornless neoceratopsians from Late Cretaceous Asia. It lies outside Ceratopsidae, the horned dinosaurs of North America, but shares with them the frill and cheek-tooth batteries. Two species are recognised: P. andrewsi from Mongolia and P. hellenikorhinus from China.",
+      "related": [
+        {
+          "id": "velociraptor",
+          "reason": "Its predator, preserved locked together with a Protoceratops in the Fighting Dinosaurs specimen."
+        },
+        {
+          "id": "bagaceratops",
+          "reason": "A smaller protoceratopsid from the same region and a common point of comparison."
+        },
+        {
+          "id": "psittacosaurus",
+          "reason": "An earlier, bipedal ceratopsian that shows what preceded the frilled body plan."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Were the frill differences male and female?",
+          "copy": "A 2015 shape analysis of dozens of skulls found continuous variation rather than two clusters, so sexual dimorphism in the frill is not demonstrated."
+        },
+        {
+          "title": "What was the frill for?",
+          "copy": "Display, muscle attachment and species recognition have all been proposed. Its late growth is consistent with a signalling role but does not prove it."
+        },
+        {
+          "title": "How did the Fighting Dinosaurs die?",
+          "copy": "Sudden burial by a collapsing dune or sand flow is the usual explanation for the pair being preserved mid-struggle, but the exact event is inferred, not recorded."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The core P. andrewsi record is Campanian Djadokhta Formation; P. hellenikorhinus is a separate species from Bayan Mandahu.",
     "sources": [
       {
@@ -110,6 +228,11 @@
         "type": "primary-literature",
         "citation": "Maiorino et al. (2015), sexual dimorphism test in Protoceratops",
         "url": "https://doi.org/10.1371/journal.pone.0126464"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Protoceratops",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/protoceratops.html"
       }
     ],
     "residualUncertainty": [
@@ -127,7 +250,153 @@
         "sociality"
       ],
       "summary": "Protoceratops andrewsi was a sheep-sized neoceratopsian from the Djadokhta Formation of Mongolia, known from abundant skulls and skeletons across growth stages.",
-      "sourceBasis": "Brown & Schlaikjer (1940), anatomy and growth series of Protoceratops; Maiorino et al. (2015), sexual dimorphism test in Protoceratops"
+      "sourceBasis": "Brown & Schlaikjer (1940), anatomy and growth series of Protoceratops; Maiorino et al. (2015), sexual dimorphism test in Protoceratops",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "AMNH 6251",
+          "institution": "American Museum of Natural History",
+          "note": "A partial skull collected at Bayn Dzak in 1922 and named by Granger and Gregory in 1923; the first of hundreds of specimens recovered from the Djadokhta Formation."
+        },
+        {
+          "name": "Mounted skeleton",
+          "id": "AMNH 6417",
+          "institution": "American Museum of Natural History",
+          "note": "A nearly complete articulated adult skeleton from Bayn Dzak, mounted in New York and one of the specimens underpinning Brown and Schlaikjer's 1940 growth study."
+        },
+        {
+          "name": "Fighting Dinosaurs",
+          "id": "MPC-D 100/512",
+          "institution": "Mongolian Academy of Sciences, Institute of Paleontology",
+          "note": "A Protoceratops preserved in combat with the Velociraptor MPC-D 100/25, found at Tugrikin Shireh in 1971."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Hundreds of skulls and skeletons from hatchling to adult.",
+        "standfirst": "Protoceratops andrewsi is one of the most abundantly preserved dinosaurs anywhere. Articulated skeletons, complete skulls, juveniles in nests and even a specimen locked with a predator have come from the Djadokhta Formation since 1922.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every region of the skeleton is represented by many individuals, including complete articulated skeletons and a full growth series from hatchlings to large adults."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Hundreds"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Sex and species limits untested"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete skulls with beaks and tooth batteries, full vertebral columns, girdles, all four limbs with hands and feet, articulated adults, a nest of fifteen juveniles, and a pair of skeletons preserved in combat.",
+          "note": "The abundance supports detailed anatomy and growth work; it does not by itself settle questions about sexual dimorphism, social behaviour or how the second species relates to the first."
+        },
+        "media": [
+          {
+            "file": "Protoceratops AMNH 6417 mounted.png",
+            "kind": "Mounted skeleton",
+            "title": "Articulated skeleton AMNH 6417 at the American Museum of Natural History",
+            "alt": "Mounted skeleton of Protoceratops andrewsi, specimen AMNH 6417, at the American Museum of Natural History",
+            "caption": "A nearly complete adult skeleton from Bayn Dzak as mounted in New York. Real bone makes up most of the mount.",
+            "credit": "Heinrich Mallison & Oliver Wings · CC BY-SA 3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protoceratops_AMNH_6417_mounted.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Many complete skulls at every growth stage, with beak, frill, nasal boss and tooth batteries; braincases and endocasts have been studied."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete cervical, dorsal, sacral and caudal series in articulated skeletons, including the tall-spined tail."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Complete shoulder and hip girdles, forelimbs and hindlimbs with hands and feet from numerous individuals."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Articulated predator–prey pair, a nest of juveniles, and reported skin impressions; no colour or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "AMNH 6251 · holotype",
+            "description": "A partial skull found at the Flaming Cliffs in 1922 by the Central Asiatic Expeditions and named by Granger and Gregory the following year. Far more complete skulls followed from the same beds.",
+            "meta": "Bayn Dzak, Mongolia · Djadokhta Formation · American Museum of Natural History"
+          },
+          {
+            "kicker": "Combat pair",
+            "title": "MPC-D 100/512 · Fighting Dinosaurs",
+            "description": "Found in 1971 at Tugrikin Shireh by a Polish–Mongolian expedition, this Protoceratops is preserved gripping the arm of a Velociraptor whose foot claw lies against its throat, a rare direct record of predator and prey.",
+            "meta": "Tugrikin Shireh, Mongolia · Djadokhta Formation · Mongolian Academy of Sciences"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Complete skulls and skeletons across all ages, a clutch of juveniles, a predator–prey pair and the bones of two species from Mongolia and China."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A quadrupedal herbivore whose frill enlarged late in growth, probably for display; juveniles remained together after hatching; the eggs once assigned to it belong to oviraptorosaurs."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Whether adults can be sexed from the skull, how the two species relate, the extent of any bristles or skin ornament, colour, and details of social behaviour."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Growth study",
+            "title": "Brown & Schlaikjer · 1940",
+            "description": "Classic monograph on the anatomy and growth series of Protoceratops andrewsi from the American Museum collections.",
+            "access": "AMNH Digital Library",
+            "url": "https://digitallibrary.amnh.org/items/427f573c-56ce-4dde-9a1d-6c4a3f66400c"
+          },
+          {
+            "type": "Dimorphism test",
+            "title": "Maiorino et al. · 2015",
+            "description": "Geometric morphometric test that found no clear evidence of sexual dimorphism in the skull and frill.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1371/journal.pone.0126464"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus, its age and its known material.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/protoceratops.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Mounted skeleton AMNH 6417",
+            "description": "Source page, creator details and reuse licence for the skeleton photograph.",
+            "access": "CC BY-SA 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Protoceratops_AMNH_6417_mounted.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38848"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

@@ -79,7 +79,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria A-C systematic scientific review",
     "consensusScope": [
       "accepted name and broad classification",
@@ -106,13 +106,126 @@
         "A famous cannibalism claim was overturned when the supposed juvenile remains inside one ribcage were identified as a crocodylomorph."
       ]
     },
+    "presentation": {
+      "heroLead": "A slender Triassic predator preserved by the hundred at Ghost Ranch, giving one of the richest records of any early dinosaur.",
+      "heroMedia": {
+        "file": "Coelophysis TD.png",
+        "title": "Life restoration of Coelophysis bauri",
+        "alt": "Life restoration of the slender theropod Coelophysis bauri in side view",
+        "caption": "Life restoration by TotalDino. Proportions follow the articulated Ghost Ranch skeletons; skin covering and colour are interpretive, and feathering is not directly preserved.",
+        "credit": "TotalDino · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coelophysis_TD.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Triassic · about 215–205 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "New Mexico and Arizona, USA"
+        },
+        {
+          "label": "Known size",
+          "value": "about 2.5–3 m · well constrained"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Coelophysis was a lightly built, long-necked theropod of the Late Triassic, roughly three metres long but weighing only about the same as a large dog. It had a narrow snout with small, blade-like serrated teeth, long legs, a long stiffening tail and grasping three-fingered hands, and lived on the river floodplains recorded by the Chinle Group of the American south-west.",
+        "It was named in 1889 by Edward Drinker Cope from scrappy bones collected near Abiquiu, New Mexico. Its fame came in 1947 when an American Museum team led by Edwin Colbert opened a quarry at Ghost Ranch that yielded hundreds of skeletons, many complete and articulated, ranging from juveniles to adults. A skeleton from that quarry, AMNH 7224, was made the neotype in 1996 to fix the name.",
+        "The bonebed has fed speculation about herds and cannibalism. The mass burial is now read as animals killed and concentrated by floods rather than proof of social living, and the supposed juvenile Coelophysis inside two adults' ribcages proved to be small crocodile relatives. What is secure is the anatomy: Coelophysis is the reference point for early theropod skeletons."
+      ],
+      "animalHighlights": [
+        "A slender skull with serrated teeth and a kinked upper jaw typical of coelophysoids.",
+        "Hollow, thin-walled bones gave the genus its name, \"hollow form\".",
+        "Hundreds of individuals from one quarry document growth from juvenile to adult and two adult body forms."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Carnivore",
+          "level": "Directly evidenced",
+          "reason": "Serrated teeth and gut contents including small reptile bones show a diet of small animals; the earlier cannibalism claim was withdrawn."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal runner",
+          "level": "Well supported",
+          "reason": "Long hindlimbs and a lightweight build in articulated skeletons indicate a fast two-legged runner; actual speeds are modelled, not measured."
+        },
+        {
+          "label": "Known size",
+          "value": "about 2.5–3 m long",
+          "level": "Directly measured",
+          "reason": "Complete adult skeletons give reliable lengths; mass estimates of around 15 to 25 kilograms depend on the method."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeleton fully known",
+          "level": "Body covering unknown",
+          "reason": "Proportions are secure; no skin, feathers or colour are preserved, so the external covering is reconstructed."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Triassic (late Norian–Rhaetian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 215–205 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Rock Point Formation, Chinle Group"
+        },
+        {
+          "label": "Type locality",
+          "value": "Ghost Ranch (Whitaker Quarry), Rio Arriba County, New Mexico, USA"
+        }
+      ],
+      "locality": {
+        "name": "Ghost Ranch Coelophysis Quarry",
+        "region": "Rio Arriba County, New Mexico, USA",
+        "note": "Rock Point Formation. Cope's original fragments came from nearby Arroyo Seco near Abiquiu; the neotype and almost all good material come from the Whitaker Quarry opened in 1947."
+      },
+      "classificationSummary": "Coelophysis is the name-bearing genus of Coelophysidae and Coelophysoidea, a group of slender early neotheropods. Because its skeleton is so well known it anchors most analyses of early theropod relationships. Several species and specimens once assigned to it, including material from Africa and Arizona, are now placed in other genera.",
+      "related": [
+        {
+          "id": "dilophosaurus",
+          "reason": "A larger, crested Early Jurassic theropod from the same region, often compared as a later coelophysoid-grade form."
+        },
+        {
+          "id": "liliensternus",
+          "reason": "A larger European coelophysoid of similar age known from two partial skeletons."
+        },
+        {
+          "id": "segisaurus",
+          "reason": "A small Early Jurassic coelophysid from Arizona known from a single partial skeleton."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Did it live in groups?",
+          "copy": "Hundreds of animals buried together suggest a gathering, but flood transport and a drought-stricken water hole can produce the same result. The bonebed is not proof of pack living."
+        },
+        {
+          "title": "What are the two adult body forms?",
+          "copy": "Adults fall into robust and gracile morphs. Sexual dimorphism is the usual explanation, but individual variation has not been ruled out."
+        },
+        {
+          "title": "How much of the old record belongs here?",
+          "copy": "Coelophysis-like bones from Arizona, Zimbabwe and elsewhere were once referred to the genus; most are now assigned to other taxa, leaving Ghost Ranch as the core sample."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Diagnostic C. bauri material is late Norian to Rhaetian in the Chinle Group, especially the Rock Point Formation.",
     "sources": [
-      {
-        "type": "anatomical-review",
-        "citation": "Tykoski & Rowe (2004), Ceratosauria, including Coelophysis",
-        "url": "https://www.geo.utexas.edu/faculty/rowe/Publications/pdf/047%20Tykoski_Rowe%202004.pdf"
-      },
       {
         "type": "nomenclatural-ruling",
         "citation": "ICZN (1996), Opinion 1842: Coelophysis bauri conserved by designation of a neotype",
@@ -122,6 +235,11 @@
         "type": "authoritative-museum-reference",
         "citation": "Natural History Museum, Dino Directory: coelophysis",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/coelophysis.html"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Nesbitt et al. (2006), prey choice and cannibalistic behaviour in the theropod Coelophysis",
+        "url": "https://doi.org/10.1098/rsbl.2006.0524"
       }
     ],
     "residualUncertainty": [
@@ -143,7 +261,147 @@
         "Feathering is not directly preserved."
       ],
       "summary": "Coelophysis bauri was a small early neotheropod from the Chinle Group of the south-western United States. The Ghost Ranch bonebeds contain hundreds of individuals and many articulated skeletons, making its anatomy and growth exceptionally well documented.",
-      "sourceBasis": "Tykoski & Rowe (2004), Ceratosauria, including Coelophysis; ICZN (1996), Opinion 1842: Coelophysis bauri conserved by designation of a neotype; Natural History Museum, Dino Directory: coelophysis"
+      "sourceBasis": "Tykoski & Rowe (2004), Ceratosauria, including Coelophysis; ICZN (1996), Opinion 1842: Coelophysis bauri conserved by designation of a neotype; Natural History Museum, Dino Directory: coelophysis",
+      "specimens": [
+        {
+          "name": "Neotype",
+          "id": "AMNH 7224",
+          "institution": "American Museum of Natural History",
+          "note": "A nearly complete articulated skeleton from the Ghost Ranch quarry, designated neotype by the ICZN in 1996 because Cope's original syntypes were undiagnostic fragments."
+        },
+        {
+          "name": "Ghost Ranch quarry blocks",
+          "id": "",
+          "institution": "AMNH, Carnegie Museum, NMMNH, Yale Peabody and other museums",
+          "note": "Large sandstone blocks containing hundreds of partial to complete skeletons at all growth stages, distributed to museums across North America since 1947."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Hundreds of skeletons from a single Triassic quarry.",
+        "standfirst": "Coelophysis bauri is among the best-represented early dinosaurs, with hundreds of individuals, many complete and articulated, from the Ghost Ranch quarry in New Mexico. Its anatomy and growth are known in a detail few Triassic animals approach.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every skeletal region is represented by multiple articulated individuals across a growth series, from juveniles to two adult morphs."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Hundreds"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Bonebed behaviour unproven"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete skulls with teeth, full vertebral columns and tails, furculae, shoulder and hip girdles, forelimbs with hands and hindlimbs with feet, in many articulated skeletons, plus gut contents in a few individuals.",
+          "note": "Nearly all of this material comes from one quarry, so the sample records one population and one moment; earlier referred material from elsewhere is now largely reassigned."
+        },
+        "media": [
+          {
+            "file": "Coelophysis neotype skull.jpg",
+            "kind": "Type specimen",
+            "title": "Skull of the neotype AMNH 7224",
+            "alt": "Close-up photograph of the skull of the Coelophysis bauri neotype, AMNH 7224, at the American Museum of Natural History",
+            "caption": "The skull of the neotype skeleton from Ghost Ranch as displayed in New York, showing the slender snout and small serrated teeth.",
+            "credit": "Skye McDavid · CC BY 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coelophysis_neotype_skull.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Many complete skulls with dentition, braincases and hyoids, at several growth stages."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete cervical, dorsal, sacral and caudal series with ribs, gastralia and chevrons in articulated skeletons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Furculae, complete pectoral and pelvic girdles, forelimbs with three-fingered hands and a reduced fourth digit, hindlimbs and feet."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Gut contents preserved in a few skeletons; bone histology across the growth series. No skin, feathers or colour are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "AMNH 7224 · neotype",
+            "description": "A nearly complete articulated skeleton excavated at Ghost Ranch in 1947. Because Cope's 1889 syntypes were fragmentary and undiagnostic, the ICZN designated this specimen as neotype in 1996, making Rioarribasaurus an objective synonym.",
+            "meta": "Ghost Ranch, New Mexico · Rock Point Formation · American Museum of Natural History"
+          },
+          {
+            "kicker": "Quarry sample",
+            "title": "Ghost Ranch blocks",
+            "description": "Large blocks of overlapping skeletons quarried between 1947 and the 1980s and distributed to museums across North America. They include juveniles, robust and gracile adults, and the individuals once thought to show cannibalism.",
+            "meta": "One bonebed · hundreds of individuals · flood-accumulated"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Hundreds of skeletons of one species from one quarry, with complete skulls, limbs, tails and gut contents, spanning juveniles to adults."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A fast, bipedal predator of small animals; the mass burial reflects flood concentration, and the two adult morphs are usually read as sexes."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Whether it lived in groups, the cause of the two adult body forms, the external body covering and colour, and which Coelophysis-like fossils elsewhere truly belong to the genus."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Nomenclatural ruling",
+            "title": "ICZN Opinion 1842 · 1996",
+            "description": "Designation of AMNH 7224 as neotype, conserving the name Coelophysis bauri.",
+            "access": "Biodiversity Heritage Library",
+            "url": "https://www.biodiversitylibrary.org/page/12250297"
+          },
+          {
+            "type": "Diet study",
+            "title": "Nesbitt et al. · 2006",
+            "description": "Reidentification of the supposed cannibalised juveniles as crocodylomorph remains.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1098/rsbl.2006.0524"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus, its age and its known material.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/coelophysis.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Neotype skull photograph",
+            "description": "Source page, creator details and reuse licence for the AMNH 7224 skull photograph.",
+            "access": "CC BY 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Coelophysis_neotype_skull.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38520"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

@@ -78,7 +78,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -104,6 +104,124 @@
         "Size varied substantially among mature individuals, consistent with developmental plasticity."
       ]
     },
+    "presentation": {
+      "heroLead": "The best-known early sauropodomorph, dug from Central European bonebeds in such numbers that its skeleton, growth and posture are known in unusual detail.",
+      "heroMedia": {
+        "file": "Plateosaurus TD.png",
+        "title": "Life restoration of Plateosaurus",
+        "alt": "Life restoration of Plateosaurus in side view, walking bipedally with a long neck and small head",
+        "caption": "Life restoration by TotalDino. The bipedal posture follows biomechanical studies of complete skeletons; skin texture and colour are interpretive.",
+        "credit": "TotalDino · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plateosaurus_TD.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Triassic · about 214–204 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Germany, Switzerland, France · Greenland"
+        },
+        {
+          "label": "Known size",
+          "value": "about 5–10 m · adults vary widely"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Plateosaurus was a long-necked, small-headed plant-eater from the Late Triassic of Central Europe, one of the first large dinosaurs in the fossil record. Mature animals ranged from roughly five to ten metres long, a spread that bone histology attributes to individuals growing to very different final sizes rather than to several species.",
+        "Digital modelling of complete skeletons shows that its forelimbs could not be turned palm-down to bear weight, so adults walked on their hind legs; the large thumb claw and grasping hand were free for other uses. Leaf-shaped, coarsely serrated teeth indicate a plant diet, probably taken from shrubs and low trees.",
+        "The genus was named in 1837 from fragmentary bones near Nuremberg, but its fame rests on the mass graves at Trossingen and Halberstadt in Germany and Frick in Switzerland, where dozens of animals apparently became mired in mud. The species names have a tangled history, settled in 2019 when P. trossingensis and its complete Stuttgart skeleton were fixed as the reference for the genus."
+      ],
+      "animalHighlights": [
+        "Dozens of skeletons from bonebeds document every part of the body, from skull to tail tip.",
+        "Adults of the same age reached very different sizes, a rare direct record of developmental plasticity in a dinosaur.",
+        "Forelimb anatomy rules out weight-bearing on the hands, supporting habitual bipedality."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by teeth and jaws",
+          "reason": "Serrated leaf-shaped teeth and a downturned jaw joint fit cropping vegetation; gastroliths once claimed are not confirmed."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Well supported",
+          "reason": "The hands could not pronate to take weight, so adults moved on two legs; trackways are not securely attributed."
+        },
+        {
+          "label": "Known size",
+          "value": "about 5–10 m long",
+          "level": "Directly measured, highly variable",
+          "reason": "Many complete skeletons give reliable lengths; mass estimates of roughly 600 to 4,000 kilograms depend on the individual and method."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeleton fully known",
+          "level": "Soft tissues reconstructed",
+          "reason": "Proportions are secure from complete skeletons; skin, colour and any soft-tissue outline are not preserved."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Triassic (Norian–Rhaetian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 214–204 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Trossingen, Löwenstein and equivalent Keuper units"
+        },
+        {
+          "label": "Type locality",
+          "value": "Heroldsberg near Nuremberg, Bavaria, Germany"
+        }
+      ],
+      "locality": {
+        "name": "Trossingen bonebed",
+        "region": "Baden-Württemberg, Germany",
+        "note": "The best-sampled site, worked in 1911–1912, 1921–1923 and 1932. The original 1834 find came from Heroldsberg near Nuremberg; other major bonebeds are Halberstadt in Germany and Frick in Switzerland."
+      },
+      "classificationSummary": "Plateosaurus is the name-bearing genus of Plateosauridae, a group of Late Triassic sauropodomorphs outside Sauropoda. It is the reference taxon for early sauropodomorph anatomy. Since 2019 P. trossingensis has been the type species, with P. engelhardti and P. gracilis also recognised by many workers.",
+      "related": [
+        {
+          "id": "massospondylus",
+          "reason": "A smaller, later sauropodomorph from southern Africa known from a comparable growth series."
+        },
+        {
+          "id": "riojasaurus",
+          "reason": "A heavier-bodied Late Triassic sauropodomorph from Argentina for comparison of posture."
+        },
+        {
+          "id": "lufengosaurus",
+          "reason": "A Chinese Early Jurassic plateosaur-like form once placed in the same family."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How many species are there?",
+          "copy": "P. trossingensis, P. engelhardti and P. gracilis are the main names in use, but the fragmentary Heroldsberg type material makes some assignments hard to test."
+        },
+        {
+          "title": "Why do adults differ so much in size?",
+          "copy": "Histology shows animals of similar age stopping growth at very different sizes. Whether environment, sex or something else drove this is unknown."
+        },
+        {
+          "title": "How did the bonebeds form?",
+          "copy": "Animals trapped in mud, seasonal drought and flood transport have all been proposed for Trossingen and Frick; the mud-trap model best explains the upright, partly articulated skeletons."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Well-dated occurrences span Norian-Rhaetian European strata; species-level horizons should be retained separately.",
     "sources": [
       {
@@ -115,6 +233,11 @@
         "type": "primary-literature",
         "citation": "Sander & Klein (2005), developmental plasticity in Plateosaurus",
         "url": "https://doi.org/10.1126/science.1120125"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Plateosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/plateosaurus.html"
       }
     ],
     "residualUncertainty": [
@@ -131,7 +254,153 @@
         "individual size variation"
       ],
       "summary": "Plateosaurus was a large non-sauropodan sauropodomorph from Late Triassic Europe, represented by many skeletons and bonebed assemblages. Species-level nomenclature, especially P. engelhardti versus P. trossingensis, has a complex history.",
-      "sourceBasis": "Mallison (2010), digital reconstruction and locomotor range of Plateosaurus; Sander & Klein (2005), developmental plasticity in Plateosaurus"
+      "sourceBasis": "Mallison (2010), digital reconstruction and locomotor range of Plateosaurus; Sander & Klein (2005), developmental plasticity in Plateosaurus",
+      "specimens": [
+        {
+          "name": "Lectotype of P. engelhardti",
+          "id": "UEN 552",
+          "institution": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+          "note": "Fragmentary postcranial bones found in 1834 at Heroldsberg near Nuremberg and named by von Meyer in 1837, the first sauropodomorph and one of the earliest dinosaurs described."
+        },
+        {
+          "name": "Holotype of P. trossingensis",
+          "id": "SMNS 13200",
+          "institution": "Staatliches Museum für Naturkunde Stuttgart",
+          "note": "A nearly complete articulated skeleton from Trossingen described by Fraas in 1913; fixed by the ICZN in 2019 as the name-bearing type of the type species."
+        },
+        {
+          "name": "Tübingen skeleton 1",
+          "id": "GPIT/RE/7288",
+          "institution": "University of Tübingen",
+          "note": "A nearly complete individual from Trossingen used for digital reconstruction and biomechanical modelling of posture and gait."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Dozens of skeletons from Triassic mass graves.",
+        "standfirst": "Plateosaurus is known from more than a hundred individuals, many of them articulated and nearly complete, recovered from bonebeds at Trossingen, Halberstadt and Frick. It is the most completely documented dinosaur of the Triassic.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every region of the skeleton is represented by multiple articulated individuals, including complete skulls, hands, feet and tails, across a range of body sizes."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "More than 100"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Fragmentary original type"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete skulls with teeth, full vertebral series, ribs and gastralia, shoulder and hip girdles, forelimbs with the enlarged thumb claw, hindlimbs and feet, from many articulated skeletons of different sizes.",
+          "note": "The abundance is concentrated in a few bonebeds, so the genus is exceptionally well known anatomically while the original Heroldsberg type material remains too fragmentary to compare closely."
+        },
+        "media": [
+          {
+            "file": "Plateosaurus Skelett 1.jpg",
+            "kind": "Articulated skeleton",
+            "title": "Skeleton GPIT/RE/7288 at the University of Tübingen",
+            "alt": "Mounted skeleton of Plateosaurus, specimen GPIT/RE/7288, at the University of Tübingen",
+            "caption": "A nearly complete individual from the Trossingen bonebed, one of the skeletons digitised for biomechanical study. Mounted in the bipedal posture supported by limb anatomy.",
+            "credit": "FunkMonk · CC BY-SA 3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plateosaurus_Skelett_1.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Many complete skulls with dentition and braincases from Trossingen, Halberstadt and Frick."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete cervical, dorsal, sacral and caudal series in articulated skeletons, with ribs, gastralia and chevrons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Complete girdles, forelimbs with hands and thumb claws, hindlimbs and feet from numerous individuals."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Bone histology across many individuals records growth; no skin, colour or confirmed gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "SMNS 13200 · holotype of P. trossingensis",
+            "description": "A nearly complete articulated skeleton excavated at Trossingen and described by Eberhard Fraas in 1913. In 2019 the ICZN made P. trossingensis the type species of the genus, anchoring the name to this well-preserved specimen.",
+            "meta": "Trossingen, Germany · Trossingen Formation · Staatliches Museum für Naturkunde Stuttgart"
+          },
+          {
+            "kicker": "Original find",
+            "title": "UEN 552 · lectotype of P. engelhardti",
+            "description": "Fragmentary bones found in 1834 by Johann Friedrich Engelhardt at Heroldsberg and named by Hermann von Meyer in 1837. Their poor preservation is why the type species was later transferred to the Trossingen skeleton.",
+            "meta": "Heroldsberg, Bavaria · Feuerletten · University of Erlangen-Nürnberg"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Complete articulated skeletons of many individuals of different sizes, with skulls, teeth, hands, feet and tails, from several bonebeds in Germany and Switzerland."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A habitually bipedal, browsing herbivore whose adults reached very different final sizes; bonebeds are read as animals trapped in mud rather than herds dying together."
+          },
+          {
+            "label": "Still unknown",
+            "value": "How many species the material represents, the cause of size variation, the animal's exact posture at rest, and any soft-tissue or colour detail."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Locomotor study",
+            "title": "Mallison · 2010",
+            "description": "Digital reconstruction of GPIT/RE/7288 and its range of motion, supporting obligate bipedality.",
+            "access": "Open access",
+            "url": "https://doi.org/10.4202/app.2009.0075"
+          },
+          {
+            "type": "Growth study",
+            "title": "Sander & Klein · 2005",
+            "description": "Bone histology showing developmental plasticity in adult body size.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1126/science.1120125"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus, its age and its known material.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/plateosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Tübingen skeleton GPIT/RE/7288",
+            "description": "Source page, creator details and reuse licence for the skeleton photograph.",
+            "access": "CC BY-SA 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Plateosaurus_Skelett_1.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38644"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

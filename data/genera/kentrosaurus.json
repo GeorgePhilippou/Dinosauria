@@ -65,7 +65,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -92,6 +92,124 @@
         "Bone histology records growth but does not provide exact population ages for every specimen."
       ]
     },
+    "presentation": {
+      "heroLead": "A spike-tailed stegosaur from the Late Jurassic of Tanzania, known from hundreds of bones belonging to many individuals but no single complete skeleton.",
+      "heroMedia": {
+        "file": "Kentrosaurus aethiopicus.png",
+        "title": "Life restoration of Kentrosaurus aethiopicus",
+        "alt": "Scientific life restoration of Kentrosaurus aethiopicus in side view with small plates on the neck and back and long paired spikes along the tail",
+        "caption": "Life restoration by Connor Ashbridge. The number and exact order of plates and spikes follow a composite reconstruction; colour and skin texture are interpretive.",
+        "credit": "Connor Ashbridge · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kentrosaurus_aethiopicus.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Jurassic · Kimmeridgian–Tithonian · about 155–150 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Tendaguru, Lindi Region, Tanzania"
+        },
+        {
+          "label": "Known size",
+          "value": "about 4–4.5 m · estimated"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Kentrosaurus was a small stegosaur, roughly four to four and a half metres long, with a low head, a deep body carried on four columnar limbs and a long tail. Its armour changed along the body: narrow plates over the neck and shoulders gave way to paired, sharp spikes along the back half of the trunk and down the tail. An additional long spike is usually reconstructed on the shoulder or hip, but its position was never found in place.",
+        "Its small skull and simple leaf-shaped teeth indicate cropping of low vegetation. Bone histology from many individuals shows a growth pattern comparable to other stegosaurs, although the exact age at death of any one animal is not known.",
+        "The name means pointed lizard. Kentrosaurus was collected by the German Tendaguru expeditions of 1909 to 1913, which recovered well over a thousand bones from a single hillside quarry. Much of that collection was destroyed or lost during the Second World War, but the Berlin mount and many catalogued elements survive."
+      ],
+      "animalHighlights": [
+        "Paired tail spikes up to about half a metre long, arranged along a highly mobile tail that could swing through a wide arc.",
+        "A gradual change from small plates at the front of the body to spikes behind, unlike the broad plates of Stegosaurus.",
+        "A small, narrow skull with simple teeth, suited to low browsing rather than tough vegetation."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by teeth and jaws",
+          "reason": "Small leaf-shaped teeth and a low head indicate browsing near ground level. No gut contents record specific plants."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal",
+          "level": "Supported by limb proportions",
+          "reason": "Robust forelimbs and hindlimbs show four-legged walking. Computer modelling suggests a rearing posture was possible but does not show it was habitual."
+        },
+        {
+          "label": "Known size",
+          "value": "about 4–4.5 m long",
+          "level": "Composite skeletons",
+          "reason": "Length is taken from mounts assembled from several individuals; masses of roughly one tonne are estimates."
+        },
+        {
+          "label": "Appearance",
+          "value": "Armour outline supported",
+          "level": "Exact plate order reconstructed",
+          "reason": "Plate and spike shapes are known from many isolated osteoderms, but no articulated series fixes their sequence or the position of the long lateral spike."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Jurassic, Kimmeridgian–Tithonian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 155–150 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Tendaguru Formation, Middle and Upper Dinosaur members"
+        },
+        {
+          "label": "Type locality",
+          "value": "Kindope, Tendaguru, Lindi Region, Tanzania"
+        }
+      ],
+      "locality": {
+        "name": "Tendaguru",
+        "region": "Lindi Region, south-eastern Tanzania",
+        "note": "Most Kentrosaurus bones came from quarry St near Kindope, excavated by the Berlin Museum für Naturkunde between 1909 and 1913. The map point is a regional reference."
+      },
+      "classificationSummary": "Kentrosaurus is a stegosaurid, a member of the plated and spiked thyreophoran group that includes Stegosaurus. Analyses generally place it outside the clade containing Stegosaurus and its closest relatives, but its position among other Jurassic stegosaurs varies.",
+      "related": [
+        {
+          "id": "stegosaurus",
+          "reason": "Compare with the larger, broad-plated North American stegosaur from rocks of similar age."
+        },
+        {
+          "id": "tuojiangosaurus",
+          "reason": "Compare with a Chinese stegosaur that also carried narrow plates and tail spikes."
+        },
+        {
+          "id": "giraffatitan",
+          "reason": "A giant sauropod from the same Tendaguru beds."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How were the plates and spikes arranged?",
+          "copy": "No articulated armour series exists. The familiar arrangement is a composite built from repeated osteoderm shapes, and the long lateral spike may have sat on the shoulder or the hip."
+        },
+        {
+          "title": "How many individuals are represented?",
+          "copy": "The quarry St bonebed yielded bones from dozens of animals, but because they were disarticulated, individual skeletons cannot be reassembled with confidence."
+        },
+        {
+          "title": "What was the tail for?",
+          "copy": "Anatomy and biomechanical modelling make defensive tail strikes plausible, but no injured predator or damaged spike has been linked to the genus."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Most material comes from Kimmeridgian-Tithonian Middle and Upper Dinosaur members of Tendaguru.",
     "sources": [
       {
@@ -108,6 +226,21 @@
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Kentrosaurus",
         "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Kentrosaurus"
+      },
+      {
+        "type": "lectotype-revision",
+        "citation": "Mallison (2011), The real lectotype of Kentrosaurus aethiopicus Hennig, 1915",
+        "url": "https://doi.org/10.1127/0077-7749/2011/0114"
+      },
+      {
+        "type": "posture-study",
+        "citation": "Mallison (2010), CAD assessment of the posture and range of motion of Kentrosaurus aethiopicus Hennig 1915",
+        "url": "https://doi.org/10.1007/s00015-010-0024-2"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Kentrosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/kentrosaurus.html"
       }
     ],
     "residualUncertainty": [
@@ -127,7 +260,154 @@
         "armour function"
       ],
       "summary": "Kentrosaurus aethiopicus was a stegosaurid from the Tendaguru Formation of Tanzania. Abundant disarticulated remains from many individuals represent most of the skeleton and armour, but no single complete skeleton preserves the full sequence of plates and spikes.",
-      "sourceBasis": "Redelstorff & Sander (2013), Long and girdle bone histology of Kentrosaurus; Bussert et al. (2009), The Tendaguru Formation: lithostratigraphy and depositional environments; Paleobiology Database taxon and occurrence context for Kentrosaurus"
+      "sourceBasis": "Redelstorff & Sander (2013), Long and girdle bone histology of Kentrosaurus; Bussert et al. (2009), The Tendaguru Formation: lithostratigraphy and depositional environments; Paleobiology Database taxon and occurrence context for Kentrosaurus",
+      "specimens": [
+        {
+          "name": "Lectotype",
+          "id": "",
+          "institution": "Museum für Naturkunde Berlin",
+          "note": "Designated from the surviving Tendaguru type collection; Hennig's 1915 description was based on the quarry St bonebed as a whole."
+        },
+        {
+          "name": "Berlin composite mount",
+          "id": "",
+          "institution": "Museum für Naturkunde Berlin",
+          "note": "Mounted skeleton assembled from bones of several individuals from quarry St near Kindope."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Hundreds of disarticulated bones from a single Tanzanian bonebed.",
+        "standfirst": "Kentrosaurus is known from a very large collection of bones representing many individuals, recovered mainly from one quarry at Tendaguru. Almost every part of the skeleton is represented, but the material is disarticulated and no complete individual was found.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Most skeletal regions and all armour types are known from multiple individuals, but the bones are disarticulated, the skull is poorly known and the armour sequence is not preserved in place."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Disarticulated bonebed material"
+          },
+          {
+            "label": "Individuals",
+            "value": "Dozens"
+          },
+          {
+            "label": "Key limitation",
+            "value": "No articulated skeleton"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Vertebrae from every part of the column, ribs, both limb girdles, forelimb and hindlimb bones, and numerous plates and spikes, together with a braincase, partial jaws and teeth. The Berlin mount and a second composite skeleton were assembled from this material.",
+          "note": "Part of the original collection was lost or destroyed during the Second World War, and the surviving material is disarticulated, so individual skeletons cannot be reassembled and the armour arrangement remains a reconstruction."
+        },
+        "media": [
+          {
+            "file": "Kentrosaurus aethiopicus 01.jpg",
+            "kind": "Mounted skeleton",
+            "title": "Composite skeleton at the Museum für Naturkunde, Berlin",
+            "alt": "Mounted skeleton of Kentrosaurus aethiopicus in side view at the Museum für Naturkunde Berlin, showing plates along the neck and back and paired spikes along the tail",
+            "caption": "The Berlin mount, about 4.5 metres long, assembled from bones excavated at quarry St near Kindope. It combines several individuals; the plate and spike arrangement is reconstructed.",
+            "credit": "H. Zell · CC BY-SA 3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kentrosaurus_aethiopicus_01.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "A braincase, partial lower jaws and isolated teeth; the skull is otherwise poorly known."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal, sacral and caudal vertebrae from many individuals, with ribs and chevrons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Shoulder and hip girdles and all major limb bones, including hands and feet, from multiple individuals."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Numerous plates and spikes of varied shape, and bone histology sampled from many individuals; no skin, colour or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing material",
+            "title": "Tendaguru type collection · lectotype",
+            "description": "Edwin Hennig named Kentrosaurus in 1915 from the quarry St material without singling out one specimen. A lectotype was later designated from the surviving Berlin collection.",
+            "meta": "Kindope, Tendaguru · Tendaguru Formation · Museum für Naturkunde Berlin"
+          },
+          {
+            "kicker": "Composite mount",
+            "title": "Berlin mounted skeleton",
+            "description": "A skeleton assembled from bones of several individuals excavated between 1909 and 1913, first mounted in 1925 and remounted with a revised posture in 2007.",
+            "meta": "Quarry St bonebed · dozens of individuals · specimen association reconstructed"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Abundant vertebrae, limb bones, girdles, plates and spikes from many individuals, all from the Tendaguru Formation."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A small quadrupedal low-browsing stegosaur whose spiked tail was a plausible defensive weapon and whose armour graded from plates to spikes along the body."
+          },
+          {
+            "label": "Still unknown",
+            "value": "The full skull, the true armour sequence and position of the lateral spike, individual skeletons, growth ages and any soft tissues."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Lectotype revision",
+            "title": "Mallison · 2011",
+            "description": "Clarifies which specimen anchors the name Kentrosaurus aethiopicus.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1127/0077-7749/2011/0114"
+          },
+          {
+            "type": "Posture study",
+            "title": "Mallison · 2010",
+            "description": "Computer-aided assessment of the posture and range of motion of the Berlin skeleton.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1007/s00015-010-0024-2"
+          },
+          {
+            "type": "Bone histology",
+            "title": "Redelstorff & Sander · 2013",
+            "description": "Long and girdle bone histology across many individuals.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1002/ar.22701"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the animal and its armour.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/kentrosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Berlin mounted skeleton",
+            "description": "Source page, creator details and reuse licence for the photograph of the composite mount.",
+            "access": "CC BY-SA 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Kentrosaurus_aethiopicus_01.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38811"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

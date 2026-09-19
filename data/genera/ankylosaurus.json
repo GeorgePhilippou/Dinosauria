@@ -86,7 +86,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria A-C systematic scientific review",
     "consensusScope": [
       "accepted name and broad classification",
@@ -113,6 +113,124 @@
         "Much familiar full-body restoration combines non-overlapping specimens and comparison with relatives."
       ]
     },
+    "presentation": {
+      "heroLead": "The largest of the club-tailed armoured dinosaurs and one of the last, known from a few incomplete skeletons whose famous tank-like image is largely assembled from relatives.",
+      "heroMedia": {
+        "file": "Ankylosaurus TD.png",
+        "title": "Life restoration of Ankylosaurus magniventris",
+        "alt": "Life restoration of the armoured dinosaur Ankylosaurus magniventris in side view, with a broad body, bony armour and a tail club",
+        "caption": "Life restoration by TotalDino. The skull, tail club and general armour are based on Ankylosaurus specimens; the exact arrangement of the body armour follows better-known relatives, and colour is interpretive.",
+        "credit": "TotalDino · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ankylosaurus_TD.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 68–66 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Montana and Wyoming, USA · Alberta, Canada"
+        },
+        {
+          "label": "Known size",
+          "value": "about 6–8 m · roughly 5–8 t · estimates"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Ankylosaurus was a broad, low-slung, four-legged plant-eater that lived in western North America during the final two million years of the Cretaceous. It is the largest known ankylosaurid: recent estimates put the biggest skull at nearly 65 centimetres wide and the whole animal at perhaps six to eight metres long and several tonnes, though no complete skeleton exists to measure directly.",
+        "Its skull was wide and triangular, with horn-like bosses at the back corners, a beak at the front, small leaf-shaped teeth and a complicated looping nasal passage. The body carried bony plates set in the skin, and the tail ended in a heavy club formed from fused vertebrae and osteoderms, capable of powerful sideways swings.",
+        "Because the three main specimens preserve different parts of the body, restorations of the full animal stitch together non-overlapping material and borrow armour arrangements from better-known relatives such as Euoplocephalus. Ankylosaurus is a rare animal in its formations, and where it fits ecologically among the more common horned and duck-billed dinosaurs is still debated."
+      ],
+      "animalHighlights": [
+        "A wide, low skull with horn-like bosses at each rear corner and a looping, convoluted nasal passage.",
+        "A heavy tail club of fused vertebrae and osteoderms, known from referred material rather than the holotype.",
+        "The largest known ankylosaurid, yet documented by only a handful of incomplete individuals."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by beak and teeth",
+          "reason": "Small leaf-shaped teeth and a broad beak indicate low browsing on soft vegetation. No gut contents are known for Ankylosaurus itself."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal",
+          "level": "Inferred from limbs and relatives",
+          "reason": "Limb bones from referred specimens and the ankylosaurid body plan support four-legged walking. Speed and gait are modelled rather than observed."
+        },
+        {
+          "label": "Known size",
+          "value": "about 6–8 m · 5–8 t",
+          "level": "Estimates from partial skeletons",
+          "reason": "Lengths are scaled from skulls and partial skeletons; the largest skull and a 2017 re-estimate push the upper end towards eight metres, but no complete individual exists."
+        },
+        {
+          "label": "Appearance",
+          "value": "Partly reconstructed",
+          "level": "Armour arrangement modelled on relatives",
+          "reason": "Skull, tail club and many osteoderms are preserved, but no specimen shows the armour in place across the body, so its exact layout follows Euoplocephalus and other ankylosaurids."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous (late Maastrichtian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 68–66 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Hell Creek, Lance and Scollard formations"
+        },
+        {
+          "label": "Type locality",
+          "value": "Hell Creek Formation, Garfield County, Montana, USA"
+        }
+      ],
+      "locality": {
+        "name": "Hell Creek badlands",
+        "region": "Garfield County, Montana, USA",
+        "note": "Hell Creek Formation. The holotype was collected by Barnum Brown in 1906; other key specimens come from the Lance Formation of Wyoming and the Scollard Formation of Alberta."
+      },
+      "classificationSummary": "Ankylosaurus is the name-bearing genus of Ankylosauridae and Ankylosaurinae, the club-tailed armoured dinosaurs. Its membership of that group is secure; its position among the latest Cretaceous North American ankylosaurines is analysis-dependent, and its unusual skull and armour set it apart from close relatives.",
+      "related": [
+        {
+          "id": "euoplocephalus",
+          "reason": "Compare with the better-known, slightly older ankylosaurid whose armour informs Ankylosaurus restorations."
+        },
+        {
+          "id": "edmontonia",
+          "reason": "Compare with a clubless nodosaurid that shared the same latest Cretaceous landscapes."
+        },
+        {
+          "id": "tarchia",
+          "reason": "Compare with a large Asian ankylosaurine relative."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How was the armour arranged?",
+          "copy": "Osteoderms are known from all three main specimens, but none preserves them in place across the body. Published reconstructions differ, and the 2017 revision proposed a more Euoplocephalus-like arrangement than earlier models."
+        },
+        {
+          "title": "How big was it really?",
+          "copy": "Estimates range from about six to eight metres and from under five to about eight tonnes, depending on which specimen is scaled and how. There is no complete skeleton to settle the question."
+        },
+        {
+          "title": "Why is it so rare?",
+          "copy": "Ankylosaurus is scarce compared with Triceratops and Edmontosaurus in the same rocks. It may have lived in upland or inland habitats less often preserved, but this is a hypothesis rather than an observation."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Secure specimens are late Maastrichtian, principally from the Hell Creek, Lance and Scollard formations.",
     "sources": [
       {
@@ -124,6 +242,16 @@
         "type": "authoritative-museum-reference",
         "citation": "Natural History Museum, Dino Directory: ankylosaurus",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/ankylosaurus.html"
+      },
+      {
+        "type": "original-description",
+        "citation": "Brown (1908), The Ankylosauridae, a new family of armored dinosaurs from the Upper Cretaceous",
+        "url": "https://digitallibrary.amnh.org/handle/2246/1435"
+      },
+      {
+        "type": "redescription",
+        "citation": "Carpenter (2004), Redescription of Ankylosaurus magniventris Brown 1908 (Ankylosauridae) from the Upper Cretaceous of the Western Interior of North America",
+        "url": "https://doi.org/10.1139/e04-043"
       }
     ],
     "residualUncertainty": [
@@ -144,7 +272,166 @@
         "Exact armour placement and maximum size remain estimates."
       ],
       "summary": "Ankylosaurus magniventris was a very large ankylosaurid from latest Cretaceous rocks of western North America. Several incomplete skeletons and skulls collectively document its broad body, armour and tail club, but no single complete skeleton is known.",
-      "sourceBasis": "Arbour & Mallon (2017), Unusual cranial and postcranial anatomy of Ankylosaurus magniventris; Natural History Museum, Dino Directory: ankylosaurus"
+      "sourceBasis": "Arbour & Mallon (2017), Unusual cranial and postcranial anatomy of Ankylosaurus magniventris; Natural History Museum, Dino Directory: ankylosaurus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "AMNH 5895",
+          "institution": "American Museum of Natural History",
+          "note": "Partial skull, vertebrae, ribs, both scapulae and osteoderms from the Hell Creek Formation of Montana, collected by Barnum Brown in 1906 and described in 1908."
+        },
+        {
+          "name": "Most complete referred specimen",
+          "id": "AMNH 5214",
+          "institution": "American Museum of Natural History",
+          "note": "Complete skull, tail club, vertebrae, ribs, limb bones and osteoderms from the Scollard Formation of Alberta, collected in 1910."
+        },
+        {
+          "name": "Referred skull",
+          "id": "CMN 8880",
+          "institution": "Canadian Museum of Nature",
+          "note": "The largest known Ankylosaurus skull, from the Scollard Formation of Alberta."
+        },
+        {
+          "name": "Referred osteoderms",
+          "id": "AMNH 5866",
+          "institution": "American Museum of Natural History",
+          "note": "Armour plates from the Lance Formation of Wyoming, originally named Dynamosaurus imperiosus and later recognised as Ankylosaurus."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Three partial skeletons that never overlap into one complete animal.",
+        "standfirst": "Ankylosaurus is known from a holotype with partial skull and forequarters, a second specimen with a complete skull, tail club and limbs, and a third large skull, plus scattered osteoderms and teeth. Together they cover most of the body, but no individual preserves the armour in place or the skeleton entire.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Most regions are represented across a few individuals, including two complete skulls and a tail club, but no articulated skeleton, complete limb series or in-place armour is known."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Skulls and partial skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "About 3 substantial · few others"
+          },
+          {
+            "label": "Key limitation",
+            "value": "No complete skeleton"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Two complete and one partial skull, isolated teeth, cervical to caudal vertebrae including the tail club, ribs, both shoulder blades, partial limb bones and many osteoderms, spread across specimens from Montana, Wyoming and Alberta.",
+          "note": "Because the specimens preserve different regions and the osteoderms were found displaced, the shape of the whole animal and the layout of its armour are reconstructed by combining specimens and comparing with relatives."
+        },
+        "media": [
+          {
+            "file": "Skull of Ankylosaurus.jpg",
+            "kind": "Type specimen",
+            "title": "Holotype skull AMNH 5895, figured by Brown in 1908",
+            "alt": "Photograph of the partial holotype skull of Ankylosaurus magniventris in top and side views",
+            "caption": "Barnum Brown's 1908 photographs of the holotype skull. The complete skull shape is better known from the referred specimen AMNH 5214.",
+            "credit": "Barnum Brown · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skull_of_Ankylosaurus.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "The partial holotype skull, the complete skull of AMNH 5214 with lower jaws, the large CMN 8880 skull and isolated teeth."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal and caudal vertebrae, ribs and the tail club of AMNH 5214; the holotype adds vertebrae and ribs but no club."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Both scapulae of the holotype and partial forelimb and hindlimb bones of AMNH 5214; no complete hand or foot."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Numerous osteoderms and the cervical half-rings, but none found in life position; no skin impressions, colour or gut contents."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "AMNH 5895 · holotype",
+            "description": "Partial skull, vertebrae, ribs, both scapulae and osteoderms collected by Barnum Brown in the Hell Creek badlands of Montana in 1906 and described in 1908 as the basis of a new family, Ankylosauridae.",
+            "meta": "Garfield County, Montana · Hell Creek Formation · American Museum of Natural History"
+          },
+          {
+            "kicker": "Most complete specimen",
+            "title": "AMNH 5214",
+            "description": "A complete skull with lower jaws, tail club, vertebrae, ribs, limb elements and osteoderms collected in 1910 from the Red Deer River valley of Alberta. Most of what is known of the tail club and skull shape comes from this animal.",
+            "meta": "Red Deer River, Alberta · Scollard Formation · American Museum of Natural History"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Two complete and one partial skull, a tail club, vertebrae, ribs, shoulder blades, partial limbs and many displaced osteoderms from three main specimens."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A very large, low-browsing armoured herbivore whose club could deliver forceful sideways blows, whether against predators or rivals."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Complete body proportions, exact armour layout, mass, the hands and feet, and all soft tissues and colour."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Brown · 1908",
+            "description": "Original description of the holotype and the naming of Ankylosauridae.",
+            "access": "AMNH Digital Library",
+            "url": "https://digitallibrary.amnh.org/handle/2246/1435"
+          },
+          {
+            "type": "Redescription",
+            "title": "Carpenter · 2004",
+            "description": "Redescription of all known specimens with a revised skeletal reconstruction.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1139/e04-043"
+          },
+          {
+            "type": "Systematic revision",
+            "title": "Arbour & Mallon · 2017",
+            "description": "Reassessment of the skull, armour, tail club and size of Ankylosaurus.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1139/facets-2017-0063"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of size, age and distribution.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/ankylosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype skull photographs",
+            "description": "Source page and reuse status for Brown's 1908 figure of the holotype skull.",
+            "access": "Public domain",
+            "url": "https://commons.wikimedia.org/wiki/File:Skull_of_Ankylosaurus.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38837"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

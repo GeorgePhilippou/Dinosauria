@@ -64,7 +64,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -90,6 +90,124 @@
         "Modern re-preparation shows a more robust skull and skeleton than older weak-jawed reconstructions."
       ]
     },
+    "presentation": {
+      "heroLead": "A large, twin-crested predator from the Early Jurassic of Arizona, known from several partial skeletons that make it one of the best-documented early theropods.",
+      "heroMedia": {
+        "file": "Dilophosaurus 2020.jpg",
+        "title": "Life restoration of Dilophosaurus wetherilli",
+        "alt": "Scientific life restoration of Dilophosaurus wetherilli walking in side view, showing the paired skull crests",
+        "caption": "Life restoration based on the 2020 anatomical revision by Marsh and Rowe. Skin texture, colour and the soft-tissue outline of the crests are interpretive.",
+        "credit": "Petr Menshikov · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dilophosaurus_2020.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Early Jurassic · Sinemurian · about 193 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Navajo Nation, northern Arizona, USA"
+        },
+        {
+          "label": "Known size",
+          "value": "about 6–7 m · estimated"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Dilophosaurus was a long-bodied, lightly built predator about six to seven metres long, with a long neck, a low skull carrying a pair of thin bony crests, and hands with four fingers. It is the largest land animal known from the Kayenta Formation and among the largest theropods of the Early Jurassic anywhere.",
+        "Older reconstructions showed a weak-jawed animal with a notch beneath the nostrils, sometimes interpreted as a sign of scavenging. Re-preparation of the type material and study of a fourth skeleton showed that the jaws and skull were more robust than once thought, and that the crests were supported by extensions of the nasal and lacrimal bones and hollowed out by air spaces linked to the sinuses.",
+        "The animal in the Jurassic Park films bears its name but little else. There is no fossil evidence for venom, a neck frill or a small body; the real Dilophosaurus was a substantial hunter whose crests were probably visual structures, though their exact function cannot be tested from bones alone."
+      ],
+      "animalHighlights": [
+        "Two thin, plate-like crests rose from the top of the snout, formed by the nasal and lacrimal bones and pierced by air spaces.",
+        "A long neck, slender tail and four-fingered hands place Dilophosaurus among early neotheropods rather than later, more compact predators.",
+        "The holotype skeleton preserves healed injuries on several bones, showing that the animal survived serious damage during life."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Meat-eater",
+          "level": "Supported by teeth and jaws",
+          "reason": "Blade-like, serrated teeth and a large gape indicate a predator, but no gut contents or bite marks tie it to particular prey."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Supported by limb proportions",
+          "reason": "Long hindlimbs and short forelimbs show habitual two-legged walking. Tracks from the region have been linked to similar theropods, but none can be assigned to Dilophosaurus with certainty."
+        },
+        {
+          "label": "Known size",
+          "value": "about 6–7 m long",
+          "level": "Several partial skeletons",
+          "reason": "Length is reconstructed from incomplete individuals; mass estimates of a few hundred kilograms depend on modelling rather than direct measurement."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeletal outline well supported",
+          "level": "Soft tissues remain reconstructed",
+          "reason": "The crests, skull shape and proportions are known from bone; colour, skin covering and any soft extension of the crests are not preserved."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Early Jurassic, Sinemurian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 193 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Kayenta Formation, silty facies"
+        },
+        {
+          "label": "Type locality",
+          "value": "near Tuba City, Navajo Nation, Coconino County, Arizona, USA"
+        }
+      ],
+      "locality": {
+        "name": "Kayenta Formation exposures near Tuba City",
+        "region": "Navajo Nation, northern Arizona, USA",
+        "note": "The type specimens were found in 1942 on Navajo land west of Tuba City. The map point is a regional reference rather than the exact quarry."
+      },
+      "classificationSummary": "Dilophosaurus is an early neotheropod. It was long grouped with Coelophysis and its relatives, but the 2020 revision by Marsh and Rowe recovered it closer to the later, larger theropods of the Middle and Late Jurassic. Its exact position remains sensitive to analysis.",
+      "related": [
+        {
+          "id": "coelophysis",
+          "reason": "Compare with the smaller, better-sampled early theropod with which Dilophosaurus was long grouped."
+        },
+        {
+          "id": "cryolophosaurus",
+          "reason": "Compare with another crested Early Jurassic theropod, from Antarctica."
+        },
+        {
+          "id": "scutellosaurus",
+          "reason": "A small armoured plant-eater that shared the Kayenta Formation with Dilophosaurus."
+        }
+      ],
+      "questions": [
+        {
+          "title": "What were the crests for?",
+          "copy": "They were thin and probably served for display or recognition, but no fossil evidence tests these ideas directly and any soft-tissue extension is unknown."
+        },
+        {
+          "title": "Where does it sit among early theropods?",
+          "copy": "Analyses disagree on whether Dilophosaurus is close to Coelophysis or nearer the ancestry of later large theropods. The 2020 revision favours the latter."
+        },
+        {
+          "title": "How much of the skull is original?",
+          "copy": "The holotype skull was partly reconstructed in plaster for decades. Modern re-preparation separated bone from restoration, but some regions remain distorted."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "U-Pb dating places the fossil-bearing Kayenta interval near 193 Ma in the Sinemurian.",
     "sources": [
       {
@@ -101,6 +219,16 @@
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Dilophosaurus",
         "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Dilophosaurus"
+      },
+      {
+        "type": "pathology-study",
+        "citation": "Senter & Juengst (2016), Record-breaking pain: the largest number and variety of forelimb bone maladies in a theropod dinosaur",
+        "url": "https://doi.org/10.1371/journal.pone.0149140"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Dilophosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/dilophosaurus.html"
       }
     ],
     "residualUncertainty": [
@@ -120,7 +248,159 @@
         "fine phylogeny"
       ],
       "summary": "Dilophosaurus wetherilli was a large early theropod from the Kayenta Formation of Arizona. Several partial skeletons, including substantial skull material, document paired cranial crests and a powerful bipedal predator very unlike its fictionalised venom-spitting portrayal.",
-      "sourceBasis": "Marsh & Rowe (2020), A comprehensive anatomical and phylogenetic evaluation of Dilophosaurus; Paleobiology Database taxon and occurrence context for Dilophosaurus"
+      "sourceBasis": "Marsh & Rowe (2020), A comprehensive anatomical and phylogenetic evaluation of Dilophosaurus; Paleobiology Database taxon and occurrence context for Dilophosaurus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "UCMP 37302",
+          "institution": "University of California Museum of Paleontology",
+          "note": "Partial skull and much of the skeleton collected in 1942; the basis of Megalosaurus wetherilli Welles, 1954, renamed Dilophosaurus in 1970."
+        },
+        {
+          "name": "Paratype",
+          "id": "UCMP 37303",
+          "institution": "University of California Museum of Paleontology",
+          "note": "A more fragmentary second skeleton found beside the holotype."
+        },
+        {
+          "name": "Referred skeleton",
+          "id": "UCMP 77270",
+          "institution": "University of California Museum of Paleontology",
+          "note": "Larger individual collected in 1964 whose skull first revealed the paired crests."
+        },
+        {
+          "name": "Referred skeleton",
+          "id": "TMM 43646-1",
+          "institution": "Texas Vertebrate Paleontology Collections",
+          "note": "Partial skeleton described in the 2020 revision."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Several partial skeletons with skull material from one Arizona rock unit.",
+        "standfirst": "Dilophosaurus is known from a small number of partial skeletons collected from the Kayenta Formation of northern Arizona since 1942, including the holotype and a second skeleton found together. The 2020 revision re-described all of the material and added a further specimen.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Most skeletal regions are represented across a handful of individuals, including substantial skull material, but no single skeleton is complete and several bones are crushed or distorted."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Partial skeletons with skulls"
+          },
+          {
+            "label": "Individuals",
+            "value": "About 4–5"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Distortion and incompleteness"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The holotype preserves much of the skull and lower jaw together with most of the vertebral column, girdles and limbs. A second skeleton found beside it, a larger crested individual collected in 1964, and a fourth skeleton in the Texas collections add overlapping cranial and postcranial material.",
+          "note": "Different specimens are complete in different regions, so the composite skeleton is well understood even though every individual has gaps. Earlier restoration in plaster complicated study of the type skull."
+        },
+        "media": [
+          {
+            "file": "Dilophosaurus holotype skull.png",
+            "kind": "Type specimen",
+            "title": "Skull bones of the holotype UCMP 37302",
+            "alt": "Photographs of the articulated right side of the Dilophosaurus holotype skull and isolated crest and cheek bones in lateral and medial views",
+            "caption": "Figure from Marsh and Rowe (2020) showing the articulated right side of the holotype skull and separate crest, postorbital, lacrimal, quadratojugal and squamosal bones.",
+            "credit": "Adam D. Marsh and Timothy B. Rowe · CC BY 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dilophosaurus_holotype_skull.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Much of the skull and both lower jaws in the holotype, including the crest-bearing nasals and lacrimals; further skull material in referred specimens."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal, sacral and caudal vertebrae with ribs and chevrons across several individuals; the tail is incompletely known."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Shoulder and hip girdles, forelimbs with four-fingered hands, hindlimbs and feet, represented across specimens."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Healed fractures and other pathologies on the holotype; no skin, feathers, colour or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "UCMP 37302 · holotype",
+            "description": "A partial skull and much of the skeleton found by Jesse Williams and collected by Samuel Welles in 1942. First named Megalosaurus wetherilli in 1954 and renamed Dilophosaurus in 1970 once the crests were recognised.",
+            "meta": "Near Tuba City, Arizona · Kayenta Formation · University of California Museum of Paleontology"
+          },
+          {
+            "kicker": "Referred material",
+            "title": "UCMP 37303, UCMP 77270 and TMM 43646-1",
+            "description": "A second, more fragmentary skeleton found beside the holotype, a larger crested individual collected in 1964, and a further skeleton in the Texas Vertebrate Paleontology Collections described in the 2020 revision.",
+            "meta": "Kayenta Formation · Arizona · University of California and University of Texas collections"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Paired thin skull crests, serrated teeth, a long neck and four-fingered hands preserved in bone from several individuals, plus healed injuries on the holotype."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A large bipedal predator whose crests were probably visual structures; its relationships lie among early neotheropods, with the 2020 revision placing it closer to later large theropods than to Coelophysis."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Crest function, colour and skin, the exact form of the tail tip, and whether isolated tracks and other Kayenta fragments belong to the genus."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Modern revision",
+            "title": "Marsh & Rowe · 2020",
+            "description": "Comprehensive redescription of all specimens, with new phylogenetic analysis and figures of every bone.",
+            "access": "DOI record · open access",
+            "url": "https://doi.org/10.1017/jpa.2020.14"
+          },
+          {
+            "type": "Pathology study",
+            "title": "Senter & Juengst · 2016",
+            "description": "Documents the healed injuries preserved on the holotype skeleton.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1371/journal.pone.0149140"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the animal, its crests and its discovery.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/dilophosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype skull figure",
+            "description": "Source page, creator details and reuse licence for the figure of UCMP 37302.",
+            "access": "CC BY 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Dilophosaurus_holotype_skull.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38522"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

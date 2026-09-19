@@ -66,7 +66,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -95,6 +95,124 @@
         "Gut contents document a varied carnivorous diet including birds, mammals, lizards and fish in different specimens."
       ]
     },
+    "presentation": {
+      "heroLead": "A crow-sized, four-winged dromaeosaurid from the Jehol lake beds of China, known from hundreds of feathered skeletons that document its plumage, colour and even its last meals.",
+      "heroMedia": {
+        "file": "Microraptor Restoration.png",
+        "title": "Life restoration of Microraptor gui",
+        "alt": "Life restoration of Microraptor gui with long flight feathers on both the arms and the legs",
+        "caption": "Life restoration by Fred Wierum. The four-winged plumage and glossy dark colouring follow fossil evidence; posture in flight is interpretive.",
+        "credit": "Fred Wierum · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Microraptor_Restoration.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Early Cretaceous · about 120 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Liaoning, China"
+        },
+        {
+          "label": "Known size",
+          "value": "about 0.8–1 m · estimated about 1 kg"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Microraptor was a small dromaeosaurid, about the size of a crow, with a long bony tail ending in a fan of feathers. Its most remarkable feature is a set of long, asymmetrical flight feathers on the hindlimbs as well as the arms, producing a four-winged layout with no living equivalent.",
+        "The plumage is directly preserved in many specimens. Analysis of fossil melanosomes in one skeleton indicates that the feathers were predominantly black with an iridescent sheen, comparable to a modern grackle or crow. Gut contents in different individuals include a bird, a mammal, a lizard and a fish, so its diet was clearly varied.",
+        "How Microraptor used its wings is still debated. Wind-tunnel and modelling studies agree that it could glide or parachute effectively, but whether it could launch from the ground or flap in powered flight remains an open question."
+      ],
+      "animalHighlights": [
+        "Long flight feathers on the legs as well as the arms are preserved on many specimens, giving a four-winged body plan.",
+        "Melanosome evidence indicates predominantly black, iridescent plumage in at least one individual.",
+        "Preserved stomach contents from separate specimens document prey ranging from birds and mammals to lizards and fish."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Small-animal carnivore",
+          "level": "Directly evidenced by gut contents",
+          "reason": "Different specimens preserve a bird, a mammal, a lizard and a fish in the gut region, showing an opportunistic diet."
+        },
+        {
+          "label": "Movement",
+          "value": "Gliding or flying",
+          "level": "Aerial ability supported; mode debated",
+          "reason": "Asymmetrical flight feathers and aerodynamic modelling support gliding at least; powered flight and take-off ability are inferred, not observed."
+        },
+        {
+          "label": "Known size",
+          "value": "about 0.8–1 m long",
+          "level": "Well constrained by many skeletons",
+          "reason": "Complete skeletons fix the length, but body mass of roughly a kilogram is an estimate and the sample includes animals of different growth stages."
+        },
+        {
+          "label": "Appearance",
+          "value": "Feathers and colour preserved",
+          "level": "Colour from one specimen",
+          "reason": "Plumage outline is directly preserved; the black iridescent colour comes from melanosome analysis of a single individual and may not represent every animal."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Early Cretaceous"
+        },
+        {
+          "label": "Approximate age",
+          "value": "Aptian, about 120 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Jiufotang Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Near Chaoyang, western Liaoning, China"
+        }
+      ],
+      "locality": {
+        "name": "Jiufotang Formation lake beds",
+        "region": "Chaoyang area, western Liaoning, China",
+        "note": "Fine-grained lake sediments of the Jehol Group. The map shows the Chaoyang region rather than an individual quarry, as many specimens come from local collectors."
+      },
+      "classificationSummary": "Microraptor is a dromaeosaurid within Microraptorinae, a group of small, often four-winged dromaeosaurs from the Early Cretaceous of China. Three species have been named, M. zhaoianus, M. gui and M. hanqingi, but many workers regard them as a single variable species.",
+      "related": [
+        {
+          "id": "sinornithosaurus",
+          "reason": "Compare with a feathered dromaeosaurid from the older Yixian Formation of Liaoning."
+        },
+        {
+          "id": "anchiornis",
+          "reason": "Compare with an earlier four-winged paravian whose colour has also been reconstructed."
+        },
+        {
+          "id": "velociraptor",
+          "reason": "Compare with a larger, ground-living dromaeosaurid from the Late Cretaceous of Mongolia."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Could it fly under its own power?",
+          "copy": "Gliding is well supported. Whether the shoulder allowed a full flight stroke and whether it could launch from the ground remain contested."
+        },
+        {
+          "title": "How many species are there?",
+          "copy": "Differences between M. zhaoianus, M. gui and M. hanqingi may reflect growth, individual variation or preservation rather than separate species."
+        },
+        {
+          "title": "Was every Microraptor black?",
+          "copy": "The iridescent black colour is based on melanosomes from one specimen. Other individuals, sexes or ages might have differed."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The main Jiufotang sample is Aptian, close to 120 Ma; species and localities should not be merged into a broader generic range without review.",
     "sources": [
       {
@@ -106,6 +224,21 @@
         "type": "primary-literature",
         "citation": "O'Connor et al. (2011), Microraptor with ingested bird remains",
         "url": "https://doi.org/10.1073/pnas.1117727108"
+      },
+      {
+        "type": "original-description",
+        "citation": "Xu, Zhou & Wang (2000), The smallest known non-avian theropod dinosaur",
+        "url": "https://doi.org/10.1038/35047056"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Hone et al. (2010), The extent of the preserved feathers on the four-winged dinosaur Microraptor gui",
+        "url": "https://doi.org/10.1371/journal.pone.0009223"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Li et al. (2012), Reconstruction of Microraptor and the evolution of iridescent plumage",
+        "url": "https://doi.org/10.1126/science.1213780"
       }
     ],
     "residualUncertainty": [
@@ -122,7 +255,154 @@
         "flight mode"
       ],
       "summary": "Microraptor was a small feathered dromaeosaurid from the Jiufotang Formation of Liaoning, known from hundreds of articulated specimens, especially M. gui; species limits within the genus remain debated.",
-      "sourceBasis": "Xu et al. (2003), four-winged Microraptor from China; O'Connor et al. (2011), Microraptor with ingested bird remains"
+      "sourceBasis": "Xu et al. (2003), four-winged Microraptor from China; O'Connor et al. (2011), Microraptor with ingested bird remains",
+      "specimens": [
+        {
+          "name": "Holotype of M. zhaoianus",
+          "id": "IVPP V 12330",
+          "institution": "Institute of Vertebrate Paleontology and Paleoanthropology, Beijing",
+          "note": "Partial articulated skeleton, the name-bearing specimen of the genus (Xu, Zhou and Wang 2000)."
+        },
+        {
+          "name": "Holotype of M. gui",
+          "id": "IVPP V 13352",
+          "institution": "Institute of Vertebrate Paleontology and Paleoanthropology, Beijing",
+          "note": "Near-complete skeleton with hindlimb flight feathers (Xu et al. 2003); many workers treat M. gui as a synonym of M. zhaoianus."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Hundreds of feathered skeletons from the Jehol lake beds.",
+        "standfirst": "Microraptor is one of the most abundantly sampled non-avian dinosaurs. Articulated, feather-bearing skeletons on limestone slabs preserve the plumage outline, melanosomes and stomach contents alongside the bones.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every skeletal region is represented by many articulated individuals, with feathers preserved in place on numerous slabs."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Complete feathered skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Hundreds"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Flattened slab preservation"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete skulls, vertebral columns, girdles and limbs from many individuals, together with the outlines of arm, leg and tail feathers, fossil melanosomes and, in several specimens, the remains of prey in the gut.",
+          "note": "Jehol fossils are crushed flat on slabs, so three-dimensional skull and joint anatomy is harder to study than in uncrushed material. Many specimens were collected commercially and lack precise locality data."
+        },
+        "media": [
+          {
+            "file": "Microraptor gui holotype.png",
+            "kind": "Holotype photograph",
+            "title": "Holotype of Microraptor gui, IVPP V 13352",
+            "alt": "Photograph of the Microraptor gui holotype slab showing the skeleton and surrounding feather impressions",
+            "caption": "The holotype slab of Microraptor gui under normal light, from Hone and colleagues' 2010 study of the extent of the preserved feathers. The white arrow marks feathers; black arrows mark the halo where they appear absent.",
+            "credit": "Hone, Tischlinger, Xu and Zhang · CC BY 2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Microraptor_gui_holotype.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Complete but flattened skulls with small serrated teeth, known from many individuals."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete neck, back, sacrum and long tail with a terminal feather fan; ribs, gastralia and uncinate processes preserved."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Complete shoulder and pelvic girdles, long arms with three-fingered hands, and hindlimbs bearing the enlarged second-toe claw."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Pennaceous flight feathers on arms and legs, tail feathers, melanosomes indicating iridescent black plumage, and stomach contents including a bird, a mammal, a lizard and a fish."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "IVPP V 12330 · holotype of M. zhaoianus",
+            "description": "A partial articulated skeleton described by Xu, Zhou and Wang in 2000 as the smallest non-avian theropod then known. It anchors the genus name, though its feathering is less completely preserved than in later finds.",
+            "meta": "Jiufotang Formation, Liaoning · Institute of Vertebrate Paleontology and Paleoanthropology, Beijing"
+          },
+          {
+            "kicker": "Four-winged specimen",
+            "title": "IVPP V 13352 · holotype of M. gui",
+            "description": "The near-complete skeleton described by Xu and colleagues in 2003 that first revealed long flight feathers on the hindlimbs. Its plumage extent was re-examined under ultraviolet light in 2010.",
+            "meta": "Jiufotang Formation, Liaoning · Institute of Vertebrate Paleontology and Paleoanthropology, Beijing"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Articulated skeletons, four sets of flight feathers, a feathered tail fan, melanosomes and prey remains within the body cavity."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "An arboreal or semi-arboreal glider with at least some aerial capacity, black iridescent plumage, and an opportunistic diet of small vertebrates."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Whether it flapped in powered flight or launched from the ground, how many species the sample contains, and whether colour varied between individuals."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Xu, Zhou and Wang · 2000",
+            "description": "Original description of Microraptor zhaoianus in Nature.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1038/35047056"
+          },
+          {
+            "type": "Four-winged description",
+            "title": "Xu et al. · 2003",
+            "description": "Description of Microraptor gui and the hindlimb flight feathers.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1038/nature01342"
+          },
+          {
+            "type": "Open-access study",
+            "title": "Hone et al. · 2010",
+            "description": "Ultraviolet examination of the extent of preserved feathers on the M. gui holotype, source of the evidence image.",
+            "access": "PLOS ONE",
+            "url": "https://doi.org/10.1371/journal.pone.0009223"
+          },
+          {
+            "type": "Colour study",
+            "title": "Li et al. · 2012",
+            "description": "Melanosome analysis reconstructing iridescent black plumage.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1126/science.1213780"
+          },
+          {
+            "type": "Evidence image",
+            "title": "M. gui holotype under normal light",
+            "description": "Source page, authors and reuse licence for the holotype photograph.",
+            "access": "CC BY 2.5",
+            "url": "https://commons.wikimedia.org/wiki/File:Microraptor_gui_holotype.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=68238"
+          }
+        ],
+        "limitations": "The coverage band describes the combined Jiufotang sample at genus level. It is an editorial evidence summary, not a published percentage, and it does not resolve species boundaries within Microraptor.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

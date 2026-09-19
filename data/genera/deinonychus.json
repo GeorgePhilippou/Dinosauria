@@ -76,7 +76,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-19",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -105,6 +105,124 @@
         "Co-occurrence of several individuals and Tenontosaurus does not establish coordinated pack hunting."
       ]
     },
+    "presentation": {
+      "heroLead": "A lightly built Early Cretaceous dromaeosaurid whose enlarged sickle claw and agile skeleton helped change the picture of dinosaurs from sluggish reptiles to active animals.",
+      "heroMedia": {
+        "file": "Deinonychus ewilloughby.png",
+        "title": "Life restoration of Deinonychus antirrhopus",
+        "alt": "Life restoration of a feathered Deinonychus antirrhopus walking in side view, with the second-toe claw raised off the ground",
+        "caption": "A feathered restoration with proportions based on a published skeletal reconstruction. Feathering is inferred from close relatives rather than preserved on Deinonychus itself; colour and patterning are interpretive.",
+        "credit": "Emily Willoughby · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deinonychus_ewilloughby.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Early Cretaceous · about 115–108 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Montana, Wyoming and Oklahoma, USA"
+        },
+        {
+          "label": "Known size",
+          "value": "about 3–3.5 m · estimated"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Deinonychus was a mid-sized predatory theropod, roughly three to three and a half metres long and perhaps 60–100 kilograms in mass, with a long stiffened tail, grasping three-fingered hands and a large, strongly curved claw on the second toe of each foot. Its name, 'terrible claw', refers to that weapon, which was held clear of the ground during walking.",
+        "The skull was relatively deep with a wide gape and blade-like serrated teeth. Early reconstructions gave it a shorter, more boxy head because they combined bones from more than one individual; later specimens show a longer, lower profile more like other dromaeosaurids. Growth-stage differences in the skull and teeth have also been documented.",
+        "No feathers are preserved on any Deinonychus fossil, but feathered relatives on either side of it in the family tree make an extensive feather covering the most likely condition. The claw was probably used for gripping and pinning prey, and several individuals have been found with the plant-eater Tenontosaurus, although this does not demonstrate coordinated pack hunting."
+      ],
+      "animalHighlights": [
+        "A large retractable second-toe claw is preserved directly and was the inspiration for the genus name.",
+        "Its description by John Ostrom in 1969 was central to the idea of active, bird-like dinosaurs.",
+        "Feathers are expected on phylogenetic grounds but have never been found on the animal itself."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Meat-eater",
+          "level": "Supported by teeth and bite marks",
+          "reason": "Serrated teeth, grasping hands and the sickle claw indicate predation; shed teeth and bite marks link it to Tenontosaurus carcasses, though whether it hunted or scavenged them is debated."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Supported by limb anatomy",
+          "reason": "The hindlimbs and stiffened tail indicate a two-legged animal; suggestions of exceptional speed rest on proportions rather than trackways."
+        },
+        {
+          "label": "Known size",
+          "value": "about 3–3.5 m long",
+          "level": "Estimate from partial skeletons",
+          "reason": "No single complete skeleton is known, so length and mass are reconstructed from several individuals of different sizes."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeleton well understood",
+          "level": "Feathers inferred, not preserved",
+          "reason": "Body outline is well constrained by the bones; feathering is predicted from relatives and colour is unknown."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Early Cretaceous, Aptian–Albian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 115–108 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Cloverly Formation; also the Antlers Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Near Bridger, Carbon County, Montana, USA"
+        }
+      ],
+      "locality": {
+        "name": "Cloverly Formation, near Bridger",
+        "region": "Carbon County, Montana, USA",
+        "note": "The type material was excavated by Yale parties in 1964–65. Further material comes from the Cloverly Formation of Wyoming and the Antlers Formation of Oklahoma."
+      },
+      "classificationSummary": "Deinonychus is a dromaeosaurid within Eudromaeosauria, the group of larger, robust 'raptors' that also includes Velociraptor, Dromaeosaurus and Utahraptor. Its close relationship to birds within Maniraptora is well supported.",
+      "related": [
+        {
+          "id": "velociraptor",
+          "reason": "Compare with a smaller Asian dromaeosaurid known from articulated skeletons and quill knobs."
+        },
+        {
+          "id": "utahraptor",
+          "reason": "Compare with a much larger, heavily built dromaeosaurid from slightly older North American rocks."
+        },
+        {
+          "id": "tenontosaurus",
+          "reason": "The ornithopod repeatedly found alongside Deinonychus remains and teeth."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Did it hunt in packs?",
+          "copy": "Several Deinonychus with one Tenontosaurus is suggestive, but such associations can form without cooperative hunting, and tooth chemistry suggests juveniles and adults ate differently."
+        },
+        {
+          "title": "How was the claw used?",
+          "copy": "Slashing, stabbing, climbing and pinning prey have all been proposed; mechanical tests favour gripping and restraint, but the question remains open."
+        },
+        {
+          "title": "How extensive was its plumage?",
+          "copy": "Feathers are inferred from relatives such as Velociraptor and Microraptor. Their distribution, length and colour on Deinonychus are unknown."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Secure Cloverly occurrences are late Aptian-Albian, broadly 115-108 Ma.",
     "sources": [
       {
@@ -121,6 +239,11 @@
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Deinonychus",
         "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Deinonychus"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Fowler et al. (2011), The predatory ecology of Deinonychus and the origin of flapping in birds",
+        "url": "https://doi.org/10.1371/journal.pone.0028964"
       }
     ],
     "residualUncertainty": [
@@ -141,7 +264,160 @@
         "feather distribution"
       ],
       "summary": "Deinonychus antirrhopus was a medium-sized predatory dromaeosaurid from the Cloverly Formation and equivalent units of North America. Multiple partial skeletons, skull elements, teeth and growth stages document the animal, although many early reconstructions combined several individuals.",
-      "sourceBasis": "Ostrom (1969), Osteology of Deinonychus antirrhopus; Parsons & Parsons (2015), Morphological variations within the ontogeny of Deinonychus; Paleobiology Database taxon and occurrence context for Deinonychus"
+      "sourceBasis": "Ostrom (1969), Osteology of Deinonychus antirrhopus; Parsons & Parsons (2015), Morphological variations within the ontogeny of Deinonychus; Paleobiology Database taxon and occurrence context for Deinonychus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "YPM 5205",
+          "institution": "Yale Peabody Museum of Natural History",
+          "note": "Incomplete skeleton including the left foot with the enlarged second-toe claw; from near Bridger, Montana."
+        },
+        {
+          "name": "Referred specimen",
+          "id": "AMNH 3015",
+          "institution": "American Museum of Natural History",
+          "note": "Partial skeleton collected by Barnum Brown in 1931 from the Cloverly Formation of Montana."
+        },
+        {
+          "name": "Referred specimen",
+          "id": "MCZ 4371",
+          "institution": "Museum of Comparative Zoology, Harvard",
+          "note": "Partial skeleton with skull elements from the Cloverly Formation of Montana, described by Ostrom in 1976."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Several partial skeletons and many teeth, but no single complete animal.",
+        "standfirst": "Deinonychus is known from a handful of partial skeletons collected in Montana and Wyoming since the 1930s, plus skull elements, isolated bones and abundant shed teeth. Together they cover most of the skeleton, though the famous early reconstructions were composites.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Most skeletal regions are represented across several individuals, including hands, feet and skull elements, but no specimen is complete and some regions are known from few bones."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Partial skeletons and teeth"
+          },
+          {
+            "label": "Individuals",
+            "value": "At least 8"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Composite reconstructions"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Partial skulls and jaws, vertebrae and the rod-stiffened tail, shoulder and pelvic girdles, forelimbs with complete hands, and hindlimbs with the diagnostic feet, spread across the Yale, Harvard and American Museum collections. Shed teeth are common in the Cloverly Formation and in the Antlers Formation of Oklahoma.",
+          "note": "Because the material comes from several individuals of different sizes, any single mounted skeleton combines bones from more than one animal."
+        },
+        "media": [
+          {
+            "file": "Deinonychus antirrhopus - AMNH - DSC06297.JPG",
+            "kind": "Referred specimen",
+            "title": "AMNH 3015 on display in New York",
+            "alt": "Mounted Deinonychus antirrhopus skeleton, specimen AMNH 3015, in a crouching pose at the American Museum of Natural History",
+            "caption": "AMNH 3015, a partial skeleton collected by Barnum Brown in the 1930s and recognised as Deinonychus after Ostrom's description. Missing parts of the mount are reconstructed.",
+            "credit": "Daderot · CC0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deinonychus_antirrhopus_-_AMNH_-_DSC06297.JPG"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Partial skulls, braincase, maxillae and dentaries with teeth from several individuals; the first published skull was a composite reconstruction."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal, sacral and caudal vertebrae, including the long ossified-tendon rods that stiffened the tail."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Scapulocoracoid, furcula, pelvis, forelimbs with three-fingered hands and hindlimbs with complete feet including the sickle claw."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Bite marks and shed teeth on Tenontosaurus bones, and eggshell found in association with one specimen; no feathers or skin are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "YPM 5205 · holotype",
+            "description": "An incomplete skeleton excavated by Yale parties led by John Ostrom in 1964–65 near Bridger, Montana, and described in 1969. It includes the left foot with the enlarged second-toe claw that gives the genus its name.",
+            "meta": "Carbon County, Montana · Cloverly Formation · Yale Peabody Museum"
+          },
+          {
+            "kicker": "Referred specimen",
+            "title": "AMNH 3015",
+            "description": "A partial skeleton collected by Barnum Brown in 1931 and left undescribed for decades under a manuscript name; it became one of the principal referred specimens once Deinonychus was recognised.",
+            "meta": "Montana · Cloverly Formation · American Museum of Natural History"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Partial skeletons of several individuals with the sickle claw, stiffened tail and grasping hands, plus abundant shed teeth and bite marks on Tenontosaurus bones."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "An active, agile predator whose anatomy supports the dinosaur–bird link; the claw is best explained as a gripping and pinning tool, and feathers are inferred from bracketing relatives."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Feather distribution and colour, hunting behaviour, exact adult size and which bones belong to which individual in the early composite reconstructions."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Ostrom · 1969",
+            "description": "Osteology of Deinonychus antirrhopus, the foundational monograph on the type material.",
+            "access": "Read online",
+            "url": "https://elischolar.library.yale.edu/peabody_museum_natural_history_bulletin/30/"
+          },
+          {
+            "type": "Growth study",
+            "title": "Parsons & Parsons · 2015",
+            "description": "Morphological variation across the growth series and its bearing on skull reconstruction.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1371/journal.pone.0121476"
+          },
+          {
+            "type": "Functional study",
+            "title": "Fowler et al. · 2011",
+            "description": "Predatory ecology and the 'raptor prey restraint' interpretation of the sickle claw.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1371/journal.pone.0028964"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the animal and its place in dinosaur research.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/deinonychus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "AMNH 3015 mount",
+            "description": "Source page, photographer and reuse licence for the mounted specimen photograph.",
+            "access": "CC0",
+            "url": "https://commons.wikimedia.org/wiki/File:Deinonychus_antirrhopus_-_AMNH_-_DSC06297.JPG"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38562"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 19 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }
