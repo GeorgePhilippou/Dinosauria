@@ -44,7 +44,7 @@ No build step and no dependencies. Genus content is fetched per file at runtime,
 
 ### Editing a dinosaur
 
-Every genus has its own file in [`data/genera/`](data/genera/) — for example [`data/genera/tyrannosaurus.json`](data/genera/tyrannosaurus.json). Edit it (on GitHub, the pencil icon on the file page) and the change is live on the next load. [`data/genera/README.md`](data/genera/README.md) documents the fields. Edits to the reviewed `record` fields are picked up by the catalogue grid after the `genera-index` GitHub Action rebuilds `data/genera-index.js`, which it does automatically on push.
+Every genus has its own file in [`data/genera/`](data/genera/) — for example [`data/genera/tyrannosaurus.json`](data/genera/tyrannosaurus.json). Edit it (on GitHub, the pencil icon on the file page) and the change is live on the next load. [`data/genera/README.md`](data/genera/README.md) documents the fields. Edits to the reviewed `record` fields are picked up by the catalogue grid after the `genera-index` GitHub Action rebuilds `data/genera-index.js`, which it does automatically on push. The site also installs a service worker for offline use, which serves the copy it has and refreshes in the background — so after an edit, reload twice (or hard-refresh) to see it.
 
 ### Shareable links
 

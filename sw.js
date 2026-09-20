@@ -3,7 +3,7 @@
 // so the whole site becomes available offline simply by having visited it,
 // without hand-maintaining a file list that content updates would outdate.
 
-const CACHE_VERSION = 'dinosauria-v1';
+const CACHE_VERSION = 'dinosauria-v2';
 const SHELL_URLS = [
   './',
   './index.html',
@@ -15,17 +15,11 @@ const SHELL_URLS = [
   './data/nhm-imported-dinosaurs.js',
   './data/pbdb-enrichment.js',
   './data/wiki-enrichment.js',
-  './data/ai-enriched-profiles.js',
-  './data/ai-fossil-records.js',
-  './data/ai-curated-evidence.js',
-  './data/scientific-reviews.js',
-  './data/scientific-baseline-audit.js',
-  './data/review-batches/reviews-a-c.js',
-  './data/review-batches/reviews-d-l.js',
-  './data/review-batches/reviews-m-r.js',
-  './data/review-batches/reviews-s-z.js',
-  './data/review-batches/reviews-s-z-remainder.js',
-  './data/review-batches/merge-reviews.js',
+  './data/genera-index.js',
+  // Per-genus files (data/genera/<id>.json) are not precached: index.html
+  // prefetches all of them in idle time, and the stale-while-revalidate
+  // handler below stores each one as it arrives, so a single visit still
+  // makes every profile available offline.
 ];
 
 self.addEventListener('install', (event) => {
