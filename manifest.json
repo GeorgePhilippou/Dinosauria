@@ -1,0 +1,16 @@
+{
+  "name": "Dinosauria — an interactive reference to dinosaur evolution, diversity and deep time",
+  "short_name": "Dinosauria",
+  "description": "An open-access reference with 328 dinosaur and early-avialan catalogue profiles.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbfbf8",
+  "theme_color": "#fbfbf8",
+  "lang": "en",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
