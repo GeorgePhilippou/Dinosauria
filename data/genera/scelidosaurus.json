@@ -63,7 +63,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -87,6 +87,124 @@
         "Its osteoderms and spikes are directly preserved, although colour and keratin coverings are unknown."
       ]
     },
+    "presentation": {
+      "heroLead": "A four-legged, armour-plated plant-eater from the Jurassic coast of Dorset, and one of the most completely known early armoured dinosaurs anywhere.",
+      "heroMedia": {
+        "file": "Scelidosaurus TD.png",
+        "title": "Life restoration of Scelidosaurus harrisonii",
+        "alt": "Life restoration of Scelidosaurus harrisonii, a low, four-legged armoured dinosaur with rows of bony plates along its back and tail, in side view",
+        "caption": "Life restoration showing the rows of osteoderms known from the skeletons. The keratin coverings of the plates, the skin texture and the colour are interpretive.",
+        "credit": "TotalDino · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scelidosaurus_TD.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Early Jurassic · about 195–193 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Dorset, England"
+        },
+        {
+          "label": "Known size",
+          "value": "about 4 m · estimated"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Scelidosaurus was a heavily built, low-slung ornithischian about four metres long, with a small head, a long tail and a body walled with rows of bony plates. Its fossils come from the marine mudstones of Charmouth, where carcasses washed out to sea and settled in fine sediment that preserved several skeletons in articulation.",
+        "The skull carried a horny beak and rows of leaf-shaped teeth suited to cropping and simple slicing of foliage rather than grinding. The jaw joint sat level with the tooth rows and the wear on the teeth is modest, suggesting a simple up-and-down bite on low-growing plants.",
+        "Rows of keeled osteoderms ran along the neck, back, flanks and tail, with a distinctive three-pointed cluster behind each ear, all preserved in place on the best skeletons. The limbs were sturdy and the forelimb relatively long, indicating an animal that habitually walked on all fours, although young animals may have been more lightly built."
+      ],
+      "animalHighlights": [
+        "Rows of keeled bony plates are preserved in their natural positions along the neck, body and tail.",
+        "A three-pronged cluster of osteoderms behind each side of the skull is unique to Scelidosaurus.",
+        "Sturdy limbs and a long forelimb indicate a habitual four-legged walker, the earliest well-documented example among ornithischians."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by beak and teeth",
+          "reason": "Leaf-shaped teeth and a beak indicate browsing on low vegetation. The particular plants are not preserved and there is no grinding dentition."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal walker",
+          "level": "Supported by limb proportions",
+          "reason": "Forelimb length and robust limb bones show weight-bearing on all four legs. A bipedal stance in juveniles is inferred rather than observed."
+        },
+        {
+          "label": "Known size",
+          "value": "about 4 m long",
+          "level": "Measured on near-complete skeletons",
+          "reason": "The lectotype and the Bristol skeleton give length directly; mass is estimated from limb dimensions and body reconstructions."
+        },
+        {
+          "label": "Appearance",
+          "value": "Armour layout well supported",
+          "level": "Coverings and colour unknown",
+          "reason": "The osteoderms and small skin ossicles are preserved in position, but the keratin sheaths, skin colour and pattern are not."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Early Jurassic, late Sinemurian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 195–193 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Charmouth Mudstone Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Charmouth, near Lyme Regis, Dorset, England"
+        }
+      ],
+      "locality": {
+        "name": "Charmouth",
+        "region": "Dorset, England",
+        "note": "Charmouth Mudstone Formation, Black Ven cliffs. All secure specimens come from a short stretch of the Jurassic Coast between Charmouth and Lyme Regis."
+      },
+      "classificationSummary": "Scelidosaurus is an early thyreophoran, the armoured group that later gave rise to stegosaurs and ankylosaurs. The recent redescription places it near the base of Thyreophora, outside both later groups, rather than within Ankylosauria as some earlier analyses suggested.",
+      "related": [
+        {
+          "id": "scutellosaurus",
+          "reason": "Compare with a smaller, lightly armoured Early Jurassic thyreophoran from North America."
+        },
+        {
+          "id": "emausaurus",
+          "reason": "Compare with a fragmentary early armoured ornithischian of similar age from Germany."
+        },
+        {
+          "id": "huayangosaurus",
+          "reason": "Compare with an early stegosaur that shows the next stage of thyreophoran armour."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Which type specimen counts?",
+          "copy": "Owen first attached the name to a theropod knee joint, and a skull-and-skeleton lectotype had to be designated in 1994 so that the name applies to the armoured animal we recognise today."
+        },
+        {
+          "title": "Ankylosaur or something earlier?",
+          "copy": "Scelidosaurus was long treated as a primitive ankylosaur. The full redescription argues for a position near the base of Thyreophora, but the placement still depends on which characters are scored."
+        },
+        {
+          "title": "Were the plates covered in horn?",
+          "copy": "The bone cores of the osteoderms are preserved, and a keratin sheath is likely by comparison with living reptiles, but the covering itself has not been found."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Ammonite zonation places the Dorset material in the upper Sinemurian, approximately 195-193 Ma on the current time scale.",
     "sources": [
       {
@@ -98,6 +216,16 @@
         "type": "primary-literature",
         "citation": "Norman (2021), biology and phylogenetic relationships of Scelidosaurus",
         "url": "https://doi.org/10.1093/zoolinnean/zlaa061"
+      },
+      {
+        "type": "original-description",
+        "citation": "Owen (1861), A monograph of the fossil Reptilia of the Liassic formations, Part I: Scelidosaurus harrisonii",
+        "url": "https://archive.org/details/monographoffoss00owen"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Norman (2020), cranial anatomy of Scelidosaurus",
+        "url": "https://doi.org/10.1093/zoolinnean/zlz074"
       }
     ],
     "residualUncertainty": [
@@ -113,7 +241,160 @@
         "armour soft tissue"
       ],
       "summary": "Scelidosaurus harrisonii was an early armoured ornithischian from the Charmouth Mudstone Formation of Dorset, known from several skeletons including a nearly complete skull and postcranium.",
-      "sourceBasis": "Norman (2020), postcranial anatomy of Scelidosaurus; Norman (2021), biology and phylogenetic relationships of Scelidosaurus"
+      "sourceBasis": "Norman (2020), postcranial anatomy of Scelidosaurus; Norman (2021), biology and phylogenetic relationships of Scelidosaurus",
+      "specimens": [
+        {
+          "name": "Lectotype",
+          "id": "NHMUK PV R1111",
+          "institution": "Natural History Museum, London",
+          "note": "Near-complete skull and skeleton with armour in place, collected by James Harrison at Charmouth and described by Owen in 1861; designated lectotype in 1994."
+        },
+        {
+          "name": "Referred adult skeleton",
+          "id": "BRSMG Ce12785",
+          "institution": "Bristol Museum and Art Gallery",
+          "note": "Second near-complete skeleton from Charmouth used extensively in the 2020–2021 redescription."
+        },
+        {
+          "name": "Referred juvenile",
+          "id": "CAMSM X39256",
+          "institution": "Sedgwick Museum, Cambridge",
+          "note": "Partial skeleton of a young individual."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Several articulated skeletons with the armour still in place.",
+        "standfirst": "Scelidosaurus is known from a near-complete lectotype skull and skeleton, a second near-complete adult in Bristol, a well-preserved private specimen found in 2000, and partial juveniles, all from the Charmouth Mudstone of Dorset.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every skeletal region is represented in articulated skeletons from more than one individual, with the dermal armour preserved in natural position and juveniles known alongside adults."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Near-complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "At least 5"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Single locality and age"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The lectotype preserves the skull with lower jaws, the complete vertebral column, both girdles, all four limbs and the osteoderms in place. The Bristol skeleton and the Charmouth specimen repeat most of this anatomy, and juvenile material in Cambridge and London records earlier growth stages.",
+          "note": "All material comes from one formation on one stretch of coast, so geographic range and variation through time cannot be assessed."
+        },
+        "media": [
+          {
+            "file": "Scelidosaurus harrisonii skull.jpg",
+            "kind": "Type figure",
+            "title": "Skull of the lectotype as figured by Owen",
+            "alt": "Lithograph of the side of the Scelidosaurus lectotype skull with detail views of the broken snout and a single tooth",
+            "caption": "Plate from Owen's 1861 monograph showing the skull of the skeleton found by James Harrison at Charmouth, now the lectotype NHMUK PV R1111.",
+            "credit": "Joseph Dinkel · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scelidosaurus_harrisonii_skull.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Complete skull and lower jaws in the lectotype and Bristol specimen, with beak-bearing snout, full tooth rows and the paired osteoderm cluster behind the skull."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete articulated cervical, dorsal, sacral and caudal series with ribs, ossified tendons and tail chevrons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Shoulder and pelvic girdles, forelimbs and hindlimbs with hands and feet, from adults and juveniles."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Osteoderms and small skin ossicles preserved in life position in marine mudstone; no keratin, colour or gut contents survive."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "NHMUK PV R1111 · lectotype",
+            "description": "A near-complete skull and skeleton with armour in place, collected by James Harrison in the late 1850s and described by Richard Owen in 1861. It was designated lectotype in 1994 after Owen's original type proved to be a theropod knee joint.",
+            "meta": "Charmouth · Charmouth Mudstone Formation · Natural History Museum, London"
+          },
+          {
+            "kicker": "Referred skeletons",
+            "title": "Bristol, Cambridge and Charmouth specimens",
+            "description": "BRSMG Ce12785 in Bristol is a second near-complete adult; CAMSM X39256 in Cambridge is a partial juvenile; the well-preserved skeleton found in 2000 and displayed at Charmouth remains in private hands. Together they underpin the 2020–2021 redescription.",
+            "meta": "Black Ven, Charmouth · same formation and age as the lectotype"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Complete skulls, articulated skeletons and osteoderm rows preserved in natural position from adults and juveniles."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "Limb proportions indicate habitual quadrupedality; tooth form and jaw geometry indicate low browsing with a simple bite; the armour pattern anchors reconstructions of early thyreophoran evolution."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Keratin coverings of the armour, colour, growth series beyond a few juveniles, geographic range outside Dorset, and the exact position at the base of Thyreophora."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Owen · 1861",
+            "description": "Monograph of the Liassic Reptilia introducing Scelidosaurus harrisonii, digitised by the Internet Archive.",
+            "access": "Read online",
+            "url": "https://archive.org/details/monographoffoss00owen"
+          },
+          {
+            "type": "Modern revision",
+            "title": "Norman · 2020, skull",
+            "description": "Full redescription of the cranial anatomy from the lectotype and referred skulls.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1093/zoolinnean/zlz074"
+          },
+          {
+            "type": "Modern revision",
+            "title": "Norman · 2020, postcranium",
+            "description": "Redescription of the vertebral column, girdles and limbs.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1093/zoolinnean/zlz078"
+          },
+          {
+            "type": "Modern revision",
+            "title": "Norman · 2021, biology and relationships",
+            "description": "Functional interpretation and phylogenetic placement near the base of Thyreophora.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1093/zoolinnean/zlaa061"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Owen's plate of the lectotype skull",
+            "description": "Source page, creator details and reuse status for the type figure.",
+            "access": "Public domain",
+            "url": "https://commons.wikimedia.org/wiki/File:Scelidosaurus_harrisonii_skull.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38801"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

@@ -79,7 +79,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria A-C systematic scientific review",
     "consensusScope": [
       "accepted name and broad classification",
@@ -102,8 +102,126 @@
       "description": "Ceratosaurus nasicornis was a horned ceratosaurian theropod from the Morrison Formation of western North America. The holotype preserves a skull and much of the skeleton; additional specimens improve coverage, while several proposed species and referrals remain disputed.",
       "facts": [
         "The midline nasal horn core and paired orbital rugosities are directly preserved.",
-        "A lateral row of small osteoderms is associated with the holotype, but their complete arrangement is unknown."
+        "A midline row of small osteoderms is associated with the holotype, but their complete arrangement is unknown."
       ]
+    },
+    "presentation": {
+      "heroLead": "A horned, blade-toothed predator of the Late Jurassic Morrison Formation, known from one remarkably complete skeleton and a scatter of later finds that still fuel debate over how many species it contained.",
+      "heroMedia": {
+        "file": "Ceratosaurus NT.jpg",
+        "title": "Life restoration of Ceratosaurus nasicornis",
+        "alt": "Life restoration of Ceratosaurus nasicornis in side view, showing the nasal horn and a row of small osteoderms along the back",
+        "caption": "Life restoration by Nobu Tamura, proportioned after a published skeletal reconstruction. The nasal horn and dorsal osteoderms are preserved; skin texture, the horn sheath and colour are interpretive.",
+        "credit": "Nobu Tamura · CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceratosaurus_NT.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Jurassic · about 153–148 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Colorado and Utah, USA · possibly Portugal"
+        },
+        {
+          "label": "Known size",
+          "value": "about 5–6 m · larger referred bones"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Ceratosaurus was a medium-sized meat-eating dinosaur that lived alongside Allosaurus and Torvosaurus on the floodplains of the Late Jurassic Morrison Formation. The name-bearing skeleton from Garden Park, Colorado, belonged to an animal about five to six metres long; isolated bones from Utah and Colorado suggest that some individuals grew larger, although no complete large adult is known.",
+        "It is instantly recognisable from a blade-like horn core on the nasal bones and a pair of low ridges above the eyes, all of which are directly preserved. Its teeth were unusually long for the size of the skull, its arms were short with a four-fingered hand, and its tail was deep and flexible. A row of small bony plates ran along the back, a feature otherwise almost unknown among theropods.",
+        "Ceratosaurus belongs to Ceratosauria, a lineage of predators that split early from the tetanuran line leading to birds. It was less common than Allosaurus in the same rocks, and its long teeth and deep tail have prompted suggestions, still untested, that it hunted different prey or in different settings."
+      ],
+      "animalHighlights": [
+        "A midline nasal horn core and paired brow ridges are preserved on the holotype skull.",
+        "Very long, blade-like teeth in a comparatively short, deep skull.",
+        "A row of small osteoderms along the back, associated with the holotype skeleton."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Carnivore",
+          "level": "Supported by teeth and jaws",
+          "reason": "Recurved, serrated teeth and a deep skull indicate a predatory diet. No bite-marked prey or gut contents are directly attributed to Ceratosaurus."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Directly supported by the holotype",
+          "reason": "Long hindlimbs, short forelimbs and a fused pelvis in the holotype leave no doubt about two-legged walking; speed is not measured."
+        },
+        {
+          "label": "Known size",
+          "value": "about 5–6 m long",
+          "level": "Holotype measured; larger bones referred",
+          "reason": "The holotype is a subadult or small adult. Larger jaws and limb bones from Utah and Colorado imply bigger individuals, but their exact length is estimated."
+        },
+        {
+          "label": "Appearance",
+          "value": "Horn and osteoderms preserved",
+          "level": "Sheath and skin reconstructed",
+          "reason": "The bony horn core and dorsal osteoderms are real; the keratin covering, skin texture and colour are inferred."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Jurassic (Kimmeridgian–Tithonian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 153–148 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Morrison Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Garden Park, near Cañon City, Fremont County, Colorado, USA"
+        }
+      ],
+      "locality": {
+        "name": "Garden Park (Felch Quarry 1)",
+        "region": "Fremont County, Colorado, USA",
+        "note": "Morrison Formation. Further material comes from Dry Mesa Quarry and Fruita in Colorado and the Cleveland-Lloyd Quarry in Utah; a Portuguese record from the Lourinhã Formation is debated."
+      },
+      "classificationSummary": "Ceratosaurus is the name-giving member of Ceratosauria, an early-branching group of theropods distinct from the allosaurs and tyrannosaurs. Within Ceratosauria it is usually placed close to Genyodectes and outside the abelisauroid radiation.",
+      "related": [
+        {
+          "id": "allosaurus",
+          "reason": "Compare with the far more common large predator of the same Morrison Formation floodplains."
+        },
+        {
+          "id": "torvosaurus",
+          "reason": "Compare with the largest Morrison theropod, a megalosauroid found in the same quarries."
+        },
+        {
+          "id": "carnotaurus",
+          "reason": "Compare with a later, horned ceratosaur from the Cretaceous of South America."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How many species were there?",
+          "copy": "Ceratosaurus magnicornis and C. dentisulcatus were named from Fruita and the Cleveland-Lloyd Quarry, but several studies treat their differences as growth or individual variation within C. nasicornis."
+        },
+        {
+          "title": "Did it live outside North America?",
+          "copy": "A partial skeleton from the Lourinhã Formation of Portugal has been referred to Ceratosaurus, but the referral rests on limited overlapping material and is not universally accepted."
+        },
+        {
+          "title": "What was the horn for?",
+          "copy": "The nasal horn is too thin to have been an effective weapon. Display is the usual interpretation, but there is no direct evidence of how it was used or whether it differed between sexes."
+        }
+      ],
+      "compactSources": true
     },
     "ageReviewNote": "Secure C. nasicornis material is Kimmeridgian-Tithonian in the Morrison Formation.",
     "sources": [
@@ -121,6 +239,16 @@
         "type": "authoritative-museum-reference",
         "citation": "Natural History Museum, Dino Directory: ceratosaurus",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/ceratosaurus.html"
+      },
+      {
+        "type": "original-description",
+        "citation": "Marsh (1884), Principal characters of American Jurassic dinosaurs. Part VIII. The order Theropoda",
+        "url": "https://doi.org/10.2475/ajs.s3-27.160.329"
+      },
+      {
+        "type": "ceratosaur-systematics",
+        "citation": "Carrano & Sampson (2008), The phylogeny of Ceratosauria",
+        "url": "https://doi.org/10.1017/S1477201907002246"
       }
     ],
     "residualUncertainty": [
@@ -139,7 +267,160 @@
         "European and African referrals are debated."
       ],
       "summary": "Ceratosaurus nasicornis was a horned ceratosaurian theropod from the Morrison Formation of western North America. The holotype preserves a skull and much of the skeleton; additional specimens improve coverage, while several proposed species and referrals remain disputed.",
-      "sourceBasis": "Gilmore (1920), Osteology of the carnivorous Dinosauria in the United States National Museum; Carrano, Benson & Sampson (2012), The phylogeny of Tetanurae and comparative theropod taxonomy; Natural History Museum, Dino Directory: ceratosaurus"
+      "sourceBasis": "Gilmore (1920), Osteology of the carnivorous Dinosauria in the United States National Museum; Carrano, Benson & Sampson (2012), The phylogeny of Tetanurae and comparative theropod taxonomy; Natural History Museum, Dino Directory: ceratosaurus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "USNM 4735",
+          "institution": "National Museum of Natural History, Smithsonian Institution",
+          "note": "Associated skull and skeleton from Garden Park, Colorado, described by Marsh in 1884 and monographed by Gilmore in 1920."
+        },
+        {
+          "name": "Holotype of C. magnicornis",
+          "id": "MWC 1",
+          "institution": "Museum of Western Colorado",
+          "note": "Skull and partial skeleton from Fruita, Colorado; its distinction from C. nasicornis is disputed."
+        },
+        {
+          "name": "Holotype of C. dentisulcatus",
+          "id": "UMNH VP 5728",
+          "institution": "Natural History Museum of Utah",
+          "note": "Large partial skeleton from the Cleveland-Lloyd Quarry; its distinction from C. nasicornis is disputed."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "One largely complete skeleton with skull, plus scattered later finds.",
+        "standfirst": "Ceratosaurus rests on the Garden Park holotype, an associated skeleton with a nearly complete skull collected in 1883–1884. Later specimens from Colorado, Utah and possibly Portugal add larger bones and partial skulls, but none is as complete as the first.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "The holotype covers most skeletal regions, with additional partial skulls and postcrania from several later specimens. The forelimb and the end of the tail are less well represented, and no other individual approaches the holotype in completeness."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Skull and most of the skeleton"
+          },
+          {
+            "label": "Individuals",
+            "value": "Several; one nearly complete"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Species boundaries unresolved"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The holotype USNM 4735 preserves a crushed but nearly complete skull with lower jaws, most of the vertebral column, the pelvis, hindlimbs and parts of the forelimbs, together with a row of small osteoderms. Referred specimens add partial skulls, jaws, vertebrae and limb bones.",
+          "note": "The holotype skull was distorted during burial, so some proportions in mounted reconstructions are corrected estimates. Larger referred specimens are incomplete, which is why the maximum size of the genus is uncertain."
+        },
+        "media": [
+          {
+            "file": "Ceratosaurus nasicornis reconstruction gilmore 1920.png",
+            "kind": "Known-material diagram",
+            "title": "Gilmore's 1920 skeletal reconstruction of the holotype",
+            "alt": "Skeletal reconstruction of the Ceratosaurus nasicornis holotype from Gilmore's 1920 monograph, with preserved bones and osteoderm positions indicated",
+            "caption": "Charles Gilmore's 1920 reconstruction of holotype USNM 4735, showing the elements known at the time and the positions of the dorsal osteoderms. Gilmore's upright pose reflects the era; the bone inventory is what matters here.",
+            "credit": "Charles W. Gilmore · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceratosaurus_nasicornis_reconstruction_gilmore_1920.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Nearly complete holotype skull with nasal horn core, brow ridges and lower jaws; partial skulls and maxillae in later specimens."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal, sacral and most caudal vertebrae of the holotype, with ribs and chevrons; the tail tip is incomplete."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Complete pelvis and hindlimbs of the holotype; the shoulder girdle and forelimb are only partly preserved, with a four-fingered hand."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "A row of small osteoderms associated with the holotype; no skin impressions, colour or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "USNM 4735 · holotype",
+            "description": "An associated skull and skeleton collected by Marshall Felch at Garden Park and described by Marsh in 1884, then monographed by Gilmore in 1920. It remains the most complete Ceratosaurus known and is on display at the Smithsonian.",
+            "meta": "Garden Park, Colorado · Morrison Formation · National Museum of Natural History"
+          },
+          {
+            "kicker": "Referred material",
+            "title": "Later Colorado and Utah specimens",
+            "description": "Partial skulls and skeletons from Fruita, Colorado, and the Cleveland-Lloyd Quarry, Utah, were named as C. magnicornis and C. dentisulcatus in 2000. Dry Mesa Quarry material and a Portuguese partial skeleton are also referred to the genus.",
+            "meta": "Morrison Formation · Lourinhã Formation (debated) · species status unresolved"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "A near-complete skull with horn core, most of one skeleton, dorsal osteoderms, and partial skulls and bones from several other individuals."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A medium-sized ceratosaurian predator that coexisted with, and was rarer than, Allosaurus; its horn is usually read as a display structure."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Whether the named species are distinct, the maximum adult size, the full osteoderm arrangement, the horn sheath, and any details of hunting behaviour."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Marsh · 1884",
+            "description": "Original naming of Ceratosaurus nasicornis from the Garden Park skeleton.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.2475/ajs.s3-27.160.329"
+          },
+          {
+            "type": "Monograph",
+            "title": "Gilmore · 1920",
+            "description": "Full osteology of the holotype, including the osteoderms and the skeletal reconstruction shown above.",
+            "access": "Smithsonian repository",
+            "url": "https://repository.si.edu/handle/10088/10108"
+          },
+          {
+            "type": "Systematic revision",
+            "title": "Carrano & Sampson · 2008",
+            "description": "Phylogeny of Ceratosauria placing the genus among early-branching ceratosaurs.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1017/S1477201907002246"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the horned Morrison predator.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/ceratosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Gilmore's holotype reconstruction",
+            "description": "Source page and licence for the 1920 skeletal diagram.",
+            "access": "Public domain",
+            "url": "https://commons.wikimedia.org/wiki/File:Ceratosaurus_nasicornis_reconstruction_gilmore_1920.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38600"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

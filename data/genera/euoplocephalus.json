@@ -72,7 +72,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -100,6 +100,124 @@
         "Taxonomic revision greatly reduced the geographic and temporal range once attributed to Euoplocephalus."
       ]
     },
+    "presentation": {
+      "heroLead": "A broad, low-slung armoured dinosaur with a bony tail club from Alberta, known from several skulls and partial skeletons once that name had been stripped of the many specimens it used to absorb.",
+      "heroMedia": {
+        "file": "Euoplocephalus TD.png",
+        "title": "Life restoration of Euoplocephalus tutus",
+        "alt": "Life restoration of Euoplocephalus tutus in side view, showing the armoured back and tail club",
+        "caption": "Life restoration by TotalDino. Skull and armour types follow described specimens; the exact arrangement of osteoderms across the body, and colour, are interpretive.",
+        "credit": "TotalDino · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Euoplocephalus_TD.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 76.5–74.4 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Alberta, Canada and Montana, USA"
+        },
+        {
+          "label": "Known size",
+          "value": "about 5–6 m · roughly 2 t"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Euoplocephalus was a heavily armoured, four-legged plant-eater of the ankylosaurid group that lived in what is now Alberta, and probably Montana, during the late Campanian. It was around five to six metres long, with a wide, flat body carried on short limbs and a tail ending in a heavy bony club.",
+        "Its skull was broad and short, roofed with fused plates of bony armour, with small horn-like bones at the rear corners and even bony eyelids. Rows of keeled osteoderms covered the neck, back and tail, the largest arranged in half-rings around the neck. The teeth were small and leaf-shaped, and the nasal passages inside the skull followed a looping course.",
+        "For most of the twentieth century almost every ankylosaurid skeleton from Alberta was called Euoplocephalus, making it seem one of the best-known armoured dinosaurs. A 2013 revision reassigned many of those specimens to Anodontosaurus, Dyoplosaurus and Scolosaurus, leaving a smaller but still substantial sample from the Dinosaur Park Formation."
+      ],
+      "animalHighlights": [
+        "A broad skull capped with fused armour plates, with bony eyelids that could close over the eyes.",
+        "Half-rings of large keeled osteoderms around the neck and a tail ending in a solid bony club.",
+        "The historic catch-all genus for Alberta ankylosaurids, cut down to a smaller core sample by modern revision."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Low-browsing plant-eater",
+          "level": "Supported by teeth and skull shape",
+          "reason": "Small leaf-shaped teeth, a broad beak and a wide, low skull fit a low-level browser on soft vegetation. No gut contents are known for the genus."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal",
+          "level": "Supported by limb material",
+          "reason": "Short, stout limbs and a broad pelvis from partial skeletons indicate a slow, four-legged gait; speed is inferred from proportions."
+        },
+        {
+          "label": "Known size",
+          "value": "about 5–6 m long",
+          "level": "Estimated from partial skeletons",
+          "reason": "No fully complete individual is described, and some historic large skeletons now belong to other genera; length and mass are estimates."
+        },
+        {
+          "label": "Appearance",
+          "value": "Armour types known",
+          "level": "Full layout reconstructed",
+          "reason": "Individual osteoderms and neck half-rings are directly preserved, but no single specimen shows the complete armour arrangement, and colour is unknown."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous, late Campanian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 76.5–74.4 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Dinosaur Park Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Red Deer River valley, Alberta, Canada"
+        }
+      ],
+      "locality": {
+        "name": "Red Deer River badlands",
+        "region": "Dinosaur Provincial Park area, Alberta, Canada",
+        "note": "The holotype was collected by Lawrence Lambe in 1897 from the Belly River beds, now the Dinosaur Park Formation. Some material from the Judith River Formation of Montana has also been referred to the genus."
+      },
+      "classificationSummary": "Euoplocephalus is an ankylosaurine ankylosaurid, part of the club-tailed armoured dinosaurs of Late Cretaceous North America. It is closely related to Anodontosaurus, Scolosaurus and Dyoplosaurus, the genera into which many of its former specimens were moved.",
+      "related": [
+        {
+          "id": "ankylosaurus",
+          "reason": "Compare with the larger, younger relative from the very end of the Cretaceous."
+        },
+        {
+          "id": "edmontosaurus",
+          "reason": "Compare with a duck-billed dinosaur that browsed the same Late Cretaceous plains at greater height."
+        },
+        {
+          "id": "gorgosaurus",
+          "reason": "Compare with the tyrannosaurid predator that shared the Dinosaur Park Formation."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Which old specimens still belong here?",
+          "copy": "Skulls and armour that once defined Euoplocephalus have been redistributed among several genera, and a few historic specimens without diagnostic skulls remain hard to place."
+        },
+        {
+          "title": "How was the armour arranged?",
+          "copy": "Osteoderms are known from many individuals, but no single Euoplocephalus skeleton preserves the full pattern in place, so reconstructions borrow from relatives."
+        },
+        {
+          "title": "How was the tail club used?",
+          "copy": "The club is real and biomechanical models suggest it could deliver damaging blows, but whether it was used against predators, rivals or both is not directly recorded."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Restricted mainly to the Dinosaur Park Formation, about 76.5-74.4 Ma, rather than an 80-66 Ma composite range.",
     "sources": [
       {
@@ -116,6 +234,11 @@
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Euoplocephalus",
         "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Euoplocephalus"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Euoplocephalus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/euoplocephalus.html"
       }
     ],
     "residualUncertainty": [
@@ -135,7 +258,153 @@
         "tail-club behaviour"
       ],
       "summary": "Euoplocephalus tutus was an ankylosaurid from the Dinosaur Park Formation of Alberta and Montana. Multiple skulls and partial skeletons document a broad, armoured quadruped with a tail club, but modern revision removed many historic specimens into Anodontosaurus, Dyoplosaurus and Scolosaurus.",
-      "sourceBasis": "Vickaryous & Russell (2003), A redescription of the skull of Euoplocephalus; Arbour & Currie (2013), Euoplocephalus and the diversity of North American ankylosaurids; Paleobiology Database taxon and occurrence context for Euoplocephalus"
+      "sourceBasis": "Vickaryous & Russell (2003), A redescription of the skull of Euoplocephalus; Arbour & Currie (2013), Euoplocephalus and the diversity of North American ankylosaurids; Paleobiology Database taxon and occurrence context for Euoplocephalus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "CMN 0210",
+          "institution": "Canadian Museum of Nature, Ottawa",
+          "note": "A partial skull roof and a cervical half-ring of armour collected by Lawrence Lambe in 1897 and named Stereocephalus tutus in 1902; renamed Euoplocephalus in 1910 because the original name was preoccupied."
+        },
+        {
+          "name": "Referred skull and skeleton",
+          "id": "AMNH 5405",
+          "institution": "American Museum of Natural History, New York",
+          "note": "A skull with associated postcranial material and armour from the Dinosaur Park Formation, retained in Euoplocephalus by the 2013 revision."
+        },
+        {
+          "name": "Referred skull",
+          "id": "ROM 1930",
+          "institution": "Royal Ontario Museum, Toronto",
+          "note": "A well-preserved skull used in cranial redescriptions of the genus."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Several skulls and partial armoured skeletons, after revision trimmed the sample.",
+        "standfirst": "Euoplocephalus rests on a fragmentary holotype and a set of referred skulls and partial skeletons from the Dinosaur Park Formation. The sample is smaller than the historic literature suggests, because many former specimens are now assigned to other ankylosaurid genera.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Skulls, armour, vertebrae, girdles and limbs are all represented across referred specimens, but no individual is complete and the full armour layout is not preserved in place."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Skulls and partial skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Several securely referred"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Fragmentary holotype"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "A holotype skull roof and neck half-ring, several complete or near-complete referred skulls, and partial skeletons with vertebrae, ribs, girdles, limbs, osteoderms and tail-club material.",
+          "note": "Because the holotype is so incomplete, referral of skeletons depends on skull features, and specimens without skulls are difficult to assign with confidence."
+        },
+        "media": [
+          {
+            "file": "Euoplocephalus skulls.png",
+            "kind": "Referred specimens",
+            "title": "Skulls AMNH 5405 and ROM 1930",
+            "alt": "Photographs of Euoplocephalus skulls AMNH 5405 and ROM 1930 in ventral, anterior and posterior views from Arbour and Currie 2013",
+            "caption": "Two skulls retained in Euoplocephalus by the 2013 revision, AMNH 5405 and ROM 1930, figured in ventral, anterior and posterior views. These are photographs of original fossil material.",
+            "credit": "Victoria M. Arbour and Philip J. Currie · CC BY 2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Euoplocephalus_skulls.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "The holotype skull roof plus several referred skulls with fused cranial armour, braincases, bony eyelids, mandibles and teeth."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal, sacral and caudal vertebrae, including the fused handle vertebrae of the tail club, from partial skeletons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Pelvic and pectoral girdle elements and limb bones from referred skeletons; complete hands and feet are rare."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Numerous osteoderms and cervical half-rings, some found in association; no skin impressions, colour or gut contents are securely attributed to the genus."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "CMN 0210 · holotype",
+            "description": "A partial skull roof and a cervical half-ring found by Lawrence Lambe in 1897 and named in 1902. Its fragmentary nature is the root of a century of taxonomic confusion around Alberta ankylosaurids.",
+            "meta": "Red Deer River · Dinosaur Park Formation · Canadian Museum of Nature"
+          },
+          {
+            "kicker": "Key referred specimen",
+            "title": "AMNH 5405 · skull and skeleton",
+            "description": "A skull with associated postcranium and armour that anchors much of the modern understanding of the genus, retained in Euoplocephalus when many other New York and Ottawa specimens were reassigned.",
+            "meta": "Dinosaur Park Formation · American Museum of Natural History"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Fused cranial armour, bony eyelids, teeth, neck half-rings, isolated osteoderms, tail-club elements and partial postcranial skeletons."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A slow, low-browsing armoured herbivore whose tail club served as a weapon, and whose former specimens represent several coexisting ankylosaurid genera."
+          },
+          {
+            "label": "Still unknown",
+            "value": "The complete in-place armour pattern, the assignment of some historic skeletons, how the tail club was used, and colour and skin texture."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Cranial revision",
+            "title": "Vickaryous & Russell · 2003",
+            "description": "Redescription of the skull of Euoplocephalus.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1046/j.1096-3642.2003.00045.x"
+          },
+          {
+            "type": "Taxonomic revision",
+            "title": "Arbour & Currie · 2013",
+            "description": "Reassessment of every specimen historically referred to Euoplocephalus and the diversity of North American ankylosaurids.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1371/journal.pone.0062421"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the armoured, club-tailed ankylosaurid.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/euoplocephalus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Skulls AMNH 5405 and ROM 1930",
+            "description": "Source page, creator details and reuse licence for the published skull photographs.",
+            "access": "CC BY 2.5",
+            "url": "https://commons.wikimedia.org/wiki/File:Euoplocephalus_skulls.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38838"
+          }
+        ],
+        "limitations": "The coverage band describes the material securely referred to the genus after the 2013 revision. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

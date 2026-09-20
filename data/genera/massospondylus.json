@@ -84,7 +84,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -110,6 +110,124 @@
         "Adults were predominantly bipedal in current biomechanical interpretations; young animals had different proportions."
       ]
     },
+    "presentation": {
+      "heroLead": "One of the best-known early sauropodomorphs, represented by dozens of skeletons, skulls, juveniles and even embryos from the Early Jurassic of southern Africa.",
+      "heroMedia": {
+        "file": "Massospondylus TD.png",
+        "title": "Life restoration of Massospondylus carinatus",
+        "alt": "Life restoration of Massospondylus, a slender long-necked bipedal sauropodomorph, in side view",
+        "caption": "Life restoration by TotalDino. Body outline follows the well-known skeleton; skin texture and colour are interpretive.",
+        "credit": "TotalDino · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Massospondylus_TD.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Early Jurassic · about 201–183 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "South Africa, Lesotho and Zimbabwe"
+        },
+        {
+          "label": "Known size",
+          "value": "about 4–6 m · adults"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore, possibly omnivorous"
+        }
+      ],
+      "animalParagraphs": [
+        "Massospondylus was a lightly built sauropodomorph with a long neck, small head and a long tail, typically four to six metres long as an adult. It was among the most common large animals of Early Jurassic southern Africa, and its remains are found across the upper Elliot and Clarens formations.",
+        "Its skull has been described in detail from CT scans of several specimens. The leaf-shaped, coarsely serrated teeth suit a plant diet, though some researchers allow for occasional animal food. The hands carried an enlarged thumb claw whose use is debated.",
+        "Nests with clutches of eggs containing embryos, together with hatchlings, juveniles and adults, give a growth series that few dinosaurs can match. Bone histology shows growth rates varied markedly between individuals, and biomechanical studies favour bipedal walking in adults."
+      ],
+      "animalHighlights": [
+        "A complete growth series from embryo to adult is known, including the oldest dinosaur embryos yet described.",
+        "Cranial anatomy is established from multiple skulls studied by CT scanning.",
+        "Adults are interpreted as habitually bipedal on current biomechanical evidence."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by teeth and jaws",
+          "reason": "Coarsely serrated leaf-shaped teeth and jaw form point to herbivory; occasional omnivory has been suggested but not demonstrated."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Supported by limb proportions and modelling",
+          "reason": "Adult limb proportions and biomechanical models favour two-legged walking; hatchlings had different proportions and their gait is debated."
+        },
+        {
+          "label": "Known size",
+          "value": "about 4–6 m long",
+          "level": "Measured from adult skeletons",
+          "reason": "Many articulated adults give a reliable length range; mass estimates of a few hundred kilograms remain model-based."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeleton well established",
+          "level": "Soft tissues reconstructed",
+          "reason": "Proportions come straight from complete skeletons, but skin, colour and any external ornament are not preserved."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Early Jurassic (Hettangian–Pliensbachian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 201–183 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "upper Elliot and Clarens formations"
+        },
+        {
+          "label": "Type locality",
+          "value": "Harrismith district, Free State, South Africa (original material)"
+        }
+      ],
+      "locality": {
+        "name": "Harrismith district",
+        "region": "Free State, South Africa",
+        "note": "The 1854 syntypes came from near Harrismith. Neotype BP/1/4934 is from Bormansdrift, near Clocolan, also in the Free State. The map shows a regional reference."
+      },
+      "classificationSummary": "Massospondylus is the name-bearing genus of Massospondylidae, a family of early sauropodomorphs that includes Coloradisaurus, Lufengosaurus and Adeopapposaurus. It lies well outside Sauropoda, among the non-sauropod sauropodomorphs formerly called prosauropods.",
+      "related": [
+        {
+          "id": "lufengosaurus",
+          "reason": "A Chinese massospondylid of similar build and age."
+        },
+        {
+          "id": "coloradisaurus",
+          "reason": "A South American massospondylid from the Late Triassic."
+        },
+        {
+          "id": "aardonyx",
+          "reason": "A larger Elliot Formation sauropodomorph closer to the sauropod transition."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How many species are there?",
+          "copy": "Several species have been named from southern Africa. Most are now sunk into M. carinatus or reassigned, but the synonymy is not fully settled."
+        },
+        {
+          "title": "Did adults care for the young?",
+          "copy": "Nests, embryos and hatchling tracks show nesting sites were used, but prolonged parental care is inferred rather than demonstrated."
+        },
+        {
+          "title": "How did hatchlings move?",
+          "copy": "Embryos have proportionally long forelimbs, and whether the youngest animals walked on four legs before shifting to two remains debated."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Secure upper Elliot and Clarens material spans much of the Early Jurassic, not the former 208-204 Ma interval.",
     "sources": [
       {
@@ -126,6 +244,11 @@
         "type": "authoritative-museum",
         "citation": "Natural History Museum Dino Directory: massospondylus",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/massospondylus.html"
+      },
+      {
+        "type": "bone-histology",
+        "citation": "Chapelle et al. (2022), Interelemental osteohistological variation in Massospondylus carinatus and its implications for locomotion",
+        "url": "https://doi.org/10.7717/peerj.13918"
       }
     ],
     "residualUncertainty": [
@@ -142,7 +265,154 @@
         "parental behaviour"
       ],
       "summary": "Massospondylus carinatus was a common Early Jurassic sauropodomorph of southern Africa, known from many partial and articulated skeletons, skulls, embryos and juvenile material.",
-      "sourceBasis": "Chapelle & Choiniere (2018), revised cranial description of Massospondylus; Reisz et al. (2005), embryonic dinosaur skeletons and Massospondylus growth; Natural History Museum Dino Directory: massospondylus"
+      "sourceBasis": "Chapelle & Choiniere (2018), revised cranial description of Massospondylus; Reisz et al. (2005), embryonic dinosaur skeletons and Massospondylus growth; Natural History Museum Dino Directory: massospondylus",
+      "specimens": [
+        {
+          "name": "Neotype",
+          "id": "BP/1/4934",
+          "institution": "Evolutionary Studies Institute, University of the Witwatersrand",
+          "note": "Articulated skeleton with skull from Bormansdrift near Clocolan, designated in 2010 to replace the destroyed 1854 syntypes."
+        },
+        {
+          "name": "Rooidraai egg clutches",
+          "id": "BP/1/5347 series",
+          "institution": "Evolutionary Studies Institute, University of the Witwatersrand",
+          "note": "Eggs with embryonic skeletons from Golden Gate Highlands National Park described by Reisz et al. (2005)."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Dozens of skulls and skeletons spanning embryo to adult.",
+        "standfirst": "Massospondylus is one of the most completely known early dinosaurs. Beyond the articulated neotype skeleton, the sample includes many partial and complete skeletons, multiple skulls and the eggs, embryos and hatchlings from Rooidraai.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every skeletal region is represented by multiple individuals, including articulated skeletons, complete skulls and a full growth series."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Complete skeletons and skulls"
+          },
+          {
+            "label": "Individuals",
+            "value": "Dozens, plus embryos"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Species synonymy"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete and partial skulls, entire vertebral series, both girdles, complete fore- and hindlimbs with hands and feet, eggs with in-ovo embryos, and hatchling and juvenile skeletons at several growth stages.",
+          "note": "The 1854 syntypes in London were destroyed in the Second World War; the neotype BP/1/4934 now anchors the name."
+        },
+        "media": [
+          {
+            "file": "Neotype skeleton of Massospondylus carinatus.jpg",
+            "kind": "Type specimen",
+            "title": "Neotype BP/1/4934 in left and right lateral views",
+            "alt": "Photograph of the articulated neotype skeleton of Massospondylus carinatus, BP/1/4934, seen from both sides",
+            "caption": "The articulated neotype skeleton BP/1/4934 in left and right lateral views, as figured by Barrett and colleagues in their osteological description.",
+            "credit": "Paul M. Barrett, Kimberley E. J. Chapelle, Casey K. Staunton, Jennifer Botha and Jonah N. Choiniere · CC BY 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neotype_skeleton_of_Massospondylus_carinatus.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Multiple complete skulls with dentition, several CT-scanned, and braincases at several growth stages."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete cervical, dorsal, sacral and caudal series in articulated skeletons, with ribs, gastralia and chevrons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Complete pectoral and pelvic girdles, forelimbs with the large-clawed hands, and hindlimbs and feet in many individuals."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Egg clutches with embryonic skeletons and eggshell, hatchling tracks at the nesting site; no skin or colour is preserved."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "BP/1/4934 · neotype",
+            "description": "An articulated skeleton with skull, designated the neotype by Yates and Barrett in 2010 after the original 1854 syntypes were lost. It has since been described bone by bone.",
+            "meta": "Bormansdrift, Clocolan · upper Elliot Formation · Evolutionary Studies Institute, University of the Witwatersrand"
+          },
+          {
+            "kicker": "Growth series",
+            "title": "Rooidraai eggs and embryos",
+            "description": "Clutches of eggs with articulated embryos from Golden Gate Highlands National Park, first described by Reisz and colleagues in 2005, together with hatchling and juvenile material from elsewhere in the Elliot Formation.",
+            "meta": "Golden Gate, Free State · upper Elliot Formation · multiple clutches"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Numerous articulated skeletons and skulls, egg clutches with embryos, hatchling material and bone histology across the growth series."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A common, mostly bipedal plant-eater that nested colonially and grew at variable rates, with adults reaching four to six metres."
+          },
+          {
+            "label": "Still unknown",
+            "value": "The extent of parental care, hatchling gait, the validity of several named species and all soft-tissue details."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Cranial revision",
+            "title": "Chapelle and Choiniere · 2018",
+            "description": "Open-access CT-based redescription of the skull and review of cranial characters.",
+            "access": "Read online",
+            "url": "https://doi.org/10.7717/peerj.4224"
+          },
+          {
+            "type": "Embryos",
+            "title": "Reisz et al. · 2005",
+            "description": "Description of the embryonic skeletons and their implications for growth.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1126/science.1114942"
+          },
+          {
+            "type": "Bone histology",
+            "title": "Chapelle et al. · 2022",
+            "description": "Open-access study of limb-bone histology and what it implies for locomotion.",
+            "access": "Read online",
+            "url": "https://doi.org/10.7717/peerj.13918"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus in the Dino Directory.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/massospondylus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Neotype photograph",
+            "description": "Source page, creator details and reuse licence for the neotype figure.",
+            "access": "CC BY 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Neotype_skeleton_of_Massospondylus_carinatus.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38642"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

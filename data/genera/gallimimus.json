@@ -69,7 +69,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -98,13 +98,126 @@
       ],
       "diet": null
     },
+    "presentation": {
+      "heroLead": "The largest and best-known of the ostrich-like ornithomimids, documented by a series of skeletons from the Gobi that range from young juveniles to adults, yet still without a settled answer to what it ate.",
+      "heroMedia": {
+        "file": "Gallimimus Restoration.png",
+        "title": "Life restoration of Gallimimus bullatus",
+        "alt": "Life restoration of Gallimimus bullatus, a long-necked, long-legged toothless theropod, in side view",
+        "caption": "Life restoration by PaleoNeolitic. Skeletal proportions follow the known specimens; the feather covering is inferred from related ornithomimids, and colour is interpretive.",
+        "credit": "PaleoNeolitic · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gallimimus_Restoration.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 70–68 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Ömnögovi, Mongolia"
+        },
+        {
+          "label": "Known size",
+          "value": "about 6 m · roughly 400–500 kg"
+        },
+        {
+          "label": "Diet",
+          "value": "Unresolved · likely omnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Gallimimus was a tall, lightly built theropod from the Nemegt Formation of southern Mongolia. Adults reached about six metres in length, making it the largest ornithomimid known from good material. It had a small head on a long neck, a toothless beak, a compact body and very long hindlimbs with a short thigh and elongated shin and foot.",
+        "The skull is low and long-snouted, with large eyes and no teeth at all; the jaws were sheathed in a horny beak. The arms were relatively short compared with other ornithomimids, ending in three-fingered hands whose claws could not be strongly grasped. The tail was long and stiffened towards the tip.",
+        "Because its skeleton is known from several individuals at different growth stages, Gallimimus is the reference animal for how ornithomimids were built. Its diet is another matter: the beak has been compared with those of plant-eaters, small-prey hunters and even filter-feeding birds, and the fossils do not yet decide between these ideas."
+      ],
+      "animalHighlights": [
+        "A toothless, beaked skull with large eye sockets on a long, slender neck.",
+        "Extremely long hindlimbs with elongated shins and feet, the classic build of a fast bipedal runner.",
+        "A growth series from small juveniles to adults, unusual for a Cretaceous theropod."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Unresolved",
+          "level": "Beak preserved; diet inferred",
+          "reason": "A keratinous beak with fine ridges is preserved in one specimen, but whether it cropped plants, caught small animals or filtered food from water remains hypothesis."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal runner",
+          "level": "Limb proportions directly observed",
+          "reason": "Long shins and feet relative to the thigh are the hallmark of cursorial animals. Actual top speed cannot be read from bones."
+        },
+        {
+          "label": "Known size",
+          "value": "about 6 m long",
+          "level": "Measured from adult skeletons",
+          "reason": "Length is well constrained by near-complete skeletons; body mass of roughly 400–500 kg is a model-based estimate."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeleton well known",
+          "level": "Feathers inferred from relatives",
+          "reason": "No feathers are preserved with Gallimimus itself. A feathered body with bare legs is inferred from Ornithomimus specimens from Canada."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous (early Maastrichtian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 70–68 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Nemegt Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Tsagan Khushu, Nemegt Basin, Ömnögovi Province, Mongolia"
+        }
+      ],
+      "locality": {
+        "name": "Tsagan Khushu",
+        "region": "Nemegt Basin, Ömnögovi Province, Mongolia",
+        "note": "Nemegt Formation. Specimens were collected by the Polish–Mongolian expeditions of the 1960s and early 1970s and by later Mongolian and international teams across the Nemegt Basin."
+      },
+      "classificationSummary": "Gallimimus is an ornithomimid, one of the ostrich-like coelurosaurs. It is usually recovered close to Ornithomimus and Struthiomimus within Ornithomimidae, with the giant Deinocheirus as a more distant relative in Ornithomimosauria.",
+      "related": [
+        {
+          "id": "ornithomimus",
+          "reason": "Compare with the North American relative whose specimens preserve feathers."
+        },
+        {
+          "id": "struthiomimus",
+          "reason": "Compare with a similar-sized ornithomimid known from complete skeletons in Alberta."
+        },
+        {
+          "id": "deinocheirus",
+          "reason": "Compare with the giant, deep-bodied ornithomimosaur from the same formation."
+        }
+      ],
+      "questions": [
+        {
+          "title": "What did it eat?",
+          "copy": "The toothless beak is compatible with several diets. Ridged structures inside one specimen's beak were compared with the filtering lamellae of ducks, but the comparison is contested and gut contents are unknown."
+        },
+        {
+          "title": "How fast could it run?",
+          "copy": "Limb proportions suggest a fast runner, and it is often described as ostrich-like in speed, but no published figure is a direct measurement."
+        },
+        {
+          "title": "Do all the referred skeletons belong to one species?",
+          "copy": "Most Nemegt ornithomimid material has been referred to Gallimimus bullatus. Some specimens differ in details and would benefit from individual reassessment."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The Nemegt Formation is early Maastrichtian in most current schemes, broadly 70-68 Ma.",
     "sources": [
-      {
-        "type": "original-monograph",
-        "citation": "Osmolska et al. (1972), A new dinosaur Gallimimus bullatus from Mongolia",
-        "url": "https://www.app.pan.pl/archive/published/app17/app17-103.pdf"
-      },
       {
         "type": "feeding-anatomy",
         "citation": "Norell, Makovicky & Currie (2001), The beaks of ostrich dinosaurs",
@@ -114,6 +227,11 @@
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Gallimimus",
         "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gallimimus"
+      },
+      {
+        "type": "original-monograph",
+        "citation": "Osmólska, Roniewicz & Barsbold (1972), article record at Acta Palaeontologica Polonica",
+        "url": "https://app.pan.pl/article/item/app17-103.html"
       }
     ],
     "residualUncertainty": [
@@ -133,7 +251,147 @@
         "specimen referrals"
       ],
       "summary": "Gallimimus bullatus was a large, long-limbed ornithomimid from the Nemegt Formation of Mongolia. Multiple partial and nearly complete skeletons, including skulls and juveniles, document a toothless, cursorially specialised biped.",
-      "sourceBasis": "Osmolska et al. (1972), A new dinosaur Gallimimus bullatus from Mongolia; Norell, Makovicky & Currie (2001), The beaks of ostrich dinosaurs; Paleobiology Database taxon and occurrence context for Gallimimus"
+      "sourceBasis": "Osmolska et al. (1972), A new dinosaur Gallimimus bullatus from Mongolia; Norell, Makovicky & Currie (2001), The beaks of ostrich dinosaurs; Paleobiology Database taxon and occurrence context for Gallimimus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "ZPAL MgD-I/94",
+          "institution": "Institute of Paleobiology, Polish Academy of Sciences, Warsaw",
+          "note": "Nearly complete adult skeleton with skull from Tsagan Khushu, Nemegt Formation."
+        },
+        {
+          "name": "Referred juvenile and adult skeletons",
+          "id": "",
+          "institution": "Polish Academy of Sciences and Mongolian Academy of Sciences collections",
+          "note": "Several skeletons of different sizes from the Nemegt Formation; one Mongolian specimen preserves the keratinous beak."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Multiple skeletons with skulls, from juveniles to adults.",
+        "standfirst": "Gallimimus bullatus was named in 1972 from a nearly complete adult skeleton collected by the Polish–Mongolian expeditions. Further skeletons of various sizes from the Nemegt Formation make it one of the best-documented ornithomimosaurs.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Skull, vertebral column, girdles and limbs are all known from more than one individual, including near-complete articulated skeletons and juveniles."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Near-complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Several, various growth stages"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Diet and soft tissue"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete and near-complete skulls, full vertebral series, pectoral and pelvic girdles, forelimbs with hands and the long hindlimbs and feet, in adults and juveniles. One specimen preserves the keratinous beak.",
+          "note": "No feathers, skin or gut contents are known for Gallimimus itself, and some referred skeletons have not been individually re-described since the 1970s."
+        },
+        "media": [
+          {
+            "file": "Gallimimus bullatus holotype.jpg",
+            "kind": "Type specimen",
+            "title": "Mounted holotype skeleton on exhibition",
+            "alt": "Mounted skeleton of Gallimimus bullatus identified as the holotype, photographed on exhibition at Experimentarium, Hellerup, Denmark",
+            "caption": "The skeleton identified as the holotype, ZPAL MgD-I/94, photographed on temporary exhibition in Denmark in 1998. Any missing elements in a mount are reconstructed.",
+            "credit": "FunkMonk · CC BY 3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gallimimus_bullatus_holotype.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Several complete toothless skulls with lower jaws; one specimen with the keratinous beak preserved."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete cervical, dorsal, sacral and caudal series with ribs and chevrons in the best skeletons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Scapulocoracoids, three-fingered hands, complete pelvis and the elongated hindlimbs and feet, known in adults and juveniles."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "A keratinous beak with internal ridges in one specimen; no feathers, skin or gut contents."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "ZPAL MgD-I/94 · holotype",
+            "description": "A nearly complete adult skeleton with skull collected at Tsagan Khushu by the Polish–Mongolian expeditions and described by Osmólska, Roniewicz and Barsbold in 1972.",
+            "meta": "Tsagan Khushu · Nemegt Formation · Institute of Paleobiology, Polish Academy of Sciences"
+          },
+          {
+            "kicker": "Referred material",
+            "title": "Juvenile and adult skeletons",
+            "description": "Additional skeletons of different sizes from the Nemegt Formation, including small juveniles, provide a growth series. A specimen in the Mongolian collections preserves the horny beak that prompted the filter-feeding hypothesis.",
+            "meta": "Nemegt Basin · Polish and Mongolian collections · some referrals need reassessment"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Complete skulls and skeletons of adults and juveniles, and one preserved beak."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A fast-running, toothless ornithomimid, the largest of its family, whose beak and small head suit an unspecialised or omnivorous diet."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Its actual diet, top speed, the extent and pattern of feathering, and whether every referred skeleton belongs to the same species."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Osmólska, Roniewicz & Barsbold · 1972",
+            "description": "Original description of the holotype and referred skeletons in Palaeontologia Polonica.",
+            "access": "Read online",
+            "url": "https://app.pan.pl/article/item/app17-103.html"
+          },
+          {
+            "type": "Feeding anatomy",
+            "title": "Norell, Makovicky & Currie · 2001",
+            "description": "Description of the preserved beak and the filter-feeding comparison.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1038/35091139"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the chicken mimic from Mongolia.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/gallimimus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype skeleton photograph",
+            "description": "Source page, photographer and reuse licence for the mounted skeleton image.",
+            "access": "CC BY 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Gallimimus_bullatus_holotype.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38547"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

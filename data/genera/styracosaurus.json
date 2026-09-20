@@ -70,7 +70,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -96,6 +96,124 @@
         "Rubeosaurus ovatus has been proposed as a second Styracosaurus species, a synonymy that remains debated."
       ]
     },
+    "presentation": {
+      "heroLead": "A spike-frilled horned dinosaur from the Late Cretaceous of Alberta, documented by several skulls, two partial skeletons and a bonebed, whose wildly variable frill spikes are at the centre of a debate over species and individual variation.",
+      "heroMedia": {
+        "file": "Styracosaurus albertensis.png",
+        "title": "Life restoration of Styracosaurus albertensis",
+        "alt": "Life restoration of Styracosaurus albertensis in side view, showing the long nasal horn and the spikes projecting from the frill",
+        "caption": "Life restoration by Connor Ashbridge. The nasal horn and frill spikes are directly preserved; keratin sheaths, skin texture and colour are interpretive.",
+        "credit": "Connor Ashbridge · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Styracosaurus_albertensis.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 76–75 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Alberta, Canada"
+        },
+        {
+          "label": "Known size",
+          "value": "about 5–5.5 m · roughly 2 t"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Styracosaurus was a rhinoceros-sized horned dinosaur that lived on the coastal plains of what is now southern Alberta about 76 to 75 million years ago. It was around five metres long and walked on four sturdy legs, with a deep beaked skull carrying a single long nasal horn and a frill fringed with four to six long spikes.",
+        "The nasal horn could exceed half a metre in length, while the brow horns were reduced to low bumps. The frill spikes are the animal's signature, but they vary strikingly between individuals in number, length and curvature, and one skull even has a small extra spike growing from the middle of the frill. This variation is real, not reconstruction, and complicates attempts to name species from frill shape alone.",
+        "Its jaws held batteries of shearing teeth for processing tough vegetation, and it belonged to Centrosaurinae, the short-frilled branch of the horned dinosaurs. Bonebeds containing many individuals show that at least some centrosaurines lived or died in groups, although Styracosaurus itself is known from far fewer individuals than Centrosaurus."
+      ],
+      "animalHighlights": [
+        "A single nasal horn more than 50 cm long, with the brow horns reduced to small bumps.",
+        "A frill edged with four to six long spikes whose number and shape vary from one skull to the next.",
+        "Batteries of tightly packed shearing teeth and a deep, parrot-like beak for cropping plants."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by beak and dental batteries",
+          "reason": "The toothless beak and shearing tooth batteries match a diet of tough, low-growing plants; the specific plants eaten are not preserved."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal",
+          "level": "Supported by preserved limbs",
+          "reason": "Robust forelimbs and hindlimbs are known from the holotype skeleton and AMNH 5372; forelimb posture is still modelled rather than observed."
+        },
+        {
+          "label": "Known size",
+          "value": "about 5–5.5 m long",
+          "level": "Measured from partial skeletons",
+          "reason": "Length is reasonably constrained by two partial skeletons; masses of about two tonnes are estimates."
+        },
+        {
+          "label": "Appearance",
+          "value": "Horn cores and frill preserved",
+          "level": "Sheaths and skin reconstructed",
+          "reason": "The bony horn cores and spikes are real, but their keratin sheaths, skin and colour are inferred."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous (late Campanian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 76–75 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Dinosaur Park Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Dinosaur Provincial Park, Red Deer River valley, Alberta, Canada"
+        }
+      ],
+      "locality": {
+        "name": "Dinosaur Provincial Park",
+        "region": "Red Deer River valley, Alberta, Canada",
+        "note": "Dinosaur Park Formation. The holotype was collected by Charles M. Sternberg in 1913; the relocated quarry and a nearby bonebed were re-examined by Ryan and colleagues in 2007."
+      },
+      "classificationSummary": "Styracosaurus is a centrosaurine ceratopsid, close to Centrosaurus and to the pachyrhinosaurs. Whether the Montana species Rubeosaurus ovatus should be returned to Styracosaurus, as some recent work proposes, remains disputed.",
+      "related": [
+        {
+          "id": "centrosaurus",
+          "reason": "Compare with the closely related and far more abundant centrosaurine from the same formation."
+        },
+        {
+          "id": "pachyrhinosaurus",
+          "reason": "Compare with a later centrosaurine that replaced horns with thick bony bosses."
+        },
+        {
+          "id": "triceratops",
+          "reason": "Compare with the long-frilled, three-horned chasmosaurine of the latest Cretaceous."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How many species are there?",
+          "copy": "Styracosaurus parksi, named from AMNH 5372, is now treated as S. albertensis. Whether Rubeosaurus ovatus from Montana is a second Styracosaurus species remains debated."
+        },
+        {
+          "title": "Why do the frills differ so much?",
+          "copy": "Spike number and shape vary between skulls and even between the two sides of one skull. Individual variation and growth explain much of it, which makes species defined on ornament alone hard to test."
+        },
+        {
+          "title": "What were the spikes for?",
+          "copy": "Display and species recognition are the usual interpretations. There is no direct evidence of combat use, and the keratin sheaths that would have covered the spikes are not preserved."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The species is restricted to late Campanian Dinosaur Park Formation, near 76-75 Ma.",
     "sources": [
       {
@@ -107,6 +225,11 @@
         "type": "primary-literature",
         "citation": "Wilson, Ryan & Evans (2020), centrosaurine variation and Rubeosaurus",
         "url": "https://doi.org/10.1098/rsos.200284"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Holmes et al. (2020), Morphological variation and asymmetrical development in the skull of Styracosaurus albertensis",
+        "url": "https://doi.org/10.1016/j.cretres.2019.104308"
       }
     ],
     "residualUncertainty": [
@@ -122,7 +245,154 @@
         "ornament variation"
       ],
       "summary": "Styracosaurus albertensis was a centrosaurine ceratopsid from the Dinosaur Park Formation, known from skulls, partial skeletons and bonebed material.",
-      "sourceBasis": "Ryan et al. (2007), revision of Styracosaurus albertensis type-locality material; Wilson, Ryan & Evans (2020), centrosaurine variation and Rubeosaurus"
+      "sourceBasis": "Ryan et al. (2007), revision of Styracosaurus albertensis type-locality material; Wilson, Ryan & Evans (2020), centrosaurine variation and Rubeosaurus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "CMN 344",
+          "institution": "Canadian Museum of Nature, Ottawa",
+          "note": "Skull collected in 1913; lower jaws and much of the skeleton recovered from the same quarry in 1935."
+        },
+        {
+          "name": "Referred skull and skeleton",
+          "id": "AMNH 5372",
+          "institution": "American Museum of Natural History, New York",
+          "note": "Former holotype of Styracosaurus parksi, now referred to S. albertensis."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Several skulls, two partial skeletons and a bonebed from Alberta.",
+        "standfirst": "Styracosaurus albertensis is anchored by the holotype skull collected in 1913, whose lower jaws and much of the skeleton were recovered from the same quarry in 1935. A second skull and skeleton at the American Museum, further skulls and a Dinosaur Park bonebed round out the record.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Skull, vertebral column, girdles and limbs are all represented in more than one individual, including two associated partial skeletons and bonebed material; the frill is known from several skulls."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Skulls and partial skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Several, plus a bonebed"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Species boundaries unresolved"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete and partial skulls with the nasal horn and spiked frill, lower jaws, the vertebral column, ribs, pectoral and pelvic girdles and limb bones of at least two associated individuals, and disarticulated bones from a multi-individual bonebed in Dinosaur Provincial Park.",
+          "note": "Even with several skulls, the sample is small compared with Centrosaurus, so the full range of frill variation and the growth series are incompletely known."
+        },
+        "media": [
+          {
+            "file": "Styracosaurus albertensis skull lateral.png",
+            "kind": "Type figure",
+            "title": "Holotype skull in Lambe's 1913 description",
+            "alt": "Photograph of the holotype skull of Styracosaurus albertensis in side view, from Lambe's 1913 description",
+            "caption": "Plate from Lawrence Lambe's 1913 paper showing the holotype skull, CMN 344, in lateral view soon after collection. The lower jaws, collected later, are absent here.",
+            "credit": "Lawrence Lambe · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Styracosaurus_albertensis_skull_lateral.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "The holotype skull with nasal horn and spiked frill, the AMNH 5372 skull, further partial skulls and frills, lower jaws and dental batteries."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal, sacral and caudal vertebrae with ribs from the holotype and AMNH 5372 skeletons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Shoulder and hip girdles and fore- and hindlimb bones from the two associated skeletons and the bonebed."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "None reported. No skin, keratin sheaths or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "CMN 344 · holotype",
+            "description": "A skull collected by Charles M. Sternberg in 1913 and described by Lawrence Lambe the same year. The lower jaws and much of the postcranial skeleton were recovered from the same quarry by a Royal Ontario Museum crew in 1935.",
+            "meta": "Dinosaur Provincial Park · Dinosaur Park Formation · Canadian Museum of Nature, Ottawa"
+          },
+          {
+            "kicker": "Referred material",
+            "title": "AMNH 5372 · skull and skeleton",
+            "description": "A skull and partial skeleton collected by Barnum Brown in 1915 and named Styracosaurus parksi in 1937. It is now regarded as S. albertensis and is mounted at the American Museum of Natural History.",
+            "meta": "Dinosaur Park Formation · American Museum of Natural History · plus a multi-individual bonebed in the park"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Several skulls with horn cores and frill spikes, two associated partial skeletons and bonebed material from one formation."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A centrosaurine plant-eater whose extravagant frill spikes were most likely display structures, with variation reflecting growth and individuals rather than many species."
+          },
+          {
+            "label": "Still unknown",
+            "value": "The function of the horn and spikes, the keratin sheaths, the full growth series, and whether Rubeosaurus ovatus belongs in the genus."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Systematic revision",
+            "title": "Ryan, Holmes & Russell · 2007",
+            "description": "Revision of Styracosaurus, the type locality material and the synonymy of S. parksi.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1671/0272-4634(2007)27%5B944:AROTLC%5D2.0.CO;2"
+          },
+          {
+            "type": "Skull variation",
+            "title": "Holmes et al. · 2020",
+            "description": "A new skull showing asymmetrical frill development and its implications for species definitions.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1016/j.cretres.2019.104308"
+          },
+          {
+            "type": "Taxonomic debate",
+            "title": "Wilson, Ryan & Evans · 2020",
+            "description": "Reassessment of centrosaurine variation and the status of Rubeosaurus.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1098/rsos.200284"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the spiked lizard from Alberta.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/styracosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype skull plate",
+            "description": "Source page and licence for Lambe's 1913 photograph of the type skull.",
+            "access": "Public domain",
+            "url": "https://commons.wikimedia.org/wiki/File:Styracosaurus_albertensis_skull_lateral.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38860"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

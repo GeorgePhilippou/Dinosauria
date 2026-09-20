@@ -78,7 +78,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -105,6 +105,124 @@
         "Juveniles had proportionally longer, lower skulls and changed feeding mechanics through growth."
       ]
     },
+    "presentation": {
+      "heroLead": "The giant tyrannosaurine of Late Cretaceous Mongolia, known from dozens of skulls and skeletons that span the growth from small juveniles to twelve-metre adults.",
+      "heroMedia": {
+        "file": "Tarbosaurus Restoration.png",
+        "title": "Life restoration of Tarbosaurus bataar",
+        "alt": "Scientific life restoration of Tarbosaurus bataar standing in side view",
+        "caption": "Life restoration by PaleoNeolitic. Proportions follow the mounted skeletons; colour, skin texture and any facial covering are interpretive.",
+        "credit": "PaleoNeolitic · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tarbosaurus_Restoration.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 70–66 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Ömnögovi, Mongolia"
+        },
+        {
+          "label": "Known size",
+          "value": "up to about 10–12 m · estimated"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Tarbosaurus was a very large two-legged predator and the biggest carnivore of the Nemegt ecosystem. The largest individuals are estimated at ten to twelve metres long and several tonnes in mass, a little smaller than the largest Tyrannosaurus. The skull is deep but narrower than that of its North American cousin, with a locking joint between the upper jaw bones that stiffened the snout.",
+        "Its arms were the shortest relative to body size of any tyrannosaurid, ending in two-fingered hands. The braincase preserves natural casts showing large olfactory regions, consistent with a strong sense of smell, while the eyes faced more sideways than in Tyrannosaurus.",
+        "Juveniles were slender, long-legged animals with low, narrow skulls and blade-like teeth, and adults became far more robust. That transformation, documented by a two- to three-year-old skeleton, means Tarbosaurus probably occupied different feeding roles at different stages of life. Bite marks on hadrosaur and sauropod bones from the Nemegt Formation are usually attributed to it, but which animal made them cannot be proven."
+      ],
+      "animalHighlights": [
+        "A deep, narrow skull with a rigid snout and a distinctive locking mechanism between the maxilla and the jugal bones.",
+        "The proportionally smallest forelimbs of any tyrannosaurid, ending in two functional fingers.",
+        "One of the most complete tyrannosaurid growth series known, from a juvenile a few years old to full-sized adults."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Meat-eater",
+          "level": "Supported by teeth, jaws and bite marks",
+          "reason": "Thick serrated teeth and a heavily built skull indicate a predator or scavenger of large animals. Tooth-marked Saurolophus and sauropod bones from the same rocks are consistent with, but do not prove, Tarbosaurus feeding."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Hindlimbs and feet directly known",
+          "reason": "Complete hindlimbs are preserved in several individuals. Adult speed is not measurable from bone and biomechanical estimates vary."
+        },
+        {
+          "label": "Known size",
+          "value": "up to about 12 m long",
+          "level": "Large adults directly known",
+          "reason": "Length is constrained by near-complete adult skeletons; mass estimates of roughly four to five tonnes depend on the modelling method."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeletal outline supported",
+          "level": "Skin and colour reconstructed",
+          "reason": "Proportions come from articulated skeletons. Scaly skin is inferred from impressions in related tyrannosaurids rather than from Tarbosaurus itself; colour is unknown."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous · Maastrichtian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 70–66 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Nemegt Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Tsagan Khushu, Nemegt Basin, Ömnögovi, Mongolia"
+        }
+      ],
+      "locality": {
+        "name": "Nemegt Basin",
+        "region": "Ömnögovi Province, Mongolia",
+        "note": "Nemegt Formation. The holotype skull was collected by the Soviet–Mongolian expedition of 1946; many later specimens come from Nemegt, Altan Uul, Bugiin Tsav and neighbouring localities."
+      },
+      "classificationSummary": "Tarbosaurus is a tyrannosaurine tyrannosaurid, the Asian sister taxon of Tyrannosaurus in most analyses. Some workers treat it as a species of Tyrannosaurus (T. bataar); most keep the genera separate on cranial differences, and the question remains open.",
+      "related": [
+        {
+          "id": "tyrannosaurus",
+          "reason": "Its closest relative, from North America; some authors place the two in a single genus."
+        },
+        {
+          "id": "alioramus",
+          "reason": "A smaller, long-snouted tyrannosaurine that shared the Nemegt landscape with adult Tarbosaurus."
+        },
+        {
+          "id": "daspletosaurus",
+          "reason": "A North American tyrannosaurine sometimes recovered close to the Tarbosaurus–Tyrannosaurus lineage."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Is Tarbosaurus really a separate genus?",
+          "copy": "Tarbosaurus and Tyrannosaurus differ in skull architecture and forelimb proportions, but they are very close relatives. Whether that difference merits a separate genus is a judgement rather than a fact, and Tyrannosaurus bataar has been used by some authors."
+        },
+        {
+          "title": "What did the juveniles eat?",
+          "copy": "The two- to three-year-old skeleton MPC-D 107/7 has a slender skull and blade-like teeth unlike those of adults, so juveniles probably took smaller, different prey. The exact diet is not preserved."
+        },
+        {
+          "title": "How many species are in the sample?",
+          "copy": "Several names were once applied to Mongolian tyrannosaurids of different sizes. Most are now read as growth stages of one species, but the small number of well-studied juveniles leaves some room for doubt."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Nemegt Formation specimens are Maastrichtian, about 70-66 Ma.",
     "sources": [
       {
@@ -116,6 +234,11 @@
         "type": "primary-literature",
         "citation": "Tsuihiji et al. (2011), juvenile Tarbosaurus anatomy",
         "url": "https://doi.org/10.1080/02724634.2011.557116"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Dino Directory: tarbosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/tarbosaurus.html"
       }
     ],
     "residualUncertainty": [
@@ -131,7 +254,147 @@
         "ontogenetic ecology"
       ],
       "summary": "Tarbosaurus bataar was a large tyrannosaurine from the Nemegt Formation of Mongolia, known from numerous skulls and skeletons across growth stages.",
-      "sourceBasis": "Hurum & Sabath (2003), skulls of Tarbosaurus and Tyrannosaurus compared; Tsuihiji et al. (2011), juvenile Tarbosaurus anatomy"
+      "sourceBasis": "Hurum & Sabath (2003), skulls of Tarbosaurus and Tyrannosaurus compared; Tsuihiji et al. (2011), juvenile Tarbosaurus anatomy",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "PIN 551-1",
+          "institution": "Palaeontological Institute, Russian Academy of Sciences, Moscow",
+          "note": "Partial skull with vertebrae collected at Tsagan Khushu in 1946; named Tyrannosaurus bataar by Maleev in 1955."
+        },
+        {
+          "name": "Juvenile skeleton",
+          "id": "MPC-D 107/7",
+          "institution": "Mongolian Palaeontological Center, Ulaanbaatar",
+          "note": "Nearly complete skull and partial skeleton of a two- to three-year-old individual described by Tsuihiji et al. in 2011."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Dozens of skulls and skeletons from the Gobi, spanning juvenile to adult growth stages.",
+        "standfirst": "Tarbosaurus bataar is one of the best-sampled large theropods. Soviet, Polish, Mongolian and Japanese expeditions have recovered more than thirty specimens from the Nemegt Formation, including near-complete adults and a small juvenile skeleton.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every skeletal region is known from several individuals, several skeletons are nearly complete, and a growth series from a two- to three-year-old to old adults is documented."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Near-complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "More than 30"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Generic boundary with Tyrannosaurus"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete skulls with dentition and braincases, full vertebral columns, ribs and gastralia, pectoral and pelvic girdles, both forelimbs with two-fingered hands, complete hindlimbs and feet, from small juveniles to the largest adults.",
+          "note": "A large proportion of the specimens were collected before modern excavation standards and some are held far from their type locality, so provenance details for older material can be imprecise."
+        },
+        "media": [
+          {
+            "file": "Tarbosaurus holotype skull.jpg",
+            "kind": "Type specimen",
+            "title": "Holotype skull PIN 551-1 in Moscow",
+            "alt": "Fossil skull of the Tarbosaurus bataar holotype PIN 551-1 displayed in side view at the Palaeontological Museum in Moscow",
+            "caption": "The partial holotype skull collected by the Soviet–Mongolian expedition of 1946, described by Maleev in 1955 as Tyrannosaurus bataar.",
+            "credit": "Pavel Bochkov · CC BY-SA 2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tarbosaurus_holotype_skull.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Many complete skulls with teeth, palates and braincases; a natural brain endocast; the juvenile skull of MPC-D 107/7."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete cervical, dorsal, sacral and caudal series with ribs, gastralia and chevrons in several mounted skeletons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Pectoral and pelvic girdles, the proportionally tiny two-fingered forelimbs, complete hindlimbs and feet."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Natural braincase casts and healed injuries are known. No confirmed skin impressions, feathers, colour or gut contents belong to Tarbosaurus itself."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "PIN 551-1 · holotype",
+            "description": "A partial skull with some vertebrae collected at Tsagan Khushu in 1946 and named Tyrannosaurus bataar by Evgeny Maleev in 1955. Maleev's other Mongolian names, including Tarbosaurus efremovi, were later synonymised with it.",
+            "meta": "Tsagan Khushu · Nemegt Formation · Palaeontological Institute, Moscow"
+          },
+          {
+            "kicker": "Juvenile skeleton",
+            "title": "MPC-D 107/7",
+            "description": "A nearly complete skull and partial skeleton of an individual estimated at two to three years old, described in 2011. It shows a low, slender skull and blade-like teeth very different from the adult condition.",
+            "meta": "Bugiin Tsav · Nemegt Formation · Mongolian Palaeontological Center, Ulaanbaatar"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Numerous skulls and skeletons across a growth series, a natural brain cast, and tooth-marked prey bones from the same formation."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "The top predator of the Nemegt fauna, with juveniles and adults occupying different feeding roles as skull shape and teeth changed with growth."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Whether it should be sunk into Tyrannosaurus, the external covering and colour, adult speed, and exactly which animals made the recorded bite marks."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Cranial comparison",
+            "title": "Hurum & Sabath · 2003",
+            "description": "Detailed comparison of Tarbosaurus and Tyrannosaurus skulls that supports keeping the genera separate.",
+            "access": "Open access",
+            "url": "https://app.pan.pl/article/item/app48-161.html"
+          },
+          {
+            "type": "Juvenile anatomy",
+            "title": "Tsuihiji et al. · 2011",
+            "description": "Description of the two- to three-year-old skeleton MPC-D 107/7 and its implications for growth.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1080/02724634.2011.557116"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus, its size and its Mongolian localities.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/tarbosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype skull photograph",
+            "description": "Source page, creator details and reuse licence for the PIN 551-1 image.",
+            "access": "CC BY-SA 2.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Tarbosaurus_holotype_skull.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=53224"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published completeness percentage, and it does not resolve the generic boundary with Tyrannosaurus.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

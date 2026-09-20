@@ -70,7 +70,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -95,6 +95,124 @@
         "Its mixture of primitive and derived features makes root-level classification unstable."
       ]
     },
+    "presentation": {
+      "heroLead": "One of the oldest well-known dinosaurs: a lightly built, sharp-toothed predator from the Late Triassic of Argentina documented by several skeletons and a complete skull.",
+      "heroMedia": {
+        "file": "Herrerasaurus ischigualastensis Illustration.jpg",
+        "title": "Life restoration of Herrerasaurus ischigualastensis",
+        "alt": "Life restoration of Herrerasaurus, a slender bipedal predatory dinosaur with a long tail, in side view",
+        "caption": "Life restoration by Fred Wierum. Skeletal proportions follow the near-complete specimens; skin texture and colour are interpretive.",
+        "credit": "Fred Wierum · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Herrerasaurus_ischigualastensis_Illustration.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Triassic · about 231–229 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "San Juan Province, Argentina"
+        },
+        {
+          "label": "Known size",
+          "value": "about 3–6 m · largest individuals estimated"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Herrerasaurus was a medium-sized biped, three to six metres long, that lived in the Ischigualasto valley of north-west Argentina about 230 million years ago, when dinosaurs were still a minor part of the fauna. It shared its habitat with large rhynchosaurs and cynodonts and with the crocodile-line predator Saurosuchus.",
+        "Its skull was long and narrow with a sliding joint in the lower jaw, and its teeth were recurved and serrated. The hands had three long clawed fingers plus two reduced ones and were clearly built for grasping. The hindlimbs were long and the pelvis carried features found in later theropods, though in an early combination.",
+        "Named in 1963 by Osvaldo Reig from a partial skeleton, Herrerasaurus was transformed in 1988 when Paul Sereno's team found a skeleton with a complete skull. That specimen made it, for a time, the best-known early dinosaur, and it remains central to debates about what the first dinosaurs looked like."
+      ],
+      "animalHighlights": [
+        "A complete skull and several substantial skeletons make it one of the best-documented Triassic dinosaurs.",
+        "Recurved, serrated teeth and grasping hands document a predatory lifestyle.",
+        "Its mix of ancestral and theropod-like features keeps its place on the dinosaur tree unsettled."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Meat-eater",
+          "level": "Supported by teeth and jaws",
+          "reason": "Serrated, recurved teeth, a flexible lower jaw and grasping hands indicate carnivory. Prey is inferred from the fauna rather than from gut contents."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Supported by limb and pelvis",
+          "reason": "Long hindlimbs and short forelimbs in articulated skeletons show two-legged walking and running; speed is estimated from proportions only."
+        },
+        {
+          "label": "Known size",
+          "value": "about 3–6 m long",
+          "level": "Range across several individuals",
+          "reason": "The most complete skeleton is around four metres; larger individuals are known from partial remains, so the upper figure is an extrapolation."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeleton well established",
+          "level": "Soft tissues reconstructed",
+          "reason": "Proportions come from articulated skeletons; skin, colour and any feather-like covering are not preserved."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Triassic (late Carnian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 231–229 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Ischigualasto Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Hoyada de Ischigualasto, San Juan Province, Argentina"
+        }
+      ],
+      "locality": {
+        "name": "Ischigualasto Provincial Park",
+        "region": "San Juan Province, north-west Argentina",
+        "note": "The Valle de la Luna badlands, a World Heritage site that also yielded Eoraptor and Eodromaeus. The map shows a regional reference rather than individual quarries."
+      },
+      "classificationSummary": "Herrerasaurus gives its name to Herrerasauridae, a group of early predatory dinosaurs that includes Staurikosaurus and Gnathovorax. Analyses disagree on whether herrerasaurids are the earliest branch of Theropoda or sit outside the theropod–sauropodomorph split as basal saurischians.",
+      "related": [
+        {
+          "id": "eoraptor",
+          "reason": "A smaller contemporary from the same formation, once thought to be a theropod."
+        },
+        {
+          "id": "staurikosaurus",
+          "reason": "A Brazilian herrerasaurid known from a single partial skeleton."
+        },
+        {
+          "id": "eodromaeus",
+          "reason": "An unambiguous early theropod from Ischigualasto for comparison."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Theropod or not?",
+          "copy": "Herrerasaurids combine ancestral hips with theropod-like hands and skulls. Whether they are early theropods or fall outside Theropoda altogether changes with each new analysis."
+        },
+        {
+          "title": "How big did it get?",
+          "copy": "The complete skull belongs to a roughly four-metre animal. Larger partial specimens once named Frenguellisaurus suggest six metres, but no complete large individual exists."
+        },
+        {
+          "title": "What did the earliest dinosaurs look like?",
+          "copy": "Herrerasaurus is often used as a model, but its specialised predatory features may not reflect the dinosaur ancestor."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The principal Ischigualasto occurrences are radiometrically constrained near 231-229 Ma.",
     "sources": [
       {
@@ -111,6 +229,11 @@
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Herrerasaurus",
         "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Herrerasaurus"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Dino Directory: herrerasaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/herrerasaurus.html"
       }
     ],
     "residualUncertainty": [
@@ -129,7 +252,147 @@
         "specimen-level reconstruction"
       ],
       "summary": "Herrerasaurus ischigualastensis was an early predatory dinosaur from the Ischigualasto Formation of Argentina. Multiple skeletons, including complete skulls and very substantial postcrania, document a lightly built biped; whether herrerasaurids lie inside Theropoda or just outside the sauropodomorph-theropod split remains debated.",
-      "sourceBasis": "Sereno & Novas (1992), The complete skull and skeleton of an early dinosaur; Novas (1994), New information on the systematics and postcranial skeleton of Herrerasaurus; Paleobiology Database taxon and occurrence context for Herrerasaurus"
+      "sourceBasis": "Sereno & Novas (1992), The complete skull and skeleton of an early dinosaur; Novas (1994), New information on the systematics and postcranial skeleton of Herrerasaurus; Paleobiology Database taxon and occurrence context for Herrerasaurus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "PVL 2566",
+          "institution": "Instituto Miguel Lillo, Universidad Nacional de Tucumán",
+          "note": "Partial postcranial skeleton described by Reig in 1963; no skull."
+        },
+        {
+          "name": "Complete skull and skeleton",
+          "id": "PVSJ 407",
+          "institution": "Museo de Ciencias Naturales, Universidad Nacional de San Juan",
+          "note": "Skeleton with complete skull found in 1988 and described by Sereno and Novas in 1992."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Several skeletons and a complete skull from the Ischigualasto badlands.",
+        "standfirst": "Herrerasaurus is known from the 1963 holotype postcranium, a 1988 skeleton with an essentially complete skull, and additional partial skeletons including material once named Ischisaurus and Frenguellisaurus. Together they cover the whole skeleton.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every skeletal region is represented, most by more than one individual, including a complete skull and articulated limbs, pelvis and tail."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Near-complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Several"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Phylogenetic position"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "A complete skull with lower jaws and teeth, cervical, dorsal, sacral and caudal vertebrae, both girdles, forelimbs with complete hands, and hindlimbs with feet, spread across the holotype, PVSJ 407 and referred specimens.",
+          "note": "No single specimen preserves everything, so composite reconstructions combine individuals of somewhat different sizes."
+        },
+        "media": [
+          {
+            "file": "Herrerasaurus skull def.jpg",
+            "kind": "Referred specimen",
+            "title": "Original skull in dorsal view",
+            "alt": "Photograph of an original Herrerasaurus ischigualastensis skull seen from above",
+            "caption": "An original Herrerasaurus skull photographed in dorsal view, showing the broad skull roof where jaw muscles attached.",
+            "credit": "Christophe Hendrickx · CC BY-SA 3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Herrerasaurus_skull_def.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "A complete skull with braincase and lower jaws in PVSJ 407, plus partial skulls and maxillae in other specimens."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal, sacral and caudal series, with ribs and chevrons, in the holotype and referred skeletons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Complete pelvis and scapulocoracoid, forelimbs with five-fingered grasping hands, and hindlimbs with feet."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "None. No skin, feathers, gut contents or eggs are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "PVL 2566 · holotype",
+            "description": "A partial postcranial skeleton described by Osvaldo Reig in 1963, including vertebrae, pelvis and hindlimb material but no skull.",
+            "meta": "Hoyada de Ischigualasto · Ischigualasto Formation · Instituto Miguel Lillo, Tucumán"
+          },
+          {
+            "kicker": "Most complete specimen",
+            "title": "PVSJ 407",
+            "description": "A skeleton with a complete skull discovered in 1988 and described by Sereno and Novas in 1992. It established the skull anatomy and confirmed the earlier referred material.",
+            "meta": "Ischigualasto Provincial Park · Ischigualasto Formation · Museo de Ciencias Naturales, San Juan"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "A complete skull, articulated skeletons and multiple partial individuals from a radiometrically dated formation."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A lightly built, fast-moving predator among the oldest dinosaurs, showing that specialised carnivores existed early in dinosaur history."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Its exact relationship to theropods and sauropodomorphs, adult maximum size, soft tissues and any social behaviour."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Skull and skeleton",
+            "title": "Sereno and Novas · 1992",
+            "description": "First description of the complete skull and skeleton PVSJ 407.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1126/science.258.5085.1137"
+          },
+          {
+            "type": "Postcranial anatomy",
+            "title": "Novas · 1994",
+            "description": "Systematics and detailed postcranial osteology of Herrerasaurus.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1080/02724634.1994.10011523"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus in the Dino Directory.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/herrerasaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Skull photograph",
+            "description": "Source page, creator details and reuse licence for the skull image.",
+            "access": "CC BY-SA 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Herrerasaurus_skull_def.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38511"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

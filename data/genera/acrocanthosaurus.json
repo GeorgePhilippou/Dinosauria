@@ -76,7 +76,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria A-C systematic scientific review",
     "consensusScope": [
       "accepted name and broad classification",
@@ -103,6 +103,124 @@
         "The elongated neural spines supported a raised ridge of soft tissue; its display or physiological role is unknown."
       ]
     },
+    "presentation": {
+      "heroLead": "A giant high-spined predator of Early Cretaceous North America, known from several partial skeletons including one with most of the skull and body.",
+      "heroMedia": {
+        "file": "Acrocanthosaurus atokensis.png",
+        "title": "Life restoration of Acrocanthosaurus atokensis",
+        "alt": "Scientific life restoration of Acrocanthosaurus atokensis walking in side view with a low ridge along its back",
+        "caption": "Life restoration by Petr Menshikov. The ridge over the back follows the tall neural spines; its exact outline, the skin texture and colour are interpretive.",
+        "credit": "Petr Menshikov · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acrocanthosaurus_atokensis.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Early Cretaceous · about 115–108 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Oklahoma and Texas, United States"
+        },
+        {
+          "label": "Known size",
+          "value": "about 11 m · estimated"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Acrocanthosaurus was one of the largest land predators of its time in North America, estimated at around eleven metres long and somewhere between four and six tonnes. Its name, meaning high-spined lizard, refers to the tall neural spines that run along the neck, back, hips and tail and that in life supported a thick ridge of muscle and connective tissue.",
+        "The skull is long and narrow with a low bony rim above each eye, and the jaws carry blade-like serrated teeth suited to slicing flesh rather than crushing bone. The forelimbs were short but strongly muscled, with three large clawed fingers; studies of the arm joints suggest they could not reach far forward and were probably used on prey already held by the jaws.",
+        "The animal lived on floodplains and coastal lowlands of what is now Oklahoma and Texas. Large three-toed theropod tracks in the Glen Rose Formation of Texas are widely attributed to Acrocanthosaurus because no other predator of its size is known from those rocks, but trackmaker identity cannot be confirmed from footprints alone."
+      ],
+      "animalHighlights": [
+        "Tall neural spines, more than twice the height of the vertebral bodies, run from the neck to the tail and are preserved in the type material.",
+        "A long, low skull with blade-like teeth places it among the carcharodontosaurian allosauroids rather than the tyrannosaurs.",
+        "Short, powerful three-fingered arms with a limited range of motion have been studied directly from the North Carolina skeleton."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Meat-eater",
+          "level": "Supported by teeth and skull anatomy",
+          "reason": "Serrated, laterally compressed teeth and a lightly built skull indicate a slicing rather than bone-crushing bite. No gut contents are known."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Hindlimbs and feet directly known",
+          "reason": "The hindlimb is well represented in the holotype and NCSM 14345. Speed and the identity of the Glen Rose trackmaker remain inferences."
+        },
+        {
+          "label": "Known size",
+          "value": "about 11 m long",
+          "level": "Large adult partially known",
+          "reason": "NCSM 14345 gives a reliable length; mass estimates of roughly four to six tonnes depend on the reconstruction used."
+        },
+        {
+          "label": "Appearance",
+          "value": "High-spined back supported",
+          "level": "Ridge outline and colour reconstructed",
+          "reason": "The neural spines are real, but whether they carried a low muscular ridge or a taller sail, and what colour the animal was, cannot be read from the bones."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Early Cretaceous · Aptian–Albian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 115–108 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Antlers Formation (also Twin Mountains Formation)"
+        },
+        {
+          "label": "Type locality",
+          "value": "Atoka County, Oklahoma, United States"
+        }
+      ],
+      "locality": {
+        "name": "Atoka County",
+        "region": "south-eastern Oklahoma, United States",
+        "note": "Antlers Formation. The holotype and paratype were collected in 1940; the near-complete NCSM 14345 came from the same formation in McCurtain County, and a Texas skeleton from the Twin Mountains Formation."
+      },
+      "classificationSummary": "Acrocanthosaurus is a carcharodontosaurian allosauroid. Most analyses place it within Carcharodontosauridae, close to the base of the family, although a few have recovered it nearer to Allosaurus; the tall spines are a feature of the genus, not of the family as a whole.",
+      "related": [
+        {
+          "id": "carcharodontosaurus",
+          "reason": "The name-bearing carcharodontosaurid from Africa, known from far less of the skeleton."
+        },
+        {
+          "id": "giganotosaurus",
+          "reason": "A South American carcharodontosaurid of similar or larger size for comparison of skull and body proportions."
+        },
+        {
+          "id": "allosaurus",
+          "reason": "The earlier, better-known allosauroid that some analyses have recovered as its closest relative."
+        }
+      ],
+      "questions": [
+        {
+          "title": "What did the tall spines support?",
+          "copy": "The neural spines are twice the height of the vertebral bodies but much lower than in Spinosaurus. Most workers reconstruct a thick muscular ridge; a thin sail, fat storage and display have all been proposed and none can be tested directly."
+        },
+        {
+          "title": "Did it make the Texas trackways?",
+          "copy": "Large theropod footprints in the Glen Rose Formation are usually credited to Acrocanthosaurus as the only predator of matching size in the region, but no footprint can be tied to a skeleton with certainty."
+        },
+        {
+          "title": "How widely did it range?",
+          "copy": "Isolated teeth and bones from Maryland and Arizona have been referred to the genus. Secure skeletons come only from Oklahoma and Texas, and the eastern records remain uncertain."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Secure records come chiefly from the Antlers and Twin Mountains formations, around the Aptian-Albian boundary.",
     "sources": [
       {
@@ -119,6 +237,11 @@
         "type": "authoritative-museum-reference",
         "citation": "Natural History Museum, Dino Directory: acrocanthosaurus",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/acrocanthosaurus.html"
+      },
+      {
+        "type": "palaeobiology",
+        "citation": "D'Emic et al. (2012), Paleobiology and geographic range of the large-bodied Cretaceous theropod dinosaur Acrocanthosaurus atokensis",
+        "url": "https://doi.org/10.1016/j.palaeo.2012.03.003"
       }
     ],
     "residualUncertainty": [
@@ -138,7 +261,154 @@
         "Some isolated eastern North American referrals are uncertain."
       ],
       "summary": "Acrocanthosaurus atokensis was a very large carcharodontosaurian theropod from Aptian-Albian rocks of the south-central United States. Several partial skeletons, including one with much of the skull and postcranium, make its tall neural spines and general anatomy well documented.",
-      "sourceBasis": "Stovall & Langston (1950), Acrocanthosaurus atokensis, a new genus and species of Lower Cretaceous Theropoda; Eddy & Clarke (2011), New information on the cranial anatomy of Acrocanthosaurus; Natural History Museum, Dino Directory: acrocanthosaurus"
+      "sourceBasis": "Stovall & Langston (1950), Acrocanthosaurus atokensis, a new genus and species of Lower Cretaceous Theropoda; Eddy & Clarke (2011), New information on the cranial anatomy of Acrocanthosaurus; Natural History Museum, Dino Directory: acrocanthosaurus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "OMNH 10146",
+          "institution": "Sam Noble Oklahoma Museum of Natural History",
+          "note": "Partial skeleton with skull fragments collected in Atoka County in 1940; OMNH 10147 is the paratype."
+        },
+        {
+          "name": "Most complete specimen",
+          "id": "NCSM 14345",
+          "institution": "North Carolina Museum of Natural Sciences",
+          "note": "Skull and much of the skeleton from McCurtain County, Oklahoma; described by Currie and Carpenter in 2000."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Several partial skeletons, including one with most of the skull and body.",
+        "standfirst": "Acrocanthosaurus atokensis was named in 1950 on two partial skeletons from Oklahoma. A far more complete individual, NCSM 14345, found in 1983 and described in 2000, provides most of the skull and postcranium and anchors the modern picture of the animal.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Most skeletal regions are represented, and NCSM 14345 is substantially complete, but only a handful of individuals are known and no skeleton is entirely complete."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Partial skeletons and skull"
+          },
+          {
+            "label": "Individuals",
+            "value": "About 4 partial skeletons"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Few individuals; no complete skeleton"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "A nearly complete skull and lower jaws, cervical, dorsal, sacral and caudal vertebrae with their tall neural spines, ribs, the shoulder and pelvic girdles, forelimbs with hands, and hindlimbs and feet, combined across the Oklahoma and Texas skeletons.",
+          "note": "The holotype and paratype were partly damaged by weathering before collection, and some teeth and bones from other states referred to the genus cannot be confirmed."
+        },
+        "media": [
+          {
+            "file": "Museum of Natural Science Acrocanthosaurus.jpg",
+            "kind": "Referred specimen",
+            "title": "Mounted skeleton of NCSM 14345 in Raleigh",
+            "alt": "Mounted skeleton of Acrocanthosaurus atokensis specimen NCSM 14345 at the North Carolina Museum of Natural Sciences",
+            "caption": "The mounted skeleton of the most complete individual, NCSM 14345, showing the tall neural spines along the back. Missing elements in the mount are reconstructed.",
+            "credit": "Sergey Galyonkin · CC BY-SA 2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_of_Natural_Science_Acrocanthosaurus.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "A nearly complete skull and lower jaws in NCSM 14345, with a braincase that has been CT-scanned; fragmentary skull bones in the holotype and paratype."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal, sacral and caudal vertebrae with tall neural spines, plus ribs and chevrons, across several individuals."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Scapulocoracoid, pelvis, a complete forelimb with three-fingered hand, and hindlimbs and feet, chiefly from NCSM 14345."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Bone histology has been sampled for growth studies; a natural braincase cavity gives an endocast. No skin impressions, colour or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "OMNH 10146 · holotype",
+            "description": "A partial skeleton with skull fragments, vertebrae, pelvis and hindlimb elements collected in Atoka County in 1940 and described by Stovall and Langston in 1950. A second partial skeleton, OMNH 10147, is the paratype.",
+            "meta": "Atoka County, Oklahoma · Antlers Formation · Sam Noble Oklahoma Museum of Natural History"
+          },
+          {
+            "kicker": "Most complete specimen",
+            "title": "NCSM 14345",
+            "description": "Found in McCurtain County, Oklahoma, in 1983 and described by Currie and Carpenter in 2000. It preserves most of the skull, much of the vertebral column, the pelvis and both fore- and hindlimbs, and is the basis of most modern studies of the genus.",
+            "meta": "McCurtain County, Oklahoma · Antlers Formation · North Carolina Museum of Natural Sciences"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Tall neural spines, a long, low skull with blade-like teeth, short three-fingered forelimbs and a robust hindlimb, from a few individuals."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A carcharodontosaurian apex predator of Aptian–Albian floodplains, probably the maker of large theropod trackways in Texas."
+          },
+          {
+            "label": "Still unknown",
+            "value": "The form and function of the ridge over the back, body mass, the identity of eastern North American referrals and whether the trackways are truly its own."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Stovall & Langston · 1950",
+            "description": "Original description of the genus and species on the two Oklahoma partial skeletons.",
+            "access": "Read online",
+            "url": "https://nmdigital.unm.edu/digital/collection/bulletins/id/1053/"
+          },
+          {
+            "type": "Cranial anatomy",
+            "title": "Eddy & Clarke · 2011",
+            "description": "Redescription of the skull of NCSM 14345 and phylogenetic analysis of allosauroid relationships.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1371/journal.pone.0017932"
+          },
+          {
+            "type": "Palaeobiology",
+            "title": "D'Emic et al. · 2012",
+            "description": "Bone histology, growth and geographic range of the genus, based chiefly on NCSM 14345.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1016/j.palaeo.2012.03.003"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus and its high-spined back.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/acrocanthosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "NCSM 14345 mount photograph",
+            "description": "Source page, creator details and reuse licence for the Raleigh skeleton image.",
+            "access": "CC BY-SA 2.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Museum_of_Natural_Science_Acrocanthosaurus.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38597"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published completeness percentage, and it excludes isolated teeth and bones from outside Oklahoma and Texas.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

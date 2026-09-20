@@ -77,7 +77,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -105,6 +105,124 @@
         "Dermal armour is directly documented, but its complete arrangement over the body is unknown."
       ]
     },
+    "presentation": {
+      "heroLead": "A small, stocky titanosaur from Late Cretaceous Argentina and the first sauropod shown to carry bony armour in its skin, known from the mixed bones of several individuals.",
+      "heroMedia": {
+        "file": "Saltasaurus dinosaur.png",
+        "title": "Life restoration of Saltasaurus loricatus",
+        "alt": "Life restoration of Saltasaurus, a short-necked sauropod with bony plates scattered along its back",
+        "caption": "Life restoration by LadyofHats. The arrangement of the osteoderms, the skin texture and the colour are interpretive; the fossils give the plates but not their exact positions.",
+        "credit": "LadyofHats · public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saltasaurus_dinosaur.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 75–69 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Salta Province, Argentina"
+        },
+        {
+          "label": "Known size",
+          "value": "about 8–12 m · estimated"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Saltasaurus was a titanosaur of modest size, probably between eight and twelve metres long depending on how the disarticulated bones are scaled. It had the wide-bodied, short-necked build typical of the most derived titanosaurs, with stout limbs and a broad, barrel-shaped trunk.",
+        "Its skin carried bone. Large oval plates up to about twelve centimetres across, together with many small ossicles, were found with the skeletons at El Brete, and their microstructure confirms they grew within the skin as dermal armour. How they were arranged over the body is not preserved, so restorations that show neat rows are guesses.",
+        "Like other titanosaurs it had a small head with narrow, peg-like teeth suited to cropping rather than chewing plants. Nearby fossil eggs and nesting sites in Patagonia are often linked to saltasaurines, but no egg has been tied directly to Saltasaurus itself."
+      ],
+      "animalHighlights": [
+        "The first sauropod with directly documented dermal armour, changing how all titanosaurs were reconstructed.",
+        "A comparatively small, robust titanosaur with a short neck and wide stance.",
+        "Known from at least five individuals whose bones were mixed together at one site."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by teeth and jaw fragments",
+          "reason": "Narrow, peg-like teeth and the sauropod body plan point to bulk cropping of vegetation. The specific plants eaten are not preserved."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal",
+          "level": "Supported by limb and girdle bones",
+          "reason": "Limb bones, the sacrum and pelvis show the wide-gauge, four-legged stance typical of derived titanosaurs."
+        },
+        {
+          "label": "Known size",
+          "value": "about 8–12 m long",
+          "level": "Estimated from disarticulated bones",
+          "reason": "No single complete individual exists, so length and mass are scaled from bones of several animals of differing sizes."
+        },
+        {
+          "label": "Appearance",
+          "value": "Armoured skin confirmed",
+          "level": "Arrangement unknown",
+          "reason": "Osteoderms are preserved and histologically verified as dermal bone, but their pattern on the body, and all colour, is reconstructed."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous (late Campanian–early Maastrichtian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 75–69 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Lecho Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "El Brete, Salta Province, Argentina"
+        }
+      ],
+      "locality": {
+        "name": "El Brete",
+        "region": "Salta Province, north-west Argentina",
+        "note": "A bonebed in the Lecho Formation that also yielded the enantiornithine birds first described from the site. The map shows a provincial reference rather than the exact quarry."
+      },
+      "classificationSummary": "Saltasaurus is the name-bearing genus of Saltasauridae and Saltasaurinae, a group of small, stocky, armoured titanosaurs from the latest Cretaceous of South America. Its close relationship with Neuquensaurus is well supported; broader titanosaur relationships remain unstable between analyses.",
+      "related": [
+        {
+          "id": "neuquensaurus",
+          "reason": "A closely related, similarly small saltasaurine from Patagonia."
+        },
+        {
+          "id": "opisthocoelicaudia",
+          "reason": "A Mongolian titanosaur often placed near Saltasauridae."
+        },
+        {
+          "id": "argentinosaurus",
+          "reason": "Compare with a giant titanosaur from the same continent."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How was the armour arranged?",
+          "copy": "The plates and ossicles were found loose. Whether the large plates formed rows, a scattered mosaic or something else is not recorded by the fossils."
+        },
+        {
+          "title": "Which bones belong together?",
+          "copy": "El Brete preserves several individuals mixed together, so the composite skeleton cannot be checked against a single articulated animal."
+        },
+        {
+          "title": "Did it lay the Patagonian eggs?",
+          "copy": "Titanosaur nesting grounds in Argentina are often attributed to saltasaurines, but no embryo has been identified as Saltasaurus."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The Lecho Formation sample crosses late Campanian-early Maastrichtian estimates; a single 70 Ma date is too precise.",
     "sources": [
       {
@@ -116,6 +234,16 @@
         "type": "primary-literature",
         "citation": "Cerda & Powell (2010), dermal armour histology of Saltasaurus",
         "url": "https://doi.org/10.4202/app.2009.1101"
+      },
+      {
+        "type": "presacral-revision",
+        "citation": "Zurriaguz & Powell (2015), New contributions to the presacral osteology of Saltasaurus loricatus",
+        "url": "https://doi.org/10.1016/j.cretres.2014.12.012"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Dino Directory: saltasaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/saltasaurus.html"
       }
     ],
     "residualUncertainty": [
@@ -131,7 +259,154 @@
         "osteoderm arrangement"
       ],
       "summary": "Saltasaurus loricatus was a small-bodied saltasaurine titanosaur from the Lecho Formation of Argentina, known from disarticulated remains of several individuals and associated osteoderms.",
-      "sourceBasis": "Powell (1992), osteology and armour of Saltasaurus; Cerda & Powell (2010), dermal armour histology of Saltasaurus"
+      "sourceBasis": "Powell (1992), osteology and armour of Saltasaurus; Cerda & Powell (2010), dermal armour histology of Saltasaurus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "PVL 4017-92",
+          "institution": "Instituto Miguel Lillo, Universidad Nacional de Tucumán",
+          "note": "Sacrum fused to both ilia from the El Brete bonebed."
+        },
+        {
+          "name": "El Brete referred material",
+          "id": "PVL 4017 series",
+          "institution": "Instituto Miguel Lillo, Universidad Nacional de Tucumán",
+          "note": "Disarticulated bones of at least five individuals, including vertebrae, girdles, limb bones, teeth, braincase fragments and osteoderms."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Mixed bones of several individuals, plus the armour that made it famous.",
+        "standfirst": "Saltasaurus is known from a bonebed at El Brete that yielded disarticulated remains of at least five individuals, together with osteoderms. Collectively the sample covers most of the skeleton, but no single animal is complete.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Most postcranial regions and parts of the skull are represented across several individuals, but the bones are disarticulated and no complete or articulated skeleton is known."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Composite partial skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "At least 5"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Disarticulated; armour layout unknown"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Braincase fragments and teeth, cervical, dorsal, sacral and caudal vertebrae, ribs, the pelvis and shoulder girdle, forelimb and hindlimb bones, and numerous dermal plates and ossicles.",
+          "note": "Because the material comes from several mixed individuals, reconstructions are composites and features such as the osteoderm arrangement cannot be read directly from the fossils."
+        },
+        "media": [
+          {
+            "file": "Saltasaurus.jpg",
+            "kind": "Referred material",
+            "title": "Osteoderm PVL 4017-113 from El Brete",
+            "alt": "Photograph of a Saltasaurus loricatus bony plate in external and lateral views",
+            "caption": "A dermal plate of Saltasaurus loricatus from El Brete in external and lateral views, figured by Cerda and Powell in their 2010 histological study of the armour.",
+            "credit": "Ignacio A. Cerda and Jaime E. Powell · CC BY 2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saltasaurus.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Fragmentary braincase material and isolated teeth; no complete skull or lower jaw."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal, sacral and caudal vertebrae from several individuals, including the holotype sacrum, with ribs."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Ilia, ischia, pubes, scapulae and coracoids, with humeri, femora and other limb long bones."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Dermal osteoderms and small ossicles, sampled histologically; no skin impressions, eggs or gut contents are attributed with certainty."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "PVL 4017-92 · holotype",
+            "description": "A sacrum fused to both ilia, chosen by Bonaparte and Powell in 1980 to anchor the species. It is one element of a large collection catalogued under PVL 4017 from the El Brete bonebed.",
+            "meta": "El Brete, Salta · Lecho Formation · Instituto Miguel Lillo, Tucumán"
+          },
+          {
+            "kicker": "Referred bonebed material",
+            "title": "PVL 4017 series",
+            "description": "Disarticulated bones of at least five individuals of differing sizes, including vertebrae, girdles, limb bones and the dermal armour described in detail by Powell in 1992.",
+            "meta": "One bonebed · individual association reconstructed"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "A holotype sacrum with ilia, mixed vertebral, girdle and limb bones from several individuals, teeth, braincase fragments and dermal osteoderms."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A small, robust, wide-gauge titanosaur whose skin was reinforced with bony plates and ossicles, possibly as protection or as a mineral store."
+          },
+          {
+            "label": "Still unknown",
+            "value": "The full skull, the arrangement of the armour, exact adult size, growth and which bones belong to which individual."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Osteology",
+            "title": "Powell · 1992",
+            "description": "Detailed description of the El Brete material and the dermal armour, archived on ResearchGate.",
+            "access": "Read online",
+            "url": "https://www.researchgate.net/publication/284147917_Osteologia_de_Saltasaurus_loricatus_Sauropoda-Titanosauridae_del_Cretacico_Superior_del_noroeste_Argentino"
+          },
+          {
+            "type": "Modern revision",
+            "title": "Zurriaguz and Powell · 2015",
+            "description": "New description of the presacral vertebrae and comparison with other titanosaurs.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1016/j.cretres.2014.12.012"
+          },
+          {
+            "type": "Armour histology",
+            "title": "Cerda and Powell · 2010",
+            "description": "Open-access study of osteoderm microstructure confirming the plates as dermal bone.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.4202/app.2009.1101"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus in the Dino Directory.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/saltasaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Osteoderm photograph",
+            "description": "Source page, creator details and reuse licence for the figured dermal plate.",
+            "access": "CC BY 2.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Saltasaurus.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38693"
+          }
+        ],
+        "limitations": "The coverage band describes the combined El Brete material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

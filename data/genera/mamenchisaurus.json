@@ -89,7 +89,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -117,6 +117,124 @@
         "A 2023 analysis recovered named Mamenchisaurus species in a non-monophyletic series, requiring genus-level revision."
       ]
     },
+    "presentation": {
+      "heroLead": "The extraordinarily long-necked sauropods of Jurassic China, a genus of several species whose necks could make up half the length of the animal.",
+      "heroMedia": {
+        "file": "Mamenchisaurus.png",
+        "title": "Life restoration of Mamenchisaurus youngi",
+        "alt": "Scientific life restoration of Mamenchisaurus youngi with a human figure for scale",
+        "caption": "Life restoration of M. youngi by Leoomas, one of the species known from a near-complete skeleton with skull. Neck posture, skin and colour are interpretive.",
+        "credit": "Leoomas · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mamenchisaurus.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Middle–Late Jurassic · about 168–157 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Sichuan Basin and Xinjiang, China"
+        },
+        {
+          "label": "Known size",
+          "value": "about 13–22 m · varies by species"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Mamenchisaurus was a large four-legged plant-eater with a neck longer, relative to its body, than in almost any other sauropod. In M. hochuanensis, known from a nearly complete skeleton, nineteen neck vertebrae make up a neck about nine metres long on an animal of roughly twenty-two metres; the type species M. constructus was smaller, around thirteen metres, and the fragmentary M. sinocanadorum may have carried a neck of fifteen metres or more.",
+        "The neck vertebrae are lightly built, with long overlapping neck ribs that stiffened the neck into a beam rather than a flexible hose. The skull, known well only in M. youngi, is short and deep with spoon-shaped teeth suited to cropping foliage. Some individuals preserve a small tail club of fused vertebrae whose function is not known.",
+        "How the neck was held is debated. Biomechanical modelling suggests a gently inclined posture with the head raised well above the shoulders, giving access to a wide feeding envelope, but the animal could not have lifted its neck vertically. The different species come from separate rock units and ages, and it is not certain that they all belong in one genus."
+      ],
+      "animalHighlights": [
+        "Up to nineteen cervical vertebrae, more than in almost any other dinosaur, are directly counted in the M. hochuanensis skeleton.",
+        "Long, overlapping cervical ribs that braced the neck are preserved in several species.",
+        "A short, deep skull with spoon-shaped teeth, known from the M. youngi skeleton, differs from the lighter skulls of diplodocids."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by teeth and skull anatomy",
+          "reason": "Spoon-shaped teeth and a deep snout indicate browsing on foliage. Which plants it ate and how high it habitually fed are inferred from neck modelling rather than observed."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal",
+          "level": "Complete limbs directly known",
+          "reason": "Columnar fore- and hindlimbs are preserved in M. hochuanensis and M. youngi. Speed and gait beyond a walk are not measurable."
+        },
+        {
+          "label": "Known size",
+          "value": "about 13–22 m long",
+          "level": "Varies by species",
+          "reason": "M. hochuanensis and M. youngi are measurable from near-complete skeletons; figures for M. sinocanadorum and the type species involve scaling from partial material."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeletal outline supported",
+          "level": "Skin, colour and neck posture reconstructed",
+          "reason": "Body proportions come from articulated skeletons. Skin texture, colour and the habitual angle of the neck are inferred."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Middle to Late Jurassic"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 168–157 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Shaximiao Formation (Sichuan); Qigu Formation (Xinjiang)"
+        },
+        {
+          "label": "Type locality",
+          "value": "Mamingxi construction site, Yibin, Sichuan, China"
+        }
+      ],
+      "locality": {
+        "name": "Mamingxi (Mamenchi) construction site",
+        "region": "Yibin, Sichuan Province, China",
+        "note": "Shaximiao Formation. The type species was found during dam construction in 1952; later species come from Hechuan, Zigong and other Sichuan Basin sites and from the Junggar Basin of Xinjiang."
+      },
+      "classificationSummary": "Mamenchisaurus is a eusauropod and the name-bearing genus of Mamenchisauridae, a mainly Chinese group of long-necked sauropods outside Neosauropoda. The many species assigned to it were recovered as a non-monophyletic series in 2023, so the genus is probably in need of splitting.",
+      "related": [
+        {
+          "id": "omeisaurus",
+          "reason": "A fellow Sichuan mamenchisaurid with a similarly long neck, often confused with Mamenchisaurus in older accounts."
+        },
+        {
+          "id": "shunosaurus",
+          "reason": "A shorter-necked, tail-clubbed sauropod from the same Shaximiao succession for comparison."
+        },
+        {
+          "id": "diplodocus",
+          "reason": "A neosauropod that evolved a long neck independently, with a very different skull and tooth form."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Is Mamenchisaurus one genus?",
+          "copy": "At least seven species have been assigned to it from different rock units and ages. A 2023 analysis found them scattered across the mamenchisaurid tree, so several may need new genus names."
+        },
+        {
+          "title": "How long was the longest neck?",
+          "copy": "M. sinocanadorum is known chiefly from skull bones and a few neck vertebrae. Its estimated fifteen-metre neck depends on scaling those bones against more complete relatives."
+        },
+        {
+          "title": "How was the neck held?",
+          "copy": "Biomechanical models suggest a raised but not vertical posture. Direct evidence of habitual posture is unavailable, and different models give different answers."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The range is restricted to well-supported Middle-Late Jurassic Chinese species; Early Cretaceous and non-Chinese referrals are not used to extend it.",
     "sources": [
       {
@@ -128,6 +246,11 @@
         "type": "authoritative-museum",
         "citation": "Natural History Museum Dino Directory: mamenchisaurus",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/mamenchisaurus.html"
+      },
+      {
+        "type": "biomechanics",
+        "citation": "Christian et al. (2013), Biomechanical reconstructions and selective advantages of neck poses and feeding strategies of sauropods with the example of Mamenchisaurus youngi",
+        "url": "https://doi.org/10.1371/journal.pone.0071172"
       }
     ],
     "residualUncertainty": [
@@ -144,7 +267,159 @@
         "largest sizes rely on extrapolation"
       ],
       "summary": "Mamenchisaurus is a historically broad genus of long-necked Chinese eusauropods. The type species M. constructus is based on a partial skeleton from the Sichuan Basin; other named species differ greatly in completeness and may not form a natural genus.",
-      "sourceBasis": "Moore et al. (2023), reassessment of Mamenchisaurus sinocanadorum and long-neck evolution; Natural History Museum Dino Directory: mamenchisaurus"
+      "sourceBasis": "Moore et al. (2023), reassessment of Mamenchisaurus sinocanadorum and long-neck evolution; Natural History Museum Dino Directory: mamenchisaurus",
+      "specimens": [
+        {
+          "name": "Holotype of M. constructus",
+          "id": "IVPP V 790",
+          "institution": "Institute of Vertebrate Paleontology and Paleoanthropology, Beijing",
+          "note": "Partial skeleton without skull from the Mamingxi construction site near Yibin, named by Young in 1954."
+        },
+        {
+          "name": "Holotype of M. hochuanensis",
+          "id": "CCG V 20401",
+          "institution": "Chengdu University of Technology",
+          "note": "Near-complete postcranial skeleton with nineteen cervical vertebrae and a tail club, described by Young and Zhao in 1972."
+        },
+        {
+          "name": "Holotype of M. youngi",
+          "id": "ZDM 0083",
+          "institution": "Zigong Dinosaur Museum",
+          "note": "Near-complete skeleton with skull from Zigong, named by Pi and colleagues in 1996."
+        },
+        {
+          "name": "Holotype of M. sinocanadorum",
+          "id": "IVPP V10603",
+          "institution": "Institute of Vertebrate Paleontology and Paleoanthropology, Beijing",
+          "note": "Skull bones and anterior cervical vertebrae from the Qigu Formation of Xinjiang; basis of the longest neck estimates."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "A partial type skeleton and several near-complete referred skeletons, spread across a genus that may not be natural.",
+        "standfirst": "Mamenchisaurus is well represented as a whole, but unevenly. The type species M. constructus rests on a partial skeleton found during dam construction in 1952, while M. hochuanensis and M. youngi are known from articulated skeletons, and other species from far less.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Most skeletal regions, including the skull, are known from articulated skeletons, but they come from different species, and the type species itself is only partially known."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Partial to near-complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Several, across at least 7 named species"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Coverage is split across species"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The type species preserves vertebrae, including part of the neck, with ribs, pelvic and limb elements. M. hochuanensis adds a near-complete postcranial skeleton with nineteen cervicals and a tail club; M. youngi adds a near-complete skeleton with skull. M. sinocanadorum is represented by skull bones and a few neck vertebrae.",
+          "note": "Because the best skull, the best neck and the type material belong to different species, no single individual shows the whole animal, and measurements should not be combined across species."
+        },
+        "media": [
+          {
+            "file": "Mamenchisaurus hochuanensis Skeletal.png",
+            "kind": "Known-material diagram",
+            "title": "Skeletal diagram of Mamenchisaurus hochuanensis",
+            "alt": "Skeletal reconstruction of Mamenchisaurus hochuanensis with preserved bones shown in white and missing regions in grey",
+            "caption": "A skeletal diagram of the Hechuan skeleton CCG V 20401, one of the most complete mamenchisaurids; the skull and parts of the limbs are restored from other specimens.",
+            "credit": "Bricksmashtv4 · CC BY 3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mamenchisaurus_hochuanensis_Skeletal.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "A nearly complete skull and lower jaws in M. youngi; skull bones and teeth in M. sinocanadorum. No skull is known for the type species."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete or near-complete cervical, dorsal, sacral and caudal series in M. hochuanensis and M. youngi, with a tail club in some individuals; partial series in the type species."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Pectoral and pelvic girdles and complete limbs in M. hochuanensis and M. youngi; partial girdle and limb elements in M. constructus."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Fused tail-club vertebrae are preserved in M. hochuanensis. No skin impressions, colour or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "IVPP V 790 · holotype of M. constructus",
+            "description": "A partial skeleton found in 1952 during construction of the Mamingxi dam near Yibin and named by C. C. Young in 1954. It preserves vertebrae, ribs and parts of the girdles and limbs but no skull, and belonged to an animal of about thirteen metres.",
+            "meta": "Mamingxi, Yibin, Sichuan · Shaximiao Formation · Institute of Vertebrate Paleontology and Paleoanthropology, Beijing"
+          },
+          {
+            "kicker": "Most complete neck",
+            "title": "CCG V 20401 · holotype of M. hochuanensis",
+            "description": "A near-complete postcranial skeleton from Hechuan described by Young and Zhao in 1972. Its nineteen cervical vertebrae, about nine metres of neck, and a fused tail club are directly preserved; the skull is missing.",
+            "meta": "Gushushan, Hechuan, Chongqing · upper Shaximiao Formation · Chengdu University of Technology"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Articulated skeletons with up to nineteen neck vertebrae, long cervical ribs, columnar limbs, a deep skull in one species and a tail club in another."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A radiation of very long-necked eusauropods that browsed over a wide feeding envelope, with necks braced by overlapping ribs rather than held flexibly."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Whether the named species form one genus, the true size of the most fragmentary species, habitual neck posture, and the function of the tail club."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Modern revision",
+            "title": "Moore et al. · 2023",
+            "description": "Redescription of M. sinocanadorum with a phylogenetic analysis showing the named species do not form a single group.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1080/14772019.2023.2171818"
+          },
+          {
+            "type": "Neck biomechanics",
+            "title": "Christian et al. · 2013",
+            "description": "Models neck posture and feeding envelope using the M. youngi skeleton.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1371/journal.pone.0071172"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus and its remarkable neck.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/mamenchisaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Known-material skeletal diagram",
+            "description": "Source page, creator details and reuse licence for the M. hochuanensis reconstruction.",
+            "access": "CC BY 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Mamenchisaurus_hochuanensis_Skeletal.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38670"
+          }
+        ],
+        "limitations": "The coverage band describes the combined material referred to the genus as currently defined. It is an editorial evidence summary, not a published completeness percentage, and it will change if the species are split into separate genera.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

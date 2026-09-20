@@ -70,7 +70,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria A-C systematic scientific review",
     "consensusScope": [
       "accepted name and broad classification",
@@ -97,6 +97,124 @@
         "Many historical Corythosaurus species are now interpreted as growth or individual variation within C. casuarius."
       ]
     },
+    "presentation": {
+      "heroLead": "A helmet-crested duck-billed dinosaur from Alberta, known from complete skeletons with skin impressions and from a growth series that shows its hollow crest inflating with age.",
+      "heroMedia": {
+        "file": "Corythosaurus TD.png",
+        "title": "Life restoration of Corythosaurus casuarius",
+        "alt": "Life restoration of Corythosaurus casuarius in side view, showing the rounded helmet-like crest",
+        "caption": "Life restoration by TotalDino. Body outline and crest shape follow the near-complete skeletons; scale pattern follows preserved skin impressions, while colour and any soft-tissue crest extension are interpretive.",
+        "credit": "TotalDino · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corythosaurus_TD.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 77–75 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Alberta, Canada"
+        },
+        {
+          "label": "Known size",
+          "value": "about 8–9 m · roughly 3–4 t"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Corythosaurus was a large duck-billed dinosaur of the lambeosaurine group that lived along the river plains of what is now southern Alberta in the late Campanian. Adults were about eight to nine metres long and could walk on either two or four legs, with a deep tail stiffened by ossified tendons.",
+        "Its most striking feature was a tall, rounded bony crest that gave the animal its name, meaning \"helmet lizard\". The crest was hollow and housed looping nasal passages; because the airway is preserved inside the bone, its shape is known directly, although what sounds it may have produced is a matter of modelling rather than observation.",
+        "Skulls of many sizes show that juveniles had only a low bump where the adult crest would later rise. Several species named from Alberta in the early twentieth century are now regarded as growth stages or individual variants of Corythosaurus casuarius, although a second, stratigraphically higher species, C. intermedius, is still recognised by some workers."
+      ],
+      "animalHighlights": [
+        "A tall, hollow, helmet-shaped crest containing the nasal passages, which grew dramatically between juvenile and adult stages.",
+        "Skin impressions preserved on the holotype and a second skeleton show a covering of small, non-overlapping scales.",
+        "One of the most completely known hadrosaurids, with near-complete articulated skeletons collected from the Dinosaur Park Formation."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by beak and dental batteries",
+          "reason": "A broad, toothless beak and dental batteries of hundreds of closely packed teeth with grinding wear are directly preserved. Reported gut contents from an early specimen are of uncertain reliability."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal and quadrupedal",
+          "level": "Supported by complete limbs",
+          "reason": "Complete fore- and hindlimbs with hoof-like hand and foot bones fit a hadrosaurid that shifted between two- and four-legged walking. Speeds are modelled, not observed."
+        },
+        {
+          "label": "Known size",
+          "value": "about 8–9 m long",
+          "level": "Well constrained by complete skeletons",
+          "reason": "Near-complete articulated adults allow length to be measured directly; body mass is still an estimate."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeleton and scales known",
+          "level": "Colour remains reconstructed",
+          "reason": "Skin impressions record scale size and pattern over parts of the body, but colour, any soft crest extensions and other integument are inferred."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous, late Campanian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 77–75 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Dinosaur Park Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Red Deer River valley, Dinosaur Provincial Park area, Alberta, Canada"
+        }
+      ],
+      "locality": {
+        "name": "Red Deer River badlands",
+        "region": "Dinosaur Provincial Park area, Alberta, Canada",
+        "note": "The holotype was collected by Barnum Brown in 1912 from the Belly River beds, now the Dinosaur Park Formation. Corythosaurus material is largely confined to the lower part of the formation."
+      },
+      "classificationSummary": "Corythosaurus is a lambeosaurine hadrosaurid, part of the hollow-crested duck-billed dinosaurs. It is consistently grouped with Hypacrosaurus and Lambeosaurus among the helmet-crested lambeosaurines.",
+      "related": [
+        {
+          "id": "lambeosaurus",
+          "reason": "Compare with the hatchet-crested lambeosaurine that occurs slightly higher in the same formation."
+        },
+        {
+          "id": "hypacrosaurus",
+          "reason": "Compare with a closely related helmet-crested lambeosaurine known from nests and embryos."
+        },
+        {
+          "id": "parasaurolophus",
+          "reason": "Compare with a tube-crested lambeosaurine whose crest housed a much longer airway."
+        }
+      ],
+      "questions": [
+        {
+          "title": "What did the crest do?",
+          "copy": "The looping nasal passages could have resonated during calls and the crest probably served in visual display, but neither function can be confirmed directly, and no specific call can be reconstructed as fact."
+        },
+        {
+          "title": "How many species are valid?",
+          "copy": "Growth-stage studies collapsed several early names into C. casuarius. Whether C. intermedius is a distinct, younger species or variation within one lineage is still discussed."
+        },
+        {
+          "title": "What was lost at sea?",
+          "copy": "Two Corythosaurus skeletons collected by the Sternbergs were lost in 1916 when the ship carrying them to Britain was sunk, so part of the early material survives only in field records."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Diagnostic C. casuarius material is late Campanian in the Dinosaur Park Formation.",
     "sources": [
       {
@@ -113,6 +231,21 @@
         "type": "authoritative-museum-reference",
         "citation": "Natural History Museum, Dino Directory: corythosaurus",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/corythosaurus.html"
+      },
+      {
+        "type": "original-description",
+        "citation": "Brown (1914), Corythosaurus casuarius, a new crested dinosaur from the Belly River Cretaceous",
+        "url": "https://digitallibrary.amnh.org/items/3a313ae3-f10d-42bc-8e32-b23f018b4e6d"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Brown (1916), Corythosaurus casuarius: skeleton, musculature and epidermis",
+        "url": "https://digitallibrary.amnh.org/items/3e6e3523-2b83-468d-9ea7-0b60f651cee8"
+      },
+      {
+        "type": "modern-revision",
+        "citation": "Evans (2010), Cranial anatomy and systematics of Hypacrosaurus altispinus, and a comparative analysis of skull growth in lambeosaurine hadrosaurids",
+        "url": "https://doi.org/10.1111/j.1096-3642.2009.00611.x"
       }
     ],
     "residualUncertainty": [
@@ -131,7 +264,154 @@
         "Some species-level distinctions and referrals remain debated."
       ],
       "summary": "Corythosaurus casuarius was a helmet-crested lambeosaurine hadrosaurid from the Dinosaur Park Formation of Alberta. Many skulls and skeletons across growth stages, including skin impressions, document its anatomy and the dramatic ontogenetic growth of its hollow crest.",
-      "sourceBasis": "Smithsonian Institution, Corythosaurus casuarius specimen record; Madriñan et al. (2021), Phylogenetic nomenclature and relationships of hadrosaurids; Natural History Museum, Dino Directory: corythosaurus"
+      "sourceBasis": "Smithsonian Institution, Corythosaurus casuarius specimen record; Madriñan et al. (2021), Phylogenetic nomenclature and relationships of hadrosaurids; Natural History Museum, Dino Directory: corythosaurus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "AMNH 5240",
+          "institution": "American Museum of Natural History, New York",
+          "note": "A nearly complete articulated skeleton with skin impressions, collected by Barnum Brown in 1912 from the Red Deer River and described in 1914."
+        },
+        {
+          "name": "Referred skeleton",
+          "id": "AMNH 5338",
+          "institution": "American Museum of Natural History, New York",
+          "note": "A second near-complete skeleton with extensive skin impressions, described by Brown in 1916 and displayed in New York."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Complete skeletons, skin impressions and a growth series of crested skulls.",
+        "standfirst": "Corythosaurus has one of the best fossil records of any hadrosaurid. The holotype and a second New York skeleton are nearly complete and articulated with skin, and many further skulls and skeletons from the Dinosaur Park Formation span juvenile to adult growth stages.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every region of the skeleton is known from multiple articulated individuals, with skin impressions and a juvenile-to-adult skull series."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Near-complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Dozens, all growth stages"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Soft-tissue crest and sound unknown"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete skulls with crests and dental batteries, full vertebral series with ossified tendons, both girdles, all four limbs with hands and feet, and impressions of scaly skin over the flank, limbs and tail in at least two individuals.",
+          "note": "The main gaps are not skeletal: the keratin beak, any soft-tissue crest extension, colour and the acoustic behaviour of the living animal are not preserved."
+        },
+        "media": [
+          {
+            "file": "Corythosaurus AMNH.jpg",
+            "kind": "Referred specimen",
+            "title": "AMNH 5338 mounted at the American Museum of Natural History",
+            "alt": "Mounted skeleton of Corythosaurus casuarius specimen AMNH 5338 at the American Museum of Natural History",
+            "caption": "The second Brown skeleton, AMNH 5338, as displayed in New York with parts of its skin impressions in place. The mount is largely original bone, with minor restoration.",
+            "credit": "Jonathan Chen · CC BY-SA 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corythosaurus_AMNH.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Many complete skulls with hollow crests and internal nasal passages, beaks, dental batteries and braincases, from small juveniles to large adults."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete cervical, dorsal, sacral and caudal series with ribs, chevrons and the lattice of ossified tendons along the back and tail."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Complete pectoral and pelvic girdles, forelimbs with hooved hands and hindlimbs with feet, articulated in several skeletons."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Skin impressions with small polygonal scales on the holotype and AMNH 5338; possible gut contents were reported from early material but are not securely attributed."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "AMNH 5240 · holotype",
+            "description": "A nearly complete articulated skeleton with skin impressions, found by Barnum Brown in 1912 in the Red Deer River badlands and described by him in 1914. It lacks only parts of the forelimbs and tail tip.",
+            "meta": "Red Deer River · Dinosaur Park Formation · American Museum of Natural History"
+          },
+          {
+            "kicker": "Skin-bearing skeleton",
+            "title": "AMNH 5338 · referred skeleton",
+            "description": "A second near-complete skeleton described by Brown in 1916 with extensive skin impressions, which formed the basis of his reconstruction of the animal's musculature and epidermis.",
+            "meta": "Red Deer River · Dinosaur Park Formation · American Museum of Natural History"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Articulated skeletons, a series of skulls at successive growth stages, the internal airway of the crest, and scaly skin impressions."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "The crest is read as a species-specific display and resonating structure whose growth tracked maturity, and the many named Alberta lambeosaurines as a smaller number of species."
+          },
+          {
+            "label": "Still unknown",
+            "value": "The acoustic output of the living animal, any soft-tissue extension of the crest, colour, and the exact status of C. intermedius."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Brown · 1914",
+            "description": "Original naming of Corythosaurus casuarius from the holotype skeleton.",
+            "access": "AMNH Digital Library",
+            "url": "https://digitallibrary.amnh.org/items/3a313ae3-f10d-42bc-8e32-b23f018b4e6d"
+          },
+          {
+            "type": "Primary description",
+            "title": "Brown · 1916",
+            "description": "Description of the skeleton, musculature and skin impressions of AMNH 5338.",
+            "access": "AMNH Digital Library",
+            "url": "https://digitallibrary.amnh.org/items/3e6e3523-2b83-468d-9ea7-0b60f651cee8"
+          },
+          {
+            "type": "Modern revision",
+            "title": "Evans · 2010",
+            "description": "Comparative analysis of crest growth in lambeosaurines, including the Corythosaurus growth series.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1111/j.1096-3642.2009.00611.x"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the helmet-crested hadrosaurid.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/corythosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "AMNH 5338 mount",
+            "description": "Source page, creator details and reuse licence for the skeleton photograph.",
+            "access": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Corythosaurus_AMNH.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38760"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

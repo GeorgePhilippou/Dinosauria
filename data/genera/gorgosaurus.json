@@ -74,7 +74,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -103,6 +103,124 @@
         "That single meal does not establish the full diet of all ages or coordinated hunting."
       ]
     },
+    "presentation": {
+      "heroLead": "A lightly built tyrannosaurid from Alberta known from dozens of skulls and skeletons, including a juvenile whose last meal of small feathered dinosaurs is still preserved in its belly.",
+      "heroMedia": {
+        "file": "Gorgosaurus 2022 Life Reconstruction.png",
+        "title": "Life restoration of Gorgosaurus libratus",
+        "alt": "Life restoration of Gorgosaurus libratus in side view, showing the long-legged, comparatively slender tyrannosaurid build",
+        "caption": "Life restoration by Leoomas. Proportions follow adult skeletons; skin covering and colour are interpretive, as no integument is known for the genus.",
+        "credit": "Leoomas · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gorgosaurus_2022_Life_Reconstruction.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 76.6–75.1 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Alberta, Canada and Montana, USA"
+        },
+        {
+          "label": "Known size",
+          "value": "about 8–9 m · roughly 2–3 t"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Gorgosaurus was a large two-legged predator of the tyrannosaurid family that lived on the river plains of what is now Alberta, and probably Montana, in the late Campanian. Adults reached about eight to nine metres in length, lighter and longer-legged than the later Tyrannosaurus, with a long, low skull, small two-fingered hands and a deep tail.",
+        "It is one of the best-sampled tyrannosaurids, with dozens of skulls and skeletons from the Dinosaur Park Formation ranging from small juveniles to full adults. That growth series shows young animals were slender and long-limbed with blade-like teeth, while adults became heavier with thicker teeth, suggesting that juveniles and adults hunted differently.",
+        "A juvenile from Alberta preserves the hindlimbs of two small caenagnathid dinosaurs inside its ribcage, direct evidence of what one young Gorgosaurus ate. It shared its habitat with the larger tyrannosaurid Daspletosaurus, and the two are thought to have divided the available prey, though how is still debated."
+      ],
+      "animalHighlights": [
+        "A long, low skull with more slender proportions than Tyrannosaurus, and reduced two-fingered forelimbs.",
+        "A growth series from small juveniles to adults documents a change from slender, long-legged young to heavier adults.",
+        "A juvenile specimen preserves the hindlimbs of two small caenagnathids as stomach contents."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Carnivore",
+          "level": "Directly evidenced in a juvenile",
+          "reason": "Stomach contents in a juvenile and blade-like serrated teeth document meat-eating. Adult prey choice is inferred from bite marks and tooth shape, not gut contents."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Well supported by complete limbs",
+          "reason": "Complete hindlimbs across growth stages show a fast-walking biped; juveniles have longer, more cursorial legs. Top speeds are modelled rather than measured."
+        },
+        {
+          "label": "Known size",
+          "value": "about 8–9 m long",
+          "level": "Well constrained for adults",
+          "reason": "Several near-complete adult skeletons allow direct measurement; body mass is estimated from limb dimensions and models."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeleton well documented",
+          "level": "Integument unknown",
+          "reason": "Skeletal proportions are secure, but no skin, scale or feather impressions are known for Gorgosaurus, so covering and colour are inferred."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous, late Campanian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 76.6–75.1 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Dinosaur Park Formation, with referred material from the Judith River Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Red Deer River valley, Dinosaur Provincial Park area, Alberta, Canada"
+        }
+      ],
+      "locality": {
+        "name": "Red Deer River badlands",
+        "region": "Dinosaur Provincial Park area, Alberta, Canada",
+        "note": "The holotype was collected by Charles H. Sternberg in 1913 from the Belly River beds, now the Dinosaur Park Formation. Specimens from the Judith River Formation of Montana are referred to the genus but their species-level identity is less secure."
+      },
+      "classificationSummary": "Gorgosaurus is an albertosaurine tyrannosaurid, sister to Albertosaurus within the lighter-built branch of Tyrannosauridae. It was long treated as a species of Albertosaurus, but is now generally kept as a separate genus.",
+      "related": [
+        {
+          "id": "albertosaurus",
+          "reason": "Compare with its closest relative from the younger Horseshoe Canyon Formation."
+        },
+        {
+          "id": "daspletosaurus",
+          "reason": "Compare with the heavier tyrannosaurid that lived alongside it in Alberta."
+        },
+        {
+          "id": "tyrannosaurus",
+          "reason": "Compare with the larger, more robust tyrannosaurid from the end of the Cretaceous."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How did it share its world with Daspletosaurus?",
+          "copy": "Two large tyrannosaurids lived side by side in the Dinosaur Park Formation. Differences in build hint at different prey, but direct evidence of partitioning is limited."
+        },
+        {
+          "title": "Did juveniles and adults eat differently?",
+          "copy": "One juvenile's stomach contents and the change in tooth and limb shape with growth support a shift in diet, but a single meal cannot define the diet of every age class."
+        },
+        {
+          "title": "Did it hunt in groups?",
+          "copy": "No bonebed or trackway demonstrates social hunting in Gorgosaurus. Group behaviour remains speculative."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Most secure G. libratus material comes from the Dinosaur Park Formation, approximately 76.6-75.1 Ma.",
     "sources": [
       {
@@ -119,6 +237,16 @@
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Gorgosaurus",
         "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gorgosaurus"
+      },
+      {
+        "type": "original-monograph",
+        "citation": "Lambe (1917), The Cretaceous theropodous dinosaur Gorgosaurus",
+        "url": "https://doi.org/10.4095/101672"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Gorgosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/gorgosaurus.html"
       }
     ],
     "residualUncertainty": [
@@ -139,7 +267,160 @@
         "species-level Montana referrals"
       ],
       "summary": "Gorgosaurus libratus was an albertosaurine tyrannosaurid from the Dinosaur Park Formation of Alberta and equivalent strata in Montana. Dozens of skulls and skeletons spanning juvenile to adult stages make its growth and anatomy unusually well documented.",
-      "sourceBasis": "Voris et al. (2022), A juvenile Gorgosaurus and tyrannosaurid ontogeny; Therrien et al. (2023), Exceptionally preserved stomach contents of a juvenile tyrannosaurid; Paleobiology Database taxon and occurrence context for Gorgosaurus"
+      "sourceBasis": "Voris et al. (2022), A juvenile Gorgosaurus and tyrannosaurid ontogeny; Therrien et al. (2023), Exceptionally preserved stomach contents of a juvenile tyrannosaurid; Paleobiology Database taxon and occurrence context for Gorgosaurus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "CMN 2120",
+          "institution": "Canadian Museum of Nature, Ottawa",
+          "note": "A nearly complete skeleton with skull collected by Charles H. Sternberg in 1913 from the Red Deer River, named by Lawrence Lambe in 1914 and monographed by him in 1917."
+        },
+        {
+          "name": "Juvenile with stomach contents",
+          "id": "TMP 2009.012.0014",
+          "institution": "Royal Tyrrell Museum of Palaeontology, Drumheller",
+          "note": "A young individual preserving the hindlimbs of two small caenagnathids within the ribcage, described by Therrien and colleagues in 2023."
+        },
+        {
+          "name": "Subadult skeleton",
+          "id": "TMP 1991.036.0500",
+          "institution": "Royal Tyrrell Museum of Palaeontology, Drumheller",
+          "note": "A nearly complete articulated skeleton preserved in a classic head-back death pose, displayed in Drumheller."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Dozens of skulls and skeletons across a full growth series, plus one preserved meal.",
+        "standfirst": "Gorgosaurus libratus is among the best-sampled large theropods. Its holotype is a near-complete skeleton, and many further skulls and skeletons from the Dinosaur Park Formation span small juveniles to adults, one of them with stomach contents in place.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every skeletal region is known from multiple articulated individuals at several growth stages, including complete skulls, forelimbs, hindlimbs and tails."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Near-complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Dozens, all growth stages"
+          },
+          {
+            "label": "Key limitation",
+            "value": "No skin or feathers known"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete skulls with dentition and braincases, full vertebral columns, furculae, both forelimbs with two-fingered hands, pelves, hindlimbs and feet, in several articulated skeletons, plus healed injuries and one juvenile's stomach contents.",
+          "note": "Integument is the main gap: no skin, scale or feather impressions are known for the genus, so its external covering is inferred from other tyrannosauroids."
+        },
+        "media": [
+          {
+            "file": "Gorgosaurus libratus juvenile with stomach contents (TMP 2009.012.0014), Royal Tyrrell Museum, Drumheller, Alberta, 2025-07-13.jpg",
+            "kind": "Referred specimen",
+            "title": "Juvenile TMP 2009.012.0014 with stomach contents",
+            "alt": "Skeleton of a juvenile Gorgosaurus libratus, TMP 2009.012.0014, with the hindlimbs of small caenagnathids preserved inside the ribcage, displayed at the Royal Tyrrell Museum",
+            "caption": "The juvenile Gorgosaurus displayed at the Royal Tyrrell Museum, Drumheller, with the hindlimbs of two small caenagnathid dinosaurs preserved within its ribcage. Original fossil material.",
+            "credit": "Chris Woodrich · CC BY-SA 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gorgosaurus_libratus_juvenile_with_stomach_contents_(TMP_2009.012.0014),_Royal_Tyrrell_Museum,_Drumheller,_Alberta,_2025-07-13.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Many complete skulls with full dentition and braincases from juveniles to adults, including pathological individuals."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete cervical, dorsal, sacral and caudal series with ribs, gastralia and chevrons in several articulated skeletons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Furculae, complete pectoral and pelvic girdles, two-fingered forelimbs, and hindlimbs with feet across the growth series."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Stomach contents in a juvenile, healed bite wounds and other pathologies; no skin, feather or colour evidence."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "CMN 2120 · holotype",
+            "description": "A nearly complete skeleton with skull found by Charles H. Sternberg in 1913 along the Red Deer River. Lawrence Lambe named it in 1914 and described it fully in a 1917 memoir.",
+            "meta": "Red Deer River · Dinosaur Park Formation · Canadian Museum of Nature"
+          },
+          {
+            "kicker": "Direct dietary evidence",
+            "title": "TMP 2009.012.0014 · juvenile with stomach contents",
+            "description": "A young Gorgosaurus, estimated at five to seven years old, preserving the hindlimbs of two small caenagnathids inside its body cavity. It is the first tyrannosaurid with securely identified stomach contents.",
+            "meta": "Dinosaur Provincial Park · Dinosaur Park Formation · Royal Tyrrell Museum of Palaeontology"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Articulated skeletons of juveniles, subadults and adults, complete skulls and teeth, healed injuries, and prey remains inside one juvenile."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A fast, lightly built predator whose diet shifted with age from small prey to large herbivores, sharing its environment with the heavier Daspletosaurus."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Body covering and colour, adult diet in detail, any social behaviour, and the species identity of Montana material."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary monograph",
+            "title": "Lambe · 1917",
+            "description": "Full description of the holotype skeleton, Geological Survey of Canada Memoir 100.",
+            "access": "Open access",
+            "url": "https://doi.org/10.4095/101672"
+          },
+          {
+            "type": "Growth study",
+            "title": "Voris et al. · 2022",
+            "description": "Osteology of a juvenile Gorgosaurus and the pattern of tyrannosaurid growth.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1080/02724634.2021.2041651"
+          },
+          {
+            "type": "Dietary evidence",
+            "title": "Therrien et al. · 2023",
+            "description": "Description of the juvenile with preserved stomach contents.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1126/sciadv.adi0505"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the Alberta tyrannosaurid.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/gorgosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Juvenile with stomach contents",
+            "description": "Source page, creator details and reuse licence for the specimen photograph.",
+            "access": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Gorgosaurus_libratus_juvenile_with_stomach_contents_(TMP_2009.012.0014),_Royal_Tyrrell_Museum,_Drumheller,_Alberta,_2025-07-13.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=53193"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

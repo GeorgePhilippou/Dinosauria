@@ -72,7 +72,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -98,6 +98,124 @@
         "Juveniles were more quadrupedal and adults predominantly bipedal in major growth studies."
       ]
     },
+    "presentation": {
+      "heroLead": "A parrot-beaked early ceratopsian from Cretaceous Asia, known from hundreds of skeletons, whole growth series and a handful of specimens that preserve skin, bristles and colour.",
+      "heroMedia": {
+        "file": "Psittacosaurus TD.png",
+        "title": "Life restoration of Psittacosaurus",
+        "alt": "Life restoration of Psittacosaurus, a small bipedal ceratopsian with a deep parrot-like beak, cheek horns and a row of long bristles on the tail, in side view",
+        "caption": "Life restoration based on the Senckenberg specimen SMF R 4970, which preserves skin, tail bristles and pigment. Those features are documented in that individual; how far they apply to the other species of Psittacosaurus is interpretive.",
+        "credit": "TotalDino · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Psittacosaurus_TD.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Early Cretaceous · about 126–101 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "China, Mongolia and Siberia"
+        },
+        {
+          "label": "Known size",
+          "value": "about 1–2 m · varies by species"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Psittacosaurus was a small, mostly two-legged plant-eater with a short, deep skull ending in a parrot-like beak, a pair of flaring cheek horns and a long tail. Adults of the best-known species were one to two metres long. It is one of the most abundant dinosaurs ever found, and the many named species differ in skull shape, size and the exact form of the cheek horns.",
+        "The beak and self-sharpening cheek teeth cropped and sliced tough vegetation, and polished stones found in the stomach region of some skeletons suggest that at least some individuals used gastroliths to help break food down. Growth studies show that hatchlings walked on all fours and shifted to a two-legged stance as the hindlimbs outgrew the arms.",
+        "A few individuals preserve far more than bone. The Senckenberg specimen SMF R 4970 shows scaly skin, a row of long bristle-like structures along the tail, a darker back grading to a paler belly, and a cloacal opening. These observations belong to particular specimens, and they should not be assumed for every species in the genus."
+      ],
+      "animalHighlights": [
+        "A deep parrot-like beak and cheek horns mark Psittacosaurus as one of the earliest ceratopsians, long before frills and brow horns evolved.",
+        "Growth series from hatchling to adult show a shift from four-legged young to predominantly two-legged adults.",
+        "Exceptional specimens preserve skin, tail bristles, countershaded pigmentation and a cloaca, a rare glimpse of a dinosaur's exterior."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by teeth, beak and gastroliths",
+          "reason": "Slicing cheek teeth and a cropping beak indicate herbivory; stomach stones in some skeletons suggest gastric processing. Exact plant foods are not identified."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal as adult",
+          "level": "Supported by growth series",
+          "reason": "Limb proportions across a growth series show four-legged juveniles becoming two-legged adults; walking speeds are modelled rather than measured."
+        },
+        {
+          "label": "Known size",
+          "value": "about 1–2 m long",
+          "level": "Measured on complete skeletons",
+          "reason": "Complete adult skeletons give length directly for several species; mass estimates and maximum size vary between species."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skin and bristles known in one specimen",
+          "level": "Colour pattern from pigment traces",
+          "reason": "SMF R 4970 preserves scales, tail bristles and countershading. Those details are specimen-specific and may not apply across the genus."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Early Cretaceous, Barremian–Albian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 126–101 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Yixian, Jiufotang and other Lower Cretaceous formations"
+        },
+        {
+          "label": "Type locality",
+          "value": "Oshih, Övörkhangai, Mongolia"
+        }
+      ],
+      "locality": {
+        "name": "Oshih (Ashile)",
+        "region": "Övörkhangai, Mongolia",
+        "note": "Type locality of P. mongoliensis, found by the Central Asiatic Expeditions in 1922. Most of the hundreds of other skeletons come from the Yixian Formation of Liaoning, China."
+      },
+      "classificationSummary": "Psittacosaurus is an early ceratopsian and the only genus in Psittacosauridae, placed outside Neoceratopsia, the group containing Protoceratops and the horned ceratopsids. Its many species make it the most species-rich dinosaur genus, though several names may be synonyms.",
+      "related": [
+        {
+          "id": "yinlong",
+          "reason": "Compare with an earlier, Jurassic ceratopsian that retains a more generalised skull."
+        },
+        {
+          "id": "protoceratops",
+          "reason": "Compare with a frilled neoceratopsian from the later Cretaceous of Mongolia."
+        },
+        {
+          "id": "heterodontosaurus",
+          "reason": "Compare with an early ornithischian sometimes linked to ceratopsians and pachycephalosaurs."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How many species are real?",
+          "copy": "More than a dozen species have been named. Some differences reflect growth stage, crushing or individual variation, so the true number is lower than the list of names suggests."
+        },
+        {
+          "title": "Did every species have bristles and countershading?",
+          "copy": "These features are known from a single, exceptionally preserved specimen whose species is uncertain. Extending them across the genus is a reasonable guess, not an observation."
+        },
+        {
+          "title": "Were the juvenile clusters family groups?",
+          "copy": "Clusters of young animals, sometimes with a larger individual, have been read as parental care or as crèches. The burial events allow more than one interpretation."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The genus spans multiple Barremian-Albian formations; individual species occupy narrower intervals.",
     "sources": [
       {
@@ -114,6 +232,21 @@
         "type": "primary-literature",
         "citation": "Vinther et al. (2021), cloacal opening in Psittacosaurus",
         "url": "https://doi.org/10.1016/j.cub.2020.12.039"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Hedrick & Dodson (2013), Lujiatun psittacosaurids: understanding individual and taphonomic variation using 3D geometric morphometrics",
+        "url": "https://doi.org/10.1371/journal.pone.0069265"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Zhao et al. (2013), Histologic and ontogenetic evidence for a shift from quadrupedal to bipedal locomotion in Psittacosaurus",
+        "url": "https://doi.org/10.1038/ncomms3079"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Psittacosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/psittacosaurus.html"
       }
     ],
     "residualUncertainty": [
@@ -130,7 +263,154 @@
         "distribution of soft-tissue traits"
       ],
       "summary": "Psittacosaurus was a diverse Early Cretaceous ceratopsian genus from Asia, represented by hundreds of specimens and numerous named species. The type species P. mongoliensis is anatomically well known, but genus-wide claims must distinguish species.",
-      "sourceBasis": "Sereno (2010), taxonomic review of Psittacosaurus; Vinther et al. (2016), three-dimensional camouflage in Psittacosaurus; Vinther et al. (2021), cloacal opening in Psittacosaurus"
+      "sourceBasis": "Sereno (2010), taxonomic review of Psittacosaurus; Vinther et al. (2016), three-dimensional camouflage in Psittacosaurus; Vinther et al. (2021), cloacal opening in Psittacosaurus",
+      "specimens": [
+        {
+          "name": "Holotype of P. mongoliensis",
+          "id": "AMNH 6254",
+          "institution": "American Museum of Natural History, New York",
+          "note": "Skull and partial skeleton from Oshih, Mongolia, named by Osborn in 1923; the type of the genus."
+        },
+        {
+          "name": "Exceptional referred specimen",
+          "id": "SMF R 4970",
+          "institution": "Senckenberg Naturmuseum, Frankfurt",
+          "note": "Complete skeleton from the Yixian Formation with skin, tail bristles, pigment and a cloaca; species uncertain."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Hundreds of skeletons, complete growth series and preserved skin.",
+        "standfirst": "Psittacosaurus is documented by hundreds of skulls and articulated skeletons from Mongolia, China and Siberia, spanning hatchlings to adults, with a few specimens preserving skin, tail bristles, pigment and stomach contents.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every skeletal region is known from many articulated individuals of several species and all growth stages, and soft tissues are preserved in exceptional specimens."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Several hundred"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Species boundaries unsettled"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete skulls and articulated skeletons are known for the type species and for several others, including full growth series from the Lujiatun beds of the Yixian Formation. Individual specimens add skin, bristles, pigment, a cloaca and gastroliths.",
+          "note": "The abundance of material is uneven across species: some are represented by single skulls, and the soft-tissue evidence comes from a small number of individuals."
+        },
+        "media": [
+          {
+            "file": "Psittacosaurus mongoliensis - Naturmuseum Senckenberg - DSC02251.JPG",
+            "kind": "Exceptional specimen",
+            "title": "SMF R 4970 at the Senckenberg Museum, Frankfurt",
+            "alt": "Photograph of the Psittacosaurus skeleton SMF R 4970 lying on a slab, with the long tail bristles and preserved skin outline visible",
+            "caption": "The Senckenberg skeleton with preserved skin, tail bristles and pigment traces. Museum labels assign it to P. mongoliensis; recent work treats the species as uncertain.",
+            "credit": "Daderot · CC0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Psittacosaurus_mongoliensis_-_Naturmuseum_Senckenberg_-_DSC02251.JPG"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Complete skulls with beaks, cheek horns and full dentitions for the type species and many others, from hatchlings to adults."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Complete articulated neck, back, sacrum and tail in numerous skeletons, with ribs and ossified tail tendons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Complete girdles, forelimbs and hindlimbs with hands and feet across a growth series, which underpins the shift from four to two legs."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Scaly skin, tail bristles, melanin-based countershading, a cloacal opening and gastroliths in particular specimens; juvenile clusters preserved together."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "AMNH 6254 · holotype of P. mongoliensis",
+            "description": "A skull and partial skeleton collected by the American Museum's Central Asiatic Expedition in 1922 and named by Henry Fairfield Osborn in 1923, the type of the genus and type species.",
+            "meta": "Oshih, Mongolia · Lower Cretaceous · American Museum of Natural History"
+          },
+          {
+            "kicker": "Exceptional specimen",
+            "title": "SMF R 4970 · the Senckenberg skeleton",
+            "description": "A complete skeleton from the Yixian Formation preserving skin, tail bristles, pigment and a cloaca. Its species assignment is unresolved, so its soft-tissue features cannot be applied to the genus as a whole.",
+            "meta": "Liaoning, China · Yixian Formation · Senckenberg Naturmuseum, Frankfurt"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Hundreds of skulls and skeletons of all ages, gastroliths in the body cavity, and skin, bristles, pigment and a cloaca in exceptional individuals."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "Growth-series limb proportions indicate a change from four-legged young to two-legged adults; pigment distribution is read as countershading suited to a closed forest habitat."
+          },
+          {
+            "label": "Still unknown",
+            "value": "How many named species are valid, whether soft-tissue features seen in one specimen applied to the others, and the social meaning of juvenile clusters."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Modern revision",
+            "title": "Hedrick and Dodson · 2013",
+            "description": "Open-access study of variation among the Lujiatun psittacosaurs and its implications for species taxonomy.",
+            "access": "Read online",
+            "url": "https://doi.org/10.1371/journal.pone.0069265"
+          },
+          {
+            "type": "Growth study",
+            "title": "Zhao et al. · 2013",
+            "description": "Growth series showing the shift from quadrupedal juveniles to bipedal adults, in Nature Communications.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1038/ncomms3079"
+          },
+          {
+            "type": "Soft-tissue study",
+            "title": "Vinther et al. · 2016",
+            "description": "Pigment pattern and countershading in SMF R 4970.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1016/j.cub.2016.06.065"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of Psittacosaurus and its place among the ceratopsians.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/psittacosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "The Senckenberg skeleton SMF R 4970",
+            "description": "Source page, creator details and reuse licence for the specimen photograph.",
+            "access": "CC0",
+            "url": "https://commons.wikimedia.org/wiki/File:Psittacosaurus_mongoliensis_-_Naturmuseum_Senckenberg_-_DSC02251.JPG"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38844"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

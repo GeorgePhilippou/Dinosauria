@@ -63,7 +63,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -89,6 +89,124 @@
       ],
       "diet": null
     },
+    "presentation": {
+      "heroLead": "A dog-sized, two-legged dinosaur from the dawn of the group, known from a nearly complete skeleton whose mixed teeth and shifting classification make it a touchstone for early dinosaur evolution.",
+      "heroMedia": {
+        "file": "Eoraptor lunensis recon.jpg",
+        "title": "Life restoration of Eoraptor lunensis",
+        "alt": "Life restoration of Eoraptor, a small slender bipedal dinosaur with a long tail, in side view",
+        "caption": "Life restoration by Ildarotyrannus. Proportions follow the near-complete holotype; skin texture and colour are interpretive.",
+        "credit": "Ildarotyrannus · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eoraptor_lunensis_recon.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Triassic · about 231–229 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "San Juan Province, Argentina"
+        },
+        {
+          "label": "Known size",
+          "value": "about 1–1.2 m · holotype"
+        },
+        {
+          "label": "Diet",
+          "value": "Uncertain · possibly omnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Eoraptor was a small, lightly built biped only about a metre long and perhaps ten kilograms in weight. It lived in the Ischigualasto valley about 230 million years ago alongside Herrerasaurus, Eodromaeus and a fauna dominated by rhynchosaurs, cynodonts and pseudosuchian archosaurs.",
+        "Its skull was low and slender with a long snout. The teeth are the puzzle: the front of the jaw carries leaf-shaped teeth like those of plant-eating sauropodomorphs, while further back they become recurved and serrated like a predator's. This mixture is often read as omnivory, but tooth shape alone cannot settle what it ate.",
+        "Named in 1993 as one of the most primitive dinosaurs known, Eoraptor was first treated as a basal theropod. The full description of the skeleton in 2013 moved it to the base of Sauropodomorpha, the lineage leading to the giant sauropods, and most analyses since have followed, though its position remains sensitive to dataset choice."
+      ],
+      "animalHighlights": [
+        "A nearly complete skull and skeleton makes it one of the best-preserved Triassic dinosaurs of its size.",
+        "Leaf-shaped front teeth and recurved rear teeth hint at a mixed diet that cannot be confirmed.",
+        "Reclassified from earliest theropod to earliest sauropodomorph as analyses improved."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Uncertain",
+          "level": "Mixed tooth shapes only",
+          "reason": "Heterodont teeth suggest a varied diet, but no gut contents, wear studies or coprolites tie the animal to specific food."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Supported by articulated limbs",
+          "reason": "Long hindlimbs and short arms with grasping hands in the holotype show habitual two-legged movement."
+        },
+        {
+          "label": "Known size",
+          "value": "about 1 m long",
+          "level": "Measured from the holotype",
+          "reason": "The near-complete skeleton gives a reliable length; mass is estimated from limb bone dimensions and the animal's growth stage is not fully resolved."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeleton well established",
+          "level": "Soft tissues reconstructed",
+          "reason": "Proportions come from the articulated holotype; skin, colour and any filamentous covering are not preserved."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Triassic (late Carnian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 231–229 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Ischigualasto Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Valle de la Luna, Ischigualasto Provincial Park, San Juan Province, Argentina"
+        }
+      ],
+      "locality": {
+        "name": "Valle de la Luna",
+        "region": "Ischigualasto Provincial Park, San Juan Province, Argentina",
+        "note": "The species name lunensis refers to the Valley of the Moon. The holotype was found in 1991 by Ricardo Martínez during a joint Argentine–American expedition. The map shows a regional reference."
+      },
+      "classificationSummary": "Eoraptor is an early saurischian whose exact position is contested. The 2013 monograph and most later analyses place it at the base of Sauropodomorpha, but some studies recover it as a basal theropod or as a saurischian outside both groups, so the catalogue marks the sauropodomorph placement with a query.",
+      "related": [
+        {
+          "id": "herrerasaurus",
+          "reason": "The larger predatory dinosaur from the same beds, with which it was found."
+        },
+        {
+          "id": "eodromaeus",
+          "reason": "A contemporary early theropod once confused with Eoraptor material."
+        },
+        {
+          "id": "chindesaurus",
+          "reason": "A North American early saurischian of similarly uncertain affinity."
+        }
+      ],
+      "questions": [
+        {
+          "title": "What did it eat?",
+          "copy": "The teeth combine plant-eater and predator shapes. Omnivory is the usual reading, but it remains an inference from tooth form rather than direct evidence."
+        },
+        {
+          "title": "Sauropodomorph or theropod?",
+          "copy": "Its placement shifts with the characters and taxa included in each analysis. The current majority view favours the sauropodomorph stem."
+        },
+        {
+          "title": "Was the holotype fully grown?",
+          "copy": "Bone surface texture and skeletal fusion suggest the animal was not a juvenile, but adult size and growth pattern are not firmly established."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Radiometric dates constrain the fossil-bearing Ischigualasto interval near 231-229 Ma.",
     "sources": [
       {
@@ -105,6 +223,11 @@
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Eoraptor",
         "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Eoraptor"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Dino Directory: eoraptor",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/eoraptor.html"
       }
     ],
     "residualUncertainty": [
@@ -124,7 +247,141 @@
         "referred material"
       ],
       "summary": "Eoraptor lunensis was a small early saurischian from the Ischigualasto Formation of Argentina. A nearly complete holotype and additional partial specimens preserve much of the skeleton; modern analyses commonly place it near the base of Sauropodomorpha, though dinosaur-root relationships remain debated.",
-      "sourceBasis": "Sereno et al. (1993), Primitive dinosaur skeleton from Argentina; Sereno et al. (2013), The complete skeleton of Eoraptor lunensis; Paleobiology Database taxon and occurrence context for Eoraptor"
+      "sourceBasis": "Sereno et al. (1993), Primitive dinosaur skeleton from Argentina; Sereno et al. (2013), The complete skeleton of Eoraptor lunensis; Paleobiology Database taxon and occurrence context for Eoraptor",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "PVSJ 512",
+          "institution": "Museo de Ciencias Naturales, Universidad Nacional de San Juan",
+          "note": "Articulated, nearly complete skeleton with skull found in 1991 in the Valle de la Luna."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "A nearly complete articulated skeleton, plus a few partial referred specimens.",
+        "standfirst": "Eoraptor rests on the holotype PVSJ 512, an articulated skeleton with skull that preserves the great majority of the animal. Additional partial specimens from the same formation add little that the holotype does not already show.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every skeletal region is preserved in the articulated holotype, including a complete skull, hands and feet, with parts duplicated in referred specimens."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Near-complete skeleton with skull"
+          },
+          {
+            "label": "Individuals",
+            "value": "Holotype plus a few partial"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Diet and phylogeny unresolved"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "A complete skull with lower jaws and full dentition, the entire vertebral column with ribs and chevrons, both girdles, forelimbs with hands, and hindlimbs with feet, largely in articulation.",
+          "note": "Some elements are crushed or damaged and the tail tip is incomplete; referred specimens are less complete than the holotype."
+        },
+        "media": [
+          {
+            "file": "Eoraptor skeletal.png",
+            "kind": "Known-material diagram",
+            "title": "Skeletal reconstruction with known elements in white",
+            "alt": "Skeletal diagram of Eoraptor lunensis with preserved bones shown in white and missing regions in grey",
+            "caption": "A skeletal diagram of Eoraptor lunensis showing preserved elements in white and unknown regions in grey; almost the whole skeleton is documented.",
+            "credit": "Maurissauro · CC BY-SA 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eoraptor_skeletal.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "A complete skull with braincase, lower jaws and the full heterodont tooth row."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal, sacral and most caudal vertebrae, with ribs, gastralia and chevrons."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Scapulocoracoids, complete pelvis, both forelimbs with five-fingered hands, and both hindlimbs with feet."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "None. No skin, integument, gut contents or eggs are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "PVSJ 512 · holotype",
+            "description": "An articulated, nearly complete skeleton with skull found in 1991 and named in 1993, then described bone by bone in the 2013 monograph.",
+            "meta": "Valle de la Luna · Ischigualasto Formation · Museo de Ciencias Naturales, Universidad Nacional de San Juan"
+          },
+          {
+            "kicker": "Referred material",
+            "title": "Partial skeletons",
+            "description": "A few additional partial specimens from the Ischigualasto Formation have been referred to Eoraptor. They confirm the anatomy of the holotype but add little new information.",
+            "meta": "Ischigualasto Formation · less complete than the holotype"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "A near-complete articulated skeleton with skull and full dentition from a radiometrically dated formation."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A small, agile biped near the base of the sauropodomorph lineage whose mixed dentition may reflect a generalist diet."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Its actual diet, precise phylogenetic position, growth stage and adult size, and all soft tissues."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Sereno et al. · 1993",
+            "description": "Original naming and preliminary description of the holotype in Nature.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1038/361064a0"
+          },
+          {
+            "type": "Osteological monograph",
+            "title": "Sereno et al. · 2013",
+            "description": "Complete description of the skeleton and reassessment as a basal sauropodomorph.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1080/02724634.2013.820113"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus in the Dino Directory.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/eoraptor.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Known-material skeletal diagram",
+            "description": "Source page, creator details and reuse licence for the skeletal reconstruction.",
+            "access": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Eoraptor_skeletal.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=57453"
+          }
+        ],
+        "limitations": "The coverage band describes the holotype and securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

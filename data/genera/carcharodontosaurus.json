@@ -72,7 +72,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria A-C systematic scientific review",
     "consensusScope": [
       "accepted name and broad classification",
@@ -100,6 +100,124 @@
         "Postcranial and crest details from the Bahariya specimen named Tameryraptor must no longer be presented as C. saharicus anatomy."
       ]
     },
+    "presentation": {
+      "heroLead": "A giant shark-toothed predator of Cretaceous North Africa, whose name now rests on a single large partial skull from Morocco rather than on the lost Egyptian skeleton once used to reconstruct it.",
+      "heroMedia": {
+        "file": "Carcharodontosaurus.png",
+        "title": "Life restoration of Carcharodontosaurus saharicus",
+        "alt": "Scientific life restoration of Carcharodontosaurus saharicus walking in side view",
+        "caption": "Life restoration by Fred Wierum. The skull follows the Moroccan neotype; the body is modelled on the related Giganotosaurus because secure postcranial bones of Carcharodontosaurus are scarce. Colour and skin are interpretive.",
+        "credit": "Fred Wierum · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carcharodontosaurus.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 100–94 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Morocco and Algeria, North Africa"
+        },
+        {
+          "label": "Known size",
+          "value": "skull about 1.6 m · body length extrapolated"
+        },
+        {
+          "label": "Diet",
+          "value": "Carnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Carcharodontosaurus was a very large two-legged predator of the carcharodontosaurid family, named for its blade-like, serrated teeth that reminded early describers of those of the great white shark. The Moroccan neotype skull is about 1.6 metres long, which places the animal among the largest theropods known. Whole-body estimates of twelve to thirteen metres and several tonnes are extrapolations from that skull using the proportions of relatives such as Giganotosaurus.",
+        "The skull is long and relatively narrow, with a large opening in front of the eye, thin, ornamented nasal and lacrimal bones and a lightly built braincase. CT study of the neotype braincase shows a small, elongate brain with large olfactory bulbs and a relatively small optic region, a pattern shared with other allosauroids.",
+        "It lived on the river deltas and floodplains of the Kem Kem region alongside Spinosaurus, the abelisaurids and Deltadromeus. Much of the body plan, limb proportions and any behaviour attributed to it in popular accounts come from other carcharodontosaurids, because the securely referred fossils of Carcharodontosaurus itself are almost entirely cranial."
+      ],
+      "animalHighlights": [
+        "Blade-like teeth with wrinkled enamel bands across the crown, a feature shared by the family that bears its name.",
+        "A large, lightly built skull with a long snout, thin skull roof bones and a small braincase, all directly seen in the neotype.",
+        "A body reconstructed from relatives: postcranial anatomy is not securely known for the genus after the 2025 removal of the Egyptian specimen."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Meat-eater",
+          "level": "Supported by teeth and skull anatomy",
+          "reason": "Serrated, laterally compressed teeth and a slicing skull architecture indicate a predator of large animals. Prey is inferred from the Kem Kem fauna; no gut contents or bite-marked bones are securely attributed."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Inferred from relatives",
+          "reason": "No secure hindlimb of C. saharicus is known. Bipedal posture follows every other large theropod and the closely related Giganotosaurus."
+        },
+        {
+          "label": "Known size",
+          "value": "skull about 1.6 m",
+          "level": "Body length extrapolated",
+          "reason": "The neotype skull is measurable; body length of twelve to thirteen metres and mass of six tonnes or more depend on scaling from relatives."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skull outline supported",
+          "level": "Body, skin and colour reconstructed",
+          "reason": "Skull shape is known from the neotype. Body proportions, skin texture and colour are borrowed from better-known carcharodontosaurids."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous · Cenomanian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 100–94 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Kem Kem Group (neotype); Continental Intercalaire (original teeth)"
+        },
+        {
+          "label": "Type locality",
+          "value": "Timimoun region, Algeria (original teeth); neotype from the Kem Kem beds, south-eastern Morocco"
+        }
+      ],
+      "locality": {
+        "name": "Kem Kem beds",
+        "region": "Errachidia Province, south-eastern Morocco",
+        "note": "Kem Kem Group, Cenomanian. The original type teeth came from the Continental Intercalaire near Timimoun, Algeria, and are lost; the neotype skull was collected in Morocco in 1995."
+      },
+      "classificationSummary": "Carcharodontosaurus is the name-bearing genus of Carcharodontosauridae, a family of large allosauroid theropods that also includes Giganotosaurus, Mapusaurus and Acrocanthosaurus. Its closest relatives are the South American giganotosaurines; the second species, C. iguidensis from Niger, may not belong in the genus.",
+      "related": [
+        {
+          "id": "giganotosaurus",
+          "reason": "A closely related South American carcharodontosaurid known from a much more complete skeleton, on which body reconstructions of Carcharodontosaurus depend."
+        },
+        {
+          "id": "acrocanthosaurus",
+          "reason": "An earlier North American carcharodontosaurian with a well-preserved skull and skeleton for comparison."
+        },
+        {
+          "id": "spinosaurus",
+          "reason": "The other giant predator of the Kem Kem beds, found in the same Cenomanian rocks."
+        }
+      ],
+      "questions": [
+        {
+          "title": "How much of the classic skeleton was really Carcharodontosaurus?",
+          "copy": "The Egyptian skull and partial skeleton described by Stromer in 1931 were destroyed in 1944. Their re-evaluation from Stromer's records led to their separation as Tameryraptor in 2025, so older reconstructions of the body may not represent the Moroccan animal."
+        },
+        {
+          "title": "How big was it?",
+          "copy": "Only the skull is securely measurable. Length and mass estimates rely on scaling from Giganotosaurus and other relatives, so published figures vary considerably."
+        },
+        {
+          "title": "Is C. iguidensis a Carcharodontosaurus?",
+          "copy": "The Niger species was named in 2007 on a partial skull and braincase. Later analyses have questioned whether it belongs in the same genus, and its status remains under review."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Secure C. saharicus evidence is Cenomanian, chiefly the historical Algerian type record and the Kem Kem Group neotype of Morocco.",
     "sources": [
       {
@@ -116,6 +234,11 @@
         "type": "species-revision",
         "citation": "Brusatte & Sereno (2007), A new species of Carcharodontosaurus from Niger",
         "url": "https://d3qi0qp55mx5f5.cloudfront.net/paulsereno/i/docs/07-JVP-Carch.iguidensis.pdf"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Dino Directory: carcharodontosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/carcharodontosaurus.html"
       }
     ],
     "residualUncertainty": [
@@ -137,7 +260,160 @@
         "The 2025 Tameryraptor revision is recent and should be monitored."
       ],
       "summary": "Carcharodontosaurus saharicus was a giant carcharodontosaurid from Cenomanian North Africa. The name originated with now-lost Algerian teeth and is stabilised by a large partial Moroccan neotype skull; the destroyed Egyptian skeleton long used to reconstruct it was separated in 2025 as Tameryraptor markgrafi.",
-      "sourceBasis": "Sereno et al. (1996), Predatory dinosaurs from the Sahara and the neotype of Carcharodontosaurus; Kellermann, Cuesta & Rauhut (2025), Reassessment of the Egyptian carcharodontosaurid and Tameryraptor markgrafi; Brusatte & Sereno (2007), A new species of Carcharodontosaurus from Niger"
+      "sourceBasis": "Sereno et al. (1996), Predatory dinosaurs from the Sahara and the neotype of Carcharodontosaurus; Kellermann, Cuesta & Rauhut (2025), Reassessment of the Egyptian carcharodontosaurid and Tameryraptor markgrafi; Brusatte & Sereno (2007), A new species of Carcharodontosaurus from Niger",
+      "specimens": [
+        {
+          "name": "Neotype",
+          "id": "SGM-Din 1",
+          "institution": "Ministère de l'Énergie et des Mines, Rabat",
+          "note": "Large partial skull with braincase from the Kem Kem beds of Morocco, designated neotype by Sereno et al. in 1996."
+        },
+        {
+          "name": "Original type teeth",
+          "id": "",
+          "institution": "Formerly Muséum d'Histoire naturelle, Lyon collections",
+          "note": "Teeth from the Continental Intercalaire near Timimoun, Algeria, named Megalosaurus saharicus by Depéret and Savornin; now lost."
+        },
+        {
+          "name": "Bahariya specimen (now Tameryraptor)",
+          "id": "",
+          "institution": "Formerly Bayerische Staatssammlung, Munich",
+          "note": "Partial skull and skeleton described by Stromer in 1931, destroyed in 1944 and renamed Tameryraptor markgrafi in 2025."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Lost type teeth, a destroyed skeleton, and one large partial skull that now carries the name.",
+        "standfirst": "Carcharodontosaurus saharicus has an unusually tangled evidence base. The original Algerian teeth are lost, the Egyptian skeleton described in 1931 was destroyed in the Second World War and has since been reassigned to Tameryraptor, and the name is stabilised by a partial Moroccan skull designated as neotype in 1996.",
+        "coverage": {
+          "label": "Moderate",
+          "level": 2,
+          "maximum": 4,
+          "basis": "A large partial skull with braincase is securely known. Secure postcranial material is very limited, and many isolated North African teeth and bones cannot be confidently referred."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Partial skull"
+          },
+          {
+            "label": "Individuals",
+            "value": "1 secure skull"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Almost no secure postcranium"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The neotype SGM-Din 1 preserves much of the skull, including the maxilla, nasal, lacrimal, postorbital, jugal, part of the skull roof and a braincase, with teeth. Isolated teeth and a few bones from the Kem Kem beds and elsewhere have been referred to the species with varying confidence.",
+          "note": "Postcranial features once attributed to Carcharodontosaurus came from the destroyed Bahariya specimen. After its separation as Tameryraptor markgrafi in 2025, those details should no longer be presented as C. saharicus anatomy."
+        },
+        "media": [
+          {
+            "file": "Carcharodontosaurus saharicus skull reconstruction.png",
+            "kind": "Known-material diagram",
+            "title": "Neotype skull with known bones in white",
+            "alt": "Line diagram of the Carcharodontosaurus saharicus neotype skull in side view with preserved bones shown in white and reconstructed areas in grey",
+            "caption": "A diagram of the neotype skull: white areas are preserved bone, grey areas are restored from relatives such as Acrocanthosaurus and Meraxes. The specimen appears in some sources under a University of Chicago catalogue number.",
+            "credit": "Eotyrannu5 · CC BY-SA 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carcharodontosaurus_saharicus_skull_reconstruction.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "A large partial skull with braincase and teeth (the neotype), plus isolated teeth and a fragmentary dentary referred to the species."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "No securely referred vertebral series. Isolated Kem Kem vertebrae have been assigned to the genus but cannot be tied to the neotype."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "No secure girdle or limb elements; the classic limb material belonged to the destroyed Egyptian specimen now named Tameryraptor."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "The neotype braincase has been CT-scanned to reconstruct the brain and inner ear. No skin, colour or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "SGM-Din 1 · neotype",
+            "description": "A partial skull collected from the Kem Kem beds of Morocco in 1995 and designated neotype by Sereno and colleagues in 1996, because the original Algerian teeth named by Depéret and Savornin in the 1920s are lost and the Egyptian material described by Stromer was destroyed in 1944.",
+            "meta": "Kem Kem beds · Cenomanian · Ministère de l'Énergie et des Mines, Rabat"
+          },
+          {
+            "kicker": "Former referred specimen",
+            "title": "Bahariya skull and skeleton · destroyed",
+            "description": "A partial skull, vertebrae, pelvis and hindlimb bones from Egypt described by Stromer in 1931 and lost in the bombing of Munich in 1944. Known only from Stromer's descriptions and photographs, they were named Tameryraptor markgrafi in 2025.",
+            "meta": "Bahariya Formation · Egypt · specimen no longer exists"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "A partial skull and braincase from Morocco, isolated shark-like teeth, and historical records of destroyed Egyptian bones."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A giant carcharodontosaurid apex predator of Cenomanian North Africa, comparable in size to Giganotosaurus and Tyrannosaurus."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Body proportions, total length and mass, limb anatomy, the status of C. iguidensis and which isolated North African bones belong to the genus."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Neotype description",
+            "title": "Sereno et al. · 1996",
+            "description": "Designates the Moroccan skull as neotype and describes it alongside other Saharan predators.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1126/science.272.5264.986"
+          },
+          {
+            "type": "Taxonomic revision",
+            "title": "Kellermann, Cuesta & Rauhut · 2025",
+            "description": "Re-evaluates Stromer's destroyed Egyptian specimen and names it Tameryraptor markgrafi.",
+            "access": "Open access",
+            "url": "https://doi.org/10.1371/journal.pone.0311096"
+          },
+          {
+            "type": "Second species",
+            "title": "Brusatte & Sereno · 2007",
+            "description": "Names C. iguidensis from Niger and compares it with the neotype of C. saharicus.",
+            "access": "Read online",
+            "url": "https://d3qi0qp55mx5f5.cloudfront.net/paulsereno/i/docs/07-JVP-Carch.iguidensis.pdf"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus and its shark-like teeth.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/carcharodontosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Known-material skull diagram",
+            "description": "Source page, creator details and reuse licence for the neotype skull reconstruction.",
+            "access": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Carcharodontosaurus_saharicus_skull_reconstruction.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38576"
+          }
+        ],
+        "limitations": "The coverage band describes the securely referred material of C. saharicus at genus level after the 2025 revision. It is an editorial evidence summary, not a published completeness percentage, and it excludes isolated teeth of uncertain identity.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

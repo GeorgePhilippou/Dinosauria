@@ -66,7 +66,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria A-C systematic scientific review",
     "consensusScope": [
       "accepted name and broad classification",
@@ -95,6 +95,124 @@
       ],
       "massKg": null
     },
+    "presentation": {
+      "heroLead": "A short-necked sauropod from Early Cretaceous Argentina whose neck vertebrae carried paired spines taller than any other known dinosaur's, known from one good partial skeleton.",
+      "heroMedia": {
+        "file": "Amargasaurus Reconstruction Fred Wierum.png",
+        "title": "Life restoration of Amargasaurus cazaui",
+        "alt": "Life restoration of two Amargasaurus with tall paired spines along the neck",
+        "caption": "Life restoration by Fred Wierum showing the neck spines as a keratin-covered display structure. The soft-tissue covering, colour and the displaying behaviour shown here are interpretive.",
+        "credit": "Fred Wierum · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amargasaurus_Reconstruction_Fred_Wierum.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Early Cretaceous · about 130–120 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Neuquén Province, Argentina"
+        },
+        {
+          "label": "Known size",
+          "value": "about 9–10 m · estimated"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Amargasaurus was a small sauropod by the standards of its group, probably around nine to ten metres long. It belonged to the dicraeosaurids, a family of diplodocoid sauropods with unusually short necks that appear to have browsed at low to moderate heights rather than reaching high into the canopy.",
+        "Its defining feature is the neck. Each cervical vertebra carried a pair of extremely elongate neural spines that projected upwards and backwards, forming two rows along the neck that continued, at lower height, over the back. Bone microstructure suggests the spines were covered in a hard sheath, but whether they supported a skin sail, a keratin cover or something else is still argued, and their function is unknown.",
+        "The skull is only partly preserved, but the braincase shows that the head was habitually held with the snout angled downwards, consistent with low browsing. Its peg-like teeth, inferred from close relatives, would have stripped rather than chewed vegetation."
+      ],
+      "animalHighlights": [
+        "Paired neural spines on the neck vertebrae are the tallest known for any sauropod relative to body size.",
+        "A short neck for a sauropod, typical of dicraeosaurids, suggests feeding close to the ground.",
+        "Braincase anatomy indicates the head was carried with the snout angled downwards."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by skull and relatives",
+          "reason": "Herbivory is not in doubt for a sauropod, and the downward-angled head supports low browsing. Preserved teeth are few, so tooth form leans on dicraeosaurid relatives."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal",
+          "level": "Supported by limb and girdle bones",
+          "reason": "Fore- and hindlimb elements are preserved and show the columnar four-legged stance of all sauropods."
+        },
+        {
+          "label": "Known size",
+          "value": "about 9–10 m long",
+          "level": "Estimated from one skeleton",
+          "reason": "Length is scaled from the single partial skeleton; mass estimates of around two to three tonnes are model-based and vary between studies."
+        },
+        {
+          "label": "Appearance",
+          "value": "Spines supported soft tissue",
+          "level": "Covering unresolved",
+          "reason": "Histology shows the spines bore a hard covering, but a sail, keratin sheath or fleshy ridge remain competing reconstructions."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Early Cretaceous (Barremian–early Aptian)"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 130–120 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "La Amarga Formation, Puesto Antigual Member"
+        },
+        {
+          "label": "Type locality",
+          "value": "La Amarga arroyo, Neuquén Province, Argentina"
+        }
+      ],
+      "locality": {
+        "name": "La Amarga",
+        "region": "Neuquén Province, Patagonia, Argentina",
+        "note": "The skeleton was collected in 1984 by an expedition led by José Bonaparte. The map shows a regional reference rather than the exact excavation point."
+      },
+      "classificationSummary": "Amargasaurus is a dicraeosaurid, a family of short-necked diplodocoid sauropods known otherwise from Africa, North America and other South American finds. Its close relationship with Dicraeosaurus and the newer Bajadasaurus is well supported, though the exact branching order within the family shifts between analyses.",
+      "related": [
+        {
+          "id": "dicraeosaurus",
+          "reason": "The African dicraeosaurid that gives the family its name, with shorter neck spines."
+        },
+        {
+          "id": "brachytrachelopan",
+          "reason": "An even shorter-necked dicraeosaurid from Jurassic Patagonia."
+        },
+        {
+          "id": "diplodocus",
+          "reason": "Compare with a long-necked diplodocoid cousin of the more familiar body plan."
+        }
+      ],
+      "questions": [
+        {
+          "title": "What covered the neck spines?",
+          "copy": "Bone histology shows a hard outer covering, but a skin sail, horn-like sheaths and a fleshy crest have all been proposed. No soft tissue is preserved to settle the question."
+        },
+        {
+          "title": "What were the spines for?",
+          "copy": "Display, defence, thermoregulation and species recognition have all been suggested. None can be tested directly from a single skeleton."
+        },
+        {
+          "title": "How variable was the species?",
+          "copy": "Almost everything known rests on one individual, so differences between ages, sexes or individuals cannot be assessed."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "The Puesto Antigual Member of the La Amarga Formation is Barremian-early Aptian.",
     "sources": [
       {
@@ -111,6 +229,11 @@
         "type": "authoritative-museum-reference",
         "citation": "Natural History Museum, Dino Directory: amargasaurus",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/amargasaurus.html"
+      },
+      {
+        "type": "braincase-revision",
+        "citation": "Paulina Carabajal et al. (2014), Braincase, neuroanatomy, and neck posture of Amargasaurus cazaui",
+        "url": "https://doi.org/10.1080/02724634.2014.838174"
       }
     ],
     "residualUncertainty": [
@@ -129,7 +252,142 @@
         "The soft-tissue covering and function of the neck spines are unknown."
       ],
       "summary": "Amargasaurus cazaui was a dicraeosaurid sauropod from the La Amarga Formation of Argentina. One partial skeleton preserves much of the vertebral column, including paired, extremely tall cervical neural spines, plus skull and limb elements.",
-      "sourceBasis": "Cerda et al. (2022), Osteohistology and palaeobiological implications of the neural spines of Amargasaurus; Gallina et al. (2019), A new long-spined dinosaur and the diversity of dicraeosaurids; Natural History Museum, Dino Directory: amargasaurus"
+      "sourceBasis": "Cerda et al. (2022), Osteohistology and palaeobiological implications of the neural spines of Amargasaurus; Gallina et al. (2019), A new long-spined dinosaur and the diversity of dicraeosaurids; Natural History Museum, Dino Directory: amargasaurus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "MACN-N 15",
+          "institution": "Museo Argentino de Ciencias Naturales, Buenos Aires",
+          "note": "Partial associated skeleton with partial skull, including the braincase, most of the presacral vertebral column, sacrum, anterior caudals, pelvis and limb elements."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "One partial skeleton with much of the spectacular neck preserved.",
+        "standfirst": "Amargasaurus rests almost entirely on the holotype skeleton collected in 1984 from the La Amarga Formation. It preserves part of the skull, most of the neck and back, the sacrum, some tail vertebrae and elements of the girdles and limbs.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Most skeletal regions are represented in one associated skeleton, but the skull is incomplete, the tail is largely missing and only a single individual is known."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Partial skeleton with partial skull"
+          },
+          {
+            "label": "Individuals",
+            "value": "1"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Single individual; soft tissue unknown"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The holotype includes the back of the skull with the braincase, the cervical, dorsal and sacral vertebrae, the first few caudal vertebrae, ribs, the pelvis and elements of the shoulder girdle, forelimb and hindlimb.",
+          "note": "The snout, most of the tail and the hands and feet are missing or poorly known, so those regions in mounts and diagrams are reconstructed from relatives."
+        },
+        "media": [
+          {
+            "file": "Amargasaurus cazaui skeletal by Gunnar Bivens.png",
+            "kind": "Known-material diagram",
+            "title": "Skeletal reconstruction with preserved bones of the holotype marked",
+            "alt": "Skeletal diagram of Amargasaurus cazaui with the bones preserved in the holotype MACN-N 15 shown in white",
+            "caption": "A skeletal reconstruction of Amargasaurus with the bones known from the holotype MACN-N 15 shown in white; unmarked regions are inferred from related sauropods.",
+            "credit": "Gunnar Bivens · CC BY 3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amargasaurus_cazaui_skeletal_by_Gunnar_Bivens.png"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "The posterior part of the skull, including a well-preserved braincase; the snout and lower jaws are largely unknown."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "A near-complete cervical and dorsal series with the tall paired neural spines, the sacrum, anterior caudal vertebrae and ribs."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Pelvic and pectoral girdle elements with forelimb and hindlimb long bones; the hands and feet are poorly represented."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Bone microstructure of the neural spines has been sampled histologically; no skin, sail impressions or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "MACN-N 15 · holotype",
+            "description": "A partial, associated skeleton with partial skull described by Leonardo Salgado and José Bonaparte in 1991. It is the only substantial specimen of the genus and the basis for every reconstruction.",
+            "meta": "La Amarga, Neuquén · La Amarga Formation · Museo Argentino de Ciencias Naturales, Buenos Aires"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "One associated skeleton with braincase, most of the presacral vertebral column with its tall paired spines, sacrum, pelvis and limb bones."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "A short-necked, low-browsing dicraeosaurid whose neck spines carried a hard covering and most likely served in display, with sail and sheath reconstructions still competing."
+          },
+          {
+            "label": "Still unknown",
+            "value": "The full skull, tail and feet, the soft tissue and function of the spines, body mass, growth and any variation between individuals."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Modern revision",
+            "title": "Paulina Carabajal et al. · 2014",
+            "description": "Braincase anatomy, neuroanatomy and habitual head posture of the holotype.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1080/02724634.2014.838174"
+          },
+          {
+            "type": "Comparative context",
+            "title": "Gallina et al. · 2019",
+            "description": "Open-access description of Bajadasaurus that reviews dicraeosaurid diversity and the neck spines of Amargasaurus.",
+            "access": "Read online",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6362061/"
+          },
+          {
+            "type": "Spine histology",
+            "title": "Cerda et al. · 2022",
+            "description": "Bone microstructure of the neural spines and what it implies for their soft-tissue covering.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1111/joa.13659"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus in the Dino Directory.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/amargasaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Known-material skeletal diagram",
+            "description": "Source page, creator details and reuse licence for the skeletal reconstruction.",
+            "access": "CC BY 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Amargasaurus_cazaui_skeletal_by_Gunnar_Bivens.png"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=53960"
+          }
+        ],
+        "limitations": "The coverage band describes the single holotype skeleton at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

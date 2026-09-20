@@ -65,7 +65,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -91,6 +91,124 @@
         "Long hindlimbs support rapid bipedal locomotion, but no exact top speed can be recovered.",
         "Its toothless beak does not identify a single diet; herbivory and omnivory remain alternatives."
       ]
+    },
+    "presentation": {
+      "heroLead": "A long-legged, toothless ostrich-mimic theropod from Late Cretaceous Alberta, known from one famous articulated skeleton and several partial ones.",
+      "heroMedia": {
+        "file": "Struthiomimus altus life restoration.jpg",
+        "title": "Life restoration of Struthiomimus altus",
+        "alt": "Life restoration of Struthiomimus altus, a slender, long-necked, feathered theropod with long legs and a small toothless head, in side view",
+        "caption": "Life restoration based on a published skeletal reconstruction. The feathery covering is inferred from related ornithomimids; colour and the exact extent of plumage are interpretive.",
+        "credit": "Anonymous Dinonerd · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Struthiomimus_altus_life_restoration.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 77–75 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Alberta, Canada"
+        },
+        {
+          "label": "Known size",
+          "value": "about 4 m · estimated"
+        },
+        {
+          "label": "Diet",
+          "value": "Uncertain, herbivore or omnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Struthiomimus was a lightly built theropod about four metres long with a small, toothless, beaked head on a long neck, slender arms ending in three long-clawed fingers, and long, powerful hindlimbs. Its name means ostrich mimic, and the body proportions really are close to those of a large flightless bird with a long tail added.",
+        "The best specimen, AMNH 5339, was found on the Red Deer River in 1914 with the skeleton still articulated in a death pose, which is why the proportions of Struthiomimus are known more securely than for most ornithomimids. Other skeletons from the same rocks are partial, and the skull is less well preserved than the rest of the body.",
+        "The beak and grasping hands have been read in several ways, from browsing on plants and filtering water to catching small animals. None of these is confirmed by gut contents, so the diet remains open, with a plant-rich or mixed diet the most commonly favoured options."
+      ],
+      "animalHighlights": [
+        "Ostrich-like proportions with long legs and a slender neck are documented directly in an articulated skeleton.",
+        "The toothless beak and three long, nearly equal fingers with weakly curved claws are unusual among theropods.",
+        "The hindlimb is built for speed, although no top speed can be measured from the bones."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Uncertain",
+          "level": "Beak and hands allow several diets",
+          "reason": "A toothless beak and clawed hands are consistent with browsing, omnivory or small-prey capture. No gut contents or wear evidence settles the question."
+        },
+        {
+          "label": "Movement",
+          "value": "Fast bipedal runner",
+          "level": "Supported by hindlimb anatomy",
+          "reason": "Long, slender hindlimbs and a compact foot indicate a fast two-legged animal; an exact speed cannot be calculated from the skeleton."
+        },
+        {
+          "label": "Known size",
+          "value": "about 4 m long",
+          "level": "Measured on AMNH 5339",
+          "reason": "The articulated skeleton gives length directly. Mass estimates of around 150 kilograms are model-based and vary between authors."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeletal outline well supported",
+          "level": "Feathers inferred from relatives",
+          "reason": "No integument is preserved in Struthiomimus; feather evidence comes from the closely related Ornithomimus."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous, late Campanian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 77–75 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Dinosaur Park Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Red Deer River valley, Alberta, Canada"
+        }
+      ],
+      "locality": {
+        "name": "Red Deer River valley",
+        "region": "Alberta, Canada",
+        "note": "Dinosaur Park Formation, in and around what is now Dinosaur Provincial Park. Lambe's original type material and the articulated AMNH skeleton both come from this stretch of the river."
+      },
+      "classificationSummary": "Struthiomimus is an ornithomimid, one of the toothless ostrich-mimic theropods within Coelurosauria. It is closely related to Ornithomimus from the same rocks, and telling the two apart from partial material remains a recurring problem.",
+      "related": [
+        {
+          "id": "ornithomimus",
+          "reason": "Compare with the closely related Alberta ornithomimid that preserves feather evidence."
+        },
+        {
+          "id": "gallimimus",
+          "reason": "Compare with a larger Mongolian ornithomimid known from many skeletons."
+        },
+        {
+          "id": "deinocheirus",
+          "reason": "Compare with a giant, deep-bodied ornithomimosaur that shows how varied the group became."
+        }
+      ],
+      "questions": [
+        {
+          "title": "What did it eat?",
+          "copy": "The beak does not identify a diet. Suggestions range from plants and small animals to filter-feeding, and the hands have been compared with those of sloths and birds. No direct evidence exists."
+        },
+        {
+          "title": "Which bones are really Struthiomimus?",
+          "copy": "Ornithomimus lived in the same rocks and looks similar. Partial skeletons and material from other formations have been moved between the two genera more than once."
+        },
+        {
+          "title": "How fast could it run?",
+          "copy": "The hindlimb is clearly built for speed, but published speed figures are extrapolations from limb proportions rather than measurements."
+        }
+      ],
+      "compactSources": true
     },
     "ageReviewNote": "Secure S. altus material is late Campanian Dinosaur Park Formation.",
     "sources": [
@@ -118,7 +236,140 @@
         "referrals"
       ],
       "summary": "Struthiomimus altus was an ornithomimid from the Dinosaur Park Formation of Alberta, known from several partial skeletons including well-preserved limbs and hands.",
-      "sourceBasis": "Longrich (2008), new ornithomimid material and ecology of Struthiomimus; Natural History Museum Dino Directory: struthiomimus"
+      "sourceBasis": "Longrich (2008), new ornithomimid material and ecology of Struthiomimus; Natural History Museum Dino Directory: struthiomimus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "CMN 930",
+          "institution": "Canadian Museum of Nature, Ottawa",
+          "note": "Partial pelvis and hindlimb from the Red Deer River, named by Lambe in 1902 as Ornithomimus altus."
+        },
+        {
+          "name": "Referred articulated skeleton",
+          "id": "AMNH 5339",
+          "institution": "American Museum of Natural History, New York",
+          "note": "Near-complete postcranial skeleton with damaged skull collected by Barnum Brown in 1914; the basis of Osborn's 1917 genus description."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "One articulated skeleton and several partial ones from Alberta.",
+        "standfirst": "Struthiomimus altus is anchored by Lambe's partial pelvis and hindlimb and is best known from AMNH 5339, an articulated skeleton collected by Barnum Brown in 1914, supplemented by other partial skeletons from the Dinosaur Park Formation.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "The postcranial skeleton is well documented, chiefly from one articulated individual, but the skull is incompletely known and few other individuals are substantially complete."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Articulated partial skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Several"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Skull poorly known"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "AMNH 5339 preserves the vertebral column, girdles, both forelimbs with hands and both hindlimbs in articulation, with a damaged skull. The holotype and further referred specimens add pelvic, limb and hand material from other individuals in the same formation.",
+          "note": "Because so much rests on one skeleton, individual and growth variation are hard to assess, and specimens from outside the Dinosaur Park Formation are not securely assigned."
+        },
+        "media": [
+          {
+            "file": "Struthiomimus skeleton jconway.jpg",
+            "kind": "Referred specimen",
+            "title": "AMNH 5339 as figured by Osborn in 1917",
+            "alt": "Photograph plate of the articulated Struthiomimus altus skeleton AMNH 5339 lying in its rock slab with the neck arched back",
+            "caption": "The articulated skeleton collected by Barnum Brown in 1914 on the Red Deer River, as published in Osborn's 1917 description of the genus. The neck is drawn back in a typical death pose.",
+            "credit": "Henry Fairfield Osborn · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Struthiomimus_skeleton_jconway.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "A crushed, incomplete skull with toothless jaws in AMNH 5339; cranial material is otherwise scarce."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Articulated neck, back, sacrum and tail in AMNH 5339, with ribs and gastralia."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Shoulder and pelvic girdles and complete forelimbs and hindlimbs, including well-preserved hands, from AMNH 5339 and other partial skeletons; the holotype is a partial pelvis and hindlimb."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Articulation of AMNH 5339 preserves natural proportions. No skin, feathers or gut contents are known for the genus."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "CMN 930 · holotype",
+            "description": "A partial pelvis with hindlimb elements from the Red Deer River, named Ornithomimus altus by Lawrence Lambe in 1902 and made the type of the new genus Struthiomimus by Osborn in 1917.",
+            "meta": "Red Deer River, Alberta · Dinosaur Park Formation · Canadian Museum of Nature, Ottawa"
+          },
+          {
+            "kicker": "Reference skeleton",
+            "title": "AMNH 5339 · articulated skeleton",
+            "description": "A near-complete postcranial skeleton with damaged skull found by Barnum Brown in 1914. It supplied most of what is known about the proportions and hands of Struthiomimus and anchored Osborn's description of the genus.",
+            "meta": "Red Deer River, Alberta · Dinosaur Park Formation · American Museum of Natural History, New York"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "An articulated postcranial skeleton with hands and feet, a damaged toothless skull, and partial pelvic and limb material from further individuals."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "Limb proportions indicate a fast biped; the beak and hand form permit plant-eating, omnivory or small-prey capture; feathers are inferred from the related Ornithomimus."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Diet, detailed skull anatomy, growth and individual variation, integument, and which partial skeletons from other formations belong to the genus."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Modern revision",
+            "title": "Longrich · 2008",
+            "description": "New ornithomimid material from the Dinosaur Park Formation with discussion of Struthiomimus and the problem of dissociated remains.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1111/j.1475-4983.2008.00791.x"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of Struthiomimus and the ostrich-mimic dinosaurs.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/struthiomimus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Osborn's plate of AMNH 5339",
+            "description": "Source page, creator details and reuse status for the 1917 photograph of the articulated skeleton.",
+            "access": "Public domain",
+            "url": "https://commons.wikimedia.org/wiki/File:Struthiomimus_skeleton_jconway.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38545"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

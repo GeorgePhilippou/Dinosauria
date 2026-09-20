@@ -63,7 +63,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -89,6 +89,124 @@
         "Jaw mechanics and tooth wear support effective plant processing, while opportunistic animal matter remains possible but unproven."
       ]
     },
+    "presentation": {
+      "heroLead": "A small, fast-moving plant-eater from Early Jurassic South Africa whose three kinds of teeth, including enlarged canine-like tusks, make it one of the best-understood early ornithischians.",
+      "heroMedia": {
+        "file": "Heterodontosaurus restoration.jpg",
+        "title": "Life restoration of Heterodontosaurus tucki",
+        "alt": "Life restoration of Heterodontosaurus tucki, a small bipedal ornithischian with a beaked snout and tusk-like teeth, in side view",
+        "caption": "Life restoration with proportions based on the near-complete skeleton SAM-PK-K1332. The filament-like covering is borrowed from the related Tianyulong and, like the colour, is interpretive.",
+        "credit": "FunkMonk · CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heterodontosaurus_restoration.jpg"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Early Jurassic · about 200–190 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Eastern Cape, South Africa"
+        },
+        {
+          "label": "Known size",
+          "value": "about 1–1.2 m · a few kilograms"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Heterodontosaurus was a turkey-sized ornithischian that walked on two legs, with a short skull, a horny beak at the tip of the jaws and a long tail. The most complete individual is a little over a metre long; published mass estimates fall in the range of a few kilograms, and the animal was among the smallest dinosaurs of the Elliot fauna.",
+        "Its name refers to its unusual dentition. Small teeth at the front of the upper jaw were followed by a pair of enlarged, canine-like tusks in both jaws, then a row of tightly packed cheek teeth with chisel-shaped crowns. Wear surfaces on the cheek teeth and the jaw joint indicate that the upper and lower tooth rows slid against one another to grind plant food, one of the earliest examples of true chewing in dinosaurs.",
+        "The hands were relatively large, with five fingers and strong claws on the first three, and the forelimb bones show muscle attachments that suggest a grasping or digging capacity. The hindlimb was long and lightly built, with the shin bones and upper foot bones fused together in the near-complete skeleton, a feature more often associated with fast runners."
+      ],
+      "animalHighlights": [
+        "Three distinct tooth types: small front teeth, enlarged canine-like tusks and closely packed cheek teeth.",
+        "Tooth wear and jaw anatomy show that the cheek teeth ground against one another, an early form of chewing.",
+        "Fused shin and ankle bones and a long, lightly built hindlimb are consistent with an agile two-legged runner."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by tooth wear and jaw mechanics",
+          "reason": "Grinding wear on the cheek teeth and the beak support a plant diet. The tusks do not establish meat-eating; opportunistic animal food remains possible but unproven."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal runner",
+          "level": "Supported by the near-complete skeleton",
+          "reason": "Long hindlimbs, fused lower-leg and ankle bones and short forelimbs indicate habitual two-legged movement; running speed is not directly measured."
+        },
+        {
+          "label": "Known size",
+          "value": "about 1–1.2 m long",
+          "level": "Measured on articulated skeletons",
+          "reason": "SAM-PK-K1332 and AM 4766 are near-complete adults or near-adults, so length is measured rather than extrapolated. Mass is an estimate."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skeletal outline well supported",
+          "level": "Body covering unknown",
+          "reason": "No skin or filament impressions are preserved for Heterodontosaurus itself; bristle-like structures in restorations come from the related Tianyulong."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Early Jurassic"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 200–190 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "upper Elliot Formation and Clarens Formation"
+        },
+        {
+          "label": "Type locality",
+          "value": "Tyinindini, Herschel district, Eastern Cape, South Africa"
+        }
+      ],
+      "locality": {
+        "name": "Tyinindini",
+        "region": "Herschel district, Eastern Cape, South Africa",
+        "note": "Upper Elliot Formation. The near-complete skeleton SAM-PK-K1332 came from a second site on the Krommespruit mountain, Voyizane, in the same region."
+      },
+      "classificationSummary": "Heterodontosaurus is the name-giving member of Heterodontosauridae, a family of small, early-diverging ornithischians. Most analyses place heterodontosaurids near the base of the ornithischian tree, but whether they sit closer to the marginocephalians or outside all other ornithischians remains debated.",
+      "related": [
+        {
+          "id": "lesothosaurus",
+          "reason": "Compare with a contemporary small ornithischian from the same rocks that lacked the tusks and chewing specialisations."
+        },
+        {
+          "id": "scutellosaurus",
+          "reason": "Compare with an Early Jurassic armoured ornithischian of similar size from North America."
+        },
+        {
+          "id": "psittacosaurus",
+          "reason": "Compare with a beaked, self-sharpening-toothed ornithischian sometimes linked to heterodontosaurids through the marginocephalian hypothesis."
+        }
+      ],
+      "questions": [
+        {
+          "title": "What were the tusks for?",
+          "copy": "The enlarged canine-like teeth have been read as display, defence or feeding structures. They occur in the smallest known juvenile, which weakens a purely sex-linked explanation, but no single function is established."
+        },
+        {
+          "title": "Did it eat anything other than plants?",
+          "copy": "The cheek teeth are clearly built for grinding vegetation. Whether Heterodontosaurus also took insects or small animals, as some authors have proposed, cannot be tested from the fossils."
+        },
+        {
+          "title": "Where do heterodontosaurids belong?",
+          "copy": "Heterodontosaurids have been placed as the earliest branch of Ornithischia and, alternatively, close to pachycephalosaurs and ceratopsians. The answer changes with the dataset used."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "Corrected to Early Jurassic based on upper Elliot Formation stratigraphy.",
     "sources": [
       {
@@ -105,6 +223,16 @@
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Heterodontosaurus",
         "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Heterodontosaurus"
+      },
+      {
+        "type": "original-description",
+        "citation": "Crompton & Charig (1962), A new ornithischian from the Lower Jurassic of South Africa",
+        "url": "https://doi.org/10.1038/1961074a0"
+      },
+      {
+        "type": "modern-revision",
+        "citation": "Radermacher et al. (2021), A new Heterodontosaurus specimen elucidates the unique ventilatory macroevolution of ornithischian dinosaurs",
+        "url": "https://doi.org/10.7554/eLife.66036"
       }
     ],
     "residualUncertainty": [
@@ -124,7 +252,166 @@
         "fine phylogeny"
       ],
       "summary": "Heterodontosaurus tucki was a small bipedal ornithischian from the upper Elliot Formation of South Africa. Several skulls and one nearly complete skeleton document a compact herbivore with a beak, cheek teeth and enlarged canine-like teeth.",
-      "sourceBasis": "Norman et al. (2011), The skull and relationships of Heterodontosaurus tucki; Santa Luca et al. (1976), A complete skeleton of Heterodontosaurus tucki; Paleobiology Database taxon and occurrence context for Heterodontosaurus"
+      "sourceBasis": "Norman et al. (2011), The skull and relationships of Heterodontosaurus tucki; Santa Luca et al. (1976), A complete skeleton of Heterodontosaurus tucki; Paleobiology Database taxon and occurrence context for Heterodontosaurus",
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "SAM-PK-K337",
+          "institution": "Iziko South African Museum, Cape Town",
+          "note": "Well-preserved skull with lower jaws from Tyinindini, described by Crompton and Charig in 1962."
+        },
+        {
+          "name": "Referred near-complete skeleton",
+          "id": "SAM-PK-K1332",
+          "institution": "Iziko South African Museum, Cape Town",
+          "note": "Articulated skull and skeleton from Voyizane, described in 1976; the basis of most body-proportion reconstructions."
+        },
+        {
+          "name": "Referred near-complete skeleton",
+          "id": "AM 4766",
+          "institution": "Albany Museum, Makhanda",
+          "note": "Articulated skeleton studied by synchrotron scanning in 2021, preserving gastralia and sternal ribs."
+        },
+        {
+          "name": "Referred juvenile skull",
+          "id": "SAM-PK-K10487",
+          "institution": "Iziko South African Museum, Cape Town",
+          "note": "Partial skull of a very small juvenile that already bears caniniform teeth."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Complete skulls and two near-complete articulated skeletons.",
+        "standfirst": "Heterodontosaurus is known from a well-preserved holotype skull, a near-complete articulated skeleton with skull, a second near-complete skeleton studied by synchrotron scanning, and several further skulls and partial specimens, including a very small juvenile.",
+        "coverage": {
+          "label": "Excellent",
+          "level": 4,
+          "maximum": 4,
+          "basis": "Every skeletal region is represented, most of it in articulated skeletons from more than one individual. Only the tip of the tail and soft tissues are missing."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Near-complete skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "At least 5"
+          },
+          {
+            "label": "Key limitation",
+            "value": "No soft-tissue impressions"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The skull is known in detail from the holotype and several other individuals. The near-complete skeleton SAM-PK-K1332 preserves the neck, back, sacrum and most of the tail, both girdles and all four limbs in articulation, and AM 4766 adds a second articulated skeleton that includes rarely preserved sternal ribs and gastralia.",
+          "note": "The end of the tail is not preserved in any specimen, and no skin, filament or gut-content evidence is known for the genus itself."
+        },
+        "media": [
+          {
+            "file": "Heterodontosaurus specimen AM 4766.jpg",
+            "kind": "Referred specimen",
+            "title": "Articulated skeleton AM 4766 and its digital reconstruction",
+            "alt": "Photograph of the articulated Heterodontosaurus tucki skeleton AM 4766 in its rock slab, beside a colour-coded virtual reconstruction of the same bones",
+            "caption": "The near-complete skeleton AM 4766 as preserved (left) with the bones reconstructed from synchrotron scans (right). The scans revealed the gastralia and sternal ribs described in 2021.",
+            "credit": "Radermacher et al. · CC BY 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heterodontosaurus_specimen_AM_4766.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Several complete or near-complete skulls with lower jaws, including the holotype, the skull of SAM-PK-K1332 and the partial juvenile skull SAM-PK-K10487, preserving the beak, tusks and cheek teeth."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Articulated cervical, dorsal, sacral and caudal series in SAM-PK-K1332 and AM 4766, with ribs, gastralia and sternal ribs; the tip of the tail is missing."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Shoulder and pelvic girdles and complete forelimbs and hindlimbs, including articulated hands and feet with fused lower-leg and ankle elements."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Articulated skeletons in fine-grained rock, studied by synchrotron scanning; tooth enamel microstructure and histology sampled. No skin or filament impressions."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "SAM-PK-K337 · holotype",
+            "description": "A well-preserved skull with lower jaws collected in 1961–62 and described by Crompton and Charig in 1962, which established the three-part dentition that gives the genus its name.",
+            "meta": "Tyinindini, Herschel district · upper Elliot Formation · Iziko South African Museum"
+          },
+          {
+            "kicker": "Referred skeletons",
+            "title": "SAM-PK-K1332 and AM 4766",
+            "description": "SAM-PK-K1332 is an articulated skull and skeleton described in 1976 that fixed the body proportions of the genus. AM 4766, in the Albany Museum, is a second near-complete skeleton whose synchrotron scans in 2021 revealed gastralia and mobile sternal ribs.",
+            "meta": "Voyizane, Krommespruit mountain and Eastern Cape · upper Elliot and Clarens formations"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Skulls with complete dentitions, tooth-wear facets, and two articulated skeletons preserving vertebral column, girdles, limbs, gastralia and sternal ribs."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "The wear facets and jaw joint record grinding of plant food; the limb proportions and fused ankle indicate an agile biped; the sternal ribs and gastralia have been used to model an early form of ventilation."
+          },
+          {
+            "label": "Still unknown",
+            "value": "The function of the tusks, the full breadth of the diet, whether the body carried filaments as in Tianyulong, colour, and the exact position of heterodontosaurids within Ornithischia."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Crompton and Charig · 1962",
+            "description": "First description of the holotype skull and its distinctive dentition, in Nature.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1038/1961074a0"
+          },
+          {
+            "type": "Skeleton description",
+            "title": "Santa Luca, Crompton and Charig · 1976",
+            "description": "Report of the near-complete articulated skeleton SAM-PK-K1332.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1038/264324a0"
+          },
+          {
+            "type": "Cranial monograph",
+            "title": "Norman et al. · 2011",
+            "description": "Detailed study of the skull and the relationships of Heterodontosaurus.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1111/j.1096-3642.2011.00697.x"
+          },
+          {
+            "type": "Modern revision",
+            "title": "Radermacher et al. · 2021",
+            "description": "Synchrotron study of AM 4766 describing the gastralia and sternal ribs, open access in eLife.",
+            "access": "Read online",
+            "url": "https://doi.org/10.7554/eLife.66036"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Skeleton AM 4766 and reconstruction",
+            "description": "Source page, creator details and reuse licence for the specimen photograph.",
+            "access": "CC BY 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Heterodontosaurus_specimen_AM_4766.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38725"
+          }
+        ],
+        "limitations": "The coverage band describes the combined securely referred material at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

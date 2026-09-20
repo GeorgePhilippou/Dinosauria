@@ -72,7 +72,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -106,6 +106,124 @@
         "The 2025 paper argued for priority and stability under Troodon and proposed MOR 553 as a neotype, but explicitly noted that only the ICZN can replace an existing holotype in this way."
       ]
     },
+    "presentation": {
+      "heroLead": "A famous name resting on a single Cretaceous tooth: whether the big-brained, sickle-clawed troodontid skeletons of Montana and Alberta should be called Troodon is an open dispute.",
+      "heroMedia": {
+        "file": "Troodon or Stenonychosaurus (update).png",
+        "title": "Life restoration of a Troodon-like troodontid",
+        "alt": "Life restoration of a feathered, long-legged troodontid theropod with large eyes and a raised sickle claw on each foot, in side view",
+        "caption": "Restoration of the North American troodontid usually pictured as Troodon. The body plan comes from referred skeletons, some now called Stenonychosaurus; the name-bearing fossil is a single tooth, and the feathers and colour are interpretive.",
+        "credit": "Conty · CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Troodon_or_Stenonychosaurus_(update).png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 77–74 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Montana, USA and Alberta, Canada"
+        },
+        {
+          "label": "Known size",
+          "value": "about 2–3 m · from referred skeletons"
+        },
+        {
+          "label": "Diet",
+          "value": "Probably omnivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Troodon was named by Joseph Leidy in 1856 for one small, coarsely serrated tooth from the Judith River beds of Montana, one of the first dinosaurs named from North America. For over a century the tooth was compared with lizards and then with plant-eating dinosaurs before being recognised as belonging to a small theropod.",
+        "The animal most people picture as Troodon is a lightly built, long-legged troodontid about two to three metres long, with very large eyes, one of the largest brains relative to body size among dinosaurs, and a raised sickle claw on each foot. Those features are documented in skeletons from Alberta and Montana, including nesting sites with eggs and embryos, that were referred to Troodon during the late twentieth century.",
+        "Since 2017 many researchers have argued that a single tooth cannot be distinguished from those of related troodontids, and have restored the name Stenonychosaurus for the Alberta skeletons. A 2025 study reversed course, defending Troodon and proposing a Two Medicine Formation skeleton as a replacement type, but that change needs a ruling from the zoological naming commission before it takes effect."
+      ],
+      "animalHighlights": [
+        "The name-bearing fossil is one tooth, ANSP 9259, with only approximate locality information.",
+        "Referred skeletons describe a large-eyed, large-brained troodontid with a sickle claw, and nests with eggs and embryos have been linked to the same animal.",
+        "Whether those skeletons can carry the name Troodon is actively disputed between the 2017 and 2025 revisions."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Probably omnivore",
+          "level": "Inferred from tooth form",
+          "reason": "Coarse serrations and relatively small, leaf-shaped teeth differ from typical meat-eaters and have been read as a mixed diet. No gut contents are known for the holotype or referred skeletons."
+        },
+        {
+          "label": "Movement",
+          "value": "Bipedal",
+          "level": "Known from referred skeletons only",
+          "reason": "Long hindlimbs indicate a fast two-legged animal, but every limb bone belongs to referred troodontid material whose link to the name is contested."
+        },
+        {
+          "label": "Known size",
+          "value": "about 2–3 m long",
+          "level": "Estimated from referred material",
+          "reason": "The holotype tooth gives no size directly. Length comes from referred skeletons that may or may not be the same species."
+        },
+        {
+          "label": "Appearance",
+          "value": "Reconstructed from relatives",
+          "level": "Feathers inferred",
+          "reason": "No skin or feather impressions are known from any North American troodontid; the feathered restoration rests on Asian relatives."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous, Campanian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 77–74 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "Judith River Formation; referred material from the Two Medicine and Dinosaur Park formations"
+        },
+        {
+          "label": "Type locality",
+          "value": "Judith River badlands, Montana, USA, exact site unknown"
+        }
+      ],
+      "locality": {
+        "name": "Judith River badlands",
+        "region": "Montana, USA",
+        "note": "The holotype tooth was collected in 1855 with only general locality data. The proposed neotype comes from the Two Medicine Formation near Choteau, Montana."
+      },
+      "classificationSummary": "Troodon is the name-giving genus of Troodontidae, a family of small, bird-like theropods within Paraves. The family is well defined; the problem is that the tooth on which the genus rests may not be diagnostic below the family level.",
+      "related": [
+        {
+          "id": "stenonychosaurus",
+          "reason": "The name restored for the Alberta skeletons that were long called Troodon."
+        },
+        {
+          "id": "saurornithoides",
+          "reason": "Compare with a Mongolian troodontid known from a skull and partial skeleton."
+        },
+        {
+          "id": "sinovenator",
+          "reason": "Compare with an early Chinese troodontid that shows the origins of the group."
+        }
+      ],
+      "questions": [
+        {
+          "title": "Can one tooth define a species?",
+          "copy": "Troodontid teeth are distinctive as a family, but distinguishing genera from teeth alone is difficult. The 2017 revisions concluded the holotype was undiagnostic; the 2025 study argued it can be matched to skeletons."
+        },
+        {
+          "title": "Will the neotype be accepted?",
+          "copy": "Replacing an existing holotype requires an application to the International Commission on Zoological Nomenclature. Until a ruling exists, MOR 553 is a proposal rather than the type."
+        },
+        {
+          "title": "Whose nests are they?",
+          "copy": "Eggs, embryos and clutches from the Two Medicine Formation have been assigned to Troodon. If the name is restricted to the tooth, the nesting evidence belongs to a troodontid whose name depends on the outcome of the dispute."
+        }
+      ],
+      "compactSources": true
+    },
     "ageReviewNote": "A single genus-wide 77-66 Ma range is not defensible while the name-bearing tooth and referred skeletons remain taxonomically disputed. The current 2025 species concept focuses on Campanian Montana and Alberta material.",
     "sources": [
       {
@@ -117,6 +235,16 @@
         "type": "primary-literature",
         "citation": "Varricchio, Hogan & Gardner (2025), validity of Troodon formosus",
         "url": "https://www.cambridge.org/core/journals/journal-of-paleontology/article/troodontid-specimens-from-the-cretaceous-two-medicine-formation-of-montana-usa-and-the-validity-of-troodon-formosus/3E58F1FDA3FE53DE569E0D0B20E79F22"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Varricchio, Hogan & Gardner (2025), DOI record",
+        "url": "https://doi.org/10.1017/jpa.2024.67"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Troodon",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/troodon.html"
       }
     ],
     "residualUncertainty": [
@@ -135,7 +263,147 @@
         "neotype petition",
         "tooth diagnostic value",
         "synonymy with Stenonychosaurus"
-      ]
+      ],
+      "specimens": [
+        {
+          "name": "Holotype",
+          "id": "ANSP 9259",
+          "institution": "Academy of Natural Sciences of Drexel University, Philadelphia",
+          "note": "Single tooth from the Judith River beds of Montana, named by Leidy in 1856; the only secure name-bearing fossil."
+        },
+        {
+          "name": "Proposed neotype",
+          "id": "MOR 553",
+          "institution": "Museum of the Rockies, Bozeman",
+          "note": "Partial skeleton from the Two Medicine Formation proposed in 2025 as a replacement type; pending an ICZN ruling."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "One tooth carries the name; the skeletons are disputed.",
+        "standfirst": "The only fossil securely attached to the name Troodon is the holotype tooth ANSP 9259. The skulls, skeletons, eggs and embryos usually shown under the name are referred troodontid material whose assignment has been reversed twice since 2017.",
+        "coverage": {
+          "label": "Low",
+          "level": 1,
+          "maximum": 4,
+          "basis": "Securely name-bearing material is a single tooth. Skeletal coverage would be far higher if the referred Montana and Alberta specimens are accepted, but that referral is the subject of an unresolved dispute."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "One tooth, plus contested skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "1 secure; many referred"
+          },
+          {
+            "label": "Key limitation",
+            "value": "Name not anchored to a skeleton"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "The holotype is a single tooth crown about a centimetre tall with large, hooked serrations. Referred material, if accepted, includes partial skulls, braincases, limb bones and vertebrae from the Dinosaur Park and Two Medicine formations, together with nests, eggs and embryonic bones.",
+          "note": "Everything beyond the tooth depends on a taxonomic argument. The panel treats the tooth as the secure evidence and the rest as provisionally referred."
+        },
+        "media": [
+          {
+            "file": "Troodon formosus holotype tooth.jpg",
+            "kind": "Type specimen",
+            "title": "Holotype tooth ANSP 9259 in three views",
+            "alt": "Three magnified photographs of the small serrated Troodon formosus holotype tooth showing its side, wear facet and front",
+            "caption": "The holotype tooth photographed at six times life size for Loris Russell's 1948 review, showing the coarse serrations and a wear facet. This tooth is the entire secure basis of the name.",
+            "credit": "Loris S. Russell · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Troodon_formosus_holotype_tooth.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Secure: one isolated tooth. Referred: partial skulls, braincases and jaws from Alberta and Montana troodontids whose generic name is disputed."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Secure: none. Referred: vertebrae from partial skeletons such as MOR 553 in the Two Medicine Formation."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Secure: none. Referred: hindlimb, pelvic and forelimb material including the sickle-clawed foot known from Dinosaur Park Formation specimens."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Nests, eggs and embryos from the Two Medicine Formation are attributed to the same troodontid. No skin, feather or gut-content evidence is known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "ANSP 9259 · holotype",
+            "description": "A single tooth collected by Ferdinand Hayden in 1855 from the Judith River beds and named by Joseph Leidy in 1856. It remains the only fossil that unquestionably belongs to Troodon formosus.",
+            "meta": "Judith River Formation, Montana · Academy of Natural Sciences of Drexel University, Philadelphia"
+          },
+          {
+            "kicker": "Proposed neotype",
+            "title": "MOR 553 · Two Medicine Formation skeleton",
+            "description": "A partial skeleton from Montana put forward in 2025 as a replacement type to tie the name to skeletal anatomy and to sink Stenonychosaurus into Troodon. The proposal is not in force until the International Commission on Zoological Nomenclature rules on it.",
+            "meta": "Two Medicine Formation, Montana · Museum of the Rockies, Bozeman · status pending"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "One serrated tooth with a wear facet. Referred skeletons, nests and embryos exist but are attached to the name by argument, not by overlap with the holotype."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "The tooth is troodontid. The 2017 revisions judged it undiagnostic below family level; the 2025 study argued it matches Two Medicine and Dinosaur Park skeletons and that Troodon has priority over Stenonychosaurus."
+          },
+          {
+            "label": "Still unknown",
+            "value": "Whether the neotype will be accepted, whether the tooth and skeletons are one species, and how many historic Troodon records from other formations survive specimen-level revision."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Taxonomic revision",
+            "title": "van der Reest and Currie · 2017",
+            "description": "Dinosaur Park troodontids revised, with Troodon treated as doubtful and Stenonychosaurus restored.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1139/cjes-2017-0031"
+          },
+          {
+            "type": "Taxonomic revision",
+            "title": "Varricchio, Hogan and Gardner · 2025",
+            "description": "Two Medicine troodontid specimens, a defence of Troodon formosus and the neotype proposal, in Journal of Paleontology.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1017/jpa.2024.67"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of Troodon and its problematic history.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/troodon.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Holotype tooth ANSP 9259",
+            "description": "Source page, creator details and reuse status for the 1948 photographs of the type tooth.",
+            "access": "Public domain",
+            "url": "https://commons.wikimedia.org/wiki/File:Troodon_formosus_holotype_tooth.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure and not a verdict on the name.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38572"
+          }
+        ],
+        "limitations": "The coverage band describes the material securely attached to the name at genus level. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences, and it will change if the proposed neotype is ratified.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }

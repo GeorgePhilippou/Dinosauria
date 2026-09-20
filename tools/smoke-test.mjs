@@ -419,7 +419,7 @@ async function main() {
     await page.goto(`${BASE_URL}/index.html?smoke=active-debate#dino/troodon`, { waitUntil: 'load' });
     const troodonText = await page.locator('#p-body').textContent();
     assert(troodonText.includes('2025 study'), 'Troodon should include the renewed 2025 validity proposal.');
-    assert(troodonText.includes('only the ICZN can replace'), 'Troodon should explain why the proposed neotype is not yet settled.');
+    assert(/only the ICZN can replace|International Commission on Zoological Nomenclature/.test(troodonText), 'Troodon should explain why the proposed neotype is not yet settled.');
 
     await page.goto(`${BASE_URL}/index.html?smoke=nanotyrannus-debate#dino/tyrannosaurus`, { waitUntil: 'load' });
     const tyrannosaurusText = await page.locator('#p-body').textContent();
@@ -438,8 +438,10 @@ async function main() {
     await page.goto(`${BASE_URL}/index.html?smoke=diet-uncertainty#dino/eoraptor`, { waitUntil: 'load' });
     const eoraptorText = (await page.locator('#p-body').textContent()) || '';
     assert(!eoraptorText.includes('source lists Omnivore'), 'Eoraptor must not turn a cleared legacy omnivore label into a reviewed dietary conclusion.');
-    assert(eoraptorText.includes('No taxon-specific dietary interpretation is retained'), 'Eoraptor should present its diet as not established.');
-    assert(eoraptorText.includes('exact diet remain uncertain'), 'Eoraptor should retain the review\'s explicit dietary uncertainty.');
+    // Eoraptor now carries a presentation block; its Feeding life card must
+    // still present the diet as uncertain rather than as a settled omnivore.
+    assert(/No taxon-specific dietary interpretation is retained|Feeding\s*Uncertain/.test(eoraptorText), 'Eoraptor should present its diet as not established.');
+    assert(/exact diet remain uncertain|no gut contents/.test(eoraptorText), 'Eoraptor should retain the review\'s explicit dietary uncertainty.');
 
     await assertProfileRenders(page, {
       id: 'micropachycephalosaurus',

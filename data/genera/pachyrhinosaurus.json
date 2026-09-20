@@ -73,7 +73,7 @@
   },
   "review": {
     "status": "reviewed",
-    "reviewedOn": "2026-07-16",
+    "reviewedOn": "2026-09-20",
     "reviewer": "Dinosauria editorial review",
     "consensusScope": [
       "accepted name and taxonomic status",
@@ -94,12 +94,130 @@
         "Centrosaurinae",
         "Pachyrhinosaurini"
       ],
-      "description": "Pachyrhinosaurus was a centrosaurine ceratopsid represented by three named North American species and large bonebeds. The type species P. canadensis comes from the Horseshoe Canyon Formation and bears a thick nasal boss rather than a conventional nasal horn.",
+      "description": "Pachyrhinosaurus was a centrosaurine ceratopsid represented by three named North American species and large bonebeds. The type species P. canadensis was named from the St. Mary River Formation of Alberta, with referred material from the Horseshoe Canyon Formation, and bears a thick nasal boss rather than a conventional nasal horn.",
       "facts": [
         "Bonebeds contain many disarticulated individuals and growth stages, not one herd frozen in behaviour.",
         "Boss and frill ornament changed markedly during growth.",
         "Migration and horn-covering shape are plausible but not directly demonstrated."
       ]
+    },
+    "presentation": {
+      "heroLead": "A heavily built horned dinosaur that replaced its nose horn with a thick, flattened bony boss, known from dozens of skulls and rich bonebeds spanning three species in Alberta and Alaska.",
+      "heroMedia": {
+        "file": "Pachyrhinosaurus canadensis.png",
+        "title": "Life restoration of Pachyrhinosaurus canadensis",
+        "alt": "Life restoration of Pachyrhinosaurus canadensis in side view, showing the flattened nasal boss and horned frill",
+        "caption": "Life restoration by Connor Ashbridge. The boss and frill follow adult skulls; the keratinous covering of the boss, skin texture and colour are interpretive.",
+        "credit": "Connor Ashbridge · CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pachyrhinosaurus_canadensis.png"
+      },
+      "quickFacts": [
+        {
+          "label": "Age",
+          "value": "Late Cretaceous · about 73–69 Ma"
+        },
+        {
+          "label": "Location",
+          "value": "Alberta, Canada and northern Alaska, USA"
+        },
+        {
+          "label": "Known size",
+          "value": "about 6–8 m · roughly 3–4 t"
+        },
+        {
+          "label": "Diet",
+          "value": "Herbivore"
+        }
+      ],
+      "animalParagraphs": [
+        "Pachyrhinosaurus was a large, four-legged horned dinosaur of the centrosaurine group that lived in western North America during the last part of the Cretaceous. Adults were about six to eight metres long, with a deep body, a short tail and a heavy skull carrying a parrot-like beak and batteries of shearing teeth.",
+        "Instead of the nose horn seen in most ceratopsids, adult Pachyrhinosaurus grew a massive, flattened, rugose boss over the snout, with smaller bosses over the eyes. The frill carried a pair of long horns that curved upwards, plus a variable set of spikes and hooks along its rim; the three named species differ chiefly in the arrangement of these frill ornaments.",
+        "Because it is known from bonebeds containing many individuals of different sizes, the genus provides an unusually clear record of how the boss and frill developed as animals grew. Juveniles had small, horn-like nasal projections that were only later replaced by the thick boss. Whether the animals lived in large herds, and how the boss was used, are interpretations rather than direct observations."
+      ],
+      "animalHighlights": [
+        "A thick, flattened nasal boss replaced the nose horn in adults, giving the genus its name, meaning \"thick-nosed lizard\".",
+        "Three named species, P. canadensis, P. lakustai and P. perotorum, differ mainly in the shape and arrangement of frill ornament.",
+        "Multi-individual bonebeds in Alberta and Alaska record growth from juvenile to adult in a single ceratopsid."
+      ],
+      "lifeCards": [
+        {
+          "label": "Feeding",
+          "value": "Plant-eater",
+          "level": "Supported by beak and dental batteries",
+          "reason": "The rostral beak and dental batteries with shearing wear facets are typical of ceratopsids that processed tough vegetation. No gut contents are known."
+        },
+        {
+          "label": "Movement",
+          "value": "Quadrupedal",
+          "level": "Supported by limb material",
+          "reason": "Limb and girdle bones from bonebeds show the robust, four-legged build shared by all ceratopsids. Walking speed and gait are modelled rather than observed."
+        },
+        {
+          "label": "Known size",
+          "value": "about 6–8 m long",
+          "level": "Estimated from skulls and partial skeletons",
+          "reason": "No single complete articulated adult skeleton is described; lengths and masses are scaled from skulls and disarticulated limb bones."
+        },
+        {
+          "label": "Appearance",
+          "value": "Skull ornament well documented",
+          "level": "Soft tissues remain reconstructed",
+          "reason": "The shape of the boss and frill is directly known from many skulls, but the keratin covering of the boss, skin texture and colour are inferred."
+        }
+      ],
+      "whereFacts": [
+        {
+          "label": "Interval",
+          "value": "Late Cretaceous, late Campanian to early Maastrichtian"
+        },
+        {
+          "label": "Approximate age",
+          "value": "about 73–69 million years ago"
+        },
+        {
+          "label": "Rock unit",
+          "value": "St. Mary River, Horseshoe Canyon, Wapiti and Prince Creek formations"
+        },
+        {
+          "label": "Type locality",
+          "value": "Scabby Butte, near Lethbridge, Alberta, Canada"
+        }
+      ],
+      "locality": {
+        "name": "Scabby Butte",
+        "region": "near Lethbridge, southern Alberta, Canada",
+        "note": "Type locality of P. canadensis in the St. Mary River Formation. P. lakustai comes from the Pipestone Creek bonebed near Grande Prairie, Alberta, and P. perotorum from the Prince Creek Formation on the North Slope of Alaska."
+      },
+      "classificationSummary": "Pachyrhinosaurus is a centrosaurine ceratopsid and the name-bearer of the tribe Pachyrhinosaurini, a group of boss-bearing centrosaurines that also includes Achelousaurus. Its three species are consistently recovered as each other's closest relatives.",
+      "related": [
+        {
+          "id": "achelousaurus",
+          "reason": "Compare with a closely related, older boss-bearing centrosaurine from Montana."
+        },
+        {
+          "id": "einiosaurus",
+          "reason": "Compare with a Montana centrosaurine that retained a forward-curving nasal horn."
+        },
+        {
+          "id": "centrosaurus",
+          "reason": "Compare with a horn-bearing centrosaurine known from some of the largest bonebeds in Alberta."
+        }
+      ],
+      "questions": [
+        {
+          "title": "What covered the boss in life?",
+          "copy": "The rugose bone surface implies a keratinous covering, but its thickness and shape, whether a flat pad or a horn-like structure, cannot be read directly from the fossils."
+        },
+        {
+          "title": "Did it migrate?",
+          "copy": "The presence of the genus in both Alberta and Arctic Alaska has prompted suggestions of seasonal migration, but bonebeds record where animals died, not where they travelled."
+        },
+        {
+          "title": "How many species are there?",
+          "copy": "Three species are named, but ornament changes with growth and varies between individuals, so some referrals of isolated skulls and bonebed material remain under study."
+        }
+      ],
+      "compactSources": true
     },
     "ageReviewNote": "The genus-level range spans late Campanian P. lakustai through Maastrichtian P. canadensis and P. perotorum; species ages must not be merged.",
     "sources": [
@@ -112,6 +230,16 @@
         "type": "primary-literature",
         "citation": "Currie, Langston & Tanke (2008), monograph on Pachyrhinosaurus lakustai",
         "url": "https://doi.org/10.1139/9780660198194"
+      },
+      {
+        "type": "primary-literature",
+        "citation": "Fiorillo & Tykoski (2012), A new Maastrichtian species of the centrosaurine ceratopsid Pachyrhinosaurus from the North Slope of Alaska",
+        "url": "https://doi.org/10.4202/app.2011.0033"
+      },
+      {
+        "type": "museum-synthesis",
+        "citation": "Natural History Museum, Pachyrhinosaurus",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/pachyrhinosaurus.html"
       }
     ],
     "residualUncertainty": [
@@ -121,7 +249,7 @@
     "evidence": {
       "score": 90,
       "material": "Numerous skulls, partial skeletons and multi-individual bonebeds across three species.",
-      "formations": "Wapiti, Horseshoe Canyon and Prince Creek formations, Canada and USA.",
+      "formations": "St. Mary River, Horseshoe Canyon, Wapiti and Prince Creek formations, Canada and USA.",
       "confidenceLimit": "Separate species and growth stages; bonebeds do not directly prove migration.",
       "uncertainties": [
         "boss soft tissue",
@@ -129,7 +257,160 @@
         "some species referrals"
       ],
       "summary": "Pachyrhinosaurus was a centrosaurine ceratopsid represented by three named North American species and large bonebeds. The type species P. canadensis comes from the Horseshoe Canyon Formation and bears a thick nasal boss rather than a conventional nasal horn.",
-      "sourceBasis": "Sternberg (1950), original description of Pachyrhinosaurus canadensis; Currie, Langston & Tanke (2008), monograph on Pachyrhinosaurus lakustai"
+      "sourceBasis": "Sternberg (1950), original description of Pachyrhinosaurus canadensis; Currie, Langston & Tanke (2008), monograph on Pachyrhinosaurus lakustai",
+      "specimens": [
+        {
+          "name": "Holotype of P. canadensis",
+          "id": "CMN 8867",
+          "institution": "Canadian Museum of Nature, Ottawa",
+          "note": "A partial skull from Scabby Butte, St. Mary River Formation, described by Sternberg in 1950; a second Scabby Butte skull, CMN 8866, was described alongside it."
+        },
+        {
+          "name": "Holotype of P. lakustai",
+          "id": "TMP 1986.55.258",
+          "institution": "Royal Tyrrell Museum of Palaeontology, Drumheller",
+          "note": "A skull from the Pipestone Creek bonebed, Wapiti Formation, near Grande Prairie; the bonebed has yielded hundreds of elements from many individuals."
+        },
+        {
+          "name": "Holotype of P. perotorum",
+          "id": "DMNH 21200",
+          "institution": "Perot Museum of Nature and Science, Dallas",
+          "note": "Partial skull material from the Kikak-Tegoseak Quarry bonebed, Prince Creek Formation, North Slope of Alaska."
+        }
+      ],
+      "panel": {
+        "eyebrow": "Fossil evidence",
+        "headline": "Dozens of skulls and several bonebeds, spread across three species.",
+        "standfirst": "Pachyrhinosaurus is one of the better-sampled ceratopsids. Skulls of all growth stages and abundant disarticulated postcranial bones are known from bonebeds in Alberta and Alaska, although no single complete articulated skeleton has been described.",
+        "coverage": {
+          "label": "Good",
+          "level": 3,
+          "maximum": 4,
+          "basis": "Every skeletal region is represented across the bonebed material, but the postcranium is known mainly from disarticulated bones and individual skeletons are incomplete."
+        },
+        "metrics": [
+          {
+            "label": "Known remains",
+            "value": "Many skulls and bonebed skeletons"
+          },
+          {
+            "label": "Individuals",
+            "value": "Dozens across three species"
+          },
+          {
+            "label": "Key limitation",
+            "value": "No complete articulated skeleton"
+          }
+        ],
+        "knownRemains": {
+          "title": "What is actually preserved?",
+          "summary": "Complete and partial skulls of juveniles, subadults and adults, isolated frill and boss elements, and disarticulated vertebrae, ribs, girdle and limb bones from bonebeds at Scabby Butte and Pipestone Creek in Alberta and the Kikak-Tegoseak Quarry in Alaska.",
+          "note": "Because bonebed material is disarticulated, most postcranial bones cannot be tied to particular skulls, and body proportions are reconstructed from mixed individuals."
+        },
+        "media": [
+          {
+            "file": "Pachyrhinosaurus skull Royal Tyrrell.jpg",
+            "kind": "Museum specimen",
+            "title": "Pachyrhinosaurus skull at the Royal Tyrrell Museum",
+            "alt": "Skull of Pachyrhinosaurus displayed at the Royal Tyrrell Museum of Palaeontology, showing the flattened nasal boss",
+            "caption": "A Pachyrhinosaurus skull on display at the Royal Tyrrell Museum, Drumheller, Alberta. Display skulls may include restored sections; the thick nasal boss and frill horns are directly preserved features.",
+            "credit": "Etemenanki3 · CC BY-SA 4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pachyrhinosaurus_skull_Royal_Tyrrell.jpg"
+          }
+        ],
+        "materialGroups": [
+          {
+            "label": "Skull and jaws",
+            "value": "Numerous complete and partial skulls with nasal and supraorbital bosses, frills, beaks and dental batteries, spanning juvenile to adult growth stages."
+          },
+          {
+            "label": "Vertebral column",
+            "value": "Cervical, dorsal, sacral and caudal vertebrae and ribs, known mainly as disarticulated bonebed elements."
+          },
+          {
+            "label": "Girdles and limbs",
+            "value": "Scapulae, coracoids, pelvic bones and fore- and hindlimb bones from bonebeds; articulated limbs are rare."
+          },
+          {
+            "label": "Exceptional preservation",
+            "value": "Bone histology has been sampled from bonebed material; no skin impressions, keratin or gut contents are known."
+          }
+        ],
+        "specimenCards": [
+          {
+            "kicker": "Name-bearing specimen",
+            "title": "CMN 8867 · holotype of P. canadensis",
+            "description": "A partial skull collected at Scabby Butte near Lethbridge and described by C. M. Sternberg in 1950, together with a second skull, CMN 8866. Further Scabby Butte material was described by Langston in 1975.",
+            "meta": "Scabby Butte · St. Mary River Formation · Canadian Museum of Nature"
+          },
+          {
+            "kicker": "Richest assemblage",
+            "title": "Pipestone Creek bonebed · P. lakustai",
+            "description": "A dense bonebed near Grande Prairie that has yielded hundreds of elements, including skulls of several growth stages, and formed the basis of the 2008 monograph naming P. lakustai from holotype skull TMP 1986.55.258.",
+            "meta": "Wapiti Formation · late Campanian · Royal Tyrrell Museum and Philip J. Currie Dinosaur Museum"
+          }
+        ],
+        "interpretation": [
+          {
+            "label": "Directly observed",
+            "value": "Skulls of many individuals showing the nasal boss and frill ornament at successive growth stages, plus abundant disarticulated postcranial bones from bonebeds."
+          },
+          {
+            "label": "Scientific interpretation",
+            "value": "The bonebeds are read as mass-death assemblages of animals that lived in groups, and the boss as a display or combat structure that replaced the nasal horn during growth."
+          },
+          {
+            "label": "Still unknown",
+            "value": "The form of the keratin covering on the boss, whether the animals migrated between Alberta and Alaska, the full postcranial anatomy of a single individual, and colour and skin texture."
+          }
+        ],
+        "resources": [
+          {
+            "type": "Primary description",
+            "title": "Sternberg · 1950",
+            "description": "Original description of Pachyrhinosaurus canadensis from the Scabby Butte skulls.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.4095/105057"
+          },
+          {
+            "type": "Monograph",
+            "title": "Currie, Langston & Tanke · 2008",
+            "description": "Description of P. lakustai and the Pipestone Creek bonebed, including growth-stage anatomy.",
+            "access": "DOI record",
+            "url": "https://doi.org/10.1139/9780660198194"
+          },
+          {
+            "type": "Modern revision",
+            "title": "Fiorillo & Tykoski · 2012",
+            "description": "Naming of the Alaskan species P. perotorum and comparison of all three species.",
+            "access": "Open access",
+            "url": "https://doi.org/10.4202/app.2011.0033"
+          },
+          {
+            "type": "Museum synthesis",
+            "title": "Natural History Museum",
+            "description": "Accessible overview of the genus and its distinctive nasal boss.",
+            "access": "Read online",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/pachyrhinosaurus.html"
+          },
+          {
+            "type": "Evidence image",
+            "title": "Skull at the Royal Tyrrell Museum",
+            "description": "Source page, creator details and reuse licence for the skull photograph.",
+            "access": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Pachyrhinosaurus_skull_Royal_Tyrrell.jpg"
+          },
+          {
+            "type": "Occurrence data",
+            "title": "Paleobiology Database",
+            "description": "Independent occurrence, locality and stratigraphic context; not a skeletal-completeness measure.",
+            "access": "Open dataset",
+            "url": "https://paleobiodb.org/navigator/?taxon_id=38858"
+          }
+        ],
+        "limitations": "The coverage band describes the combined material referred to the genus across all three species. It is an editorial evidence summary, not a published percentage and not a count of PBDB occurrences.",
+        "reviewedLabel": "Primary description checked · 20 September 2026"
+      }
     },
     "scientificDisposition": "reviewed"
   }
