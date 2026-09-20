@@ -131,7 +131,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Leptoceratops",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Leptoceratops"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38849"
       }
     ],
     "residualUncertainty": [

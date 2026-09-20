@@ -130,7 +130,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Dryptosaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Dryptosaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38605"
       }
     ],
     "residualUncertainty": [

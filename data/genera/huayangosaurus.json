@@ -116,7 +116,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Huayangosaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Huayangosaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38810"
       }
     ],
     "residualUncertainty": [

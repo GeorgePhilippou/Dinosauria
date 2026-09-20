@@ -119,11 +119,6 @@
     "ageReviewNote": "Restricted to the Maastrichtian Lameta Formation rather than a broad Late Cretaceous span.",
     "sources": [
       {
-        "type": "taxonomic-revision",
-        "citation": "Jain & Bandyopadhyay (1997), New titanosaurid Isisaurus colberti from India",
-        "url": "https://www.researchgate.net/publication/291789651_New_titanosaurid_Dinosauria_Sauropoda_from_the_Late_Cretaceous_of_India"
-      },
-      {
         "type": "titanosaur-review",
         "citation": "Wilson & Upchurch (2003), A revision of Titanosaurus and implications for titanosaur systematics",
         "url": "https://doi.org/10.1017/S1477201903001044"
@@ -131,7 +126,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Isisaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Isisaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=64313"
       }
     ],
     "residualUncertainty": [

@@ -110,7 +110,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Indosuchus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Indosuchus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38612"
       }
     ],
     "residualUncertainty": [

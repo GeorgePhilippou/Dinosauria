@@ -244,11 +244,6 @@
         "url": "https://www.nhm.ac.uk/discover/dino-directory/ankylosaurus.html"
       },
       {
-        "type": "original-description",
-        "citation": "Brown (1908), The Ankylosauridae, a new family of armored dinosaurs from the Upper Cretaceous",
-        "url": "https://digitallibrary.amnh.org/handle/2246/1435"
-      },
-      {
         "type": "redescription",
         "citation": "Carpenter (2004), Redescription of Ankylosaurus magniventris Brown 1908 (Ankylosauridae) from the Upper Cretaceous of the Western Interior of North America",
         "url": "https://doi.org/10.1139/e04-043"
@@ -386,13 +381,6 @@
           }
         ],
         "resources": [
-          {
-            "type": "Primary description",
-            "title": "Brown · 1908",
-            "description": "Original description of the holotype and the naming of Ankylosauridae.",
-            "access": "AMNH Digital Library",
-            "url": "https://digitallibrary.amnh.org/handle/2246/1435"
-          },
           {
             "type": "Redescription",
             "title": "Carpenter · 2004",

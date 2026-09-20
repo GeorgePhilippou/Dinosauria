@@ -120,7 +120,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Gobisaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gobisaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=84234"
       }
     ],
     "residualUncertainty": [

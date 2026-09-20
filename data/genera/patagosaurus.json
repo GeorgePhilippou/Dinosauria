@@ -61,7 +61,7 @@
       },
       {
         "label": "PBDB: Patagosaurus occurrences",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38662"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38662"
       }
     ],
     "provenance": "ai-drafted"

@@ -3,7 +3,7 @@
 // so the whole site becomes available offline simply by having visited it,
 // without hand-maintaining a file list that content updates would outdate.
 
-const CACHE_VERSION = 'dinosauria-v2';
+const CACHE_VERSION = 'dinosauria-v3';
 const SHELL_URLS = [
   './',
   './index.html',
@@ -16,6 +16,7 @@ const SHELL_URLS = [
   './data/pbdb-enrichment.js',
   './data/wiki-enrichment.js',
   './data/genera-index.js',
+  './assets/maps/world-base.jpg',
   // Per-genus files (data/genera/<id>.json) are not precached: index.html
   // prefetches all of them in idle time, and the stale-while-revalidate
   // handler below stores each one as it arrives, so a single visit still

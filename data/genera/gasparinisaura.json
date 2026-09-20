@@ -105,7 +105,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Gasparinisaura",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gasparinisaura"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=65253"
       }
     ],
     "residualUncertainty": [

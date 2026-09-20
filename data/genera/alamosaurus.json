@@ -83,7 +83,7 @@
       },
       {
         "label": "PBDB: Alamosaurus occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38683"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38683"
       }
     ],
     "provenance": "ai-drafted"
@@ -268,7 +268,7 @@
       {
         "type": "recent-taxonomic-proposal",
         "citation": "Paul (2025), Evidence for multiple south-western North American titanosaur taxa",
-        "url": "https://giw.utahgeology.org/giw/index.php/GIW/article/view/156"
+        "url": "https://giw.utahgeology.org/index.php/GIW/article/view/156"
       }
     ],
     "residualUncertainty": [
@@ -404,7 +404,7 @@
             "title": "Paul · 2025",
             "description": "Argument for multiple titanosaur taxa in the south-western United States, including Utetitan.",
             "access": "Read online",
-            "url": "https://giw.utahgeology.org/giw/index.php/GIW/article/view/156"
+            "url": "https://giw.utahgeology.org/index.php/GIW/article/view/156"
           },
           {
             "type": "Evidence image",

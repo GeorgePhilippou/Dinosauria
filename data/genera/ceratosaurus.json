@@ -228,7 +228,7 @@
       {
         "type": "monographic-description",
         "citation": "Gilmore (1920), Osteology of the carnivorous Dinosauria in the United States National Museum",
-        "url": "https://repository.si.edu/handle/10088/10108"
+        "url": "https://doi.org/10.5479/si.03629236.110.i"
       },
       {
         "type": "theropod-systematics",
@@ -387,7 +387,7 @@
             "title": "Gilmore · 1920",
             "description": "Full osteology of the holotype, including the osteoderms and the skeletal reconstruction shown above.",
             "access": "Smithsonian repository",
-            "url": "https://repository.si.edu/handle/10088/10108"
+            "url": "https://doi.org/10.5479/si.03629236.110.i"
           },
           {
             "type": "Systematic revision",

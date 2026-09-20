@@ -69,7 +69,7 @@
       },
       {
         "label": "PBDB: Aragosaurus occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=70636"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=70636"
       }
     ],
     "provenance": "ai-drafted"

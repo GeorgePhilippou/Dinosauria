@@ -77,7 +77,7 @@
       },
       {
         "label": "PBDB: Avaceratops occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=55538"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=55538"
       }
     ],
     "provenance": "ai-drafted"

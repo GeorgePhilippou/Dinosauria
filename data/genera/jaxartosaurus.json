@@ -122,7 +122,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Jaxartosaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Jaxartosaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38773"
       }
     ],
     "residualUncertainty": [

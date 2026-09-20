@@ -127,7 +127,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Haplocanthosaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Haplocanthosaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38658"
       }
     ],
     "residualUncertainty": [

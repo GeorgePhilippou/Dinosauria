@@ -116,7 +116,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Hypacrosaurus altispinus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Hypacrosaurus%20altispinus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=56405"
       }
     ],
     "residualUncertainty": [

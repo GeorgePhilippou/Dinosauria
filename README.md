@@ -28,6 +28,7 @@ An open-access scientific reference wiki with 328 dinosaur and early-avialan cat
 | [International Chronostratigraphic Chart, June 2026](https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf) | Period and stage boundaries |
 | [Wikimedia Commons](https://commons.wikimedia.org) | Reference images (individual Creative Commons licences — see each file page) |
 | [PALEOMAP Project — Scotese et al., CC BY 4.0](https://www.earthbyte.org/paleomap-paleoatlas-for-gplates/) | Paleogeographic maps |
+| [WorldMap-A_non-Frame.png, Wikimedia Commons, CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:WorldMap-A_non-Frame.png) | Base map for fossil-locality maps (bundled in `assets/maps/`) |
 
 ---
 

@@ -126,7 +126,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Guanlong",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Guanlong"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=71190"
       }
     ],
     "residualUncertainty": [

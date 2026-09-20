@@ -77,7 +77,7 @@
       },
       {
         "label": "PBDB: Archaeornithomimus occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38540"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38540"
       }
     ],
     "provenance": "ai-drafted"

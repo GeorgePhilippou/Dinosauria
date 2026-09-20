@@ -126,7 +126,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Hagryphus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Hagryphus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=71334"
       }
     ],
     "residualUncertainty": [

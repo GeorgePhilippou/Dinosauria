@@ -67,7 +67,7 @@
       },
       {
         "label": "PBDB: Austrosaurus occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38675"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38675"
       }
     ],
     "provenance": "ai-drafted"

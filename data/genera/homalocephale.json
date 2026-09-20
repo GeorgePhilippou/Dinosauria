@@ -115,7 +115,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Homalocephale",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Homalocephale"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38795"
       }
     ],
     "residualUncertainty": [

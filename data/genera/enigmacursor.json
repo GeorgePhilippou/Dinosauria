@@ -117,7 +117,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Enigmacursor",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Enigmacursor"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=510407"
       }
     ],
     "residualUncertainty": [

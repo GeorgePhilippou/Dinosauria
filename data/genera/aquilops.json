@@ -67,7 +67,7 @@
       },
       {
         "label": "PBDB: Aquilops occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=310995"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=310995"
       }
     ],
     "provenance": "ai-drafted"

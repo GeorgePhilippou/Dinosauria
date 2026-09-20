@@ -71,7 +71,7 @@
       },
       {
         "label": "PBDB: Nipponosaurus occurrences",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38775"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38775"
       }
     ],
     "provenance": "ai-drafted"

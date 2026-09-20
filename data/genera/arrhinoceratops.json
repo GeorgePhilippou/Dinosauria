@@ -65,7 +65,7 @@
       },
       {
         "label": "PBDB: Arrhinoceratops occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38853"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38853"
       }
     ],
     "provenance": "ai-drafted"

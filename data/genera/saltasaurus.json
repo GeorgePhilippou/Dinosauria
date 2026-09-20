@@ -227,11 +227,6 @@
     "sources": [
       {
         "type": "primary-literature",
-        "citation": "Powell (1992), osteology and armour of Saltasaurus",
-        "url": "https://www.researchgate.net/publication/284147917_Osteologia_de_Saltasaurus_loricatus_Sauropoda-Titanosauridae_del_Cretacico_Superior_del_noroeste_Argentino"
-      },
-      {
-        "type": "primary-literature",
         "citation": "Cerda & Powell (2010), dermal armour histology of Saltasaurus",
         "url": "https://doi.org/10.4202/app.2009.1101"
       },
@@ -361,13 +356,6 @@
           }
         ],
         "resources": [
-          {
-            "type": "Osteology",
-            "title": "Powell · 1992",
-            "description": "Detailed description of the El Brete material and the dermal armour, archived on ResearchGate.",
-            "access": "Read online",
-            "url": "https://www.researchgate.net/publication/284147917_Osteologia_de_Saltasaurus_loricatus_Sauropoda-Titanosauridae_del_Cretacico_Superior_del_noroeste_Argentino"
-          },
           {
             "type": "Modern revision",
             "title": "Zurriaguz and Powell · 2015",

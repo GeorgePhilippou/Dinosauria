@@ -68,7 +68,7 @@
       },
       {
         "label": "PBDB: Aralosaurus occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38769"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38769"
       }
     ],
     "provenance": "ai-drafted"

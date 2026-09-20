@@ -106,7 +106,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Liliensternus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Liliensternus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=55542"
       }
     ],
     "residualUncertainty": [

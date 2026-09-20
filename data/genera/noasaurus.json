@@ -70,7 +70,7 @@
       },
       {
         "label": "PBDB: Noasaurus occurrences",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38630"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38630"
       }
     ],
     "provenance": "ai-drafted"

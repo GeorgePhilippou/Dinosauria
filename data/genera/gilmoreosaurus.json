@@ -129,7 +129,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Gilmoreosaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gilmoreosaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38772"
       }
     ],
     "residualUncertainty": [

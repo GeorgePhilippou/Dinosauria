@@ -123,7 +123,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Europasaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Europasaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=81696"
       }
     ],
     "residualUncertainty": [

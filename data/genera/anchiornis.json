@@ -66,7 +66,7 @@
       },
       {
         "label": "PBDB: Anchiornis occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=155058"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=155058"
       }
     ],
     "provenance": "ai-drafted"

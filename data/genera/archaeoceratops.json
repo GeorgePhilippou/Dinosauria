@@ -74,7 +74,7 @@
       },
       {
         "label": "PBDB: Archaeoceratops occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=55575"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=55575"
       }
     ],
     "provenance": "ai-drafted"

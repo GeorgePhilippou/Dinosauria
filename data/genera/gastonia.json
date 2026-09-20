@@ -128,7 +128,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Gastonia",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gastonia"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=63700"
       }
     ],
     "residualUncertainty": [

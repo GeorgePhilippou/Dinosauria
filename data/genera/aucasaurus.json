@@ -65,7 +65,7 @@
       },
       {
         "label": "PBDB: Aucasaurus occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=54523"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=54523"
       }
     ],
     "provenance": "ai-drafted"

@@ -126,7 +126,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Garudimimus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Garudimimus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38548"
       }
     ],
     "residualUncertainty": [

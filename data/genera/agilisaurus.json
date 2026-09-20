@@ -71,7 +71,7 @@
       },
       {
         "label": "PBDB: Agilisaurus occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=57222"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=57222"
       }
     ],
     "provenance": "ai-drafted"

@@ -81,7 +81,7 @@
       },
       {
         "label": "PBDB: Ampelosaurus occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=65139"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=65139"
       }
     ],
     "provenance": "ai-drafted"

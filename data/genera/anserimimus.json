@@ -70,7 +70,7 @@
       },
       {
         "label": "PBDB: Anserimimus occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=66671"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=66671"
       }
     ],
     "provenance": "ai-drafted"

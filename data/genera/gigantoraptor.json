@@ -124,7 +124,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Gigantoraptor",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gigantoraptor"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=103707"
       }
     ],
     "residualUncertainty": [

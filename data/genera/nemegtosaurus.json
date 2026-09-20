@@ -75,7 +75,7 @@
       },
       {
         "label": "PBDB: Nemegtosaurus occurrences",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38671"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38671"
       }
     ],
     "provenance": "ai-drafted"

@@ -70,7 +70,7 @@
       },
       {
         "label": "PBDB: Aardonyx occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=157362"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=157362"
       }
     ],
     "provenance": "ai-drafted"

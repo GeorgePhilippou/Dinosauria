@@ -117,14 +117,9 @@
         "url": "https://doi.org/10.1093/zoolinnean/zlac003"
       },
       {
-        "type": "original-description",
-        "citation": "Bonaparte et al. (2006), Ligabuesaurus leanzai from the Lohan Cura Formation",
-        "url": "https://www.researchgate.net/publication/237609887_Ligabuesaurus_leanzai_gen_et_sp_nov_Dinosauria_Sauropoda_a_new_titanosaur_from_the_Lohan_Cura_Formation_Aptian_Lower_Cretaceous_of_Neuquen_Patagonia_Argentina"
-      },
-      {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Ligabuesaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Ligabuesaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=81714"
       }
     ],
     "residualUncertainty": [

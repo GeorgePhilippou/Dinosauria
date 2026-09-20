@@ -218,7 +218,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Dilophosaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Dilophosaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38522"
       },
       {
         "type": "pathology-study",

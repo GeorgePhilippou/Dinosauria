@@ -130,7 +130,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Deltadromeus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Deltadromeus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=65366"
       }
     ],
     "residualUncertainty": [

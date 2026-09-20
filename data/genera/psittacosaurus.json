@@ -220,11 +220,6 @@
     "sources": [
       {
         "type": "primary-literature",
-        "citation": "Sereno (2010), taxonomic review of Psittacosaurus",
-        "url": "https://www.researchgate.net/publication/270162979_Taxonomy_cranial_morphology_and_relationships_of_parrot-beaked_dinosaurs_Psittacosaurus"
-      },
-      {
-        "type": "primary-literature",
         "citation": "Vinther et al. (2016), three-dimensional camouflage in Psittacosaurus",
         "url": "https://doi.org/10.1016/j.cub.2016.06.065"
       },

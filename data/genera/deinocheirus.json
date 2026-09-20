@@ -133,7 +133,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Deinocheirus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Deinocheirus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38551"
       }
     ],
     "residualUncertainty": [

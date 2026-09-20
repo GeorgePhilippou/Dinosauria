@@ -10043,43 +10043,43 @@ const MESO_CONTEXT = [
 
 const PALEO_IMAGES = {
   all: {
-    src:'https://commons.wikimedia.org/wiki/Special:FilePath/Mollweide%20Paleographic%20Map%20of%20Earth%2C%20220%20Ma%20%28Norian%20Age%29.png?width=900',
+    src:'assets/maps/paleomap-220ma-norian.jpg',
     credit:'PALEOMAP Project / Scotese et al., CC BY 4.0, via Wikimedia Commons',
     page:'https://commons.wikimedia.org/wiki/File:Mollweide_Paleographic_Map_of_Earth,_220_Ma_(Norian_Age).png',
     alt:'Mollweide paleogeographic map of Earth 220 million years ago'
   },
   triassic: {
-    src:'https://commons.wikimedia.org/wiki/Special:FilePath/Mollweide%20Paleographic%20Map%20of%20Earth%2C%20220%20Ma%20%28Norian%20Age%29.png?width=900',
+    src:'assets/maps/paleomap-220ma-norian.jpg',
     credit:'PALEOMAP Project / Scotese et al., CC BY 4.0, via Wikimedia Commons',
     page:'https://commons.wikimedia.org/wiki/File:Mollweide_Paleographic_Map_of_Earth,_220_Ma_(Norian_Age).png',
     alt:'Mollweide paleogeographic map of Earth 220 million years ago in the Norian Age'
   },
   'mid-jurassic': {
-    src:'https://commons.wikimedia.org/wiki/Special:FilePath/Mollweide%20Paleographic%20Map%20of%20Earth%2C%20170%20Ma%20%28Bajocian%20Age%29.png?width=900',
+    src:'assets/maps/paleomap-170ma-bajocian.jpg',
     credit:'PALEOMAP Project / Scotese et al., CC BY 4.0, via Wikimedia Commons',
     page:'https://commons.wikimedia.org/wiki/File:Mollweide_Paleographic_Map_of_Earth,_170_Ma_(Bajocian_Age).png',
     alt:'Mollweide paleogeographic map of Earth 170 million years ago in the Bajocian Age'
   },
   'early-jurassic': {
-    src:'https://commons.wikimedia.org/wiki/Special:FilePath/Mollweide%20Paleographic%20Map%20of%20Earth%2C%20190%20Ma%20%28Pliensbachian%20Age%29.png?width=900',
+    src:'assets/maps/paleomap-190ma-pliensbachian.jpg',
     credit:'PALEOMAP Project / Scotese et al., CC BY 4.0, via Wikimedia Commons',
     page:'https://commons.wikimedia.org/wiki/File:Mollweide_Paleographic_Map_of_Earth,_190_Ma_(Pliensbachian_Age).png',
     alt:'Mollweide paleogeographic map of Earth 190 million years ago in the Pliensbachian Age'
   },
   'late-jurassic': {
-    src:'https://commons.wikimedia.org/wiki/Special:FilePath/Mollweide%20Paleographic%20Map%20of%20Earth%2C%20155%20Ma%20%28Oxfordian%20Age%29.png?width=900',
+    src:'assets/maps/paleomap-155ma-oxfordian.jpg',
     credit:'PALEOMAP Project / Scotese et al., CC BY 4.0, via Wikimedia Commons',
     page:'https://commons.wikimedia.org/wiki/File:Mollweide_Paleographic_Map_of_Earth,_155_Ma_(Oxfordian_Age).png',
     alt:'Mollweide paleogeographic map of Earth 155 million years ago in the Oxfordian Age'
   },
   'early-cretaceous': {
-    src:'https://commons.wikimedia.org/wiki/Special:FilePath/Mollweide%20Paleographic%20Map%20of%20Earth%2C%20120%20Ma%20%28Aptian%20Age%29.png?width=900',
+    src:'assets/maps/paleomap-120ma-aptian.jpg',
     credit:'PALEOMAP Project / Scotese et al., CC BY 4.0, via Wikimedia Commons',
     page:'https://commons.wikimedia.org/wiki/File:Mollweide_Paleographic_Map_of_Earth,_120_Ma_(Aptian_Age).png',
     alt:'Mollweide paleogeographic map of Earth 120 million years ago in the Aptian Age'
   },
   'late-cretaceous': {
-    src:'https://commons.wikimedia.org/wiki/Special:FilePath/Mollweide%20Paleographic%20Map%20of%20Earth%2C%2085%20Ma%20%28Santonian%20Age%29.png?width=900',
+    src:'assets/maps/paleomap-85ma-santonian.jpg',
     credit:'PALEOMAP Project / Scotese et al., CC BY 4.0, via Wikimedia Commons',
     page:'https://commons.wikimedia.org/wiki/File:Mollweide_Paleographic_Map_of_Earth,_85_Ma_(Santonian_Age).png',
     alt:'Mollweide paleogeographic map of Earth 85 million years ago in the Santonian Age'
@@ -14184,7 +14184,7 @@ function worldMapSvg(locations) {
   return `<svg class="map-svg" viewBox="0 0 ${VW} ${SVG_H}" aria-label="World map of fossil locations" role="img" xmlns="http://www.w3.org/2000/svg">
     <rect class="map-ocean" x="0" y="0" width="${VW}" height="${SVG_H}"/>
     <path class="map-graticule" d="${graticule}"/>
-    <image class="map-base" href="https://commons.wikimedia.org/wiki/Special:FilePath/WorldMap-A_non-Frame.png?width=720" x="0" y="0" width="${VW}" height="${VH}" preserveAspectRatio="none"/>
+    <image class="map-base" href="assets/maps/world-base.jpg" x="0" y="0" width="${VW}" height="${VH}" preserveAspectRatio="none"/>
     ${markerSvg}
   </svg>`;
 }
@@ -15424,9 +15424,9 @@ function buildMapView() {
   // Land-mass base image (Wikimedia Commons blank world SVG)
   const land = document.createElementNS(NS, 'image');
   land.setAttributeNS('http://www.w3.org/1999/xlink', 'href',
-    'https://commons.wikimedia.org/wiki/Special:FilePath/WorldMap-A_non-Frame.png?width=1920');
+    'assets/maps/world-base.jpg');
   land.setAttribute('href',
-    'https://commons.wikimedia.org/wiki/Special:FilePath/WorldMap-A_non-Frame.png?width=1920');
+    'assets/maps/world-base.jpg');
   land.setAttribute('x', 0); land.setAttribute('y', 0);
   land.setAttribute('width', VW); land.setAttribute('height', VH);
   land.setAttribute('preserveAspectRatio', 'none');

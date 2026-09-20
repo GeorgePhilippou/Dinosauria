@@ -63,7 +63,7 @@
       },
       {
         "label": "PBDB: Patagotitan occurrences",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=358623"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=358623"
       }
     ],
     "provenance": "ai-drafted"

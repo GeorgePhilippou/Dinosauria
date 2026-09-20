@@ -27,7 +27,10 @@ const catalogueIds = new Set([
   ...(sandbox.window.NHM_IMPORTED_DINOSAUR_RECORDS || [])
 ].map(r => r[0]));
 
-const isUrl = v => typeof v === 'string' && /^https?:\/\//.test(v);
+// ResearchGate ids cannot be verified and were found pointing at unrelated
+// papers; academia.edu is the same. Cite the DOI or the publisher instead.
+const BANNED_HOSTS = /^(https?:\/\/)?(www\.)?(researchgate\.net|academia\.edu)\//i;
+const isUrl = v => typeof v === 'string' && /^https?:\/\//.test(v) && !BANNED_HOSTS.test(v);
 const isCommonsFile = v => typeof v === 'string' && v.length > 0 && !/[\/\\]/.test(v) && !/^https?:/.test(v);
 const need = (file, obj, path, keys) => {
   for (const k of keys) if (obj?.[k] === undefined) warn(file, `${path}.${k} is missing`);

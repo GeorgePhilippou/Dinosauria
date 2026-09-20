@@ -76,14 +76,9 @@
         "url": "https://www.app.pan.pl/archive/published/app27/app27-115.pdf"
       },
       {
-        "type": "pachycephalosaur-review",
-        "citation": "Sullivan (2006), A taxonomic review of Pachycephalosauridae",
-        "url": "https://www.researchgate.net/publication/254313214_A_taxonomic_review_of_the_Pachycephalosauridae_Dinosauria_Ornithischia"
-      },
-      {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Goyocephale",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Goyocephale"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38794"
       }
     ],
     "residualUncertainty": [

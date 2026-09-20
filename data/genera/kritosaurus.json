@@ -134,7 +134,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Kritosaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Kritosaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=53195"
       }
     ],
     "residualUncertainty": [

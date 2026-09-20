@@ -123,11 +123,6 @@
     "ageReviewNote": "The type is Kimmeridgian-Tithonian within the Morrison Formation.",
     "sources": [
       {
-        "type": "comparative-revision",
-        "citation": "Carpenter, Miles & Cloward (2005), New small theropod material and reassessment of Coelurus",
-        "url": "https://www.researchgate.net/publication/40662862_New_small_theropod_dinosaur_from_the_Upper_Jurassic_Morrison_Formation_of_Wyoming"
-      },
-      {
         "type": "authoritative-museum-reference",
         "citation": "Natural History Museum, Dino Directory: coelurus",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/coelurus.html"

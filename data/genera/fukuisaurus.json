@@ -120,7 +120,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Fukuisaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Fukuisaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=68188"
       }
     ],
     "residualUncertainty": [

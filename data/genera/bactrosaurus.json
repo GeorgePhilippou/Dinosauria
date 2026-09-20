@@ -79,7 +79,7 @@
       },
       {
         "label": "PBDB: Bactrosaurus occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38770"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38770"
       }
     ],
     "provenance": "ai-drafted"

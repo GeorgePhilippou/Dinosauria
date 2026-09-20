@@ -71,7 +71,7 @@
       },
       {
         "label": "PBDB: Ammosaurus occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38636"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38636"
       }
     ],
     "provenance": "ai-drafted"

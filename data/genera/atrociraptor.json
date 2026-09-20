@@ -68,7 +68,7 @@
       },
       {
         "label": "PBDB: Atrociraptor occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=132125"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=132125"
       }
     ],
     "provenance": "ai-drafted"
@@ -112,11 +112,6 @@
     },
     "ageReviewNote": "The type comes from the early Maastrichtian lower Horseshoe Canyon Formation.",
     "sources": [
-      {
-        "type": "original-description",
-        "citation": "Currie & Varricchio (2004), A new dromaeosaurid from the Horseshoe Canyon Formation of Alberta",
-        "url": "https://www.researchgate.net/publication/40662065_A_new_dromaeosaurid_from_the_Horseshoe_Canyon_Formation_Upper_Cretaceous_of_Alberta_Canada"
-      },
       {
         "type": "phylogenetic-review",
         "citation": "Powers et al. (2022), A new hypothesis of eudromaeosaurian evolution",

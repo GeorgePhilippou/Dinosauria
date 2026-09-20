@@ -121,7 +121,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Harpymimus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Harpymimus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=66669"
       }
     ],
     "residualUncertainty": [

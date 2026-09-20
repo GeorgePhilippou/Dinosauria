@@ -138,7 +138,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Dromaeosaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Dromaeosaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38566"
       }
     ],
     "residualUncertainty": [

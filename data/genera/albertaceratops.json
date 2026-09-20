@@ -73,7 +73,7 @@
       },
       {
         "label": "PBDB: Albertaceratops occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=94775"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=94775"
       }
     ],
     "provenance": "ai-drafted"

@@ -82,7 +82,7 @@
       },
       {
         "label": "PBDB: Bagaceratops occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38846"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38846"
       }
     ],
     "provenance": "ai-drafted"

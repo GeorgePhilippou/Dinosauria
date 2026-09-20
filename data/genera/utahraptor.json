@@ -222,11 +222,6 @@
     "sources": [
       {
         "type": "primary-literature",
-        "citation": "Kirkland et al. (1993), original description of Utahraptor",
-        "url": "https://www.researchgate.net/publication/284308656_A_large_dromaeosaurid_Theropoda_from_the_Lower_Cretaceous_of_eastern_Utah"
-      },
-      {
-        "type": "primary-literature",
         "citation": "Joeckel et al. (2023), geochronology of the Yellow Cat Member and Utahraptor Ridge",
         "url": "https://doi.org/10.3390/geosciences13020032"
       },
@@ -358,13 +353,6 @@
           }
         ],
         "resources": [
-          {
-            "type": "Primary description",
-            "title": "Kirkland, Gaston & Burge · 1993",
-            "description": "Original description of the holotype claw and paratypes in Hunteria.",
-            "access": "Author archive",
-            "url": "https://www.researchgate.net/publication/284308656_A_large_dromaeosaurid_Theropoda_from_the_Lower_Cretaceous_of_eastern_Utah"
-          },
           {
             "type": "Systematic review",
             "title": "Turner, Makovicky & Norell · 2012",

@@ -83,7 +83,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Emausaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Emausaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=64405"
       }
     ],
     "residualUncertainty": [

@@ -118,7 +118,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Liaoceratops",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Liaoceratops"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=55581"
       }
     ],
     "residualUncertainty": [

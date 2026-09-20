@@ -73,7 +73,7 @@
       },
       {
         "label": "PBDB: Nomingia occurrences",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=67256"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=67256"
       }
     ],
     "provenance": "ai-drafted"

@@ -113,7 +113,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Dreadnoughtus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Dreadnoughtus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=304823"
       }
     ],
     "residualUncertainty": [

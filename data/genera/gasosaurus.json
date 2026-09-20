@@ -117,12 +117,12 @@
       {
         "type": "authoritative-database",
         "citation": "Paleobiology Database record for Gasosaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gasosaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=52766"
       },
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Gasosaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gasosaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=52766"
       }
     ],
     "residualUncertainty": [

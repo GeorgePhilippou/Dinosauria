@@ -142,7 +142,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Elaphrosaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Elaphrosaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38546"
       }
     ],
     "residualUncertainty": [

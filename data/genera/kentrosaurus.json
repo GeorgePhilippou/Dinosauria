@@ -225,7 +225,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Kentrosaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Kentrosaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38811"
       },
       {
         "type": "lectotype-revision",

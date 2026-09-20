@@ -124,7 +124,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Erlikosaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Erlikosaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=66666"
       }
     ],
     "residualUncertainty": [

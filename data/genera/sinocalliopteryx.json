@@ -110,11 +110,6 @@
     "sources": [
       {
         "type": "primary-literature",
-        "citation": "Ji et al. (2007), original description of Sinocalliopteryx",
-        "url": "https://www.researchgate.net/publication/285766543_A_new_giant_compsognathid_dinosaur_with_long_filamentous_integuments_from_Lower_Cretaceous_of_Northeastern_China"
-      },
-      {
-        "type": "primary-literature",
         "citation": "Xing et al. (2012), gut contents of Sinocalliopteryx",
         "url": "https://doi.org/10.1371/journal.pone.0044012"
       },

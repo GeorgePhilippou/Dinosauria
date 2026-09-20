@@ -114,7 +114,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Gryposaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Gryposaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=53014"
       }
     ],
     "residualUncertainty": [

@@ -78,7 +78,7 @@
       },
       {
         "label": "PBDB: Mononykus occurrences",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=53210"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=53210"
       }
     ],
     "provenance": "ai-drafted"

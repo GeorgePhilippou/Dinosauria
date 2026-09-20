@@ -238,7 +238,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Deinonychus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Deinonychus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38562"
       },
       {
         "type": "primary-literature",

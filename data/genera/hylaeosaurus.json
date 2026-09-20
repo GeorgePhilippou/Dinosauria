@@ -119,7 +119,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Hylaeosaurus",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Hylaeosaurus"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38822"
       }
     ],
     "residualUncertainty": [

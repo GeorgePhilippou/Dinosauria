@@ -85,7 +85,7 @@
       },
       {
         "label": "PBDB: Antarctosaurus occurrence data",
-        "url": "https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=38685"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=38685"
       }
     ],
     "provenance": "ai-drafted"

@@ -116,7 +116,7 @@
       {
         "type": "authoritative-occurrence-context",
         "citation": "Paleobiology Database taxon and occurrence context for Irritator",
-        "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Irritator"
+        "url": "https://paleobiodb.org/navigator/?taxon_id=64272"
       }
     ],
     "residualUncertainty": [
