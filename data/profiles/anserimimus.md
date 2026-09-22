@@ -6,66 +6,87 @@ pronunciation: ANN-ser-ih-mee-muss
 status: valid
 period: Late Cretaceous
 age_ma: [72, 66]
+age_note: Maastrichtian
 length_m: 3.5
 mass_kg: null
-diet: "diet uncertain; omnivory or herbivory plausible"
+diet: Omnivore or herbivore
+posture: Bipedal
 found_in: [Mongolia]
 fossil_record: 2
-fossil_record_note: Lack of a complete skull and limited sample restrict diet, size and variation claims.
+fossil_record_note: One partial skeleton without a skull, notable for its robust forelimbs; little other material is securely referred.
 classification: [Dinosauria, Saurischia, Theropoda, Coelurosauria, Ornithomimosauria, Ornithomimidae]
-summary: "Anserimimus planinychus was an ornithomimid from the Maastrichtian Nemegt Formation of Mongolia. Its type is an incomplete skeleton with a distinctive, robust forelimb; no complete skull is securely known."
+related:
+  - id: gallimimus
+    why: A larger ornithomimid from the same Nemegt Formation.
+  - id: deinocheirus
+    why: A giant ornithomimosaur that shared its environment.
+  - id: struthiomimus
+    why: A North American ornithomimid with a similar overall build.
+summary: A long-legged, ostrich-like dinosaur from the Nemegt Formation of Mongolia, set apart from its relatives by unusually strong arms and flat, straight hand claws.
 image:
   file: Anserimimus.jpg
+specimens:
+  - id: IGM 100/300
+    label: holotype
+    where: "Bügiin Tsav, Ömnögovi · Nemegt Formation · Institute of Paleontology, Mongolian Academy of Sciences"
+    note: A partial postcranial skeleton with forelimbs, hind limbs and part of the vertebral column; the skull is missing.
 sites:
-  - name: Nemegt Formation
+  - name: Bügiin Tsav, Nemegt Formation
     region: Ömnögovi, Mongolia
-    lat: 43.5
-    lon: 100
-    note: Known Anserimimus specimens come from this famous formation, which also preserves Tarbosaurus, Therizinosaurus, and Deinocheirus, representing one of the richest Late Cretaceous dinosaur faunas in Asia.
+    lat: 43.9
+    lon: 100.0
+    note: River-channel sandstones of the Nemegt Formation in the Gobi Desert.
+    type_locality: true
 formations: Nemegt Formation, Ömnögovi, Mongolia
 sources:
-  - cite: "Kobayashi & Barsbold (2006), Ornithomimids from the Nemegt Formation of Mongolia"
+  - cite: "Kobayashi & Barsbold (2006), Ornithomimids from the Nemegt Formation of Mongolia. Journal of the Paleontological Society of Korea 22"
     url: "https://artscimedia.case.edu/wp-content/uploads/sites/108/2017/05/17211204/JPSK-2006-Kobayashi-Barsbold-ornithomimids-from-nemegt-Fm-LK-MONG.pdf"
-  - cite: "Natural History Museum, Dino Directory: anserimimus"
-    url: "https://www.nhm.ac.uk/discover/dino-directory/anserimimus.html"
-  - cite: "Wikipedia: Anserimimus"
-    url: "https://en.wikipedia.org/wiki/Anserimimus"
-  - cite: "PBDB: Anserimimus occurrence data"
+  - cite: "Chinzorig et al. (2018), Ornithomimosaurs from the Nemegt Formation of Mongolia: manus morphological variation and diversity"
+    doi: 10.1016/j.palaeo.2017.10.031
+  - cite: Paleobiology Database taxon record for Anserimimus
     url: "https://paleobiodb.org/navigator/?taxon_id=66671"
-reviewed: 2026-07-16
-tier: drafted
+  - cite: "Natural History Museum Dino Directory: Anserimimus"
+    url: "https://www.nhm.ac.uk/discover/dino-directory/anserimimus.html"
+reviewed: 2026-09-22
+tier: revised
 ---
 
 ## Overview
 
-Anserimimus planinychus was an ornithomimid theropod dinosaur from the Late Cretaceous of Mongolia, living approximately 72–66 million years ago during the Maastrichtian stage. It was a lanky, fast-running animal estimated at about 3.5 metres in length, and its fossils are known from the Nemegt Formation of Ömnögovi Province. Its name means 'goose mimic', reflecting the superficial resemblance of its skull and body plan to waterfowl.
+Anserimimus was an ornithomimid, one of the lightly built, long-necked theropods often called "ostrich dinosaurs". It lived in the Gobi region of Mongolia near the end of the Cretaceous, alongside the tyrannosaur Tarbosaurus and the giant ornithomimosaur Deinocheirus.
 
-Named by Barsbold in 1988, Anserimimus is a member of the family Ornithomimidae and is distinguished from other members by its proportionally more powerful forelimbs, which bore straighter, less curved claws than typical ornithomimids. It was probably an omnivore, using its toothless beak to feed on vegetation, invertebrates, and small animals. Its powerful arms may indicate a different foraging strategy compared to relatives such as Gallimimus.
+Rinchen Barsbold named it in 1988. The genus name means "goose mimic", and the species name planinychus, "flat claw", refers to the straight, flattened claws on its hands, which distinguish it from other ornithomimids.
 
 ## Anatomy & life
 
-Anserimimus resembled other ornithomimids in its overall body plan — toothless beaked skull, long neck, compact body, and long hind limbs adapted for running — but differed notably in having more powerful forelimbs with relatively flat claws. This difference may indicate a distinct foraging behaviour compared to its relatives, perhaps involving raking or digging. Like all ornithomimids, it likely had a covering of feathers.
+Like other ornithomimids it had long hind limbs built for running, a small head on a long neck, and a toothless beak, although its own skull has not been found. Its forelimbs are more heavily built than in Gallimimus or Ornithomimus, with a robust upper arm bone showing strong muscle attachments, and its hand claws are nearly straight rather than curved.
 
-Anserimimus was probably an omnivore, as suggested by PBDB ecospace data and analogy with other ornithomimids. Its toothless beak would have been suitable for processing plant material, eggs, and small invertebrates or vertebrates. The more powerful forelimbs may have been used for digging up roots or invertebrates, or for pulling down vegetation.
+What these strong arms were used for is not known. Digging, raking or pulling down vegetation have all been suggested, but none is directly supported by the fossils. Ornithomimids are generally thought to have eaten plants and small animals, and there is no specific evidence of Anserimimus's diet.
+
+- Unusually robust forelimbs for an ornithomimid.
+- Flat, almost straight hand claws, the basis of its species name.
+- A fast-running body plan with long hind limbs.
 
 ## Fossil record
 
-Anserimimus planinychus was described by Rinchen Barsbold in 1988 from material collected during Soviet-Mongolian expeditions to the Nemegt Formation. The generic name combines Latin anser (goose) and Greek mimos (mimic), alluding to the goose-like proportions of the skull and neck. The species name planinychus (flat-clawed) refers to the flattened, straight claws on its hands, which differ from the more curved claws of other ornithomimids.
+The holotype is a partial skeleton without a skull, collected by joint Mongolian expeditions in the Nemegt Formation. It preserves the forelimbs, hind limbs and part of the backbone. Few other specimens have been confidently assigned to Anserimimus, and much of the material that has been has not yet been fully described.
 
-One incomplete postcranial skeleton, with limited additional referred material.
-
-- The broad hand bones inspired the species name but do not reveal a specific feeding behaviour.
-- A bipedal, cursorial body plan is supported by ornithomimid anatomy; exact diet is uncertain.
+A 2018 study of ornithomimosaur hands from the Nemegt Formation compared Anserimimus with Gallimimus, Deinocheirus and newly found specimens, highlighting how much hand shape varied among the ornithomimosaurs living in the Nemegt ecosystem.
 
 ## Where it lived
 
-The Nemegt Formation represents a river-dominated floodplain environment with a relatively humid climate compared to other Mongolian Cretaceous formations. Anserimimus shared this environment with the giant tyrannosaur Tarbosaurus, the oviraptorid Citipati, the ankylosaur Tarchia, and the enormous ornithomimid Deinocheirus. The diverse Nemegt fauna represents one of the last great non-avian dinosaur communities of Asia.
+The Nemegt Formation was laid down by broad, braided rivers under a relatively humid climate compared with the older, drier Gobi formations. It preserves one of the richest latest Cretaceous faunas in Asia, including Tarbosaurus, Therizinosaurus, Deinocheirus, Saurolophus and several oviraptorosaurs and ankylosaurs.
 
-Known Anserimimus specimens come from this famous formation, which also preserves Tarbosaurus, Therizinosaurus, and Deinocheirus, representing one of the richest Late Cretaceous dinosaur faunas in Asia.
+## Classification
 
-The type locality is in the Maastrichtian Nemegt Formation.
+Anserimimus belongs to Ornithomimidae, the advanced, toothless branch of Ornithomimosauria. Its closest relatives are debated because the skull is unknown, but most studies place it among the derived ornithomimids alongside Gallimimus, Struthiomimus and Ornithomimus.
 
 ## Open questions
 
-- Only one diagnostic partial skeleton is securely established.
-- Some referred material is not fully described.
+### What were the strong arms for?
+
+The robust forelimbs and flat claws suggest a different use of the hands from other ornithomimids, but no feeding or digging traces confirm any particular behaviour.
+
+### How complete is the known material?
+
+Only one partial skeleton is securely established, and some referred material remains undescribed.

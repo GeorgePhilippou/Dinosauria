@@ -6,69 +6,82 @@ pronunciation: sil-vi-sore-us
 status: valid
 period: Late Cretaceous
 age_ma: [103, 99]
-age_note: late Albian-early Cenomanian, about 103-99 million years ago
+age_note: late Albian to early Cenomanian, near the Early–Late Cretaceous boundary
 length_m: 4
 mass_kg: null
 diet: Herbivore
+posture: Quadrupedal
 found_in: [USA]
 fossil_record: null
 specialist_review: pending
-fossil_record_note: No complete armour sequence or precise mass is known.
+fossil_record_note: One partial skeleton with a damaged skull, some vertebrae, ribs, limb and girdle bones, and scattered armour.
 classification: [Dinosauria, Ornithischia, Thyreophora, Ankylosauria, Nodosauridae]
-summary: Silvisaurus condrayi was a nodosaurid from the Dakota Formation of Kansas, known from one partial skeleton with a damaged skull and osteoderms.
+related:
+  - id: sauropelta
+    why: An earlier and better-known North American nodosaurid.
+  - id: panoplosaurus
+    why: A later nodosaurid from Alberta with a similar armoured skull.
+summary: A small nodosaurid ankylosaur from the Dakota Formation of Kansas, known from one partial skeleton with a skull that still carries teeth at the front of the upper jaw.
 image:
   file: Silvisaurus skeleton.jpg
+specimens:
+  - id: KUVP 10296
+    label: holotype
+    where: "Ottawa County, Kansas · Dakota Formation · University of Kansas Natural History Museum"
+    note: Partial skeleton found on the Condray family ranch in 1955, including a skull with lower jaws, part of the vertebral column, ribs, limb and girdle bones and osteoderms.
 sites:
-  - name: Kiowa Formation
-    region: Ottawa County, Kansas, USA
-    lat: 39.8
-    lon: -97.9
-    note: The holotype skull and associated fragmentary bones were found in Early Cretaceous marine and nearshore deposits of the Kiowa Formation.
-  - name: Cloverly Formation equivalents
-    region: Great Plains region, USA
-    lat: 40
-    lon: -100
-    note: Correlative Early Cretaceous terrestrial strata across the Great Plains have yielded other nodosaurid material broadly contemporaneous with Silvisaurus.
-formations: "Kiowa Formation, Ottawa County, Kansas, USA; Cloverly Formation equivalents, Great Plains region, USA"
+  - name: Dakota Formation, Ottawa County
+    region: Kansas, USA
+    lat: 39.1
+    lon: -97.7
+    note: Coastal-plain river and delta deposits laid down near the eastern shore of the Western Interior Seaway.
+    type_locality: true
+formations: Dakota Formation (Terra Cotta Member), Ottawa County, Kansas, USA
 sources:
-  - cite: Eaton (1960), original description of Silvisaurus condrayi
+  - cite: "Eaton (1960), A new armored dinosaur from the Cretaceous of Kansas. University of Kansas Paleontological Contributions, Vertebrata 8"
     url: "https://www.biodiversitylibrary.org/page/4397517"
-  - cite: "Natural History Museum Dino Directory: silvisaurus"
+  - cite: "Natural History Museum Dino Directory: Silvisaurus"
     url: "https://www.nhm.ac.uk/discover/dino-directory/silvisaurus.html"
-reviewed: 2026-07-16
-tier: drafted
+reviewed: 2026-09-22
+tier: revised
 ---
 
 ## Overview
 
-Silvisaurus (meaning 'forest lizard') was an ankylosaur of the family Nodosauridae from the Early Cretaceous of Kansas, USA, living approximately 121–112 million years ago. The known material — a skull and fragmentary postcranial bones — suggests a body length of roughly 4 metres, though this is an approximation based on comparison with better-known relatives. Named by Eaton in 1960, Silvisaurus condrayi represents one of the earlier nodosaurids known from North America.
+Silvisaurus was a small armoured dinosaur that lived in Kansas close to the boundary between the Early and Late Cretaceous. It belonged to the nodosaurids, the branch of ankylosaurs that carried rows of bony plates and spines but had no tail club.
 
-As a nodosaurid, Silvisaurus lacked the bony tail club characteristic of ankylosaurids and instead relied on its body armour of osteoderms, spines, and scutes for passive defence. The recovery of skull material allows some reconstruction of its head shape and presumed diet of low-growing vegetation, though detailed anatomy is poorly known due to the fragmentary postcrania. Silvisaurus provides a data point for tracking the early Cretaceous spread of nodosaurids across North America.
+The only known skeleton was found in 1955 on the ranch of Warren Condray in Ottawa County and named by Theodore Eaton in 1960. Its name, "forest lizard", reflects Eaton's view that it lived in wooded country bordering the inland sea that then divided North America.
 
 ## Anatomy & life
 
-Silvisaurus is placed in Nodosauridae — the group of armoured dinosaurs that, unlike their ankylosaurid cousins, lack a tail club. Nodosaurids typically have narrower skulls than ankylosaurids and retain spines along the flanks. The skull of Silvisaurus shows characteristics broadly consistent with nodosaurid relationships, though detailed phylogenetic analysis is hampered by the incomplete material.
+The skull is broad and low, with a secondary palate and a heavily armoured roof. Unusually for an ankylosaur, it still has teeth in the premaxilla, the bone at the tip of the upper jaw; most later ankylosaurs had a toothless beak there. This is generally treated as a primitive feature retained from earlier armoured dinosaurs.
 
-The preserved skull of Silvisaurus gives limited but useful information about head shape: it is broad and relatively low, typical of ankylosaurs. Reconstructions of the body armour are speculative and based on comparison with better-known nodosaurids such as Edmontonia and Panoplosaurus. The animal was quadrupedal and heavily built.
+It was a low, four-legged browser that fed on ferns, shrubs and other plants within about a metre of the ground. The body was protected by bony osteoderms, but how they were arranged across the back and flanks is reconstructed from better-known nodosaurids because the armour was found scattered.
+
+- Teeth at the front of the upper jaw, a primitive trait lost in most ankylosaurs.
+- One of the few dinosaurs known from the Dakota Formation.
+- A small nodosaurid, around 4 m long.
 
 ## Fossil record
 
-Silvisaurus condrayi was named by Theodore H. Eaton Jr. in 1960 from material discovered in Ottawa County, Kansas. The species name honours J. C. Condray, who brought the specimen to scientific attention. The holotype consists of a skull and fragmentary postcrania found in Kiowa Formation deposits, representing one of the few Early Cretaceous ankylosaurs from the central United States.
+Silvisaurus is known from a single associated skeleton. The skull is fairly complete but crushed, and the postcranial skeleton includes part of the neck and back, ribs, limb and girdle bones and a number of osteoderms. The tail and much of the armour pattern are missing.
 
-One partial skeleton with damaged skull, vertebrae, girdle, limbs and osteoderms.
-
-- The skull and postcranium are incomplete but associated.
-- Armour layout, tail end and exact size are mostly reconstructed.
+The specimen has not been fully redescribed since 1960, so some of its anatomy is known only from the original short description.
 
 ## Where it lived
 
-The Kiowa Formation represents nearshore marine and brackish coastal environments during the Early Cretaceous Western Interior Seaway transgression. Silvisaurus appears to have inhabited the terrestrial margins of this seaway. It would have browsed on low-growing ferns and other vegetation in what was a warm, humid coastal ecosystem.
+The Dakota Formation was laid down by rivers and deltas on a low coastal plain along the eastern edge of the Western Interior Seaway. Its rocks are famous for leaves of early flowering plants, which were spreading rapidly at the time. Dinosaur bones are rare in the formation, making Silvisaurus one of the few named dinosaurs from Kansas.
 
-The holotype skull and associated fragmentary bones were found in Early Cretaceous marine and nearshore deposits of the Kiowa Formation.
+## Classification
 
-The Dakota Formation type is near the Albian-Cenomanian boundary, younger than 121-112 Ma.
+Silvisaurus is placed in Nodosauridae on the basis of its skull shape and armour. Its exact relationships within the group are poorly resolved: it has been recovered near North American forms such as Sauropelta and Pawpawsaurus in some analyses, but it is often left out of large studies because so little of it has been restudied.
 
 ## Open questions
 
-- The old specimen needs modern redescription.
-- Specialist confirmation is still required before this profile is marked primary-literature reviewed.
+### Needs modern restudy
+
+The holotype has not been redescribed with modern methods. A new description would clarify its anatomy, its age and its place among nodosaurids.
+
+### How was the armour arranged?
+
+The osteoderms were found scattered, so the pattern of plates and spines along the body is uncertain.

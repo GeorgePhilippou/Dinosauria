@@ -55,7 +55,8 @@ sources:
   - cite: "Author (year), Title"
     doi: 10.xxxx/…           # preferred; otherwise url:
 reviewed: 2026-09-22
-tier: polished               # polished | drafted | basic — raise when a page meets this guide
+tier: revised                # polished | revised | drafted | basic
+                             # revised = text rewritten to this guide and sources checked; image licence not yet re-verified
 parked:                      # text from the old data not yet placed; fold in and delete
   - from: record fact
     text: …
@@ -91,3 +92,8 @@ parked:                      # text from the old data not yet placed; fold in an
 - Images: Wikimedia Commons only, licence and author verified via the Commons API.
 - When you change a page, update `reviewed:` and delete any `parked:` items
   you have used or rejected.
+- Run `python3 tools/check-profiles.py <id> …` before committing; it checks the
+  YAML, section order, related ids, DOI format, banned sources, internal
+  wording, American spellings and ages in the prose against `age_ma`.
+- Never invent a specimen number. If a catalogue number cannot be confirmed
+  from a source, describe the specimen without one.

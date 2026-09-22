@@ -5,70 +5,96 @@ meaning: Yunnan lizard
 pronunciation: yoo-nahn-oh-sore-us
 status: valid
 period: Early Jurassic
-age_note: "species-dependent Early Jurassic range; Y. youngi is probably Pliensbachian"
+age_ma: [199, 183]
+age_note: Y. huangi Sinemurian; Y. youngi probably Pliensbachian
 length_m: 7
 mass_kg: null
+size_note: about 7 m (Y. huangi); Y. youngi larger
 diet: Herbivore
+posture: Mainly bipedal
 found_in: [China]
 fossil_record: 3
-fossil_record_note: Herbivory is supported, but species measurements and formation ages must be kept separate.
+fossil_record_note: Some twenty partial skeletons and several skulls of Y. huangi; the second species is known from one partial skeleton.
 classification: [Dinosauria, Saurischia, Sauropodomorpha, Massopoda]
-summary: Yunnanosaurus was a basal sauropodomorph from Early Jurassic Yunnan, known from multiple partial skeletons and skulls. The type species Y. huangi and the larger Y. youngi come from different units and must be treated separately.
+related:
+  - id: jingshanosaurus
+    why: A close relative from the same Lufeng Formation, sometimes grouped with it in Yunnanosauridae.
+  - id: lufengosaurus
+    why: The most common sauropodomorph of the Lower Lufeng Formation.
+  - id: massospondylus
+    why: A contemporary sauropodomorph from southern Africa.
+summary: A long-necked early relative of the sauropods from the Lufeng Formation of Yunnan, China, notable for spoon-shaped teeth that wore against each other like those of true sauropods.
 image:
   file: Yunnanosaurus-Tianjin Natural History Museum.jpg
+specimens:
+  - id: Y. huangi type series
+    label: holotype and referred skeletons
+    where: "Lufeng, Yunnan · Lower Lufeng Formation · Institute of Vertebrate Paleontology and Paleoanthropology, Beijing"
+    note: About twenty partial skeletons collected in the late 1930s and described by C. C. Young in 1942; the skulls were redescribed by Barrett and colleagues in 2007.
+  - id: Y. youngi holotype
+    label: second species
+    where: "Yuanmou, Yunnan · Fengjiahe Formation"
+    note: A large partial skeleton without a skull, named in 2007 and originally thought to be Middle Jurassic.
 sites:
-  - name: Lufeng Formation (Lower Lufeng)
-    region: Yunnan, China
+  - name: Lower Lufeng Formation
+    region: Lufeng County, Yunnan, China
     lat: 25.1
     lon: 102.1
-    note: The highly productive Early Jurassic formation near Lufeng County from which multiple Yunnanosaurus specimens were described.
-  - name: Zhanghe Formation
-    region: Yunnan, China
-    lat: 25.5
-    lon: 101.8
-    note: Middle Jurassic deposits in Yunnan also attributed with later Yunnanosaurus material.
-formations: "Lufeng Formation (Lower Lufeng), Yunnan, China; Zhanghe Formation, Yunnan, China"
+    note: Red beds that also produced Lufengosaurus, Jingshanosaurus and early mammal relatives; type locality of Y. huangi.
+    type_locality: true
+  - name: Fengjiahe Formation
+    region: Yuanmou County, Yunnan, China
+    lat: 25.7
+    lon: 101.9
+    note: Source of Y. youngi, now dated to the Early Jurassic.
+formations: "Lower Lufeng Formation (Y. huangi); Fengjiahe Formation (Y. youngi), Yunnan, China"
 sources:
-  - cite: Barrett et al. (2007), skull and palaeobiology of Yunnanosaurus huangi
+  - cite: "Barrett, Upchurch, Zhou & Wang (2007), The skull of Yunnanosaurus huangi Young, 1942 from the Lower Lufeng Formation of Yunnan, China"
     doi: 10.1111/j.1096-3642.2007.00290.x
-  - cite: Ren et al. (2022), Early Jurassic age of Yunnanosaurus youngi
+  - cite: "Ren et al. (2021), Sedimentological evidence suggests an Early Jurassic age for Yunnanosaurus youngi"
     doi: 10.1080/08912963.2021.1984445
-  - cite: "Natural History Museum Dino Directory: yunnanosaurus"
+  - cite: "Natural History Museum Dino Directory: Yunnanosaurus"
     url: "https://www.nhm.ac.uk/discover/dino-directory/yunnanosaurus.html"
-reviewed: 2026-07-16
-tier: drafted
+reviewed: 2026-09-22
+tier: revised
 ---
 
 ## Overview
 
-Yunnanosaurus ('Yunnan lizard') was a sauropodomorph dinosaur from the Early to Middle Jurassic of Yunnan Province, China, living approximately 205–190 million years ago. Reaching about 7 metres in length, it is known from an exceptionally well-represented sample of approximately 20 skeletons including both adults and juveniles, making it one of the most abundantly represented prosauropod-grade dinosaurs in China. The type species, Yunnanosaurus huangi, was named by C.C. Young in 1942.
+Yunnanosaurus was a long-necked plant-eater from the Early Jurassic of Yunnan Province in southern China. It belonged to the sauropodomorphs, the group that includes the giant sauropods, but it was an earlier, smaller form that still walked mainly on its hind legs.
 
-Yunnanosaurus is scientifically notable for possessing teeth that are spoon-shaped and self-sharpening — a feature convergent with true sauropods and unlike the leaf-shaped teeth of most prosauropods. This dental innovation suggests it evolved advanced plant-processing abilities independently from the sauropod lineage. Its placement within Sauropodomorpha, and specifically whether it belongs in Prosauropoda or closer to Sauropoda, has been debated and it has been placed in Plateosauria by some authors.
+C. C. Young named it in 1942 from about twenty partial skeletons collected near Lufeng, making it one of the best-sampled early sauropodomorphs in Asia. A second, larger species, Y. youngi, was named in 2007 from Yuanmou County.
 
 ## Anatomy & life
 
-One of the most distinctive features of Yunnanosaurus is its teeth, which are cylindrical and spoon-shaped with wear facets suggesting a self-sharpening mechanism — teeth far more similar to those of sauropods than the leaf-shaped, serrated teeth typical of other prosauropods. This convergence with sauropod dental morphology is intriguing and suggests that Yunnanosaurus had independently evolved specialised plant-processing adaptations, potentially allowing a different dietary range from its contemporaries.
+Its most unusual feature is its teeth. Rather than the serrated, leaf-shaped teeth of most early sauropodomorphs, Yunnanosaurus had broad, spoon-shaped crowns without serrations, which wore steep facets as the upper and lower teeth slid past each other. This is very similar to the teeth of true sauropods and evolved independently in Yunnanosaurus, pointing to efficient cropping of tough plants.
 
-The availability of approximately 20 specimens including juveniles and adults makes Yunnanosaurus one of the best resources for studying ontogeny (growth through life) in early sauropodomorphs. Growth series can reveal how limb proportions, skull shape, and body size changed through development, informing hypotheses about the growth rates, maturation ages, and life history strategies of prosauropod-grade dinosaurs.
+Otherwise it had the typical early sauropodomorph build: a small head, a long neck, a bulky body, strong arms with a large thumb claw, and a long tail. It probably walked on two legs but could drop onto all fours when feeding.
 
-Yunnanosaurus was part of the diverse Early Jurassic Lufeng Formation fauna, which also includes the prosauropod Lufengosaurus, the early thyreophoran Bienosaurus, and multiple early crocodylomorphs and early mammals. The Lufeng Formation is one of the most important Early Jurassic terrestrial vertebrate assemblages in Asia, preserving a snapshot of the ecosystem that followed the end-Triassic mass extinction event.
+- Spoon-shaped, self-wearing teeth convergent with those of sauropods.
+- One of the best-sampled early sauropodomorphs in Asia.
+- Two species from different rock units and ages.
 
 ## Fossil record
 
-Yunnanosaurus huangi was named by the eminent Chinese palaeontologist C.C. Young in 1942 from material collected in Yunnan Province. The genus name straightforwardly references Yunnan Province, and the species name honours Bing-Wei Huang. Young recognised that the approximately 20 available specimens represented a range of ontogenetic stages, providing a valuable comparative dataset for the species.
+The type species is known from roughly twenty individuals, including several skulls and partial skeletons of different sizes. A 2007 restudy of the skulls confirmed the unusual teeth and clarified which features distinguish Yunnanosaurus from its neighbour Lufengosaurus. A proposed second species, Y. robustus, is generally regarded as a larger individual of Y. huangi.
 
-Multiple partial skeletons and skulls divided among species and formations.
-
-- Extensive tooth wear supports plant processing, so the catalogue omnivore label is replaced with herbivore.
-- Y. robustus is generally treated as a junior synonym of Y. huangi.
-- Sedimentological reassessment places Y. youngi in the Lower Jurassic Fengjiahe Formation, probably Pliensbachian, rather than the Middle Jurassic.
+The second species, Y. youngi, is based on a single large partial skeleton without a skull. It was first thought to be Middle Jurassic, which would have made it one of the youngest non-sauropod sauropodomorphs, but a 2021 study of the rocks showed them to be Early Jurassic.
 
 ## Where it lived
 
-The highly productive Early Jurassic formation near Lufeng County from which multiple Yunnanosaurus specimens were described.
+The Lower Lufeng Formation consists of red mudstones and sandstones laid down by rivers and lakes under a warm, seasonally dry climate. It preserves one of the richest Early Jurassic land faunas in Asia, including the sauropodomorphs Lufengosaurus and Jingshanosaurus, the armoured dinosaur Bienosaurus, early crocodile relatives and a variety of mammal-like cynodonts and early mammals.
 
-Y. huangi is from the Lower Jurassic Lower Lufeng Formation, whereas Y. youngi is now placed in the Lower Jurassic Fengjiahe Formation and is probably Pliensbachian; one merged numerical genus range would conceal that species-level evidence.
+## Classification
+
+Yunnanosaurus is a massopodan sauropodomorph, part of the radiation of medium-sized plant-eaters that preceded the sauropods. It is often grouped with Jingshanosaurus in a small family, Yunnanosauridae, though its exact position among other early sauropodomorphs varies between analyses.
 
 ## Open questions
 
-- Species content and the precise ages of individual Lufeng horizons remain uncertain.
+### Are both species really Yunnanosaurus?
+
+Y. youngi is much larger, lacks a skull and comes from a different formation, so its placement in the same genus rests on limited overlapping material.
+
+### How precisely are the Lufeng beds dated?
+
+The ages of individual horizons within the Lufeng Formation are still being refined, which affects comparisons with sauropodomorphs elsewhere.
