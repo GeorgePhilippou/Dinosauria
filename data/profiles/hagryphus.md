@@ -40,15 +40,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/hagryphus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The genus is diagnosed from very limited appendicular material.
-  - from: record fact
-    text: Large body-size estimates are extrapolated and should be presented as uncertain.
-  - from: record fact
-    text: Diet cannot be determined because no skull or jaws are known for the taxon.
-  - from: age review note
-    text: Restricted to the late Campanian Kaiparowits Formation, approximately 76-74 Ma.
 ---
 
 ## Overview
@@ -69,11 +60,17 @@ Hagryphus giganteus was described in 2005 by Lindsay Zanno and Scott Sampson fro
 
 Partial hand with small associated foot fragments from one individual.
 
+- The genus is diagnosed from very limited appendicular material.
+- Large body-size estimates are extrapolated and should be presented as uncertain.
+- Diet cannot be determined because no skull or jaws are known for the taxon.
+
 ## Where it lived
 
 The Kaiparowits Formation records a lush, subtropical floodplain ecosystem on the island continent of Laramidia during the Late Campanian. It preserves an exceptionally diverse dinosaurian fauna including ceratopsids, hadrosaurs, ankylosaurs, and theropods of multiple kinds. Hagryphus was one of the largest non-tyrannosaur predators or omnivores in this ecosystem.
 
 The sole known source of Hagryphus material, a rich Late Campanian deposit yielding diverse Late Cretaceous fauna from the Laramidia landmass.
+
+Restricted to the late Campanian Kaiparowits Formation, approximately 76-74 Ma.
 
 ## Open questions
 

@@ -38,13 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/shuvuuia.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Feather-like filaments were reported with the type, although their preservation and biochemical identification have been debated.
-  - from: record fact
-    text: "The categorical omnivore label is cleared: insectivory is plausible, but direct diet evidence is absent."
-  - from: age review note
-    text: "The Djadokhta and Baruungoyot records are Campanian; the original reversed 75-81 Ma range is corrected."
 ---
 
 ## Overview
@@ -67,9 +60,14 @@ Shuvuuia deserti was described in 1998 by Luis Chiappe, Mark Norell, and James C
 
 Several partial skeletons and skulls, with reported filament traces.
 
+- Feather-like filaments were reported with the type, although their preservation and biochemical identification have been debated.
+- The categorical omnivore label is cleared: insectivory is plausible, but direct diet evidence is absent.
+
 ## Where it lived
 
 Multiple Shuvuuia specimens including the holotype skull and skeleton were recovered from wind-blown Late Cretaceous sand dunes at Ukhaa Tolgod.
+
+The Djadokhta and Baruungoyot records are Campanian; the original reversed 75-81 Ma range is corrected.
 
 ## Open questions
 

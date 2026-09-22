@@ -36,13 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/talarurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: A modern skull redescription corrected a composite reconstruction that had included another ankylosaur.
-  - from: record fact
-    text: The tail club is supported, but armour and body proportions are composite.
-  - from: age review note
-    text: "Bayan Shireh dating spans Cenomanian-Santonian; the original 99-89 Ma range is only approximate."
 ---
 
 ## Overview
@@ -65,9 +58,14 @@ Talarurus plicatospineus was described by Evgeny Maleev in 1952 from material co
 
 Several partial skeletons and skulls, mostly disarticulated, with tail-club elements.
 
+- A modern skull redescription corrected a composite reconstruction that had included another ankylosaur.
+- The tail club is supported, but armour and body proportions are composite.
+
 ## Where it lived
 
 The holotype and most referred specimens were recovered from Cenomanian–Santonian Bayan Shireh Formation sediments in southern Mongolia during Soviet expeditions.
+
+Bayan Shireh dating spans Cenomanian-Santonian; the original 99-89 Ma range is only approximate.
 
 ## Open questions
 

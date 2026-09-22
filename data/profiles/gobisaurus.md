@@ -40,15 +40,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/gobisaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The skull is the primary diagnostic evidence.
-  - from: record fact
-    text: A broad muzzle and herbivorous ankylosaur jaw apparatus are documented.
-  - from: record fact
-    text: A tail club cannot be confidently described for Gobisaurus from the published type material.
-  - from: age review note
-    text: The Ulansuhai Formation is Early Cretaceous, but its detailed numerical age has varied among correlations.
 ---
 
 ## Overview
@@ -69,11 +60,17 @@ Gobisaurus domoculus was described in 2001 by Vickaryous, Russell, Currie and Zh
 
 Diagnostic skull with poorly documented associated postcranium.
 
+- The skull is the primary diagnostic evidence.
+- A broad muzzle and herbivorous ankylosaur jaw apparatus are documented.
+- A tail club cannot be confidently described for Gobisaurus from the published type material.
+
 ## Where it lived
 
 The Early Cretaceous formations of Inner Mongolia and Henan record varied terrestrial environments ranging from floodplains to more arid settings. Gobisaurus would have been a low-browsing herbivore exploiting ground-level vegetation in these habitats, sharing its environment with theropods, sauropods, and other ornithischians.
 
 One of the primary source formations for Gobisaurus material, dating to the Aptian of the Early Cretaceous.
+
+The Ulansuhai Formation is Early Cretaceous, but its detailed numerical age has varied among correlations.
 
 ## Open questions
 

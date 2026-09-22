@@ -37,13 +37,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Coelurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The secure material includes vertebrae, pelvis and limb bones, but no diagnostic skull.
-  - from: record fact
-    text: "Bipedal carnivory is a broad coelurosaur inference; exact prey, feathers and speed are unknown."
-  - from: age review note
-    text: The type is Kimmeridgian-Tithonian within the Morrison Formation.
 ---
 
 ## Overview
@@ -66,9 +59,14 @@ Coelurus has a long and complicated taxonomic history typical of early-described
 
 One incomplete disarticulated postcranial skeleton.
 
+- The secure material includes vertebrae, pelvis and limb bones, but no diagnostic skull.
+- Bipedal carnivory is a broad coelurosaur inference; exact prey, feathers and speed are unknown.
+
 ## Where it lived
 
 Primary source of Coelurus material; Late Jurassic fluvial and alluvial formation spanning multiple western US states.
+
+The type is Kimmeridgian-Tithonian within the Morrison Formation.
 
 ## Open questions
 

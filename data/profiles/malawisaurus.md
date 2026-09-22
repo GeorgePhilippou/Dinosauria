@@ -33,15 +33,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/malawisaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Cranial remains include braincase and jaw elements, unusual completeness for an early titanosaur.
-  - from: record fact
-    text: Associated osteoderms have been reported, although their arrangement is unknown.
-  - from: record fact
-    text: Its placement close to the base of Lithostrotia makes it important for titanosaur evolution.
-  - from: age review note
-    text: "The Dinosaur Beds are treated as Aptian; a point range narrower than formation dating is avoided."
 ---
 
 ## Overview
@@ -62,11 +53,17 @@ Material now assigned to Malawisaurus was first described in 1928 by Sydney Haug
 
 Composite cranial and postcranial remains from multiple individuals, with reported osteoderms.
 
+- Cranial remains include braincase and jaw elements, unusual completeness for an early titanosaur.
+- Associated osteoderms have been reported, although their arrangement is unknown.
+- Its placement close to the base of Lithostrotia makes it important for titanosaur evolution.
+
 ## Where it lived
 
 During the Early Cretaceous, the region now occupied by Malawi was part of a semi-arid to sub-humid Gondwanan environment. The Dinosaur Beds of Malawi preserve a fauna that, while not as diverse as some other African Cretaceous sites, provides important data on the distribution of large herbivores in sub-equatorial Africa during this period.
 
 Multiple partial skeletons and cranial elements of Malawisaurus dixeyi have been recovered from these Early Cretaceous terrestrial sediments along the western shore of Lake Malawi.
+
+The Dinosaur Beds are treated as Aptian; a point range narrower than formation dating is avoided.
 
 ## Open questions
 

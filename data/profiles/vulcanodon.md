@@ -38,13 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/vulcanodon.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Limbs, pelvis and tail establish an obligate quadrupedal sauropod.
-  - from: record fact
-    text: Reassessment of the type locality makes it substantially older than the once-assumed Toarcian age, but does not yield a narrow radiometric date.
-  - from: age review note
-    text: "Stratigraphic reassessment places the type in the uppermost Forest Sandstone Formation, probably Sinemurian-Pliensbachian; the exact numerical age remains unresolved."
 ---
 
 ## Overview
@@ -65,9 +58,14 @@ Vulcanodon karibaensis was described in 1972 by Michael Raath from an incomplete
 
 One partial postcranial skeleton with limbs, pelvis and tail; skull absent.
 
+- Limbs, pelvis and tail establish an obligate quadrupedal sauropod.
+- Reassessment of the type locality makes it substantially older than the once-assumed Toarcian age, but does not yield a narrow radiometric date.
+
 ## Where it lived
 
 The Early Jurassic aeolian and fluvial deposits near Lake Kariba where Vulcanodon karibaensis was found.
+
+Stratigraphic reassessment places the type in the uppermost Forest Sandstone Formation, probably Sinemurian-Pliensbachian; the exact numerical age remains unresolved.
 
 ## Classification
 

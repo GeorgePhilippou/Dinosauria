@@ -43,13 +43,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Saichania&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype preserves an excellent skull, neck armour, vertebrae, girdles and forelimbs but not a complete body.
-  - from: record fact
-    text: Some mounted or referred specimens have been questioned or reassigned, so tail and hindquarter anatomy must be labelled by specimen.
-  - from: age review note
-    text: "The type is late Campanian Baruungoyot Formation; an isolated 80 Ma point is not justified."
 ---
 
 ## Overview
@@ -72,9 +65,14 @@ Saichania chulsanensis was described by Polish palaeontologist Teresa Maryańska
 
 Holotype skull and partial skeleton plus disputed referrals.
 
+- The holotype preserves an excellent skull, neck armour, vertebrae, girdles and forelimbs but not a complete body.
+- Some mounted or referred specimens have been questioned or reassigned, so tail and hindquarter anatomy must be labelled by specimen.
+
 ## Where it lived
 
 Campanian desert-environment deposits that yielded the type and referred Saichania material with preserved osteoderms.
+
+The type is late Campanian Baruungoyot Formation; an isolated 80 Ma point is not justified.
 
 ## Open questions
 

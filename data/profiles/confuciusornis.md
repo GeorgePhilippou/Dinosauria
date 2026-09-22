@@ -48,13 +48,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Confuciusornis&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: "The long paired tail feathers occur only in part of the sample; they are likely related to sexual display, but they cannot simply be assigned to males in every specimen."
-  - from: record fact
-    text: Wing anatomy and feathers support flight ability, while take-off performance and flight style remain debated.
-  - from: age review note
-    text: Most C. sanctus specimens are from Barremian-Aptian beds of the Yixian Formation, around 125-120 million years old.
 ---
 
 ## Overview
@@ -75,9 +68,14 @@ Confuciusornis sanctus was described in 1995 by Hou Lianhai, Zhou Zhonghe, Gu Yu
 
 Hundreds of partial to complete articulated skeletons, many preserving feathers.
 
+- The long paired tail feathers occur only in part of the sample; they are likely related to sexual display, but they cannot simply be assigned to males in every specimen.
+- Wing anatomy and feathers support flight ability, while take-off performance and flight style remain debated.
+
 ## Where it lived
 
 Exceptionally preserved Early Cretaceous Lagerstätte yielding hundreds of complete Confuciusornis specimens.
+
+Most C. sanctus specimens are from Barremian-Aptian beds of the Yixian Formation, around 125-120 million years old.
 
 ## Classification
 

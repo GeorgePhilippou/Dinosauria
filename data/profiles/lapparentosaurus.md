@@ -40,15 +40,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/lapparentosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Growth rings and bone tissues provide information on juvenile development.
-  - from: record fact
-    text: Most body reconstruction combines bones from different individuals.
-  - from: record fact
-    text: Its exact position among early eusauropods is not stable.
-  - from: age review note
-    text: "The Isalo III fauna is generally Bathonian; correlations and local horizon control remain approximate."
 ---
 
 ## Overview
@@ -63,6 +54,10 @@ Lapparentosaurus was described in 1986 by José Bonaparte based on partial skele
 
 Disarticulated postcranial remains from several mostly juvenile individuals.
 
+- Growth rings and bone tissues provide information on juvenile development.
+- Most body reconstruction combines bones from different individuals.
+- Its exact position among early eusauropods is not stable.
+
 ## Where it lived
 
 Because no skulls have been recovered, key features of Lapparentosaurus such as tooth morphology and feeding apparatus remain unknown. The postcranial skeleton suggests a large-bodied quadrupedal herbivore typical of Jurassic sauropods. Reconstructions therefore involve considerable inference based on related taxa, and should be treated as approximate.
@@ -70,6 +65,8 @@ Because no skulls have been recovered, key features of Lapparentosaurus such as 
 The presence of a titanosauriform in Middle Jurassic Madagascar is important for understanding how this major sauropod lineage dispersed across Gondwana before the breakup of the southern supercontinent. Madagascar at this time maintained land connections that allowed faunal exchange between Africa and other Gondwanan regions.
 
 Partial postcranial skeletons lacking skulls were recovered from these Middle Jurassic continental sediments.
+
+The Isalo III fauna is generally Bathonian; correlations and local horizon control remain approximate.
 
 ## Classification
 

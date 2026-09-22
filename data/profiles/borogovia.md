@@ -34,13 +34,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Borogovia"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The distinctive foot lacks an enlarged predatory second-toe claw of the proportions seen in many other paravians.
-  - from: record fact
-    text: Its name remains valid in recent troodontid analyses, but evidence is sparse.
-  - from: age review note
-    text: The type comes from the Maastrichtian Nemegt Formation.
 ---
 
 ## Overview
@@ -59,9 +52,14 @@ The Borogovia material was collected during the Polish–Mongolian Palaeontologi
 
 One fragmentary distal hind limb and foot.
 
+- The distinctive foot lacks an enlarged predatory second-toe claw of the proportions seen in many other paravians.
+- Its name remains valid in recent troodontid analyses, but evidence is sparse.
+
 ## Where it lived
 
 The Nemegt Formation at the type locality yielded the partial hindlimb material that defines Borogovia; the same beds also preserve the much larger troodontid Tochisaurus and a diverse fauna including Tarbosaurus and Deinocheirus.
+
+The type comes from the Maastrichtian Nemegt Formation.
 
 ## Classification
 

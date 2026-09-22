@@ -39,15 +39,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Puertasaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The enormous dorsal vertebra demonstrates a very broad trunk region.
-  - from: record fact
-    text: No skull or limb bones are known from the holotype.
-  - from: record fact
-    text: Exact length and mass estimates are highly speculative because scaling four vertebrae requires uncertain proportions.
-  - from: age review note
-    text: "The Cerro Fortaleza/Pari Aike unit has a broad Campanian-Maastrichtian age; the type cannot support a precise point date."
 ---
 
 ## Overview
@@ -66,11 +57,17 @@ Patagonia has produced an extraordinary diversity of giant titanosaur sauropods,
 
 The Puertasaurus remains were discovered in 2001 by Pablo Puerta and Santiago Reuil in the Cerro Fortaleza Formation of southern Patagonia. The genus was formally described in 2005 by Fernando Novas and colleagues. The type species, Puertasaurus reuili, honours both discoverers.
 
+- The enormous dorsal vertebra demonstrates a very broad trunk region.
+- No skull or limb bones are known from the holotype.
+- Exact length and mass estimates are highly speculative because scaling four vertebrae requires uncertain proportions.
+
 ## Where it lived
 
 Fossil tree trunks found in the same locality suggest Puertasaurus may have inhabited a forested environment in Late Cretaceous Patagonia—in contrast to the more open habitats often envisaged for giant titanosaurs. Its enormous size would have allowed it to reach high foliage unavailable to smaller herbivores.
 
 Late Cretaceous Patagonian formation from which the only four known Puertasaurus bones were recovered in 2001.
+
+The Cerro Fortaleza/Pari Aike unit has a broad Campanian-Maastrichtian age; the type cannot support a precise point date.
 
 ## Open questions
 

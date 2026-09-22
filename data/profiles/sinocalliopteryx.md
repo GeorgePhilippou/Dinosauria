@@ -40,15 +40,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/sinocalliopteryx.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Filamentous integument is preserved around the body.
-  - from: record fact
-    text: Gut contents include a dromaeosaurid leg and birds in different specimens, directly documenting carnivory but not hunting method.
-  - from: record fact
-    text: The monophyly and family-level name of compsognathid-like theropods remain analysis-dependent.
-  - from: age review note
-    text: High-precision dating brackets the Yixian Formation at 125.755-124.122 Ma, within the Barremian on the current time scale.
 ---
 
 ## Overview
@@ -71,9 +62,15 @@ Sinocalliopteryx gigas was described in 2007 by Ji Shu-An, Ji Qiang, Lü Junchan
 
 Two articulated skeletons with filamentous integument and gut contents.
 
+- Filamentous integument is preserved around the body.
+- Gut contents include a dromaeosaurid leg and birds in different specimens, directly documenting carnivory but not hunting method.
+- The monophyly and family-level name of compsognathid-like theropods remain analysis-dependent.
+
 ## Where it lived
 
 Both known Sinocalliopteryx specimens come from the remarkable fossil-bearing lacustrine shales of the Yixian Formation, famous for feathered dinosaurs.
+
+High-precision dating brackets the Yixian Formation at 125.755-124.122 Ma, within the Barremian on the current time scale.
 
 ## Open questions
 

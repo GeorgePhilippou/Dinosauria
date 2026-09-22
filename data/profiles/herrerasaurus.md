@@ -75,15 +75,11 @@ parked:
     text: Despite its size, Herrerasaurus retained five digits on the hand (two vestigial) and relatively short arms. The pelvis already shows the perforate acetabulum diagnostic of all dinosaurs. Powerful hindlimbs confirm full bipedality from the outset of its existence.
   - from: "article: Triassic context"
     text: "At 231 Ma, dinosaurs were not yet dominant: rhynchosaurs, cynodonts and rauisuchians (such as Saurosuchus) were more abundant. Herrerasaurus was the apex dinosaurian predator in an ecosystem still dominated by non-dinosaurian archosaurs, making it a key taxon for understanding predator-prey dynamics at the origin of the dinosaur radiation."
-  - from: record fact
-    text: Ischisaurus cattoi and Frenguellisaurus ischigualastensis are generally regarded as synonyms of Herrerasaurus.
-  - from: record fact
-    text: Its mixture of primitive and derived features makes root-level classification unstable.
-  - from: age review note
-    text: The principal Ischigualasto occurrences are radiometrically constrained near 231-229 Ma.
 ---
 
 ## Overview
+
+Herrerasaurus ischigualastensis was an early predatory dinosaur from the Ischigualasto Formation of Argentina. Multiple skeletons, including complete skulls and very substantial postcrania, document a lightly built biped; whether herrerasaurids lie inside Theropoda or just outside the sauropodomorph-theropod split remains debated.
 
 Herrerasaurus was one of the largest predators of the Ischigualasto fauna, reaching six metres long around 231 million years ago. Its flexible intramandibular joint — a sliding articulation between the dentary and postdentary bones unique among early dinosaurs — allowed a powerful grip on struggling prey.
 
@@ -117,9 +113,14 @@ No single specimen preserves everything, so composite reconstructions combine in
 
 Skull, jaw and limb anatomy show a large early bipedal predator with debated exact placement near early saurischians.
 
+- Ischisaurus cattoi and Frenguellisaurus ischigualastensis are generally regarded as synonyms of Herrerasaurus.
+- Its mixture of primitive and derived features makes root-level classification unstable.
+
 ## Where it lived
 
 Late Triassic ecosystem containing some of the earliest well-known dinosaurs.
+
+The principal Ischigualasto occurrences are radiometrically constrained near 231-229 Ma.
 
 ## Classification
 

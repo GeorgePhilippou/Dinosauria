@@ -93,21 +93,11 @@ parked:
     text: Alamosaurus is the sole known sauropod from the Late Cretaceous of North America, a continent where sauropods were otherwise absent after the Jurassic. Its presence is interpreted as evidence of a faunal interchange with South America facilitated by a land bridge through Central America. It coexisted with Tyrannosaurus and Triceratops in the last dinosaur faunas of the continent.
   - from: "article: Palaeoenvironment"
     text: Alamosaurus inhabited floodplain and coastal plain environments of the Western Interior during the Maastrichtian. It lived alongside ankylosaurs, hadrosaurs, ceratopsids, and tyrannosaurs, forming part of the last diverse non-avian dinosaur faunas before the end-Cretaceous extinction event approximately 66 million years ago.
-  - from: record fact
-    text: "The holotype USNM 10486 is a left scapula; an ischium found nearby, USNM 10487, is the paratype."
-  - from: record fact
-    text: "USNM 15560 from Utah was long treated as an incomplete referred Alamosaurus skeleton; a 2025 paper proposed separating it as Utetitan zellaguymondeweyae, a proposal not yet established as broad consensus."
-  - from: record fact
-    text: "BIBE 45854 from Texas preserves an articulated cervical series historically referred to Alamosaurus; the same 2025 revision questioned how much of the Texas material belongs to the type species."
-  - from: record fact
-    text: Some fragmentary bones indicate very large adults, but precise maximum length and mass remain uncertain because no giant individual is represented by a complete skeleton.
-  - from: record fact
-    text: "Osteoderm fragments associated with referred material show that at least some individuals carried bony skin deposits; their arrangement over the body is unknown."
-  - from: age review note
-    text: Secure and widely accepted records are Maastrichtian. Some older south-western North American sauropod material has been referred to Alamosaurus, but those referrals should not extend the headline range without specimen-level review.
 ---
 
 ## Overview
+
+Alamosaurus sanjuanensis was a titanosaurian sauropod from Maastrichtian rocks of the south-western United States. The name is founded on an isolated shoulder blade. Many partial skeletons, vertebrae and limb bones have historically been referred to it, but the extent of that referred material is now under renewed taxonomic debate. It is one of the youngest named sauropods from North America, not the continent's only Late Cretaceous sauropod occurrence.
 
 Alamosaurus sanjuanensis was a titanosaurian sauropod that lived in what is now the southwestern United States and northern Mexico during the latest Cretaceous, approximately 70–66 million years ago. Estimates of its length reach up to 21 metres, with some analyses suggesting it could approach the size of the largest known sauropods. It is remarkable for being the only sauropod known from the Late Cretaceous of North America, a continent from which sauropods had been largely absent for tens of millions of years.
 
@@ -139,9 +129,17 @@ The type material is a left scapula and a nearby ischium. Referred specimens add
 
 Because the holotype is so incomplete, referrals depend on overlapping bones and geography rather than direct comparison, which is why the limits of the species are contested.
 
+- The holotype USNM 10486 is a left scapula; an ischium found nearby, USNM 10487, is the paratype.
+- USNM 15560 from Utah was long treated as an incomplete referred Alamosaurus skeleton; a 2025 paper proposed separating it as Utetitan zellaguymondeweyae, a proposal not yet established as broad consensus.
+- BIBE 45854 from Texas preserves an articulated cervical series historically referred to Alamosaurus; the same 2025 revision questioned how much of the Texas material belongs to the type species.
+- Some fragmentary bones indicate very large adults, but precise maximum length and mass remain uncertain because no giant individual is represented by a complete skeleton.
+- Osteoderm fragments associated with referred material show that at least some individuals carried bony skin deposits; their arrangement over the body is unknown.
+
 ## Where it lived
 
 Multiple Alamosaurus specimens including large individuals have been recovered here, making this one of the richest sites for the genus.
+
+Secure and widely accepted records are Maastrichtian. Some older south-western North American sauropod material has been referred to Alamosaurus, but those referrals should not extend the headline range without specimen-level review.
 
 ## Classification
 

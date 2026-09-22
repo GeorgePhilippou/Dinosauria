@@ -38,15 +38,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Protohadros&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Its name does not mean it was the direct ancestor of Hadrosauridae.
-  - from: record fact
-    text: The downturned jaw and dental battery support herbivory, but a specialised grazing ecology is not demonstrated.
-  - from: record fact
-    text: Most of the body and exact adult size are reconstructed from related hadrosauroids.
-  - from: age review note
-    text: The Woodbine Formation type horizon is Cenomanian, approximately 96-94 Ma.
 ---
 
 ## Overview
@@ -65,11 +56,17 @@ Protohadros byrdi was described by Jason Head in 1998 from fragmentary cranial a
 
 Partial skull and jaw with sparse referred postcranial remains.
 
+- Its name does not mean it was the direct ancestor of Hadrosauridae.
+- The downturned jaw and dental battery support herbivory, but a specialised grazing ecology is not demonstrated.
+- Most of the body and exact adult size are reconstructed from related hadrosauroids.
+
 ## Where it lived
 
 The Woodbine Formation was deposited in a coastal to near-shore marine environment during the Cenomanian transgression of the Western Interior Seaway. Protohadros likely inhabited adjacent coastal floodplains and river systems, browsing on vegetation along the margins of the advancing seaway.
 
 Cenomanian-age deposits of northern Texas yielding the only known Protohadros material.
+
+The Woodbine Formation type horizon is Cenomanian, approximately 96-94 Ma.
 
 ## Classification
 

@@ -37,15 +37,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Erlikosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The skull has a keratin-covered beak and small leaf-shaped teeth consistent with predominantly plant processing.
-  - from: record fact
-    text: Large claws and a broad trunk are inferred partly from other therizinosaurs because the type is incomplete.
-  - from: record fact
-    text: A plant-heavy diet is well supported, but exact foods and any animal matter are unknown.
-  - from: age review note
-    text: Uses the broad current age range of the Bayan Shireh Formation rather than false single-million-year precision.
 ---
 
 ## Overview
@@ -68,9 +59,15 @@ Erlikosaurus andrewsi was described by Rinchen Barsbold and Altangerel Perle in 
 
 Nearly complete skull with incomplete associated postcranial skeleton.
 
+- The skull has a keratin-covered beak and small leaf-shaped teeth consistent with predominantly plant processing.
+- Large claws and a broad trunk are inferred partly from other therizinosaurs because the type is incomplete.
+- A plant-heavy diet is well supported, but exact foods and any animal matter are unknown.
+
 ## Where it lived
 
 The only confirmed locality; Turonian-age deposits in the Mongolian Gobi Desert have produced material including the well-preserved skull of Erlikosaurus.
+
+Uses the broad current age range of the Bayan Shireh Formation rather than false single-million-year precision.
 
 ## Open questions
 

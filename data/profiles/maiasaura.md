@@ -77,17 +77,11 @@ parked:
     text: "Bone histology from the massive Two Medicine bonebed shows that Maiasaura grew from 50 cm at hatching to 7 metres adult length in 6–8 years — a rate comparable to modern large ungulates, not reptiles. This is now considered typical for hadrosaurs and confirms that non-avian dinosaurs had elevated metabolic rates relative to modern reptiles."
   - from: "article: Hadrosaur ecology"
     text: "Maiasaura was a flat-headed (non-crested) hadrosaur that lived in large herds on the coastal plains of the Western Interior Seaway. It migrated seasonally — bone evidence suggests the Two Medicine Formation records different herd stages at different times of year. The colonial nesting, where multiple females laid eggs in the same area, mirrors modern colonial nesters such as penguins."
-  - from: record fact
-    text: Nest colonies and very young individuals in nests show repeated nesting-site use and extended nest occupancy.
-  - from: record fact
-    text: The evidence is consistent with parental care but does not specify which sex cared for young or every detail of provisioning.
-  - from: record fact
-    text: Large growth-series samples document rapid growth and population structure.
-  - from: age review note
-    text: The Two Medicine Maiasaura record is late Campanian, approximately 76.7-75 Ma.
 ---
 
 ## Overview
+
+Maiasaura peeblesorum was a hadrosaurid from the Two Medicine Formation of Montana, documented by nesting grounds, eggs, juveniles, adults and large bonebeds.
 
 Maiasaura peeblesorum ("good mother lizard") transformed understanding of dinosaur parental behaviour. From the Late Cretaceous Two Medicine Formation of Montana (~76 Ma), nesting colonies preserving eggs, hatchlings and juveniles at different stages were discovered by Jack Horner and Bob Makela in 1978. The hatchlings' underdeveloped limb bones showed they were born helpless and required parental feeding in the nest — the first evidence of extended parental care in non-avian dinosaurs.
 
@@ -121,9 +115,15 @@ The name-bearing specimen is a partial adult skull. Much of the vast bonebed mat
 
 Nesting grounds and growth series provide direct evidence for reproduction and development.
 
+- Nest colonies and very young individuals in nests show repeated nesting-site use and extended nest occupancy.
+- The evidence is consistent with parental care but does not specify which sex cared for young or every detail of provisioning.
+- Large growth-series samples document rapid growth and population structure.
+
 ## Where it lived
 
 Late Cretaceous seasonal floodplain settings in Montana.
+
+The Two Medicine Maiasaura record is late Campanian, approximately 76.7-75 Ma.
 
 ## Classification
 

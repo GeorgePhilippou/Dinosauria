@@ -41,15 +41,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/dryosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Long hindlimbs and a balancing tail support agile bipedal locomotion.
-  - from: record fact
-    text: The hands were not built for weight-bearing in habitual quadrupedal walking.
-  - from: record fact
-    text: Some specimens formerly called Dryosaurus belong to Dysalotosaurus or other ornithopods.
-  - from: age review note
-    text: Secure D. altus material spans Kimmeridgian-Tithonian Morrison strata rather than a single narrow horizon.
 ---
 
 ## Overview
@@ -72,9 +63,15 @@ Multiple partial skeletons across growth stages with limited skull material.
 
 Long limb bones and a lightweight skeleton confirm a cursorial herbivore lifestyle typical of small basal ornithopods.
 
+- Long hindlimbs and a balancing tail support agile bipedal locomotion.
+- The hands were not built for weight-bearing in habitual quadrupedal walking.
+- Some specimens formerly called Dryosaurus belong to Dysalotosaurus or other ornithopods.
+
 ## Where it lived
 
 Late Jurassic Morrison floodplain ecosystem of western North America.
+
+Secure D. altus material spans Kimmeridgian-Tithonian Morrison strata rather than a single narrow horizon.
 
 ## Open questions
 

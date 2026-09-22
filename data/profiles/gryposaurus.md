@@ -36,15 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/gryposaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The nasal arch is bony and likely supported soft tissue, whose exact form is unknown.
-  - from: record fact
-    text: Multiple growth stages show that skull proportions changed during ontogeny.
-  - from: record fact
-    text: Dental batteries document herbivory and complex chewing.
-  - from: age review note
-    text: "G. notabilis is mainly 76.5-75.5 Ma; other Gryposaurus species extend the genus but should not be merged into that species record."
 ---
 
 ## Overview
@@ -67,9 +58,15 @@ Numerous skulls and skeletons across several growth stages.
 
 The distinctive arched nasal region and saurolophine dentition are diagnostic; bonebeds document gregarious behaviour.
 
+- The nasal arch is bony and likely supported soft tissue, whose exact form is unknown.
+- Multiple growth stages show that skull proportions changed during ontogeny.
+- Dental batteries document herbivory and complex chewing.
+
 ## Where it lived
 
 Late Cretaceous coastal plain environments of western North America.
+
+G. notabilis is mainly 76.5-75.5 Ma; other Gryposaurus species extend the genus but should not be merged into that species record.
 
 ## Open questions
 

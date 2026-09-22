@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Herbivore
 found_in: [England, United Kingdom]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: No reliable whole-body size or detailed anatomy can be reconstructed from the name-bearing material alone.
 classification: [Dinosauria, Saurischia, Sauropodomorpha, Sauropoda, Neosauropoda, Macronaria]
 summary: "Pelorosaurus conybeari is a historically important but taxonomically difficult English sauropod name based on Early Cretaceous Wealden material. Its type concept involves a humerus and historically associated caudal vertebrae; many species once placed in Pelorosaurus do not belong there."
@@ -45,15 +46,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Pelorosaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The name has been applied inconsistently since the nineteenth century.
-  - from: record fact
-    text: Pelorosaurus becklesii was removed to the separate genus Haestasaurus in a modern revision.
-  - from: record fact
-    text: A precise body plan or family-level placement for P. conybeari is not secure.
-  - from: age review note
-    text: The type material is from the Hastings Group and is older than a single 125 Ma estimate.
 ---
 
 ## Overview
@@ -74,9 +66,15 @@ Pelorosaurus conybeari was named by Gideon Mantell in 1850, making it one of the
 
 Historically associated humerus and caudal material; numerous old referrals now excluded.
 
+- The name has been applied inconsistently since the nineteenth century.
+- Pelorosaurus becklesii was removed to the separate genus Haestasaurus in a modern revision.
+- A precise body plan or family-level placement for P. conybeari is not secure.
+
 ## Where it lived
 
 Early Cretaceous terrestrial to brackish deposits of East and West Sussex, Isle of Wight, and surrounding areas, principal source of material assigned to Pelorosaurus.
+
+The type material is from the Hastings Group and is older than a single 125 Ma estimate.
 
 ## Classification
 

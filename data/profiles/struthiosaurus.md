@@ -41,13 +41,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/struthiosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: No single specimen supplies a complete skeleton.
-  - from: record fact
-    text: "Genus-level range and anatomy are composites across geographically separated species; a Santonian Hungarian humerus was referred only as cf. Struthiosaurus."
-  - from: age review note
-    text: Named species are Campanian-Maastrichtian, while a cf. Struthiosaurus humerus may extend the record into the Santonian.
 ---
 
 ## Overview
@@ -70,9 +63,14 @@ Struthiosaurus austriacus was named by Emmanuel Bunzel in 1871 from fragmentary 
 
 Multiple fragmentary skull and postcranial specimens across three species, plus a Santonian humerus referred as cf. Struthiosaurus.
 
+- No single specimen supplies a complete skeleton.
+- Genus-level range and anatomy are composites across geographically separated species; a Santonian Hungarian humerus was referred only as cf. Struthiosaurus.
+
 ## Where it lived
 
 The type specimen of S. austriacus was recovered from Gosau Formation deposits in the Austrian Alps, representing Late Cretaceous island environments.
+
+Named species are Campanian-Maastrichtian, while a cf. Struthiosaurus humerus may extend the record into the Santonian.
 
 ## Open questions
 

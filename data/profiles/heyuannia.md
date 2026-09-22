@@ -42,15 +42,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Heyuannia"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The profile species is Mongolian and is not the Chinese type species Heyuannia huangi.
-  - from: record fact
-    text: The holotype preserves substantial skeletal material but is not complete.
-  - from: record fact
-    text: Oviraptorid jaws were toothless and locomotion bipedal, while exact diet remains unresolved.
-  - from: age review note
-    text: "Corrected from a 72-68 Ma range to the older Campanian Baruungoyot record; the formation is not securely late Maastrichtian."
 ---
 
 ## Overview
@@ -71,11 +62,17 @@ H. huangi was named by Lü Junchang in 2003 from the Dalangshan Formation of Gua
 
 Partial skull and substantial partial skeleton.
 
+- The profile species is Mongolian and is not the Chinese type species Heyuannia huangi.
+- The holotype preserves substantial skeletal material but is not complete.
+- Oviraptorid jaws were toothless and locomotion bipedal, while exact diet remains unresolved.
+
 ## Where it lived
 
 The Dalangshan Formation records Late Cretaceous terrestrial environments in southern China, while the Barun Goyot Formation of Mongolia preserves a sand-dune desert environment. Heyuannia thus occupied varied Late Cretaceous landscapes across East Asia, consistent with the broad geographic distribution of oviraptorid dinosaurs.
 
 The source of H. huangi holotype material, making this one of the southernmost known oviraptorid localities.
+
+Corrected from a 72-68 Ma range to the older Campanian Baruungoyot record; the formation is not securely late Maastrichtian.
 
 ## Open questions
 

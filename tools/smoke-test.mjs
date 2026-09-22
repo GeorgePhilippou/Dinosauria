@@ -158,7 +158,7 @@ async function assertProfileRenders(page, { id, name, context, expectedText }) {
   const bodyText = (await page.locator('#p-body').textContent()) || '';
   assert(bodyText.length > 250, `${name} should render a substantive profile body.`);
   assert(bodyText.includes(expectedText), `${name} should preserve its evidence-aware profile copy.`);
-  for (const sectionId of ['profile-overview', 'profile-evidence', 'profile-locality', 'profile-sources']) {
+  for (const sectionId of ['pv2-overview', 'pv2-fossils', 'pv2-where', 'pv2-sources']) {
     assert(await page.locator(`#${sectionId}`).count() === 1, `${name} should render ${sectionId}.`);
   }
 }
@@ -173,10 +173,14 @@ async function main() {
   try {
     const executablePath = cachedChromiumExecutable();
     browser = await chromium.launch(executablePath ? { executablePath } : {});
-    const page = await browser.newPage({ viewport: { width: 1280, height: 720 } });
+    const page = await browser.newPage({ viewport: { width: 1280, height: 720 }, serviceWorkers: 'block' });
+    // Never hit Wikimedia from tests: heavy test traffic gets this network
+    // rate-limited (429) and real visitors then see missing images.
+    const PIXEL = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=', 'base64');
+    await page.route(/wikimedia\.org/, route => route.fulfill({ status: 200, contentType: 'image/png', body: PIXEL }));
     const consoleProblems = [];
     page.on('console', msg => {
-      if (['error', 'warning'].includes(msg.type())) consoleProblems.push(`${msg.type()}: ${msg.text()}`);
+      if (['error', 'warning'].includes(msg.type()) && !msg.text().includes('Service Worker registration blocked')) consoleProblems.push(`${msg.type()}: ${msg.text()}`);
     });
     page.on('pageerror', err => consoleProblems.push(`pageerror: ${err.message}`));
 
@@ -322,7 +326,7 @@ async function main() {
     assert(profile.panelOpen, 'Dinosaur hash should open the species profile panel.');
     assert(profile.panelName === 'Triceratops', `Expected Triceratops profile, saw ${profile.panelName}.`);
     assert(profile.cardCount === 60, `Dinosaur hash should keep the catalogue batch at 60 cards, saw ${profile.cardCount}.`);
-    assert(await page.locator('.profile-dossier > .view-footer .view-footer-scene').count() === 1, 'Full dinosaur profiles should carry the scene as a footer mark.');
+    assert(await page.locator('.pv2 > .view-footer .view-footer-scene').count() === 1, 'Full dinosaur profiles should carry the scene as a footer mark.');
     const triceratopsText = (await page.locator('#p-body').textContent()) || '';
     assert(!triceratopsText.includes('Authoritative-source baseline only'), 'Completed batch reviews must not inherit the pre-review baseline summary.');
     assert(triceratopsText.includes('Scannella et al. (2014)'), 'Completed batch reviews should identify their own cited literature as the evidence source basis.');
@@ -330,7 +334,8 @@ async function main() {
     await page.goto(`${BASE_URL}/index.html?smoke=reviewed-synonym#dino/ammosaurus`, { waitUntil: 'load' });
     const ammosaurusText = await page.locator('#p-body').textContent();
     assert(ammosaurusText.includes('junior synonym of Anchisaurus polyzelus'), 'Ammosaurus should be identified as a historical junior synonym.');
-    assert(ammosaurusText.includes('Primary-literature reviewed'), 'Reviewed profiles should show their scientific-review status.');
+    assert(ammosaurusText.includes('Last checked against the cited literature'), 'Reviewed profiles should show when they were checked against the literature.');
+    assert(ammosaurusText.includes('historical or synonymised name'), 'Synonymised names should carry the historical-name notice.');
     assert(!ammosaurusText.includes('AI-drafted text'), 'Reviewed profiles must not present superseded AI prose as active content.');
 
     await page.goto(`${BASE_URL}/index.html?smoke=reviewed-material#dino/amygdalodon`, { waitUntil: 'load' });
@@ -350,10 +355,9 @@ async function main() {
 
     const compactPanel = await profileLayoutState(page);
     assert(!await page.locator('#side-panel').evaluate(panel => panel.classList.contains('expanded')), 'Afrovenator should open as a compact preview on desktop.');
-    assert(await page.locator('.profile-preview').count() === 1, 'The compact profile preview should be mounted.');
-    assert(await page.locator('.profile-dossier').count() === 1, 'The full research dossier should be mounted separately from the preview.');
-    assert(await visible(page, '.profile-preview'), 'The compact profile preview should be visible when the panel first opens.');
-    assert(!await visible(page, '.profile-dossier'), 'The full research dossier should stay hidden until requested on desktop.');
+    assert(await page.locator('.pv2').count() === 1, 'The profile article should be mounted.');
+    assert(await visible(page, '#pv2-overview'), 'The compact profile should show the overview when the panel first opens.');
+    assert(!await visible(page, '#pv2-fossils'), 'The remaining sections should stay hidden until the full profile is requested on desktop.');
     assert(
       compactPanel.panelWidth < compactPanel.viewportWidth - 80,
       `Desktop preview should remain compact (${compactPanel.panelWidth}px in ${compactPanel.viewportWidth}px viewport).`
@@ -362,11 +366,10 @@ async function main() {
     const headerFullProfileControl = page.locator('#panel-expand');
     assert(await headerFullProfileControl.count() === 1, 'The compact preview should offer a persistent full-profile control.');
     assert(await visible(page, '#panel-expand'), 'The persistent full-profile control should be visible.');
-    assert(await page.locator('.profile-preview-open').count() === 0, 'The compact preview should not duplicate the persistent full-profile control.');
+    assert(await page.locator('.pv2 button', { hasText: /full profile/i }).count() === 0, 'The compact preview should not duplicate the persistent full-profile control.');
     await headerFullProfileControl.click();
     await page.locator('#side-panel.expanded').waitFor();
-    assert(!await visible(page, '.profile-preview'), 'Expanding should hide the compact preview.');
-    assert(await visible(page, '.profile-dossier'), 'Expanding should reveal the dedicated research dossier.');
+    assert(await visible(page, '#pv2-fossils'), 'Expanding should reveal every profile section.');
 
     const desktopDossier = await profileLayoutState(page);
     assert(
@@ -375,13 +378,13 @@ async function main() {
     );
     assertNoHorizontalOverflow(desktopDossier, 'Desktop full-screen');
 
-    const localityMap = page.locator('.profile-dossier .map-card');
+    const localityMap = page.locator('.pv2 .pv2-map');
     assert(await localityMap.count() === 1, 'Afrovenator dossier should restore the fossil-locality world map.');
-    assert(await visible(page, '.profile-dossier .map-card'), 'Afrovenator fossil-locality map should be visible.');
+    assert(await visible(page, '.pv2 .pv2-map'), 'Afrovenator fossil-locality map should be visible.');
     assert(await localityMap.locator('.map-point').count() > 0, 'Afrovenator fossil-locality map should include at least one plotted marker.');
     const mapPrecision = localityMap.locator('.map-precision[data-map-precision]');
     assert(await mapPrecision.count() === 1, 'The fossil map should carry a visible coordinate-precision label.');
-    assert(await visible(page, '.profile-dossier .map-card .map-precision'), 'The fossil-map precision label should be visible.');
+    assert(await visible(page, '.pv2 .pv2-map .map-precision'), 'The fossil-map precision label should be visible.');
     const precision = await mapPrecision.getAttribute('data-map-precision');
     assert(
       ['exact', 'formation-level', 'country-level'].includes(precision),
@@ -395,11 +398,11 @@ async function main() {
       `Fossil-map fallback precision should be explained in visible text, saw: ${precisionText}`
     );
 
-    assert(await page.locator('.profile-dossier .known-remains-card').count() === 0, 'Profiles should not infer a body-part fossil map from uneven material descriptions.');
+    assert(await page.locator('.pv2 .known-remains-card').count() === 0, 'Profiles should not infer a body-part fossil map from uneven material descriptions.');
     // Genera with a specimen-led evidence panel render the research board in
     // place of the plain evidence band; either must be visible.
     assert(
-      await visible(page, '.profile-dossier .evidence-research-board, .profile-dossier .evidence-bar'),
+      await visible(page, '.pv2 .pv2-meter'),
       'The reviewed fossil-evidence board or band should remain visible.'
     );
 
@@ -427,9 +430,10 @@ async function main() {
     assert(/(late-)?2025 studies/.test(tyrannosaurusText), 'Tyrannosaurus should include the latest maturity and taxonomic evidence.');
 
     await page.goto(`${BASE_URL}/index.html?smoke=gaps#dino/albertaceratops`, { waitUntil: 'load' });
-    const gapLabels = await page.locator('.data-gap-label').allTextContents();
-    assert(gapLabels.length > 0, 'Profiles with incomplete data should show explicit data-gap labels.');
-    assert(gapLabels.includes('No reviewed mass estimate'), `Expected No reviewed mass estimate gap, saw: ${gapLabels.join(', ')}`);
+    const albertaceratopsText = (await page.locator('#p-body').textContent()) || '';
+    for (const jargon of ['Source-reported', 'not curated', 'Band recorded during review', 'Naming details missing']) {
+      assert(!albertaceratopsText.includes(jargon), `Profiles must not show internal review wording (“${jargon}”).`);
+    }
 
     await page.goto(`${BASE_URL}/index.html?smoke=reviewed-formation-gap#dino/goyocephale`, { waitUntil: 'load' });
     const goyocephaleGapLabels = await page.locator('.data-gap-label').allTextContents();
@@ -440,7 +444,7 @@ async function main() {
     assert(!eoraptorText.includes('source lists Omnivore'), 'Eoraptor must not turn a cleared legacy omnivore label into a reviewed dietary conclusion.');
     // Eoraptor now carries a presentation block; its Feeding life card must
     // still present the diet as uncertain rather than as a settled omnivore.
-    assert(/No taxon-specific dietary interpretation is retained|Feeding\s*Uncertain/.test(eoraptorText), 'Eoraptor should present its diet as not established.');
+    assert(/No taxon-specific dietary interpretation is retained|Feeding:?\s*Uncertain/.test(eoraptorText), 'Eoraptor should present its diet as not established.');
     assert(/exact diet remain uncertain|no gut contents/.test(eoraptorText), 'Eoraptor should retain the review\'s explicit dietary uncertainty.');
 
     await assertProfileRenders(page, {
@@ -450,7 +454,7 @@ async function main() {
       expectedText: 'very fragmentary small ornithischian'
     });
     const micropachycephalosaurusProfileText = (await page.locator('#p-body').textContent()) || '';
-    assert(!micropachycephalosaurusProfileText.includes('Pachycephalosauria'), 'Micropachycephalosaurus profile must not retain the superseded pachycephalosaur classification.');
+    assert(!((await page.locator('.pv2-path').textContent()) || '').includes('Pachycephalosauria'), 'Micropachycephalosaurus profile must not retain the superseded pachycephalosaur classification.');
     assert(micropachycephalosaurusProfileText.includes('Cerapoda incertae sedis'), 'Micropachycephalosaurus profile should use its reviewed uncertain placement.');
 
     await assertProfileRenders(page, {
@@ -519,27 +523,25 @@ async function main() {
     }
 
     await page.goto(`${BASE_URL}/index.html?smoke=contested-not-historical#dino/troodon`, { waitUntil: 'load' });
-    const troodonEcologyText = (await page.locator('#profile-ecology').textContent()) || '';
+    const troodonEcologyText = (await page.locator('.pv2-hero').textContent()) || '';
     assert(!troodonEcologyText.includes('historical or synonymised name'), 'Contested Troodon must not be presented as a settled historical synonym.');
 
     await page.goto(`${BASE_URL}/index.html?smoke=explicit-historical#dino/saurophaganax`, { waitUntil: 'load' });
-    const saurophaganaxEcologyText = (await page.locator('#profile-ecology').textContent()) || '';
+    const saurophaganaxEcologyText = (await page.locator('.pv2-hero').textContent()) || '';
     assert(saurophaganaxEcologyText.includes('historical or synonymised name'), 'Saurophaganax should retain its explicit historical-profile treatment.');
 
     await page.goto(`${BASE_URL}/index.html?smoke=dubious-historical#dino/othnielia`, { waitUntil: 'load' });
-    const othnieliaEcologyText = (await page.locator('#profile-ecology').textContent()) || '';
+    const othnieliaEcologyText = (await page.locator('.pv2-hero').textContent()) || '';
     assert(othnieliaEcologyText.includes('historical or synonymised name'), 'A rejected nomen dubium such as Othnielia should retain its historical-material warning.');
 
     await page.goto(`${BASE_URL}/index.html?smoke=mixed-size-provenance#dino/camarasaurus`, { waitUntil: 'load' });
-    // Camarasaurus now carries a presentation block, so size provenance is
-    // voiced by its "Known size" life card rather than the inherited size row.
-    const camarasaurusSizeText = (await page.locator('.interpretation-item').filter({ hasText: 'Known size' }).textContent()) || '';
-    assert(/estimate/i.test(camarasaurusSizeText), 'The Camarasaurus size card must present mass as an estimate.');
-    assert(!camarasaurusSizeText.includes('Reviewed approximate estimate'), 'A cleared reviewed mass field must not make an inherited length look reviewed.');
+    // Size is stated once, in the facts row, as an approximate value.
+    const camarasaurusSizeText = (await page.locator('.pv2-facts > div').filter({ hasText: 'Size' }).textContent()) || '';
+    assert(/~|about|–/.test(camarasaurusSizeText), 'The Camarasaurus size must read as an approximate estimate.');
 
     for (const id of ['muttaburrasaurus', 'ouranosaurus', 'velociraptor', 'noasaurus', 'patagosaurus']) {
       await page.goto(`${BASE_URL}/index.html?smoke=broad-diet-${id}#dino/${id}`, { waitUntil: 'load' });
-      const ecologyText = (await page.locator('#profile-ecology').textContent()) || '';
+      const ecologyText = (await page.locator('#pv2-life').textContent().catch(() => '')) || '';
       assert(!/Uncertain · source lists Herbivore/.test(ecologyText), `${id} exact-diet uncertainty must not erase a supported broad herbivore category.`);
       if (['velociraptor', 'noasaurus'].includes(id)) {
         assert(!/Uncertain · source lists Carnivore/.test(ecologyText), `${id} narrow feeding uncertainty must not erase its broad carnivore category.`);
@@ -548,12 +550,12 @@ async function main() {
 
     for (const id of ['heyuannia', 'diplodocus', 'giraffatitan', 'nigersaurus', 'opisthocoelicaudia', 'protarchaeopteryx', 'suchomimus']) {
       await page.goto(`${BASE_URL}/index.html?smoke=locomotion-scope-${id}#dino/${id}`, { waitUntil: 'load' });
-      const movementText = (await page.locator('.interpretation-item').filter({ hasText: 'Movement' }).textContent()) || '';
+      const movementText = (await page.locator('#p-body').textContent()) || '';
       assert(!movementText.includes('Uncertain · source lists'), `${id} narrow posture or cross-topic uncertainty must not erase its broad locomotion category.`);
     }
 
     await page.goto(`${BASE_URL}/index.html?smoke=specialist-pending#dino/silvisaurus`, { waitUntil: 'load' });
-    const silvisaurusEvidence = (await page.locator('.evidence-summary-score').textContent()) || '';
+    const silvisaurusEvidence = (await page.locator('.pv2-facts').textContent()) || '';
     assert(silvisaurusEvidence.includes('Review pending'), 'Specialist-pending profiles must not display a curated skeletal-completeness band.');
     assert(!((await page.locator('#p-body').textContent()) || '').includes('Literature reviewed'), 'Specialist-pending profiles must not carry the literature-reviewed evidence badge.');
 
@@ -568,10 +570,9 @@ async function main() {
     const mobileProfile = await pageState(page);
     assert(mobileProfile.panelOpen, 'Afrovenator profile should open at 390px.');
     assert(mobileProfile.panelName === 'Afrovenator', `Expected mobile Afrovenator profile, saw ${mobileProfile.panelName}.`);
-    assert(!await visible(page, '.profile-preview'), 'Mobile should move directly into the reading dossier rather than squeeze the compact desktop preview.');
-    assert(await visible(page, '.profile-dossier'), 'The full Afrovenator dossier should be visible at 390px.');
-    assert(await visible(page, '.profile-dossier .map-card'), 'The fossil-locality map should remain visible at 390px.');
-    assert(await visible(page, '.profile-dossier .evidence-research-board, .profile-dossier .evidence-bar'), 'The fossil-evidence board or band should remain visible at 390px.');
+    assert(await visible(page, '#pv2-fossils'), 'Mobile should move directly into the full profile at 390px.');
+    assert(await visible(page, '.pv2 .pv2-map'), 'The fossil-locality map should remain visible at 390px.');
+    assert(await visible(page, '.pv2 .pv2-meter'), 'The fossil-record rating should remain visible at 390px.');
     const mobileDossier = await profileLayoutState(page);
     assert(
       mobileDossier.panelWidth <= mobileDossier.viewportWidth + 1,

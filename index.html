@@ -8590,6 +8590,9 @@
 <script src="data/pbdb-enrichment.js"></script>
 <script src="data/wiki-enrichment.js"></script>
 <script src="data/genera-index.js"></script>
+<link rel="stylesheet" href="assets/profile.css?v=5">
+<script src="assets/vendor/js-yaml.min.js"></script>
+<script src="assets/profile.js?v=5"></script>
 <script>
 const SOURCE_BASE = 'https://www.nhm.ac.uk/discover/dino-directory/';
 const DK_GUIDE_URL = 'https://www.nhm.ac.uk/discover/dinosaurs.html';
@@ -9983,7 +9986,7 @@ function prefetchAllGenera() {
     const id = queue.shift();
     if (!id) return;
     const schedule = window.requestIdleCallback || (fn => setTimeout(fn, 0));
-    loadGenus(id).then(() => schedule(next));
+    Promise.all([loadGenus(id), window.GenusProfile?.load(id)]).then(() => schedule(next));
   };
   for (let i = 0; i < CONCURRENCY; i++) next();
 }
@@ -12568,10 +12571,10 @@ function initProfileReadingHeader(panel, body, sections) {
 function openPanel(id, options = {}) {
   const d = DINOS.find(item => item.id === id);
   if (!d) return;
-  if (!genusLoaded(id)) {
+  if (!genusLoaded(id) || !window.GenusProfile?.loaded(id)) {
     // Content is fetched per genus; render once it has arrived (or failed).
     document.getElementById('side-panel')?.setAttribute('aria-busy', 'true');
-    loadGenus(id).then(() => {
+    Promise.all([loadGenus(id), window.GenusProfile?.load(id)]).then(() => {
       document.getElementById('side-panel')?.removeAttribute('aria-busy');
       openPanel(id, options);
     });
@@ -12629,6 +12632,26 @@ function openPanel(id, options = {}) {
   const body = document.getElementById('p-body');
   body.innerHTML = '';
   body.scrollTop = 0;
+  // Markdown profile (data/profiles/<id>.md) — the current page design. The
+  // older JSON-driven dossier below remains only as a fallback.
+  const mdProfile = window.GenusProfile?.data(id);
+  if (mdProfile) {
+    panel.querySelector('.panel-header .profile-section-nav')?.remove();
+    // Age lives in the facts row; drop the header pill that repeated it.
+    document.querySelector('#p-pills .pill.period')?.remove();
+    // The profile's own status notice replaces the header's collapsible note.
+    if (/^(valid|accepted)$/i.test(String(mdProfile.facts.status || 'valid').trim()) === false) {
+      document.getElementById('validity-note-box')?.remove();
+    }
+    const { node, sections } = window.GenusProfile.render(d, mdProfile);
+    body.append(node);
+    initProfileReadingHeader(panel, body, sections);
+    panel.classList.add('open');
+    if (window.matchMedia('(max-width: 680px)').matches) setPanelExpanded(true);
+    panel.focus({ preventScroll: true });
+    if (!options.skipRoute) setRoute(`#dino/${encodeURIComponent(d.id)}`);
+    return;
+  }
   const sectionSpecs = [
     { id: 'profile-overview', label: 'The animal', color: d.accent, build: index => atAGlanceNode(d, profile, index) },
     { id: 'profile-evidence', label: 'Fossil evidence', color: d.accent, build: index => fossilsNode(d, profile, index) },

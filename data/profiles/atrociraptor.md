@@ -32,13 +32,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=132125"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The short, deep snout is reconstructed from incomplete and somewhat distorted cranial material.
-  - from: record fact
-    text: Bipedal locomotion and carnivory are secure at broad level, but precise prey and hunting behaviour are unknown.
-  - from: age review note
-    text: The type comes from the early Maastrichtian lower Horseshoe Canyon Formation.
 ---
 
 ## Overview
@@ -61,9 +54,14 @@ Atrociraptor marshalli was described by Philip Currie and David Varricchio in 20
 
 One partial skull and jaws with teeth; isolated referred teeth.
 
+- The short, deep snout is reconstructed from incomplete and somewhat distorted cranial material.
+- Bipedal locomotion and carnivory are secure at broad level, but precise prey and hunting behaviour are unknown.
+
 ## Where it lived
 
 The jaw fragment and teeth constituting the only known Atrociraptor specimen were discovered here by fossil hunter Wayne Marshall in 1995, providing the sole evidence of this genus.
+
+The type comes from the early Maastrichtian lower Horseshoe Canyon Formation.
 
 ## Open questions
 

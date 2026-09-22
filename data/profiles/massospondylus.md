@@ -84,17 +84,11 @@ parked:
     text: Massospondylus had a mixed dentition with rounded teeth at the front and broader, flatter teeth further back, suggesting an omnivorous or primarily herbivorous diet. Gastroliths (stomach stones) found associated with specimens indicate it used stones to help mechanically process food in its gut, a strategy also seen in some modern birds and crocodilians. It was capable of both bipedal and quadrupedal locomotion, possibly switching depending on whether it was running or slow-browsing.
   - from: "article: Ecological and Scientific Importance"
     text: As one of the most abundant and complete Early Jurassic sauropodomorphs known, Massospondylus has been central to understanding the anatomy, growth, and behaviour of early dinosaurs at the base of the sauropodomorph lineage. Its wide geographic distribution across southern Africa reflects the broad, relatively flat Karoo Basin environment of the Early Jurassic, where it was likely a dominant large herbivore.
-  - from: record fact
-    text: "The original name-bearing material was destroyed; a well-preserved neotype anchors modern usage."
-  - from: record fact
-    text: Embryos and nesting-site material document early growth, but direct prolonged parental care is not established.
-  - from: record fact
-    text: "Adults were predominantly bipedal in current biomechanical interpretations; young animals had different proportions."
-  - from: age review note
-    text: Secure upper Elliot and Clarens material spans much of the Early Jurassic, not the former 208-204 Ma interval.
 ---
 
 ## Overview
+
+Massospondylus carinatus was a common Early Jurassic sauropodomorph of southern Africa, known from many partial and articulated skeletons, skulls, embryos and juvenile material.
 
 Massospondylus was a large herbivorous to omnivorous sauropodomorph dinosaur that lived during the Early Jurassic, approximately 208–204 million years ago, in what is now South Africa, Lesotho, and Zimbabwe. Estimated at around 4 metres in length, it moved on two or four legs depending on activity, with rounded front teeth and flat back teeth suited to processing tough plant material. It also swallowed stones (gastroliths) to help grind food in its stomach. The type species is Massospondylus carinatus.
 
@@ -126,9 +120,15 @@ Complete and partial skulls, entire vertebral series, both girdles, complete for
 
 The 1854 syntypes in London were destroyed in the Second World War; the neotype BP/1/4934 now anchors the name.
 
+- The original name-bearing material was destroyed; a well-preserved neotype anchors modern usage.
+- Embryos and nesting-site material document early growth, but direct prolonged parental care is not established.
+- Adults were predominantly bipedal in current biomechanical interpretations; young animals had different proportions.
+
 ## Where it lived
 
 Numerous specimens of Massospondylus carinatus, including nests with embryos and juveniles, have been recovered from these Early Jurassic redbeds.
+
+Secure upper Elliot and Clarens material spans much of the Early Jurassic, not the former 208-204 Ma interval.
 
 ## Classification
 

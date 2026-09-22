@@ -75,15 +75,11 @@ parked:
     text: "The enlarged sickle claw of Utahraptor is proportionally massive — up to 24 cm long on the foot — and considerably larger in absolute terms than that of Deinonychus or Velociraptor. Functional analysis suggests it was used to pin and puncture large prey rather than slash: the claw shape is optimised for penetration, not cutting."
   - from: "article: Bonebed and social behaviour"
     text: "The Doelling's Bowl bonebed — fully described in 2023 — preserves at least 6 individuals in different growth stages entombed in what was likely a sand blow or quicksand deposit. The assemblage includes an adult, several sub-adults and juveniles. The age range is consistent with a family group or social unit, but catastrophic individual trapping cannot be excluded. This is the most important multi-individual large dromaeosaurid site known."
-  - from: record fact
-    text: Large sickle claws and robust limb elements are directly known.
-  - from: record fact
-    text: "New dating places the Stikes Quarry near 135.1 Ma, in the Valanginian rather than the Barremian; the 280 kg point mass is cleared as too precise."
-  - from: age review note
-    text: "CA-ID-TIMS U-Pb dating and carbon-isotope stratigraphy place the Utahraptor Ridge horizon at 135.10 +/- 0.30 Ma, in the Valanginian."
 ---
 
 ## Overview
+
+Utahraptor ostrommaysorum was a giant dromaeosaurid from the Yellow Cat Member of the Cedar Mountain Formation, known from several incomplete individuals and a difficult multi-individual block.
 
 Utahraptor ostrommaysorum was the largest dromaeosaurid theropod known, reaching 5–7 metres and weighing an estimated 300–500 kg. From the early Early Cretaceous Cedar Mountain Formation of Utah (~126 Ma), its discovery in 1991 — announced just as Jurassic Park was in production — provided real-world justification for the large "Velociraptors" depicted in the film.
 
@@ -117,9 +113,14 @@ Most of what is written about the shape of Utahraptor comes from scaling these p
 
 The enormous sickle claw and dromaeosaurid proportions at large size directly support its identity as the largest known dromaeosaurid.
 
+- Large sickle claws and robust limb elements are directly known.
+- New dating places the Stikes Quarry near 135.1 Ma, in the Valanginian rather than the Barremian; the 280 kg point mass is cleared as too precise.
+
 ## Where it lived
 
 Early Cretaceous of the Colorado Plateau with iguanodontian ornithopods and sauropods.
+
+CA-ID-TIMS U-Pb dating and carbon-isotope stratigraphy place the Utahraptor Ridge horizon at 135.10 +/- 0.30 Ma, in the Valanginian.
 
 ## Classification
 

@@ -46,13 +46,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/barosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: "The type specimen was founded on a series of tail vertebrae; better skeletons were referred later."
-  - from: record fact
-    text: The famous rearing museum mount is a biomechanical reconstruction, not a preserved pose or directly observed behaviour.
-  - from: age review note
-    text: Secure material is Kimmeridgian-Tithonian within the Morrison Formation.
 ---
 
 ## Overview
@@ -75,9 +68,14 @@ Several complementary partial skeletons, including adult and juvenile material; 
 
 Long neck vertebrae and diplodocid skeletal anatomy confirm its identity; its range documents the cosmopolitan distribution of diplodocids.
 
+- The type specimen was founded on a series of tail vertebrae; better skeletons were referred later.
+- The famous rearing museum mount is a biomechanical reconstruction, not a preserved pose or directly observed behaviour.
+
 ## Where it lived
 
 Late Jurassic floodplains of North America and coastal environments of East Africa.
+
+Secure material is Kimmeridgian-Tithonian within the Morrison Formation.
 
 ## Open questions
 

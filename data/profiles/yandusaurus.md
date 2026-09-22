@@ -10,7 +10,8 @@ length_m: 3
 mass_kg: null
 diet: Herbivore
 found_in: [China]
-fossil_record: 2
+fossil_record: null
+specialist_review: pending
 fossil_record_note: Do not import Hexinlusaurus anatomy or attach a narrow numerical age to this genus.
 classification: [Dinosauria, Ornithischia, Neornithischia]
 summary: Yandusaurus hongheensis was a small neornithischian from the Shaximiao Formation near Honghe Dam, known from a partial skeleton with skull.
@@ -37,15 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/yandusaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Yandusaurus multidens was transferred to Hexinlusaurus and should not expand Yandusaurus anatomy.
-  - from: record fact
-    text: Published accounts disagree over whether the type belongs to the lower or upper member of the Shaximiao Formation.
-  - from: record fact
-    text: Its exact position among early neornithischians varies.
-  - from: age review note
-    text: "The type locality is near Honghe Dam in the Shaximiao Formation, but lower-versus-upper member assignment is disputed; no narrow stage or numerical age is defensible."
 ---
 
 ## Overview
@@ -66,9 +58,15 @@ Yandusaurus hongheensis was named by He Xinlu in 1979 from material discovered i
 
 Partial skeleton with skull and postcranium; second historical species excluded.
 
+- Yandusaurus multidens was transferred to Hexinlusaurus and should not expand Yandusaurus anatomy.
+- Published accounts disagree over whether the type belongs to the lower or upper member of the Shaximiao Formation.
+- Its exact position among early neornithischians varies.
+
 ## Where it lived
 
 Middle Jurassic floodplain deposits of the Sichuan Basin from which Yandusaurus was described.
+
+The type locality is near Honghe Dam in the Shaximiao Formation, but lower-versus-upper member assignment is disputed; no narrow stage or numerical age is defensible.
 
 ## Classification
 

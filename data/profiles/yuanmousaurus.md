@@ -10,7 +10,8 @@ length_m: null
 mass_kg: null
 diet: Herbivore
 found_in: [China]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: "Length and numerical age are cleared; validity and body proportions remain uncertain."
 classification: [Dinosauria, Saurischia, Sauropodomorpha, Sauropoda, Eusauropoda]
 summary: Yuanmousaurus jiangyiensis was a Chinese eusauropod from the Zhanghe Formation, based on one incomplete postcranial skeleton. Later comparison questioned whether its proposed diagnostic characters are unique.
@@ -35,13 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/yuanmousaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The skull is absent and the neck is very incomplete.
-  - from: record fact
-    text: The catalogue 17 m length is cleared because the incomplete specimen and uncertain validity do not support that precision.
-  - from: age review note
-    text: The Zhanghe Formation is Middle Jurassic but lacks a narrow, universally agreed stage or numerical date.
 ---
 
 ## Overview
@@ -64,9 +58,14 @@ Yuanmousaurus jiangyiensis was described in 2006 by Lü Junchang, Li Tiangui, Ji
 
 One incomplete postcranial skeleton without skull and with little neck.
 
+- The skull is absent and the neck is very incomplete.
+- The catalogue 17 m length is cleared because the incomplete specimen and uncertain validity do not support that precision.
+
 ## Where it lived
 
 Middle Jurassic deposits of Yunnan Province from which Yuanmousaurus jiangyiensis was recovered.
+
+The Zhanghe Formation is Middle Jurassic but lacks a narrow, universally agreed stage or numerical date.
 
 ## Open questions
 

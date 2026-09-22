@@ -38,13 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/chasmosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: "C. belli is securely recognised; C. russelli is also commonly retained, whereas Vagaceratops is generally separate."
-  - from: record fact
-    text: Large frill openings and marginal ornaments are preserved, but display, species recognition and sexual selection are hypotheses.
-  - from: age review note
-    text: Diagnostic Chasmosaurus material is late Campanian in the Dinosaur Park Formation.
 ---
 
 ## Overview
@@ -67,9 +60,14 @@ Numerous skulls and partial to nearly complete skeletons across growth stages, w
 
 Multiple skulls with different frill shapes document intraspecific or interspecific variation in the chasmosaurine lineage.
 
+- C. belli is securely recognised; C. russelli is also commonly retained, whereas Vagaceratops is generally separate.
+- Large frill openings and marginal ornaments are preserved, but display, species recognition and sexual selection are hypotheses.
+
 ## Where it lived
 
 Late Cretaceous coastal plain of Alberta alongside Corythosaurus, Parasaurolophus and Gorgosaurus.
+
+Diagnostic Chasmosaurus material is late Campanian in the Dinosaur Park Formation.
 
 ## Open questions
 

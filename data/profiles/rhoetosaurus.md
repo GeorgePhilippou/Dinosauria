@@ -42,15 +42,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rhoetosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Preparation and redescription support its distinctiveness despite missing cranial material.
-  - from: record fact
-    text: The nearly complete hind foot provides unusually direct evidence for early sauropod pedal anatomy.
-  - from: record fact
-    text: "Quadrupedal support is secure; diet is inferred as herbivorous from sauropod identity rather than teeth or gut contents."
-  - from: age review note
-    text: Refined geological work supports a Middle Jurassic age but not a narrow point date.
 ---
 
 ## Overview
@@ -71,11 +62,17 @@ Rhoetosaurus brownei was named by Heber Longman in 1926 from fragmentary materia
 
 Partial postcranial skeleton with about 40 vertebrae, pelvis and a well-preserved hind limb and foot.
 
+- Preparation and redescription support its distinctiveness despite missing cranial material.
+- The nearly complete hind foot provides unusually direct evidence for early sauropod pedal anatomy.
+- Quadrupedal support is secure; diet is inferred as herbivorous from sauropod identity rather than teeth or gut contents.
+
 ## Where it lived
 
 During the Jurassic, Australia formed part of the Gondwanan supercontinent and shared faunal connections with South America and Africa before fully separating. Rhoetosaurus may have close relatives among Gondwanan sauropods from South America, though establishing precise affinities requires more complete material from both regions.
 
 Middle Jurassic fluvial and lacustrine deposits of central Queensland yielding the only known Rhoetosaurus skeleton.
+
+Refined geological work supports a Middle Jurassic age but not a narrow point date.
 
 ## Open questions
 

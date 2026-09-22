@@ -36,15 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/maxakalisaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type includes vertebrae, limb and girdle bones, skull fragments and osteoderms.
-  - from: record fact
-    text: A referred dentary and teeth expanded knowledge of its feeding anatomy.
-  - from: record fact
-    text: Precise placement within derived Titanosauria varies among analyses.
-  - from: age review note
-    text: "The Adamantina Formation is not uniformly dated to a single 80 Ma point; a broad Late Cretaceous interval is more defensible."
 ---
 
 ## Overview
@@ -67,9 +58,15 @@ Maxakalisaurus topai was described in 2006 by Alexander Kellner, Diogenes de Alm
 
 Disarticulated partial skeleton plus referred dentary and teeth.
 
+- The type includes vertebrae, limb and girdle bones, skull fragments and osteoderms.
+- A referred dentary and teeth expanded knowledge of its feeding anatomy.
+- Precise placement within derived Titanosauria varies among analyses.
+
 ## Where it lived
 
 The partial skeleton of Maxakalisaurus topai was recovered from Late Cretaceous continental redbeds in the Triângulo Mineiro region of Minas Gerais.
+
+The Adamantina Formation is not uniformly dated to a single 80 Ma point; a broad Late Cretaceous interval is more defensible.
 
 ## Open questions
 

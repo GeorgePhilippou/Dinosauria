@@ -35,15 +35,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/khaan.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Multiple associated individuals are known, rather than a single complete specimen.
-  - from: record fact
-    text: Proposed sex differences in tail anatomy remain hypotheses because skeletal sex has not been independently confirmed.
-  - from: record fact
-    text: Its exact diet is unresolved despite the toothless beak.
-  - from: age review note
-    text: "The Djadokhta Formation is generally Campanian; local numerical ages remain approximate."
 ---
 
 ## Overview
@@ -64,11 +55,17 @@ Khaan mckennai was described in 2001 by James Clark, Mark Norell and Rinchen Bar
 
 Several substantially complete associated skulls and skeletons.
 
+- Multiple associated individuals are known, rather than a single complete specimen.
+- Proposed sex differences in tail anatomy remain hypotheses because skeletal sex has not been independently confirmed.
+- Its exact diet is unresolved despite the toothless beak.
+
 ## Where it lived
 
 The Djadokhta Formation records an ancient desert environment characterised by aeolian (wind-deposited) red sandstones, preserving evidence of sand dunes and dry interdune areas. Khaan coexisted with Protoceratops, Velociraptor, Pinacosaurus, and other oviraptorosaurs in this arid setting, likely exploiting a variety of food sources available in the desert ecosystem.
 
 The famous Djadokhta red sandstone preserving a wind-deposited desert dune environment; Khaan specimens were recovered from the Campanian strata of this formation.
+
+The Djadokhta Formation is generally Campanian; local numerical ages remain approximate.
 
 ## Open questions
 

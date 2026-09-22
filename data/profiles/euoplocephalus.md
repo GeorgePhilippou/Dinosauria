@@ -75,17 +75,11 @@ parked:
     text: "The tail club is formed by two large bony knobs (osteoderms) fused to the distal tail vertebrae, which are themselves fused into a rigid handle. Computer modelling of the tail musculature shows that the club could be swung laterally with forces sufficient to cause serious injury to a theropod's leg bones. The club was clearly an active weapon — the tendons attaching to the handle region are strongly developed."
   - from: "article: Armour function"
     text: "Euoplocephalus armour covers the dorsal and lateral surfaces with large keeled scutes, smaller flat ossicles, and a complex arrangement that varied regionally on the body. The underbelly was less well protected — exposed if the animal were flipped. The armoured eyelids are unique features that protected the eyes during confrontation. The overall armour system combined passive protection with the active weapon of the tail club."
-  - from: record fact
-    text: No one specimen preserves the complete armour layout.
-  - from: record fact
-    text: The tail club is real, while its behavioural use is inferred biomechanically.
-  - from: record fact
-    text: Taxonomic revision greatly reduced the geographic and temporal range once attributed to Euoplocephalus.
-  - from: age review note
-    text: Restricted mainly to the Dinosaur Park Formation, about 76.5-74.4 Ma, rather than an 80-66 Ma composite range.
 ---
 
 ## Overview
+
+Euoplocephalus tutus was an ankylosaurid from the Dinosaur Park Formation of Alberta and Montana. Multiple skulls and partial skeletons document a broad, armoured quadruped with a tail club, but modern revision removed many historic specimens into Anodontosaurus, Dyoplosaurus and Scolosaurus.
 
 Euoplocephalus tutus was the most completely known ankylosaurid — a heavily armoured tanklike dinosaur from the Campanian of Alberta (~76–75 Ma), about six metres long. Every part of its body, including the eyelids, was armoured with fused bony plates. Its large tail club, formed by fused vertebrae and surrounded by massive bony knobs, could generate forces sufficient to break the fibula of a large theropod.
 
@@ -119,9 +113,15 @@ Because the holotype is so incomplete, referral of skeletons depends on skull fe
 
 Armour plates, tail clubs and skull anatomy are documented in detail; CT scans of skull show extensive internal bone structure.
 
+- No one specimen preserves the complete armour layout.
+- The tail club is real, while its behavioural use is inferred biomechanically.
+- Taxonomic revision greatly reduced the geographic and temporal range once attributed to Euoplocephalus.
+
 ## Where it lived
 
 Late Cretaceous coastal plain of western Canada.
+
+Restricted mainly to the Dinosaur Park Formation, about 76.5-74.4 Ma, rather than an 80-66 Ma composite range.
 
 ## Classification
 

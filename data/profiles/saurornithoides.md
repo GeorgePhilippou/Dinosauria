@@ -48,13 +48,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Saurornithoides&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Saurornithoides junior was transferred to the separate genus Zanabazar.
-  - from: record fact
-    text: Large eyes and teeth support predatory or omnivorous habits, but neither a categorical diet nor nocturnality is established for this genus.
-  - from: age review note
-    text: "The Djadokhta type is Campanian; the 85-80 Ma range is too old."
 ---
 
 ## Overview
@@ -77,9 +70,14 @@ Saurornithoides mongoliensis was described by Henry Fairfield Osborn in 1924 fro
 
 One principal partial skull and skeleton with limited referrals.
 
+- Saurornithoides junior was transferred to the separate genus Zanabazar.
+- Large eyes and teeth support predatory or omnivorous habits, but neither a categorical diet nor nocturnality is established for this genus.
+
 ## Where it lived
 
 Classic Campanian Gobi Desert formation where the Saurornithoides mongoliensis holotype was found.
+
+The Djadokhta type is Campanian; the 85-80 Ma range is too old.
 
 ## Open questions
 

@@ -96,21 +96,11 @@ parked:
     text: The broad idea of high browsing is secure, but exact neck posture is still interpreted cautiously. NHM also notes that some full-body reconstructions have relied heavily on the related African Giraffatitan.
   - from: "article: Morrison habitat"
     text: Brachiosaurus lived in the Late Jurassic Morrison ecosystem with stegosaurs, diplodocids and large theropods. Its size and browsing height let it use a different feeding zone from many neighbours.
-  - from: record fact
-    text: "The holotype FMNH P 25107 was found by Elmer Riggs's team in 1900 near Fruita, Colorado, and described in 1903; it comprises dorsal and sacral vertebrae, ribs, a coracoid, humerus, ilium and femur."
-  - from: record fact
-    text: "No skull is confidently associated with B. altithorax; a Morrison skull (USNM 5730) once assigned to Camarasaurus may belong to Brachiosaurus but is not from the holotype."
-  - from: record fact
-    text: Long forelimbs and a high shoulder are supported by the holotype, while many popular details derive from Giraffatitan and must not be transferred uncritically.
-  - from: record fact
-    text: Taylor's 2009 re-evaluation formalised the separation of the Tanzanian material as Giraffatitan brancai.
-  - from: record fact
-    text: Referred Morrison material is limited and some referrals are debated.
-  - from: age review note
-    text: The holotype is Kimmeridgian within the Brushy Basin Member of the Morrison Formation.
 ---
 
 ## Overview
+
+Brachiosaurus altithorax was a brachiosaurid sauropod from the Morrison Formation of Colorado. Its holotype is a partial postcranial skeleton; the well-known African skeletons once called Brachiosaurus brancai belong to the separate genus Giraffatitan.
 
 Brachiosaurus was a high-shouldered sauropod from the Late Jurassic Morrison Formation of North America. Its front legs were longer than its hind legs, giving it a distinctive giraffe-like outline.
 
@@ -144,9 +134,17 @@ Riggs excavated the skeleton from a hillside near Fruita; erosion had already re
 
 Elevated shoulder anatomy and distinctive limb proportions distinguish it from low-slung diplodocids.
 
+- The holotype FMNH P 25107 was found by Elmer Riggs's team in 1900 near Fruita, Colorado, and described in 1903; it comprises dorsal and sacral vertebrae, ribs, a coracoid, humerus, ilium and femur.
+- No skull is confidently associated with B. altithorax; a Morrison skull (USNM 5730) once assigned to Camarasaurus may belong to Brachiosaurus but is not from the holotype.
+- Long forelimbs and a high shoulder are supported by the holotype, while many popular details derive from Giraffatitan and must not be transferred uncritically.
+- Taylor's 2009 re-evaluation formalised the separation of the Tanzanian material as Giraffatitan brancai.
+- Referred Morrison material is limited and some referrals are debated.
+
 ## Where it lived
 
 Late Jurassic Morrison ecosystem, probably browsing at different heights from many diplodocids.
+
+The holotype is Kimmeridgian within the Brushy Basin Member of the Morrison Formation.
 
 ## Classification
 

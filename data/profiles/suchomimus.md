@@ -68,15 +68,11 @@ parked:
     text: "The gharial-like skull bore teeth with slightly oval cross-section rather than circular — unlike the fully round teeth of Spinosaurus. The thumb claw was large and recurved. A low neural-spine sail was smaller than Spinosaurus's but clearly present. Forelimbs were robust, consistent with fish-snatching behaviour."
   - from: "article: Ecology"
     text: The Elrhaz Formation records a vast river delta environment 125–112 Ma. Suchomimus was the apex piscivore in an ecosystem that also included large theropods and the world's largest known crocodyliform, Sarcosuchus imperator, at up to 10 m long.
-  - from: record fact
-    text: Long jaws, conical teeth and large thumb claws support spinosaurid feeding specialisation.
-  - from: record fact
-    text: Fish consumption is likely by comparison and anatomy, but a 5,000 kg point mass is unsupported.
-  - from: age review note
-    text: "The Elrhaz Formation is generally correlated to about 115-112 Ma around the Aptian-Albian transition; a 125 Ma lower bound is too old."
 ---
 
 ## Overview
+
+Suchomimus tenerensis was a baryonychine spinosaurid from the Elrhaz Formation of Niger, known from a partial skeleton representing much of the body but assembled from disarticulated material.
 
 Suchomimus tenerensis was a huge spinosaurid from the Early Cretaceous Sahara, with a skull shaped almost exactly like a modern gharial — long, narrow and packed with over 100 interlocking conical teeth suited to gripping fish. A low but distinct neural-spine sail ran along its back. Paul Sereno's team discovered it in Niger's Elrhaz Formation in 1997.
 
@@ -110,9 +106,14 @@ The published estimate of about two thirds of the skeleton refers to the holotyp
 
 Long jaws, conical teeth and large claw support spinosaurid fish-eating adaptations.
 
+- Long jaws, conical teeth and large thumb claws support spinosaurid feeding specialisation.
+- Fish consumption is likely by comparison and anatomy, but a 5,000 kg point mass is unsupported.
+
 ## Where it lived
 
 Early Cretaceous African river and floodplain settings.
+
+The Elrhaz Formation is generally correlated to about 115-112 Ma around the Aptian-Albian transition; a 125 Ma lower bound is too old.
 
 ## Classification
 

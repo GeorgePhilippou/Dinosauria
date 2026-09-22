@@ -34,15 +34,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/ornitholestes.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The holotype preserves much of the skeleton but lacks portions and has a distorted skull.
-  - from: record fact
-    text: A nasal horn once reconstructed from a displaced bone is not supported.
-  - from: record fact
-    text: "Carnivory and bipedality are secure; prey choice, plumage extent and exact coelurosaur branch are uncertain."
-  - from: age review note
-    text: The Bone Cabin Quarry holotype is Kimmeridgian Morrison Formation, near 154-152 Ma.
 ---
 
 ## Overview
@@ -65,9 +56,15 @@ Single incomplete articulated skeleton with crushed skull and substantial postcr
 
 The complete skeleton documents a small, lightly built coelurosaur; the controversial nasal crest is only preserved in crushed condition.
 
+- The holotype preserves much of the skeleton but lacks portions and has a distorted skull.
+- A nasal horn once reconstructed from a displaced bone is not supported.
+- Carnivory and bipedality are secure; prey choice, plumage extent and exact coelurosaur branch are uncertain.
+
 ## Where it lived
 
 Late Jurassic Morrison floodplains alongside the largest animals that had ever lived on Earth.
+
+The Bone Cabin Quarry holotype is Kimmeridgian Morrison Formation, near 154-152 Ma.
 
 ## Open questions
 

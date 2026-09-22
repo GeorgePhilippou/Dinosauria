@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Herbivore
 found_in: [USA]
-fossil_record: 4
+fossil_record: null
+specialist_review: pending
 fossil_record_note: Length is cleared, and no diet detail or full anatomy should be attributed to Othnielia from its type alone.
 classification: [Dinosauria, Ornithischia, Neornithischia]
 summary: Othnielia rex is a historical Morrison Formation name founded on a nondiagnostic isolated femur. It is a nomen dubium, and the type cannot be linked securely to the more complete small-bodied Morrison ornithischian skeletons once referred to Othnielia.
@@ -40,15 +41,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38737"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype alone does not establish a complete body plan, precise size or a distinct valid genus.
-  - from: record fact
-    text: Carpenter and Galton (2018) proposed combining Othnielia and several other names within Nanosaurus.
-  - from: record fact
-    text: Barrett and Maidment (2025) found that the proposed Nanosaurus synonymy was unsupported because the inadequate type specimens cannot be compared diagnostically.
-  - from: age review note
-    text: "The historical material is Late Jurassic Morrison Formation; the former range extended too young."
 ---
 
 ## Overview
@@ -69,9 +61,15 @@ Othnielia rex was named by Peter Galton in 1977, honouring Othniel Charles Marsh
 
 Nondiagnostic isolated femur; historically referred skeletons cannot be attached securely to the name.
 
+- The holotype alone does not establish a complete body plan, precise size or a distinct valid genus.
+- Carpenter and Galton (2018) proposed combining Othnielia and several other names within Nanosaurus.
+- Barrett and Maidment (2025) found that the proposed Nanosaurus synonymy was unsupported because the inadequate type specimens cannot be compared diagnostically.
+
 ## Where it lived
 
 Late Jurassic semi-arid floodplain deposits of Wyoming where material attributed to Othnielia has been collected.
+
+The historical material is Late Jurassic Morrison Formation; the former range extended too young.
 
 ## Classification
 

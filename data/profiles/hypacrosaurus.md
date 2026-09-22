@@ -41,15 +41,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/hypacrosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The tall neural spines formed a deep back profile, not necessarily a thin sail.
-  - from: record fact
-    text: The hollow crest contained nasal passages plausibly involved in sound production, though exact calls are modelled.
-  - from: record fact
-    text: Nesting and embryology evidence is species-specific to H. stebingeri.
-  - from: age review note
-    text: "Corrected to early Maastrichtian for H. altispinus; the profile must not use the older Two Medicine age of H. stebingeri."
 ---
 
 ## Overview
@@ -72,9 +63,15 @@ Several skulls and partial-to-substantial skeletons of H. altispinus.
 
 Embryonic skulls inside eggs preserve the earliest crest development stages; skin impressions are also known.
 
+- The tall neural spines formed a deep back profile, not necessarily a thin sail.
+- The hollow crest contained nasal passages plausibly involved in sound production, though exact calls are modelled.
+- Nesting and embryology evidence is species-specific to H. stebingeri.
+
 ## Where it lived
 
 Late Cretaceous floodplain environments of Alberta, Canada.
+
+Corrected to early Maastrichtian for H. altispinus; the profile must not use the older Two Medicine age of H. stebingeri.
 
 ## Open questions
 

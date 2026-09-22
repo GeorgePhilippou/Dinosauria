@@ -35,15 +35,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38698"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype preserves most of the trunk, limbs, pelvis and tail.
-  - from: record fact
-    text: The missing head and neck prevent direct comparison with the skull-only Nemegtosaurus.
-  - from: record fact
-    text: Proposed rearing or tripod posture is biomechanically debated and should not be presented as observed behaviour.
-  - from: age review note
-    text: The rediscovered type locality confirms a Maastrichtian Nemegt Formation origin.
 ---
 
 ## Overview
@@ -66,9 +57,15 @@ Opisthocoelicaudia skarzynskii was described by the Polish palaeontologist Maria
 
 One largely articulated postcranial skeleton lacking skull and neck.
 
+- The holotype preserves most of the trunk, limbs, pelvis and tail.
+- The missing head and neck prevent direct comparison with the skull-only Nemegtosaurus.
+- Proposed rearing or tripod posture is biomechanically debated and should not be presented as observed behaviour.
+
 ## Where it lived
 
 Maastrichtian fluvial deposits of the Gobi Desert where the near-complete postcranial holotype of Opisthocoelicaudia was excavated by a Polish-Mongolian expedition.
+
+The rediscovered type locality confirms a Maastrichtian Nemegt Formation origin.
 
 ## Open questions
 

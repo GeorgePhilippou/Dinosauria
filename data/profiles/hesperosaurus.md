@@ -40,15 +40,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/hesperosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type is incomplete but includes rare cranial material and dorsal plates.
-  - from: record fact
-    text: The characteristic plate and tail-spike arrangement is reconstructed from more than one specimen.
-  - from: record fact
-    text: "It was a quadrupedal herbivore; exact social behaviour and display functions are not directly known."
-  - from: age review note
-    text: Hesperosaurus-bearing lower Morrison strata are Kimmeridgian and generally older than classic Stegosaurus stenops horizons.
 ---
 
 ## Overview
@@ -69,11 +60,17 @@ Hesperosaurus mjosi was described in 2001 by Kenneth Carpenter, Clifford Miles a
 
 Several partial skeletons, including cranial and dermal armour elements.
 
+- The type is incomplete but includes rare cranial material and dorsal plates.
+- The characteristic plate and tail-spike arrangement is reconstructed from more than one specimen.
+- It was a quadrupedal herbivore; exact social behaviour and display functions are not directly known.
+
 ## Where it lived
 
 Hesperosaurus inhabited the floodplains and river systems of the Late Jurassic Morrison Formation, sharing its environment with Stegosaurus, Allosaurus, Brachiosaurus, Diplodocus, and many other dinosaurs. It would have been a low browser, feeding on ferns, cycads, and other ground-level vegetation.
 
 Primary source of Hesperosaurus material, including the well-preserved holotype skull from the Kimmeridgian-age Morrison deposits.
+
+Hesperosaurus-bearing lower Morrison strata are Kimmeridgian and generally older than classic Stegosaurus stenops horizons.
 
 ## Open questions
 

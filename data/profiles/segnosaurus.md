@@ -38,17 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/segnosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The material includes both lower jaws, vertebrae, pelvis and hind-limb elements, but no complete skeleton.
-  - from: record fact
-    text: The front of the lower jaw was toothless and probably bore a keratinous beak.
-  - from: record fact
-    text: Closely packed, coarsely serrated teeth formed a specialised food-processing surface.
-  - from: record fact
-    text: "The 2016 dental study places Segnosaurus within the broader shift toward herbivory in derived therizinosaurs; exact foods remain unknown."
-  - from: age review note
-    text: The type and referred specimens are from the Bayanshiree Formation. Its internal age calibration remains broader than a single point estimate.
 ---
 
 ## Overview
@@ -67,11 +56,18 @@ Fossils of Segnosaurus were excavated from the Galbin region of Mongolia by join
 
 Partial skull and lower jaws, vertebrae, pelvis and hind-limb bones from more than one individual.
 
+- The material includes both lower jaws, vertebrae, pelvis and hind-limb elements, but no complete skeleton.
+- The front of the lower jaw was toothless and probably bore a keratinous beak.
+- Closely packed, coarsely serrated teeth formed a specialised food-processing surface.
+- The 2016 dental study places Segnosaurus within the broader shift toward herbivory in derived therizinosaurs; exact foods remain unknown.
+
 ## Where it lived
 
 The Bayan Shireh Formation preserves a seasonally arid to semi-arid environment with river floodplains. Segnosaurus shared this habitat with ankylosaurs, hadrosaurs, and theropods such as Garudimimus, indicating a diverse mid-Cretaceous ecosystem in central Asia.
 
 The holotype and referred specimens were collected from this mid-Cretaceous formation during Soviet-Mongolian expeditions in the 1970s.
+
+The type and referred specimens are from the Bayanshiree Formation. Its internal age calibration remains broader than a single point estimate.
 
 ## Classification
 

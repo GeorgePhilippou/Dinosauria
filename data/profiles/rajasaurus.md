@@ -32,15 +32,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/rajasaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The skull roof bears a low midline horn.
-  - from: record fact
-    text: The material is incomplete but includes braincase, vertebral, pelvic and hindlimb elements.
-  - from: record fact
-    text: Its close relationship to Majungasaurus supports Gondwanan biogeographic comparisons, while exact size remains approximate.
-  - from: age review note
-    text: The Lameta Formation type material is Maastrichtian and close to the end of the Cretaceous.
 ---
 
 ## Overview
@@ -63,9 +54,15 @@ Associated partial cranial and postcranial material including braincase, vertebr
 
 Abelisaurid skull features including the short deep skull and distinctive nasal horn confirm its identity; the Indian occurrence is biogeographically significant.
 
+- The skull roof bears a low midline horn.
+- The material is incomplete but includes braincase, vertebral, pelvic and hindlimb elements.
+- Its close relationship to Majungasaurus supports Gondwanan biogeographic comparisons, while exact size remains approximate.
+
 ## Where it lived
 
 Late Cretaceous of the Indian subcontinent, then a rapidly drifting island continent approaching Asia.
+
+The Lameta Formation type material is Maastrichtian and close to the end of the Cretaceous.
 
 ## Open questions
 

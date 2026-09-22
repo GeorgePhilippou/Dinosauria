@@ -38,17 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/tanius.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type individual includes a partial skull and much of the postcranial skeleton, but is not complete.
-  - from: record fact
-    text: Tanius sinensis falls outside the most derived hadrosaurids in recent analyses.
-  - from: record fact
-    text: T. chingkankouensis was regarded as a nomen dubium and T. laiyangensis was separated as Laiyangosaurus.
-  - from: record fact
-    text: "Herbivory and facultative quadrupedality follow hadrosauroid anatomy; exact behaviour and herd size are not directly preserved."
-  - from: age review note
-    text: The type species is from the Jiangjunding Formation of the Wangshi Group. A former 89-66 Ma genus-wide range incorrectly blended uncertain species and formations.
 ---
 
 ## Overview
@@ -69,9 +58,16 @@ Tanius sinensis was described by Carl Wiman in 1929 from material collected in S
 
 Associated partial skull and substantial axial and appendicular skeleton of the type species.
 
+- The type individual includes a partial skull and much of the postcranial skeleton, but is not complete.
+- Tanius sinensis falls outside the most derived hadrosaurids in recent analyses.
+- T. chingkankouensis was regarded as a nomen dubium and T. laiyangensis was separated as Laiyangosaurus.
+- Herbivory and facultative quadrupedality follow hadrosauroid anatomy; exact behaviour and herd size are not directly preserved.
+
 ## Where it lived
 
 The type material of Tanius sinensis was collected from Late Cretaceous continental deposits in Shandong, the same general region later famous for Shantungosaurus.
+
+The type species is from the Jiangjunding Formation of the Wangshi Group. A former 89-66 Ma genus-wide range incorrectly blended uncertain species and formations.
 
 ## Classification
 

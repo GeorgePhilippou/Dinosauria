@@ -38,15 +38,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rebbachisaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The giant neural spine belongs to a dorsal vertebra but does not by itself establish a tall skin sail.
-  - from: record fact
-    text: Rebbachisaurus tessonei was removed to the genus Limaysaurus.
-  - from: record fact
-    text: "The skull and most of the neck and limbs are unknown; body mass estimates are moderate for a sauropod, not reliably gigantic."
-  - from: age review note
-    text: The type is lower Upper Cretaceous Cenomanian, not Early Cretaceous.
 ---
 
 ## Overview
@@ -67,11 +58,17 @@ Rebbachisaurus garasbae was named by René Lavocat in 1954 from vertebrae and li
 
 Partial skeleton with articulated and disarticulated vertebrae plus scapula, humerus and ischium.
 
+- The giant neural spine belongs to a dorsal vertebra but does not by itself establish a tall skin sail.
+- Rebbachisaurus tessonei was removed to the genus Limaysaurus.
+- The skull and most of the neck and limbs are unknown; body mass estimates are moderate for a sauropod, not reliably gigantic.
+
 ## Where it lived
 
 The Kem Kem Formation is famous for preserving one of the most predator-heavy Cretaceous ecosystems known, including enormous theropods like Spinosaurus, Carcharodontosaurus, and Deltadromaeus alongside Rebbachisaurus. This concentration of large carnivores alongside Rebbachisaurus has prompted ecological debate about food availability and taphonomic biases in the deposit.
 
 Cenomanian-age continental deposits of the Sahara renowned for diverse Cretaceous dinosaurs and the type Rebbachisaurus material.
+
+The type is lower Upper Cretaceous Cenomanian, not Early Cretaceous.
 
 ## Open questions
 

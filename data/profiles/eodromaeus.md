@@ -36,15 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/eodromaeus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Serrated, recurved teeth support small-prey carnivory.
-  - from: record fact
-    text: The best specimens are substantial but not complete.
-  - from: record fact
-    text: Its importance near the dinosaur root means classification remains sensitive to competing phylogenies.
-  - from: age review note
-    text: The Cancha de Bochas Member of the Ischigualasto Formation is radiometrically constrained near 231-229 Ma.
 ---
 
 ## Overview
@@ -67,9 +58,15 @@ Several partial skeletons including substantial cranial and appendicular remains
 
 A combination of theropod and more basal features places Eodromaeus near the base of the theropod lineage.
 
+- Serrated, recurved teeth support small-prey carnivory.
+- The best specimens are substantial but not complete.
+- Its importance near the dinosaur root means classification remains sensitive to competing phylogenies.
+
 ## Where it lived
 
 Late Triassic ecosystem of the Ischigualasto basin, one of the earliest well-known dinosaur faunas.
+
+The Cancha de Bochas Member of the Ischigualasto Formation is radiometrically constrained near 231-229 Ma.
 
 ## Open questions
 

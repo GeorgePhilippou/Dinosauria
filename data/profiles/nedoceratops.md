@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Herbivore
 found_in: [USA]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: Do not reconstruct a separate full-bodied genus without stating the Triceratops hypothesis.
 classification: [Dinosauria, Ornithischia, Ceratopsia, Ceratopsidae, Chasmosaurinae]
 summary: Nedoceratops hatcheri is founded on a single chasmosaurine skull from the Lance Formation of Wyoming. Its lack of a nasal horn and small frill openings have produced an unresolved debate over whether it is distinct or an unusual Triceratops.
@@ -36,15 +37,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=139255"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: No postcranial skeleton is securely associated with the type.
-  - from: record fact
-    text: Farke found diagnostic differences supporting validity.
-  - from: record fact
-    text: "Scannella and Horner interpreted the skull as transitional morphology within Triceratops ontogeny; neither view should be hidden."
-  - from: age review note
-    text: The Lance Formation specimen is latest Maastrichtian, immediately before the end-Cretaceous extinction.
 ---
 
 ## Overview
@@ -60,6 +52,14 @@ The genus sits at the centre of debates over Triceratops variation and whether s
 ## Fossil record
 
 Single nearly complete skull; no secure postcranium.
+
+- No postcranial skeleton is securely associated with the type.
+- Farke found diagnostic differences supporting validity.
+- Scannella and Horner interpreted the skull as transitional morphology within Triceratops ontogeny; neither view should be hidden.
+
+## Where it lived
+
+The Lance Formation specimen is latest Maastrichtian, immediately before the end-Cretaceous extinction.
 
 ## Classification
 

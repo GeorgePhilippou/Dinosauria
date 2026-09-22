@@ -36,13 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/staurikosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: It is substantially older than the catalogue range of 227-221 Ma.
-  - from: record fact
-    text: Carnivory and bipedality are supported, but skull and forelimb anatomy are incomplete.
-  - from: age review note
-    text: Radiometric and biostratigraphic work places the type in the Carnian near 233 Ma.
 ---
 
 ## Overview
@@ -61,11 +54,16 @@ Staurikosaurus pricei was named by Edwin Colbert in 1970 from material originall
 
 Single incomplete skeleton with lower jaw, vertebrae, pelvis and hindlimbs.
 
+- It is substantially older than the catalogue range of 227-221 Ma.
+- Carnivory and bipedality are supported, but skull and forelimb anatomy are incomplete.
+
 ## Where it lived
 
 The Santa Maria Formation preserves a diverse Triassic fauna including rhynchosaurs, cynodonts, aetosaurs, and rauisuchians alongside the early dinosaurs Staurikosaurus and Saturnalia. These non-dinosaur archosaurs and mammal relatives dominated the ecosystem; dinosaurs were just one of many groups vying for ecological space during the Triassic.
 
 The holotype was discovered in the Carnian-age Santa Maria Formation, one of the richest sources of early dinosaurs and dinosaur precursors in the world.
+
+Radiometric and biostratigraphic work places the type in the Carnian near 233 Ma.
 
 ## Classification
 

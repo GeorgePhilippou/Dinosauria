@@ -34,13 +34,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=54523"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The forelimbs are extremely reduced and anatomically specialised.
-  - from: record fact
-    text: Damage around the skull has inspired death-scenario proposals, but the cause is not established.
-  - from: age review note
-    text: The Anacleto Formation is early Campanian.
 ---
 
 ## Overview
@@ -63,9 +56,14 @@ Aucasaurus garridoi was described by Rodolfo Coria, Luis Chiappe, and Lowell Din
 
 One nearly complete, partly articulated skull and skeleton.
 
+- The forelimbs are extremely reduced and anatomically specialised.
+- Damage around the skull has inspired death-scenario proposals, but the cause is not established.
+
 ## Where it lived
 
 An almost complete Aucasaurus skeleton was found in the Anacleto Formation near Auca Mahuevo, the same site famous for titanosaur nesting colonies, making it among the most complete abelisaurids known.
+
+The Anacleto Formation is early Campanian.
 
 ## Open questions
 

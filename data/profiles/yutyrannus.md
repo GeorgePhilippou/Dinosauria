@@ -34,15 +34,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/yutyrannus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Long filamentous feathers are directly preserved on multiple body regions.
-  - from: record fact
-    text: The three associated individuals do not by themselves prove pack hunting or stable social groups.
-  - from: record fact
-    text: Its position within Tyrannosauroidea varies among analyses, so a narrower family assignment is not presented as settled.
-  - from: age review note
-    text: High-precision dating brackets the Yixian Formation at 125.755-124.122 Ma, within the Barremian on the current time scale.
 ---
 
 ## Overview
@@ -63,9 +54,15 @@ Three articulated skeletons, including an adult and younger individuals, with fe
 
 Large tyrannosauroid body fossils with feather impressions show large-bodied tyrannosauroids could be feathered.
 
+- Long filamentous feathers are directly preserved on multiple body regions.
+- The three associated individuals do not by themselves prove pack hunting or stable social groups.
+- Its position within Tyrannosauroidea varies among analyses, so a narrower family assignment is not presented as settled.
+
 ## Where it lived
 
 Early Cretaceous northeastern Chinese lake-and-volcanic ecosystems.
+
+High-precision dating brackets the Yixian Formation at 125.755-124.122 Ma, within the Barremian on the current time scale.
 
 ## Classification
 

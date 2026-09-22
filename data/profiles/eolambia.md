@@ -37,15 +37,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eolambia&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The record represents many individuals, not one nearly complete skeleton.
-  - from: record fact
-    text: Jaw and limb anatomy support a primarily quadrupedal herbivore capable of bipedal movement.
-  - from: record fact
-    text: It lies outside Hadrosauridae in most modern analyses despite its hadrosaur-like build.
-  - from: age review note
-    text: High-resolution dating places the Mussentuchit record near 99-98 Ma, much narrower than a generic 99-94 Ma interval.
 ---
 
 ## Overview
@@ -66,9 +57,15 @@ Eolambia caroljonesa was described by James Kirkland in 1998 from material colle
 
 Abundant cranial and postcranial remains from multiple individuals and growth stages.
 
+- The record represents many individuals, not one nearly complete skeleton.
+- Jaw and limb anatomy support a primarily quadrupedal herbivore capable of bipedal movement.
+- It lies outside Hadrosauridae in most modern analyses despite its hadrosaur-like build.
+
 ## Where it lived
 
 The only confirmed locality, producing multiple specimens of juveniles and adults that document ontogenetic variation in the species.
+
+High-resolution dating places the Mussentuchit record near 99-98 Ma, much narrower than a generic 99-94 Ma interval.
 
 ## Classification
 

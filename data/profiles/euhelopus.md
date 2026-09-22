@@ -55,15 +55,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Euhelopus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type material comprises two individuals with complementary skull and postcranial material.
-  - from: record fact
-    text: A complete body is not preserved and the commonly illustrated skeleton is composite.
-  - from: record fact
-    text: Modern redescription places it among East Asian somphospondylan titanosauriforms, often in Euhelopodidae.
-  - from: age review note
-    text: "Early Cretaceous follows the modern redescription; older Late Jurassic assignments remain part of the stratigraphic debate and the numerical range is approximate."
 ---
 
 ## Overview
@@ -86,9 +77,15 @@ The type specimen of Euhelopus was collected from Shandong Province, China, by O
 
 Two associated partial skeletons including substantial skull and neck material.
 
+- The type material comprises two individuals with complementary skull and postcranial material.
+- A complete body is not preserved and the commonly illustrated skeleton is composite.
+- Modern redescription places it among East Asian somphospondylan titanosauriforms, often in Euhelopodidae.
+
 ## Where it lived
 
 Primary type locality; the holotype skull and vertebral column were collected from this Early Cretaceous formation by Otto Zdansky in the 1920s.
+
+Early Cretaceous follows the modern redescription; older Late Jurassic assignments remain part of the stratigraphic debate and the numerical range is approximate.
 
 ## Open questions
 

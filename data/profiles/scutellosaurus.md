@@ -38,13 +38,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Scutellosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Long hindlimbs and tail support habitual bipedality.
-  - from: record fact
-    text: The exact distribution of its numerous small osteoderms is not preserved as a complete articulated armour covering.
-  - from: age review note
-    text: The Kayenta record is Early Jurassic and considerably younger/broader than 205-202 Ma.
 ---
 
 ## Overview
@@ -65,9 +58,14 @@ Scutellosaurus lawleri was described by Edwin Colbert in 1981 from multiple spec
 
 Multiple partial skeletons and abundant osteoderms; no wholly complete individual.
 
+- Long hindlimbs and tail support habitual bipedality.
+- The exact distribution of its numerous small osteoderms is not preserved as a complete articulated armour covering.
+
 ## Where it lived
 
 Early Jurassic terrestrial redbeds of the Colorado Plateau yielding multiple Scutellosaurus specimens alongside other dinosaurs and early mammals.
+
+The Kayenta record is Early Jurassic and considerably younger/broader than 205-202 Ma.
 
 ## Classification
 

@@ -37,13 +37,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Bellusaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Cranial and postcranial remains provide broad coverage across the juvenile skeleton.
-  - from: record fact
-    text: Its small size is primarily an ontogenetic feature and should not be presented as a known adult maximum.
-  - from: age review note
-    text: The lower Shishugou Formation is Middle Jurassic, usually Bathonian-Callovian.
 ---
 
 ## Overview
@@ -62,11 +55,16 @@ Bellusaurus sui was named by Dong Zhiming and Azuma Yoichi in 1990 from the Shis
 
 A disarticulated bonebed of at least twelve juvenile individuals, including skull and postcrania.
 
+- Cranial and postcranial remains provide broad coverage across the juvenile skeleton.
+- Its small size is primarily an ontogenetic feature and should not be presented as a known adult maximum.
+
 ## Where it lived
 
 The Shishugou Formation in the Late Jurassic was a lush, seasonally wet environment that also preserved the giant theropod Sinraptor and large sauropods like Mamenchisaurus. A juvenile assemblage of Bellusaurus would have been vulnerable to predation, and the bone bed may represent a catastrophic mortality event, perhaps related to drought or flooding.
 
 Middle to Late Jurassic formation in the Junggar Basin yielding multiple juvenile Bellusaurus skeletons.
+
+The lower Shishugou Formation is Middle Jurassic, usually Bathonian-Callovian.
 
 ## Classification
 

@@ -40,13 +40,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/sinornithosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Pennaceous feathers and body covering are directly preserved.
-  - from: record fact
-    text: "Claims of venom-delivery anatomy are not accepted; the proposed grooves and tooth form are not uniquely associated with venom."
-  - from: age review note
-    text: High-precision dating brackets the Yixian Formation at 125.755-124.122 Ma, within the Barremian on the current time scale.
 ---
 
 ## Overview
@@ -67,11 +60,16 @@ Sinornithosaurus millenii was described in 1999 by Xu Xing, Wang Xiaolin, and Wu
 
 Several articulated feathered skeletons with cranial and postcranial material.
 
+- Pennaceous feathers and body covering are directly preserved.
+- Claims of venom-delivery anatomy are not accepted; the proposed grooves and tooth form are not uniquely associated with venom.
+
 ## Where it lived
 
 Sinornithosaurus lived in the lake-dominated Yixian Formation ecosystem of northeastern China, known as the Jehol Biota. This environment was characterised by volcanic ash falls, dense forests, and abundant freshwater lakes teeming with fish. Sinornithosaurus likely preyed on small vertebrates, proto-birds, and possibly fish, sharing its habitat with Microraptor, Sinosauropteryx, and many early birds.
 
 The original specimen was collected from the 124.5 Ma Jianshangou beds of the Yixian Formation at the Sihetun locality.
+
+High-precision dating brackets the Yixian Formation at 125.755-124.122 Ma, within the Barremian on the current time scale.
 
 ## Open questions
 

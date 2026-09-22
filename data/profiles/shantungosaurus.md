@@ -43,13 +43,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/shantungosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Gigantic body size is supported by multiple large limb and skull elements, but precise maxima vary.
-  - from: record fact
-    text: Zhuchengosaurus and Huaxiaosaurus are widely treated as growth stages or junior synonyms of Shantungosaurus.
-  - from: age review note
-    text: Magnetostratigraphic and radiometric work places the relevant Wangshi Group dinosaur-bearing interval in the late Campanian, approximately 77-73.5 Ma.
 ---
 
 ## Overview
@@ -68,11 +61,16 @@ Shantungosaurus giganteus was described by Hu Chengzhi in 1973 from material exc
 
 Large multi-individual bonebeds with many cranial and postcranial elements.
 
+- Gigantic body size is supported by multiple large limb and skull elements, but precise maxima vary.
+- Zhuchengosaurus and Huaxiaosaurus are widely treated as growth stages or junior synonyms of Shantungosaurus.
+
 ## Where it lived
 
 The Wangshi Group sediments represent Late Cretaceous coastal lowlands and river deltas. Shantungosaurus shared its environment with ceratopsians, ankylosaurs, and large theropods. The Zhucheng bonebeds may represent mass mortality events caused by seasonal flooding, providing a rare snapshot of large dinosaur population dynamics.
 
 The type locality for Shantungosaurus, yielding multiple partial skeletons from Campanian-age coastal floodplain deposits.
+
+Magnetostratigraphic and radiometric work places the relevant Wangshi Group dinosaur-bearing interval in the late Campanian, approximately 77-73.5 Ma.
 
 ## Classification
 

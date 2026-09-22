@@ -39,15 +39,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/ornithomimus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Juvenile and adult specimens show down-like body feathers, with larger arm feathers in adults.
-  - from: record fact
-    text: The edentulous beak is preserved, but herbivory, omnivory and filter-feeding proposals remain debated.
-  - from: record fact
-    text: Genus-level ranges must distinguish O. edmontonicus from fragmentary O. velox and historical referrals.
-  - from: age review note
-    text: "Secure species records span late Campanian to early Maastrichtian formations; a range to 66 Ma relies on disputed referrals."
 ---
 
 ## Overview
@@ -70,9 +61,15 @@ Multiple articulated skeletons for O. edmontonicus, including feathered specimen
 
 Long limbs, toothless jaws and feather traces support bird-like body covering in ornithomimosaurs.
 
+- Juvenile and adult specimens show down-like body feathers, with larger arm feathers in adults.
+- The edentulous beak is preserved, but herbivory, omnivory and filter-feeding proposals remain debated.
+- Genus-level ranges must distinguish O. edmontonicus from fragmentary O. velox and historical referrals.
+
 ## Where it lived
 
 Late Cretaceous western Canadian floodplains.
+
+Secure species records span late Campanian to early Maastrichtian formations; a range to 66 Ma relies on disputed referrals.
 
 ## Open questions
 

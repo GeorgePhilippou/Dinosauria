@@ -54,15 +54,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Edmontonia&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: It lacked the bony tail club of ankylosaurids.
-  - from: record fact
-    text: Large shoulder spines and other osteoderms are documented, but complete armour layouts combine multiple individuals.
-  - from: record fact
-    text: E. rugosidens is commonly separated as Panoplosaurus or treated in other revised combinations rather than automatically included here.
-  - from: age review note
-    text: "Age tied to the Horseshoe Canyon Formation; species-level referral outside it requires direct anatomical support."
 ---
 
 ## Overview
@@ -83,9 +74,15 @@ Edmontonia was described by Charles M. Sternberg in 1928, based on material from
 
 Diagnostic skull and several partial skeletons with osteoderms.
 
+- It lacked the bony tail club of ankylosaurids.
+- Large shoulder spines and other osteoderms are documented, but complete armour layouts combine multiple individuals.
+- E. rugosidens is commonly separated as Panoplosaurus or treated in other revised combinations rather than automatically included here.
+
 ## Where it lived
 
 The primary Canadian locality; multiple specimens from this Campanian formation document both cranial and postcranial anatomy.
+
+Age tied to the Horseshoe Canyon Formation; species-level referral outside it requires direct anatomical support.
 
 ## Classification
 

@@ -42,15 +42,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Lufengosaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: "Multiple substantially complete individuals are known; occurrence count is not a completeness measure."
-  - from: record fact
-    text: Embryonic bones and eggs provide direct growth evidence, not proof of a specific parental-care strategy.
-  - from: record fact
-    text: "It was primarily bipedal but could plausibly use the forelimbs in slow locomotion or feeding; exact gait frequencies are unknown."
-  - from: age review note
-    text: "The Lower Lufeng age is Early Jurassic but numerical limits vary; the record is not restricted securely to 200-195 Ma."
 ---
 
 ## Overview
@@ -71,9 +62,15 @@ Lufengosaurus huenei was named in 1940 by C. C. Young (Yang Zhongjian), the foun
 
 Numerous skulls and skeletons plus eggs and embryonic bones.
 
+- Multiple substantially complete individuals are known; occurrence count is not a completeness measure.
+- Embryonic bones and eggs provide direct growth evidence, not proof of a specific parental-care strategy.
+- It was primarily bipedal but could plausibly use the forelimbs in slow locomotion or feeding; exact gait frequencies are unknown.
+
 ## Where it lived
 
 Multiple specimens of Lufengosaurus huenei and related forms have been recovered from these Early Jurassic continental redbeds.
+
+The Lower Lufeng age is Early Jurassic but numerical limits vary; the record is not restricted securely to 200-195 Ma.
 
 ## Classification
 

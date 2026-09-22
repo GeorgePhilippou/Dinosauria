@@ -40,13 +40,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chungkingosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The taxon remains recognised in recent reassessments, but its anatomy and position among stegosaurs are incompletely resolved.
-  - from: record fact
-    text: Tail spikes are preserved in the assemblage, although their exact number and arrangement on the living animal are uncertain.
-  - from: age review note
-    text: The upper Shaximiao Formation is Late Jurassic, commonly Oxfordian.
 ---
 
 ## Overview
@@ -67,11 +60,16 @@ Chungkingosaurus jiangbeiensis was described in 1983 by Dong Zhiming, Zhou Shiwu
 
 One partial skull and incomplete postcranial skeleton with dermal armour, plus uncertain referrals.
 
+- The taxon remains recognised in recent reassessments, but its anatomy and position among stegosaurs are incompletely resolved.
+- Tail spikes are preserved in the assemblage, although their exact number and arrangement on the living animal are uncertain.
+
 ## Where it lived
 
 The Shaximiao Formation ecosystem was a warm, well-watered floodplain environment during the Middle to Late Jurassic. Chungkingosaurus shared this landscape with large sauropods like Omeisaurus and Datousaurus, smaller ornithopods, and theropods such as Gasosaurus. As a small stegosaur, it likely fed on low-growing vegetation and used its tail spikes defensively against predators.
 
 Middle to Late Jurassic fluvial formation in Sichuan yielding the type material of Chungkingosaurus and associated stegosaurs.
+
+The upper Shaximiao Formation is Late Jurassic, commonly Oxfordian.
 
 ## Open questions
 

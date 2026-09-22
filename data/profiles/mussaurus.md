@@ -42,15 +42,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Mussaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: A growth series documents major changes from quadrupedal hatchlings to predominantly bipedal adults.
-  - from: record fact
-    text: Egg clutches and age-segregated groups provide strong evidence of colonial nesting and social aggregation.
-  - from: record fact
-    text: "Herbivory is inferred from sauropodomorph anatomy; exact plant selection is unknown."
-  - from: age review note
-    text: Radiometric and stratigraphic work places the nesting locality in the Early Jurassic, not the Late Triassic.
 ---
 
 ## Overview
@@ -71,9 +62,15 @@ Mussaurus was named by José Bonaparte and Martín Vince in 1979. The type speci
 
 Eggs and multiple articulated skeletons spanning hatchling to adult growth stages.
 
+- A growth series documents major changes from quadrupedal hatchlings to predominantly bipedal adults.
+- Egg clutches and age-segregated groups provide strong evidence of colonial nesting and social aggregation.
+- Herbivory is inferred from sauropodomorph anatomy; exact plant selection is unknown.
+
 ## Where it lived
 
 Late Triassic to Early Jurassic continental deposits yielding nests, eggs, juveniles and adult Mussaurus material.
+
+Radiometric and stratigraphic work places the nesting locality in the Early Jurassic, not the Late Triassic.
 
 ## Classification
 

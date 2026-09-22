@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Carnivore
 found_in: [USA]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: Fine anatomy, size and diagnostic status cannot be verified from the fossil.
 classification: [Dinosauria, Saurischia, Theropoda, Neotheropoda, Coelophysoidea]
 summary: Podokesaurus holyokensis is based on one incomplete, partly articulated small theropod skeleton from Massachusetts that was destroyed by fire in 1917. Study is limited to photographs, published drawings and casts.
@@ -40,15 +41,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Podokesaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The original specimen came from the Portland Formation, not the Middle Jurassic.
-  - from: record fact
-    text: Its anatomy is coelophysoid, but the lost material may not preserve a unique diagnosis.
-  - from: record fact
-    text: Proposed synonymy with Coelophysis cannot be tested adequately without the original fossil.
-  - from: age review note
-    text: Portland Formation evidence places the specimen in the Early Jurassic.
 ---
 
 ## Overview
@@ -67,11 +59,17 @@ Podokesaurus holyokensis was described by Mignon Talbot in 1911 from a partial s
 
 One destroyed partial skeleton documented by photographs, drawings and casts.
 
+- The original specimen came from the Portland Formation, not the Middle Jurassic.
+- Its anatomy is coelophysoid, but the lost material may not preserve a unique diagnosis.
+- Proposed synonymy with Coelophysis cannot be tested adequately without the original fossil.
+
 ## Where it lived
 
 The Portland Formation represents floodplain and lacustrine deposits in an Early Jurassic rift valley. Podokesaurus would have inhabited a semi-arid, seasonally wet environment alongside early crocodilians and other small vertebrates.
 
 The only known occurrence of Podokesaurus, from Early Jurassic fluvial redbeds of the Connecticut Valley.
+
+Portland Formation evidence places the specimen in the Early Jurassic.
 
 ## Classification
 

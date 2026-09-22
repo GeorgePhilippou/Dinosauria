@@ -82,15 +82,11 @@ parked:
     text: "The neck of Apatosaurus was extraordinarily thick and robust — more so than in Diplodocus for a similar body length. Air sacs inflated chambers in the vertebrae (pneumatisation), reducing mass without sacrificing structural strength. Computer models suggest the neck was carried near-horizontally rather than upright, and was used for sweeping through low-growing ferns and ground vegetation."
   - from: "article: Tail mechanics"
     text: "The slender whip-like distal tail has long been proposed as a \"whip-crack\" weapon or signalling device. Modelling by Myhrvold and Currie (1997) suggested the tail tip could reach supersonic velocities, generating a sonic boom. However, later biomechanical work argues that soft-tissue constraints — tendons, muscles, and skin — would have limited tip speed to well below the speed of sound, making a true sonic boom implausible. The tail was almost certainly used for defence or display, but the supersonic hypothesis is now contested."
-  - from: record fact
-    text: "A. ajax is the type species; A. louisae is also widely accepted."
-  - from: record fact
-    text: "Brontosaurus was synonymised with Apatosaurus for much of the twentieth century, but a 2015 specimen-level analysis revived it as a separate genus; that result is influential but still tested in later work."
-  - from: age review note
-    text: Diagnostic material is Kimmeridgian-Tithonian within the Morrison Formation.
 ---
 
 ## Overview
+
+Apatosaurus was a robust diplodocid sauropod from the Morrison Formation of western North America. Multiple partial skeletons document most of the body, but skulls are rare and species-level referrals have been repeatedly revised.
 
 Apatosaurus ajax was one of the most heavily built sauropods of the Late Jurassic Morrison Formation, reaching 21–22 metres and 22 tonnes. Long misidentified as "Brontosaurus" — a name used for over a century before being synonymised in 1903 and partially rehabilitated in 2015 for a distinct species — Apatosaurus was a diplodocid that carried its neck horizontally and fed on low vegetation, unlike the high-browsing Brachiosaurus sharing the same ecosystem.
 
@@ -124,9 +120,14 @@ Because so few skulls are known and early mounts used the wrong skull, the head 
 
 Robust limb bones, vertebrae and tail anatomy support its heavy diplodocid body plan.
 
+- A. ajax is the type species; A. louisae is also widely accepted.
+- Brontosaurus was synonymised with Apatosaurus for much of the twentieth century, but a 2015 specimen-level analysis revived it as a separate genus; that result is influential but still tested in later work.
+
 ## Where it lived
 
 Late Jurassic Morrison floodplains shared with Camarasaurus, Diplodocus, Stegosaurus and Allosaurus.
+
+Diagnostic material is Kimmeridgian-Tithonian within the Morrison Formation.
 
 ## Classification
 

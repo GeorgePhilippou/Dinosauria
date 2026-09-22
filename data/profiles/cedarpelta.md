@@ -39,13 +39,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cedarpelta&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The skull material is unusually informative for an early ankylosaurid.
-  - from: record fact
-    text: No diagnostic tail club is preserved, so a clubbed tail should not be asserted for this genus.
-  - from: age review note
-    text: The Mussentuchit Member is Cenomanian, not Barremian or earliest Cretaceous.
 ---
 
 ## Overview
@@ -64,11 +57,16 @@ Cedarpelta bilbeyhallorum was named in 2001 by Kenneth Carpenter, James Kirkland
 
 Disarticulated cranial, postcranial and armour elements from at least two individuals.
 
+- The skull material is unusually informative for an early ankylosaurid.
+- No diagnostic tail club is preserved, so a clubbed tail should not be asserted for this genus.
+
 ## Where it lived
 
 The Cedar Mountain Formation represents a major stratigraphic interval spanning the Early to mid-Cretaceous of the Colorado Plateau. Its dinosaur fauna includes sauropods, ornithopods, and multiple theropods alongside Cedarpelta. The depositional environment was a semi-arid floodplain with seasonal rivers, and the fauna shows faunal transitions reflecting changing palaeoenvironments and possible intermittent connections with Asia.
 
 Early Cretaceous fluvial and floodplain deposits in eastern Utah, the primary source of Cedarpelta material.
+
+The Mussentuchit Member is Cenomanian, not Barremian or earliest Cretaceous.
 
 ## Classification
 

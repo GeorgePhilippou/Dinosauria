@@ -77,17 +77,11 @@ parked:
     text: "Growth-series specimens from juvenile to adult allow study of ontogenetic changes in skull shape: juveniles have proportionally longer, lower skulls that deepen and shorten with age. This pattern of skull deepening with growth is shared across Tyrannosauridae. Young tyrannosaurs likely occupied a different ecological niche (fast pursuit of smaller prey) from adults (bone-crushing ambush predators of large hadrosaurs and ceratopsids)."
   - from: "article: Ecological role"
     text: Gorgosaurus was the apex predator of the Dinosaur Park Formation ecosystem, a habitat of coastal swamps, channels and forested uplands. Its prey base included hadrosaurs (Corythosaurus, Lambeosaurus), ceratopsids (Centrosaurus, Styracosaurus) and ankylosaurs. Co-existence with Daspletosaurus suggests either temporal or niche partitioning within the same geographic area.
-  - from: record fact
-    text: Juveniles were more slender and long-legged than adults.
-  - from: record fact
-    text: Preserved stomach contents in a juvenile provide direct evidence that at least young Gorgosaurus ate small caenagnathid dinosaurs.
-  - from: record fact
-    text: That single meal does not establish the full diet of all ages or coordinated hunting.
-  - from: age review note
-    text: Most secure G. libratus material comes from the Dinosaur Park Formation, approximately 76.6-75.1 Ma.
 ---
 
 ## Overview
+
+Gorgosaurus libratus was an albertosaurine tyrannosaurid from the Dinosaur Park Formation of Alberta and equivalent strata in Montana. Dozens of skulls and skeletons spanning juvenile to adult stages make its growth and anatomy unusually well documented.
 
 Gorgosaurus libratus was a large tyrannosaur from the Campanian of Alberta (~76–75 Ma), the dominant apex predator of the Dinosaur Park Formation ecosystem. It preceded and partially overlapped with Daspletosaurus, the other large tyrannosaur in the same formation. Excellent growth-series specimens allow detailed study of tyrannosaur ontogeny.
 
@@ -121,9 +115,15 @@ Integument is the main gap: no skin, scale or feather impressions are known for 
 
 A growth series from juvenile to adult documents the dramatic ontogenetic change in skull shape and tooth morphology in tyrannosaurs.
 
+- Juveniles were more slender and long-legged than adults.
+- Preserved stomach contents in a juvenile provide direct evidence that at least young Gorgosaurus ate small caenagnathid dinosaurs.
+- That single meal does not establish the full diet of all ages or coordinated hunting.
+
 ## Where it lived
 
 Late Cretaceous coastal plain of western Canada with hadrosaurs, ceratopsians and ankylosaurs.
+
+Most secure G. libratus material comes from the Dinosaur Park Formation, approximately 76.6-75.1 Ma.
 
 ## Classification
 

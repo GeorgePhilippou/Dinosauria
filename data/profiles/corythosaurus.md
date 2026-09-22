@@ -75,15 +75,11 @@ parked:
     text: "The hollow crest of Corythosaurus contained elaborately looping nasal passages. When air was pushed through these passages, they would produce low-frequency resonant sounds specific to each crest shape — allowing individual species recognition, mate attraction and herd communication. Modern analogues include the resonating chambers of howler monkeys and some hornbills."
   - from: "article: Skin and appearance"
     text: Multiple Corythosaurus specimens preserve skin impressions across the neck, body and tail. The skin shows a pebbly texture with larger tubercles forming a mosaic. No direct colour evidence is preserved, but countershading (darker back, lighter belly) is commonly assumed for camouflage. The crest was probably brightly coloured and used in display, as in modern cassowaries.
-  - from: record fact
-    text: The internal nasal passages of the crest are preserved and could affect sound resonance, but no specific call can be reconstructed as fact.
-  - from: record fact
-    text: Many historical Corythosaurus species are now interpreted as growth or individual variation within C. casuarius.
-  - from: age review note
-    text: Diagnostic C. casuarius material is late Campanian in the Dinosaur Park Formation.
 ---
 
 ## Overview
+
+Corythosaurus casuarius was a helmet-crested lambeosaurine hadrosaurid from the Dinosaur Park Formation of Alberta. Many skulls and skeletons across growth stages, including skin impressions, document its anatomy and the dramatic ontogenetic growth of its hollow crest.
 
 Corythosaurus casuarius ("helmeted lizard") was a large crested hadrosaur from the Campanian of Alberta (~77–75 Ma), reaching about nine metres and distinguished by a tall, thin helmet-like hollow crest on the skull. The crest contained looping nasal passages that may have allowed deep, resonant calls — the most well-supported hypothesis for hollow hadrosaur crests generally.
 
@@ -117,9 +113,14 @@ The main gaps are not skeletal: the keratin beak, any soft-tissue crest extensio
 
 Skull crests and skeletal remains support its lambeosaurine hadrosaur classification.
 
+- The internal nasal passages of the crest are preserved and could affect sound resonance, but no specific call can be reconstructed as fact.
+- Many historical Corythosaurus species are now interpreted as growth or individual variation within C. casuarius.
+
 ## Where it lived
 
 Late Cretaceous coastal plain and river systems of western Canada.
+
+Diagnostic C. casuarius material is late Campanian in the Dinosaur Park Formation.
 
 ## Classification
 

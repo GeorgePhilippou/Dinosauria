@@ -38,13 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/tylocephale.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Its tall dome is directly preserved but nearly all postcranial anatomy is unknown.
-  - from: record fact
-    text: The catalogue length and categorical diet are removed because the type does not support them directly.
-  - from: age review note
-    text: The type is late Campanian Baruungoyot Formation.
 ---
 
 ## Overview
@@ -62,6 +55,9 @@ Tylocephale is distinguished by its particularly tall, narrow dome — higher re
 Tylocephale gilmorei was named in 1974 by Teresa Maryańska and Halszka Osmólska from material collected during the Polish–Mongolian Palaeontological Expeditions of the 1960s–70s. The generic name means 'swelling head', reflecting the high, strongly domed skull. The species honours American palaeontologist Charles W. Gilmore.
 
 Single partial skull and lower jaw.
+
+- Its tall dome is directly preserved but nearly all postcranial anatomy is unknown.
+- The catalogue length and categorical diet are removed because the type does not support them directly.
 
 ## Where it lived
 

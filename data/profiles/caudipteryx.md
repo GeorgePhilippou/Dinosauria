@@ -32,13 +32,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/caudipteryx.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Its short, symmetrical arm feathers were not a powered-flight wing.
-  - from: record fact
-    text: Gastroliths and tooth reduction are consistent with plant consumption or omnivory but do not prove a strictly herbivorous diet.
-  - from: age review note
-    text: The relevant Yixian beds are early Aptian, close to 125 million years old.
 ---
 
 ## Overview
@@ -61,9 +54,14 @@ Multiple nearly complete articulated skeletons, many with feathers and gastrolit
 
 Pennaceous feathers on arms and tail and gastroliths confirm its oviraptorosaur identity and omnivorous diet; feathers predate flight adaptation.
 
+- Its short, symmetrical arm feathers were not a powered-flight wing.
+- Gastroliths and tooth reduction are consistent with plant consumption or omnivory but do not prove a strictly herbivorous diet.
+
 ## Where it lived
 
 Early Cretaceous Jehol lake-and-forest ecosystem of northeastern China.
+
+The relevant Yixian beds are early Aptian, close to 125 million years old.
 
 ## Open questions
 

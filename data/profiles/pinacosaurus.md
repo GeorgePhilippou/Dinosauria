@@ -50,15 +50,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pinacosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Exceptional juvenile assemblages preserve multiple associated individuals rather than one mass-complete skeleton.
-  - from: record fact
-    text: Skulls show characteristic accessory openings near the nostrils, whose soft-tissue function remains debated.
-  - from: record fact
-    text: A tail club is supported by ankylosaurid anatomy and referred caudal material, but armour layouts vary with preservation and growth.
-  - from: age review note
-    text: "Secure occurrences are Campanian Djadokhta-equivalent deposits; the range is not extended using undiagnostic ankylosaur material."
 ---
 
 ## Overview
@@ -81,9 +72,15 @@ Pinacosaurus was named by Charles W. Gilmore in 1933 based on material collected
 
 Numerous skulls and partial to articulated skeletons across juvenile and larger size classes.
 
+- Exceptional juvenile assemblages preserve multiple associated individuals rather than one mass-complete skeleton.
+- Skulls show characteristic accessory openings near the nostrils, whose soft-tissue function remains debated.
+- A tail club is supported by ankylosaurid anatomy and referred caudal material, but armour layouts vary with preservation and growth.
+
 ## Where it lived
 
 The classic Gobi Desert formation that has yielded multiple juvenile Pinacosaurus specimens.
+
+Secure occurrences are Campanian Djadokhta-equivalent deposits; the range is not extended using undiagnostic ankylosaur material.
 
 ## Open questions
 

@@ -40,13 +40,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/sinraptor.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type species preserves an excellent skull and much of the postcranium.
-  - from: record fact
-    text: Genus-level age and anatomy should not blend S. dongi and the debated combination S. hepingensis without qualification.
-  - from: age review note
-    text: The upper Shishugou type horizon of S. dongi is Oxfordian, approximately 161-158 Ma. S. hepingensis should not extend the genus range automatically because its assignment remains disputed.
 ---
 
 ## Overview
@@ -67,9 +60,14 @@ Sinraptor hepingensis was briefly named by Gao in 1992 and fully described by Ph
 
 Type species represented by a substantial skull and skeleton; second species by separate material.
 
+- The type species preserves an excellent skull and much of the postcranium.
+- Genus-level age and anatomy should not blend S. dongi and the debated combination S. hepingensis without qualification.
+
 ## Where it lived
 
 The holotype and primary referred specimens of Sinraptor were recovered from this Late Jurassic formation in the Junggar Basin, one of the richest Jurassic dinosaur sites in Asia.
+
+The upper Shishugou type horizon of S. dongi is Oxfordian, approximately 161-158 Ma. S. hepingensis should not extend the genus range automatically because its assignment remains disputed.
 
 ## Classification
 

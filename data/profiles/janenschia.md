@@ -37,15 +37,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Janenschia"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The accepted hypodigm is much smaller than older museum reconstructions implied.
-  - from: record fact
-    text: No diagnostic skull is known.
-  - from: record fact
-    text: Its placement as a basal titanosauriform, titanosaur or other eusauropod differs among analyses.
-  - from: age review note
-    text: The type horizon is Tithonian Upper Dinosaur Member, not Early Cretaceous.
 ---
 
 ## Overview
@@ -66,11 +57,17 @@ Material now assigned to Janenschia was collected during the German Tendaguru ex
 
 Restricted associated partial hindlimb and caudal material, with disputed referrals.
 
+- The accepted hypodigm is much smaller than older museum reconstructions implied.
+- No diagnostic skull is known.
+- Its placement as a basal titanosauriform, titanosaur or other eusauropod differs among analyses.
+
 ## Where it lived
 
 The Tendaguru Formation records a coastal floodplain and estuary environment in what is now coastal Tanzania during the Tithonian stage of the Late Jurassic. The fauna is remarkably similar in some respects to that of the North American Morrison Formation, suggesting faunal exchange between Africa and Laurasia during the Late Jurassic, possibly via temporary land connections.
 
 The world-famous Tendaguru site has produced extensive Late Jurassic dinosaur material including Janenschia, collected during German expeditions in the early twentieth century.
+
+The type horizon is Tithonian Upper Dinosaur Member, not Early Cretaceous.
 
 ## Open questions
 

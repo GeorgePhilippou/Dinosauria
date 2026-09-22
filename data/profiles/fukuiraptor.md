@@ -44,15 +44,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Fukuiraptor&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype is a partial skeleton, not a complete mounted animal.
-  - from: record fact
-    text: The large hand claw was initially mistaken for a foot claw.
-  - from: record fact
-    text: Megaraptoran relationships remain debated between allosauroid and coelurosaur/tyrannosauroid hypotheses.
-  - from: age review note
-    text: "Restricted to the Aptian Kitadani Formation; referrals outside it are not used to extend the range."
 ---
 
 ## Overview
@@ -73,9 +64,15 @@ Fukuiraptor kitadaniensis was described by Yoichi Azuma and Philip Currie in 200
 
 Partial holotype plus fragmentary referred specimens spanning growth stages.
 
+- The holotype is a partial skeleton, not a complete mounted animal.
+- The large hand claw was initially mistaken for a foot claw.
+- Megaraptoran relationships remain debated between allosauroid and coelurosaur/tyrannosauroid hypotheses.
+
 ## Where it lived
 
 Primary type locality and the richest dinosaur-bearing deposit in Japan; Aptian-age continental deposits have yielded multiple theropod and iguanodont fossils.
+
+Restricted to the Aptian Kitadani Formation; referrals outside it are not used to extend the range.
 
 ## Classification
 

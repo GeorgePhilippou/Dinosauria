@@ -36,13 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/shanag.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Its dromaeosaurid affinity is supported, but subfamily placement varies.
-  - from: record fact
-    text: The catalogue 0.45 m length is cleared because almost all full-body anatomy is extrapolated.
-  - from: age review note
-    text: "The Oosh Formation is Hauterivian-Barremian; the catalogue range was reversed and too broad."
 ---
 
 ## Overview
@@ -63,9 +56,14 @@ Shanag ashile was described in 2007 by Turner, Hwang, and Norell from skull frag
 
 Partial jaw, vertebra and limb fragments from one individual.
 
+- Its dromaeosaurid affinity is supported, but subfamily placement varies.
+- The catalogue 0.45 m length is cleared because almost all full-body anatomy is extrapolated.
+
 ## Where it lived
 
 Skull fragments of Shanag were recovered from Early Cretaceous fluvial deposits at the Öösh locality.
+
+The Oosh Formation is Hauterivian-Barremian; the catalogue range was reversed and too broad.
 
 ## Classification
 

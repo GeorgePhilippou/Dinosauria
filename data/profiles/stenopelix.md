@@ -36,17 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/stenopelix.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype is the most complete dinosaur skeleton known from the German Wealden deposits but preserves no skull.
-  - from: record fact
-    text: Characters formerly used to place it in Pachycephalosauria or Ceratopsia were reinterpreted or found to be more widespread.
-  - from: record fact
-    text: It is best treated conservatively as a possible marginocephalian rather than the earliest confirmed pachycephalosaur.
-  - from: record fact
-    text: Diet and detailed head anatomy cannot be established directly without the skull.
-  - from: age review note
-    text: "The holotype comes from the Obernkirchen Sandstone of the Bueckeberg Formation and is late Berriasian; the former 127-121 Ma range was too young."
 ---
 
 ## Overview
@@ -67,9 +56,16 @@ Stenopelix valdensis was named by Hermann von Meyer in 1857 from a partial skele
 
 Largely articulated postcranial holotype; skull absent.
 
+- The holotype is the most complete dinosaur skeleton known from the German Wealden deposits but preserves no skull.
+- Characters formerly used to place it in Pachycephalosauria or Ceratopsia were reinterpreted or found to be more widespread.
+- It is best treated conservatively as a possible marginocephalian rather than the earliest confirmed pachycephalosaur.
+- Diet and detailed head anatomy cannot be established directly without the skull.
+
 ## Where it lived
 
 The only known specimen of Stenopelix was recovered from Barremian-age Wealden deposits in the Obernkirchen area of northwestern Germany.
+
+The holotype comes from the Obernkirchen Sandstone of the Bueckeberg Formation and is late Berriasian; the former 127-121 Ma range was too young.
 
 ## Classification
 

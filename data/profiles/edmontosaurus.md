@@ -79,17 +79,11 @@ parked:
     text: "A tail vertebra of Edmontosaurus bears a puncture wound matching large tyrannosaur tooth size, and the surrounding bone shows extensive healing — the hadrosaur survived. This is the clearest published example of a sublethal T. rex attack on a large herbivore and confirms that T. rex did actively hunt healthy prey rather than only scavenge."
   - from: "article: Hadrosaur dental batteries"
     text: "Edmontosaurus had hundreds of teeth arranged in a grinding battery — up to 60 teeth stacked in each position with replacements developing below. This system could efficiently process the tough conifer vegetation of the Late Cretaceous. The grinding surface produced by the battery resembles a millstone in function, processing large volumes of plant material rapidly."
-  - from: record fact
-    text: Multiple specimens preserve skin impressions, and one Edmontosaurus specimen preserves a fleshy head comb.
-  - from: record fact
-    text: Dental batteries and wear surfaces document sophisticated plant processing.
-  - from: record fact
-    text: "It could move both quadrupedally and bipedally; habitual speed and herd structure are not directly known."
-  - from: age review note
-    text: "The profile is scoped to E. regalis, primarily about 73-69 Ma; E. annectens extends the genus into the latest Maastrichtian but is taxonomically distinct."
 ---
 
 ## Overview
+
+Edmontosaurus regalis was a large, broad-beaked saurolophine hadrosaurid from the Horseshoe Canyon and equivalent formations of Canada. Numerous skulls and skeletons across growth stages document its anatomy; later Maastrichtian E. annectens is a separate species and should not be blended into one undifferentiated profile.
 
 Edmontosaurus regalis and E. annectens were among the largest hadrosaurs, reaching 12–13 metres and up to 4 tonnes, from the latest Cretaceous of North America (~73–66 Ma). A remarkable "Edmontosaurus mummy" — with extensive skin and soft-tissue preservation including a fleshy crest on the head — provided unprecedented detail about hadrosaur integument and revealed a cock's-comb-like structure not visible in the skeleton alone.
 
@@ -123,9 +117,15 @@ Some historic specimens were assigned to other species or genera and still requi
 
 Hadrosaur skulls, dental batteries, skeletons and skin impressions document anatomy and growth in detail.
 
+- Multiple specimens preserve skin impressions, and one Edmontosaurus specimen preserves a fleshy head comb.
+- Dental batteries and wear surfaces document sophisticated plant processing.
+- It could move both quadrupedally and bipedally; habitual speed and herd structure are not directly known.
+
 ## Where it lived
 
 Late Cretaceous North American floodplains and coastal plains.
+
+The profile is scoped to E. regalis, primarily about 73-69 Ma; E. annectens extends the genus into the latest Maastrichtian but is taxonomically distinct.
 
 ## Classification
 

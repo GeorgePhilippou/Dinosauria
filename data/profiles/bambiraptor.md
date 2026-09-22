@@ -10,7 +10,8 @@ length_m: null
 mass_kg: null
 diet: Carnivore
 found_in: [USA]
-fossil_record: 2
+fossil_record: null
+specialist_review: pending
 fossil_record_note: "The holotype is anatomically informative but immature; adult size and taxonomic distinction from other small dromaeosaurids remain uncertain."
 classification: [Dinosauria, Saurischia, Theropoda, Coelurosauria, Maniraptora, Dromaeosauridae]
 summary: Bambiraptor feinbergi is the accepted original spelling for a small dromaeosaurid from the upper Two Medicine Formation of Montana. The holotype, AMNH FR 30556, is a largely complete, partially articulated juvenile skeleton. Duplicate elements belong to a separate paratype assemblage representing at least two larger individuals and do not make the holotype a mixed specimen.
@@ -41,15 +42,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Bambiraptor&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: "The species was originally named feinbergi; the later spelling feinbergorum is not a mandatory correction."
-  - from: record fact
-    text: The holotype and multi-individual paratype assemblage must be kept distinct.
-  - from: record fact
-    text: Adult size, proportions and ecology cannot be derived securely from the juvenile holotype.
-  - from: age review note
-    text: The holotype comes from the late Campanian upper Two Medicine Formation.
 ---
 
 ## Overview
@@ -68,6 +60,10 @@ The holotype of Bambiraptor was discovered by a young fossil hunter, Wes Linster
 
 A largely complete, partially articulated juvenile holotype (AMNH FR 30556), plus a separate paratype assemblage containing duplicate elements from at least two larger individuals.
 
+- The species was originally named feinbergi; the later spelling feinbergorum is not a mandatory correction.
+- The holotype and multi-individual paratype assemblage must be kept distinct.
+- Adult size, proportions and ecology cannot be derived securely from the juvenile holotype.
+
 ## Where it lived
 
 Bambiraptor's bird-like skeletal proportions, particularly its forelimb and brain anatomy, made it a focal point in discussions of the dinosaur-to-bird transition. However, its taxonomic validity remains disputed: the holotype may be a juvenile Saurornitholestes, and the possibility that elements from multiple individuals were combined in the specimen has been raised. These unresolved questions make Bambiraptor an important but cautionary case in palaeoecological interpretation.
@@ -75,6 +71,8 @@ Bambiraptor's bird-like skeletal proportions, particularly its forelimb and brai
 The Two Medicine Formation environment was a semi-arid floodplain ecosystem at the southern margin of the Western Interior Seaway. Bambiraptor shared this habitat with hadrosaurs and other small theropods. As a small, active predator, it likely hunted lizards, small mammals, and other vertebrates.
 
 Late Campanian-age formation that yielded the holotype specimen, a near-complete juvenile skeleton.
+
+The holotype comes from the late Campanian upper Two Medicine Formation.
 
 ## Open questions
 

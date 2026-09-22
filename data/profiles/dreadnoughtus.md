@@ -36,15 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/dreadnoughtus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The principal specimen is substantial but not the exceptionally high percentage once claimed when counted by every repeated tail bone.
-  - from: record fact
-    text: "The original mass estimate near 59 tonnes was challenged by volumetric and scaling studies; no single mass value is consensus."
-  - from: record fact
-    text: Bone histology indicates the main individual was still growing.
-  - from: age review note
-    text: The Cerro Fortaleza Formation is Late Cretaceous, but its numerical age is poorly constrained across a wide Campanian-Maastrichtian interval.
 ---
 
 ## Overview
@@ -67,9 +58,15 @@ Two partial skeletons, one substantial associated postcranium dominated by limbs
 
 Limb, vertebral and girdle bones provide unusually strong mass estimates for a giant titanosaur.
 
+- The principal specimen is substantial but not the exceptionally high percentage once claimed when counted by every repeated tail bone.
+- The original mass estimate near 59 tonnes was challenged by volumetric and scaling studies; no single mass value is consensus.
+- Bone histology indicates the main individual was still growing.
+
 ## Where it lived
 
 Late Cretaceous Patagonian terrestrial deposits.
+
+The Cerro Fortaleza Formation is Late Cretaceous, but its numerical age is poorly constrained across a wide Campanian-Maastrichtian interval.
 
 ## Open questions
 

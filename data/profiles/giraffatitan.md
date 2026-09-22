@@ -36,15 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/giraffatitan.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The genus was originally named Brachiosaurus brancai and is now widely separated from North American Brachiosaurus.
-  - from: record fact
-    text: Long forelimbs and elongate neck vertebrae support a high browsing envelope, though exact habitual neck angle is debated.
-  - from: record fact
-    text: No single complete skeleton is known.
-  - from: age review note
-    text: Material spans the Middle and Upper Dinosaur members of Tendaguru, broadly Kimmeridgian-Tithonian.
 ---
 
 ## Overview
@@ -65,11 +56,17 @@ Multiple partial skeletons and skulls, with famous composite museum mount.
 
 The Tendaguru material is the basis for most reconstructions; the elongated forelimbs and high-shouldered anatomy distinguish it from diplodocids.
 
+- The genus was originally named Brachiosaurus brancai and is now widely separated from North American Brachiosaurus.
+- Long forelimbs and elongate neck vertebrae support a high browsing envelope, though exact habitual neck angle is debated.
+- No single complete skeleton is known.
+
 ## Where it lived
 
 The Tendaguru fauna is remarkably similar to the Morrison Formation fauna of North America — a striking example of Jurassic cosmopolitanism. Giraffatitan coexisted with the stegosaur Kentrosaurus, smaller ornithopods, and theropods including Elaphrosaurus. The similarity between African and North American Jurassic faunas reflects the partial land connections between these continents before the Atlantic fully opened.
 
 Late Jurassic coastal plain and floodplain of East Africa.
+
+Material spans the Middle and Upper Dinosaur members of Tendaguru, broadly Kimmeridgian-Tithonian.
 
 ## Open questions
 

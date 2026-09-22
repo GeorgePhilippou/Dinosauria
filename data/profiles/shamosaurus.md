@@ -34,13 +34,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/shamosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: "The skull is strong evidence for diagnosis; most armour and tail anatomy are incomplete."
-  - from: record fact
-    text: Proposed synonymy with Gobisaurus has not achieved consensus.
-  - from: age review note
-    text: "The type is from Aptian-Albian Khukhtekskaya deposits; the broad formation age is retained."
 ---
 
 ## Overview
@@ -59,11 +52,16 @@ Shamosaurus scutatus was named by Tumanova in 1983 from fossils collected during
 
 Complete skull with partial postcranial bones and osteoderms.
 
+- The skull is strong evidence for diagnosis; most armour and tail anatomy are incomplete.
+- Proposed synonymy with Gobisaurus has not achieved consensus.
+
 ## Where it lived
 
 The Early Cretaceous Gobi Desert environments in which Shamosaurus lived were likely fluvial and lacustrine plains with seasonal aridity. It shared this landscape with early ceratopsians, small ornithopods, and various theropods, part of the rich early Cretaceous Asian dinosaur fauna.
 
 The holotype skull and associated bones were recovered from Early Cretaceous fluvial sediments in the Gobi Desert.
+
+The type is from Aptian-Albian Khukhtekskaya deposits; the broad formation age is retained.
 
 ## Classification
 

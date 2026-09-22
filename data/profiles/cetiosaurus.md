@@ -51,13 +51,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cetiosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: C. oxoniensis was conserved as the type species to stabilise the long-used genus name.
-  - from: record fact
-    text: Most historical Cetiosaurus species are not necessarily congeneric with C. oxoniensis.
-  - from: age review note
-    text: Secure C. oxoniensis material is Bathonian in the Great Oolite Group.
 ---
 
 ## Overview
@@ -76,11 +69,16 @@ Material now attributed to Cetiosaurus was first collected from Jurassic outcrop
 
 Several partial postcranial skeletons and very limited cranial material.
 
+- C. oxoniensis was conserved as the type species to stabilise the long-used genus name.
+- Most historical Cetiosaurus species are not necessarily congeneric with C. oxoniensis.
+
 ## Where it lived
 
 During the Middle Jurassic, England lay at a subtropical latitude and was covered by shallow tropical seas interspersed with low islands. Cetiosaurus lived on these landmasses, browsing on vegetation. Its solid vertebrae and large body mass suggest it was less agile than the hollow-boned sauropods of the Late Jurassic, but it was one of the dominant large herbivores of its time and region.
 
 Middle Jurassic limestone deposits yielding the most complete and well-documented Cetiosaurus material.
+
+Secure C. oxoniensis material is Bathonian in the Great Oolite Group.
 
 ## Classification
 

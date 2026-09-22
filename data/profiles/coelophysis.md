@@ -79,15 +79,11 @@ parked:
     text: "Long lower-leg and metatarsal proportions indicate a fast runner. Two body morphs (gracile and robust) were once attributed to sexual dimorphism; this remains uncertain. The three-fingered hand bore curved claws and the S-shaped neck allowed rapid strikes at small prey."
   - from: "article: Ecological context"
     text: "Coelophysis lived in a semi-arid, seasonally wet landscape alongside rhynchosaurs, aetosaurs and early crocodylomorphs. It was a generalist predator, and the Ghost Ranch bonebeds — possibly formed by drought-related aggregation around a shrinking waterhole — preserve the most complete Triassic ontogenetic series known for any dinosaur."
-  - from: record fact
-    text: The neotype AMNH 7224 stabilises C. bauri, and Rioarribasaurus colberti is an objective junior synonym.
-  - from: record fact
-    text: A famous cannibalism claim was overturned when the supposed juvenile remains inside one ribcage were identified as a crocodylomorph.
-  - from: age review note
-    text: Diagnostic C. bauri material is late Norian to Rhaetian in the Chinle Group, especially the Rock Point Formation.
 ---
 
 ## Overview
+
+Coelophysis bauri was a small early neotheropod from the Chinle Group of the south-western United States. The Ghost Ranch bonebeds contain hundreds of individuals and many articulated skeletons, making its anatomy and growth exceptionally well documented.
 
 Coelophysis was a slender Late Triassic theropod, about two metres long, that inhabited the flood-plains of what is now the American Southwest around 215 million years ago. Its hollow limb bones kept it lightweight and fast; its narrow jaws bore small serrated teeth suited to catching lizards and small vertebrates.
 
@@ -121,9 +117,14 @@ Nearly all of this material comes from one quarry, so the sample records one pop
 
 Large bonebeds preserve growth series and slender theropod anatomy.
 
+- The neotype AMNH 7224 stabilises C. bauri, and Rioarribasaurus colberti is an objective junior synonym.
+- A famous cannibalism claim was overturned when the supposed juvenile remains inside one ribcage were identified as a crocodylomorph.
+
 ## Where it lived
 
 Late Triassic floodplain settings near the early diversification of dinosaurs.
+
+Diagnostic C. bauri material is late Norian to Rhaetian in the Chinle Group, especially the Rock Point Formation.
 
 ## Classification
 

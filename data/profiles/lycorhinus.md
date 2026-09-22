@@ -42,15 +42,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Lycorhinus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: "The wiki Late Triassic age is incorrect; the upper Elliot Formation record is Early Jurassic."
-  - from: record fact
-    text: The type is a jaw, not a skeleton.
-  - from: record fact
-    text: Heterodont teeth support plant processing with possible opportunistic feeding, but omnivory is not directly demonstrated.
-  - from: age review note
-    text: Corrected from Late Triassic to Early Jurassic based on the upper Elliot Formation provenance.
 ---
 
 ## Overview
@@ -71,9 +62,15 @@ Lycorhinus angustidens was named in 1924 by Sidney H. Haughton based on a partia
 
 Type dentary impression plus disputed referred partial skull and jaws.
 
+- The wiki Late Triassic age is incorrect; the upper Elliot Formation record is Early Jurassic.
+- The type is a jaw, not a skeleton.
+- Heterodont teeth support plant processing with possible opportunistic feeding, but omnivory is not directly demonstrated.
+
 ## Where it lived
 
 The holotype jaw fragment of Lycorhinus angustidens was found in Early Jurassic redbeds; a partial skull from the same locality has since been referred to the genus.
+
+Corrected from Late Triassic to Early Jurassic based on the upper Elliot Formation provenance.
 
 ## Classification
 

@@ -39,13 +39,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/saurolophus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Mongolian S. angustirostris is represented by many individuals, including skin impressions.
-  - from: record fact
-    text: "The crest was bony; proposed inflatable soft-tissue sacs remain unconfirmed."
-  - from: age review note
-    text: "Species occur in the Horseshoe Canyon and Nemegt formations during the early Maastrichtian; species ranges should remain separate."
 ---
 
 ## Overview
@@ -68,9 +61,14 @@ Multiple skulls and skeletons across two species, including skin impressions.
 
 The solid bony crest and hadrosaur skeletal anatomy are documented; the cross-continental range is biogeographically significant.
 
+- Mongolian S. angustirostris is represented by many individuals, including skin impressions.
+- The crest was bony; proposed inflatable soft-tissue sacs remain unconfirmed.
+
 ## Where it lived
 
 Latest Cretaceous coastal plain and floodplain environments of both western North America and Mongolia.
+
+Species occur in the Horseshoe Canyon and Nemegt formations during the early Maastrichtian; species ranges should remain separate.
 
 ## Open questions
 

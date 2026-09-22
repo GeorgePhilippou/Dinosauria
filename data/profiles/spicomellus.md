@@ -39,17 +39,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/spicomellus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The 2021 holotype is a partial rib with dermal spikes fused directly to its surface.
-  - from: record fact
-    text: A more complete 2025 specimen preserves vertebrae, ribs, limb elements and diverse armour.
-  - from: record fact
-    text: Tail handle vertebrae show that a tail weapon evolved much earlier in ankylosaurs than previously documented.
-  - from: record fact
-    text: Display and defence are plausible functions of the armour, but behaviour is not directly preserved.
-  - from: age review note
-    text: "Both described specimens are from the Middle Jurassic El Mers Group of Morocco; the age is formation-level rather than a direct date on each bone."
 ---
 
 ## Overview
@@ -72,9 +61,16 @@ Spicomellus afer was named in a study published in 2021 in which Natural History
 
 Holotype rib with fused spikes; second specimen with substantial axial, appendicular and armour material.
 
+- The 2021 holotype is a partial rib with dermal spikes fused directly to its surface.
+- A more complete 2025 specimen preserves vertebrae, ribs, limb elements and diverse armour.
+- Tail handle vertebrae show that a tail weapon evolved much earlier in ankylosaurs than previously documented.
+- Display and defence are plausible functions of the armour, but behaviour is not directly preserved.
+
 ## Where it lived
 
 The holotype partial skeleton of Spicomellus was recovered from these Middle Jurassic deposits in the Moroccan Middle Atlas, an environment that was then a wetland plain.
+
+Both described specimens are from the Middle Jurassic El Mers Group of Morocco; the age is formation-level rather than a direct date on each bone.
 
 ## Open questions
 

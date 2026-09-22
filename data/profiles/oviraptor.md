@@ -70,17 +70,11 @@ parked:
     text: "Oviraptor bore a prominent crest on the skull formed by the nasal and frontal bones. The crest varies in development between specimens, which may reflect age, sex or individual variation. Cassowary-like keratinous sheaths probably enlarged the bony core in life. The function is unknown; display and species recognition are the most commonly cited hypotheses."
   - from: "article: Parental care"
     text: "Multiple specimens of oviraptorosaurs (Citipati, Nemegtomaia and others closely related to Oviraptor) have been found in brooding posture — forelimbs spread over the egg ring, hindlimbs tucked under the body, head raised. The egg arrangement (pairs in a ring) is consistent with two functional oviducts, suggesting each female could lay two eggs at a time. This is among the strongest evidence for active parental care in non-avian dinosaurs."
-  - from: record fact
-    text: The eggs near the type are oviraptorosaur eggs, overturning the original idea that it was stealing Protoceratops eggs.
-  - from: record fact
-    text: The holotype is less complete and has a lower crest than the animal often illustrated as Oviraptor.
-  - from: record fact
-    text: Brooding is strongly evidenced across oviraptorids, but exact diet remains unresolved.
-  - from: age review note
-    text: The Djadokhta type horizon is Campanian, approximately 75-71 Ma.
 ---
 
 ## Overview
+
+Oviraptor philoceratops was an oviraptorid from the Djadokhta Formation of Mongolia, known from one incomplete skeleton with a crushed skull found beside a nest. Many complete museum reconstructions actually represent Citipati.
 
 Oviraptor philoceratops carries one of the most unfortunate names in palaeontology — "egg thief that loves ceratopsian eggs" — based on a misidentification. The original specimen was found next to a nest of eggs in Mongolia in 1923, assumed to be stealing from a Protoceratops nest. Decades later, embryos inside identical eggs were identified as Oviraptor itself — the animal was brooding its own clutch, not stealing Protoceratops eggs.
 
@@ -114,9 +108,15 @@ Because only one specimen is securely assigned, growth, variation and the true c
 
 Later discoveries showed oviraptorosaurs brooded eggs, changing the old “egg thief” interpretation.
 
+- The eggs near the type are oviraptorosaur eggs, overturning the original idea that it was stealing Protoceratops eggs.
+- The holotype is less complete and has a lower crest than the animal often illustrated as Oviraptor.
+- Brooding is strongly evidenced across oviraptorids, but exact diet remains unresolved.
+
 ## Where it lived
 
 Late Cretaceous arid to semi-arid Gobi Desert dune and interdune deposits.
+
+The Djadokhta type horizon is Campanian, approximately 75-71 Ma.
 
 ## Classification
 

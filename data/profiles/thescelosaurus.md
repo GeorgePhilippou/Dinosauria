@@ -43,13 +43,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/thescelosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The alleged fossilised four-chambered heart in one specimen is now generally regarded as an iron-rich concretion.
-  - from: record fact
-    text: Jaw and tooth anatomy support plant feeding, but occasional omnivory cannot be excluded.
-  - from: age review note
-    text: "Secure records are Hell Creek, Lance and equivalent latest Maastrichtian formations; 76 Ma is too old."
 ---
 
 ## Overview
@@ -70,9 +63,14 @@ Thescelosaurus neglectus was described by Charles W. Gilmore in 1913, based on a
 
 Several partial to near-complete skeletons, including skulls, across multiple species.
 
+- The alleged fossilised four-chambered heart in one specimen is now generally regarded as an iron-rich concretion.
+- Jaw and tooth anatomy support plant feeding, but occasional omnivory cannot be excluded.
+
 ## Where it lived
 
 The richest source of Thescelosaurus material, including the 'Willo' specimen.
+
+Secure records are Hell Creek, Lance and equivalent latest Maastrichtian formations; 76 Ma is too old.
 
 ## Classification
 

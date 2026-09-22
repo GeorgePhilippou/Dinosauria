@@ -37,13 +37,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38769"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Modern revision identified a hollow-crested lambeosaurine affinity from the preserved skull anatomy.
-  - from: record fact
-    text: A complete crest, skeleton and precise body dimensions are not known.
-  - from: age review note
-    text: The Bostobe Formation is generally Santonian to early Campanian, but the type horizon is not narrowly dated.
 ---
 
 ## Overview
@@ -64,11 +57,16 @@ Aralosaurus tuberiferus was described by Anatoly Konstantinovich Rozhdestvensky 
 
 One fragmentary skull with jaws and limited referred cranial material.
 
+- Modern revision identified a hollow-crested lambeosaurine affinity from the preserved skull anatomy.
+- A complete crest, skeleton and precise body dimensions are not known.
+
 ## Where it lived
 
 The Bostobe Formation in Kazakhstan represents coastal to floodplain environments bordering the Tethys Sea during the Santonian–Campanian transition. Central Asia during this interval was a mosaic of lowland plains, river deltas, and shallow coastal settings. The region's dinosaur fauna, though incompletely known, includes hadrosaurids, ceratopsians, and theropods, suggesting ecological connections with both Asian and European dinosaur communities.
 
 The only known Aralosaurus specimen was recovered from this formation northeast of the Aral Sea, making it the type and sole locality for the genus.
+
+The Bostobe Formation is generally Santonian to early Campanian, but the type horizon is not narrowly dated.
 
 ## Open questions
 

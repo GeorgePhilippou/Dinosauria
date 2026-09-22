@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Carnivore
 found_in: [USA]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: Whole-body size and detailed skull form are composites.
 classification: [Dinosauria, Saurischia, Theropoda, Tetanurae]
 summary: Marshosaurus bicentesimus was a medium-sized theropod from the Morrison Formation, founded on a partial left ilium. Referred cranial and postcranial bones are fragmentary and not all are securely associated.
@@ -36,15 +37,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/marshosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type is far less complete than many popular reconstructions imply.
-  - from: record fact
-    text: It is a tetanuran, but placement as a megalosauroid, piatnitzkysaurid or other basal branch varies.
-  - from: record fact
-    text: "Carnivory and bipedality are secure at broad theropod level; precise size is uncertain."
-  - from: age review note
-    text: "The Morrison occurrences are Late Jurassic; the 154-142 Ma range extends too young into the Cretaceous."
 ---
 
 ## Overview
@@ -63,11 +55,17 @@ Marshosaurus bicentesimus was described by James Madsen Jr. in 1976, based on ma
 
 Holotype partial ilium plus fragmentary referred skull, vertebral and limb material.
 
+- The type is far less complete than many popular reconstructions imply.
+- It is a tetanuran, but placement as a megalosauroid, piatnitzkysaurid or other basal branch varies.
+- Carnivory and bipedality are secure at broad theropod level; precise size is uncertain.
+
 ## Where it lived
 
 Marshosaurus inhabited the Late Jurassic Morrison Formation, one of the richest dinosaur-bearing deposits in the world. The ecosystem included apex predators such as Allosaurus and Torvosaurus, as well as other medium-sized theropods. Marshosaurus likely occupied a mesopredator niche, possibly targeting smaller prey or juveniles of large dinosaurs, though its diet cannot be directly inferred from available material.
 
 The Cleveland-Lloyd Dinosaur Quarry is one of the most productive Jurassic dinosaur sites in the world; Marshosaurus material was recovered from its dense bone accumulation.
+
+The Morrison occurrences are Late Jurassic; the 154-142 Ma range extends too young into the Cretaceous.
 
 ## Classification
 

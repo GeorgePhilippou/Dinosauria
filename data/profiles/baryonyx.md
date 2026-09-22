@@ -83,15 +83,11 @@ parked:
     text: The stomach region preserved fish scales of Lepidotes and bones attributed to a juvenile Iguanodon. The narrow snout and conical interlocking teeth are convergent with the skulls of fish-eating crocodilians. The huge thumb claw may have been used to hook fish from water, analogous to grizzly bears.
   - from: "article: Significance"
     text: "Baryonyx was the first spinosaurid found with stomach contents, providing the first direct dietary evidence for the group. It confirmed that spinosaurids were fish specialists and opportunistic meat-eaters — a feeding ecology subsequently supported by isotope analysis of spinosaurid teeth from multiple species."
-  - from: record fact
-    text: The holotype includes much of the skull, vertebral column and limbs, including the enlarged first manual claw.
-  - from: record fact
-    text: Fish scales and partly digested iguanodontian bones show a broad carnivorous diet, not exclusive fish-eating.
-  - from: age review note
-    text: The type locality is Barremian in the Weald Clay Formation.
 ---
 
 ## Overview
+
+Baryonyx walkeri was a baryonychine spinosaurid from the Barremian Weald Clay Formation of England. The holotype is a substantial partial skull and skeleton, and associated gut-region remains provide rare direct evidence of both fish and ornithopod consumption.
 
 Baryonyx walkeri was discovered in 1983 by amateur fossil hunter William Walker in a clay pit in Surrey, England — one of the most significant British dinosaur finds of the 20th century. Its preserved stomach contents included both fish scales and the bones of a juvenile Iguanodon, proving it had a dual diet as a fish specialist and an opportunistic predator of terrestrial prey.
 
@@ -125,9 +121,14 @@ The skeleton was partly weathered and disturbed before collection, and much of t
 
 Conical teeth, long jaws, large thumb claw and stomach contents support fish-eating and opportunistic predation.
 
+- The holotype includes much of the skull, vertebral column and limbs, including the enlarged first manual claw.
+- Fish scales and partly digested iguanodontian bones show a broad carnivorous diet, not exclusive fish-eating.
+
 ## Where it lived
 
 Early Cretaceous wetland and river-influenced environments in southern England.
+
+The type locality is Barremian in the Weald Clay Formation.
 
 ## Classification
 

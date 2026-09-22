@@ -36,13 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/segisaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Redescription corrected several errors in the original mount and confirmed hollow bones.
-  - from: record fact
-    text: "Diet is inferred as carnivorous from coelophysoid affinity; no teeth or gut contents are preserved."
-  - from: age review note
-    text: The Kayenta Formation makes the old Mid Jurassic label incorrect.
 ---
 
 ## Overview
@@ -63,11 +56,16 @@ The holotype of Segisaurus halli was collected in 1933 from Tsegi Canyon (Segi C
 
 Single incomplete postcranial skeleton; skull absent.
 
+- Redescription corrected several errors in the original mount and confirmed hollow bones.
+- Diet is inferred as carnivorous from coelophysoid affinity; no teeth or gut contents are preserved.
+
 ## Where it lived
 
 The Navajo Formation was deposited in a vast erg (sand-sea) environment during the Early to Middle Jurassic. Segisaurus was among the earliest vertebrates known from this hostile setting, sharing its habitat with early crocodylomorphs and lizard-like archosaurs preserved in adjacent oasis deposits.
 
 The holotype partial skeleton was recovered from early Jurassic aeolian sandstones of the Navajo Formation in Tsegi Canyon.
+
+The Kayenta Formation makes the old Mid Jurassic label incorrect.
 
 ## Open questions
 

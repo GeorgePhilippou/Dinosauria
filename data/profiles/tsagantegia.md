@@ -38,13 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/tsagantegia.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The skull is distinctive but no associated body skeleton is known.
-  - from: record fact
-    text: Armour, tail club, size and locomotor details are inferred from relatives.
-  - from: age review note
-    text: Bayan Shireh dating gives a broad Cenomanian-Santonian range.
 ---
 
 ## Overview
@@ -63,11 +56,16 @@ Tsagantegia was named by Tatyana Tumanova in 1993 from a skull recovered at Tsag
 
 Single complete skull without associated postcranium.
 
+- The skull is distinctive but no associated body skeleton is known.
+- Armour, tail club, size and locomotor details are inferred from relatives.
+
 ## Where it lived
 
 Tsagantegia would have inhabited the semi-arid to seasonally wet palaeoenvironments of the Bayan Shireh Formation, alongside other herbivores and the large predatory theropods of the Gobi Desert in the Cenomanian–Santonian interval. Without postcranial material, its exact size is uncertain, but ankylosaurid body plans typically involved heavy armoured torsos and a functional tail club for defence.
 
 The type locality where the skull of Tsagantegia longicranialis was discovered in the Gobi Desert.
+
+Bayan Shireh dating gives a broad Cenomanian-Santonian range.
 
 ## Classification
 

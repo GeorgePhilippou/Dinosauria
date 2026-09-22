@@ -70,15 +70,11 @@ parked:
     text: "The osteoderms of Scelidosaurus are varied: keeled scutes, oval knobs and smaller granular elements. The arrangement and diversity of these armour elements is reminiscent of ankylosaur armour, leading most phylogenetic analyses to place Scelidosaurus as a basal thyreophoran ancestral to or sister to Ankylosauria. A minority view places it outside Thyreophora entirely."
   - from: "article: Early Jurassic context"
     text: The Early Jurassic was a time of rapid dinosaurian diversification following the end-Triassic mass extinction. Scelidosaurus represents the early evolution of armoured herbivores in a lineage that would eventually produce the massively armoured ankylosaurs and the plated stegosaurs. Its modest size (4 m) and basic armour contrast with the elaborate defences of its much later relatives.
-  - from: record fact
-    text: Modern redescription places it near the base of Thyreophora rather than securely inside Ankylosauria.
-  - from: record fact
-    text: Its osteoderms and spikes are directly preserved, although colour and keratin coverings are unknown.
-  - from: age review note
-    text: Ammonite zonation places the Dorset material in the upper Sinemurian, approximately 195-193 Ma on the current time scale.
 ---
 
 ## Overview
+
+Scelidosaurus harrisonii was an early armoured ornithischian from the Charmouth Mudstone Formation of Dorset, known from several skeletons including a nearly complete skull and postcranium.
 
 Scelidosaurus harrisonii is one of the earliest armoured dinosaurs — an Early Jurassic ornithischian from the Charmouth Mudstone Formation of Dorset, England (~193 Ma). At about four metres, it bore rows of bony scutes (osteoderms) embedded in the skin along its back — the most complete armoured dinosaur from the Early Jurassic. Its exact position as either an early thyreophoran (Stegosauria/Ankylosauria ancestor) or a basal ornithischian outside Thyreophora is debated.
 
@@ -112,9 +108,14 @@ All material comes from one formation on one stretch of coast, so geographic ran
 
 Rows of scutes along the back and primitive thyreophoran skeletal features document its position near the base of the armoured dinosaur radiation.
 
+- Modern redescription places it near the base of Thyreophora rather than securely inside Ankylosauria.
+- Its osteoderms and spikes are directly preserved, although colour and keratin coverings are unknown.
+
 ## Where it lived
 
 Early Jurassic nearshore marine environment — the Dorset specimens were apparently washed out to sea after death.
+
+Ammonite zonation places the Dorset material in the upper Sinemurian, approximately 195-193 Ma on the current time scale.
 
 ## Classification
 

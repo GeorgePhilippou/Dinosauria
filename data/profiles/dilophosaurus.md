@@ -66,15 +66,11 @@ parked:
     text: The twin crests run from the snout to above the orbits, formed by the nasal bones. Their paper-thin construction rules out a weapon function. Analogous thin cranial crests in other theropods (Oviraptor, Guanlong) and in cassowaries are consistently associated with display and species recognition.
   - from: "article: Ecology"
     text: Dilophosaurus represents a transitional grade between small coelophysoids and the larger tetanurans that dominated the Jurassic. In the Kayenta Formation it coexisted with the prosauropod Massospondylus and early crocodylomorphs in a seasonally arid environment, probably pursuing medium-sized prey.
-  - from: record fact
-    text: There is no fossil evidence for venom glands or an expandable neck frill.
-  - from: record fact
-    text: The paired crests were thin and probably visual structures, though their exact function is unknown.
-  - from: age review note
-    text: U-Pb dating places the fossil-bearing Kayenta interval near 193 Ma in the Sinemurian.
 ---
 
 ## Overview
+
+Dilophosaurus wetherilli was a large early theropod from the Kayenta Formation of Arizona. Several partial skeletons, including substantial skull material, document paired cranial crests and a powerful bipedal predator very unlike its fictionalised venom-spitting portrayal.
 
 Dilophosaurus was a large Early Jurassic theropod from Arizona, about six metres long, bearing two thin parallel bony crests along the skull roof. These were display structures — far too fragile for combat — and Dilophosaurus was one of the largest terrestrial predators of its time at ~193 million years ago.
 
@@ -108,9 +104,14 @@ Different specimens are complete in different regions, so the composite skeleton
 
 Paired skull crests and theropod skeletal anatomy distinguish it from later movie-inspired reconstructions.
 
+- There is no fossil evidence for venom glands or an expandable neck frill.
+- The paired crests were thin and probably visual structures, though their exact function is unknown.
+
 ## Where it lived
 
 Early Jurassic fluvial and floodplain environments in western North America.
+
+U-Pb dating places the fossil-bearing Kayenta interval near 193 Ma in the Sinemurian.
 
 ## Classification
 

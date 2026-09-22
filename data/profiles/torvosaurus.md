@@ -41,13 +41,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/torvosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: No complete Torvosaurus skeleton exists.
-  - from: record fact
-    text: Species estimates and anatomy must not combine the North American and Portuguese samples without qualification.
-  - from: age review note
-    text: "Secure material from the accepted species is Kimmeridgian-Tithonian, approximately 155-148 Ma; a 165 Ma lower bound is too old."
 ---
 
 ## Overview
@@ -70,9 +63,14 @@ Torvosaurus tanneri was described in 1979 by Peter Galton and James Jensen from 
 
 Multiple fragmentary skull and postcranial specimens divided between two species.
 
+- No complete Torvosaurus skeleton exists.
+- Species estimates and anatomy must not combine the North American and Portuguese samples without qualification.
+
 ## Where it lived
 
 The type locality of Torvosaurus tanneri; bones were discovered here in the late 1970s.
+
+Secure material from the accepted species is Kimmeridgian-Tithonian, approximately 155-148 Ma; a 165 Ma lower bound is too old.
 
 ## Open questions
 

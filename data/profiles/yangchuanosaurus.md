@@ -34,13 +34,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/yangchuanosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The type species is well represented but the catalogue 11 m and 3.4-tonne figures reflect the largest referred material, not every species.
-  - from: record fact
-    text: Size fields are cleared pending species-specific treatment.
-  - from: age review note
-    text: "The Upper Shaximiao occurrences are Oxfordian; the range should not extend through all 163-154 Ma."
 ---
 
 ## Overview
@@ -57,11 +50,16 @@ Substantial skulls and partial skeletons from more than one named species.
 
 Large theropod skull, serrated teeth and allosauroid proportions confirm its identity as the apex predator of the Chinese Late Jurassic.
 
+- The type species is well represented but the catalogue 11 m and 3.4-tonne figures reflect the largest referred material, not every species.
+- Size fields are cleared pending species-specific treatment.
+
 ## Where it lived
 
 The Shangshaximiao Formation preserves one of the richest Jurassic dinosaur faunas globally: sauropods (Mamenchisaurus, Omeisaurus), stegosaurs (Tuojiangosaurus, Chialingosaurus), small ornithopods and large theropods. This Chinese fauna is broadly contemporaneous with the Morrison Formation, providing opportunities to compare Laurasian and Asian dinosaur communities during a period of possible intercontinental connection.
 
 Late Jurassic terrestrial ecosystem of Sichuan Basin alongside giant sauropods, stegosaurs and ornithopods.
+
+The Upper Shaximiao occurrences are Oxfordian; the range should not extend through all 163-154 Ma.
 
 ## Classification
 

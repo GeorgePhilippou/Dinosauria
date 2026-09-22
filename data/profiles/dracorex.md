@@ -42,15 +42,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dracorex&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype is not a complete skeleton.
-  - from: record fact
-    text: Its open sutures, thin skull roof and ornament pattern are juvenile features.
-  - from: record fact
-    text: A separate adult Dracorex morph has not been demonstrated.
-  - from: age review note
-    text: Restricted to the late Maastrichtian Hell Creek record of the holotype.
 ---
 
 ## Overview
@@ -73,9 +64,15 @@ Dracorex hogwartsia was formally described in 2006 by Robert Bakker and colleagu
 
 One partial juvenile skull with a few vertebrae.
 
+- The holotype is not a complete skeleton.
+- Its open sutures, thin skull roof and ornament pattern are juvenile features.
+- A separate adult Dracorex morph has not been demonstrated.
+
 ## Where it lived
 
 Yielded the holotype skull, which was donated to the Children's Museum of Indianapolis and described in 2006.
+
+Restricted to the late Maastrichtian Hell Creek record of the holotype.
 
 ## Open questions
 

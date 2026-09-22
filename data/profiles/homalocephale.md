@@ -35,15 +35,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/homalocephale.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The individual was not fully mature, complicating diagnosis from skull shape.
-  - from: record fact
-    text: The famous broad pelvis does not demonstrate live birth or any particular reproductive posture.
-  - from: record fact
-    text: Herbivory or omnivory remains a broad inference rather than direct dietary proof.
-  - from: age review note
-    text: "The Nemegt Formation spans the latest Campanian or early Maastrichtian into the late Maastrichtian; precise correlation remains debated."
 ---
 
 ## Overview
@@ -64,11 +55,17 @@ Homalocephale calathocercos was named in 1974 by Teresa Maryańska and Halszka O
 
 One incomplete, probably immature skeleton with partial skull.
 
+- The individual was not fully mature, complicating diagnosis from skull shape.
+- The famous broad pelvis does not demonstrate live birth or any particular reproductive posture.
+- Herbivory or omnivory remains a broad inference rather than direct dietary proof.
+
 ## Where it lived
 
 The Nemegt Formation preserves a lush, river-dominated Late Cretaceous landscape, quite different from the desert environments of the overlying Djadokhta Formation. Homalocephale coexisted with the giant hadrosaur Saurolophus, ankylosaurs, the theropod Tarbosaurus, and other diverse fauna in this productive floodplain ecosystem.
 
 The rich Maastrichtian Nemegt Formation has yielded both skull and postcranial material of Homalocephale, alongside diverse Late Cretaceous fauna.
+
+The Nemegt Formation spans the latest Campanian or early Maastrichtian into the late Maastrichtian; precise correlation remains debated.
 
 ## Open questions
 

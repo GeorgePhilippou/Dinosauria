@@ -82,15 +82,11 @@ parked:
     text: Albertosaurus had a relatively gracile build compared to Tyrannosaurus, with proportionally longer legs adapted for sustained pursuit. The skull deepened significantly with age, and the adult dentition was well suited to bone crushing. Like all tyrannosaurids, it had vestigial two-fingered forelimbs.
   - from: "article: Ecological role"
     text: "In the Horseshoe Canyon ecosystem Albertosaurus was the sole large tyrannosaur, preying on hadrosaurs (Edmontosaurus, Hypacrosaurus) and smaller ornithischians. The bimodal bonebed age distribution — adults rare, juveniles common — matches predictions from models of gregarious pack-hunting where younger animals performed the pursuit while large adults delivered the killing bite."
-  - from: record fact
-    text: The Dry Island bonebed preserves many individuals but does not by itself prove coordinated pack hunting.
-  - from: record fact
-    text: "Its lighter build and long hind limbs relative to Tyrannosaurus are anatomically supported; precise speed is not."
-  - from: age review note
-    text: Well-supported A. sarcophagus occurrences are early Maastrichtian in the lower Horseshoe Canyon Formation.
 ---
 
 ## Overview
+
+Albertosaurus sarcophagus was an albertosaurine tyrannosaurid from the lower Horseshoe Canyon Formation of Alberta. Numerous skulls and skeletons spanning growth stages, including a multi-individual bonebed, make it one of the better represented large theropods.
 
 Albertosaurus sarcophagus was a large albertosaurine tyrannosaur from the latest Campanian of Alberta (~70 Ma), slightly younger than Gorgosaurus and preceding the arrival of Tyrannosaurus. A single remarkable bonebed in the Horseshoe Canyon Formation preserves at least 26 Albertosaurus individuals of varying ages — the strongest direct fossil evidence for gregarious behaviour in any tyrannosaur.
 
@@ -124,9 +120,14 @@ Some historical specimens were once referred to other tyrannosaurids, and the ty
 
 The Dry Island bonebed provides the best evidence for social or group behaviour in any large theropod.
 
+- The Dry Island bonebed preserves many individuals but does not by itself prove coordinated pack hunting.
+- Its lighter build and long hind limbs relative to Tyrannosaurus are anatomically supported; precise speed is not.
+
 ## Where it lived
 
 Late Cretaceous coastal plain environments of western Canada.
+
+Well-supported A. sarcophagus occurrences are early Maastrichtian in the lower Horseshoe Canyon Formation.
 
 ## Classification
 

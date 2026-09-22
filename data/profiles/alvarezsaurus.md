@@ -33,13 +33,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=64774"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype includes vertebrae, pelvis and hind-limb material but no diagnostic complete skull or forelimb.
-  - from: record fact
-    text: Its bipedal stance is secure, whereas diet and specialised digging behaviour are inferred from the wider clade.
-  - from: age review note
-    text: The Bajo de la Carpa Formation is usually regarded as Santonian.
 ---
 
 ## Overview
@@ -60,11 +53,16 @@ Alvarezsaurus calvoi was described by José Bonaparte in 1991 from partial postc
 
 One incomplete postcranial skeleton.
 
+- The holotype includes vertebrae, pelvis and hind-limb material but no diagnostic complete skull or forelimb.
+- Its bipedal stance is secure, whereas diet and specialised digging behaviour are inferred from the wider clade.
+
 ## Where it lived
 
 The Bajo de la Carpa Formation represents a semi-arid, seasonally dry environment of Late Cretaceous Patagonia. Alvarezsaurus shared this landscape with abelisaurid theropods, titanosaurian sauropods, and various other vertebrates. The Neuquén Basin has proven extraordinarily rich for Late Cretaceous dinosaurs, yielding many important taxa from across the dinosaur family tree.
 
 Partial skeletal remains of the only known Alvarezsaurus individual were recovered here, establishing the type locality of the genus.
+
+The Bajo de la Carpa Formation is usually regarded as Santonian.
 
 ## Open questions
 

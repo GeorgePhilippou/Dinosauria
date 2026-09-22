@@ -77,19 +77,11 @@ parked:
     text: Troodontid nests are known from the Two Medicine Formation, where eggs were laid in pairs (consistent with two functional oviducts) in large clutches arranged in a ring. Adult specimens found in brooding posture over nests suggest parental care, one of the most direct lines of evidence for this behaviour in non-avian dinosaurs.
   - from: "article: Taxonomy"
     text: "The Troodon name has been applied to a great range of material from multiple formations. Recent taxonomic work restricts Troodon formosus to tooth material from the Judith River Formation, while skeletal material from other sites may represent distinct species or genera. This instability makes \"Troodon\" a moving target in North American Late Cretaceous ecology."
-  - from: record fact
-    text: The holotype ANSP 9259 is one isolated tooth with incomplete locality information.
-  - from: record fact
-    text: The familiar full-body reconstruction was assembled from referred troodontid skeletons, not from the holotype.
-  - from: record fact
-    text: The 2017 revisions treated Troodon as a doubtful name and restored Stenonychosaurus for Dinosaur Park material.
-  - from: record fact
-    text: The 2025 paper argued for priority and stability under Troodon and proposed MOR 553 as a neotype, but explicitly noted that only the ICZN can replace an existing holotype in this way.
-  - from: age review note
-    text: A single genus-wide 77-66 Ma range is not defensible while the name-bearing tooth and referred skeletons remain taxonomically disputed. The current 2025 species concept focuses on Campanian Montana and Alberta material.
 ---
 
 ## Overview
+
+Troodon formosus was named from a single tooth collected in Montana. From 2017 the tooth was widely treated as insufficient to anchor the many skeletons historically assigned to Troodon, and those fossils were reassigned to Stenonychosaurus and other taxa. A 2025 study defended Troodon as valid, synonymised Stenonychosaurus with it and proposed a Two Medicine Formation skeleton as a neotype. That neotype requires ICZN action, so the issue is not presented as settled.
 
 Troodon formosus was a small Late Cretaceous coelurosaur from North America with unusually large brain-to-body ratio, large forward-facing eyes suggesting binocular vision, and sickle-shaped second toe claws. These features led Dale Russell's famous 1982 thought experiment imagining a "dinosauroid" — what Troodon might have evolved into had it survived — a humanoid figure with a large brain and bipedal stance.
 
@@ -123,9 +115,16 @@ Everything beyond the tooth depends on a taxonomic argument. The panel treats th
 
 Dental and partial skeletal evidence once grouped under Troodon has been split or reinterpreted in recent research.
 
+- The holotype ANSP 9259 is one isolated tooth with incomplete locality information.
+- The familiar full-body reconstruction was assembled from referred troodontid skeletons, not from the holotype.
+- The 2017 revisions treated Troodon as a doubtful name and restored Stenonychosaurus for Dinosaur Park material.
+- The 2025 paper argued for priority and stability under Troodon and proposed MOR 553 as a neotype, but explicitly noted that only the ICZN can replace an existing holotype in this way.
+
 ## Where it lived
 
 Late Cretaceous North American records, but the genus is now treated cautiously.
+
+A single genus-wide 77-66 Ma range is not defensible while the name-bearing tooth and referred skeletons remain taxonomically disputed. The current 2025 species concept focuses on Campanian Montana and Alberta material.
 
 ## Classification
 

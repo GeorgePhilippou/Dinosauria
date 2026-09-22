@@ -48,15 +48,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dromaeosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The skull is incomplete and most of the postcranium is unknown.
-  - from: record fact
-    text: Its robust jaws and teeth support carnivory, but prey choice and hunting behaviour are not directly known.
-  - from: record fact
-    text: Common full-body reconstructions depend heavily on related dromaeosaurids.
-  - from: age review note
-    text: Restricted to the late Campanian Dinosaur Park Formation rather than a broad Late Cretaceous interval.
 ---
 
 ## Overview
@@ -79,9 +70,15 @@ Dromaeosaurus albertensis was described by William Diller Matthew and Barnum Bro
 
 Partial skull and mandible with isolated referred teeth and fragmentary bones.
 
+- The skull is incomplete and most of the postcranium is unknown.
+- Its robust jaws and teeth support carnivory, but prey choice and hunting behaviour are not directly known.
+- Common full-body reconstructions depend heavily on related dromaeosaurids.
+
 ## Where it lived
 
 Principal locality; the Horseshoe Canyon and Oldman equivalents have produced most known material.
+
+Restricted to the late Campanian Dinosaur Park Formation rather than a broad Late Cretaceous interval.
 
 ## Open questions
 

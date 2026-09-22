@@ -72,15 +72,11 @@ parked:
     text: "The manual claws of Therizinosaurus are the largest known of any non-avian dinosaur: the outer curve of the first digit claw is estimated at ~80–92 cm in larger specimens. Their function is debated: pulling down branches for feeding (like a giant ground sloth), defence against predators, or display are the main hypotheses. All three are compatible with the herbivorous lifestyle established for therizinosaurs generally."
   - from: "article: Herbivory in a theropod lineage"
     text: "Therizinosaurs acquired herbivory from a carnivorous ancestor — a profound ecological shift within Theropoda. The transition involved: broadening of the pelvis (to accommodate a larger gut), leaf-shaped teeth for processing vegetation (from the sharp blade-teeth of ancestors), shortening of the skull, lengthening of the neck, and development of a large digestive tract. Beipiaosaurus and Alxasaurus preserve feathers, confirming that therizinosaurs were feathered theropods."
-  - from: record fact
-    text: No complete skull or skeleton is known.
-  - from: record fact
-    text: "Herbivory is inferred from close relatives; the five-tonne catalogue mass is too precise for the fragmentary material and is removed."
-  - from: age review note
-    text: All secure material is Maastrichtian Nemegt Formation.
 ---
 
 ## Overview
+
+Therizinosaurus cheloniformis was a giant therizinosaurid from the Nemegt Formation, known mainly from enormous forelimbs and claws plus limited hindlimb material.
 
 Therizinosaurus cheloniformis is known primarily from enormous claws — the longest manual claws of any known animal, reaching nearly 1 metre along their outer curve. Found in the Late Cretaceous Nemegt Formation of Mongolia (~70 Ma), the animal was initially described as a giant turtle-like creature before additional material from relatives (therizinosaurs from China) revealed its true nature as a large, bizarre herbivorous theropod.
 
@@ -114,9 +110,14 @@ Because the material comes from separate finds with no overlapping skeleton, the
 
 Giant claws and related therizinosaur skeletons support its unusual herbivorous/omnivorous theropod body plan.
 
+- No complete skull or skeleton is known.
+- Herbivory is inferred from close relatives; the five-tonne catalogue mass is too precise for the fragmentary material and is removed.
+
 ## Where it lived
 
 Late Cretaceous Mongolian floodplain ecosystems.
+
+All secure material is Maastrichtian Nemegt Formation.
 
 ## Classification
 

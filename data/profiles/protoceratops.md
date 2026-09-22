@@ -75,17 +75,11 @@ parked:
     text: "Protoceratops shows two skull morphs in adult specimens: one with a taller, more elaborate frill and more robust nasal region; another with a shallower frill. These are tentatively interpreted as male and female, with the larger-frilled morph being male. The frill grew substantially through ontogeny, suggesting it was a socially significant display structure rather than a purely defensive shield."
   - from: "article: Fighting Dinosaurs"
     text: "The ZPAL MgD-I/95 specimen — preserved in Mongolia since 1971 by Soviet-Mongolian expeditions — shows Velociraptor's hand claw embedded in Protoceratops's neck region while Protoceratops grips Velociraptor's right arm with its beak. Rapid burial by a collapsing sand dune is the most widely accepted explanation for simultaneous preservation of both animals in combat posture. It is one of the most spectacular behavioural snapshots in the entire fossil record."
-  - from: record fact
-    text: The famous fighting specimen preserves direct interaction with Velociraptor.
-  - from: record fact
-    text: "Eggs historically assigned to Protoceratops were oviraptorosaur eggs; some genuine protoceratopsian nesting evidence is now known separately."
-  - from: record fact
-    text: Large samples document growth, but strong sexual dimorphism in frill shape has not been demonstrated securely.
-  - from: age review note
-    text: "The core P. andrewsi record is Campanian Djadokhta Formation; P. hellenikorhinus is a separate species from Bayan Mandahu."
 ---
 
 ## Overview
+
+Protoceratops andrewsi was a sheep-sized neoceratopsian from the Djadokhta Formation of Mongolia, known from abundant skulls and skeletons across growth stages.
 
 Protoceratops andrewsi was a small sheep-sized ceratopsian (~1.8 m) from the Campanian of Mongolia (~75 Ma), known from hundreds of specimens including eggs, embryos and every growth stage — the most complete growth series of any non-avian dinosaur outside Psittacosaurus. Roy Chapman Andrews' 1923 American Museum expeditions found the first dinosaur eggs ever confirmed as such alongside Protoceratops nests.
 
@@ -119,9 +113,15 @@ The abundance supports detailed anatomy and growth work; it does not by itself s
 
 Growth series, skulls and the Fighting Dinosaurs fossil document ceratopsian anatomy and ecology.
 
+- The famous fighting specimen preserves direct interaction with Velociraptor.
+- Eggs historically assigned to Protoceratops were oviraptorosaur eggs; some genuine protoceratopsian nesting evidence is now known separately.
+- Large samples document growth, but strong sexual dimorphism in frill shape has not been demonstrated securely.
+
 ## Where it lived
 
 Late Cretaceous Gobi Desert dune and interdune settings.
+
+The core P. andrewsi record is Campanian Djadokhta Formation; P. hellenikorhinus is a separate species from Bayan Mandahu.
 
 ## Classification
 

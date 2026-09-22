@@ -38,13 +38,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=57222"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The single principal skeleton provides unusually good anatomical evidence for a small Middle Jurassic ornithischian.
-  - from: record fact
-    text: It was bipedal, but diet beyond broad herbivory or omnivory cannot be demonstrated directly.
-  - from: age review note
-    text: The lower Shaximiao Formation is Middle Jurassic, commonly Bathonian-Callovian, rather than Late Jurassic.
 ---
 
 ## Overview
@@ -65,11 +58,16 @@ Agilisaurus louderbacki was described by Peng in 1990 from material found in the
 
 One largely complete articulated skeleton with skull.
 
+- The single principal skeleton provides unusually good anatomical evidence for a small Middle Jurassic ornithischian.
+- It was bipedal, but diet beyond broad herbivory or omnivory cannot be demonstrated directly.
+
 ## Where it lived
 
 The Shaximiao Formation represents a subtropical, seasonally wet environment of the Middle to Late Jurassic. Agilisaurus shared this environment with the sauropods Shunosaurus and Omeisaurus, the stegosaur Huayangosaurus, and the carnivore Gasosaurus. This diverse fauna reflects the high productivity of Jurassic East Asian ecosystems.
 
 A nearly complete skull and skeleton of Agilisaurus were recovered here, making it among the most completely known early neornithischians from the Jurassic of Asia.
+
+The lower Shaximiao Formation is Middle Jurassic, commonly Bathonian-Callovian, rather than Late Jurassic.
 
 ## Open questions
 

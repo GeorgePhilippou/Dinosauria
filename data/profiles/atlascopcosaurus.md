@@ -40,13 +40,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=57103"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype is a partial maxilla with teeth.
-  - from: record fact
-    text: Modern Australian reviews retain it provisionally as valid while recognising weak phylogenetic resolution.
-  - from: age review note
-    text: The Eumeralla Formation material is Albian rather than spanning most of the Early Cretaceous.
 ---
 
 ## Overview
@@ -67,11 +60,16 @@ Atlascopcosaurus loadsi was described by Thomas Rich and Patricia Vickers-Rich i
 
 A partial maxilla plus isolated dentaries and teeth.
 
+- The holotype is a partial maxilla with teeth.
+- Modern Australian reviews retain it provisionally as valid while recognising weak phylogenetic resolution.
+
 ## Where it lived
 
 During the Early Cretaceous, Victoria was located within the Antarctic Circle at approximately 75–80 degrees south latitude. This meant Atlascopcosaurus endured several months of complete polar darkness each year. Whether these dinosaurs were resident year-round or migrated is debated. The presence of large-eyed relatives like Leaellynasaura from the same formation has been used to argue for year-round residence with adaptations for low-light conditions.
 
 Fragmentary jaw and dental material of Atlascopcosaurus was found in coastal cliffs at Dinosaur Cove, one of the most productive Early Cretaceous polar dinosaur sites in the world.
+
+The Eumeralla Formation material is Albian rather than spanning most of the Early Cretaceous.
 
 ## Open questions
 

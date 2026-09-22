@@ -70,17 +70,11 @@ parked:
     text: "Kentrosaurus has plates only on its neck and shoulders; from the mid-back to the tail tip, all ornaments are paired spikes. Computer modelling of the tail musculature shows it could sweep the spike tips at high velocity. Finite element analysis of Kentrosaurus spikes shows they were mechanically suited for penetrating tough skin — a functional weapon unlike the plate-dominated Stegosaurus, whose thagomizer spikes were the primary weapon."
   - from: "article: Gondwanan stegosaurs"
     text: The Tendaguru fauna is broadly similar to the Morrison Formation fauna, with giant sauropods (Giraffatitan paralleling Brachiosaurus) and stegosaurs (Kentrosaurus paralleling Stegosaurus) occupying similar ecological roles. The parallel faunas reflect the Jurassic Pangaean heritage before the continents fully separated, with sufficient faunal interchange to produce convergent faunal compositions across Africa and North America.
-  - from: record fact
-    text: The familiar armour arrangement is a composite reconstruction supported by repeated isolated osteoderm shapes.
-  - from: record fact
-    text: Tail spikes provided a plausible defensive weapon, as supported by anatomy and biomechanical modelling.
-  - from: record fact
-    text: Bone histology records growth but does not provide exact population ages for every specimen.
-  - from: age review note
-    text: Most material comes from Kimmeridgian-Tithonian Middle and Upper Dinosaur members of Tendaguru.
 ---
 
 ## Overview
+
+Kentrosaurus aethiopicus was a stegosaurid from the Tendaguru Formation of Tanzania. Abundant disarticulated remains from many individuals represent most of the skeleton and armour, but no single complete skeleton preserves the full sequence of plates and spikes.
 
 Kentrosaurus aethiopicus was Africa's answer to Stegosaurus — a smaller stegosaur (~5 m) from the Tendaguru Formation of Tanzania (~155–150 Ma) that replaced the broad plates of its North American cousin with a dramatic array of paired spikes running the length of its back and tail, plus a distinctive shoulder spike projecting laterally from each flank. Thousands of Kentrosaurus bones were excavated by German expeditions between 1909 and 1913.
 
@@ -114,9 +108,15 @@ Part of the original collection was lost or destroyed during the Second World Wa
 
 Spikes, plates and postcranial material document a smaller, heavily armed stegosaur.
 
+- The familiar armour arrangement is a composite reconstruction supported by repeated isolated osteoderm shapes.
+- Tail spikes provided a plausible defensive weapon, as supported by anatomy and biomechanical modelling.
+- Bone histology records growth but does not provide exact population ages for every specimen.
+
 ## Where it lived
 
 Late Jurassic East African coastal plain and deltaic deposits.
+
+Most material comes from Kimmeridgian-Tithonian Middle and Upper Dinosaur members of Tendaguru.
 
 ## Classification
 

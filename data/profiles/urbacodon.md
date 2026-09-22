@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Carnivore
 found_in: [Uzbekistan]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: "Length is cleared; no full skeleton, exact diet or locomotor proportions are known."
 classification: [Dinosauria, Saurischia, Theropoda, Coelurosauria, Troodontidae]
 summary: Urbacodon itemirensis was a troodontid from the Bissekty Formation of Uzbekistan, based primarily on a partial lower jaw with unserrated teeth.
@@ -36,13 +37,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/urbacodon.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Almost all full-body anatomy is unknown.
-  - from: record fact
-    text: The catalogue one-metre length is cleared because a jaw alone does not support that precision.
-  - from: age review note
-    text: The Bissekty type is Turonian, close to 94-90 Ma.
 ---
 
 ## Overview
@@ -65,9 +59,14 @@ Urbacodon itemirensis was described in 2007 by Alexander Averianov and Hans-Diet
 
 Partial dentary with teeth and very limited referred elements.
 
+- Almost all full-body anatomy is unknown.
+- The catalogue one-metre length is cleared because a jaw alone does not support that precision.
+
 ## Where it lived
 
 The Cenomanian formation from which Urbacodon itemirensis was described, a productive site for Cretaceous vertebrates.
+
+The Bissekty type is Turonian, close to 94-90 Ma.
 
 ## Open questions
 

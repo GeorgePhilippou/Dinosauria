@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Herbivore
 found_in: [Germany]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: "Moderate for validity, age and thyreophoran identity; low for adult anatomy and armour layout."
 classification: [Dinosauria, Ornithischia, Thyreophora]
 summary: "Emausaurus ernsti was an early armoured ornithischian from the Ciechocinek Formation of northern Germany. It is known from one incomplete, probably immature skeleton with a partial skull and scattered osteoderms; most of the limbs and tail are missing."
@@ -36,15 +37,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Emausaurus"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: "The wiki Middle Jurassic age is incorrect; Emausaurus is Early Jurassic."
-  - from: record fact
-    text: The specimen is immature and incomplete.
-  - from: record fact
-    text: It was a herbivorous thyreophoran, but its complete armour arrangement is unknown.
-  - from: age review note
-    text: Corrected to early Toarcian, near 182 Ma, based on ammonite-constrained marine strata.
 ---
 
 ## Overview
@@ -62,6 +54,14 @@ The genus is based on sparse material, so body size, detailed armour arrangement
 ## Fossil record
 
 One incomplete juvenile or subadult partial skeleton with skull fragments and osteoderms.
+
+- The wiki Middle Jurassic age is incorrect; Emausaurus is Early Jurassic.
+- The specimen is immature and incomplete.
+- It was a herbivorous thyreophoran, but its complete armour arrangement is unknown.
+
+## Where it lived
+
+Corrected to early Toarcian, near 182 Ma, based on ammonite-constrained marine strata.
 
 ## Open questions
 

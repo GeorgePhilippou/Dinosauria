@@ -41,17 +41,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/torosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Skulls and frill material are much better represented than the postcranial skeleton.
-  - from: record fact
-    text: Scannella and Horner proposed in 2010 that frill remodelling transformed mature Triceratops into the Torosaurus morphology.
-  - from: record fact
-    text: Longrich and Field found apparently immature Torosaurus and mature Triceratops characters inconsistent with a simple growth sequence.
-  - from: record fact
-    text: Canadian specimens described in 2022 expand the geographic record and were considered consistent with a distinct genus.
-  - from: age review note
-    text: Secure occurrences are latest Maastrichtian. Formation-wide database ranges and contested referrals should not broaden the headline age without specimen review.
 ---
 
 ## Overview
@@ -74,9 +63,16 @@ Several skulls and isolated frill elements; relatively sparse securely associate
 
 The enormous frill with fenestrae is diagnostic; skull dimensions place it among the longest-skulled land animals ever.
 
+- Skulls and frill material are much better represented than the postcranial skeleton.
+- Scannella and Horner proposed in 2010 that frill remodelling transformed mature Triceratops into the Torosaurus morphology.
+- Longrich and Field found apparently immature Torosaurus and mature Triceratops characters inconsistent with a simple growth sequence.
+- Canadian specimens described in 2022 expand the geographic record and were considered consistent with a distinct genus.
+
 ## Where it lived
 
 Latest Cretaceous western North American ecosystem alongside T. rex, Triceratops and Edmontosaurus.
+
+Secure occurrences are latest Maastrichtian. Formation-wide database ranges and contested referrals should not broaden the headline age without specimen review.
 
 ## Open questions
 

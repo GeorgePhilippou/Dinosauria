@@ -92,21 +92,11 @@ parked:
     text: NHM lists tough palm fronds as likely food. The beak cropped vegetation and the cheek teeth sliced plant material, so Triceratops was not just swallowing soft leaves.
   - from: "article: Life with Tyrannosaurus"
     text: Bite marks on Triceratops fossils show direct interaction with T. rex, and some healed injuries mean at least some animals survived attacks or scavenging attempts.
-  - from: record fact
-    text: The holotype of T. horridus, YPM 1820, is a partial skull collected by John Bell Hatcher in 1888 from the Lance Formation of Wyoming and described by Marsh in 1889.
-  - from: record fact
-    text: Well over a hundred skulls or partial skulls are known, making Triceratops the most abundant large dinosaur of the Hell Creek Formation.
-  - from: record fact
-    text: "Growth substantially altered horn orientation and frill shape: juveniles had short, backward-curving brow horns that rotated forward with age."
-  - from: record fact
-    text: The proposal that Torosaurus is an old Triceratops remains controversial and is not consensus.
-  - from: record fact
-    text: Two species are recognised, T. horridus from lower and T. prorsus from upper Hell Creek strata.
-  - from: age review note
-    text: "Secure occurrences are restricted to the final roughly two million years of the Cretaceous; T. horridus occurs lower and T. prorsus higher in the Hell Creek Formation."
 ---
 
 ## Overview
+
+Triceratops was a large chasmosaurine ceratopsid from the Hell Creek and Lance formations, known from many skulls and partial skeletons. T. horridus and T. prorsus show stratigraphic and morphological separation.
 
 Triceratops was a huge horned ornithischian from the final stage of the Cretaceous in western North America. Its skull carried two long brow horns, a shorter nose horn and a solid frill behind the head.
 
@@ -140,9 +130,17 @@ Skulls fossilise readily because of their size and solidity, so the sample is sk
 
 Skulls preserve horn/frill variation, injuries and T. rex bite marks.
 
+- The holotype of T. horridus, YPM 1820, is a partial skull collected by John Bell Hatcher in 1888 from the Lance Formation of Wyoming and described by Marsh in 1889.
+- Well over a hundred skulls or partial skulls are known, making Triceratops the most abundant large dinosaur of the Hell Creek Formation.
+- Growth substantially altered horn orientation and frill shape: juveniles had short, backward-curving brow horns that rotated forward with age.
+- The proposal that Torosaurus is an old Triceratops remains controversial and is not consensus.
+- Two species are recognised, T. horridus from lower and T. prorsus from upper Hell Creek strata.
+
 ## Where it lived
 
 Latest Cretaceous western North American floodplains at the end of the Mesozoic.
+
+Secure occurrences are restricted to the final roughly two million years of the Cretaceous; T. horridus occurs lower and T. prorsus higher in the Hell Creek Formation.
 
 ## Classification
 

@@ -41,15 +41,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/daspletosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The genus has strong cranial and postcranial evidence from multiple individuals.
-  - from: record fact
-    text: Bonebeds and close associations do not by themselves prove permanent pack hunting.
-  - from: record fact
-    text: Species-level ranges and assignments should be stated separately rather than merged into one long genus average.
-  - from: age review note
-    text: "D. torosus is concentrated in the Oldman Formation near 77-76 Ma; younger Daspletosaurus material may represent other species."
 ---
 
 ## Overview
@@ -70,9 +61,15 @@ Multiple skulls and partial-to-substantial skeletons across several individuals.
 
 A robust skull and strong teeth distinguish Daspletosaurus from the slimmer Gorgosaurus with which it coexisted.
 
+- The genus has strong cranial and postcranial evidence from multiple individuals.
+- Bonebeds and close associations do not by themselves prove permanent pack hunting.
+- Species-level ranges and assignments should be stated separately rather than merged into one long genus average.
+
 ## Where it lived
 
 Late Cretaceous coastal plain of Alberta with ceratopsians, hadrosaurs and ankylosaurs.
+
+D. torosus is concentrated in the Oldman Formation near 77-76 Ma; younger Daspletosaurus material may represent other species.
 
 ## Classification
 

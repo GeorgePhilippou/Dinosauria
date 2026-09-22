@@ -47,15 +47,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Leptoceratops"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Multiple individuals provide good cranial and postcranial coverage, though no one specimen is perfectly complete.
-  - from: record fact
-    text: Dental wear shows complex plant processing.
-  - from: record fact
-    text: It was probably mostly quadrupedal, with locomotor flexibility still discussed.
-  - from: age review note
-    text: Secure occurrences are late Maastrichtian in the Scollard, Lance and equivalent latest Cretaceous units.
 ---
 
 ## Overview
@@ -76,9 +67,15 @@ Several specimens from Montana originally referred to Leptoceratops have since b
 
 Several skulls and partial-to-substantial skeletons from multiple individuals.
 
+- Multiple individuals provide good cranial and postcranial coverage, though no one specimen is perfectly complete.
+- Dental wear shows complex plant processing.
+- It was probably mostly quadrupedal, with locomotor flexibility still discussed.
+
 ## Where it lived
 
 The holotype and multiple additional specimens, including bonebeds, were found in these Maastrichtian-age terrestrial deposits.
+
+Secure occurrences are late Maastrichtian in the Scollard, Lance and equivalent latest Cretaceous units.
 
 ## Classification
 

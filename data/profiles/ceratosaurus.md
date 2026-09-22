@@ -83,15 +83,11 @@ parked:
     text: Ceratosaurus had four-fingered hands (Allosaurus had three) and proportionally longer teeth. Biomechanical work suggests its skull was less optimised for high bite force than that of Allosaurus but that its more flexible tail may have aided aquatic locomotion. The nasal horn is formed by fused nasals.
   - from: "article: Niche partitioning with Allosaurus"
     text: "Allosaurus was far more common at most Morrison sites. Ceratosaurus may have hunted nearer water margins, taking fish and crocodylians as well as dinosaurian prey — a different ecological role within the same predator guild. Isotopic and bone pathology evidence offers partial support for this hypothesis."
-  - from: record fact
-    text: The midline nasal horn core and paired orbital rugosities are directly preserved.
-  - from: record fact
-    text: A midline row of small osteoderms is associated with the holotype, but their complete arrangement is unknown.
-  - from: age review note
-    text: Secure C. nasicornis material is Kimmeridgian-Tithonian in the Morrison Formation.
 ---
 
 ## Overview
+
+Ceratosaurus nasicornis was a horned ceratosaurian theropod from the Morrison Formation of western North America. The holotype preserves a skull and much of the skeleton; additional specimens improve coverage, while several proposed species and referrals remain disputed.
 
 Ceratosaurus nasicornis was a medium-large Late Jurassic theropod of the Morrison Formation, about six metres long, recognised by a prominent nasal horn, smaller paired brow horns, and a unique row of small osteoderms along the dorsal midline. It coexisted with the larger and more common Allosaurus.
 
@@ -125,9 +121,14 @@ The holotype skull was distorted during burial, so some proportions in mounted r
 
 Nasal horn, blade-like teeth and distinctive skull anatomy identify this ceratosaurian theropod.
 
+- The midline nasal horn core and paired orbital rugosities are directly preserved.
+- A midline row of small osteoderms is associated with the holotype, but their complete arrangement is unknown.
+
 ## Where it lived
 
 Late Jurassic ecosystems shared with larger allosauroids and sauropod prey.
+
+Secure C. nasicornis material is Kimmeridgian-Tithonian in the Morrison Formation.
 
 ## Classification
 

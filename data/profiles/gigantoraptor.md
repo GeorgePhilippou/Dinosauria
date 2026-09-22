@@ -38,15 +38,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gigantoraptor&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype is incomplete and lacks the skull, hands and much of the vertebral column.
-  - from: record fact
-    text: Bone histology indicates rapid growth and that the individual had not reached maximum skeletal maturity.
-  - from: record fact
-    text: "Diet remains unresolved; gigantic size and toothless relatives do not identify specific foods."
-  - from: age review note
-    text: "The Iren Dabasu Formation age is debated; the broad mid-Late Cretaceous range is more honest than a single narrow date."
 ---
 
 ## Overview
@@ -69,9 +60,15 @@ Gigantoraptor erlianensis was described by Xu Xing and colleagues in 2007 from a
 
 Single partial, headless skeleton with substantial axial and appendicular material.
 
+- The holotype is incomplete and lacks the skull, hands and much of the vertebral column.
+- Bone histology indicates rapid growth and that the individual had not reached maximum skeletal maturity.
+- Diet remains unresolved; gigantic size and toothless relatives do not identify specific foods.
+
 ## Where it lived
 
 The only known locality; the type specimen was found near Erenhot (Erlian) alongside sauropod Sonidosaurus, hadrosaurs Bactrosaurus and Gilmoreosaurus, and the tyrannosauroid Alectrosaurus.
+
+The Iren Dabasu Formation age is debated; the broad mid-Late Cretaceous range is more honest than a single narrow date.
 
 ## Open questions
 

@@ -35,15 +35,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Parksosaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype preserves much of the postcranium and parts of the skull but is not complete.
-  - from: record fact
-    text: "It was a bipedal, low-browsing ornithopod; more specific diet claims are not directly evidenced."
-  - from: record fact
-    text: Its close relationship to Thescelosaurus is supported, while fine thescelosaurid branching varies.
-  - from: age review note
-    text: The relevant Horseshoe Canyon strata are early Maastrichtian, younger than the former 76-74 Ma range.
 ---
 
 ## Overview
@@ -66,9 +57,15 @@ The genus has been variously placed in Hypsilophodontidae, Ornithopoda more broa
 
 One partial skeleton with incomplete skull and substantial postcranium.
 
+- The holotype preserves much of the postcranium and parts of the skull but is not complete.
+- It was a bipedal, low-browsing ornithopod; more specific diet claims are not directly evidenced.
+- Its close relationship to Thescelosaurus is supported, while fine thescelosaurid branching varies.
+
 ## Where it lived
 
 Early Maastrichtian fluvial deposits of central Alberta, yielding the holotype partially articulated skeleton of Parksosaurus warrenae.
+
+The relevant Horseshoe Canyon strata are early Maastrichtian, younger than the former 76-74 Ma range.
 
 ## Open questions
 

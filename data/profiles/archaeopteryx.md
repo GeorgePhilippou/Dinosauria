@@ -76,15 +76,11 @@ parked:
     text: "Non-avian (dinosaurian) features include: teeth in both jaws, three free clawed fingers on the wing, a long bony tail with vertebrae, gastralia (belly ribs) and a pubis pointing forward-and-downward. Avian features include: large pennaceous flight feathers, a wishbone (furcula), a reversed hallux (back toe), and a brain shape convergent with modern birds. This combination is the textbook definition of a transitional fossil."
   - from: "article: Flight capability"
     text: Whether Archaeopteryx could fly actively, glide from trees, or was primarily a ground-dwelling runner with aerodynamic arms is debated. Bone density studies and flight-muscle attachment scar analysis suggest some aerial capability, but the lack of a keeled sternum indicates less powerful flight muscle attachment than in modern birds. It was probably a capable glider and possibly a flap-assisted runner, occupying an early position on the bird flight spectrum.
-  - from: record fact
-    text: Asymmetrical wing feathers support aerodynamic function, while flight style remains debated.
-  - from: record fact
-    text: "The number and limits of Archaeopteryx species are contested; not every specimen is necessarily conspecific."
-  - from: age review note
-    text: The principal Solnhofen and Altmuehltal specimens are late Kimmeridgian to early Tithonian.
 ---
 
 ## Overview
+
+Archaeopteryx was a feathered early avialan from the Solnhofen Archipelago limestones of Germany. More than a dozen skeletal specimens, many with flight-feather impressions, document a mosaic of avian and non-avian theropod features.
 
 Archaeopteryx lithographica is the iconic transitional form between non-avian dinosaurs and modern birds, from the Late Jurassic Solnhofen Limestone of Bavaria (~150 Ma). Its exquisite feather impressions — preserved in the fine-grained limestone — show pennaceous flight feathers identical in structure to those of modern birds on a skeleton that retains numerous non-avian features: teeth, a long bony tail and free clawed fingers.
 
@@ -118,9 +114,14 @@ The fossils are preserved as flattened impressions in fine limestone, so three-d
 
 Feather impressions on arms and tail alongside teeth, clawed fingers and bony tail confirm transitional status between dinosaurs and birds.
 
+- Asymmetrical wing feathers support aerodynamic function, while flight style remains debated.
+- The number and limits of Archaeopteryx species are contested; not every specimen is necessarily conspecific.
+
 ## Where it lived
 
 Late Jurassic shallow tropical lagoon environment in what is now Bavaria.
+
+The principal Solnhofen and Altmuehltal specimens are late Kimmeridgian to early Tithonian.
 
 ## Classification
 

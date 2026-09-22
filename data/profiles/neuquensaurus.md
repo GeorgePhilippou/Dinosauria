@@ -50,15 +50,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=64317"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The available material documents much of the postcranial skeleton and includes osteoderms.
-  - from: record fact
-    text: Historical species and referrals overlap with the complicated genus Saltasaurus and require specimen-level care.
-  - from: record fact
-    text: Its relatively small adult dimensions are supported by mature bone histology, although exact mass estimates vary.
-  - from: age review note
-    text: "Secure material spans Upper Cretaceous units of the Neuquen Basin; a Maastrichtian-only range is too narrow."
 ---
 
 ## Overview
@@ -81,9 +72,15 @@ Material referred to Neuquensaurus has had a complex history, having been placed
 
 Abundant disarticulated cranial-limited and postcranial remains from multiple individuals, plus osteoderms.
 
+- The available material documents much of the postcranial skeleton and includes osteoderms.
+- Historical species and referrals overlap with the complicated genus Saltasaurus and require specimen-level care.
+- Its relatively small adult dimensions are supported by mature bone histology, although exact mass estimates vary.
+
 ## Where it lived
 
 Campanian-age red-beds of the Neuquén Group that have produced the bulk of Neuquensaurus skeletal material.
+
+Secure material spans Upper Cretaceous units of the Neuquen Basin; a Maastrichtian-only range is too narrow.
 
 ## Open questions
 

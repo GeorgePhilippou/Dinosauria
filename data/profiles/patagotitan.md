@@ -34,15 +34,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=358623"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The combined sample preserves much of the postcranial skeleton, but no single individual is complete and the skull is unknown.
-  - from: record fact
-    text: It was among the largest well-sampled terrestrial vertebrates.
-  - from: record fact
-    text: Published mass estimates vary substantially with scaling method and should be presented as ranges, not one exact value.
-  - from: age review note
-    text: Radiometric dating near 101.6 Ma places the quarry in the latest Albian, shortly before the Early-Late Cretaceous boundary.
 ---
 
 ## Overview
@@ -63,11 +54,17 @@ The first Patagotitan bone was noticed in 2010 by a ranch worker at La Flecha Ra
 
 Partial postcranial skeletons from at least six individuals, collectively preserving most body regions except the skull.
 
+- The combined sample preserves much of the postcranial skeleton, but no single individual is complete and the skull is unknown.
+- It was among the largest well-sampled terrestrial vertebrates.
+- Published mass estimates vary substantially with scaling method and should be presented as ranges, not one exact value.
+
 ## Where it lived
 
 The Cerro Barcino Formation represents an Early Cretaceous fluvial environment in Patagonia. The burial of multiple Patagotitan individuals in three discrete flood events suggests either mass death events or aggregated carcass transport. The site offers important taphonomic data on how large sauropod remains accumulate. Casts of Patagotitan are now displayed in the Natural History Museum of London and the American Museum of Natural History.
 
 Early Cretaceous (Albian) continental deposits of Chubut Province where the remains of at least six Patagotitan individuals were excavated across three flood events.
+
+Radiometric dating near 101.6 Ma places the quarry in the latest Albian, shortly before the Early-Late Cretaceous boundary.
 
 ## Open questions
 

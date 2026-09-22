@@ -70,17 +70,11 @@ parked:
     text: "The head-butting hypothesis — where rival males charged each other dome-to-dome like bighorn sheep — has been the default interpretation since the 1970s. However, finite element analysis shows the dome transmits stress poorly in a direct head-to-head collision. Flank-pushing (butting the flanks of rivals, as in musk oxen) is an alternative. The dome shape, angular position of the skull relative to the vertebral column, and presence of skull pathologies interpreted as impact injuries all inform this debate."
   - from: "article: Pachycephalosaur evolutionary significance"
     text: "Pachycephalosauria is the sister group of Ceratopsia within Marginocephalia — a relationship supported by shared thickening of the skull roof (though taken to very different extremes in each group). Both groups are restricted to the Cretaceous and represent the last major ornithischian diversification. Pachycephalosaurus was one of the last surviving pachycephalosaurs before the K-Pg extinction."
-  - from: record fact
-    text: Histology and morphology support interpreting Dracorex as a juvenile and Stygimoloch as a younger stage or close taxon, though details remain debated.
-  - from: record fact
-    text: The thick dome is directly preserved, but combat style is inferred rather than observed.
-  - from: record fact
-    text: Body size is less secure than skull anatomy because associated skeletons are rare.
-  - from: age review note
-    text: Secure records are latest Maastrichtian Hell Creek, Lance and equivalent units.
 ---
 
 ## Overview
+
+Pachycephalosaurus wyomingensis was a large dome-headed pachycephalosaurid from latest Cretaceous western North America, known mainly from skull roofs and incomplete skulls; postcranial remains are scarce.
 
 Pachycephalosaurus wyomingensis ("thick-headed lizard") was the largest pachycephalosaur — a dome-headed ornithischian from the Hell Creek Formation of the latest Cretaceous North America (~68–66 Ma) reaching about five metres. Its skull roof is a dome of solid bone up to 25 cm thick, reinforced internally by struts and surrounded by a ring of bony knobs and spikes. Whether this dome was used for head-butting combat or lateral flank-pushing is actively debated.
 
@@ -114,9 +108,15 @@ Because most specimens are isolated domes, growth and pathology are well studied
 
 Thick skull domes and cranial ornamentation are the key evidence for its identity and behaviour debates.
 
+- Histology and morphology support interpreting Dracorex as a juvenile and Stygimoloch as a younger stage or close taxon, though details remain debated.
+- The thick dome is directly preserved, but combat style is inferred rather than observed.
+- Body size is less secure than skull anatomy because associated skeletons are rare.
+
 ## Where it lived
 
 Latest Cretaceous western North American floodplains.
+
+Secure records are latest Maastrichtian Hell Creek, Lance and equivalent units.
 
 ## Classification
 

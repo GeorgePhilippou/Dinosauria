@@ -68,15 +68,11 @@ parked:
     text: "The skull is proportionally very short and deep; finite element analysis suggests rapid repeated biting rather than bone crushing. The horns project from the frontal bones and bore a keratinous sheath in life. Carnotaurus had proportionally long hindlimbs and a particularly massive caudofemoralis muscle, suggesting it was among the faster large theropods."
   - from: "article: Biogeography"
     text: "Abelisaurids were the dominant large theropods of Gondwana — South America, Africa, India and Madagascar — while tyrannosaurs dominated Laurasia. Carnotaurus and its relatives represent a striking case of convergent ecological evolution: similar body size and predatory role achieved independently on isolated continental masses."
-  - from: record fact
-    text: Paired frontal horns, a deep skull and extremely reduced forelimbs are directly preserved.
-  - from: record fact
-    text: "Skin impressions show varied non-overlapping scales; an osteoderm-studded body or a specific colour pattern is not supported."
-  - from: age review note
-    text: The La Colonia Formation is latest Cretaceous, but the exact late Campanian-Maastrichtian age of the type horizon remains uncertain.
 ---
 
 ## Overview
+
+Carnotaurus sastrei was a horned abelisaurid from the La Colonia Formation of Patagonia. Its single holotype is a nearly complete articulated skeleton with a skull and extensive skin impressions, providing exceptional anatomical evidence from one individual.
 
 Carnotaurus sastrei was a large Late Cretaceous abelisaurid from Patagonia with two thick bull-like brow horns, an extremely short deep skull, and the most vestigial forelimbs of any large non-avian theropod. Exceptional skin impressions preserve a mosaic of large boss-like scales and smaller flat scales, with no feather evidence — making it one of the best-documented theropod integument samples.
 
@@ -110,9 +106,14 @@ The skull was somewhat crushed during fossilisation, which affects reconstructio
 
 Short deep skull, reduced arms, horns and preserved skin impressions make its anatomy unusually clear.
 
+- Paired frontal horns, a deep skull and extremely reduced forelimbs are directly preserved.
+- Skin impressions show varied non-overlapping scales; an osteoderm-studded body or a specific colour pattern is not supported.
+
 ## Where it lived
 
 Late Cretaceous Patagonian terrestrial environments.
+
+The La Colonia Formation is latest Cretaceous, but the exact late Campanian-Maastrichtian age of the type horizon remains uncertain.
 
 ## Classification
 

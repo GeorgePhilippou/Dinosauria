@@ -43,13 +43,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/telmatosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: It lies outside or near the base of Hadrosauridae in most analyses.
-  - from: record fact
-    text: A facial bone preserves an ameloblastoma-like tumour, an individual pathology rather than a species trait.
-  - from: age review note
-    text: Secure material is Maastrichtian Hateg Basin, not the full 84-66 Ma span.
 ---
 
 ## Overview
@@ -68,11 +61,16 @@ Telmatosaurus transsylvanicus was described by Franz Baron Nopcsa in 1900 from m
 
 Several partial skulls and skeletons from multiple individuals.
 
+- It lies outside or near the base of Hadrosauridae in most analyses.
+- A facial bone preserves an ameloblastoma-like tumour, an individual pathology rather than a species trait.
+
 ## Where it lived
 
 A jaw fragment attributed to Telmatosaurus has been identified as bearing a multilobular osteochondroma — a benign cartilage-capped bone tumour still seen in humans and other vertebrates today. This represents one of the earliest known occurrences of a tumour-like growth in a non-avian dinosaur, and contributes to a growing body of evidence that dinosaurs suffered from many of the same pathological conditions as living animals.
 
 The most complete Telmatosaurus material comes from the Maastrichtian Hateg Basin of Romania, famous for its community of island-dwelling dwarf dinosaurs.
+
+Secure material is Maastrichtian Hateg Basin, not the full 84-66 Ma span.
 
 ## Classification
 

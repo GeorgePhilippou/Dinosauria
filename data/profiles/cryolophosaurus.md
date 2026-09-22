@@ -42,13 +42,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cryolophosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The crest is directly preserved, but colour and display function are unknown.
-  - from: record fact
-    text: It has sometimes been called an allosauroid, yet modern analyses place it variably among early neotheropods rather than securely within Allosauridae.
-  - from: age review note
-    text: The Hanson Formation type horizon is Pliensbachian, approximately 191-182 million years old.
 ---
 
 ## Overview
@@ -69,9 +62,14 @@ Cryolophosaurus elliotti was described in 1994 by William Hammer and William Hic
 
 One principal partial skull and incomplete skeleton, with additional material not yet fully published.
 
+- The crest is directly preserved, but colour and display function are unknown.
+- It has sometimes been called an allosauroid, yet modern analyses place it variably among early neotheropods rather than securely within Allosauridae.
+
 ## Where it lived
 
 Early Jurassic continental formation on the Transantarctic Mountains, yielding the primary Cryolophosaurus skeleton.
+
+The Hanson Formation type horizon is Pliensbachian, approximately 191-182 million years old.
 
 ## Classification
 

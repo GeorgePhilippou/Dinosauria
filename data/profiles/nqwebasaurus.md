@@ -33,15 +33,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=66505"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype includes skull fragments, vertebrae, forelimb and hindlimb elements.
-  - from: record fact
-    text: Further preparation revealed anatomy supporting placement near the base of Ornithomimosauria.
-  - from: record fact
-    text: Small stones in the abdominal region may be gastroliths, but they do not by themselves demonstrate a particular diet.
-  - from: age review note
-    text: "The Kirkwood type horizon is Early Cretaceous; the former Mid Jurassic label and 159-132 Ma range are erroneous."
 ---
 
 ## Overview
@@ -62,11 +53,17 @@ Nqwebasaurus thwazi was described in 2000 by de Klerk and colleagues. The genus 
 
 One associated partial skeleton with limited cranial and substantial limb material.
 
+- The holotype includes skull fragments, vertebrae, forelimb and hindlimb elements.
+- Further preparation revealed anatomy supporting placement near the base of Ornithomimosauria.
+- Small stones in the abdominal region may be gastroliths, but they do not by themselves demonstrate a particular diet.
+
 ## Where it lived
 
 Nqwebasaurus is the earliest well-documented coelurosaur known from Africa and represents a key data point for understanding Gondwanan theropod diversity during the Early Cretaceous. At that time, southern Africa was part of the fragmenting supercontinent Gondwana, and Nqwebasaurus helps illuminate the extent to which coelurosaurs had dispersed across southern landmasses by the Berriasian.
 
 Early Cretaceous fluvial deposits of the Uitenhage Group, Eastern Cape, yielding the only known Nqwebasaurus specimen.
+
+The Kirkwood type horizon is Early Cretaceous; the former Mid Jurassic label and 159-132 Ma range are erroneous.
 
 ## Open questions
 

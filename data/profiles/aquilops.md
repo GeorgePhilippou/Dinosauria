@@ -35,13 +35,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=310995"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The hooked rostral bone and associated skull elements diagnose the genus.
-  - from: record fact
-    text: Body size and posture are inferred from relatives because no postcranial bones are known.
-  - from: age review note
-    text: The relevant Cloverly beds are late Aptian to early Albian.
 ---
 
 ## Overview
@@ -62,9 +55,14 @@ At approximately 1 kilogram, Aquilops was about the size of a domestic rabbit. I
 
 Aquilops americanus was described in 2014 by Andrew Farke and colleagues from a partial skull collected from the Cloverly Formation of Montana. The generic name derives from Latin aquila (eagle) and Greek ops (face), referring to the strongly hooked rostral bone of the skull. The species name americanus reflects its North American provenance and its importance as the first neoceratopsian demonstrated from Early Cretaceous North America.
 
+- The hooked rostral bone and associated skull elements diagnose the genus.
+- Body size and posture are inferred from relatives because no postcranial bones are known.
+
 ## Where it lived
 
 The only known Aquilops specimen — a partial skull — was recovered from this Early Cretaceous formation, making it the oldest neoceratopsian recorded in North America.
+
+The relevant Cloverly beds are late Aptian to early Albian.
 
 ## Open questions
 

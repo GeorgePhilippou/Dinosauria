@@ -48,15 +48,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rhabdodon&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: A 2025 reassessment diagnosed R. priscus using the type material rather than the old continent-wide wastebasket.
-  - from: record fact
-    text: Romanian and Austrian material once called Rhabdodon belongs to Zalmoxes and Mochlodon.
-  - from: record fact
-    text: R. septimanicus may be distinct, so French material should not all be merged automatically.
-  - from: age review note
-    text: The genus spans Campanian to lower Maastrichtian French units, not a narrow 76-70 Ma interval.
 ---
 
 ## Overview
@@ -77,9 +68,15 @@ Rhabdodon priscus was named by Philippe Matheron in 1869 from material collected
 
 Lectotype dentary plus abundant disarticulated cranial and postcranial referrals from southern France.
 
+- A 2025 reassessment diagnosed R. priscus using the type material rather than the old continent-wide wastebasket.
+- Romanian and Austrian material once called Rhabdodon belongs to Zalmoxes and Mochlodon.
+- R. septimanicus may be distinct, so French material should not all be merged automatically.
+
 ## Where it lived
 
 Late Cretaceous French continental deposits that have produced substantial Rhabdodon material.
+
+The genus spans Campanian to lower Maastrichtian French units, not a narrow 76-70 Ma interval.
 
 ## Classification
 

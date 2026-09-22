@@ -72,15 +72,11 @@ parked:
     text: "Centrosaurine bone beds — where dozens to thousands of individuals accumulated together — are a characteristic feature of the Dinosaur Park Formation. The leading hypothesis is catastrophic mass mortality during seasonal migrations: herds attempting to cross flooded rivers were swept away and deposited as bone concentrations on the downstream side. The demographic profiles of Styracosaurus bone beds are consistent with a mixed-age herd."
   - from: "article: Frill function"
     text: "The elaborate frill ornamentation of Styracosaurus — multiple long curved spikes plus smaller accessory ornaments — is disproportionate to any purely defensive function. Sexual selection for increasingly elaborate display structures is the most widely supported hypothesis: the frill acted as a billboard for species recognition and mate quality assessment, analogous to peacock tail feathers or deer antlers."
-  - from: record fact
-    text: Its long nasal horn and frill spikes are directly preserved but vary among individuals.
-  - from: record fact
-    text: Rubeosaurus ovatus has been proposed as a second Styracosaurus species, a synonymy that remains debated.
-  - from: age review note
-    text: The species is restricted to late Campanian Dinosaur Park Formation, near 76-75 Ma.
 ---
 
 ## Overview
+
+Styracosaurus albertensis was a centrosaurine ceratopsid from the Dinosaur Park Formation, known from skulls, partial skeletons and bonebed material.
 
 Styracosaurus albertensis ("spiked lizard") was a centrosaurine ceratopsid from the Campanian of Alberta (~75 Ma), bearing one of the most elaborate frill and horn arrays of any ceratopsian: a large nasal horn up to 60 cm long, four to six long curved spikes projecting from the frill margin, and smaller frill ornaments. Its elaborate display structures make it one of the most recognisable ceratopsids.
 
@@ -114,9 +110,14 @@ Even with several skulls, the sample is small compared with Centrosaurus, so the
 
 Nasal horn, frill spikes and bonebeds document centrosaurine ceratopsid diversity.
 
+- Its long nasal horn and frill spikes are directly preserved but vary among individuals.
+- Rubeosaurus ovatus has been proposed as a second Styracosaurus species, a synonymy that remains debated.
+
 ## Where it lived
 
 Late Cretaceous western Canadian coastal plain ecosystems.
+
+The species is restricted to late Campanian Dinosaur Park Formation, near 76-75 Ma.
 
 ## Classification
 

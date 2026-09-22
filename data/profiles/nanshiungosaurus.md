@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Omnivore
 found_in: [China]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: Skull, forelimb claws, body covering and precise size are not preserved in the type.
 classification: [Dinosauria, Saurischia, Theropoda, Coelurosauria, Maniraptora, Therizinosauria]
 summary: Nanshiungosaurus brevispinus was a derived therizinosaur from the Nanxiong Basin of southern China, based on a skull-less partial axial and pelvic skeleton.
@@ -38,15 +39,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=54831"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type preserves vertebrae and pelvis but little basis for a precise whole-body reconstruction.
-  - from: record fact
-    text: Nanshiungosaurus bohlini from Gansu is poorly comparable and should not automatically extend the type genus.
-  - from: record fact
-    text: "Plant-eating or omnivorous habits are inferred from therizinosaur anatomy; no direct gut contents are known."
-  - from: age review note
-    text: "The type species is tied to Maastrichtian deposits of the Nanxiong Basin; the old 84-71 Ma range is too broad."
 ---
 
 ## Overview
@@ -67,11 +59,17 @@ Known remains consist primarily of dorsal, sacral and caudal vertebrae and pelvi
 
 Partial vertebral column and pelvis without a skull.
 
+- The type preserves vertebrae and pelvis but little basis for a precise whole-body reconstruction.
+- Nanshiungosaurus bohlini from Gansu is poorly comparable and should not automatically extend the type genus.
+- Plant-eating or omnivorous habits are inferred from therizinosaur anatomy; no direct gut contents are known.
+
 ## Where it lived
 
 The occurrence of therizinosaurs across both Central Asian and Chinese Late Cretaceous deposits, represented by forms such as Nanshiungosaurus, Therizinosaurus, and Erlikosaurus, documents a geographically widespread radiation. Nanshiungosaurus from southern China represents a southern extent of this distribution and hints at faunal interchange across the continent.
 
 Maastrichtian red-bed formation that has produced therizinosaur vertebral material assigned to Nanshiungosaurus.
+
+The type species is tied to Maastrichtian deposits of the Nanxiong Basin; the old 84-71 Ma range is too broad.
 
 ## Open questions
 

@@ -43,15 +43,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/isisaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The species was originally named Titanosaurus colberti and transferred to Isisaurus when Titanosaurus became taxonomically problematic.
-  - from: record fact
-    text: Its tall shoulders and relatively short neck proportions are based on preserved vertebrae and limbs, not a complete articulated mount.
-  - from: record fact
-    text: "It was a quadrupedal herbivore; exact browse height and diet are not directly known."
-  - from: age review note
-    text: Restricted to the Maastrichtian Lameta Formation rather than a broad Late Cretaceous span.
 ---
 
 ## Overview
@@ -74,9 +65,15 @@ Material now assigned to Isisaurus was originally described as Titanosaurus colb
 
 One associated, substantial but incomplete postcranial skeleton with very limited cranial evidence.
 
+- The species was originally named Titanosaurus colberti and transferred to Isisaurus when Titanosaurus became taxonomically problematic.
+- Its tall shoulders and relatively short neck proportions are based on preserved vertebrae and limbs, not a complete articulated mount.
+- It was a quadrupedal herbivore; exact browse height and diet are not directly known.
+
 ## Where it lived
 
 Primary source of Isisaurus material from the Maastrichtian of the Deccan region, yielding postcranial elements.
+
+Restricted to the Maastrichtian Lameta Formation rather than a broad Late Cretaceous span.
 
 ## Open questions
 

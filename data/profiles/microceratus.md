@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Herbivore
 found_in: [China, Mongolia]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: Most full-body anatomy, size and feeding detail are reconstructed from relatives.
 classification: [Dinosauria, Ornithischia, Ceratopsia, Neoceratopsia]
 summary: Microceratus gobiensis is the replacement name for the preoccupied Microceratops gobiensis. Its Mongolian type material is fragmentary and historically mixed with fossils later named Graciliceratops.
@@ -36,15 +37,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/microceratus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The name change solved a nomenclatural homonym but did not improve the fossil diagnosis.
-  - from: record fact
-    text: Common skeletal reconstructions often incorporate material no longer referred to Microceratus.
-  - from: record fact
-    text: A small bipedal neoceratopsian identity is plausible, but detailed anatomy and precise size are weakly supported.
-  - from: age review note
-    text: "Only a broad Campanian age can be defended for the relevant Gobi material; the former 86-66 Ma range is excessive."
 ---
 
 ## Overview
@@ -67,9 +59,15 @@ Microceratops gobiensis was originally described by Bohlin in 1953 based on frag
 
 Fragmentary type material; much historically referred material belongs to other taxa.
 
+- The name change solved a nomenclatural homonym but did not improve the fossil diagnosis.
+- Common skeletal reconstructions often incorporate material no longer referred to Microceratus.
+- A small bipedal neoceratopsian identity is plausible, but detailed anatomy and precise size are weakly supported.
+
 ## Where it lived
 
 Juvenile specimens of Microceratus gobiensis were recovered from Late Cretaceous aeolian and fluvial deposits in this famous Central Asian formation.
+
+Only a broad Campanian age can be defended for the relevant Gobi material; the former 86-66 Ma range is excessive.
 
 ## Open questions
 

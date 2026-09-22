@@ -43,15 +43,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dromiceiomimus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The page must present the synonymy debate, not one resolution as settled fact.
-  - from: record fact
-    text: Toothless jaws and long cursorial limbs are documented for the referred ornithomimid material.
-  - from: record fact
-    text: Diet remains unresolved and should not be labelled confidently as herbivorous or carnivorous.
-  - from: age review note
-    text: "The hypodigm spans more than one Canadian formation and may mix taxa; each referral needs horizon-level checking."
 ---
 
 ## Overview
@@ -74,9 +65,15 @@ Dromiceiomimus brevitertius was described by Dale Russell in 1972 from skeletal 
 
 Several partial skulls and skeletons historically distributed between Dromiceiomimus and Ornithomimus.
 
+- The page must present the synonymy debate, not one resolution as settled fact.
+- Toothless jaws and long cursorial limbs are documented for the referred ornithomimid material.
+- Diet remains unresolved and should not be labelled confidently as herbivorous or carnivorous.
+
 ## Where it lived
 
 Type locality; the only confirmed occurrences of Dromiceiomimus come from this Early Maastrichtian formation.
+
+The hypodigm spans more than one Canadian formation and may mix taxa; each referral needs horizon-level checking.
 
 ## Open questions
 

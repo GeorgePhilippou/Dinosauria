@@ -38,13 +38,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chinshakiangosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The best-known element is a partial lower jaw with teeth, accompanied by fragmentary postcranial bones.
-  - from: record fact
-    text: Its jaw suggests a fleshy cheek is possible, but soft tissue and exact feeding mechanics are not preserved.
-  - from: age review note
-    text: The Fengjiahe Formation is Early Jurassic, broadly Hettangian-Sinemurian.
 ---
 
 ## Overview
@@ -65,9 +58,14 @@ Chinshakiangosaurus zhongheensis was described in 1975 by Yeh from fragmentary s
 
 A fragmentary skeleton including a partial dentary, vertebrae and limb elements.
 
+- The best-known element is a partial lower jaw with teeth, accompanied by fragmentary postcranial bones.
+- Its jaw suggests a fleshy cheek is possible, but soft tissue and exact feeding mechanics are not preserved.
+
 ## Where it lived
 
 Early Jurassic continental formation in Yunnan that yielded the fragmentary type material of Chinshakiangosaurus.
+
+The Fengjiahe Formation is Early Jurassic, broadly Hettangian-Sinemurian.
 
 ## Classification
 

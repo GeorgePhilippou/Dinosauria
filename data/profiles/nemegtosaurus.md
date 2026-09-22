@@ -40,15 +40,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38671"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type is principally cranial and bears narrow-crowned replacement teeth.
-  - from: record fact
-    text: It may represent the same animal as the skull-less titanosaur Opisthocoelicaudia, but non-overlapping type material prevents a secure synonymy.
-  - from: record fact
-    text: A possible additional skull-associated specimen supports titanosaur affinity but does not settle the synonymy.
-  - from: age review note
-    text: Both the type locality and rediscovered localities place the genus in the Maastrichtian Nemegt Formation.
 ---
 
 ## Overview
@@ -69,11 +60,17 @@ The holotype skull of Nemegtosaurus mongoliensis was recovered from the Nemegt F
 
 Holotype skull and mandible, with limited possible additional material.
 
+- The type is principally cranial and bears narrow-crowned replacement teeth.
+- It may represent the same animal as the skull-less titanosaur Opisthocoelicaudia, but non-overlapping type material prevents a secure synonymy.
+- A possible additional skull-associated specimen supports titanosaur affinity but does not settle the synonymy.
+
 ## Where it lived
 
 The Nemegt Formation preserves a relatively lush fluvial environment compared with the older Djadokhta and Barun Goyot Formations in the same region. Nemegtosaurus would have shared this landscape with other large dinosaurs including Tarbosaurus, Opisthocoelicaudia, Deinocheirus, and Saurolophus.
 
 Maastrichtian fluvial deposits of the Gobi Desert that produced the holotype skull and mandible of Nemegtosaurus.
+
+Both the type locality and rediscovered localities place the genus in the Maastrichtian Nemegt Formation.
 
 ## Open questions
 

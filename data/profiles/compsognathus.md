@@ -76,15 +76,11 @@ parked:
     text: "Both known specimens preserve the remains of small lizards in the stomach region. The German specimen contains a nearly complete skeleton of Bavarisaurus — a small, fast lizard — implying that Compsognathus was an active pursuit predator capable of catching agile prey. Its two-fingered hand (some relatives have three) shows early reduction of the hand in some coelurosaur lineages."
   - from: "article: Size and significance"
     text: "Compsognathus was the smallest adult dinosaur known for over a century until the discovery of smaller species in the Cretaceous feathered dinosaur record from China. Its small size, fine bones and active lifestyle made it the archetypal \"bird-like\" non-avian dinosaur in Victorian science, and it features in Conan Doyle's The Lost World (1912) as the miniature dinosaurs encountered by the expedition."
-  - from: record fact
-    text: The smaller German specimen contains lizard remains in its abdominal region, direct evidence of predation or scavenging.
-  - from: record fact
-    text: The larger French specimen shows that the famously tiny German individual was not the maximum adult size.
-  - from: age review note
-    text: The Solnhofen and Canjuers lagoonal deposits are Tithonian.
 ---
 
 ## Overview
+
+Compsognathus longipes was a small coelurosaur from the Tithonian lagoonal limestones of Germany and France. Two nearly complete skeletons of different sizes document its slender bipedal body; C. corallestris is generally treated as the same species.
 
 Compsognathus longipes was one of the smallest non-avian dinosaurs, about the size of a turkey (0.65–1 m), from the Late Jurassic Solnhofen Limestone of Germany (~150 Ma). For over a century it held the record as the smallest known dinosaur, and the first specimen described was the most complete theropod known at the time — providing crucial evidence that dinosaurs were slender, active animals rather than lumbering reptiles.
 
@@ -118,9 +114,14 @@ Both skeletons are flattened, and the small hand bones are hard to interpret; th
 
 Stomach contents document its diet of small lizards; exquisite preservation confirms body outline and limb proportions.
 
+- The smaller German specimen contains lizard remains in its abdominal region, direct evidence of predation or scavenging.
+- The larger French specimen shows that the famously tiny German individual was not the maximum adult size.
+
 ## Where it lived
 
 Late Jurassic shallow lagoon environments in what are now southern Germany and southern France.
+
+The Solnhofen and Canjuers lagoonal deposits are Tithonian.
 
 ## Classification
 

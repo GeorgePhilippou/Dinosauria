@@ -10,7 +10,8 @@ length_m: null
 mass_kg: null
 diet: Herbivore
 found_in: [China]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: "Length is cleared; no precise mass, skull shape or narrow age is secure."
 classification: [Dinosauria, Saurischia, Sauropodomorpha, Sauropoda, Titanosauria]
 summary: Sonidosaurus saihangaobiensis was a small titanosaur from Inner Mongolia, based on a partial postcranial skeleton.
@@ -39,15 +40,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/sonidosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The specimen includes vertebrae, ribs, pelvis and limb bones but no skull.
-  - from: record fact
-    text: The catalogue nine-metre length is cleared pending modern specimen-level reassessment.
-  - from: record fact
-    text: Conflicting biostratigraphic correlations prevent a defensible narrow numerical age.
-  - from: age review note
-    text: "The Iren Dabasu Formation has competing vertebrate and microfossil age models, including Turonian, Coniacian-Campanian and late Campanian-Maastrichtian correlations; the type cannot presently be assigned one narrow range."
 ---
 
 ## Overview
@@ -68,11 +60,17 @@ Sonidosaurus saihangaobiensis was described in 2006 by Xu Xing, Zhang Xingliao, 
 
 Single partial postcranial skeleton without skull.
 
+- The specimen includes vertebrae, ribs, pelvis and limb bones but no skull.
+- The catalogue nine-metre length is cleared pending modern specimen-level reassessment.
+- Conflicting biostratigraphic correlations prevent a defensible narrow numerical age.
+
 ## Where it lived
 
 The Iren Dabasu Formation preserves a diverse Late Cretaceous fauna including hadrosaurs (Bactrosaurus, Gilmoreosaurus), the tyrannosaur Alectrosaurus, alvarezsaurids, and the enormous oviraptorosaur Gigantoraptor. Sonidosaurus was one of the few sauropods in this otherwise theropod- and ornithopod-dominated assemblage, reflecting the general decline of sauropods relative to ornithischians in Late Cretaceous Asian faunas.
 
 The holotype was found at Saihangaobi in this Late Cretaceous formation, which has also produced hadrosaurs, alvarezsaurids, and the giant Gigantoraptor.
+
+The Iren Dabasu Formation has competing vertebrate and microfossil age models, including Turonian, Coniacian-Campanian and late Campanian-Maastrichtian correlations; the type cannot presently be assigned one narrow range.
 
 ## Open questions
 

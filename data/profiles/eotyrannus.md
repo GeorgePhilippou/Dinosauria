@@ -37,15 +37,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eotyrannus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Only one incomplete individual is securely known.
-  - from: record fact
-    text: The holotype was not fully grown, so adult dimensions are uncertain.
-  - from: record fact
-    text: "Serrated teeth support carnivory; prey and hunting style are not known."
-  - from: age review note
-    text: The Wessex Formation occurrence is Barremian, with no direct date on the skeleton.
 ---
 
 ## Overview
@@ -68,9 +59,15 @@ Eotyrannus lengi was described in 2001 by Steve Hutt and colleagues based on a p
 
 One associated partial skeleton with incomplete skull and substantial postcranium.
 
+- Only one incomplete individual is securely known.
+- The holotype was not fully grown, so adult dimensions are uncertain.
+- Serrated teeth support carnivory; prey and hunting style are not known.
+
 ## Where it lived
 
 The only known locality; the Barremian-age Wessex Formation has produced a rich dinosaur fauna of theropods, iguanodontids, and sauropods.
+
+The Wessex Formation occurrence is Barremian, with no direct date on the skeleton.
 
 ## Open questions
 

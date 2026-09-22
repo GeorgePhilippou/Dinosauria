@@ -34,13 +34,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38853"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The name, meaning no nose horn, is misleading because a nasal horn core is present.
-  - from: record fact
-    text: A juvenile skull adds growth information, but whole-body reconstructions rely on related ceratopsids.
-  - from: age review note
-    text: The diagnostic material is lower Maastrichtian within the Horseshoe Canyon Formation.
 ---
 
 ## Overview
@@ -63,9 +56,14 @@ Arrhinoceratops brachyops was described by William Arthur Parks in 1925 from a s
 
 One principal near-complete skull and a small amount of additional cranial material.
 
+- The name, meaning no nose horn, is misleading because a nasal horn core is present.
+- A juvenile skull adds growth information, but whole-body reconstructions rely on related ceratopsids.
+
 ## Where it lived
 
 The only known Arrhinoceratops specimen — a partial skull — was recovered from this formation along the Red Deer River, one of the most productive sites for Late Cretaceous dinosaurs in Canada.
+
+The diagnostic material is lower Maastrichtian within the Horseshoe Canyon Formation.
 
 ## Open questions
 

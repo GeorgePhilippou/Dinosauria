@@ -93,21 +93,11 @@ parked:
     text: Ampelosaurus inhabited the Ibero-Armorican island, a landmass formed in southwestern Europe during the Late Cretaceous as the Tethys Sea encroached. This insularity may have influenced the body size and diversity of the dinosaur fauna, a phenomenon known as insular dwarfism seen in other European titanosaurs such as Magyarosaurus.
   - from: "article: Significance"
     text: As one of the most completely known Late Cretaceous sauropods from Europe, Ampelosaurus is a key reference for understanding titanosaur diversity on the European archipelago. Its osteoderm-bearing integument adds to evidence that armour evolved independently multiple times within Titanosauria, offering insights into the functional and ecological pressures shaping sauropod anatomy.
-  - from: record fact
-    text: The holotype MDE C3-247 consists of three connected middle dorsal vertebrae from the Bellevue locality.
-  - from: record fact
-    text: The original diagnosis also drew on abundant disarticulated postcranial bones and plate-, bulb- and spine-shaped osteoderms.
-  - from: record fact
-    text: "The site preserves many individuals rather than one complete skeleton; later work has cautioned that more than one titanosaur morphotype may be present."
-  - from: record fact
-    text: Bone histology shows prolonged growth and extensive remodelling, while exact adult size estimates remain dependent on associating isolated limb bones correctly.
-  - from: record fact
-    text: Ampelosaurus is usually recovered among European lithostrotian titanosaurs, commonly within Lirainosaurinae.
-  - from: age review note
-    text: The headline age is restricted to the early Maastrichtian Bellevue type locality. Wider French and Spanish referrals need specimen-level taxonomic review and should not silently extend the range of the genus.
 ---
 
 ## Overview
+
+Ampelosaurus atacis was an early Maastrichtian titanosaur from the Bellevue bonebed in southern France. The holotype is three connected dorsal vertebrae, while abundant referred material includes other vertebrae, girdle and limb bones, teeth and several forms of osteoderm. The bonebed contains multiple individuals, but not every titanosaur bone from Bellevue can automatically be assigned to Ampelosaurus.
 
 Ampelosaurus atacis was a titanosaurian sauropod from the Late Cretaceous of southern France and Spain, living approximately 71–66 million years ago. Estimated at about 15 metres in length, it is known from teeth, postcranial bones, and notably osteoderms — bony dermal armour — preserved in the Marnes Rouges Inférieures Formation of the Aude region. It inhabited the coastal lowlands of the Ibero-Armorican island landmass during the final stages of the Cretaceous.
 
@@ -139,9 +129,17 @@ Vertebrae from the neck, back and tail, girdle and limb bones, teeth, cranial el
 
 Because the bones were not found in association, assigning every element to Ampelosaurus, and to a particular individual, depends on interpretation rather than direct observation.
 
+- The holotype MDE C3-247 consists of three connected middle dorsal vertebrae from the Bellevue locality.
+- The original diagnosis also drew on abundant disarticulated postcranial bones and plate-, bulb- and spine-shaped osteoderms.
+- The site preserves many individuals rather than one complete skeleton; later work has cautioned that more than one titanosaur morphotype may be present.
+- Bone histology shows prolonged growth and extensive remodelling, while exact adult size estimates remain dependent on associating isolated limb bones correctly.
+- Ampelosaurus is usually recovered among European lithostrotian titanosaurs, commonly within Lirainosaurinae.
+
 ## Where it lived
 
 The type locality of Ampelosaurus, yielding teeth, vertebrae, limb bones, and dermal osteoderms that define the genus.
+
+The headline age is restricted to the early Maastrichtian Bellevue type locality. Wider French and Spanish referrals need specimen-level taxonomic review and should not silently extend the range of the genus.
 
 ## Classification
 

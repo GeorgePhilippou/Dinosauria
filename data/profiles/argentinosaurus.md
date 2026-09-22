@@ -81,15 +81,11 @@ parked:
     text: Scaling from single elements (tibia, vertebrae) to whole-body mass introduces large errors because different size scaling equations give very different results. Published mass estimates for Argentinosaurus range from 60 to 110 tonnes, with 70–80 tonnes being the most frequently cited. Until more complete material is found, the true maximum size cannot be determined with confidence.
   - from: "article: Predator-prey interaction"
     text: "The co-occurrence of Argentinosaurus in the Huincul Formation with Giganotosaurus — one of the largest carnivorous dinosaurs — in the same stratigraphic unit has prompted speculation about predator-prey relationships. Whether Giganotosaurus regularly attacked healthy Argentinosaurus adults (which would have been nearly invulnerable at maximum size) or focused on juveniles, sick individuals and carcasses remains unknown."
-  - from: record fact
-    text: The holotype includes several dorsal vertebrae, part of the sacrum, an anterior caudal, ribs and a right tibia.
-  - from: record fact
-    text: A giant femoral shaft often discussed with it is not securely associated with the holotype.
-  - from: age review note
-    text: The lower Huincul Formation is late Cenomanian to early Turonian.
 ---
 
 ## Overview
+
+Argentinosaurus huinculensis was a giant titanosaur from the Huincul Formation of Patagonia. Despite its fame, it is known from a small set of enormous vertebrae, ribs and limb-girdle elements; precise maximum length and mass are highly extrapolative.
 
 Argentinosaurus huinculensis is one of the candidates for the largest land animal that has ever existed, from the Cenomanian of Patagonia (~96 Ma). Known from fragmentary remains — several dorsal vertebrae, a tibia and rib fragments — size estimates based on scaling from these elements suggest a body length of 30–40 metres and a mass of 70–80 tonnes or more, though the uncertainty ranges are very wide given the incompleteness of the material.
 
@@ -123,9 +119,14 @@ The lower-leg bone was described as a tibia but is generally reinterpreted as a 
 
 Gigantic vertebrae and limb bones are the basis for its extreme size estimates.
 
+- The holotype includes several dorsal vertebrae, part of the sacrum, an anterior caudal, ribs and a right tibia.
+- A giant femoral shaft often discussed with it is not securely associated with the holotype.
+
 ## Where it lived
 
 Cretaceous Patagonian terrestrial ecosystems with large titanosaurs and theropods.
+
+The lower Huincul Formation is late Cenomanian to early Turonian.
 
 ## Classification
 

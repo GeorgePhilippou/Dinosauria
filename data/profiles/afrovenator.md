@@ -65,17 +65,11 @@ parked:
     text: Sereno and colleagues described the Tiourarén beds as Early Cretaceous in 1994. Rauhut and López-Arbarello reassessed the fish, invertebrate, geological and dinosaur evidence in 2009 and concluded that a pre-Kimmeridgian, probably late Middle Jurassic age was most likely. No direct radiometric date was available, so the age remains a stratigraphic interpretation rather than an exact measurement.
   - from: "article: Classification and significance"
     text: Afrovenator is a tetanuran theropod within Megalosauridae. Its substantial skeleton makes it an important Gondwanan record for a family better represented in Europe, although its exact position among megalosaurids varies between phylogenetic analyses.
-  - from: record fact
-    text: The preserved material includes much of the skull, parts of the vertebral column, forelimbs and hands, much of the pelvis, and most of the hind limbs.
-  - from: record fact
-    text: A 2009 reassessment concluded that the Tiourarén dinosaur fauna is probably late Middle Jurassic rather than Early Cretaceous.
-  - from: record fact
-    text: "Afrovenator is placed within Megalosauridae; its exact position within that family varies among phylogenetic analyses."
-  - from: age review note
-    text: The profile follows the late Middle Jurassic interpretation of the Tiourarén Formation. PBDB spans a broader interval because its occurrence set includes records and formation assignments with different age resolutions.
 ---
 
 ## Overview
+
+Afrovenator was a large megalosaurid theropod from the Tiourarén Formation of Niger. It is represented by one relatively complete partial skeleton, including substantial cranial and postcranial material. The formation was initially described as Early Cretaceous but is now most plausibly regarded as late Middle Jurassic.
 
 Afrovenator abakensis was a large megalosaurid theropod from the Tiourarén Formation of Niger. Sereno and colleagues named it in 1994 from the holotype MNN TIG1 (formerly UC OBA 1), a relatively complete partial skull and skeleton that preserves substantial portions of the body.
 
@@ -106,6 +100,14 @@ Afrovenator is known from a single individual, the holotype MNN TIG1, which pres
 The holotype includes much of the skull and lower jaw with teeth, a series of vertebrae, both forelimbs with nearly complete hands, much of the pelvis, and most of both hindlimbs.
 
 Because only one skeleton is known, everything said about the species rests on that individual, and the age of the rocks that contained it has itself been revised.
+
+- The preserved material includes much of the skull, parts of the vertebral column, forelimbs and hands, much of the pelvis, and most of the hind limbs.
+- A 2009 reassessment concluded that the Tiourarén dinosaur fauna is probably late Middle Jurassic rather than Early Cretaceous.
+- Afrovenator is placed within Megalosauridae; its exact position within that family varies among phylogenetic analyses.
+
+## Where it lived
+
+The profile follows the late Middle Jurassic interpretation of the Tiourarén Formation. PBDB spans a broader interval because its occurrence set includes records and formation assignments with different age resolutions.
 
 ## Classification
 

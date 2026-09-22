@@ -42,13 +42,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Beipiaosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Both ordinary filamentous feathers and unusually long broad filaments are directly preserved.
-  - from: record fact
-    text: Herbivory or omnivory is plausible from therizinosaur anatomy, but exact food items are not preserved.
-  - from: age review note
-    text: The Jianshangou beds of the Yixian Formation are early Aptian, close to 125 million years old.
 ---
 
 ## Overview
@@ -71,9 +64,14 @@ The first Beipiaosaurus remains were found in 1996 in the Yixian Formation of Li
 
 Multiple partial skeletons, several with extensive feather impressions.
 
+- Both ordinary filamentous feathers and unusually long broad filaments are directly preserved.
+- Herbivory or omnivory is plausible from therizinosaur anatomy, but exact food items are not preserved.
+
 ## Where it lived
 
 Exceptionally well-preserved Early Cretaceous Lagerstätte yielding the primary Beipiaosaurus specimens with feather impressions.
+
+The Jianshangou beds of the Yixian Formation are early Aptian, close to 125 million years old.
 
 ## Open questions
 

@@ -38,15 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/melanorosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: A modern redescription designated a lectotype from the original syntype material.
-  - from: record fact
-    text: The well-known skull once assigned to Melanorosaurus was not part of the type and should not be used uncritically in reconstructions.
-  - from: record fact
-    text: Its robust limbs support habitual terrestrial quadrupedal capacity, while exact gait remains biomechanically debated.
-  - from: age review note
-    text: "The type material is from the lower Elliot Formation and is treated as Norian; older generic ranges assembled from referrals are not accepted."
 ---
 
 ## Overview
@@ -69,9 +60,15 @@ Melanorosaurus readi was named in 1924 by Sydney Haughton based on partial limb 
 
 Fragmentary name-bearing postcranial material, with additional historical referrals of unequal security.
 
+- A modern redescription designated a lectotype from the original syntype material.
+- The well-known skull once assigned to Melanorosaurus was not part of the type and should not be used uncritically in reconstructions.
+- Its robust limbs support habitual terrestrial quadrupedal capacity, while exact gait remains biomechanically debated.
+
 ## Where it lived
 
 The holotype and several referred specimens of Melanorosaurus readi were recovered from Late Triassic redbeds in the Karoo Basin.
+
+The type material is from the lower Elliot Formation and is treated as Norian; older generic ranges assembled from referrals are not accepted.
 
 ## Open questions
 

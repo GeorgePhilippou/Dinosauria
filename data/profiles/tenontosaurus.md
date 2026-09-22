@@ -46,17 +46,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/tenontosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Tenontosaurus tilletti is represented by numerous partial skeletons and at least one near-complete skeleton.
-  - from: record fact
-    text: The tail was exceptionally long and reinforced by ossified tendons.
-  - from: record fact
-    text: Several bonebeds contain Deinonychus teeth and remains, demonstrating repeated ecological association but not a unique hunting strategy.
-  - from: record fact
-    text: "Multi-individual accumulations may reflect sociality, drought or transport; the wiki no longer states herd behaviour as established fact."
-  - from: age review note
-    text: The reviewed range covers secure Aptian-Albian occurrences in the Cloverly and Antlers formations. Other referrals require specimen-level review.
 ---
 
 ## Overview
@@ -77,9 +66,16 @@ Tenontosaurus was named by John Ostrom in 1970 on the basis of material from the
 
 Many partial skeletons and a near-complete individual, plus multi-individual bonebeds.
 
+- Tenontosaurus tilletti is represented by numerous partial skeletons and at least one near-complete skeleton.
+- The tail was exceptionally long and reinforced by ossified tendons.
+- Several bonebeds contain Deinonychus teeth and remains, demonstrating repeated ecological association but not a unique hunting strategy.
+- Multi-individual accumulations may reflect sociality, drought or transport; the wiki no longer states herd behaviour as established fact.
+
 ## Where it lived
 
 Key site yielding numerous Tenontosaurus specimens alongside Deinonychus material.
+
+The reviewed range covers secure Aptian-Albian occurrences in the Cloverly and Antlers formations. Other referrals require specimen-level review.
 
 ## Classification
 

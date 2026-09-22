@@ -38,13 +38,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chaoyangsaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Cranial anatomy supports a position near the base of Ceratopsia.
-  - from: record fact
-    text: "It lacked the elaborate horns and frill of later ceratopsids; the rest of its external appearance is reconstructed."
-  - from: age review note
-    text: The upper Tuchengzi Formation is usually considered latest Jurassic, probably Tithonian, but dating remains debated.
 ---
 
 ## Overview
@@ -65,9 +58,14 @@ Chaoyangsaurus youngi was described in 1999 by Zhao Xijin, Cheng Zhengwu, and Xu
 
 One partial skull and fragmentary associated postcrania.
 
+- Cranial anatomy supports a position near the base of Ceratopsia.
+- It lacked the elaborate horns and frill of later ceratopsids; the rest of its external appearance is reconstructed.
+
 ## Where it lived
 
 Late Jurassic continental deposits in northeastern China preserving early ceratopsian material including Chaoyangsaurus.
+
+The upper Tuchengzi Formation is usually considered latest Jurassic, probably Tithonian, but dating remains debated.
 
 ## Classification
 

@@ -78,19 +78,11 @@ parked:
     text: Ammosaurus is one of the few sauropodomorphs known from the earliest Jurassic of North America, providing evidence that this group colonised Laurasia during the Triassic–Jurassic transition. Its similarity to Anchisaurus raises questions about the number of valid anchisaurid genera versus individual variation within a single species, and the question of synonymy has not been fully resolved.
   - from: "article: Palaeoenvironment"
     text: The Hartford Basin deposits where Ammosaurus was found represent rift valley lake and floodplain environments formed during the early break-up of Pangaea. These red-bed sequences have also produced abundant dinosaur trackways, showing that Early Jurassic ecosystems of eastern North America supported a variety of small to medium-sized dinosaurs.
-  - from: record fact
-    text: Marsh named the material Anchisaurus major in 1889 and erected Ammosaurus for it in 1891.
-  - from: record fact
-    text: Yates's 2010 revision found the Manchester skeletons conspecific and referred them to the older name Anchisaurus polyzelus.
-  - from: record fact
-    text: The International Commission on Zoological Nomenclature designated the almost complete YPM 1883 skeleton as the neotype of Anchisaurus polyzelus in 2015, stabilising that name.
-  - from: record fact
-    text: This page is retained to explain the historical name and should not be counted as a separate valid dinosaur genus.
-  - from: age review note
-    text: The reviewed range follows the Early Jurassic Portland Formation material on which Ammosaurus and Anchisaurus were based. Broader records assigned to the historical name should not be treated as proof of a longer-lived separate genus.
 ---
 
 ## Overview
+
+Ammosaurus major is a historical name for Early Jurassic sauropodomorph material from the Portland Formation of Connecticut. Detailed revision found its type and the other Manchester quarry skeletons to belong to Anchisaurus polyzelus, making Ammosaurus a junior subjective synonym rather than a separate accepted genus.
 
 Ammosaurus major was a basal sauropodomorph dinosaur that lived in what is now the northeastern United States and Canada during the Early Jurassic, approximately 200–199 million years ago. It was about 5 metres long and closely resembled its relative Anchisaurus, sharing a lightly built body plan suited to facultative bipedality. Fossils have been recovered from the McCoy Brook Formation of Nova Scotia and from Connecticut and Massachusetts.
 
@@ -122,9 +114,16 @@ The holotype YPM 208 preserves the pelvis, sacrum, hindlimbs and tail region. Ot
 
 The front half of the holotype skeleton was incorporated into a bridge abutment and only partly recovered decades later, so the type specimen is permanently incomplete.
 
+- Marsh named the material Anchisaurus major in 1889 and erected Ammosaurus for it in 1891.
+- Yates's 2010 revision found the Manchester skeletons conspecific and referred them to the older name Anchisaurus polyzelus.
+- The International Commission on Zoological Nomenclature designated the almost complete YPM 1883 skeleton as the neotype of Anchisaurus polyzelus in 2015, stabilising that name.
+- This page is retained to explain the historical name and should not be counted as a separate valid dinosaur genus.
+
 ## Where it lived
 
 Multiple Ammosaurus specimens have been recovered from this Early Jurassic formation, helping establish the geographic range of the genus in eastern North America.
+
+The reviewed range follows the Early Jurassic Portland Formation material on which Ammosaurus and Anchisaurus were based. Broader records assigned to the historical name should not be treated as proof of a longer-lived separate genus.
 
 ## Classification
 

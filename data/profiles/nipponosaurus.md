@@ -40,15 +40,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38775"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype includes parts of the skull, vertebral column and limbs recovered in two excavations.
-  - from: record fact
-    text: Histological and skeletal features show it was not fully grown.
-  - from: record fact
-    text: Modern reanalysis supports its validity, but its exact position within Lambeosaurinae is sensitive to ontogeny.
-  - from: age review note
-    text: "The marine Yezo Group horizon is Santonian; the specimen was found on Sakhalin when southern Sakhalin was under Japanese administration."
 ---
 
 ## Overview
@@ -69,11 +60,17 @@ The known material includes parts of the skull, vertebrae, limb elements and gir
 
 Single associated subadult skeleton, approximately 60% complete.
 
+- The holotype includes parts of the skull, vertebral column and limbs recovered in two excavations.
+- Histological and skeletal features show it was not fully grown.
+- Modern reanalysis supports its validity, but its exact position within Lambeosaurinae is sensitive to ontogeny.
+
 ## Where it lived
 
 The occurrence of a lambeosaurine hadrosaur on Late Cretaceous Sakhalin documents faunal connection between the Asian mainland and Sakhalin during the Santonian. This island-to-continent biogeographic link is relevant to understanding how hadrosaurs dispersed across the Late Cretaceous Pacific rim.
 
 Late Santonian marine-influenced deposits on Sakhalin Island that yielded the only known Nipponosaurus specimen.
+
+The marine Yezo Group horizon is Santonian; the specimen was found on Sakhalin when southern Sakhalin was under Japanese administration.
 
 ## Open questions
 

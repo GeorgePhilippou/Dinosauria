@@ -38,13 +38,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Secernosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: It is among the first named South American hadrosaurids but is not known from a complete skeleton.
-  - from: record fact
-    text: Kritosaurus australis is generally treated as a junior synonym of Secernosaurus.
-  - from: age review note
-    text: "Patagonian occurrences are late Campanian-Maastrichtian; locality-level ages vary."
 ---
 
 ## Overview
@@ -67,9 +60,14 @@ Secernosaurus koerneri was described by Michael Brett-Surman in 1979 from fragme
 
 Fragmentary cranial and postcranial bones from more than one locality.
 
+- It is among the first named South American hadrosaurids but is not known from a complete skeleton.
+- Kritosaurus australis is generally treated as a junior synonym of Secernosaurus.
+
 ## Where it lived
 
 Late Cretaceous Patagonian continental deposits yielding the only known Secernosaurus material.
+
+Patagonian occurrences are late Campanian-Maastrichtian; locality-level ages vary.
 
 ## Open questions
 

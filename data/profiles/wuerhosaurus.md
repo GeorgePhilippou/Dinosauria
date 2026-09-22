@@ -33,13 +33,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/wuerhosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: No complete skeleton or skull is known for the type species.
-  - from: record fact
-    text: "The four-tonne point mass is cleared; proposed synonymy with Stegosaurus is not generally accepted."
-  - from: age review note
-    text: The Tugulu Group is Early Cretaceous, but correlations of the relevant unit remain too uncertain to support a narrow stage or numerical age.
 ---
 
 ## Overview
@@ -62,9 +55,14 @@ Fragmentary postcranial skeletons and isolated plates; skull absent.
 
 Stegosaur plates and postcranial anatomy confirm its identity; its Early Cretaceous age makes it one of the last known stegosaurs.
 
+- No complete skeleton or skull is known for the type species.
+- The four-tonne point mass is cleared; proposed synonymy with Stegosaurus is not generally accepted.
+
 ## Where it lived
 
 Early Cretaceous of central Asia — a rare survival of the stegosaur lineage into the Cretaceous.
+
+The Tugulu Group is Early Cretaceous, but correlations of the relevant unit remain too uncertain to support a narrow stage or numerical age.
 
 ## Open questions
 

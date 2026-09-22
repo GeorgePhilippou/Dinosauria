@@ -41,15 +41,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/lusotitan.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The lectotype represents one incomplete skeleton dominated by vertebral, girdle and limb material.
-  - from: record fact
-    text: Long forelimbs support a high-shouldered brachiosaurid body plan.
-  - from: record fact
-    text: Mass, total length and exact neck posture remain model-dependent.
-  - from: age review note
-    text: The Sobral Member of the Lourinha Formation is late Kimmeridgian to early Tithonian.
 ---
 
 ## Overview
@@ -70,9 +61,15 @@ The fossils originally assigned to Lusotitan were discovered near Atalaia in cen
 
 Substantial incomplete postcranial lectotype skeleton with disputed referrals.
 
+- The lectotype represents one incomplete skeleton dominated by vertebral, girdle and limb material.
+- Long forelimbs support a high-shouldered brachiosaurid body plan.
+- Mass, total length and exact neck posture remain model-dependent.
+
 ## Where it lived
 
 Fragmentary postcranial bones attributed to Lusotitan atalaiensis were recovered from Late Jurassic coastal deposits in this highly productive formation.
+
+The Sobral Member of the Lourinha Formation is late Kimmeridgian to early Tithonian.
 
 ## Classification
 

@@ -12,7 +12,8 @@ mass_kg: 130
 diet: Carnivore
 posture: on 2 legs
 found_in: [Germany]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: "Moderate for early theropod identity and late Norian age; low for skull, diagnosis and exact relationships."
 classification: [Dinosauria, Saurischia, Theropoda, Neotheropoda]
 summary: "Liliensternus liliensterni was a medium-sized early theropod from late Norian Knollenmergel beds in Thuringia, equivalent to the Trossingen Formation succession elsewhere in Germany. Its principal material comprises disarticulated partial skeletons representing at least two individuals, with only fragmentary cranial remains; a second species once assigned to it is now Lophostropheus."
@@ -36,17 +37,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/liliensternus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: No complete skull or skeleton is known.
-  - from: record fact
-    text: The principal L. liliensterni record is late Norian and should not be extended into the Rhaetian using former L. airelensis material.
-  - from: record fact
-    text: Bipedality and carnivory are supported at broad theropod level.
-  - from: record fact
-    text: Its exact position relative to coelophysoids and dilophosaur-grade theropods is unsettled.
-  - from: age review note
-    text: "Restricted to the late Norian Knollenmergel material from Thuringia; Rhaetian-Hettangian material formerly called L. airelensis belongs to Lophostropheus."
 ---
 
 ## Overview
@@ -69,9 +59,16 @@ Disarticulated partial skeletal material from at least two individuals, with fra
 
 Large coelophysoid proportions and early theropod skeletal features confirm its placement near the base of Neotheropoda.
 
+- No complete skull or skeleton is known.
+- The principal L. liliensterni record is late Norian and should not be extended into the Rhaetian using former L. airelensis material.
+- Bipedality and carnivory are supported at broad theropod level.
+- Its exact position relative to coelophysoids and dilophosaur-grade theropods is unsettled.
+
 ## Where it lived
 
 Late Triassic European terrestrial environments where early dinosaurs were beginning to diversify.
+
+Restricted to the late Norian Knollenmergel material from Thuringia; Rhaetian-Hettangian material formerly called L. airelensis belongs to Lophostropheus.
 
 ## Open questions
 

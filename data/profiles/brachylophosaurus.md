@@ -38,13 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/brachylophosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Several so-called mummies preserve scales and body outlines, not an intact living appearance.
-  - from: record fact
-    text: Plant fragments in one body cavity are potentially gut contents, but contamination and taphonomic mixing limit fine dietary conclusions.
-  - from: age review note
-    text: Diagnostic occurrences are late Campanian, principally about 78-76 million years old.
 ---
 
 ## Overview
@@ -67,9 +60,14 @@ Numerous skulls and skeletons, several nearly complete and preserving skin impre
 
 Stomach contents preserve direct dietary evidence; skin impressions and internal organs are known from mummified specimens.
 
+- Several so-called mummies preserve scales and body outlines, not an intact living appearance.
+- Plant fragments in one body cavity are potentially gut contents, but contamination and taphonomic mixing limit fine dietary conclusions.
+
 ## Where it lived
 
 Late Cretaceous floodplains of the northern interior of North America.
+
+Diagnostic occurrences are late Campanian, principally about 78-76 million years old.
 
 ## Open questions
 

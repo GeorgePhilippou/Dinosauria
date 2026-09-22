@@ -43,13 +43,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/tarchia.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type is not a complete skeleton.
-  - from: record fact
-    text: Minotaurasaurus has often been synonymised with Tarchia, while recent revisions recognise more than one Tarchia species.
-  - from: age review note
-    text: "The type species is late Campanian Baruungoyot Formation; younger Nemegt referrals need separate review."
 ---
 
 ## Overview
@@ -72,9 +65,14 @@ Tarchia was named by Teresa Maryanska in 1977 from specimens collected during Po
 
 Type skull and limited postcranium plus numerous historically referred specimens.
 
+- The type is not a complete skeleton.
+- Minotaurasaurus has often been synonymised with Tarchia, while recent revisions recognise more than one Tarchia species.
+
 ## Where it lived
 
 Tarchia specimens have been recovered from the Nemegt Formation, a Late Cretaceous fluvial-deltaic deposit in the Gobi Desert famous for its diverse dinosaur fauna.
+
+The type species is late Campanian Baruungoyot Formation; younger Nemegt referrals need separate review.
 
 ## Open questions
 

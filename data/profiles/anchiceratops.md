@@ -38,13 +38,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38852"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The genus is represented by numerous skulls with variable frill shape.
-  - from: record fact
-    text: Variation may reflect age, individual differences or stratigraphy rather than separate sexes.
-  - from: age review note
-    text: Most diagnostic material is upper Campanian to lower Maastrichtian within the Horseshoe Canyon Formation.
 ---
 
 ## Overview
@@ -62,6 +55,13 @@ Skull material is comparatively good, but postcranial anatomy and population bio
 ## Fossil record
 
 Multiple skulls and partial postcranial skeletons.
+
+- The genus is represented by numerous skulls with variable frill shape.
+- Variation may reflect age, individual differences or stratigraphy rather than separate sexes.
+
+## Where it lived
+
+Most diagnostic material is upper Campanian to lower Maastrichtian within the Horseshoe Canyon Formation.
 
 ## Open questions
 

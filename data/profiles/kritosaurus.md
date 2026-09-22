@@ -47,15 +47,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Kritosaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The famous high nasal arch was partly reconstructed in the original specimen and is now interpreted more cautiously.
-  - from: record fact
-    text: No complete type skeleton exists.
-  - from: record fact
-    text: Herbivory and sophisticated dental-battery chewing are secure at hadrosaurid level.
-  - from: age review note
-    text: Restricted to the De-na-zin Member of the Kirtland Formation, late Campanian.
 ---
 
 ## Overview
@@ -74,11 +65,17 @@ Kritosaurus navajovius was named in 1910 by Barnum Brown from material collected
 
 Incomplete diagnostic skull with limited referred postcranial material.
 
+- The famous high nasal arch was partly reconstructed in the original specimen and is now interpreted more cautiously.
+- No complete type skeleton exists.
+- Herbivory and sophisticated dental-battery chewing are secure at hadrosaurid level.
+
 ## Where it lived
 
 Kritosaurus inhabited the Late Campanian to Maastrichtian floodplains, river systems, and coastal areas of the southern Laramidian landmass. It coexisted with ceratopsids, ankylosaurs, and tyrannosaurids in a diverse dinosaurian community. The Wikipedia entry notes it lived from approximately 74.5–66 million years ago, placing it among the latest-surviving hadrosaurines.
 
 The primary source of Kritosaurus navajovius material, from Late Campanian fluvial and coastal plain deposits of the San Juan Basin.
+
+Restricted to the De-na-zin Member of the Kirtland Formation, late Campanian.
 
 ## Classification
 

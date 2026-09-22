@@ -52,15 +52,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dacentrurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The name is based on a partial postcranial skeleton from the Kimmeridge Clay of England.
-  - from: record fact
-    text: European material includes vertebrae, girdle and limb bones, plates and tail spines, but no single complete skeleton.
-  - from: record fact
-    text: "Its low-crowned teeth and stegosaur anatomy support herbivory and quadrupedal locomotion; exact size and armour arrangement are reconstructed from incomplete individuals."
-  - from: age review note
-    text: "The broad range covers accepted western European records; it must not be inferred from PBDB occurrence counts alone."
 ---
 
 ## Overview
@@ -83,9 +74,15 @@ Dacentrurus armatus was named by Frederick Augustus Lucas in 1902 from material 
 
 Partial type skeleton plus several referred partial skeletons and isolated elements.
 
+- The name is based on a partial postcranial skeleton from the Kimmeridge Clay of England.
+- European material includes vertebrae, girdle and limb bones, plates and tail spines, but no single complete skeleton.
+- Its low-crowned teeth and stegosaur anatomy support herbivory and quadrupedal locomotion; exact size and armour arrangement are reconstructed from incomplete individuals.
+
 ## Where it lived
 
 Late Jurassic coastal and fluvial deposits in Portugal yielding significant Dacentrurus material alongside other well-known dinosaurs.
+
+The broad range covers accepted western European records; it must not be inferred from PBDB occurrence counts alone.
 
 ## Open questions
 

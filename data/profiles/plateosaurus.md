@@ -80,17 +80,11 @@ parked:
     text: "For much of the 20th century Plateosaurus was reconstructed as a facultative quadruped. Detailed biomechanical analysis by Bonnan and Senter (2007) and others showed its wrist anatomy prevented pronation — the hand could not be placed flat on the ground for walking. Plateosaurus was an obligate biped, using its forelimbs only for grasping."
   - from: "article: Growth biology"
     text: "Bone histology of Plateosaurus samples shows variable growth rates between individuals of the same size — unlike the predictable rapid growth of birds and mammals. This \"reptilian\" growth strategy means that Plateosaurus individuals reached similar adult sizes at very different ages. The same feeding resources and climate produced very different growth trajectories, suggesting growth was strongly environmentally controlled rather than genetically fixed."
-  - from: record fact
-    text: The Trossingen and Frick bonebeds preserve many individuals of different sizes.
-  - from: record fact
-    text: Biomechanical work favours habitual bipedality for adults rather than elephant-like quadrupedal walking.
-  - from: record fact
-    text: Size varied substantially among mature individuals, consistent with developmental plasticity.
-  - from: age review note
-    text: "Well-dated occurrences span Norian-Rhaetian European strata; species-level horizons should be retained separately."
 ---
 
 ## Overview
+
+Plateosaurus was a large non-sauropodan sauropodomorph from Late Triassic Europe, represented by many skeletons and bonebed assemblages. Species-level nomenclature, especially P. engelhardti versus P. trossingensis, has a complex history.
 
 Plateosaurus engelhardti was one of the most successful dinosaurs of the Late Triassic — a large prosauropod reaching up to seven metres, known from over 100 individuals across central Europe (Germany, France, Switzerland). It was a committed biped that could not walk on four legs, despite early reconstructions showing a quadrupedal posture, and its body plan presages the giant sauropods that would evolve from its lineage.
 
@@ -124,9 +118,15 @@ The abundance is concentrated in a few bonebeds, so the genus is exceptionally w
 
 Growth series and skeletons document a large bipedal sauropodomorph before true giant sauropods.
 
+- The Trossingen and Frick bonebeds preserve many individuals of different sizes.
+- Biomechanical work favours habitual bipedality for adults rather than elephant-like quadrupedal walking.
+- Size varied substantially among mature individuals, consistent with developmental plasticity.
+
 ## Where it lived
 
 Late Triassic European terrestrial basins with mass-death assemblages.
+
+Well-dated occurrences span Norian-Rhaetian European strata; species-level horizons should be retained separately.
 
 ## Classification
 

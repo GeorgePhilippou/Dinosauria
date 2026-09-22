@@ -37,15 +37,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/yunnanosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Extensive tooth wear supports plant processing, so the catalogue omnivore label is replaced with herbivore.
-  - from: record fact
-    text: Y. robustus is generally treated as a junior synonym of Y. huangi.
-  - from: record fact
-    text: Sedimentological reassessment places Y. youngi in the Lower Jurassic Fengjiahe Formation, probably Pliensbachian, rather than the Middle Jurassic.
-  - from: age review note
-    text: "Y. huangi is from the Lower Jurassic Lower Lufeng Formation, whereas Y. youngi is now placed in the Lower Jurassic Fengjiahe Formation and is probably Pliensbachian; one merged numerical genus range would conceal that species-level evidence."
 ---
 
 ## Overview
@@ -68,9 +59,15 @@ Yunnanosaurus huangi was named by the eminent Chinese palaeontologist C.C. Young
 
 Multiple partial skeletons and skulls divided among species and formations.
 
+- Extensive tooth wear supports plant processing, so the catalogue omnivore label is replaced with herbivore.
+- Y. robustus is generally treated as a junior synonym of Y. huangi.
+- Sedimentological reassessment places Y. youngi in the Lower Jurassic Fengjiahe Formation, probably Pliensbachian, rather than the Middle Jurassic.
+
 ## Where it lived
 
 The highly productive Early Jurassic formation near Lufeng County from which multiple Yunnanosaurus specimens were described.
+
+Y. huangi is from the Lower Jurassic Lower Lufeng Formation, whereas Y. youngi is now placed in the Lower Jurassic Fengjiahe Formation and is probably Pliensbachian; one merged numerical genus range would conceal that species-level evidence.
 
 ## Open questions
 

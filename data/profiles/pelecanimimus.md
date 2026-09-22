@@ -33,15 +33,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=64117"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The specimen preserves skull, neck, forelimbs and anterior trunk but lacks most of the hind body.
-  - from: record fact
-    text: It had more than 200 small teeth, unlike later toothless ornithomimids.
-  - from: record fact
-    text: Soft tissues around the throat and body outline are preserved, but a pelican-like pouch is not established.
-  - from: age review note
-    text: Las Hoyas is late Barremian, around 126-125 Ma.
 ---
 
 ## Overview
@@ -64,9 +55,15 @@ Pelecanimimus polyodon was described in 1994 by Pérez-Moreno and colleagues fro
 
 Single articulated anterior skeleton with skull, forelimbs and soft-tissue traces; hindquarters largely absent.
 
+- The specimen preserves skull, neck, forelimbs and anterior trunk but lacks most of the hind body.
+- It had more than 200 small teeth, unlike later toothless ornithomimids.
+- Soft tissues around the throat and body outline are preserved, but a pelican-like pouch is not established.
+
 ## Where it lived
 
 Late Barremian lacustrine Konservat-Lagerstätte deposits near Las Hoyas, Cuenca, yielding the exquisitely preserved holotype of Pelecanimimus including soft-tissue impressions.
+
+Las Hoyas is late Barremian, around 126-125 Ma.
 
 ## Open questions
 

@@ -75,15 +75,11 @@ parked:
     text: "The Auca Mahuevo site in Neuquén, excavated from 1997 by Chiappe, Dingus and colleagues, preserves a vast nesting colony of a titanosaur (almost certainly Saltasaurus or a close relative). Eggs are 13–15 cm in diameter; some preserve embryo skin showing small rounded scales. The site shows multiple nesting horizons — the same area used repeatedly across seasons — consistent with site fidelity in modern colonial nesters."
   - from: "article: Small size and late survival"
     text: "At 12 metres, Saltasaurus was small for a titanosaur. Its modest size and armour distinguish it from the giant titanosaurs of earlier Cretaceous South America. It survived until the very end of the Cretaceous, and its remains are found in Maastrichtian deposits just below the K-Pg boundary — one of the last non-avian dinosaurs known from South America."
-  - from: record fact
-    text: Much of the postcranial skeleton is known collectively, not as one complete individual.
-  - from: record fact
-    text: Dermal armour is directly documented, but its complete arrangement over the body is unknown.
-  - from: age review note
-    text: "The Lecho Formation sample crosses late Campanian-early Maastrichtian estimates; a single 70 Ma date is too precise."
 ---
 
 ## Overview
+
+Saltasaurus loricatus was a small-bodied saltasaurine titanosaur from the Lecho Formation of Argentina, known from disarticulated remains of several individuals and associated osteoderms.
 
 Saltasaurus loricatus was a relatively small (12-metre) titanosaur from the Late Cretaceous of northwestern Argentina (~70 Ma), remarkable for preserving direct evidence of titanosaur dermal armour: small bony nodules (osteoderms) embedded in the skin, including larger oval scutes up to 10 cm across. This was the first unambiguous evidence that sauropods could bear bony armour — previously considered impossible given their size and posture.
 
@@ -117,9 +113,14 @@ Because the material comes from several mixed individuals, reconstructions are c
 
 Bony armour plates embedded in skin are preserved — the first confirmed armoured sauropod — alongside typical titanosaur postcranial bones.
 
+- Much of the postcranial skeleton is known collectively, not as one complete individual.
+- Dermal armour is directly documented, but its complete arrangement over the body is unknown.
+
 ## Where it lived
 
 Late Cretaceous of northwestern Argentina, in floodplain environments with titanosaur nesting colonies.
+
+The Lecho Formation sample crosses late Campanian-early Maastrichtian estimates; a single 70 Ma date is too precise.
 
 ## Classification
 

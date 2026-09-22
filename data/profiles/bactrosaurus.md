@@ -43,13 +43,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38770"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: At least a dozen individuals are represented at the principal locality.
-  - from: record fact
-    text: "Its broad herbivorous and primarily bipedal-to-facultatively quadrupedal interpretation is based on hadrosauroid anatomy; exact gait and diet are not directly observed."
-  - from: age review note
-    text: The Iren Dabasu Formation has a debated broad Late Cretaceous age, probably within the Cenomanian-Campanian interval.
 ---
 
 ## Overview
@@ -70,9 +63,14 @@ Bactrosaurus johnsoni was described by Charles Gilmore in 1933 from material col
 
 Disarticulated skull and skeleton elements from at least twelve individuals.
 
+- At least a dozen individuals are represented at the principal locality.
+- Its broad herbivorous and primarily bipedal-to-facultatively quadrupedal interpretation is based on hadrosauroid anatomy; exact gait and diet are not directly observed.
+
 ## Where it lived
 
 Multiple Bactrosaurus individuals including juveniles and adults were recovered from this formation, providing important ontogenetic data for one of the earliest known hadrosaurids.
+
+The Iren Dabasu Formation has a debated broad Late Cretaceous age, probably within the Cenomanian-Campanian interval.
 
 ## Classification
 

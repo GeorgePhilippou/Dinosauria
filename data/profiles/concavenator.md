@@ -31,13 +31,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/concavenator.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The tall neural spines over the hips directly support a raised dorsal structure, but its soft-tissue outline and function are unknown.
-  - from: record fact
-    text: "Bumps on the ulna were proposed as feather-quill attachment sites; that interpretation remains contested and does not demonstrate a fully feathered body."
-  - from: age review note
-    text: The La Huerguina Formation at Las Hoyas is Barremian.
 ---
 
 ## Overview
@@ -60,9 +53,14 @@ One nearly complete articulated skeleton with limited skin impressions.
 
 The hump vertebrae and possible quill-knob structures on the arm bones are unique among large theropods.
 
+- The tall neural spines over the hips directly support a raised dorsal structure, but its soft-tissue outline and function are unknown.
+- Bumps on the ulna were proposed as feather-quill attachment sites; that interpretation remains contested and does not demonstrate a fully feathered body.
+
 ## Where it lived
 
 Early Cretaceous Spanish wetland ecosystem with diverse fish, turtles, crocodilians and early birds.
+
+The La Huerguina Formation at Las Hoyas is Barremian.
 
 ## Open questions
 

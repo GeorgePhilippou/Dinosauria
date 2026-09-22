@@ -39,15 +39,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eustreptospondylus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype is not an adult and lacks parts of the skull, limbs and tail.
-  - from: record fact
-    text: Marine burial does not show that the animal was aquatic.
-  - from: record fact
-    text: Serrated teeth and theropod anatomy support terrestrial carnivory.
-  - from: age review note
-    text: Restricted to the upper Callovian Peterborough Member of the Oxford Clay Formation.
 ---
 
 ## Overview
@@ -66,11 +57,17 @@ The specimen that would become Eustreptospondylus was found near Oxford in the n
 
 One relatively complete subadult partial skeleton with incomplete skull.
 
+- The holotype is not an adult and lacks parts of the skull, limbs and tail.
+- Marine burial does not show that the animal was aquatic.
+- Serrated teeth and theropod anatomy support terrestrial carnivory.
+
 ## Where it lived
 
 Eustreptospondylus is among the most important dinosaur specimens in British collections, as one of the most complete Middle Jurassic theropods known from the UK. Its nearly complete skeleton allows detailed comparison with other megalosaurids worldwide and continues to inform studies of Jurassic theropod evolution and biogeography. The specimen is a centrepiece of the Oxford University Museum of Natural History.
 
 The only known locality; the holotype nearly complete skeleton is housed at the University Museum of Natural History, Oxford.
+
+Restricted to the upper Callovian Peterborough Member of the Oxford Clay Formation.
 
 ## Classification
 

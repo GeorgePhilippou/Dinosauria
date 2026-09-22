@@ -38,15 +38,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Protarchaeopteryx&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Long symmetrical feathers occur on the arms and especially the tail.
-  - from: record fact
-    text: "Its feathers do not demonstrate powered flight; skeletal anatomy places it among non-avian oviraptorosaurs."
-  - from: record fact
-    text: "Teeth and jaw form do not establish a single precise diet; omnivory or herbivory remains inferred."
-  - from: age review note
-    text: The Yixian Formation specimens are Aptian Early Cretaceous.
 ---
 
 ## Overview
@@ -65,9 +56,15 @@ Protarchaeopteryx robusta was named by Qiang Ji and Shu-An Ji in 1997 as part of
 
 Partial articulated skeletons with direct feather impressions.
 
+- Long symmetrical feathers occur on the arms and especially the tail.
+- Its feathers do not demonstrate powered flight; skeletal anatomy places it among non-avian oviraptorosaurs.
+- Teeth and jaw form do not establish a single precise diet; omnivory or herbivory remains inferred.
+
 ## Where it lived
 
 World-famous Early Cretaceous Lagerstätte preserving exceptional feather impressions on non-avian dinosaurs.
+
+The Yixian Formation specimens are Aptian Early Cretaceous.
 
 ## Classification
 

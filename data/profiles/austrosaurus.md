@@ -34,13 +34,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38675"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype comprises six presacral vertebrae and associated ribs.
-  - from: record fact
-    text: Modern reassessment places it near, but not securely within, Titanosauria.
-  - from: age review note
-    text: The Allaru Mudstone type horizon is late Albian.
 ---
 
 ## Overview
@@ -61,11 +54,16 @@ Austrosaurus mckillopi was described by Heber Longman in 1933 from vertebrae and
 
 Six presacral vertebrae and associated ribs.
 
+- The holotype comprises six presacral vertebrae and associated ribs.
+- Modern reassessment places it near, but not securely within, Titanosauria.
+
 ## Where it lived
 
 During the Early Cretaceous, the Eromanga Basin was covered by the vast Eromanga Sea, a shallow inland sea that divided Australia into eastern and western landmasses. Austrosaurus inhabited the riverine and deltaic environments bordering this sea. The Allaru Mudstone has also yielded the remains of marine reptiles and fish, reflecting the proximity of the terrestrial ecosystem to these marine waters.
 
 Dorsal vertebrae and limb elements of Austrosaurus were recovered from this formation in the Eromanga Basin, representing the first Australian sauropod formally described from the country.
+
+The Allaru Mudstone type horizon is late Albian.
 
 ## Open questions
 

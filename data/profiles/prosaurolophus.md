@@ -48,15 +48,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Prosaurolophus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Ten articulated skulls document substantial individual and ontogenetic variation.
-  - from: record fact
-    text: Prosaurolophus blackfeetensis is best treated as a junior synonym of P. maximus in the modern quantitative revision.
-  - from: record fact
-    text: "The small nasal crest is bony; any associated inflatable soft-tissue display structure remains speculative."
-  - from: age review note
-    text: Secure P. maximus material spans the late Campanian Dinosaur Park and Two Medicine formations.
 ---
 
 ## Overview
@@ -73,11 +64,17 @@ With 24 to 29 known individuals including articulated skeletons, Prosaurolophus 
 
 Numerous complete articulated skulls and multiple partial skeletons of different growth stages.
 
+- Ten articulated skulls document substantial individual and ontogenetic variation.
+- Prosaurolophus blackfeetensis is best treated as a junior synonym of P. maximus in the modern quantitative revision.
+- The small nasal crest is bony; any associated inflatable soft-tissue display structure remains speculative.
+
 ## Where it lived
 
 Prosaurolophus lived on the western coastal plain of the Western Interior Seaway during the Campanian. Lush subtropical forests and river deltas provided abundant vegetation. It co-existed with ceratopsians such as Styracosaurus, large tyrannosaurs, and a diverse array of other hadrosaurs including lambeosaurines.
 
 Campanian formation famous for its diversity of dinosaurs; a major source of Prosaurolophus skeletons.
+
+Secure P. maximus material spans the late Campanian Dinosaur Park and Two Medicine formations.
 
 ## Classification
 

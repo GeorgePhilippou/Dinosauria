@@ -37,15 +37,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Equijubus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype includes a substantial skull and incomplete postcranium.
-  - from: record fact
-    text: Its teeth and jaws support herbivory and its limbs support bipedal-to-facultatively quadrupedal locomotion.
-  - from: record fact
-    text: Putative grass microfossils associated with the specimen are controversial and do not securely prove habitual grazing.
-  - from: age review note
-    text: Aptian-Albian is retained because the middle grey unit of the Xinminpu Group is not narrowly radiometrically constrained.
 ---
 
 ## Overview
@@ -68,9 +59,15 @@ Equijubus normani was described in 2003 by You, Luo, Shubin, Witmer, Tang, and T
 
 One associated partial skull and skeleton.
 
+- The holotype includes a substantial skull and incomplete postcranium.
+- Its teeth and jaws support herbivory and its limbs support bipedal-to-facultatively quadrupedal locomotion.
+- Putative grass microfossils associated with the specimen are controversial and do not securely prove habitual grazing.
+
 ## Where it lived
 
 The only known locality; Albian-age continental deposits in this formation preserve a diverse vertebrate fauna including small theropods and sauropods.
+
+Aptian-Albian is retained because the middle grey unit of the Xinminpu Group is not narrowly radiometrically constrained.
 
 ## Open questions
 

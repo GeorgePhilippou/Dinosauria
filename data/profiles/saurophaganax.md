@@ -40,17 +40,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Saurophaganax&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype OMNH 1123 is an isolated neural arch, not a complete or associated giant theropod skeleton.
-  - from: record fact
-    text: Some bones formerly referred to Saurophaganax are more consistent with diplodocid sauropods.
-  - from: record fact
-    text: The securely theropod material from the Kenton quarry was separated as Allosaurus anax in 2024.
-  - from: record fact
-    text: Older size estimates for a giant Saurophaganax combine referred bones and should not be presented as measurements of the name-bearing specimen.
-  - from: age review note
-    text: The record is restricted to the Kenton Member of the Morrison Formation in Oklahoma. A broad formation-wide occurrence range does not establish the range of the disputed name.
 ---
 
 ## Overview
@@ -73,9 +62,16 @@ Material later assigned to Saurophaganax was collected from Oklahoma in the 1930
 
 An isolated name-bearing neural arch plus historically referred quarry material now divided among sauropod and theropod specimens.
 
+- The holotype OMNH 1123 is an isolated neural arch, not a complete or associated giant theropod skeleton.
+- Some bones formerly referred to Saurophaganax are more consistent with diplodocid sauropods.
+- The securely theropod material from the Kenton quarry was separated as Allosaurus anax in 2024.
+- Older size estimates for a giant Saurophaganax combine referred bones and should not be presented as measurements of the name-bearing specimen.
+
 ## Where it lived
 
 Late Jurassic fluvial floodplain deposits of the Morrison Formation yielding the Saurophaganax material.
+
+The record is restricted to the Kenton Member of the Morrison Formation in Oklahoma. A broad formation-wide occurrence range does not establish the range of the disputed name.
 
 ## Open questions
 

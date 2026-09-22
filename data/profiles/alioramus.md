@@ -33,13 +33,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/alioramus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: A. altai preserves a substantially complete skull and partial skeleton of a subadult.
-  - from: record fact
-    text: "The distinctive row of low nasal rugosities is real; their display role is an inference."
-  - from: age review note
-    text: Both named species come from the Maastrichtian Nemegt Formation.
 ---
 
 ## Overview
@@ -62,9 +55,14 @@ One fragmentary type and one substantially complete skull with partial skeleton,
 
 Long, low skull and many small teeth distinguish it from deeper-skulled tyrannosaurids.
 
+- A. altai preserves a substantially complete skull and partial skeleton of a subadult.
+- The distinctive row of low nasal rugosities is real; their display role is an inference.
+
 ## Where it lived
 
 Nemegt floodplain deposits preserve large tyrannosaurids, ornithomimosaurs, oviraptorosaurs and hadrosaurs.
+
+Both named species come from the Maastrichtian Nemegt Formation.
 
 ## Open questions
 

@@ -38,15 +38,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Magyarosaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Bone histology indicates that small individuals were mature, supporting island dwarfism rather than juvenility.
-  - from: record fact
-    text: The skull is poorly known and full-body reconstructions are composites.
-  - from: record fact
-    text: Other species historically assigned to Magyarosaurus are dubious or belong elsewhere.
-  - from: age review note
-    text: "The core material is Maastrichtian Densus-Ciula Formation; older broad referrals are excluded."
 ---
 
 ## Overview
@@ -67,9 +58,15 @@ Magyarosaurus was named in 1932 by Friedrich von Huene based on material collect
 
 Numerous disarticulated postcranial bones from multiple individuals; little secure cranial material.
 
+- Bone histology indicates that small individuals were mature, supporting island dwarfism rather than juvenility.
+- The skull is poorly known and full-body reconstructions are composites.
+- Other species historically assigned to Magyarosaurus are dubious or belong elsewhere.
+
 ## Where it lived
 
 Multiple specimens of Magyarosaurus dacus have been recovered from Late Cretaceous terrestrial deposits in the famous Haţeg Basin.
+
+The core material is Maastrichtian Densus-Ciula Formation; older broad referrals are excluded.
 
 ## Classification
 

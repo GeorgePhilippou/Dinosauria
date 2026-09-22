@@ -87,15 +87,11 @@ parked:
     text: "Biomechanical analysis shows relatively low bite force for its size but an extremely wide gape (up to 79°). The axe-strike hypothesis — driving the upper jaw into prey like a hatchet — is supported by skull kinetics studies. Three large curved hand claws gripped prey during the strike. An Allosaurus vertebra pierced by a Stegosaurus tail spike, and Stegosaurus plates bearing Allosaurus tooth marks, are the most direct evidence of predator-prey interaction in the Morrison."
   - from: "article: Population biology"
     text: "Growth ring analysis shows adult size was reached in 15–20 years, with mortality peaking at intermediate juvenile stages. The Cleveland-Lloyd concentration — animals attracted to mired prey over years — implies Allosaurus was at times an opportunistic scavenger as well as an active hunter. It was sympatric with Ceratosaurus and the rarer Torvosaurus, likely occupying distinct prey-size niches."
-  - from: record fact
-    text: A. fragilis and A. jimmadseni are widely recognised North American species.
-  - from: record fact
-    text: Bonebeds and healed injuries provide population-level evidence but do not establish pack hunting or a single feeding strategy.
-  - from: age review note
-    text: Secure North American material is Kimmeridgian-Tithonian in the Morrison Formation.
 ---
 
 ## Overview
+
+Allosaurus was a large allosaurid theropod abundant in the Morrison Formation of western North America. Many skulls and skeletons document its anatomy and growth, although the boundaries and diagnoses of named species remain under active revision.
 
 Allosaurus fragilis was the dominant predator of the Late Jurassic Morrison Formation, reaching nearly ten metres and 2.7 tonnes. Its wide-opening jaws were used in a distinctive axe-strike attack — driving the upper jaw downward into prey — rather than the crushing bite of a tyrannosaur, allowing it to wound and incapacitate animals far larger than itself.
 
@@ -129,9 +125,14 @@ The Marsh holotype YPM 1930 is too fragmentary to diagnose the species, so the i
 
 Skulls, teeth, limb bones and healed injuries support interpretations of feeding, growth and predatory behaviour.
 
+- A. fragilis and A. jimmadseni are widely recognised North American species.
+- Bonebeds and healed injuries provide population-level evidence but do not establish pack hunting or a single feeding strategy.
+
 ## Where it lived
 
 Late Jurassic Morrison floodplains with sauropods, stegosaurs and other theropods.
+
+Secure North American material is Kimmeridgian-Tithonian in the Morrison Formation.
 
 ## Classification
 

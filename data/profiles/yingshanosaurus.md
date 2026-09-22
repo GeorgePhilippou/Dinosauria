@@ -38,17 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/yingshanosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype CV 00722 is a partial skeleton including incomplete cranial and postcranial material and dermal armour.
-  - from: record fact
-    text: The name circulated informally before 1994, which explains the outdated nomen nudum label in some catalogues.
-  - from: record fact
-    text: Zhu's 1994 paper supplied the formal genus and species description.
-  - from: record fact
-    text: The striking shoulder-spine reconstruction and precise body dimensions require rechecking against the original specimen rather than copying exhibition mounts.
-  - from: age review note
-    text: The holotype is from the Upper Shaximiao Formation. Numerical ages for that terrestrial unit remain under revision, so the displayed Oxfordian range is approximate.
 ---
 
 ## Overview
@@ -71,9 +60,16 @@ Yingshanosaurus jichuanensis was described in 1992 by Watanabe in a Japanese-lan
 
 Partial associated skeleton with incomplete skull, postcrania and dermal armour (CV 00722).
 
+- The holotype CV 00722 is a partial skeleton including incomplete cranial and postcranial material and dermal armour.
+- The name circulated informally before 1994, which explains the outdated nomen nudum label in some catalogues.
+- Zhu's 1994 paper supplied the formal genus and species description.
+- The striking shoulder-spine reconstruction and precise body dimensions require rechecking against the original specimen rather than copying exhibition mounts.
+
 ## Where it lived
 
 Late Jurassic floodplain deposits of the Sichuan Basin from which Yingshanosaurus was reportedly described.
+
+The holotype is from the Upper Shaximiao Formation. Numerical ages for that terrestrial unit remain under revision, so the displayed Oxfordian range is approximate.
 
 ## Open questions
 

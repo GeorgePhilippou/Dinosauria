@@ -39,15 +39,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/megalosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The lectotype is a partial right dentary with teeth.
-  - from: record fact
-    text: Some cranial, vertebral, pelvic and limb bones from the same regional unit are referred, but no complete skeleton exists.
-  - from: record fact
-    text: Most historical species named Megalosaurus have been removed or are dubious.
-  - from: age review note
-    text: The reviewed age follows the middle Bathonian Taynton Limestone and does not import unrelated Megalosaurus referrals.
 ---
 
 ## Overview
@@ -68,11 +59,17 @@ Lectotype dentary plus limited referred cranial and postcranial bones from the s
 
 Large theropod jaw and limb bones made it one of the first dinosaurs scientifically described.
 
+- The lectotype is a partial right dentary with teeth.
+- Some cranial, vertebral, pelvic and limb bones from the same regional unit are referred, but no complete skeleton exists.
+- Most historical species named Megalosaurus have been removed or are dubious.
+
 ## Where it lived
 
 The Stonesfield Slate was deposited in warm, shallow-marine to coastal settings on the margin of the Tethys Sea. Megalosaurus was likely the apex terrestrial predator of this coastal ecosystem, sharing its world with the sauropod Cetiosaurus, fish, marine reptiles and abundant invertebrates.
 
 Middle Jurassic European terrestrial to nearshore environments.
+
+The reviewed age follows the middle Bathonian Taynton Limestone and does not import unrelated Megalosaurus referrals.
 
 ## Open questions
 

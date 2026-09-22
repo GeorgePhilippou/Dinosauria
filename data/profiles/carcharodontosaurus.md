@@ -83,15 +83,11 @@ parked:
     text: "The skull reaches approximately 1.6 m in length, with large blade-like teeth bearing serrations on both edges. The overall body plan is typical for a large carcharodontosaurid: robust axial skeleton, powerful hindlimbs and relatively gracile forelimbs with three-fingered hands. Size estimates place large individuals at 12–13 m, making it one of the largest terrestrial predators from Africa."
   - from: "article: North African mega-predator ecosystem"
     text: "The Kem Kem deposits record a dramatic ecosystem where multiple giant predators coexisted — Carcharodontosaurus, Spinosaurus, Deltadromeus and large crocodilians in a river-delta environment rich in fish. How these apex predators partitioned resources is debated; Spinosaurus' aquatic specialisation likely segregated it from the terrestrially hunting Carcharodontosaurus, reducing direct competition."
-  - from: record fact
-    text: The Moroccan neotype SGM-Din 1 preserves a large but incomplete skull, not a full skeleton.
-  - from: record fact
-    text: Postcranial and crest details from the Bahariya specimen named Tameryraptor must no longer be presented as C. saharicus anatomy.
-  - from: age review note
-    text: Secure C. saharicus evidence is Cenomanian, chiefly the historical Algerian type record and the Kem Kem Group neotype of Morocco.
 ---
 
 ## Overview
+
+Carcharodontosaurus saharicus was a giant carcharodontosaurid from Cenomanian North Africa. The name originated with now-lost Algerian teeth and is stabilised by a large partial Moroccan neotype skull; the destroyed Egyptian skeleton long used to reconstruct it was separated in 2025 as Tameryraptor markgrafi.
 
 Carcharodontosaurus saharicus was a massive carcharodontosaurid theropod from the Cenomanian of North Africa (~100–94 Ma), rivalling Tyrannosaurus in length and sharing its continent with Spinosaurus in a vast river-delta ecosystem. Its name — "shark-toothed lizard" — refers to its large, flattened, serrated teeth convergent with those of great white sharks.
 
@@ -125,9 +121,14 @@ Postcranial features once attributed to Carcharodontosaurus came from the destro
 
 Large blade-like serrated teeth and skull material define its carcharodontosaurid identity.
 
+- The Moroccan neotype SGM-Din 1 preserves a large but incomplete skull, not a full skeleton.
+- Postcranial and crest details from the Bahariya specimen named Tameryraptor must no longer be presented as C. saharicus anatomy.
+
 ## Where it lived
 
 Cretaceous North African river and coastal systems with giant theropods, sauropods and abundant fish.
+
+Secure C. saharicus evidence is Cenomanian, chiefly the historical Algerian type record and the Kem Kem Group neotype of Morocco.
 
 ## Classification
 

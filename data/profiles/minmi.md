@@ -12,7 +12,8 @@ mass_kg: 300
 diet: Herbivore
 posture: on 4 legs
 found_in: [Australia]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: Do not transfer the complete Kunbarrasaurus skull and skeleton to Minmi.
 classification: [Dinosauria, Ornithischia, Thyreophora, Ankylosauria]
 summary: Minmi paravertebra was an Australian ankylosaur based on a partial skeleton from the Bungil Formation of Queensland. The much more complete skeleton formerly called Minmi sp. was renamed Kunbarrasaurus and must not supply Minmi anatomy.
@@ -41,15 +42,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/minmi.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The holotype includes vertebrae, ribs and limb and armour elements but no well-preserved skull.
-  - from: record fact
-    text: Paravertebral ossifications are prominent in the type.
-  - from: record fact
-    text: Upper Albian Australian ankylosaur material once discussed under Minmi belongs to Kunbarrasaurus or other ankylosaurs and must not extend the range or anatomy of Minmi paravertebra.
-  - from: age review note
-    text: The Minmi paravertebra holotype is from the lower Aptian Bungil Formation. Upper Albian Toolebuc and Allaru material belongs to Kunbarrasaurus or other ankylosaurs, not securely to Minmi.
 ---
 
 ## Overview
@@ -72,9 +64,15 @@ Partial postcranial holotype with vertebrae, limbs and osteoderms; skull poorly 
 
 Armour plates and postcranial material define this small Gondwanan ankylosaur, though its most famous, most complete specimen now belongs to the separately diagnosed Kunbarrasaurus.
 
+- The holotype includes vertebrae, ribs and limb and armour elements but no well-preserved skull.
+- Paravertebral ossifications are prominent in the type.
+- Upper Albian Australian ankylosaur material once discussed under Minmi belongs to Kunbarrasaurus or other ankylosaurs and must not extend the range or anatomy of Minmi paravertebra.
+
 ## Where it lived
 
 Early Cretaceous Australian environment, then a high-latitude landmass with seasonal conditions.
+
+The Minmi paravertebra holotype is from the lower Aptian Bungil Formation. Upper Albian Toolebuc and Allaru material belongs to Kunbarrasaurus or other ankylosaurs, not securely to Minmi.
 
 ## Open questions
 

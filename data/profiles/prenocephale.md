@@ -43,15 +43,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Prenocephale&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The rounded frontoparietal dome and surrounding nodes are directly preserved.
-  - from: record fact
-    text: Homalocephale has been proposed as a juvenile growth stage, but this synonymy is not universally accepted.
-  - from: record fact
-    text: "Bipedality is secure; herbivory or omnivory and head-striking behaviour remain inferential."
-  - from: age review note
-    text: "The type is late Campanian Baruungoyot Formation; a range to 66 Ma is not supported by the type species."
 ---
 
 ## Overview
@@ -74,9 +65,15 @@ Prenocephale prenes was described in 1974 by Polish palaeontologists Teresa Mary
 
 Holotype skull and partial skeleton plus referred skull material.
 
+- The rounded frontoparietal dome and surrounding nodes are directly preserved.
+- Homalocephale has been proposed as a juvenile growth stage, but this synonymy is not universally accepted.
+- Bipedality is secure; herbivory or omnivory and head-striking behaviour remain inferential.
+
 ## Where it lived
 
 Rich Late Cretaceous formation from which the Prenocephale type material was recovered alongside diverse dinosaur faunas.
+
+The type is late Campanian Baruungoyot Formation; a range to 66 Ma is not supported by the type species.
 
 ## Open questions
 

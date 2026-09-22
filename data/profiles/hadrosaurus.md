@@ -45,15 +45,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/hadrosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype was the first mounted dinosaur skeleton displayed to the public, but it is far from complete.
-  - from: record fact
-    text: No skull is preserved with the type.
-  - from: record fact
-    text: It was a large herbivore capable of bipedal and quadrupedal locomotion, as inferred from hadrosaurid anatomy.
-  - from: age review note
-    text: "The Woodbury Formation type horizon is late Campanian; broad 84-66 Ma ranges are not species-level evidence."
 ---
 
 ## Overview
@@ -74,11 +65,17 @@ Hadrosaurus foulkii was formally described in 1858 by Joseph Leidy from a partia
 
 One diagnostic incomplete postcranial skeleton lacking a skull.
 
+- The holotype was the first mounted dinosaur skeleton displayed to the public, but it is far from complete.
+- No skull is preserved with the type.
+- It was a large herbivore capable of bipedal and quadrupedal locomotion, as inferred from hadrosaurid anatomy.
+
 ## Where it lived
 
 During the Campanian, the eastern coast of North America was a mosaic of coastal plain, river delta, and shallow marine environments. Hadrosaurus lived in this low-lying, subtropical setting near what is now New Jersey. Large theropods and substantial crocodilians inhabited the same region, providing ecological context for understanding predation pressures on large herbivores.
 
 The Haddonfield, New Jersey locality where the holotype of Hadrosaurus foulkii was excavated in 1858, the first reasonably complete dinosaur skeleton found in North America.
+
+The Woodbury Formation type horizon is late Campanian; broad 84-66 Ma ranges are not species-level evidence.
 
 ## Open questions
 

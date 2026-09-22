@@ -34,13 +34,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=66671"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The broad hand bones inspired the species name but do not reveal a specific feeding behaviour.
-  - from: record fact
-    text: "A bipedal, cursorial body plan is supported by ornithomimid anatomy; exact diet is uncertain."
-  - from: age review note
-    text: The type locality is in the Maastrichtian Nemegt Formation.
 ---
 
 ## Overview
@@ -61,11 +54,16 @@ Anserimimus planinychus was described by Rinchen Barsbold in 1988 from material 
 
 One incomplete postcranial skeleton, with limited additional referred material.
 
+- The broad hand bones inspired the species name but do not reveal a specific feeding behaviour.
+- A bipedal, cursorial body plan is supported by ornithomimid anatomy; exact diet is uncertain.
+
 ## Where it lived
 
 The Nemegt Formation represents a river-dominated floodplain environment with a relatively humid climate compared to other Mongolian Cretaceous formations. Anserimimus shared this environment with the giant tyrannosaur Tarbosaurus, the oviraptorid Citipati, the ankylosaur Tarchia, and the enormous ornithomimid Deinocheirus. The diverse Nemegt fauna represents one of the last great non-avian dinosaur communities of Asia.
 
 Known Anserimimus specimens come from this famous formation, which also preserves Tarbosaurus, Therizinosaurus, and Deinocheirus, representing one of the richest Late Cretaceous dinosaur faunas in Asia.
+
+The type locality is in the Maastrichtian Nemegt Formation.
 
 ## Open questions
 

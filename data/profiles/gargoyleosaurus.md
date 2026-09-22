@@ -37,15 +37,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gargoyleosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The skull is informative but crushed and incomplete.
-  - from: record fact
-    text: It was a low, quadrupedal herbivore without evidence for an ankylosaurid tail club.
-  - from: record fact
-    text: Its placement just inside Ankylosauria versus near Nodosauridae varies among analyses.
-  - from: age review note
-    text: "The type is from the Upper Jurassic Morrison Formation; member-level correlation gives only an approximate numerical age."
 ---
 
 ## Overview
@@ -64,11 +55,17 @@ Gargoyleosaurus parkpinorum was described by Kenneth Carpenter, Chure, and Kirkl
 
 One partial skull and substantial incomplete postcranial skeleton with osteoderms.
 
+- The skull is informative but crushed and incomplete.
+- It was a low, quadrupedal herbivore without evidence for an ankylosaurid tail club.
+- Its placement just inside Ankylosauria versus near Nodosauridae varies among analyses.
+
 ## Where it lived
 
 Gargoyleosaurus lived alongside some of the most iconic Jurassic dinosaurs, including Allosaurus, Diplodocus, Brachiosaurus, and Stegosaurus in the Morrison Formation ecosystem. As a low-slung armoured herbivore, it would have fed on ground-level vegetation such as ferns and cycads, relying on its dermal armour and possibly flank spines for protection against large theropod predators.
 
 The only known locality; the partially articulated skeleton was found in the Late Jurassic Morrison Formation of Albany County, Wyoming.
+
+The type is from the Upper Jurassic Morrison Formation; member-level correlation gives only an approximate numerical age.
 
 ## Classification
 

@@ -63,15 +63,11 @@ parked:
     text: "Three main hypotheses: (1) a skin-covered sail for thermoregulation and/or display, analogous to Ouranosaurus; (2) individually keratinous spines forming a porcupine-like defensive array; (3) heavily muscled bases for neck movement control. Finite element analysis suggests the spines could not have been actively moved; the sail or defensive array hypotheses are currently most discussed. No direct soft-tissue evidence has been found."
   - from: "article: Ecological context"
     text: "The La Amarga Formation records a period when South America was becoming more isolated. Amargasaurus is a dicraeosaurid — a family with long neural spines also known from Tanzania (Dicraeosaurus) — suggesting earlier global distribution of this lineage before continental separation. The Early Cretaceous Patagonian fauna included smaller dinosaurs and crocodylomorphs alongside the larger sauropods."
-  - from: record fact
-    text: The holotype is relatively complete for a dicraeosaurid but is not a full articulated skeleton.
-  - from: record fact
-    text: The neural spines supported soft tissue, but competing sail, sheath and display reconstructions are not decisively resolved.
-  - from: age review note
-    text: The Puesto Antigual Member of the La Amarga Formation is Barremian-early Aptian.
 ---
 
 ## Overview
+
+Amargasaurus cazaui was a dicraeosaurid sauropod from the La Amarga Formation of Argentina. One partial skeleton preserves much of the vertebral column, including paired, extremely tall cervical neural spines, plus skull and limb elements.
 
 Amargasaurus cazaui was a distinctive Early Cretaceous diplodocoid sauropod from Argentina (~130 Ma), with two parallel rows of tall neural spines running along its neck and back — the most dramatic spinal ornamentation of any sauropod. The spines could have supported a sail-like skin web, individual keratinous spines like a porcupine, or simply been covered in muscle — no soft-tissue evidence directly confirms which.
 
@@ -105,9 +101,14 @@ The snout, most of the tail and the hands and feet are missing or poorly known, 
 
 Elongate neural spines provide the key evidence for its unusual neck and back profile.
 
+- The holotype is relatively complete for a dicraeosaurid but is not a full articulated skeleton.
+- The neural spines supported soft tissue, but competing sail, sheath and display reconstructions are not decisively resolved.
+
 ## Where it lived
 
 Early Cretaceous South American terrestrial deposits.
+
+The Puesto Antigual Member of the La Amarga Formation is Barremian-early Aptian.
 
 ## Classification
 

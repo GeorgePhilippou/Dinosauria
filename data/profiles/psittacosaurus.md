@@ -79,17 +79,11 @@ parked:
     text: "A remarkably preserved 3D specimen analysed by Vinther and colleagues in 2016 allowed reconstruction of the external colour pattern from preserved melanosomes. The dorsal surface had darker melanosomes (eumelanosomes) and the ventral surface had lighter ones (phaeomelanosomes or absent melanosomes), producing classic counter-shading camouflage. The cloacal region bore distinct dark and pale banding — possibly used in intraspecific signalling."
   - from: "article: Tail bristles and display"
     text: "Preserved bristle-like filaments projecting from the tail of one specimen are distinct from the filamentous proto-feathers of coelurosaurs — they are stiffer, more widely spaced and confined to the tail. Their function is unclear: display or intraspecific signalling are most commonly proposed. They are not homologous to bird feathers but may represent an independent integumentary novelty within ceratopsians."
-  - from: record fact
-    text: Exceptional specimens preserve tail bristles, skin outlines, pigmentation patterns, a cloacal region and stomach contents.
-  - from: record fact
-    text: Those soft-tissue observations belong to particular specimens and species, not automatically every Psittacosaurus.
-  - from: record fact
-    text: Juveniles were more quadrupedal and adults predominantly bipedal in major growth studies.
-  - from: age review note
-    text: "The genus spans multiple Barremian-Albian formations; individual species occupy narrower intervals."
 ---
 
 ## Overview
+
+Psittacosaurus was a diverse Early Cretaceous ceratopsian genus from Asia, represented by hundreds of specimens and numerous named species. The type species P. mongoliensis is anatomically well known, but genus-wide claims must distinguish species.
 
 Psittacosaurus ("parrot lizard") is one of the most species-rich dinosaur genera — over 12 species are recognised from the Early Cretaceous of Asia (~126–101 Ma) — and one of the most completely understood, from hatchling to adult, because thousands of specimens exist including individuals at every ontogenetic stage. A distinctive parrot-like beak gave it its name.
 
@@ -123,9 +117,15 @@ The abundance of material is uneven across species: some are represented by sing
 
 Beaked skulls, growth series and tail bristles make it one of the best-known small ornithischians.
 
+- Exceptional specimens preserve tail bristles, skin outlines, pigmentation patterns, a cloacal region and stomach contents.
+- Those soft-tissue observations belong to particular specimens and species, not automatically every Psittacosaurus.
+- Juveniles were more quadrupedal and adults predominantly bipedal in major growth studies.
+
 ## Where it lived
 
 Early Cretaceous Asian lake, forest and volcanic-influenced ecosystems.
+
+The genus spans multiple Barremian-Albian formations; individual species occupy narrower intervals.
 
 ## Classification
 

@@ -38,15 +38,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Probactrosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: It documents an intermediate-grade hadrosauroid, but it is not established as the direct ancestor of later hadrosaurids.
-  - from: record fact
-    text: Probactrosaurus alashanicus is generally treated as a junior synonym, while P. mazongshanensis was removed to Gongpoquansaurus.
-  - from: record fact
-    text: "Quadrupedal and bipedal movement were anatomically possible; exact gait frequency is unknown."
-  - from: age review note
-    text: "The Dashuigou Formation is Aptian-Albian; the broad original catalogue interval is retained only at formation resolution."
 ---
 
 ## Overview
@@ -67,11 +58,17 @@ Probactrosaurus gobiensis was named by Soviet palaeontologist Anatoly Rozhdestve
 
 Several partial skeletons with substantial cranial, axial and appendicular material.
 
+- It documents an intermediate-grade hadrosauroid, but it is not established as the direct ancestor of later hadrosaurids.
+- Probactrosaurus alashanicus is generally treated as a junior synonym, while P. mazongshanensis was removed to Gongpoquansaurus.
+- Quadrupedal and bipedal movement were anatomically possible; exact gait frequency is unknown.
+
 ## Where it lived
 
 During the Aptian stage, Inner Mongolia was a fluvial and floodplain environment with seasonal rivers. Probactrosaurus shared this setting with early theropods and other ornithopods, browsing on the diverse Early Cretaceous plant communities that preceded the dominance of flowering plants.
 
 Aptian-age continental deposits of Inner Mongolia yielding the main Probactrosaurus material.
+
+The Dashuigou Formation is Aptian-Albian; the broad original catalogue interval is retained only at formation resolution.
 
 ## Open questions
 

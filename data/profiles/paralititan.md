@@ -38,15 +38,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=64373"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype includes very large humeri plus vertebral and girdle elements, not a complete skeleton.
-  - from: record fact
-    text: Gigantic size is secure qualitatively, but precise length and mass estimates span a wide range.
-  - from: record fact
-    text: "The fossils came from coastal mangrove-influenced sediments; this does not make the animal aquatic."
-  - from: age review note
-    text: The Bahariya type horizon is Cenomanian, approximately 100-94 Ma.
 ---
 
 ## Overview
@@ -67,11 +58,17 @@ Known material includes a partial postcranial skeleton comprising vertebrae, a h
 
 Incomplete partial skeleton including large paired humeri, vertebrae and girdle elements.
 
+- The holotype includes very large humeri plus vertebral and girdle elements, not a complete skeleton.
+- Gigantic size is secure qualitatively, but precise length and mass estimates span a wide range.
+- The fossils came from coastal mangrove-influenced sediments; this does not make the animal aquatic.
+
 ## Where it lived
 
 The Bahariye Formation represents a coastal to tidal environment of Cenomanian North Africa, inhabited by an extraordinary diversity of large vertebrates including Spinosaurus, the sauropod Aegyptosaurus, the carcharodontosaurid Carcharodontosaurus, and the titanosaur Paralititan. This was one of the most predator-rich ecosystems known from the fossil record, likely supported by the productivity of the coastal mangrove system.
 
 Cenomanian tidal-flat and mangrove deposits of the Western Desert of Egypt, yielding Paralititan remains including a massive forelimb element.
+
+The Bahariya type horizon is Cenomanian, approximately 100-94 Ma.
 
 ## Open questions
 

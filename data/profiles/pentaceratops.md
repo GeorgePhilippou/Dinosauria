@@ -34,15 +34,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/pentaceratops.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The name refers to three true facial horns plus elongated cheek projections.
-  - from: record fact
-    text: "OMNH 10165, once reconstructed as a giant Pentaceratops, was proposed as Titanoceratops; that separation remains debated."
-  - from: record fact
-    text: Exact frill soft tissues and horn use are unknown.
-  - from: age review note
-    text: Secure P. sternbergii material is late Campanian Kirtland Formation, around 75.9-73.4 Ma.
 ---
 
 ## Overview
@@ -65,9 +56,15 @@ Multiple partial skulls and skeletons; some referrals of disputed identity.
 
 The enormous skull with five horn points is diagnostic; skull dimensions make it among the largest skulls of any land animal.
 
+- The name refers to three true facial horns plus elongated cheek projections.
+- OMNH 10165, once reconstructed as a giant Pentaceratops, was proposed as Titanoceratops; that separation remains debated.
+- Exact frill soft tissues and horn use are unknown.
+
 ## Where it lived
 
 Late Cretaceous forested floodplains of the American Southwest.
+
+Secure P. sternbergii material is late Campanian Kirtland Formation, around 75.9-73.4 Ma.
 
 ## Open questions
 

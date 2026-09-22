@@ -39,15 +39,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Garudimimus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type is associated but incomplete and was altered by damage and early reconstruction.
-  - from: record fact
-    text: It was bipedal but probably less cursorially specialised than Gallimimus-like ornithomimids.
-  - from: record fact
-    text: Its toothless jaws do not by themselves resolve whether it ate plants, animals or both.
-  - from: age review note
-    text: Formation age is kept broad because Bayan Shireh correlations remain debated.
 ---
 
 ## Overview
@@ -70,9 +61,15 @@ Garudimimus brevipes was described by Rinchen Barsbold in 1981 in the same year 
 
 Single partial skeleton including a damaged skull and much of the limbs.
 
+- The type is associated but incomplete and was altered by damage and early reconstruction.
+- It was bipedal but probably less cursorially specialised than Gallimimus-like ornithomimids.
+- Its toothless jaws do not by themselves resolve whether it ate plants, animals or both.
+
 ## Where it lived
 
 The only known locality; the type specimen is the sole known representative of the genus, found during the 1981 Soviet-Mongolian palaeontological expedition.
+
+Formation age is kept broad because Bayan Shireh correlations remain debated.
 
 ## Open questions
 

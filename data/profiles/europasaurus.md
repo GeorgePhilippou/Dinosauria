@@ -39,15 +39,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Europasaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The assemblage is rich but does not contain one complete articulated skeleton.
-  - from: record fact
-    text: Adult status of small individuals is supported by growth marks and slowed growth, not body size alone.
-  - from: record fact
-    text: Skulls, vertebrae and limb bones document much of the anatomy across different individuals.
-  - from: age review note
-    text: The quarry horizon is late Kimmeridgian and commonly placed near 154 Ma.
 ---
 
 ## Overview
@@ -68,9 +59,15 @@ The Europasaurus fossils were first collected by amateur palaeontologist Holger 
 
 Abundant multi-individual cranial and postcranial remains across an ontogenetic series.
 
+- The assemblage is rich but does not contain one complete articulated skeleton.
+- Adult status of small individuals is supported by growth marks and slowed growth, not body size alone.
+- Skulls, vertebrae and limb bones document much of the anatomy across different individuals.
+
 ## Where it lived
 
 The Langenberg Quarry near Goslar is the primary source of Europasaurus material, preserving dozens of individuals of various ages in Kimmeridgian marine carbonate beds — the bones were transported from an adjacent island platform into a shallow lagoon.
+
+The quarry horizon is late Kimmeridgian and commonly placed near 154 Ma.
 
 ## Open questions
 

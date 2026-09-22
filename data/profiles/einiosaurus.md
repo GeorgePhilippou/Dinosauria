@@ -36,15 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/einiosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The record is a disarticulated multi-individual bonebed, not one complete skeleton.
-  - from: record fact
-    text: Nasal horn and frill shape changed during growth.
-  - from: record fact
-    text: The bonebeds support group aggregation but do not reveal permanent herd organisation.
-  - from: age review note
-    text: The upper Two Medicine Formation bonebeds are tightly placed in the late Campanian near 75.5-74 Ma.
 ---
 
 ## Overview
@@ -67,9 +58,15 @@ Two multi-individual bonebeds with abundant cranial and postcranial remains acro
 
 Bonebeds document mass mortality and herd living; the distinctive curved nasal horn is unique among centrosaurines.
 
+- The record is a disarticulated multi-individual bonebed, not one complete skeleton.
+- Nasal horn and frill shape changed during growth.
+- The bonebeds support group aggregation but do not reveal permanent herd organisation.
+
 ## Where it lived
 
 Late Cretaceous seasonal floodplain of Montana with nesting hadrosaurs and diverse ceratopsians.
+
+The upper Two Medicine Formation bonebeds are tightly placed in the late Campanian near 75.5-74 Ma.
 
 ## Open questions
 

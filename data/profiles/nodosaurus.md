@@ -11,7 +11,8 @@ length_m: 5
 mass_kg: null
 diet: Herbivore
 found_in: [USA]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: Skull, tail tip and exact armour arrangement are unknown.
 classification: [Dinosauria, Ornithischia, Thyreophora, Ankylosauria, Nodosauridae]
 summary: Nodosaurus textilis is an early named nodosaurid ankylosaur from the Frontier Formation of Wyoming, based on a partial postcranial skeleton with armour but no skull.
@@ -40,15 +41,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Nodosaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype preserves vertebrae, girdle and limb elements and dermal armour.
-  - from: record fact
-    text: "No skull or tail club is known; head shape and much of the armour arrangement are reconstructed from relatives."
-  - from: record fact
-    text: It was a quadrupedal herbivore by nodosaurid anatomy, but precise size and feeding height are estimates.
-  - from: age review note
-    text: "The Frontier Formation type horizon is Cenomanian; an Early Cretaceous 110-100 Ma range is incorrect."
 ---
 
 ## Overview
@@ -71,9 +63,15 @@ Known material consists largely of postcranial elements including vertebrae, rib
 
 Single partial postcranial skeleton with osteoderms; skull absent.
 
+- The holotype preserves vertebrae, girdle and limb elements and dermal armour.
+- No skull or tail club is known; head shape and much of the armour arrangement are reconstructed from relatives.
+- It was a quadrupedal herbivore by nodosaurid anatomy, but precise size and feeding height are estimates.
+
 ## Where it lived
 
 Cenomanian marine and marginal-marine deposits of Wyoming where Nodosaurus holotype material was found by Marsh.
+
+The Frontier Formation type horizon is Cenomanian; an Early Cretaceous 110-100 Ma range is incorrect.
 
 ## Open questions
 

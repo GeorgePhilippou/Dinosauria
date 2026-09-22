@@ -36,15 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/irritator.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Commercial fossil dealers modified parts of the skull before scientific study, and later preparation corrected the reconstruction.
-  - from: record fact
-    text: Long conical teeth and a narrow snout support catching relatively small prey, including fish, but not an exclusively fish diet.
-  - from: record fact
-    text: The proposed synonymy with Angaturama limai remains debated.
-  - from: age review note
-    text: The Romualdo Formation is late Aptian in current correlations, broadly 113-110 Ma.
 ---
 
 ## Overview
@@ -67,9 +58,15 @@ One nearly complete but altered and restored skull without associated postcraniu
 
 The elongated skull with conical teeth is diagnostic for spinosaurids; the Brazilian occurrence extends the family's known range to South America.
 
+- Commercial fossil dealers modified parts of the skull before scientific study, and later preparation corrected the reconstruction.
+- Long conical teeth and a narrow snout support catching relatively small prey, including fish, but not an exclusively fish diet.
+- The proposed synonymy with Angaturama limai remains debated.
+
 ## Where it lived
 
 Early Cretaceous South American environment with rivers, lakes and coastal settings.
+
+The Romualdo Formation is late Aptian in current correlations, broadly 113-110 Ma.
 
 ## Open questions
 

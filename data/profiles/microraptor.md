@@ -76,17 +76,11 @@ parked:
     text: "Analysis of fossilised melanosomes — melanin-bearing organelles preserved in exceptional Yixian specimens — revealed an iridescent black colour similar to a modern starling or magpie. This is only the second dinosaur (after Anchiornis) to have its colour pattern reconstructed from direct chemical evidence rather than inference."
   - from: "article: Ecology"
     text: "Despite its small size Microraptor was a versatile predator. Known stomach contents include fish bones and scales, lizard remains and a small enantiornithine bird — indicating it could hunt in multiple microhabitats. Its large eyes suggest crepuscular or low-light activity; its small size placed it in direct competition with early birds for arboreal and aerial prey."
-  - from: record fact
-    text: Long flight feathers on arms and legs form a four-winged aerodynamic configuration.
-  - from: record fact
-    text: Aerodynamic studies support gliding or some aerial capacity, while launch and powered-flight performance remain debated.
-  - from: record fact
-    text: Gut contents document a varied carnivorous diet including birds, mammals, lizards and fish in different specimens.
-  - from: age review note
-    text: "The main Jiufotang sample is Aptian, close to 120 Ma; species and localities should not be merged into a broader generic range without review."
 ---
 
 ## Overview
+
+Microraptor was a small feathered dromaeosaurid from the Jiufotang Formation of Liaoning, known from hundreds of articulated specimens, especially M. gui; species limits within the genus remain debated.
 
 Microraptor gui was the size of a crow but carried flight feathers on all four limbs — both arms and legs — making it the strongest evidence that the evolution of flight in dinosaurs may have passed through a four-winged stage. Iridescent black plumage has been reconstructed from melanosomes preserved in its feathers, making it one of the few dinosaurs whose colour can be described with confidence.
 
@@ -120,9 +114,15 @@ Jehol fossils are crushed flat on slabs, so three-dimensional skull and joint an
 
 Feather impressions and stomach contents provide direct evidence for plumage, gliding/flying ability and varied diet.
 
+- Long flight feathers on arms and legs form a four-winged aerodynamic configuration.
+- Aerodynamic studies support gliding or some aerial capacity, while launch and powered-flight performance remain debated.
+- Gut contents document a varied carnivorous diet including birds, mammals, lizards and fish in different specimens.
+
 ## Where it lived
 
 Early Cretaceous Jehol lake-and-forest ecosystem.
+
+The main Jiufotang sample is Aptian, close to 120 Ma; species and localities should not be merged into a broader generic range without review.
 
 ## Classification
 

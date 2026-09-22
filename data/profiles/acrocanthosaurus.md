@@ -78,15 +78,11 @@ parked:
     text: At Dinosaur Valley State Park near Glen Rose, Texas, a sequence of sauropod and large theropod tracks in Early Cretaceous limestone records what appears to be a pursuit event. The theropod tracks (three-toed, large, up to 64 cm) align with Acrocanthosaurus footprint morphology. The tracks show the theropod approaching behind the sauropod, with one sequence where the sauropod prints show evidence of an abrupt direction change.
   - from: "article: Position in theropod evolution"
     text: "Originally allied with Allosaurus, Acrocanthosaurus is now firmly placed within Carcharodontosauridae — a lineage that originated in Gondwana and spread to Laurasia in the Early Cretaceous. Its presence in North America represents a major intercontinental dispersal event and shows that the carcharodontosaurid lineage reached near-cosmopolitan distribution before being replaced by tyrannosaurs in the Late Cretaceous."
-  - from: record fact
-    text: No specimen is literally complete, but NCSM 14345 preserves much of the skull and skeleton.
-  - from: record fact
-    text: "The elongated neural spines supported a raised ridge of soft tissue; its display or physiological role is unknown."
-  - from: age review note
-    text: Secure records come chiefly from the Antlers and Twin Mountains formations, around the Aptian-Albian boundary.
 ---
 
 ## Overview
+
+Acrocanthosaurus atokensis was a very large carcharodontosaurian theropod from Aptian-Albian rocks of the south-central United States. Several partial skeletons, including one with much of the skull and postcranium, make its tall neural spines and general anatomy well documented.
 
 Acrocanthosaurus atokensis was the dominant large predator of Early Cretaceous North America (~115–108 Ma), an allosauroid reaching 11–12 metres long with tall neural spines forming a low muscle-supported ridge along its back — distinct from the full sails of Spinosaurus or Ouranosaurus. Trackways from Texas preserve the only direct evidence of a large theropod pursuing a sauropod.
 
@@ -120,9 +116,14 @@ The holotype and paratype were partly damaged by weathering before collection, a
 
 Trackways in Texas preserve direct evidence of pursuit behaviour; the neural spines and skull confirm allosauroid identity.
 
+- No specimen is literally complete, but NCSM 14345 preserves much of the skull and skeleton.
+- The elongated neural spines supported a raised ridge of soft tissue; its display or physiological role is unknown.
+
 ## Where it lived
 
 Early Cretaceous North American interior with large sauropods, ornithopods and the first flowering plants.
+
+Secure records come chiefly from the Antlers and Twin Mountains formations, around the Aptian-Albian boundary.
 
 ## Classification
 

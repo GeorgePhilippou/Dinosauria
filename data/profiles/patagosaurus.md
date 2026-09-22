@@ -33,15 +33,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38662"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Modern redescription confirmed diagnostic characters in the holotype.
-  - from: record fact
-    text: The skull is poorly represented, so feeding details beyond broad sauropod herbivory are uncertain.
-  - from: record fact
-    text: A reported juvenile assemblage and referred bones should not be merged into a single complete skeleton.
-  - from: age review note
-    text: Modern geochronology places relevant Canon Asfalto strata near the Early-Middle Jurassic transition, older than the former 164-159 Ma label.
 ---
 
 ## Overview
@@ -60,6 +51,10 @@ Patagosaurus fariasi was described by José Bonaparte in 1979 from material foun
 
 Partial holotype postcranium plus disarticulated remains from multiple individuals.
 
+- Modern redescription confirmed diagnostic characters in the holotype.
+- The skull is poorly represented, so feeding details beyond broad sauropod herbivory are uncertain.
+- A reported juvenile assemblage and referred bones should not be merged into a single complete skeleton.
+
 ## Where it lived
 
 The Cañadón Asfalto Formation has yielded a diverse Middle Jurassic fauna. Patagosaurus shared its environment with the theropod Piatnitzkysaurus, crocodyliformes, and other vertebrates. The depositional environment was a complex of rivers and lakes within a tectonically active rift basin. This South American Jurassic fauna differs substantially from contemporaneous North American and African assemblages, reflecting Gondwanan isolation.
@@ -67,6 +62,8 @@ The Cañadón Asfalto Formation has yielded a diverse Middle Jurassic fauna. Pat
 As one of the best-documented Middle Jurassic sauropods from South America, Patagosaurus is important for reconstructing Gondwanan sauropod diversity before the radiation of neosauropods. Phylogenetic analyses that include Patagosaurus have been informative for calibrating the timing of major sauropod divergences and testing hypotheses of vicariance versus dispersal in early sauropod biogeography.
 
 Middle Jurassic fluvial and lacustrine deposits of Chubut Province, Patagonia, yielding multiple Patagosaurus specimens including articulated material.
+
+Modern geochronology places relevant Canon Asfalto strata near the Early-Middle Jurassic transition, older than the former 164-159 Ma label.
 
 ## Open questions
 

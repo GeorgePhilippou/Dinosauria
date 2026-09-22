@@ -37,15 +37,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=53210"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Its very short, powerful forelimb bears one dominant functional digit.
-  - from: record fact
-    text: The specialised arm is directly preserved, but proposed use in opening insect nests remains a functional hypothesis.
-  - from: record fact
-    text: The skull, diet and external covering are inferred mainly from other alvarezsaurs.
-  - from: age review note
-    text: "The holotype is from the Maastrichtian Nemegt Formation; older intervals should not be added from relatives."
 ---
 
 ## Overview
@@ -66,9 +57,15 @@ Mononykus was described in 1993 by Perle, Norell, Chiappe and Clark on the basis
 
 One incomplete postcranial skeleton with diagnostic forelimbs and hindlimb material.
 
+- Its very short, powerful forelimb bears one dominant functional digit.
+- The specialised arm is directly preserved, but proposed use in opening insect nests remains a functional hypothesis.
+- The skull, diet and external covering are inferred mainly from other alvarezsaurs.
+
 ## Where it lived
 
 Rich Late Cretaceous site that has yielded partial Mononykus skeletal material alongside numerous other theropods.
+
+The holotype is from the Maastrichtian Nemegt Formation; older intervals should not be added from relatives.
 
 ## Classification
 

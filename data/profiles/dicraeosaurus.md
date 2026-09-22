@@ -42,15 +42,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dicraeosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: D. hansemanni occurs lower in the Tendaguru succession than D. sattleri and the two species should not be conflated.
-  - from: record fact
-    text: Skulls, vertebral columns and limb elements document a relatively short neck and bifid neural spines.
-  - from: record fact
-    text: The old 150-135 Ma range is too young and too broad for the type species.
-  - from: age review note
-    text: Corrected from an erroneous Late Jurassic-Early Cretaceous range to the Kimmeridgian lower/middle Tendaguru record.
 ---
 
 ## Overview
@@ -69,11 +60,17 @@ Dicraeosaurus was named by Werner Janensch in 1914 from specimens collected duri
 
 Multiple partial skeletons with skull, vertebral and appendicular material.
 
+- D. hansemanni occurs lower in the Tendaguru succession than D. sattleri and the two species should not be conflated.
+- Skulls, vertebral columns and limb elements document a relatively short neck and bifid neural spines.
+- The old 150-135 Ma range is too young and too broad for the type species.
+
 ## Where it lived
 
 Dicraeosaurus shared the Tendaguru landscape with Brachiosaurus, Giraffatitan, and several stegosaurs, constituting a diverse Late Jurassic fauna comparable to the Morrison Formation of North America. This parallel diversity has informed biogeographical hypotheses about faunal exchange between northern and southern landmasses during the Jurassic.
 
 Principal fossil site; extensive German expeditions between 1909 and 1913 recovered multiple partial skeletons.
+
+Corrected from an erroneous Late Jurassic-Early Cretaceous range to the Kimmeridgian lower/middle Tendaguru record.
 
 ## Classification
 

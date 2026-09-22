@@ -34,15 +34,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/riojasaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Robust limb bones show a heavy-bodied animal capable of quadrupedal support.
-  - from: record fact
-    text: Whether adults were obligate quadrupeds or retained meaningful bipedal ability is biomechanically debated.
-  - from: record fact
-    text: Herbivory is strongly inferred from sauropodomorph anatomy, while precise feeding height and body mass remain estimates.
-  - from: age review note
-    text: "The Los Colorados Formation is Norian-Rhaetian; its exact numerical duration remains under refinement."
 ---
 
 ## Overview
@@ -65,9 +56,15 @@ Several partial postcranial skeletons with limited referred cranial material.
 
 Dense limb bones and large prosauropod body plan document the early evolution of large-bodied plant-eating dinosaurs.
 
+- Robust limb bones show a heavy-bodied animal capable of quadrupedal support.
+- Whether adults were obligate quadrupeds or retained meaningful bipedal ability is biomechanically debated.
+- Herbivory is strongly inferred from sauropodomorph anatomy, while precise feeding height and body mass remain estimates.
+
 ## Where it lived
 
 Late Triassic terrestrial environment of the Ischigualasto-Villa Unión basin.
+
+The Los Colorados Formation is Norian-Rhaetian; its exact numerical duration remains under refinement.
 
 ## Open questions
 

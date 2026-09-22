@@ -33,15 +33,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/lophostropheus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: No skull or diagnostic teeth are known.
-  - from: record fact
-    text: Its age close to the Triassic-Jurassic boundary makes it important but does not improve skeletal completeness.
-  - from: record fact
-    text: Carnivory is inferred broadly from theropod identity.
-  - from: age review note
-    text: The Moon-Airel assemblage lies close to the Rhaetian-Hettangian boundary near 201 Ma.
 ---
 
 ## Overview
@@ -64,9 +55,15 @@ Material now referred to Lophostropheus was originally described in 1966 by Jean
 
 Fragmentary partial postcranial skeleton without skull.
 
+- No skull or diagnostic teeth are known.
+- Its age close to the Triassic-Jurassic boundary makes it important but does not improve skeletal completeness.
+- Carnivory is inferred broadly from theropod identity.
+
 ## Where it lived
 
 The fragmentary holotype material was recovered from latest Triassic to earliest Jurassic continental redbed sediments in this Norman locality.
+
+The Moon-Airel assemblage lies close to the Rhaetian-Hettangian boundary near 201 Ma.
 
 ## Open questions
 

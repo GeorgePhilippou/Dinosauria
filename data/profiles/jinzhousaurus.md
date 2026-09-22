@@ -35,15 +35,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/jinzhousaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The skeleton is unusually complete but not perfectly preserved.
-  - from: record fact
-    text: Its jaws and teeth indicate herbivory.
-  - from: record fact
-    text: Modern analyses place it near the transition between non-hadrosauroid iguanodontians and Hadrosauroidea.
-  - from: age review note
-    text: The relevant Yixian strata are early Aptian, around 125-122 Ma.
 ---
 
 ## Overview
@@ -66,9 +57,15 @@ Jinzhousaurus yangi was described in 2001 by Wang Xiaolin and Xu Xing from mater
 
 One largely complete articulated skeleton with skull.
 
+- The skeleton is unusually complete but not perfectly preserved.
+- Its jaws and teeth indicate herbivory.
+- Modern analyses place it near the transition between non-hadrosauroid iguanodontians and Hadrosauroidea.
+
 ## Where it lived
 
 The famous Yixian Formation preserving the Jehol Biota, including feathered dinosaurs and early birds alongside Jinzhousaurus.
+
+The relevant Yixian strata are early Aptian, around 125-122 Ma.
 
 ## Open questions
 

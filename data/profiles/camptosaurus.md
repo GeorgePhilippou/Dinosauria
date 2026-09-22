@@ -38,13 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/camptosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The accepted genus concept is substantially narrower than in older books.
-  - from: record fact
-    text: It was primarily bipedal and may have used the forelimbs in slow locomotion, but habitual gait is a functional inference.
-  - from: age review note
-    text: Secure C. dispar material is Kimmeridgian-Tithonian in the Morrison Formation.
 ---
 
 ## Overview
@@ -67,9 +60,14 @@ Multiple partial skeletons and skulls, including complementary adult and juvenil
 
 Limb and jaw material support a bipedal to facultatively quadrupedal browsing ornithopod.
 
+- The accepted genus concept is substantially narrower than in older books.
+- It was primarily bipedal and may have used the forelimbs in slow locomotion, but habitual gait is a functional inference.
+
 ## Where it lived
 
 Late Jurassic Morrison herbivore fauna with sauropods, stegosaurs and small ornithischians.
+
+Secure C. dispar material is Kimmeridgian-Tithonian in the Morrison Formation.
 
 ## Open questions
 

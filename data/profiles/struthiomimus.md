@@ -68,15 +68,11 @@ parked:
     text: "Ornithomimosaur hindlimb proportions — the ratio of tibia to femur length and metatarsal length — are among the most bird-like of any non-avian dinosaur. Computer modelling based on muscle mass and limb geometry suggests top speeds of 50–60 km/h for large adults. The tail was held stiffly horizontal as a counterbalance, and the arms were long and strong, probably used for foraging rather than prey capture."
   - from: "article: Diet debate"
     text: "The absence of teeth and the beak morphology have made ornithomimosaur diet contentious. Filter-feeding (water-straining like flamingos) was proposed based on apparent comb-like structures in one specimen's beak — later reinterpreted as preservational artefacts. Jaw mechanics, gut contents and ecological modelling now support omnivory: plant material, insects, small vertebrates and possibly eggs."
-  - from: record fact
-    text: Long hindlimbs support rapid bipedal locomotion, but no exact top speed can be recovered.
-  - from: record fact
-    text: "Its toothless beak does not identify a single diet; herbivory and omnivory remain alternatives."
-  - from: age review note
-    text: Secure S. altus material is late Campanian Dinosaur Park Formation.
 ---
 
 ## Overview
+
+Struthiomimus altus was an ornithomimid from the Dinosaur Park Formation of Alberta, known from several partial skeletons including well-preserved limbs and hands.
 
 Struthiomimus altus ("ostrich mimic") was a large ornithomimosaur from the Campanian of Alberta (~75 Ma), reaching about 4.2 metres. As one of the better-known ornithomimosaurs, it has been at the centre of debates about the diet of these toothless, long-legged theropods — with hypotheses ranging from insectivory to herbivory to filter-feeding depending on the era of analysis.
 
@@ -110,9 +106,14 @@ Because so much rests on one skeleton, individual and growth variation are hard 
 
 A long-limbed, toothless-beaked skeleton supports fast locomotion and an omnivorous diet; direct feather/quill-knob evidence comes from its close relative Ornithomimus, with a similar covering inferred for Struthiomimus by phylogenetic bracketing.
 
+- Long hindlimbs support rapid bipedal locomotion, but no exact top speed can be recovered.
+- Its toothless beak does not identify a single diet; herbivory and omnivory remain alternatives.
+
 ## Where it lived
 
 Late Cretaceous coastal plain of Alberta alongside Albertosaurus and Edmontosaurus.
+
+Secure S. altus material is late Campanian Dinosaur Park Formation.
 
 ## Classification
 

@@ -38,15 +38,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rugops&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The skull roof bears texturing and openings, but elaborate skin display structures are speculative.
-  - from: record fact
-    text: Its discovery helped document mid-Cretaceous Gondwanan abelisaurid distribution.
-  - from: record fact
-    text: Body size, forelimbs and most postcranial anatomy are inferred from relatives.
-  - from: age review note
-    text: The Echkar type horizon is Cenomanian, close to 95 Ma.
 ---
 
 ## Overview
@@ -69,9 +60,15 @@ Rugops primus was described by Paul Sereno, Jeffrey Wilson, and Jack Conrad in 2
 
 Single incomplete skull with very limited additional material.
 
+- The skull roof bears texturing and openings, but elaborate skin display structures are speculative.
+- Its discovery helped document mid-Cretaceous Gondwanan abelisaurid distribution.
+- Body size, forelimbs and most postcranial anatomy are inferred from relatives.
+
 ## Where it lived
 
 Cenomanian continental deposits of the Sahara yielding the holotype Rugops skull alongside diverse large theropods and sauropods.
+
+The Echkar type horizon is Cenomanian, close to 95 Ma.
 
 ## Open questions
 

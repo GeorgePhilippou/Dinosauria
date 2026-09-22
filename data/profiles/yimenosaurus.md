@@ -10,7 +10,8 @@ length_m: 9
 mass_kg: null
 diet: Herbivore
 found_in: [China]
-fossil_record: 2
+fossil_record: null
+specialist_review: pending
 fossil_record_note: "Reported abundance does not substitute for a modern illustrated specimen-by-specimen redescription; maturity, exact size and numerical age remain uncertain."
 classification: [Dinosauria, Saurischia, Sauropodomorpha, Massopoda]
 summary: Yimenosaurus youngi was a basal sauropodomorph from the Fengjiahe Formation of Yunnan, reported from more than ten partial skeletons including substantial cranial material.
@@ -37,15 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/yimenosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The reported sample is much larger than two skeletons and includes informative skull and jaw material.
-  - from: record fact
-    text: The original account is brief and inadequately illustrated relative to the amount of material.
-  - from: record fact
-    text: A modern first-hand redescription is needed before specimen-level completeness, diagnosis and adult size can be assessed securely.
-  - from: age review note
-    text: The Fengjiahe Formation is Early Jurassic, but the Yimenosaurus horizon is not dated well enough to justify a narrow stage or numerical range.
 ---
 
 ## Overview
@@ -66,9 +58,15 @@ Yimenosaurus youngi was described in 1990 by Bai Zhikui, Yang Jianwei, and Wang 
 
 More than ten partial skeletons reported, including substantial cranial and postcranial material.
 
+- The reported sample is much larger than two skeletons and includes informative skull and jaw material.
+- The original account is brief and inadequately illustrated relative to the amount of material.
+- A modern first-hand redescription is needed before specimen-level completeness, diagnosis and adult size can be assessed securely.
+
 ## Where it lived
 
 Early Jurassic fluvial deposits of Yunnan Province from which Yimenosaurus youngi was described.
+
+The Fengjiahe Formation is Early Jurassic, but the Yimenosaurus horizon is not dated well enough to justify a narrow stage or numerical range.
 
 ## Classification
 

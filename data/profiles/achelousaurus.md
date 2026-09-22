@@ -33,13 +33,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=53956"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The sample includes three relatively complete adult skulls plus younger individuals.
-  - from: record fact
-    text: The proposed evolutionary sequence involving Einiosaurus and Pachyrhinosaurus remains a phylogenetic interpretation, not a directly observed lineage.
-  - from: age review note
-    text: Type-locality evidence places the genus in the late Campanian upper Two Medicine Formation.
 ---
 
 ## Overview
@@ -57,6 +50,13 @@ Few dated occurrences are recorded, so claims about range, abundance or variatio
 ## Fossil record
 
 Several skulls and partial postcranial remains from multiple growth stages.
+
+- The sample includes three relatively complete adult skulls plus younger individuals.
+- The proposed evolutionary sequence involving Einiosaurus and Pachyrhinosaurus remains a phylogenetic interpretation, not a directly observed lineage.
+
+## Where it lived
+
+Type-locality evidence places the genus in the late Campanian upper Two Medicine Formation.
 
 ## Open questions
 

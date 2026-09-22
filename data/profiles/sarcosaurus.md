@@ -43,13 +43,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Sarcosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype is not a skeleton and preserves only limited anatomy.
-  - from: record fact
-    text: The catalogue three-metre length is cleared because historical referrals do not securely constrain it.
-  - from: age review note
-    text: The type horizon is early Sinemurian, not a broad 202-195 Ma lifespan.
 ---
 
 ## Overview
@@ -70,9 +63,14 @@ Sarcosaurus woodi was described by Charles William Andrews in 1921 from fragment
 
 Fragmentary pelvis and proximal femur with limited referred bones.
 
+- The holotype is not a skeleton and preserves only limited anatomy.
+- The catalogue three-metre length is cleared because historical referrals do not securely constrain it.
+
 ## Where it lived
 
 Early Jurassic marine and marginal marine deposits of central England where the Sarcosaurus type material was found.
+
+The type horizon is early Sinemurian, not a broad 202-195 Ma lifespan.
 
 ## Classification
 

@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Herbivore
 found_in: [Mongolia]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: No defensible precise body size or postcranial reconstruction.
 classification: [Dinosauria, Saurischia, Sauropodomorpha, Sauropoda, Titanosauria, Nemegtosauridae]
 summary: Quaesitosaurus orientalis is a titanosaur from the Baruungoyot Formation of Mongolia, based almost entirely on one incomplete skull.
@@ -38,15 +39,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Quaesitosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type skull has the elongate muzzle and slender teeth associated with nemegtosaurid titanosaurs.
-  - from: record fact
-    text: Postcranial anatomy, total length and armour are unknown for the type.
-  - from: record fact
-    text: Its distinction from Nemegtosaurus has been questioned but cannot be resolved confidently from current material.
-  - from: age review note
-    text: "The type comes from the late Campanian Baruungoyot Formation; it should not be assigned the age of the younger Nemegt Formation."
 ---
 
 ## Overview
@@ -67,9 +59,15 @@ Quaesitosaurus orientalis was named by Kurzanov and Bannikov in 1983 from a part
 
 Single incomplete skull and mandible.
 
+- The type skull has the elongate muzzle and slender teeth associated with nemegtosaurid titanosaurs.
+- Postcranial anatomy, total length and armour are unknown for the type.
+- Its distinction from Nemegtosaurus has been questioned but cannot be resolved confidently from current material.
+
 ## Where it lived
 
 Late Cretaceous sandy formation in the southern Gobi where the only Quaesitosaurus skull was recovered.
+
+The type comes from the late Campanian Baruungoyot Formation; it should not be assigned the age of the younger Nemegt Formation.
 
 ## Classification
 

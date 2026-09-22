@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Carnivore
 found_in: [India]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: "Moderate for abelisaurid-like theropod material; low for genus validity, whole-body anatomy and size."
 classification: [Dinosauria, Saurischia, Theropoda, Ceratosauria, "Abelisauridae?"]
 summary: Indosuchus raptorius is a name based on fragmentary skull bones from the Lameta Formation of India. The material has generally been interpreted as abelisaurid, but it is incomplete, was collected without a tightly documented association and may not be diagnosable against other Indian abelisaurids.
@@ -33,15 +34,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/indosuchus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: No associated complete skeleton is known.
-  - from: record fact
-    text: The type material is cranial and fragmentary.
-  - from: record fact
-    text: "Carnivory is secure only at the broad theropod level; size and appearance are highly uncertain."
-  - from: age review note
-    text: "The Lameta Formation record is Maastrichtian; precise local ages and associations are limited."
 ---
 
 ## Overview
@@ -62,11 +54,17 @@ Indosuchus raptorius was described in 1933 by Friedrich von Huene and C.A. Matle
 
 Fragmentary cranial bones of uncertain association.
 
+- No associated complete skeleton is known.
+- The type material is cranial and fragmentary.
+- Carnivory is secure only at the broad theropod level; size and appearance are highly uncertain.
+
 ## Where it lived
 
 The Lameta Formation records fluvial and lacustrine environments in what is now central India during the latest Cretaceous. Indosuchus shared this environment with titanosaur sauropods including Isisaurus, as well as other theropods. The contemporaneous Deccan Traps volcanic province was beginning to erupt during this time, placing Indosuchus in one of the most geologically dramatic intervals of Earth history.
 
 The primary source of Indosuchus material, a Maastrichtian-age deposit also yielding sauropod titanosaurs and other Late Cretaceous fauna.
+
+The Lameta Formation record is Maastrichtian; precise local ages and associations are limited.
 
 ## Open questions
 

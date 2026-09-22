@@ -34,15 +34,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/neovenator.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The holotype and associated discoveries preserve substantial cranial, vertebral, girdle and limb anatomy.
-  - from: record fact
-    text: Its placement as a basal carcharodontosaurian is common, while the content of Neovenatoridae varies among analyses.
-  - from: record fact
-    text: Pathologies are present in the type, but stories about their causes or survival are inferential.
-  - from: age review note
-    text: The Wessex Formation type horizon is Barremian, approximately 130-125 Ma.
 ---
 
 ## Overview
@@ -59,11 +50,17 @@ One relatively complete partial skeleton with skull, axial column, girdles and l
 
 Large theropod anatomy with features linking it to carcharodontosaurids or megaraptorans — its exact placement is still debated.
 
+- The holotype and associated discoveries preserve substantial cranial, vertebral, girdle and limb anatomy.
+- Its placement as a basal carcharodontosaurian is common, while the content of Neovenatoridae varies among analyses.
+- Pathologies are present in the type, but stories about their causes or survival are inferential.
+
 ## Where it lived
 
 The Wessex Formation records a complex floodplain system with channels, swamps and dryland patches in a warm sub-tropical climate. Neovenator would have hunted Iguanodon herds and possibly Polacanthus (a nodosaurid ankylosaur). Its co-occurrence with Baryonyx suggests two large predators used different microhabitats — Neovenator on open land, Baryonyx near water.
 
 Early Cretaceous river delta and floodplain environment of what is now southern England.
+
+The Wessex Formation type horizon is Barremian, approximately 130-125 Ma.
 
 ## Classification
 

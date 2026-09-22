@@ -41,13 +41,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=55538"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype is not a complete adult skeleton.
-  - from: record fact
-    text: Its short frill lacks the elaborate ornament of many centrosaurines, although ontogeny complicates comparison.
-  - from: age review note
-    text: The type locality is late Campanian in the Judith River Formation.
 ---
 
 ## Overview
@@ -70,9 +63,14 @@ Avaceratops lammersi was described by Peter Dodson in 1986 from a partial skull 
 
 One partial juvenile skull and skeleton plus debated referred skull material.
 
+- The holotype is not a complete adult skeleton.
+- Its short frill lacks the elaborate ornament of many centrosaurines, although ontogeny complicates comparison.
+
 ## Where it lived
 
 Most known Avaceratops fossils come from this formation, which has yielded a diverse Late Cretaceous dinosaur fauna including numerous ceratopsids and hadrosaurs.
+
+The type locality is late Campanian in the Judith River Formation.
 
 ## Open questions
 

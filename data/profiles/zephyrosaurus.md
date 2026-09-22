@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Herbivore
 found_in: [USA]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: "Length is cleared; burrowing and exact body size are not directly established."
 classification: [Dinosauria, Ornithischia, Ornithopoda, Thescelosauridae]
 summary: Zephyrosaurus schaffi was a small ornithopod from the Cloverly Formation of Montana, based on a partial skull and sparse postcranial material.
@@ -36,13 +37,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/zephyrosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Burrowing has been proposed from anatomy and trace fossils assigned to similar ornithopods, but no Zephyrosaurus skeleton is preserved inside a burrow.
-  - from: record fact
-    text: Most body proportions and size are inferred.
-  - from: age review note
-    text: "The Cloverly type is Aptian-Albian; the old 120-110 Ma interval is approximate."
 ---
 
 ## Overview
@@ -65,9 +59,14 @@ Zephyrosaurus schaffi was described in 1980 by Hans-Dieter Sues from a partial s
 
 Partial skull and fragmentary postcranial bones.
 
+- Burrowing has been proposed from anatomy and trace fossils assigned to similar ornithopods, but no Zephyrosaurus skeleton is preserved inside a burrow.
+- Most body proportions and size are inferred.
+
 ## Where it lived
 
 The type locality of Zephyrosaurus schaffi, an Aptian–Albian fluvial formation also known for Deinonychus and Tenontosaurus.
+
+The Cloverly type is Aptian-Albian; the old 120-110 Ma interval is approximate.
 
 ## Open questions
 

@@ -38,13 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/centrosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: A large nasal horn and hooked frill ornament are documented across growth stages.
-  - from: record fact
-    text: Mass-death bonebeds support group aggregation at death but do not alone reveal permanent herd structure or migration.
-  - from: age review note
-    text: C. apertus is concentrated in the lower-middle Dinosaur Park Formation, late Campanian.
 ---
 
 ## Overview
@@ -67,9 +60,14 @@ Thousands of cranial and postcranial bones, including many skulls, skeletons and
 
 Vast monodominant bonebeds document mass-mortality events; the older "drowned during a river-crossing migration" idea has been challenged by newer work pointing to catastrophic seasonal flooding as the more likely cause.
 
+- A large nasal horn and hooked frill ornament are documented across growth stages.
+- Mass-death bonebeds support group aggregation at death but do not alone reveal permanent herd structure or migration.
+
 ## Where it lived
 
 Late Cretaceous coastal plain of western Canada with diverse hadrosaur and theropod faunas.
+
+C. apertus is concentrated in the lower-middle Dinosaur Park Formation, late Campanian.
 
 ## Open questions
 

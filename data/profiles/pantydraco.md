@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Herbivore
 found_in: [United Kingdom, Wales]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: Do not scale juvenile anatomy confidently to an adult.
 classification: [Dinosauria, Saurischia, Sauropodomorpha]
 summary: Pantydraco caducus is a small basal sauropodomorph from fissure deposits at Pant-y-ffynnon, Wales, based mainly on an immature partial skeleton formerly assigned to Thecodontosaurus.
@@ -35,15 +36,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=117152"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The material includes partial skull and postcranium but represents a young individual.
-  - from: record fact
-    text: The genus was erected for differences from Thecodontosaurus antiquus.
-  - from: record fact
-    text: Recent comparison has questioned whether those differences exceed juvenile variation, so validity remains open.
-  - from: age review note
-    text: "The Pant-y-ffynnon fissure fauna is Rhaetian and latest Triassic; 205.7-201.4 Ma gives the current stage bounds rather than a tightly dated fossil horizon."
 ---
 
 ## Overview
@@ -64,11 +56,17 @@ Pantydraco caducus was formally described in 2007 by Peter Galton, Adam Yates an
 
 Immature partial skeleton with cranial and postcranial elements, plus referred fragments.
 
+- The material includes partial skull and postcranium but represents a young individual.
+- The genus was erected for differences from Thecodontosaurus antiquus.
+- Recent comparison has questioned whether those differences exceed juvenile variation, so validity remains open.
+
 ## Where it lived
 
 Dinosaurs from Wales are exceptionally rare. Pantydraco joins Thecodontosaurus as one of the very few Triassic-Jurassic dinosaurs from the British Isles. The fissure-fill deposits of South Wales and the Bristol area preserve a unique window into early dinosaur faunas of the Late Triassic, when Britain was part of a subtropical archipelago near the equator of Pangaea.
 
 Late Triassic to earliest Jurassic fissure-fill deposits near Bonvilston, Vale of Glamorgan, yielding the holotype partial juvenile skeleton of Pantydraco.
+
+The Pant-y-ffynnon fissure fauna is Rhaetian and latest Triassic; 205.7-201.4 Ma gives the current stage bounds rather than a tightly dated fossil horizon.
 
 ## Open questions
 

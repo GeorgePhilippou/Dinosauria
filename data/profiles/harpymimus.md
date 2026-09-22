@@ -40,15 +40,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/harpymimus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype is incomplete but associated and includes much of the skeleton.
-  - from: record fact
-    text: Small teeth are restricted to the lower jaw.
-  - from: record fact
-    text: "It was bipedal; its exact diet cannot be reduced confidently to herbivory, carnivory or omnivory."
-  - from: age review note
-    text: "The Albian range reflects the Khuren Dukh Formation; older broad Early Cretaceous ranges lack equivalent resolution."
 ---
 
 ## Overview
@@ -69,11 +60,17 @@ Harpymimus okladnikovi was described in 1984 by Rinchen Barsbold and Altangerel 
 
 Single partial skeleton with skull, jaws, vertebrae and limbs.
 
+- The holotype is incomplete but associated and includes much of the skeleton.
+- Small teeth are restricted to the lower jaw.
+- It was bipedal; its exact diet cannot be reduced confidently to herbivory, carnivory or omnivory.
+
 ## Where it lived
 
 The Khuren Dukh Formation of Mongolia records terrestrial environments of the Albian stage, approximately 110–100 million years ago. Harpymimus would have inhabited these environments alongside other early Cretaceous theropods and herbivorous dinosaurs, in an ecosystem predating the great diversity of the later Mongolian Late Cretaceous faunas.
 
 The sole known source of Harpymimus material, an Albian-age deposit preserving early ornithomimosaur diversity.
+
+The Albian range reflects the Khuren Dukh Formation; older broad Early Cretaceous ranges lack equivalent resolution.
 
 ## Open questions
 

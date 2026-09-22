@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Herbivore
 found_in: [Kazakhstan]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: "Moderate for lambeosaurine identity; low for diagnosis, crest, postcranium and ecology."
 classification: [Dinosauria, Ornithischia, Ornithopoda, Hadrosauroidea, Hadrosauridae, Lambeosaurinae]
 summary: "Jaxartosaurus aralensis was a hadrosaurid from dinosaur-bearing beds near Kyrk-Kuduk and Alym-Tau in southern Kazakhstan. Its type material is chiefly an incomplete skull; fragmentary postcranial bones from the same deposit have also been referred, but no complete skeleton is known."
@@ -40,15 +41,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/jaxartosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The skull is incomplete and the same-deposit postcranium is fragmentary.
-  - from: record fact
-    text: The shape of a complete crest cannot be recovered confidently from the preserved type alone.
-  - from: record fact
-    text: Herbivory is secure at the hadrosaurid level, but detailed ecology is unknown.
-  - from: age review note
-    text: "Rozhdestvensky placed the southern Kazakhstan dinosaur beds containing Jaxartosaurus in the Coniacian-Santonian; the unrelated Syuk-Syuk occurrence is excluded."
 ---
 
 ## Overview
@@ -69,11 +61,17 @@ Jaxartosaurus aralensis was described in 1939 by A.N. Riabinin from skull materi
 
 Incomplete type skull with fragmentary postcranial material from the same dinosaur-bearing deposit.
 
+- The skull is incomplete and the same-deposit postcranium is fragmentary.
+- The shape of a complete crest cannot be recovered confidently from the preserved type alone.
+- Herbivory is secure at the hadrosaurid level, but detailed ecology is unknown.
+
 ## Where it lived
 
 The Coniacian deposits of Kazakhstan record Late Cretaceous terrestrial environments on the western margins of the Asian continent. Jaxartosaurus would have inhabited river systems and floodplains in this region, in an ecosystem that likely included other ornithopods, ankylosaurs, and theropods of Late Cretaceous Asia.
 
 The source of the type skull roof and braincase, from Coniacian-age deposits near the ancient Jaxartes (Syr Darya) River.
+
+Rozhdestvensky placed the southern Kazakhstan dinosaur beds containing Jaxartosaurus in the Coniacian-Santonian; the unrelated Syuk-Syuk occurrence is excluded.
 
 ## Open questions
 

@@ -34,13 +34,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=68417"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Preserved material includes jaws, vertebrae, pelvis and limb bones, but no complete articulated skeleton.
-  - from: record fact
-    text: "A large sickle-claw-bearing second toe is supported by its dromaeosaurid anatomy; hunting behaviour is not preserved."
-  - from: age review note
-    text: The Bayan Shireh Formation spans a broad mid- to Late Cretaceous interval and is not dated narrowly at the type locality.
 ---
 
 ## Overview
@@ -58,6 +51,13 @@ The known material is limited, so reconstructions depend heavily on comparison w
 ## Fossil record
 
 One disarticulated partial cranial and postcranial assemblage.
+
+- Preserved material includes jaws, vertebrae, pelvis and limb bones, but no complete articulated skeleton.
+- A large sickle-claw-bearing second toe is supported by its dromaeosaurid anatomy; hunting behaviour is not preserved.
+
+## Where it lived
+
+The Bayan Shireh Formation spans a broad mid- to Late Cretaceous interval and is not dated narrowly at the type locality.
 
 ## Open questions
 

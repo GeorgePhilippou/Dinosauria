@@ -45,15 +45,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/haplocanthosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The genus is diagnosed largely from vertebral and limb anatomy.
-  - from: record fact
-    text: Most modern analyses place it near the base of Diplodocoidea, though exact position varies.
-  - from: record fact
-    text: Adult length and mass estimates depend on incomplete specimens.
-  - from: age review note
-    text: Known horizons fall mainly in older-to-middle Morrison intervals, broadly Kimmeridgian.
 ---
 
 ## Overview
@@ -74,11 +65,17 @@ Haplocanthosaurus was named in 1903 by John Bell Hatcher based on partial skelet
 
 Several incomplete postcranial skeletons with very limited cranial evidence.
 
+- The genus is diagnosed largely from vertebral and limb anatomy.
+- Most modern analyses place it near the base of Diplodocoidea, though exact position varies.
+- Adult length and mass estimates depend on incomplete specimens.
+
 ## Where it lived
 
 The Late Jurassic Morrison Formation records a semi-arid to seasonally wet floodplain environment across what is now the American West. Haplocanthosaurus shared this habitat with a diversity of other sauropods including Camarasaurus, Diplodocus, Brachiosaurus and Apatosaurus, as well as theropods such as Allosaurus and Ceratosaurus.
 
 Primary source of Haplocanthosaurus material, with specimens from multiple Colorado sites including the famous Cañon City area.
+
+Known horizons fall mainly in older-to-middle Morrison intervals, broadly Kimmeridgian.
 
 ## Open questions
 

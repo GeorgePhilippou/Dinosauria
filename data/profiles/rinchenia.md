@@ -38,15 +38,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Rinchenia&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The combination was separated from Oviraptor because of cranial and postcranial differences.
-  - from: record fact
-    text: The type preserves a substantial skeleton but not a broad population sample.
-  - from: record fact
-    text: Diet cannot be narrowed beyond likely omnivory or herbivory from this specimen alone.
-  - from: age review note
-    text: "The Baruungoyot Formation is late Campanian; the species should not be assigned the younger Nemegt age."
 ---
 
 ## Overview
@@ -69,9 +60,15 @@ The specimen now referred to Rinchenia mongoliensis was first described as Ovira
 
 Single partial skeleton including crested skull and substantial postcranium.
 
+- The combination was separated from Oviraptor because of cranial and postcranial differences.
+- The type preserves a substantial skeleton but not a broad population sample.
+- Diet cannot be narrowed beyond likely omnivory or herbivory from this specimen alone.
+
 ## Where it lived
 
 Maastrichtian-age formation in the Nemegt Basin yielding abundant and diverse dinosaur material including the Rinchenia holotype.
+
+The Baruungoyot Formation is late Campanian; the species should not be assigned the younger Nemegt age.
 
 ## Open questions
 

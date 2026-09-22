@@ -38,13 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/zuniceratops.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: It had well-developed brow horns but no large nasal horn.
-  - from: record fact
-    text: "The frill shows an early stage toward ceratopsid anatomy; it is close to, but outside, Ceratopsidae in most analyses."
-  - from: age review note
-    text: The Moreno Hill Formation is Turonian, near 92-90 Ma, not the full 94-89 Ma interval.
 ---
 
 ## Overview
@@ -63,9 +56,14 @@ Zuniceratops christopheri was named in 1998 by Douglas Wolfe and James Kirkland,
 
 Several partial skulls with sparse postcranial referrals.
 
+- It had well-developed brow horns but no large nasal horn.
+- The frill shows an early stage toward ceratopsid anatomy; it is close to, but outside, Ceratopsidae in most analyses.
+
 ## Where it lived
 
 The Turonian-age formation from which Zuniceratops christopheri was recovered; it also yields early hadrosaurs and other dinosaurs.
+
+The Moreno Hill Formation is Turonian, near 92-90 Ma, not the full 94-89 Ma interval.
 
 ## Classification
 

@@ -40,15 +40,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/guaibasaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: No complete diagnostic skull is known.
-  - from: record fact
-    text: A crouched pose in one specimen records burial posture, not habitual resting behaviour with certainty.
-  - from: record fact
-    text: Diet cannot be stated confidently while its relationships and teeth remain poorly known.
-  - from: age review note
-    text: "The Caturrita Formation is Norian; its numerical duration remains subject to South American Triassic correlations."
 ---
 
 ## Overview
@@ -67,11 +58,17 @@ Guaibasaurus candelariensis was described in 1999 by José Bonaparte, Joel Ferig
 
 Several incomplete postcranial skeletons, with little diagnostic cranial evidence.
 
+- No complete diagnostic skull is known.
+- A crouched pose in one specimen records burial posture, not habitual resting behaviour with certainty.
+- Diet cannot be stated confidently while its relationships and teeth remain poorly known.
+
 ## Where it lived
 
 The Caturrita Formation records a terrestrial environment of Late Triassic Gondwana, characterised by river systems and floodplains in what is now southern Brazil. Guaibasaurus shared this environment with other early dinosaurs and a diverse array of non-dinosaurian archosaurs, reflecting the period when dinosaurs were beginning to diversify but had not yet achieved ecological dominance.
 
 A key site for early dinosaur evolution in South America, preserving Norian-age material including multiple Guaibasaurus specimens.
+
+The Caturrita Formation is Norian; its numerical duration remains subject to South American Triassic correlations.
 
 ## Classification
 

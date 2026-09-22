@@ -45,15 +45,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Panoplosaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: CT redescription supports separation from the related Edmontonia.
-  - from: record fact
-    text: It carried extensive osteoderms but no ankylosaurid-style tail club is known.
-  - from: record fact
-    text: "Quadrupedal herbivory is secure; exact armour layout and body mass remain reconstructed."
-  - from: age review note
-    text: The Dinosaur Park Formation type and secure referrals are late Campanian.
 ---
 
 ## Overview
@@ -76,9 +67,15 @@ Panoplosaurus mirus was discovered in 1917 and named by Lawrence Lambe in 1919. 
 
 Complete holotype skull with partial skeleton and armour; further referred skeletons.
 
+- CT redescription supports separation from the related Edmontonia.
+- It carried extensive osteoderms but no ankylosaurid-style tail club is known.
+- Quadrupedal herbivory is secure; exact armour layout and body mass remain reconstructed.
+
 ## Where it lived
 
 Middle Campanian floodplain deposits of southern Alberta, the primary source of confirmed Panoplosaurus material.
+
+The Dinosaur Park Formation type and secure referrals are late Campanian.
 
 ## Open questions
 

@@ -94,21 +94,11 @@ parked:
     text: The high back spines may have supported a display structure or other soft tissue. Recent reconstructions also include a deep tail and shorter hind limbs, but researchers still debate how much time Spinosaurus spent swimming.
   - from: "article: Cretaceous river predator"
     text: Spinosaurus lived in North African river and coastal settings, alongside other large predators and abundant fish. The ecosystem was not a simple open plain like many North American dinosaur sites.
-  - from: record fact
-    text: "The original Egyptian holotype, BSP 1912 VIII 19, was destroyed in the 1944 bombing of Munich; it survives only in Stromer's 1915 description and photographs."
-  - from: record fact
-    text: A partial skeleton from the Kem Kem beds of Morocco, FSAC-KK 11888, was designated the neotype in 2014 and expanded in 2020 to include a deep, paddle-like tail.
-  - from: record fact
-    text: "Shortened hind limbs, dense bones and a tall sail are now well established; their functional meaning is not."
-  - from: record fact
-    text: High bone density was interpreted in 2022 as evidence for subaqueous foraging.
-  - from: record fact
-    text: "A 2022 eLife analysis argued that stability, drag and buoyancy make a fully aquatic pursuit-predator model unlikely; semiaquatic adaptations are well supported, but a single settled swimming and hunting model is not."
-  - from: age review note
-    text: The reviewed range follows Cenomanian material from the Bahariya Formation and Kem Kem Group. Isolated spinosaurid material should not automatically extend the species range.
 ---
 
 ## Overview
+
+Spinosaurus aegyptiacus was a very large spinosaurid theropod from Cenomanian North Africa. Its long narrow jaws, conical teeth, retracted nostrils, dense bones and deep tail show strong association with aquatic prey and habitats. How it fed remains actively disputed: proposed underwater pursuit and diving conflict with biomechanical analyses favouring wading or surface feeding.
 
 Spinosaurus was a giant spinosaurid theropod from North Africa, with long neural spines forming a sail-like structure along its back. NHM places it at around 14 metres long and 7.4 tonnes.
 
@@ -142,9 +132,17 @@ Because the neotype was excavated in stages and partly bought from local collect
 
 Conical teeth, long jaws, tall neural spines and later tail material drive debates over aquatic habits.
 
+- The original Egyptian holotype, BSP 1912 VIII 19, was destroyed in the 1944 bombing of Munich; it survives only in Stromer's 1915 description and photographs.
+- A partial skeleton from the Kem Kem beds of Morocco, FSAC-KK 11888, was designated the neotype in 2014 and expanded in 2020 to include a deep, paddle-like tail.
+- Shortened hind limbs, dense bones and a tall sail are now well established; their functional meaning is not.
+- High bone density was interpreted in 2022 as evidence for subaqueous foraging.
+- A 2022 eLife analysis argued that stability, drag and buoyancy make a fully aquatic pursuit-predator model unlikely; semiaquatic adaptations are well supported, but a single settled swimming and hunting model is not.
+
 ## Where it lived
 
 Cretaceous North African river and coastal systems rich in fish and aquatic prey.
+
+The reviewed range follows Cenomanian material from the Bahariya Formation and Kem Kem Group. Isolated spinosaurid material should not automatically extend the species range.
 
 ## Classification
 

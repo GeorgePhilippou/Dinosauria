@@ -77,15 +77,11 @@ parked:
     text: The skull is proportionally narrow with a strongly kinetic palate and binocular vision comparable to T. rex. The forelimbs are proportionally even smaller than in T. rex, and the hand has just two functional fingers. Bone texture studies indicate some very large specimens were still growing at death.
   - from: "article: Nemegt ecosystem"
     text: The Nemegt Formation records a warm, well-watered floodplain with rivers, lakes and seasonal drought. Tarbosaurus preyed on giant hadrosaurs (Saurolophus, Barsboldia) and sauropods (Nemegtosaurus), in addition to smaller ornithischians. Alioramus may have occupied a different prey niche in the same ecosystem.
-  - from: record fact
-    text: Most current analyses retain Tarbosaurus as distinct from Tyrannosaurus, though the combination Tyrannosaurus bataar has historical use.
-  - from: record fact
-    text: Juveniles had proportionally longer, lower skulls and changed feeding mechanics through growth.
-  - from: age review note
-    text: Nemegt Formation specimens are Maastrichtian, about 70-66 Ma.
 ---
 
 ## Overview
+
+Tarbosaurus bataar was a large tyrannosaurine from the Nemegt Formation of Mongolia, known from numerous skulls and skeletons across growth stages.
 
 Tarbosaurus bataar was the apex predator of the Late Cretaceous Nemegt Formation of Mongolia (~70 Ma) — the Asian ecological equivalent of Tyrannosaurus, reaching similar size and filling an identical predatory role in a contemporaneous but geographically distinct ecosystem. Its skull is proportionally even narrower than T. rex and its forelimbs particularly reduced.
 
@@ -119,9 +115,14 @@ A large proportion of the specimens were collected before modern excavation stan
 
 A growth series documents ontogenetic changes similar to Tyrannosaurus; detailed skull comparison supports its separation from T. rex.
 
+- Most current analyses retain Tarbosaurus as distinct from Tyrannosaurus, though the combination Tyrannosaurus bataar has historical use.
+- Juveniles had proportionally longer, lower skulls and changed feeding mechanics through growth.
+
 ## Where it lived
 
 Late Cretaceous Nemegt floodplain ecosystem of Mongolia with hadrosaurs, sauropods and ornithomimosaurs.
+
+Nemegt Formation specimens are Maastrichtian, about 70-66 Ma.
 
 ## Classification
 

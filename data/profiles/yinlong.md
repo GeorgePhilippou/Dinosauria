@@ -36,13 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/yinlong.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Its skull combines early ornithischian features with a ceratopsian rostral bone.
-  - from: record fact
-    text: Gastrolith-like stones occur with specimens, but exact diet remains broadly herbivorous or omnivorous rather than categorically established.
-  - from: age review note
-    text: The upper Shishugou type horizon is Oxfordian near 160 Ma, making the old Mid Jurassic label incorrect.
 ---
 
 ## Overview
@@ -65,9 +58,14 @@ Yinlong downsi was described in 2006 by Xu Xing, Catherine Forster, James Clark,
 
 Several partial to articulated skeletons with skulls.
 
+- Its skull combines early ornithischian features with a ceratopsian rostral bone.
+- Gastrolith-like stones occur with specimens, but exact diet remains broadly herbivorous or omnivorous rather than categorically established.
+
 ## Where it lived
 
 The Oxfordian-age formation from which Yinlong downsi was recovered, also yielding the giant theropod Guanlong wucaii.
+
+The upper Shishugou type horizon is Oxfordian near 160 Ma, making the old Mid Jurassic label incorrect.
 
 ## Open questions
 

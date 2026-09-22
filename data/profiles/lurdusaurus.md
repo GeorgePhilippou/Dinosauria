@@ -40,15 +40,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/lurdusaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype preserves much of the postcranium but no diagnostic skull.
-  - from: record fact
-    text: "Herbivory is inferred from iguanodontian relationships; detailed feeding anatomy is unknown."
-  - from: record fact
-    text: Claims of semiaquatic habits are speculative and not established consensus.
-  - from: age review note
-    text: Restricted to the Aptian Elrhaz Formation rather than the former 121-112 Ma generic interval.
 ---
 
 ## Overview
@@ -69,9 +60,15 @@ Lurdusaurus arenatus was described in 1999 by Paul Sereno, Dutheil, Iarochene, L
 
 One incomplete associated postcranial skeleton.
 
+- The holotype preserves much of the postcranium but no diagnostic skull.
+- Herbivory is inferred from iguanodontian relationships; detailed feeding anatomy is unknown.
+- Claims of semiaquatic habits are speculative and not established consensus.
+
 ## Where it lived
 
 The holotype partial skull and postcranial skeleton of Lurdusaurus arenatus were recovered from Early Cretaceous fluvial deposits in the Ténéré Desert.
+
+Restricted to the Aptian Elrhaz Formation rather than the former 121-112 Ma generic interval.
 
 ## Classification
 

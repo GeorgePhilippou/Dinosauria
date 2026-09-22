@@ -44,17 +44,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/stenonychosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The Stenonychosaurus holotype CMN 8539 comprises hind-limb elements and is itself incomplete.
-  - from: record fact
-    text: A 2017 revision separated Dinosaur Park troodontid skeletons from the tooth-based name Troodon.
-  - from: record fact
-    text: A 2025 analysis found the Two Medicine and Dinosaur Park material closely comparable and preferred the older name Troodon.
-  - from: record fact
-    text: Claims about exceptional intelligence are based mainly on relative braincase size and should not be translated into human-like cognition.
-  - from: age review note
-    text: "The profile is restricted to Campanian Dinosaur Park Formation material; it does not inherit every historical North American occurrence assigned to Troodon."
 ---
 
 ## Overview
@@ -77,9 +66,16 @@ Stenonychosaurus inequalis was described by Charles W. Gilmore in 1932 from isol
 
 Fragmentary holotype hind limb plus more extensive referred cranial and postcranial material from the Dinosaur Park Formation.
 
+- The Stenonychosaurus holotype CMN 8539 comprises hind-limb elements and is itself incomplete.
+- A 2017 revision separated Dinosaur Park troodontid skeletons from the tooth-based name Troodon.
+- A 2025 analysis found the Two Medicine and Dinosaur Park material closely comparable and preferred the older name Troodon.
+- Claims about exceptional intelligence are based mainly on relative braincase size and should not be translated into human-like cognition.
+
 ## Where it lived
 
 The majority of Stenonychosaurus material — teeth, partial skeletal elements, and isolated bones — comes from this rich Campanian formation.
+
+The profile is restricted to Campanian Dinosaur Park Formation material; it does not inherit every historical North American occurrence assigned to Troodon.
 
 ## Open questions
 

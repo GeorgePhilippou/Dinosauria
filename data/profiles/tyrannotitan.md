@@ -39,13 +39,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/tyrannotitan.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype and paratype together document much of the axial and appendicular skeleton but no complete individual.
-  - from: record fact
-    text: The catalogue seven-tonne mass is cleared because published estimates depend on scaling incomplete specimens.
-  - from: age review note
-    text: "Published descriptions have called the Cerro Castaño Member Aptian or Albian; the single 101 Ma catalogue date is therefore overprecise."
 ---
 
 ## Overview
@@ -66,9 +59,14 @@ Tyrannotitan chubutensis was described in 2005 by Fernando Novas, Silvina de Val
 
 Two incomplete individuals with skull, vertebral, girdle and limb elements.
 
+- The holotype and paratype together document much of the axial and appendicular skeleton but no complete individual.
+- The catalogue seven-tonne mass is cleared because published estimates depend on scaling incomplete specimens.
+
 ## Where it lived
 
 The formation from which Tyrannotitan chubutensis was recovered in Patagonian Argentina.
+
+Published descriptions have called the Cerro Castaño Member Aptian or Albian; the single 101 Ma catalogue date is therefore overprecise.
 
 ## Classification
 

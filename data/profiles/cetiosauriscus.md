@@ -41,13 +41,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cetiosauriscus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The name C. stewarti has been conserved for specimen NHMUK PV R3078.
-  - from: record fact
-    text: Swiss material once called Cetiosauriscus greppini belongs to the separate genus Amanzia.
-  - from: age review note
-    text: The type skeleton is Callovian in the Oxford Clay Formation.
 ---
 
 ## Overview
@@ -68,9 +61,14 @@ Cetiosauriscus stewarti was named by Friedrich von Huene in 1927 from material c
 
 One incomplete postcranial skeleton comprising posterior vertebral column, girdles and limbs.
 
+- The name C. stewarti has been conserved for specimen NHMUK PV R3078.
+- Swiss material once called Cetiosauriscus greppini belongs to the separate genus Amanzia.
+
 ## Where it lived
 
 Marine and nearshore Callovian clay deposits across central England that preserve the main Cetiosauriscus specimen.
+
+The type skeleton is Callovian in the Oxford Clay Formation.
 
 ## Classification
 

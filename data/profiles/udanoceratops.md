@@ -38,13 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/udanoceratops.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The skull supports a large-bodied leptoceratopsid but not a precise whole-body size.
-  - from: record fact
-    text: Quadrupedal versus mixed locomotion and species ecology remain uncertain.
-  - from: age review note
-    text: "The type is Campanian; formation correlation does not support a narrow point date."
 ---
 
 ## Overview
@@ -67,9 +60,14 @@ Udanoceratops tschizhovi was named by Sergei Kurzanov in 1992 from specimens col
 
 One large incomplete skull with sparse referred postcranium.
 
+- The skull supports a large-bodied leptoceratopsid but not a precise whole-body size.
+- Quadrupedal versus mixed locomotion and species ecology remain uncertain.
+
 ## Where it lived
 
 Campanian-aged Gobi Desert deposits from which Udanoceratops material was recovered.
+
+The type is Campanian; formation correlation does not support a narrow point date.
 
 ## Open questions
 

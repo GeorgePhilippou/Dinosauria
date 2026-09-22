@@ -46,13 +46,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chirostenotes&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Modern studies generally distinguish Chirostenotes from the jaw-based genus Caenagnathus.
-  - from: record fact
-    text: "A toothless beak and bipedal stance are supported at clade level; exact diet is unresolved."
-  - from: age review note
-    text: Secure C. pergracilis material is late Campanian in the Dinosaur Park Formation, not Maastrichtian.
 ---
 
 ## Overview
@@ -75,9 +68,14 @@ Chirostenotes has accumulated numerous referred specimens because isolated caena
 
 Type hands and several incomplete referred cranial and postcranial specimens with varying association confidence.
 
+- Modern studies generally distinguish Chirostenotes from the jaw-based genus Caenagnathus.
+- A toothless beak and bipedal stance are supported at clade level; exact diet is unresolved.
+
 ## Where it lived
 
 Late Campanian formation in southern Alberta, yielding numerous Chirostenotes specimens including type material.
+
+Secure C. pergracilis material is late Campanian in the Dinosaur Park Formation, not Maastrichtian.
 
 ## Open questions
 

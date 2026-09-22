@@ -236,7 +236,8 @@ def convert(d):
         'diet': diet,
         'posture': first(rec.get('locomotion'), L[10]),
         'found_in': L[13] or [],
-        'fossil_record': level,
+        'fossil_record': None if r.get('scientificDisposition') == 'needs-specialist-review' else level,
+        'specialist_review': 'pending' if r.get('scientificDisposition') == 'needs-specialist-review' else None,
         'fossil_record_note': first((pan.get('coverage') or {}).get('basis'), ev.get('confidenceLimit')),
         'classification': trunk,
         'related': related,
@@ -260,6 +261,11 @@ def convert(d):
     body = {k: [] for k in SECTIONS}
 
     body['Overview'] = list(prof.get('overview', []))
+    # The reviewed description is the most reliable summary paragraph; lead with
+    # it whenever the page summary is a different (shorter) tagline.
+    desc = rec.get('description')
+    if desc and p.get('heroLead') and not any(contained(desc, t) for t in body['Overview']):
+        body['Overview'].insert(0, desc)
 
     if p:
         body['Anatomy & life'] += p.get('animalParagraphs', [])
@@ -292,11 +298,12 @@ def convert(d):
     add_if_new('Fossil record', ev.get('material') if not p else None)
     add_if_new('Fossil record', fr.get('evidence'))
     add_if_new('Where it lived', fr.get('paleo'))
+    # Reviewed fact statements carry the literature-checked corrections, so they
+    # are shown (as Fossil record bullets), never parked.
     for f in rec.get('facts', []):
         if not any(contained(f, t) for s in SECTIONS for t in body[s]):
-            parked.append({'from': 'record fact', 'text': f})
-    if r.get('ageReviewNote'):
-        parked.append({'from': 'age review note', 'text': r['ageReviewNote']})
+            body['Fossil record'].append('- ' + f)
+    add_if_new('Where it lived', r.get('ageReviewNote'))
 
     fm['parked'] = parked
 
@@ -337,7 +344,7 @@ def convert(d):
     lines = ['---']
     for k, v in fm.items():
         if v is None or v == [] or v == {}:
-            if k in ('length_m', 'mass_kg'):
+            if k in ('length_m', 'mass_kg', 'fossil_record'):
                 lines.append(f'{k}: null')
             continue
         if isinstance(v, dict):

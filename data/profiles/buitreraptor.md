@@ -41,13 +41,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Buitreraptor&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Its numerous small, unserrated teeth differ from the broad serrated teeth of many northern dromaeosaurids.
-  - from: record fact
-    text: The teeth support small-prey feeding but do not identify a single specialised diet.
-  - from: age review note
-    text: The Candeleros Formation is Cenomanian.
 ---
 
 ## Overview
@@ -68,11 +61,16 @@ Buitreraptor gonzalezorum was described in 2005 by Peter Makovicky, Sebastián A
 
 One near-complete skull and skeleton plus several partial individuals.
 
+- Its numerous small, unserrated teeth differ from the broad serrated teeth of many northern dromaeosaurids.
+- The teeth support small-prey feeding but do not identify a single specialised diet.
+
 ## Where it lived
 
 The Candeleros Formation was a semi-arid floodplain environment during the Cenomanian, shared with large sauropods like Argentinosaurus and predators such as Giganotosaurus. Buitreraptor occupied a very different ecological niche as a small, agile predator, likely hunting alongside other small theropods and avoiding competition with the large carnivores.
 
 Cenomanian-age formation in northern Patagonia that preserves the primary Buitreraptor material.
+
+The Candeleros Formation is Cenomanian.
 
 ## Open questions
 

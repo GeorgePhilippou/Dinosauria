@@ -35,15 +35,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/jobaria.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The material represents multiple individuals and should not be described as one complete skeleton.
-  - from: record fact
-    text: A 2009 stratigraphic reassessment favours a late Middle Jurassic age.
-  - from: record fact
-    text: Its exact position among non-neosauropod eusauropods varies across analyses.
-  - from: age review note
-    text: "Corrected from Early Cretaceous to the late Middle Jurassic interpretation of the Tiouraren Formation; no direct radiometric date is available."
 ---
 
 ## Overview
@@ -66,9 +57,15 @@ Jobaria tiguidensis was described in 1999 by Paul Sereno, David Beck, Didier Dut
 
 Multi-individual cranial and postcranial assemblage with much of the skeleton represented.
 
+- The material represents multiple individuals and should not be described as one complete skeleton.
+- A 2009 stratigraphic reassessment favours a late Middle Jurassic age.
+- Its exact position among non-neosauropod eusauropods varies across analyses.
+
 ## Where it lived
 
 Desert outcrops in the Ténéré region of Niger where Sereno's expeditions recovered skull and skeletal material of Jobaria in the 1990s.
+
+Corrected from Early Cretaceous to the late Middle Jurassic interpretation of the Tiouraren Formation; no direct radiometric date is available.
 
 ## Open questions
 

@@ -35,15 +35,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/juravenator.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Only one juvenile individual is known.
-  - from: record fact
-    text: "The specimen preserves both scale impressions and simple filamentous structures; this is not evidence that the entire adult was uniformly scaly or feathered."
-  - from: record fact
-    text: Small sharp teeth support carnivory or insectivory broadly, not a specific prey list.
-  - from: age review note
-    text: The Painten occurrence is late Kimmeridgian rather than a broad 155-145 Ma span.
 ---
 
 ## Overview
@@ -64,11 +55,17 @@ Juravenator starki was described in 2006 by Ursula Göhlich and Luis Chiappe fro
 
 One nearly complete juvenile skeleton with soft-tissue impressions.
 
+- Only one juvenile individual is known.
+- The specimen preserves both scale impressions and simple filamentous structures; this is not evidence that the entire adult was uniformly scaly or feathered.
+- Small sharp teeth support carnivory or insectivory broadly, not a specific prey list.
+
 ## Where it lived
 
 The Solnhofen limestone environment of Late Jurassic Bavaria was a shallow tropical archipelago with lagoons, subject to seasonal drying. This anaerobic environment enabled exceptional preservation of soft tissues. Juravenator inhabited the surrounding landmasses and was likely a predator of small vertebrates and invertebrates in this island-rich setting.
 
 Part of the Solnhofen limestone complex that has produced Archaeopteryx and Compsognathus; the Juravenator specimen was recovered from Schamhaupten quarries.
+
+The Painten occurrence is late Kimmeridgian rather than a broad 155-145 Ma span.
 
 ## Open questions
 

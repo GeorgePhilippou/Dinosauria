@@ -34,15 +34,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/muttaburrasaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The holotype and second skull differ in ways that may reflect variation, deformation or taxonomy.
-  - from: record fact
-    text: The enlarged nasal region is preserved, but a resonating or display function is speculative.
-  - from: record fact
-    text: "Herbivory is secure; a special omnivorous diet proposed from tooth form is not established."
-  - from: age review note
-    text: "Material comes from upper Albian to Cenomanian units; the old 112-99 Ma span is too broad."
 ---
 
 ## Overview
@@ -65,9 +56,15 @@ Two partial skeletons with skulls plus isolated referred remains.
 
 The inflated nasal region and unusual shearing teeth distinguish it from other ornithopods and suggest a specialised diet.
 
+- The holotype and second skull differ in ways that may reflect variation, deformation or taxonomy.
+- The enlarged nasal region is preserved, but a resonating or display function is speculative.
+- Herbivory is secure; a special omnivorous diet proposed from tooth form is not established.
+
 ## Where it lived
 
 Early Cretaceous of eastern Australia, when a shallow inland sea covered much of the continent.
+
+Material comes from upper Albian to Cenomanian units; the old 112-99 Ma span is too broad.
 
 ## Open questions
 

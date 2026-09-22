@@ -40,15 +40,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=67256"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype lacks a skull but preserves vertebral, pelvic and limb material.
-  - from: record fact
-    text: Its short fused tail tip is real, though calling it identical to a modern bird pygostyle can overstate convergence.
-  - from: record fact
-    text: This page should be retained as a historical synonym rather than counted as a separate accepted genus.
-  - from: age review note
-    text: The specimen is from the Maastrichtian Nemegt Formation, not merely a generic 72-68 Ma range.
 ---
 
 ## Overview
@@ -69,9 +60,15 @@ The most significant anatomical feature of Nomingia is its pygostyle — the las
 
 Single partial postcranial skeleton including a fused terminal tail structure.
 
+- The holotype lacks a skull but preserves vertebral, pelvic and limb material.
+- Its short fused tail tip is real, though calling it identical to a modern bird pygostyle can overstate convergence.
+- This page should be retained as a historical synonym rather than counted as a separate accepted genus.
+
 ## Where it lived
 
 Maastrichtian fluvial deposits of the Gobi Desert yielding the partial postcranial holotype of Nomingia.
+
+The specimen is from the Maastrichtian Nemegt Formation, not merely a generic 72-68 Ma range.
 
 ## Classification
 

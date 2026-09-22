@@ -42,13 +42,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38540"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type assemblage contains mainly postcranial bones rather than a complete individual.
-  - from: record fact
-    text: A toothless, cursorial ornithomimid body is supported, but diet is not directly known.
-  - from: age review note
-    text: "The Iren Dabasu type horizon has a broad debated Late Cretaceous age; the younger Uzbek species should not extend the range."
 ---
 
 ## Overview
@@ -71,9 +64,14 @@ Archaeornithomimus asiaticus was named by Dale Russell in 1972, based on materia
 
 Disarticulated postcranial bones from several individuals.
 
+- The type assemblage contains mainly postcranial bones rather than a complete individual.
+- A toothless, cursorial ornithomimid body is supported, but diet is not directly known.
+
 ## Where it lived
 
 The primary source of Archaeornithomimus material, this formation has also yielded other important Late Cretaceous dinosaurs including Bactrosaurus and early tyrannosauroids.
+
+The Iren Dabasu type horizon has a broad debated Late Cretaceous age; the younger Uzbek species should not extend the range.
 
 ## Open questions
 

@@ -44,13 +44,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38685"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type includes braincase, jaw, vertebral and limb elements found in association but not articulation.
-  - from: record fact
-    text: Other species historically placed in Antarctosaurus are not automatically part of A. wichmannianus and several have been reassigned or regarded as dubious.
-  - from: age review note
-    text: The Anacleto Formation is early Campanian.
 ---
 
 ## Overview
@@ -69,11 +62,16 @@ Antarctosaurus wichmannianus was described by German palaeontologist Friedrich v
 
 A disarticulated, fragmentary type assemblage with uncertain element association.
 
+- The type includes braincase, jaw, vertebral and limb elements found in association but not articulation.
+- Other species historically placed in Antarctosaurus are not automatically part of A. wichmannianus and several have been reassigned or regarded as dubious.
+
 ## Where it lived
 
 Antarctosaurus inhabited the Neuquén Basin of Patagonia, which during the Late Cretaceous was a system of river floodplains and lakes in a seasonally dry climate. This region was one of the most dinosaur-rich environments on Gondwana, yielding numerous titanosaurs, abelisaurid theropods, rebbachisaurid sauropods, and other Cretaceous vertebrates.
 
 Multiple Antarctosaurus specimens have been found here in the Neuquén Basin, one of the most productive regions for South American titanosaurs.
+
+The Anacleto Formation is early Campanian.
 
 ## Classification
 

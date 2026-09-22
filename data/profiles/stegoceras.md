@@ -41,13 +41,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/stegoceras.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Growth strongly altered dome shape, making juveniles look unlike adults.
-  - from: record fact
-    text: Head-impact behaviour is biomechanically plausible but its exact form and diet remain debated.
-  - from: age review note
-    text: Secure material is Campanian Dinosaur Park and Oldman formations.
 ---
 
 ## Overview
@@ -70,9 +63,14 @@ Stegoceras validum was first described by Lawrence Lambe in 1902 from isolated s
 
 Numerous skull roofs and several partial skeletons spanning growth stages.
 
+- Growth strongly altered dome shape, making juveniles look unlike adults.
+- Head-impact behaviour is biomechanically plausible but its exact form and diet remain debated.
+
 ## Where it lived
 
 The majority of Stegoceras material, including the holotype, comes from this prolific Campanian formation in the Red Deer River badlands of Alberta.
+
+Secure material is Campanian Dinosaur Park and Oldman formations.
 
 ## Open questions
 

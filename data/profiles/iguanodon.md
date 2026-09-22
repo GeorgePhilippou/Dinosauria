@@ -81,17 +81,11 @@ parked:
     text: "Mantell initially placed the thumb spike on Iguanodon's nose as a rhinoceros-like horn — this was immortalised in the Crystal Palace statues of 1853 which still stand in London. The correct position on the thumb was established only when articulated Bernissart skeletons showed the spike attached to the first digit. Its function — defensive weapon, foraging tool for breaking open fruit, or intraspecific combat — is still debated."
   - from: "article: Locomotion"
     text: "The wrist bones of Iguanodon form a fused, weight-bearing structure suited to quadrupedal locomotion. Modern analysis confirms it walked primarily on all fours with the body held horizontally, rearing bipedally only to reach higher vegetation. Its dental battery — cheek teeth capable of grinding — represents an advance over the simpler teeth of Camptosaurus, foreshadowing the efficient grinding dentition of hadrosaurs."
-  - from: record fact
-    text: The thumb spike was on the hand, not the nose as in the earliest reconstruction.
-  - from: record fact
-    text: Forelimb and hand anatomy support habitual quadrupedal walking with facultative bipedality.
-  - from: record fact
-    text: The Bernissart assemblage contains multiple individuals but does not by itself prove a permanent herd.
-  - from: age review note
-    text: "I. bernissartensis is late Barremian-early Aptian; older broad genus ranges largely reflect reassigned species."
 ---
 
 ## Overview
+
+Iguanodon bernissartensis was a large herbivorous iguanodontian best known from the Bernissart mine in Belgium, where numerous associated skeletons and skulls were recovered. Modern revision restricts Iguanodon more narrowly than older books that placed many Early Cretaceous species from Europe and elsewhere in the genus.
 
 Iguanodon bernissartensis was the second dinosaur formally described — named by Gideon Mantell in 1825 from teeth found in Sussex — and one of the three genera that Richard Owen used to define Dinosauria in 1842. In 1878 coal miners in Bernissart, Belgium discovered 38 nearly complete skeletons, providing the first opportunity for scientists to study a dinosaur in full and transforming palaeontology.
 
@@ -125,9 +119,15 @@ The Belgian material is extraordinarily complete, but pyrite decay has damaged s
 
 Thumb spikes, beaked jaws and abundant skeletons transformed early dinosaur reconstruction.
 
+- The thumb spike was on the hand, not the nose as in the earliest reconstruction.
+- Forelimb and hand anatomy support habitual quadrupedal walking with facultative bipedality.
+- The Bernissart assemblage contains multiple individuals but does not by itself prove a permanent herd.
+
 ## Where it lived
 
 Early Cretaceous European floodplain and wetland settings.
+
+I. bernissartensis is late Barremian-early Aptian; older broad genus ranges largely reflect reassigned species.
 
 ## Classification
 

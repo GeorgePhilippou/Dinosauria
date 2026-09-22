@@ -37,15 +37,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dubreuillosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type was originally named as a species of Poekilopleuron and later given its own genus.
-  - from: record fact
-    text: Its long, low skull and serrated teeth support a predatory diet.
-  - from: record fact
-    text: The specimen is immature, limiting adult size estimates.
-  - from: age review note
-    text: The type comes from the middle Bathonian Calcaire de Caen rather than a generic Middle Jurassic range.
 ---
 
 ## Overview
@@ -66,9 +57,15 @@ The material that would become Dubreuillosaurus was initially described as Poeki
 
 One associated partial skull and substantial incomplete postcranial skeleton.
 
+- The type was originally named as a species of Poekilopleuron and later given its own genus.
+- Its long, low skull and serrated teeth support a predatory diet.
+- The specimen is immature, limiting adult size estimates.
+
 ## Where it lived
 
 The only known locality for Dubreuillosaurus; Bathonian-age limestone deposits near the town of Valen-des-Ducs in Normandy.
+
+The type comes from the middle Bathonian Calcaire de Caen rather than a generic Middle Jurassic range.
 
 ## Classification
 

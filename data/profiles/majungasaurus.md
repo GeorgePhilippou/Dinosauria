@@ -32,15 +32,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/majungasaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Its short deep skull and reduced forelimbs are directly documented by a strong sample.
-  - from: record fact
-    text: Majungasaurus tooth marks on Majungasaurus bones provide evidence of cannibalistic feeding, though not necessarily active predation.
-  - from: record fact
-    text: Growth studies indicate slow, prolonged growth relative to many large theropods.
-  - from: age review note
-    text: The Maevarano Formation sample is late Maastrichtian.
 ---
 
 ## Overview
@@ -63,9 +54,15 @@ Multiple skulls and extensive postcranial material from many individuals, collec
 
 Tooth marks matching Majungasaurus teeth on Majungasaurus bones provide rare direct evidence of cannibalism — one of only a few dinosaurs (alongside Allosaurus and some tyrannosaurids) with such direct evidence.
 
+- Its short deep skull and reduced forelimbs are directly documented by a strong sample.
+- Majungasaurus tooth marks on Majungasaurus bones provide evidence of cannibalistic feeding, though not necessarily active predation.
+- Growth studies indicate slow, prolonged growth relative to many large theropods.
+
 ## Where it lived
 
 Late Cretaceous semi-arid to seasonally wet environments of Madagascar, isolated from mainland Africa.
+
+The Maevarano Formation sample is late Maastrichtian.
 
 ## Open questions
 

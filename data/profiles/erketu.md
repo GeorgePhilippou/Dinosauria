@@ -50,15 +50,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Erketu&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Its exceptionally elongate known neck vertebrae do not reveal the exact total neck length because the series is incomplete.
-  - from: record fact
-    text: "Both the original and later analyses place it among titanosauriforms, on the somphospondylian side of the brachiosaurid-somphospondylian split; its precise relationships remain uncertain."
-  - from: record fact
-    text: "Quadrupedal herbivory is secure at broad level; feeding height and plants are not."
-  - from: age review note
-    text: "The Bayan Shireh Formation is broadly mid-Late Cretaceous; a narrow numerical date would overstate current correlation."
 ---
 
 ## Overview
@@ -81,9 +72,15 @@ Erketu ellisoni was formally described by Ksepka and Norell in 2006 from specime
 
 One incomplete postcranial skeleton dominated by partial neck and associated girdle and limb material.
 
+- Its exceptionally elongate known neck vertebrae do not reveal the exact total neck length because the series is incomplete.
+- Both the original and later analyses place it among titanosauriforms, on the somphospondylian side of the brachiosaurid-somphospondylian split; its precise relationships remain uncertain.
+- Quadrupedal herbivory is secure at broad level; feeding height and plants are not.
+
 ## Where it lived
 
 Primary type locality; articulated cervical vertebrae and other elements described by Ksepka and Norell in 2006.
+
+The Bayan Shireh Formation is broadly mid-Late Cretaceous; a narrow numerical date would overstate current correlation.
 
 ## Open questions
 

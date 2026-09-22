@@ -36,15 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/hypsilophodon.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The old idea that Hypsilophodon climbed trees is not supported by modern anatomy.
-  - from: record fact
-    text: "There is no bony body armour; supposed plates were misidentified material."
-  - from: record fact
-    text: Its hands and feet are consistent with terrestrial bipedal locomotion.
-  - from: age review note
-    text: The main Hypsilophodon bed is Barremian, close to 126-125 Ma.
 ---
 
 ## Overview
@@ -67,9 +58,15 @@ Numerous skulls and partial-to-substantial skeletons from multiple individuals.
 
 Light limbs, small skulls and herbivorous dentition support a small agile ornithischian lifestyle.
 
+- The old idea that Hypsilophodon climbed trees is not supported by modern anatomy.
+- There is no bony body armour; supposed plates were misidentified material.
+- Its hands and feet are consistent with terrestrial bipedal locomotion.
+
 ## Where it lived
 
 Early Cretaceous floodplain environments of the Wealden record.
+
+The main Hypsilophodon bed is Barremian, close to 126-125 Ma.
 
 ## Open questions
 

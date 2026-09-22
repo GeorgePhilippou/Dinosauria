@@ -39,15 +39,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Guanlong"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The adult skull bears a large, thin midline crest that was structurally unsuited to forceful combat.
-  - from: record fact
-    text: The two known individuals provide limited but direct ontogenetic comparison.
-  - from: record fact
-    text: "Serrated teeth support predation; exact prey and social behaviour are unknown."
-  - from: age review note
-    text: Ash-bed dating places the relevant Shishugou interval in the Oxfordian, close to 160 Ma.
 ---
 
 ## Overview
@@ -68,11 +59,17 @@ Two specimens were recovered from the Shishugou Formation in 2002 during a joint
 
 Two associated partial-to-near-complete skeletons including skulls, one adult and one juvenile.
 
+- The adult skull bears a large, thin midline crest that was structurally unsuited to forceful combat.
+- The two known individuals provide limited but direct ontogenetic comparison.
+- Serrated teeth support predation; exact prey and social behaviour are unknown.
+
 ## Where it lived
 
 The Shishugou Formation represents a semi-arid floodplain environment with seasonal rivers and volcanic activity. Guanlong shared this ecosystem with a diverse fauna including the herbivorous ceratosaur Limusaurus, the theropod Monolophosaurus, and several sauropod taxa. The presence of multiple tyrannosauroid specimens suggests the group was not rare in this environment, though it was clearly not yet the dominant apex predator — that role was filled by larger allosauroids.
 
 Type locality for Guanlong; the Shishugou Formation also preserves Limusaurus, Monolophosaurus and the giant sauropod Mamenchisaurus, providing an exceptionally rich Late Jurassic fauna.
+
+Ash-bed dating places the relevant Shishugou interval in the Oxfordian, close to 160 Ma.
 
 ## Open questions
 

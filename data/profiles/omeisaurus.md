@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Herbivore
 found_in: [China]
-fossil_record: 2
+fossil_record: null
+specialist_review: pending
 fossil_record_note: Do not present a composite of all named species as one complete animal.
 classification: [Dinosauria, Saurischia, Sauropodomorpha, Sauropoda, Eusauropoda, Mamenchisauridae]
 summary: Omeisaurus is a genus of Chinese eusauropods centred on the Middle Jurassic Shaximiao succession. Several species and many skeletons have been assigned to it, but genus limits and species referrals require modern revision.
@@ -45,15 +46,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Omeisaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Material attributed to different species collectively covers much of the skeleton, including skulls in some species.
-  - from: record fact
-    text: The tail-club often shown in reconstructions is based on referred material whose species association is uncertain.
-  - from: record fact
-    text: Long neck and quadrupedal herbivory are well supported broadly, but measurements must remain species-specific.
-  - from: age review note
-    text: "The reviewed range follows Middle Jurassic type and core species; later referrals are not used to extend the genus automatically."
 ---
 
 ## Overview
@@ -74,11 +66,17 @@ Omeisaurus junghsiensis was described by the Chinese palaeontologist C.C. Young 
 
 Multiple partial to substantial skeletons assigned to several species; some cranial material.
 
+- Material attributed to different species collectively covers much of the skeleton, including skulls in some species.
+- The tail-club often shown in reconstructions is based on referred material whose species association is uncertain.
+- Long neck and quadrupedal herbivory are well supported broadly, but measurements must remain species-specific.
+
 ## Where it lived
 
 Omeisaurus co-existed with other iconic Chinese Jurassic dinosaurs at Dashanpu, including the stegosaur Huayangosaurus, the sauropod Datousaurus, the ornithopod Xiaosaurus, and the theropod Gasosaurus. The Dashanpu quarry has been called the richest Jurassic dinosaur locality in Asia. This diverse fauna offers a detailed picture of a Middle Jurassic ecosystem.
 
 Middle Jurassic deposits of the Sichuan Basin, including the Dashanpu quarry, yielding numerous Omeisaurus specimens.
+
+The reviewed range follows Middle Jurassic type and core species; later referrals are not used to extend the genus automatically.
 
 ## Open questions
 

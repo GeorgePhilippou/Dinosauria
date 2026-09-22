@@ -42,15 +42,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gastonia&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The record is a multi-individual assemblage, not one complete skeleton.
-  - from: record fact
-    text: The absence of a tail club and presence of a sacral shield fit a polacanthine nodosaurid interpretation.
-  - from: record fact
-    text: Exact species assignments within the broader Gastonia material have been revised.
-  - from: age review note
-    text: Age follows the Yellow Cat Member and remains approximate because Cedar Mountain member chronology has been repeatedly revised.
 ---
 
 ## Overview
@@ -73,9 +64,15 @@ The recovery of multiple individuals of Gastonia from the same locality is rare 
 
 Abundant multi-individual cranial, postcranial and armour material.
 
+- The record is a multi-individual assemblage, not one complete skeleton.
+- The absence of a tail club and presence of a sacral shield fit a polacanthine nodosaurid interpretation.
+- Exact species assignments within the broader Gastonia material have been revised.
+
 ## Where it lived
 
 Primary locality yielding both skull and multiple partial skeletal specimens of Gastonia, alongside the large dromaeosaurid Utahraptor.
+
+Age follows the Yellow Cat Member and remains approximate because Cedar Mountain member chronology has been repeatedly revised.
 
 ## Open questions
 

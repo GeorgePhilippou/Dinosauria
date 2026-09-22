@@ -40,15 +40,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/hylaeosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype lacks a complete skull and much of the limbs.
-  - from: record fact
-    text: Large spines were preserved near the shoulder/neck region, but the full armour arrangement is unknown.
-  - from: record fact
-    text: Modern revision retains Hylaeosaurus as distinct from Polacanthus.
-  - from: age review note
-    text: The type horizon is Valanginian Grinstead Clay, not a 150-135 Ma interval extending into the Jurassic.
 ---
 
 ## Overview
@@ -71,9 +62,15 @@ Hylaeosaurus armatus was named by Gideon Mantell in 1833 from a partial skeleton
 
 One incomplete associated skeleton with axial, girdle, limb and armour elements.
 
+- The holotype lacks a complete skull and much of the limbs.
+- Large spines were preserved near the shoulder/neck region, but the full armour arrangement is unknown.
+- Modern revision retains Hylaeosaurus as distinct from Polacanthus.
+
 ## Where it lived
 
 The holotype was discovered in the Tilgate Forest area of Sussex and is one of the historically significant Early Cretaceous dinosaur localities in Britain.
+
+The type horizon is Valanginian Grinstead Clay, not a 150-135 Ma interval extending into the Jurassic.
 
 ## Open questions
 

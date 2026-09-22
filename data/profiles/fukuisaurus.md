@@ -37,15 +37,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Fukuisaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type series is cranial, centred on a maxilla and jugal.
-  - from: record fact
-    text: Additional remains support a medium-sized facultatively quadrupedal iguanodontian body plan.
-  - from: record fact
-    text: No complete individual preserves every part shown in museum reconstructions.
-  - from: age review note
-    text: The reviewed range follows the Aptian Kitadani Formation rather than the former 121-99 Ma profile span.
 ---
 
 ## Overview
@@ -66,11 +57,17 @@ Fukuisaurus tetoriensius was described by Kobayashi and Azuma in 2003 from skull
 
 Diagnostic cranial type material plus referred partial postcranial remains.
 
+- The type series is cranial, centred on a maxilla and jugal.
+- Additional remains support a medium-sized facultatively quadrupedal iguanodontian body plan.
+- No complete individual preserves every part shown in museum reconstructions.
+
 ## Where it lived
 
 The Kitadani Formation preserves a snapshot of an Early Cretaceous island environment in what is now Japan, a region that was at the time part of the eastern margin of the Asian continent. Fukuisaurus shared this environment with the theropod Fukuiraptor, crocodilians, turtles, and various small vertebrates, in a fluvial lowland setting characterised by river channels and floodplains.
 
 The only known locality; skull material discovered alongside theropod fossils including Fukuiraptor, documenting the Early Cretaceous ecosystem of Fukui.
+
+The reviewed range follows the Aptian Kitadani Formation rather than the former 121-99 Ma profile span.
 
 ## Open questions
 

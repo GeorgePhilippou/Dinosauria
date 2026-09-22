@@ -31,15 +31,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/monolophosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype preserves a high proportion of the skull and postcranium but is not a complete skeleton.
-  - from: record fact
-    text: "The midline cranial crest is directly preserved; its display function is plausible but untested."
-  - from: record fact
-    text: Analyses consistently place it near the base of Tetanurae rather than within Allosauroidea or Megalosauroidea.
-  - from: age review note
-    text: "The type horizon in the Shishugou Formation is Callovian; the very broad NHM interval is replaced with formation-level dating."
 ---
 
 ## Overview
@@ -60,9 +51,15 @@ Monolophosaurus jiangi was described in 1993 by Zhao Xijin and Philip Currie fro
 
 Single partial skeleton with a nearly complete skull and substantial axial and appendicular remains.
 
+- The holotype preserves a high proportion of the skull and postcranium but is not a complete skeleton.
+- The midline cranial crest is directly preserved; its display function is plausible but untested.
+- Analyses consistently place it near the base of Tetanurae rather than within Allosauroidea or Megalosauroidea.
+
 ## Where it lived
 
 A nearly complete skull and partial postcranial skeleton of Monolophosaurus jiangi were recovered from Middle Jurassic continental deposits in the Junggar Basin.
+
+The type horizon in the Shishugou Formation is Callovian; the very broad NHM interval is replaced with formation-level dating.
 
 ## Classification
 

@@ -32,13 +32,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/sauropelta.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Large shoulder spines and rows of osteoderms are directly represented, but full armour placement is composite.
-  - from: record fact
-    text: It lacked an ankylosaurid-style tail club.
-  - from: age review note
-    text: The Cloverly sample is Aptian-Albian and not a genus lifespan to 100 Ma.
 ---
 
 ## Overview
@@ -61,9 +54,14 @@ Several partial skeletons, including substantial postcranium and osteoderms.
 
 Armour plates and long shoulder spines define this nodosaurid ankylosaur.
 
+- Large shoulder spines and rows of osteoderms are directly represented, but full armour placement is composite.
+- It lacked an ankylosaurid-style tail club.
+
 ## Where it lived
 
 Early Cretaceous North American terrestrial deposits.
+
+The Cloverly sample is Aptian-Albian and not a genus lifespan to 100 Ma.
 
 ## Open questions
 

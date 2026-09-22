@@ -37,13 +37,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Barapasaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The quarry is a multi-individual assemblage, not one complete giant skeleton.
-  - from: record fact
-    text: "Its columnar limbs support obligate quadrupedal locomotion; precise feeding height and mass remain reconstructed."
-  - from: age review note
-    text: The lower Kota Formation is generally Sinemurian-Pliensbachian, although its upper boundary is not tightly dated.
 ---
 
 ## Overview
@@ -62,11 +55,16 @@ Barapasaurus tagorei was described in 1975 by S.L. Jain, T.K. Kutty, T. Roy-Chow
 
 About three hundred mostly disarticulated bones from at least six individuals.
 
+- The quarry is a multi-individual assemblage, not one complete giant skeleton.
+- Its columnar limbs support obligate quadrupedal locomotion; precise feeding height and mass remain reconstructed.
+
 ## Where it lived
 
 The Kota Formation preserves a fluvial environment with diverse fauna including fish, crocodylomorphs, and early mammals alongside Barapasaurus. As a large herbivore in an ecosystem with relatively low plant diversity compared to later periods, it likely fed on ferns, cycads, and conifers at varying heights.
 
 The primary source of Barapasaurus material, yielding multiple partial skeletons from Lower Jurassic fluvial sediments.
+
+The lower Kota Formation is generally Sinemurian-Pliensbachian, although its upper boundary is not tightly dated.
 
 ## Classification
 

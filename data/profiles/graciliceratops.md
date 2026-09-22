@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Herbivore
 found_in: [Mongolia]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: "Moderate for neoceratopsian identity; low for adult anatomy, size and fine phylogeny."
 classification: [Dinosauria, Ornithischia, Ceratopsia, Neoceratopsia]
 summary: "Graciliceratops mongoliensis was a small neoceratopsian from the Bayan Shireh Formation of Mongolia. It is based on a fragmentary partial skeleton, probably from an immature individual; the skull is represented only by limited jaw and frill material."
@@ -40,15 +41,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/graciliceratops.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype is neither complete nor securely adult.
-  - from: record fact
-    text: Small body size may partly reflect immaturity.
-  - from: record fact
-    text: Herbivory is supported by ceratopsian teeth and jaws, but detailed diet is unknown.
-  - from: age review note
-    text: Bayan Shireh dating remains broad and should not be rendered as a precise single age.
 ---
 
 ## Overview
@@ -69,11 +61,17 @@ Graciliceratops mongoliensis was named in 2000 by Paul Sereno based on partial s
 
 One fragmentary, probably juvenile partial skeleton with limited cranial material.
 
+- The holotype is neither complete nor securely adult.
+- Small body size may partly reflect immaturity.
+- Herbivory is supported by ceratopsian teeth and jaws, but detailed diet is unknown.
+
 ## Where it lived
 
 The Baynshire Formation preserves a Late Cretaceous semi-arid environment in what is now the Gobi region of southern Mongolia. Graciliceratops would have been a small browsing herbivore in this setting, potentially vulnerable to the theropod predators known from equivalent formations.
 
 The sole formally documented source of Graciliceratops material, dating to the Cenomanian stage of the Late Cretaceous.
+
+Bayan Shireh dating remains broad and should not be rendered as a precise single age.
 
 ## Open questions
 

@@ -38,15 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/sinosauropteryx.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: It provided the first widely accepted non-avian dinosaur integument outside birds.
-  - from: record fact
-    text: Melanosome studies support a banded tail and reddish-brown pattern in at least one specimen, not a universal genus-wide palette.
-  - from: record fact
-    text: Recent analyses disagree over the monophyly and family-level name of compsognathid-like theropods.
-  - from: age review note
-    text: High-precision dating brackets the Yixian Formation at 125.755-124.122 Ma, within the Barremian on the current time scale.
 ---
 
 ## Overview
@@ -69,9 +60,15 @@ Multiple articulated skeletons with filamentous integument, pigmentation and som
 
 Filamentous feather impressions and melanosome analysis allowed colour reconstruction; stomach contents preserve lizard and mammal prey.
 
+- It provided the first widely accepted non-avian dinosaur integument outside birds.
+- Melanosome studies support a banded tail and reddish-brown pattern in at least one specimen, not a universal genus-wide palette.
+- Recent analyses disagree over the monophyly and family-level name of compsognathid-like theropods.
+
 ## Where it lived
 
 Early Cretaceous lake and forest ecosystem of northeastern China.
+
+High-precision dating brackets the Yixian Formation at 125.755-124.122 Ma, within the Barremian on the current time scale.
 
 ## Open questions
 

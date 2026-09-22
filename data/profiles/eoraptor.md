@@ -70,17 +70,11 @@ parked:
     text: "Eoraptor had a small skull with large eyes, a lightly built skeleton and hindlimbs suited for bipedal running. Unlike Herrerasaurus, it lacks the specialised intramandibular joint and is considerably smaller. Five fingers are retained on the hand, with the fourth and fifth being vestigial — a condition more primitive than Herrerasaurus."
   - from: "article: Dawn of the dinosaurs"
     text: "The Ischigualasto Formation at 231 Ma captures one of the earliest moments of dinosaur diversification. All three major dinosaur groups — Saurischia, Ornithischia and what may be their earliest relatives — are represented in the same beds. Eoraptor's small size and generalist diet are consistent with an ancestral ecological role before the dietary and size diversification that would characterise later dinosaur evolution."
-  - from: record fact
-    text: The mixed tooth shapes do not by themselves prove omnivory.
-  - from: record fact
-    text: Its lightly built body was bipedal.
-  - from: record fact
-    text: Classification has shifted from basal theropod to basal sauropodomorph or basal saurischian as datasets changed.
-  - from: age review note
-    text: Radiometric dates constrain the fossil-bearing Ischigualasto interval near 231-229 Ma.
 ---
 
 ## Overview
+
+Eoraptor lunensis was a small early saurischian from the Ischigualasto Formation of Argentina. A nearly complete holotype and additional partial specimens preserve much of the skeleton; modern analyses commonly place it near the base of Sauropodomorpha, though dinosaur-root relationships remain debated.
 
 Eoraptor lunensis ("dawn thief of the valley of the moon") is one of the earliest dinosaurs, from the Ischigualasto Formation of Argentina (~231 Ma). At 1.7 metres long and about 10 kg, it was a small, generalist predator-omnivore with a mixed dentition — leaf-shaped teeth for plant material and recurved teeth for flesh. Its exact position in the dinosaur tree has shifted repeatedly: originally considered a basal theropod, it is now placed as a basal sauropodomorph.
 
@@ -114,9 +108,15 @@ Some elements are crushed or damaged and the tail tip is incomplete; referred sp
 
 Mixed tooth shapes and basal anatomy are important for understanding early saurischian evolution.
 
+- The mixed tooth shapes do not by themselves prove omnivory.
+- Its lightly built body was bipedal.
+- Classification has shifted from basal theropod to basal sauropodomorph or basal saurischian as datasets changed.
+
 ## Where it lived
 
 Late Triassic Ischigualasto ecosystem near the early radiation of dinosaurs.
+
+Radiometric dates constrain the fossil-bearing Ischigualasto interval near 231-229 Ma.
 
 ## Classification
 

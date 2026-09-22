@@ -38,13 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/sinovenator.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Its mosaic anatomy helped establish close relationships among troodontids, dromaeosaurids and birds.
-  - from: record fact
-    text: No direct diet or feather impressions are established for the principal type material.
-  - from: age review note
-    text: High-precision dating brackets the Yixian Formation at 125.755-124.122 Ma, within the Barremian on the current time scale.
 ---
 
 ## Overview
@@ -65,9 +58,14 @@ Sinovenator changii was described in 2002 by Xu Xing, Mark Norell, Wang Xiaolin,
 
 Several partial skeletons, including cranial and postcranial elements.
 
+- Its mosaic anatomy helped establish close relationships among troodontids, dromaeosaurids and birds.
+- No direct diet or feather impressions are established for the principal type material.
+
 ## Where it lived
 
 The holotype partial skeleton of Sinovenator was recovered from Yixian Formation deposits in Liaoning, part of the celebrated Jehol Biota.
+
+High-precision dating brackets the Yixian Formation at 125.755-124.122 Ma, within the Barremian on the current time scale.
 
 ## Classification
 

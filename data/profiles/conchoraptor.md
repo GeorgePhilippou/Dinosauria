@@ -40,13 +40,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Conchoraptor&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Jaw mechanics are compatible with powerful biting, but exact food items are not preserved.
-  - from: record fact
-    text: Some specimens once assigned to Conchoraptor may represent other closely related oviraptorids.
-  - from: age review note
-    text: The Barun Goyot Formation is Campanian, with a broad numerical age.
 ---
 
 ## Overview
@@ -67,11 +60,16 @@ Conchoraptor gracilis was described by Rinchen Barsbold in 1986 from multiple sp
 
 Multiple skulls and incomplete postcranial skeletons.
 
+- Jaw mechanics are compatible with powerful biting, but exact food items are not preserved.
+- Some specimens once assigned to Conchoraptor may represent other closely related oviraptorids.
+
 ## Where it lived
 
 The Baruungoyot Formation was deposited in a desert environment during the Late Cretaceous Campanian. The fauna includes protoceratopsids, ankylosaurs, small theropods, and multiple oviraptorid genera. Conchoraptor coexisted with larger oviraptorids and likely occupied a slightly different ecological niche owing to its smaller size and distinct jaw morphology.
 
 Late Campanian Gobi Desert sandstones yielding the primary Conchoraptor specimens with preserved feather evidence.
+
+The Barun Goyot Formation is Campanian, with a broad numerical age.
 
 ## Open questions
 

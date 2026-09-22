@@ -77,17 +77,11 @@ parked:
     text: "Giganotosaurus skull length (~1.8 m) rivals or exceeds Tyrannosaurus. Body length estimates range from 12–13.5 m, comparable to Tyrannosaurus but with a more slender build and proportionally lower body mass (~6–8 tonnes versus ~8–14 tonnes for large T. rex). The comparison is complicated by incomplete material for both, but Giganotosaurus was unquestionably among the very largest terrestrial carnivores."
   - from: "article: Predatory role"
     text: "The co-occurrence with the titanosaur Argentinosaurus — potentially the heaviest land animal ever — in the Candeleros Formation has led to suggestions that Giganotosaurus hunted these giants. The carcharodontosaurid skull, with blade-like serrated teeth and a wide gape, would have been effective for inflicting large wounds and blood loss rather than bone-crushing bites. Group behaviour in the related Mapusaurus (multi-individual bonebed) suggests possible cooperative hunting in the lineage."
-  - from: record fact
-    text: Its skull is reconstructed from incomplete and distorted bones.
-  - from: record fact
-    text: It rivalled the largest theropods in length, but claims that it was definitively larger than Tyrannosaurus depend on uncertain reconstructions and mass models.
-  - from: record fact
-    text: "Blade-like serrated teeth support predation on large vertebrates; specific prey and hunting groups are unknown."
-  - from: age review note
-    text: The Candeleros Formation is early Cenomanian, approximately 99-97 Ma.
 ---
 
 ## Overview
+
+Giganotosaurus carolinii was a giant carcharodontosaurid predator from the Candeleros Formation of Patagonia. It is known from one incomplete skeleton with much of the skull and a referred partial lower jaw; no complete skeleton exists.
 
 Giganotosaurus carolinii was a carcharodontosaurid theropod from the Cenomanian of Patagonia (~98 Ma), and with an estimated length of 12–13 metres it is among the longest carnivorous dinosaurs ever found. Discovered by amateur fossil hunter Rubén Carolini in 1993 in the Neuquén Group, it briefly held the title of "largest carnivore ever" before overlapping size estimates with Spinosaurus and Tyrannosaurus complicated the comparison.
 
@@ -121,9 +115,15 @@ Because a single individual supplies almost all the anatomy, size estimates and 
 
 Large skull bones and serrated teeth support its identity as one of the largest known theropods.
 
+- Its skull is reconstructed from incomplete and distorted bones.
+- It rivalled the largest theropods in length, but claims that it was definitively larger than Tyrannosaurus depend on uncertain reconstructions and mass models.
+- Blade-like serrated teeth support predation on large vertebrates; specific prey and hunting groups are unknown.
+
 ## Where it lived
 
 Early Late Cretaceous Patagonian ecosystems with giant sauropods.
+
+The Candeleros Formation is early Cenomanian, approximately 99-97 Ma.
 
 ## Classification
 

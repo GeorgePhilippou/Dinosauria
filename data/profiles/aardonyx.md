@@ -76,23 +76,11 @@ parked:
     text: Aardonyx was a herbivore that fed on leaves and foliage from shrubs and trees. Its teeth were leaf-shaped with a sharp point suited to stripping vegetation from branches. The diet and feeding posture are interpreted as intermediate between its bipedal prosauropod ancestors and the high-browsing, quadrupedal sauropods that evolved later in the Jurassic.
   - from: "article: Palaeoenvironment"
     text: The Elliot Formation in which Aardonyx was found represents a semi-arid to seasonally arid floodplain environment of the Early Jurassic. The formation has yielded numerous other early sauropodomorphs and small theropods, reflecting a diverse dinosaurian fauna that inhabited southern Gondwana during the opening stages of the Jurassic Period.
-  - from: record fact
-    text: The holotype BP/1/6254 is the rostral half of a left maxilla.
-  - from: record fact
-    text: A nearby caudal left-maxilla fragment, BP/1/6505, may be part of the same bone as the holotype.
-  - from: record fact
-    text: Referred material from Marc’s Quarry includes cranial and mandibular elements, cervical, dorsal, sacral and caudal vertebrae, ribs, gastralia, chevrons, girdle elements, and bones of the forelimbs, hindlimbs, hands and feet.
-  - from: record fact
-    text: "The quarry assemblage appears to represent two immature individuals; the smaller individual is about 85 per cent of the larger in linear postcranial dimensions."
-  - from: record fact
-    text: Histology of a rib and scapular fragment showed continuing growth and suggested that the sampled individual or individuals may have been younger than ten years at death.
-  - from: record fact
-    text: The disarticulated material supports a broad anatomical reconstruction, but specimen association, adult proportions and soft tissues remain uncertain.
-  - from: age review note
-    text: The profile follows the Early Jurassic upper Elliot Formation assignment of the Marc’s Quarry type assemblage. The original description did not provide a narrow numerical radiometric age for the quarry.
 ---
 
 ## Overview
+
+Aardonyx was a large early sauropodomorph from Early Jurassic South Africa. Its jaws and limbs preserve a combination of features associated with mostly bipedal ancestors and the bulk-feeding, quadrupedal sauropods that evolved later.
 
 Aardonyx celestae was a sauropodomorph dinosaur that lived in what is now South Africa during the Early Jurassic, approximately 201–193 million years ago. It reached an estimated length of over 8 metres and a mass of around 1,500 kilograms, making it one of the larger animals of its time and place. Fossils were recovered from the Elliot Formation of the Free State Province. Uniquely, the known remains represent two juvenile individuals, meaning the adults may have been even larger.
 
@@ -124,9 +112,18 @@ Collectively, the quarry material represents most major parts of the skeleton, i
 
 Because the bones were found disarticulated and both animals were still growing, the precise proportions and maximum adult size of Aardonyx remain uncertain.
 
+- The holotype BP/1/6254 is the rostral half of a left maxilla.
+- A nearby caudal left-maxilla fragment, BP/1/6505, may be part of the same bone as the holotype.
+- Referred material from Marc’s Quarry includes cranial and mandibular elements, cervical, dorsal, sacral and caudal vertebrae, ribs, gastralia, chevrons, girdle elements, and bones of the forelimbs, hindlimbs, hands and feet.
+- The quarry assemblage appears to represent two immature individuals; the smaller individual is about 85 per cent of the larger in linear postcranial dimensions.
+- Histology of a rib and scapular fragment showed continuing growth and suggested that the sampled individual or individuals may have been younger than ten years at death.
+- The disarticulated material supports a broad anatomical reconstruction, but specimen association, adult proportions and soft tissues remain uncertain.
+
 ## Where it lived
 
 Two juvenile partial skeletons representing the only known specimens of Aardonyx were excavated here, providing critical data on transitional locomotor anatomy.
+
+The profile follows the Early Jurassic upper Elliot Formation assignment of the Marc’s Quarry type assemblage. The original description did not provide a narrow numerical radiometric age for the quarry.
 
 ## Classification
 

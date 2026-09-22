@@ -72,17 +72,11 @@ parked:
     text: "The hatchet-shaped crest is unique to Lambeosaurus. Like Corythosaurus, the crest is hollow, containing looping nasal passages. The anterior (forward) lobe of the crest is the resonating chamber; the posterior solid spike has no clear acoustic function and may have been primarily a display structure. The crest reached maximum development in large adults."
   - from: "article: Dinosaur Park ecosystem"
     text: "The Dinosaur Park Formation is the richest Late Cretaceous dinosaur fauna known from North America: multiple ceratopsid species, five or more hadrosaur species, ankylosaurs, pachycephalosaurs and tyrannosaurs coexisted in a coastal lowland environment. Lambeosaurus was a dominant large herbivore alongside Corythosaurus and the ceratopsid Centrosaurus."
-  - from: record fact
-    text: The crest enclosed extended nasal passages and changed shape during growth.
-  - from: record fact
-    text: Acoustic and display functions are plausible and modelled, but exact calls and behaviours are unknown.
-  - from: record fact
-    text: Dental batteries document herbivory and complex plant processing.
-  - from: age review note
-    text: Secure Dinosaur Park Formation occurrences are late Campanian, approximately 76.7-74.4 Ma.
 ---
 
 ## Overview
+
+Lambeosaurus was a hollow-crested lambeosaurine hadrosaurid from the Dinosaur Park Formation of Alberta and equivalent strata. L. lambei is represented by multiple skulls and partial skeletons; L. magnicristatus is a separate, rarer species and should not be merged uncritically with it.
 
 Lambeosaurus lambei was a large lambeosaurine hadrosaur from the Campanian of Alberta (~76 Ma), distinguished by a distinctive hatchet-shaped crest consisting of two parts: a forward-projecting hollow crest and a solid posterior spike. At up to nine metres it was among the largest hadrosaurs of the Dinosaur Park Formation. Different crest shapes between specimens reflect sex and age differences rather than different species.
 
@@ -116,9 +110,15 @@ Skin impressions have been reported for Alberta lambeosaurines, but the beak ker
 
 Helmet-like cranial crest and hadrosaur skeletal anatomy support lambeosaurine classification.
 
+- The crest enclosed extended nasal passages and changed shape during growth.
+- Acoustic and display functions are plausible and modelled, but exact calls and behaviours are unknown.
+- Dental batteries document herbivory and complex plant processing.
+
 ## Where it lived
 
 Late Cretaceous western Canadian coastal plain ecosystems.
+
+Secure Dinosaur Park Formation occurrences are late Campanian, approximately 76.7-74.4 Ma.
 
 ## Classification
 

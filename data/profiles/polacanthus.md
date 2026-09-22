@@ -37,15 +37,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/polacanthus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The holotype preserves pelvis, hindlimb, vertebral and osteoderm material including a pelvic shield.
-  - from: record fact
-    text: Skull shape and much of the front-body armour are inferred from relatives.
-  - from: record fact
-    text: Whether polacanthines form a distinct family or a basal nodosaurid grade remains debated.
-  - from: age review note
-    text: The Wessex Formation type is Barremian, approximately 130-125 Ma.
 ---
 
 ## Overview
@@ -68,9 +59,15 @@ Incomplete postcranial skeleton with pelvis, hindlimb, vertebrae and abundant ar
 
 The distinctive lateral blade-like spines and dorsal armour pattern identify it as a basal ankylosaur distinct from the fused-club-bearing ankylosaurids.
 
+- The holotype preserves pelvis, hindlimb, vertebral and osteoderm material including a pelvic shield.
+- Skull shape and much of the front-body armour are inferred from relatives.
+- Whether polacanthines form a distinct family or a basal nodosaurid grade remains debated.
+
 ## Where it lived
 
 Early Cretaceous deltaic and floodplain environments of southern England.
+
+The Wessex Formation type is Barremian, approximately 130-125 Ma.
 
 ## Open questions
 

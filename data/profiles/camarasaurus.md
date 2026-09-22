@@ -72,15 +72,11 @@ parked:
     text: "The large, spatulate (spoon-shaped) teeth of Camarasaurus could withstand much higher forces than the pencil-like teeth of diplodocids. This allowed it to bite through tough conifers and cycads — a different dietary niche from the soft-vegetation specialists. Stable isotope analysis of Camarasaurus teeth has been used as a baseline for understanding sauropod palaeodiet and seasonal migration in the Morrison."
   - from: "article: Herding behaviour"
     text: "Sauropod trackways from the Morrison Formation — most attributable to Camarasaurus based on foot size and width-to-depth ratios — preserve herd movements with juveniles in the centre and adults on the outside. This arrangement is consistent with protective behaviour analogous to modern elephant herds, though it is impossible to confirm that the adults were specifically guarding the young rather than simply moving in a group."
-  - from: record fact
-    text: Camarasaurus had a relatively short, deep skull and robust teeth suited to cropping vegetation.
-  - from: record fact
-    text: "Most mounted skeletons combine material; abundance does not mean every display is one complete individual."
-  - from: age review note
-    text: Diagnostic material spans much of the Kimmeridgian-Tithonian Morrison Formation.
 ---
 
 ## Overview
+
+Camarasaurus was an abundant macronarian sauropod from the Morrison Formation of western North America. Many skulls and skeletons across several growth stages document almost the entire anatomy, although the limits and validity of its named species still require revision.
 
 Camarasaurus supremus was the most abundant sauropod of the Late Jurassic Morrison Formation, known from dozens of specimens including several juveniles and complete skulls. Its large, spoon-shaped teeth — far more robust than the peg-like teeth of diplodocids — allowed it to process tougher vegetation: cycads, ferns and woody conifers that diplodocids could not efficiently exploit.
 
@@ -114,9 +110,14 @@ Abundance does not mean every mounted display is one animal: most mounts combine
 
 Common skull and skeletal material preserves robust jaws, spoon-shaped teeth and growth information.
 
+- Camarasaurus had a relatively short, deep skull and robust teeth suited to cropping vegetation.
+- Most mounted skeletons combine material; abundance does not mean every display is one complete individual.
+
 ## Where it lived
 
 Late Jurassic Morrison floodplains with sauropods, stegosaurs and large theropods.
+
+Diagnostic material spans much of the Kimmeridgian-Tithonian Morrison Formation.
 
 ## Classification
 

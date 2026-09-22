@@ -36,15 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/gasparinisaura.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: More than one growth stage is known.
-  - from: record fact
-    text: Leaf-shaped teeth support herbivory, but exact plants are unknown.
-  - from: record fact
-    text: Older assignment to Hypsilophodontidae reflects a now-abandoned catch-all grouping.
-  - from: age review note
-    text: "The Anacleto Formation is Campanian; local horizons are not dated closely enough for a narrow species range."
 ---
 
 ## Overview
@@ -65,9 +56,15 @@ Several partial skulls and skeletons representing multiple growth stages.
 
 Slender limb bones and ornithopod dentition identify it as a small cursorial herbivore in the southern dinosaur fauna.
 
+- More than one growth stage is known.
+- Leaf-shaped teeth support herbivory, but exact plants are unknown.
+- Older assignment to Hypsilophodontidae reflects a now-abandoned catch-all grouping.
+
 ## Where it lived
 
 Late Cretaceous Patagonian terrestrial ecosystem.
+
+The Anacleto Formation is Campanian; local horizons are not dated closely enough for a narrow species range.
 
 ## Classification
 

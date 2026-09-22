@@ -33,13 +33,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/abelisaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The holotype is a partial skull lacking much of the snout and lower jaws.
-  - from: record fact
-    text: Its body proportions, size and external covering must largely be inferred from other abelisaurids.
-  - from: age review note
-    text: The Anacleto Formation is generally dated to the early Campanian.
 ---
 
 ## Overview
@@ -62,9 +55,14 @@ One incomplete skull.
 
 The skull alone was distinctive enough to diagnose the Abelisauridae family — its deep proportions and surface texture are diagnostic.
 
+- The holotype is a partial skull lacking much of the snout and lower jaws.
+- Its body proportions, size and external covering must largely be inferred from other abelisaurids.
+
 ## Where it lived
 
 Late Cretaceous Patagonian terrestrial ecosystems with titanosaur sauropods and abelisaurid predators.
+
+The Anacleto Formation is generally dated to the early Campanian.
 
 ## Open questions
 

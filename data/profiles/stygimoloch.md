@@ -49,17 +49,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/stygimoloch.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype and referred material are incomplete skull roofs and skulls, not complete skeletons.
-  - from: record fact
-    text: The best-preserved skull shows a small dome with long rear spikes.
-  - from: record fact
-    text: Horner and Goodwin interpreted the porous, rapidly changing skull tissue as subadult anatomy between Dracorex-like juveniles and adult Pachycephalosaurus.
-  - from: record fact
-    text: The page is retained to explain the familiar historical name and the continuing species-level question.
-  - from: age review note
-    text: The relevant material is from latest Maastrichtian Hell Creek and equivalent deposits. Occurrence counts do not distinguish growth stages reliably.
 ---
 
 ## Overview
@@ -80,11 +69,18 @@ Stygimoloch spinifer was formally described by Peter Galton and Hans-Dieter Sues
 
 Partial skull roofs and skulls with domes and posterior spikes; no independent complete postcranial skeleton.
 
+- The holotype and referred material are incomplete skull roofs and skulls, not complete skeletons.
+- The best-preserved skull shows a small dome with long rear spikes.
+- Horner and Goodwin interpreted the porous, rapidly changing skull tissue as subadult anatomy between Dracorex-like juveniles and adult Pachycephalosaurus.
+- The page is retained to explain the familiar historical name and the continuing species-level question.
+
 ## Where it lived
 
 The Hell Creek Formation preserves the last known dinosaur community before the end-Cretaceous extinction, including Tyrannosaurus rex, Triceratops, Ankylosaurus, Edmontosaurus, and various small theropods. Stygimoloch or Pachycephalosaurus-grade individuals were among the smaller ornithischians in this famous terminal Cretaceous fauna.
 
 The type and most referred specimens of Stygimoloch come from Maastrichtian Hell Creek Formation outcrops in eastern Montana.
+
+The relevant material is from latest Maastrichtian Hell Creek and equivalent deposits. Occurrence counts do not distinguish growth stages reliably.
 
 ## Open questions
 

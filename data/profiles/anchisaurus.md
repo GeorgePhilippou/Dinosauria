@@ -35,13 +35,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38637"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The accepted species spelling is polyzelus, not polyzelous.
-  - from: record fact
-    text: The Manchester quarry material formerly named Ammosaurus major belongs to Anchisaurus in the modern revision.
-  - from: age review note
-    text: The Portland Formation material is Early Jurassic, broadly Hettangian-Sinemurian.
 ---
 
 ## Overview
@@ -59,6 +52,13 @@ Anchisaurus captures sauropodomorphs before the full sauropod body plan: still s
 Its history includes replacement names and taxonomic housekeeping, a reminder that early North American dinosaur nomenclature was often unstable.
 
 Several incomplete skeletons, one substantially complete and designated as neotype.
+
+- The accepted species spelling is polyzelus, not polyzelous.
+- The Manchester quarry material formerly named Ammosaurus major belongs to Anchisaurus in the modern revision.
+
+## Where it lived
+
+The Portland Formation material is Early Jurassic, broadly Hettangian-Sinemurian.
 
 ## Open questions
 

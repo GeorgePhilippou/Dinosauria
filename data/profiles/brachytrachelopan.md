@@ -38,13 +38,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Brachytrachelopan&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The unusually short cervical vertebrae directly support a proportionally short neck.
-  - from: record fact
-    text: Selective low browsing is plausible, but exact feeding height and vegetation are not preserved.
-  - from: age review note
-    text: The Canadon Calcareo Formation is Late Jurassic, but its precise Oxfordian-Tithonian placement remains debated.
 ---
 
 ## Overview
@@ -63,11 +56,16 @@ The only known specimen of Brachytrachelopan mesai was discovered in the Ca√±ad√
 
 One incomplete, partly articulated postcranial skeleton without a skull.
 
+- The unusually short cervical vertebrae directly support a proportionally short neck.
+- Selective low browsing is plausible, but exact feeding height and vegetation are not preserved.
+
 ## Where it lived
 
 The Late Jurassic of Patagonia was a diverse ecosystem preserving multiple sauropod lineages alongside theropods and small ornithischians. The unusual body plan of Brachytrachelopan suggests niche partitioning among sauropods, with different taxa exploiting vegetation at different heights. Its discovery has contributed to understanding how ecological diversity was achieved among giant herbivores.
 
 Late Jurassic formation in Patagonia that yielded the single known partial skeleton of Brachytrachelopan.
+
+The Canadon Calcareo Formation is Late Jurassic, but its precise Oxfordian-Tithonian placement remains debated.
 
 ## Classification
 

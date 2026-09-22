@@ -39,13 +39,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chindesaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype preserves vertebral, pelvic and hind-limb elements but no diagnostic complete skull or forelimb.
-  - from: record fact
-    text: "Carnivory and bipedalism are reasonable broad inferences; detailed feeding ecology is unknown."
-  - from: age review note
-    text: The type horizon is late Norian in the Petrified Forest Member of the Chinle Formation.
 ---
 
 ## Overview
@@ -66,9 +59,14 @@ Chindesaurus bryansmalli was described in 1995 by John Long and Phillip Murry fr
 
 One incomplete postcranial skeleton, with uncertain additional referrals.
 
+- The holotype preserves vertebral, pelvic and hind-limb elements but no diagnostic complete skull or forelimb.
+- Carnivory and bipedalism are reasonable broad inferences; detailed feeding ecology is unknown.
+
 ## Where it lived
 
 Late Triassic fluvial and lacustrine formation of the Colorado Plateau, primary source of Chindesaurus material.
+
+The type horizon is late Norian in the Petrified Forest Member of the Chinle Formation.
 
 ## Classification
 

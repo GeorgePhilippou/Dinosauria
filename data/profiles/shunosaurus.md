@@ -41,13 +41,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/shunosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: A bony tail club formed by fused terminal vertebrae and osteoderms is directly preserved.
-  - from: record fact
-    text: Several skeletons collectively document nearly the whole body, but reconstructions remain composites.
-  - from: age review note
-    text: The Lower Shaximiao sample is Middle Jurassic, broadly Bathonian-Callovian.
 ---
 
 ## Overview
@@ -68,11 +61,16 @@ Shunosaurus lii was formally described by Dong Zhiming, Zhou Shiwu, and Zhang Yi
 
 Numerous partial and articulated skeletons with skulls and tail clubs.
 
+- A bony tail club formed by fused terminal vertebrae and osteoderms is directly preserved.
+- Several skeletons collectively document nearly the whole body, but reconstructions remain composites.
+
 ## Where it lived
 
 The Lower Shaximiao Formation preserves a remarkably diverse dinosaur fauna including multiple sauropods (Shunosaurus, Datousaurus, Omeisaurus, Protognathosaurus), the early stegosaur Huayangosaurus, and the ornithopod Xiaosaurus. This assemblage gives a rich picture of Middle Jurassic Asian dinosaur diversity.
 
 Dozens of Shunosaurus specimens, including near-complete skeletons, have been recovered from these Middle Jurassic fluvial and lacustrine beds.
+
+The Lower Shaximiao sample is Middle Jurassic, broadly Bathonian-Callovian.
 
 ## Open questions
 

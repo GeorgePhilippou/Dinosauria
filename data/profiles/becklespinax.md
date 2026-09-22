@@ -10,7 +10,8 @@ length_m: null
 mass_kg: null
 diet: Carnivore
 found_in: [England, United Kingdom]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: Three vertebrae cannot support a confident body length, family assignment or external sail reconstruction.
 classification: [Dinosauria, Saurischia, Theropoda, Tetanurae]
 summary: Becklespinax altispinax is a historical name based on three tall-spined dorsal vertebrae from the Hastings Beds Group of England. The bones are too limited for a secure genus-level diagnosis or full-body reconstruction, and modern reviews generally regard the name as dubious.
@@ -41,13 +42,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Becklespinax&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The name-bearing specimen NHMUK R1828 comprises three associated dorsal vertebrae.
-  - from: record fact
-    text: The better-known name Altispinax dunkeri is also problematic and should not be used to supply a skull, limbs or a sail.
-  - from: age review note
-    text: The specimen is from the Valanginian Wadhurst Clay/Hastings Beds succession.
 ---
 
 ## Overview
@@ -66,11 +60,16 @@ The vertebrae now assigned to Becklespinax were originally part of a collection 
 
 Three associated dorsal vertebrae.
 
+- The name-bearing specimen NHMUK R1828 comprises three associated dorsal vertebrae.
+- The better-known name Altispinax dunkeri is also problematic and should not be used to supply a skull, limbs or a sail.
+
 ## Where it lived
 
 During the Early Cretaceous the Wealden of southern England was a broad, low-lying fluvial plain with rivers, lakes, and deltaic environments. Becklespinax shared this landscape with other theropods, ornithopods such as Iguanodon, and sauropods. It was likely an apex or near-apex predator in this system.
 
 Lower Cretaceous Wealden fluvial and lacustrine sediments yielding theropod vertebrae attributed to Becklespinax.
+
+The specimen is from the Valanginian Wadhurst Clay/Hastings Beds succession.
 
 ## Classification
 

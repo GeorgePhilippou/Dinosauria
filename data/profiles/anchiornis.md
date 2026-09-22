@@ -36,13 +36,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=155058"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Exceptional soft-tissue preservation supports detailed plumage descriptions.
-  - from: record fact
-    text: Published colour reconstructions infer melanosome-based colours, but individual and body-region sampling limit how universal a single reconstruction is.
-  - from: age review note
-    text: Radiometric work places the relevant Tiaojishan beds near 160.9-160.3 million years ago.
 ---
 
 ## Overview
@@ -63,9 +56,14 @@ Anchiornis huxleyi was described in 2009 by Xu Xing, Zhang Fucheng, Hou Lianhai,
 
 Hundreds of articulated skeletons, many with feather impressions.
 
+- Exceptional soft-tissue preservation supports detailed plumage descriptions.
+- Published colour reconstructions infer melanosome-based colours, but individual and body-region sampling limit how universal a single reconstruction is.
+
 ## Where it lived
 
 Dozens of exceptionally preserved Anchiornis specimens have been recovered here, many retaining feather impressions that enable detailed reconstructions of plumage colour and structure.
+
+Radiometric work places the relevant Tiaojishan beds near 160.9-160.3 million years ago.
 
 ## Classification
 

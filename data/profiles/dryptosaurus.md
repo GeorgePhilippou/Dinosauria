@@ -47,15 +47,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dryptosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype includes limb, girdle, vertebral and hand elements but no diagnostic complete skull.
-  - from: record fact
-    text: A large manual claw is real, but the full proportions and use of the forelimb are uncertain.
-  - from: record fact
-    text: Isolated eastern North American theropod remains should not automatically be referred to Dryptosaurus.
-  - from: age review note
-    text: "The secure type occurrence is Maastrichtian; a broader 84-66 Ma range conflates uncertain referrals."
 ---
 
 ## Overview
@@ -78,9 +69,15 @@ The holotype of Dryptosaurus was discovered in 1866 in the Barnsboro Marl of New
 
 One fragmentary but diagnostic postcranial skeleton.
 
+- The holotype includes limb, girdle, vertebral and hand elements but no diagnostic complete skull.
+- A large manual claw is real, but the full proportions and use of the forelimb are uncertain.
+- Isolated eastern North American theropod remains should not automatically be referred to Dryptosaurus.
+
 ## Where it lived
 
 Principal locality; the holotype partial skeleton was recovered from Late Cretaceous marine and coastal deposits of what is now New Jersey.
+
+The secure type occurrence is Maastrichtian; a broader 84-66 Ma range conflates uncertain referrals.
 
 ## Open questions
 

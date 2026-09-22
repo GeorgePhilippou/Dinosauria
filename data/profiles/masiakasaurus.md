@@ -33,15 +33,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Masiakasaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: "Combined specimens preserve roughly two-thirds of the skeleton; the 2002 sample described about 40%."
-  - from: record fact
-    text: Its front teeth project forward and differ from the rear dentition.
-  - from: record fact
-    text: Diet was carnivorous, but proposed specialisations for small prey or fish remain functional hypotheses.
-  - from: age review note
-    text: The Maevarano Formation sample is late Maastrichtian, not a Campanian-Maastrichtian range.
 ---
 
 ## Overview
@@ -64,9 +55,15 @@ Masiakasaurus knopfleri was described in 2001 by Scott Sampson, Matthew Carrano,
 
 Many disarticulated cranial and postcranial elements from multiple individuals; collectively much of the skeleton.
 
+- Combined specimens preserve roughly two-thirds of the skeleton; the 2002 sample described about 40%.
+- Its front teeth project forward and differ from the rear dentition.
+- Diet was carnivorous, but proposed specialisations for small prey or fish remain functional hypotheses.
+
 ## Where it lived
 
 Multiple specimens of Masiakasaurus knopfleri, comprising much of the skeleton, were recovered from Late Cretaceous terrestrial deposits at the Berivotra Study Area.
+
+The Maevarano Formation sample is late Maastrichtian, not a Campanian-Maastrichtian range.
 
 ## Open questions
 

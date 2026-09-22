@@ -40,15 +40,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38630"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The prominent curved ungual was once reconstructed as a raptorial toe claw but is now identified as a hand claw.
-  - from: record fact
-    text: The holotype is too incomplete for a precise total length or body mass.
-  - from: record fact
-    text: "Carnivory is supported by the teeth and theropod anatomy; specialised fish-catching remains a recent hypothesis, not consensus."
-  - from: age review note
-    text: "The Lecho Formation is latest Cretaceous; the genus is not established across the full 84-66 Ma interval."
 ---
 
 ## Overview
@@ -67,11 +58,17 @@ Noasaurus leali was described by José Bonaparte and Jaime Powell in 1980 from f
 
 Fragmentary skull, vertebral and limb elements from the holotype.
 
+- The prominent curved ungual was once reconstructed as a raptorial toe claw but is now identified as a hand claw.
+- The holotype is too incomplete for a precise total length or body mass.
+- Carnivory is supported by the teeth and theropod anatomy; specialised fish-catching remains a recent hypothesis, not consensus.
+
 ## Where it lived
 
 The Lecho Formation in Salta represents a Late Maastrichtian fluvial to aeolian environment. Noasaurus shared this landscape with the titanosaur Saltasaurus and the sauropod Barrosasaurus, among others, indicating a diverse dinosaur fauna in north-western Argentina at the close of the Cretaceous.
 
 Maastrichtian fluvial red-bed deposits in north-western Argentina that yielded the holotype Noasaurus material.
+
+The Lecho Formation is latest Cretaceous; the genus is not established across the full 84-66 Ma interval.
 
 ## Classification
 

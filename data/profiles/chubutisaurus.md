@@ -42,13 +42,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chubutisaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The recovered material provides useful limb and vertebral anatomy but not a complete skeleton.
-  - from: record fact
-    text: "It is usually placed just outside or close to Titanosauria; the precise node varies among analyses."
-  - from: age review note
-    text: The relevant Cerro Barcino beds are broadly late Early to early Late Cretaceous, with member correlation and numerical age still debated.
 ---
 
 ## Overview
@@ -69,9 +62,14 @@ Chubutisaurus insignis was described by Guillermo del Corro in 1974 (formally 19
 
 One incomplete postcranial skeleton recovered in separate campaigns.
 
+- The recovered material provides useful limb and vertebral anatomy but not a complete skeleton.
+- It is usually placed just outside or close to Titanosauria; the precise node varies among analyses.
+
 ## Where it lived
 
 Aptian–Albian formation in Patagonia that yielded the primary Chubutisaurus material, including limb bones and vertebrae.
+
+The relevant Cerro Barcino beds are broadly late Early to early Late Cretaceous, with member correlation and numerical age still debated.
 
 ## Classification
 

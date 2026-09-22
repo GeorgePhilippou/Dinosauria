@@ -39,13 +39,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/supersaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The Jimbo specimen adds articulated vertebral material but no complete skeleton exists.
-  - from: record fact
-    text: "Very long body estimates are plausible; the catalogue 35-tonne point mass is too precise and is removed."
-  - from: age review note
-    text: Secure specimens are Kimmeridgian-Tithonian Morrison Formation.
 ---
 
 ## Overview
@@ -68,9 +61,14 @@ Holotype scapulocoracoid plus multiple referred partial skeletons from separate 
 
 The enormous individual bones — particularly the 2.4 m scapulocoracoid — directly document extreme body size; diplodocid proportions confirm its classification.
 
+- The Jimbo specimen adds articulated vertebral material but no complete skeleton exists.
+- Very long body estimates are plausible; the catalogue 35-tonne point mass is too precise and is removed.
+
 ## Where it lived
 
 Late Jurassic Morrison floodplain ecosystem.
+
+Secure specimens are Kimmeridgian-Tithonian Morrison Formation.
 
 ## Open questions
 

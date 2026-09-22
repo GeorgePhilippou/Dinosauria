@@ -79,17 +79,11 @@ parked:
     text: "The nasal passage inside the crest loops from the nostril, back through the crest tube, down and into the skull, before connecting to the throat. Computer modelling by Weishampel (1981) and later by Diegert and Williamson (1998) using CT data synthesised the probable call: a deep resonance in the 30–80 Hz range, well below the human hearing threshold at its lowest frequencies. This frequency would carry well through dense forest."
   - from: "article: Sexual and specific dimorphism"
     text: "Crest length and curvature differ between the three species and likely between sexes within species. Sexual selection for larger, more elaborate crests producing stronger acoustic signals — analogous to antlers in deer — may have driven crest elongation through time. Females of the same species had shorter, less curved crests, consistent with this model."
-  - from: record fact
-    text: The hollow crest contains nasal passages and changed shape during growth.
-  - from: record fact
-    text: Acoustic resonance and visual display are well-supported functional hypotheses, but exact calls cannot be recovered.
-  - from: record fact
-    text: Species differ in crest curvature and stratigraphic distribution and should not be merged into one skeleton.
-  - from: age review note
-    text: The genus spans late Campanian Dinosaur Park, Kaiparowits and Kirtland formations, approximately 77-73 Ma.
 ---
 
 ## Overview
+
+Parasaurolophus was a long-crested lambeosaurine hadrosaurid from western North America, represented by three named species with several skulls and partial skeletons.
 
 Parasaurolophus walkeri bore the most distinctive cranial crest of any hadrosaur — a long, hollow tube curving backwards from the skull, in large adults reaching over one metre. The crest contained a looping nasal passage connected to the respiratory tract; when air was blown through it, the crest would have produced a deep, foghorn-like resonance specific to each species and sex, used for communication across the forested Late Cretaceous floodplains.
 
@@ -123,9 +117,15 @@ Because most specimens are skulls, statements about body proportions lean heavil
 
 Crest anatomy is central to sound, display and species-recognition interpretations.
 
+- The hollow crest contains nasal passages and changed shape during growth.
+- Acoustic resonance and visual display are well-supported functional hypotheses, but exact calls cannot be recovered.
+- Species differ in crest curvature and stratigraphic distribution and should not be merged into one skeleton.
+
 ## Where it lived
 
 Late Cretaceous North American coastal plain and floodplain environments.
+
+The genus spans late Campanian Dinosaur Park, Kaiparowits and Kirtland formations, approximately 77-73 Ma.
 
 ## Classification
 

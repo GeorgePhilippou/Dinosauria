@@ -34,15 +34,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/nigersaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Its broad muzzle carried dental batteries with hundreds of replacement teeth.
-  - from: record fact
-    text: The skull and neck support low browsing, but claims that it held its head permanently downward overstate biomechanical inference.
-  - from: record fact
-    text: "Several individuals collectively document much of the skeleton; no single complete skeleton is known."
-  - from: age review note
-    text: "The Elrhaz Formation is Aptian-Albian; the age remains formation-level rather than a precise 115-105 Ma lifespan."
 ---
 
 ## Overview
@@ -65,9 +56,15 @@ Multiple partial skeletons including exceptional skulls, jaws, neck and postcran
 
 The extraordinary dental battery with over 500 teeth and the wide straight-edged muzzle are unique among sauropods.
 
+- Its broad muzzle carried dental batteries with hundreds of replacement teeth.
+- The skull and neck support low browsing, but claims that it held its head permanently downward overstate biomechanical inference.
+- Several individuals collectively document much of the skeleton; no single complete skeleton is known.
+
 ## Where it lived
 
 Early Cretaceous North African river and floodplain ecosystem alongside Suchomimus and Sarcosuchus.
+
+The Elrhaz Formation is Aptian-Albian; the age remains formation-level rather than a precise 115-105 Ma lifespan.
 
 ## Open questions
 

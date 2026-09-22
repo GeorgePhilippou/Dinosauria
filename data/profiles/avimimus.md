@@ -38,13 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/avimimus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The type species combines toothless jaws, a fused hand and cursorial hind limbs.
-  - from: record fact
-    text: Feathering is strongly expected from its oviraptorosaur relationships, but detailed plumage is not directly preserved in the principal specimens.
-  - from: age review note
-    text: "A. portentosus is from the Maastrichtian Nemegt Formation; A. nemegtensis should be treated separately."
 ---
 
 ## Overview
@@ -67,9 +60,14 @@ Several incomplete cranial and postcranial skeletons.
 
 Quill knobs on the arm bones and overall bird-like proportions document its close relationship to modern birds.
 
+- The type species combines toothless jaws, a fused hand and cursorial hind limbs.
+- Feathering is strongly expected from its oviraptorosaur relationships, but detailed plumage is not directly preserved in the principal specimens.
+
 ## Where it lived
 
 Late Cretaceous Mongolian floodplain ecosystems.
+
+A. portentosus is from the Maastrichtian Nemegt Formation; A. nemegtensis should be treated separately.
 
 ## Open questions
 

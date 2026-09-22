@@ -41,13 +41,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38610"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The secure type material is chiefly a partial hind limb and foot.
-  - from: record fact
-    text: Recent work supports tyrannosauroid affinities but cannot recover a complete body from the limited diagnostic material.
-  - from: age review note
-    text: The Iren Dabasu Formation has a debated, broad Late Cretaceous age, probably within the Cenomanian-Campanian interval.
 ---
 
 ## Overview
@@ -65,6 +58,13 @@ The PBDB occurrence spread is broad, so some referred material may need taxonomi
 ## Fossil record
 
 An associated partial hind limb and limited referred remains.
+
+- The secure type material is chiefly a partial hind limb and foot.
+- Recent work supports tyrannosauroid affinities but cannot recover a complete body from the limited diagnostic material.
+
+## Where it lived
+
+The Iren Dabasu Formation has a debated, broad Late Cretaceous age, probably within the Cenomanian-Campanian interval.
 
 ## Open questions
 

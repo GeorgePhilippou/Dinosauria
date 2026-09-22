@@ -47,13 +47,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38846"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Multiple growth stages are known, making the skull better sampled than those of many early ceratopsians.
-  - from: record fact
-    text: Several genera named from similar Mongolian skulls have been proposed as synonyms of Bagaceratops, but taxonomic boundaries still require specimen-level care.
-  - from: age review note
-    text: The Barun Goyot Formation is Campanian, but lacks a narrow universally agreed numerical range.
 ---
 
 ## Overview
@@ -74,11 +67,16 @@ Bagaceratops rozhdestvenskyi was described by Teresa Maryanska and Halszka Osmó
 
 Numerous skulls and partial postcranial skeletons from multiple growth stages.
 
+- Multiple growth stages are known, making the skull better sampled than those of many early ceratopsians.
+- Several genera named from similar Mongolian skulls have been proposed as synonyms of Bagaceratops, but taxonomic boundaries still require specimen-level care.
+
 ## Where it lived
 
 Bagaceratops inhabited the arid, sand-dune and dry-riverbed environments of the Late Cretaceous Gobi Desert. The Baruungoyot Formation represents a desert or semi-desert setting with periodic river activity. Bagaceratops coexisted with small theropods, ankylosaurs, and oviraptorosaurs in this challenging environment and was likely a browser of low-growing desert scrub vegetation.
 
 Multiple Bagaceratops specimens including adults and juveniles have been found here, making it the primary source of material for the genus.
+
+The Barun Goyot Formation is Campanian, but lacks a narrow universally agreed numerical range.
 
 ## Open questions
 

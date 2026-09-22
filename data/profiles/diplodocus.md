@@ -85,17 +85,11 @@ parked:
     text: "The pencil-like peg teeth of Diplodocus are positioned only at the front of the snout and show heavy wear on their tips — consistent with raking leaves off branches. No shearing or grinding occurs in the mouth; food was swallowed whole and processed by gastroliths (stomach stones) and fermentation. This feeding strategy allowed Diplodocus to strip enormous volumes of vegetation rapidly, an efficient if crude approach for a 15-tonne browser."
   - from: "article: Neck posture debate"
     text: "Computer modelling of Diplodocus neck vertebrae and joint mobility consistently suggests the neck was held near-horizontal or at a slight upward angle — very different from the giraffe-like posture of early reconstructions. At maximum horizontal extension the neck allowed feeding across a wide swathe of ground-level vegetation without moving the body, an efficient strategy for a very large animal whose locomotion was energetically costly."
-  - from: record fact
-    text: "The Carnegie mount combines principal specimens and reconstructed parts; it is not one complete individual."
-  - from: record fact
-    text: Peg-like front teeth and low skull support selective cropping, while exact vegetation and feeding height varied with posture.
-  - from: record fact
-    text: Extreme tail-whip speeds and supersonic cracking remain biomechanical hypotheses rather than consensus facts.
-  - from: age review note
-    text: Most diagnostic Diplodocus material comes from Kimmeridgian-Tithonian Morrison intervals near 154-152 Ma.
 ---
 
 ## Overview
+
+Diplodocus was a long-necked diplodocid sauropod from the Morrison Formation of western North America. D. carnegii and related material provide several substantial skeletons and skulls, but famous museum mounts are composites and species assignments have been extensively revised.
 
 Diplodocus carnegii ("Carnegie's double beam") was one of the longest animals ever to walk the Earth, reaching 26 metres, though far lighter than the stocky Brachiosaurus at around 15 tonnes. Its neck was held roughly horizontally rather than upright, and the peg-like teeth at the very front of the snout were used exclusively for raking leaves from branches — Diplodocus could not chew and processed no food in the mouth at all.
 
@@ -129,9 +123,15 @@ The celebrated Carnegie mount and its casts combine CM 84 with CM 94 and other s
 
 Long neck, whip-like tail and peg-like teeth support low browsing and diplodocid feeding interpretations.
 
+- The Carnegie mount combines principal specimens and reconstructed parts; it is not one complete individual.
+- Peg-like front teeth and low skull support selective cropping, while exact vegetation and feeding height varied with posture.
+- Extreme tail-whip speeds and supersonic cracking remain biomechanical hypotheses rather than consensus facts.
+
 ## Where it lived
 
 Late Jurassic Morrison floodplains with other diplodocids, macronarians and large theropods.
+
+Most diagnostic Diplodocus material comes from Kimmeridgian-Tithonian Morrison intervals near 154-152 Ma.
 
 ## Classification
 

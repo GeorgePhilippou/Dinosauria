@@ -44,15 +44,6 @@ sources:
     url: "https://www.nature.com/articles/nature13874"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype preserves the shoulder girdle, enormous forelimbs and a few axial elements, not a complete body.
-  - from: record fact
-    text: Two additional individuals preserve much of the skull and skeleton, but portions were reconstructed after poached bones were recovered.
-  - from: record fact
-    text: "Stomach-region remains and gastroliths support a mixed, opportunistic diet that included plants and fish; they do not establish a single exclusive diet."
-  - from: age review note
-    text: "The Nemegt Formation is Maastrichtian; the genus should not be extended to the end-Cretaceous boundary without direct stratigraphic evidence."
 ---
 
 ## Overview
@@ -75,9 +66,15 @@ The type specimen, collected during the 1965 Polish–Mongolian expedition, cons
 
 Three complementary partial skeletons, including skull, axial skeleton and limbs.
 
+- The holotype preserves the shoulder girdle, enormous forelimbs and a few axial elements, not a complete body.
+- Two additional individuals preserve much of the skull and skeleton, but portions were reconstructed after poached bones were recovered.
+- Stomach-region remains and gastroliths support a mixed, opportunistic diet that included plants and fish; they do not establish a single exclusive diet.
+
 ## Where it lived
 
 Main source of Deinocheirus material, including the two near-complete skeletons described in 2014; the formation also preserves Tarbosaurus, Therizinosaurus and Saurolophus.
+
+The Nemegt Formation is Maastrichtian; the genus should not be extended to the end-Cretaceous boundary without direct stratigraphic evidence.
 
 ## Open questions
 

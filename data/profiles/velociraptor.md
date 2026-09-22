@@ -90,21 +90,11 @@ parked:
     text: "The enlarged second toe claw was held raised from the ground and probably used for gripping prey. The hands, jaws and body weight all mattered; the claw was not a single-purpose slashing weapon."
   - from: "article: Tail and agility"
     text: Dromaeosaur tails were stiffened by long bony rods. DK notes this kind of tail would have helped animals such as Velociraptor keep balance during quick turns.
-  - from: record fact
-    text: The holotype AMNH 6515 is a crushed but complete skull with a sickle claw, collected at the Flaming Cliffs in 1923 and described by Osborn in 1924.
-  - from: record fact
-    text: The Fighting Dinosaurs specimen MPC-D 100/25 preserves a Velociraptor locked with a Protoceratops, apparently buried together mid-struggle.
-  - from: record fact
-    text: Quill knobs on an ulna (IGM 100/981) provide direct evidence for large arm feathers.
-  - from: record fact
-    text: The Fighting Dinosaurs preserve contact with Protoceratops but do not reveal the entire encounter or habitual hunting style.
-  - from: record fact
-    text: V. osmolskae from Bayan Mandahu, China, is a second species known from limited cranial material.
-  - from: age review note
-    text: "V. mongoliensis is Campanian Djadokhta Formation; V. osmolskae is a separate Chinese species with limited material."
 ---
 
 ## Overview
+
+Velociraptor mongoliensis was a small dromaeosaurid from the Djadokhta Formation of Mongolia, known from several skulls and partial skeletons including the Fighting Dinosaurs specimen.
 
 Velociraptor was a small dromaeosaurid theropod from Late Cretaceous Mongolia. It was far smaller than its film reputation: about 1.8 metres long and approximately 15 kilograms — roughly the size and weight of a large turkey.
 
@@ -138,9 +128,17 @@ The dune sandstones of the Djadokhta preserve bone superbly but not feathers the
 
 Sickle claw, stiffened tail, feather-related evidence in relatives and predator-prey association support dromaeosaurid ecology.
 
+- The holotype AMNH 6515 is a crushed but complete skull with a sickle claw, collected at the Flaming Cliffs in 1923 and described by Osborn in 1924.
+- The Fighting Dinosaurs specimen MPC-D 100/25 preserves a Velociraptor locked with a Protoceratops, apparently buried together mid-struggle.
+- Quill knobs on an ulna (IGM 100/981) provide direct evidence for large arm feathers.
+- The Fighting Dinosaurs preserve contact with Protoceratops but do not reveal the entire encounter or habitual hunting style.
+- V. osmolskae from Bayan Mandahu, China, is a second species known from limited cranial material.
+
 ## Where it lived
 
 Late Cretaceous Gobi Desert dune and interdune deposits.
+
+V. mongoliensis is Campanian Djadokhta Formation; V. osmolskae is a separate Chinese species with limited material.
 
 ## Classification
 

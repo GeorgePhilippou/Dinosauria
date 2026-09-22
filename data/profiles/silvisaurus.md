@@ -11,7 +11,8 @@ length_m: 4
 mass_kg: null
 diet: Herbivore
 found_in: [USA]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: No complete armour sequence or precise mass is known.
 classification: [Dinosauria, Ornithischia, Thyreophora, Ankylosauria, Nodosauridae]
 summary: Silvisaurus condrayi was a nodosaurid from the Dakota Formation of Kansas, known from one partial skeleton with a damaged skull and osteoderms.
@@ -36,13 +37,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/silvisaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The skull and postcranium are incomplete but associated.
-  - from: record fact
-    text: Armour layout, tail end and exact size are mostly reconstructed.
-  - from: age review note
-    text: The Dakota Formation type is near the Albian-Cenomanian boundary, younger than 121-112 Ma.
 ---
 
 ## Overview
@@ -63,11 +57,16 @@ Silvisaurus condrayi was named by Theodore H. Eaton Jr. in 1960 from material di
 
 One partial skeleton with damaged skull, vertebrae, girdle, limbs and osteoderms.
 
+- The skull and postcranium are incomplete but associated.
+- Armour layout, tail end and exact size are mostly reconstructed.
+
 ## Where it lived
 
 The Kiowa Formation represents nearshore marine and brackish coastal environments during the Early Cretaceous Western Interior Seaway transgression. Silvisaurus appears to have inhabited the terrestrial margins of this seaway. It would have browsed on low-growing ferns and other vegetation in what was a warm, humid coastal ecosystem.
 
 The holotype skull and associated fragmentary bones were found in Early Cretaceous marine and nearshore deposits of the Kiowa Formation.
+
+The Dakota Formation type is near the Albian-Cenomanian boundary, younger than 121-112 Ma.
 
 ## Open questions
 

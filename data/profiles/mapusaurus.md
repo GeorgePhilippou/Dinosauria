@@ -35,15 +35,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Mapusaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The bonebed collectively preserves much of the skeleton but no complete individual.
-  - from: record fact
-    text: Its close relationship to Giganotosaurus is well supported.
-  - from: record fact
-    text: "The aggregation is evidence that multiple individuals died together; cooperative pack hunting is not demonstrated."
-  - from: age review note
-    text: The Huincul Formation bonebed is Cenomanian-early Turonian, close to 96-94 Ma.
 ---
 
 ## Overview
@@ -64,11 +55,17 @@ Fossils were first recovered from the Cañadón del Gato locality during expedit
 
 Disarticulated bonebed with cranial and postcranial material from at least seven individuals.
 
+- The bonebed collectively preserves much of the skeleton but no complete individual.
+- Its close relationship to Giganotosaurus is well supported.
+- The aggregation is evidence that multiple individuals died together; cooperative pack hunting is not demonstrated.
+
 ## Where it lived
 
 The Huincul Formation represents a fluvial to floodplain depositional environment in the Neuquén Basin during the early Late Cretaceous, when South America was still largely isolated from North America. The fauna was dominated by large titanosaur sauropods and carcharodontosaurid theropods — an ecological structure very different from the tyrannosaur-dominated faunas of the northern hemisphere at the same time. Mapusaurus occupied the apex predator role in this ecosystem, alongside the spinosaurid Baryonyx relative Irritator-related forms from slightly different facies.
 
 The Cañadón del Gato site in the Huincul Formation produced the multi-individual Mapusaurus bonebed; the same formation also yields the titanosaur sauropod Argentinosaurus, a possible prey item for large theropods.
+
+The Huincul Formation bonebed is Cenomanian-early Turonian, close to 96-94 Ma.
 
 ## Open questions
 

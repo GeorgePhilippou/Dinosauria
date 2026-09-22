@@ -42,15 +42,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Leaellynasaura"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The wiki must not present the famous long tail as securely belonging to Leaellynasaura.
-  - from: record fact
-    text: The type is an incomplete cranium from a polar Cretaceous environment.
-  - from: record fact
-    text: Bipedality and herbivory are likely at broad neornithischian level, but most body anatomy is unknown.
-  - from: age review note
-    text: The Eumeralla Formation record is late Aptian-early Albian, with local dates near 115-110 Ma.
 ---
 
 ## Overview
@@ -69,11 +60,17 @@ Leaellynasaura amicagraphica was described in 1989 by Australian palaeontologist
 
 Incomplete type cranium and limited referred jaw material; postcranial referrals disputed.
 
+- The wiki must not present the famous long tail as securely belonging to Leaellynasaura.
+- The type is an incomplete cranium from a polar Cretaceous environment.
+- Bipedality and herbivory are likely at broad neornithischian level, but most body anatomy is unknown.
+
 ## Where it lived
 
 Leaellynasaura is among the best-known dinosaurs from high-palaeolatitude Early Cretaceous Australia, which at that time sat within the Antarctic Circle. Its presence contributes to understanding how polar dinosaur communities were structured and provides evidence that small ornithopods were ecologically successful even in harsh seasonal environments.
 
 The holotype and referred specimens were recovered from Early Cretaceous fluvial sediments in coastal sea-cliff outcrops.
+
+The Eumeralla Formation record is late Aptian-early Albian, with local dates near 115-110 Ma.
 
 ## Classification
 

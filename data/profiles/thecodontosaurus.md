@@ -36,13 +36,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/thecodontosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Many original Bristol fossils were destroyed in 1940, but surviving and newer material documents much of the anatomy.
-  - from: record fact
-    text: "A categorical omnivore label is not established; tooth form permits plant-dominated or mixed feeding interpretations."
-  - from: age review note
-    text: The type assemblage is Rhaetian, much narrower and younger than 227-205 Ma.
 ---
 
 ## Overview
@@ -63,11 +56,16 @@ Thecodontosaurus was described in 1843 by Samuel Stutchbury and Henry Riley from
 
 Abundant disarticulated bones and several partial skeletons, with many original specimens lost in wartime.
 
+- Many original Bristol fossils were destroyed in 1940, but surviving and newer material documents much of the anatomy.
+- A categorical omnivore label is not established; tooth form permits plant-dominated or mixed feeding interpretations.
+
 ## Where it lived
 
 The fissure-fill deposits of the Bristol region represent ancient cave systems and crevices in Carboniferous limestone that accumulated terrestrial sediments during the Late Triassic. These deposits also contain remains of other small vertebrates, and the fauna suggests a warm, semi-arid island environment in what was then a tropical archipelago in the Tethys Sea region.
 
 The type locality; fissure-fill deposits in Triassic limestones around Clifton have yielded numerous fragmentary Thecodontosaurus specimens.
+
+The type assemblage is Rhaetian, much narrower and younger than 227-205 Ma.
 
 ## Open questions
 

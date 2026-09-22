@@ -31,15 +31,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/metriacanthosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype includes vertebrae, pelvic and hindlimb elements.
-  - from: record fact
-    text: Its tall neural spines inspired the name but do not establish a skin sail.
-  - from: record fact
-    text: Placement in Metriacanthosauridae is supported in major tetanuran analyses, while anatomy and exact size remain poorly constrained.
-  - from: age review note
-    text: "The Oxford Clay type horizon is Oxfordian; the age is not extended outside that unit."
 ---
 
 ## Overview
@@ -62,9 +53,15 @@ Material now assigned to Metriacanthosaurus was first described in 1926 by Fried
 
 Single partial postcranial skeleton with axial, pelvic and hindlimb bones.
 
+- The holotype includes vertebrae, pelvic and hindlimb elements.
+- Its tall neural spines inspired the name but do not establish a skin sail.
+- Placement in Metriacanthosauridae is supported in major tetanuran analyses, while anatomy and exact size remain poorly constrained.
+
 ## Where it lived
 
 The holotype partial postcranial skeleton of Metriacanthosaurus parkeri was recovered from Late Jurassic marine and coastal sediments in the Oxford Clay of Dorset.
+
+The Oxford Clay type horizon is Oxfordian; the age is not extended outside that unit.
 
 ## Open questions
 

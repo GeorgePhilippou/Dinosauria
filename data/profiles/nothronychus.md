@@ -39,15 +39,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/nothronychus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Large manual claws, a broad pelvis and leaf-shaped teeth support a specialised herbivorous or omnivorous theropod body plan.
-  - from: record fact
-    text: No complete skull is known.
-  - from: record fact
-    text: Feathers are likely by phylogenetic bracketing but are not directly preserved with the named skeletons.
-  - from: age review note
-    text: "Both named species are Turonian, around 93-90 Ma; the genus is not limited to a single 91 Ma point."
 ---
 
 ## Overview
@@ -70,9 +61,15 @@ Two partial skeletons representing two species, with extensive axial and appendi
 
 The large manual claws and herbivorous theropod proportions confirm its therizinosaur identity as the first North American member of the group.
 
+- Large manual claws, a broad pelvis and leaf-shaped teeth support a specialised herbivorous or omnivorous theropod body plan.
+- No complete skull is known.
+- Feathers are likely by phylogenetic bracketing but are not directly preserved with the named skeletons.
+
 ## Where it lived
 
 Late Cretaceous of the southwestern United States, in a coastal plain setting near the Western Interior Seaway.
+
+Both named species are Turonian, around 93-90 Ma; the genus is not limited to a single 91 Ma point.
 
 ## Open questions
 

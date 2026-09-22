@@ -35,15 +35,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Piatnitzkysaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type preserves skull, vertebral, girdle and limb elements but is not close to complete.
-  - from: record fact
-    text: Braincase anatomy supports tetanuran affinity.
-  - from: record fact
-    text: "Carnivory and bipedal locomotion are secure; exact body mass is model-dependent."
-  - from: age review note
-    text: The Canon Asfalto occurrences are older than the former Late Jurassic label and lie near the Early-Middle Jurassic transition.
 ---
 
 ## Overview
@@ -62,11 +53,17 @@ Piatnitzkysaurus floresi was described by José Bonaparte in 1979 from material 
 
 Two partial skeletons including cranial and postcranial elements, plus isolated referrals.
 
+- The type preserves skull, vertebral, girdle and limb elements but is not close to complete.
+- Braincase anatomy supports tetanuran affinity.
+- Carnivory and bipedal locomotion are secure; exact body mass is model-dependent.
+
 ## Where it lived
 
 Piatnitzkysaurus shared the Cañadón Asfalto Formation ecosystem with the sauropod Patagosaurus and a diverse fauna of crocodyliformes, fish and other vertebrates. As the dominant predator in this Middle Jurassic Patagonian ecosystem, Piatnitzkysaurus likely preyed on the large sauropods and smaller vertebrates that inhabited the river and lake environments of the basin.
 
 Middle Jurassic fluvial and lacustrine deposits of Chubut Province, Patagonia, yielding the holotype and referred material of Piatnitzkysaurus.
+
+The Canon Asfalto occurrences are older than the former Late Jurassic label and lie near the Early-Middle Jurassic transition.
 
 ## Classification
 

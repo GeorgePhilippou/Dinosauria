@@ -35,15 +35,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/jingshanosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type is relatively informative but not a complete articulated skeleton.
-  - from: record fact
-    text: Its teeth and sauropodomorph jaw anatomy indicate herbivory, possibly with opportunistic feeding not directly testable.
-  - from: record fact
-    text: It lies close to the origin of Sauropoda rather than within traditional Prosauropoda as a natural group.
-  - from: age review note
-    text: "Lower Lufeng units are Early Jurassic; a narrow 205-190 Ma headline overstates their dating precision."
 ---
 
 ## Overview
@@ -64,11 +55,17 @@ Jingshanosaurus xinwaensis was described in 1995 by Zhang Yihong and Yang Zhongj
 
 Skull and substantial partial postcranial skeleton.
 
+- The type is relatively informative but not a complete articulated skeleton.
+- Its teeth and sauropodomorph jaw anatomy indicate herbivory, possibly with opportunistic feeding not directly testable.
+- It lies close to the origin of Sauropoda rather than within traditional Prosauropoda as a natural group.
+
 ## Where it lived
 
 The Lufeng Formation records a semi-arid to sub-humid lake and river environment in Early Jurassic Yunnan, characterised by reddish mudstones. Jingshanosaurus shared this environment with Lufengosaurus and other sauropodomorphs, as well as early theropods and tritylodontid synapsids, providing a picture of Early Jurassic terrestrial ecosystems in South China.
 
 A world-class Early Jurassic dinosaur site that has produced multiple prosauropod genera; the complete Jingshanosaurus skeleton was collected here.
+
+Lower Lufeng units are Early Jurassic; a narrow 205-190 Ma headline overstates their dating precision.
 
 ## Open questions
 

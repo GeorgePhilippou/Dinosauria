@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Carnivore
 found_in: [France]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: Skull form, exact size and many details cannot be verified on the original.
 classification: [Dinosauria, Saurischia, Theropoda, Tetanurae, Megalosauroidea]
 summary: "Poekilopleuron bucklandii was a large theropod from the Calcaire de Caen of Normandy. Its partial skeleton was destroyed during the Second World War; casts, illustrations and a few separated elements preserve the evidence."
@@ -38,15 +39,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Poekilopleuron&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype included vertebrae, ribs, forelimbs and hindlimb parts but no complete skull.
-  - from: record fact
-    text: Its megalosauroid affinity is likely, but exact placement and even continued diagnosability are debated.
-  - from: record fact
-    text: Many later species once assigned to Poekilopleuron have been removed.
-  - from: age review note
-    text: The Calcaire de Caen type unit is Bathonian, approximately 168-166 million years old.
 ---
 
 ## Overview
@@ -67,11 +59,17 @@ Poekilopleuron has had a complicated taxonomic history; material was at times re
 
 Destroyed partial skeleton documented by old descriptions, illustrations, casts and limited surviving pieces.
 
+- The holotype included vertebrae, ribs, forelimbs and hindlimb parts but no complete skull.
+- Its megalosauroid affinity is likely, but exact placement and even continued diagnosability are debated.
+- Many later species once assigned to Poekilopleuron have been removed.
+
 ## Where it lived
 
 The Calcaires de Caen Formation represents shallow marine and coastal deposits of Bathonian age, suggesting Poekilopleuron lived in a near-coastal lowland environment. The French Jurassic was an archipelago landscape, and large theropods appear to have been apex predators across these island-studded seas.
 
 Middle Jurassic limestone deposits near Caen that produced the only known Poekilopleuron skeleton.
+
+The Calcaire de Caen type unit is Bathonian, approximately 168-166 million years old.
 
 ## Open questions
 

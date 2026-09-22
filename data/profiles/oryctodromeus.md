@@ -38,15 +38,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=103709"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The original burrow contained an adult-sized individual and two juveniles.
-  - from: record fact
-    text: Skeletal features are consistent with digging, but it was not as specialised as modern obligate burrowers.
-  - from: record fact
-    text: "Herbivory or omnivory is inferred from thescelosaurid anatomy; direct diet evidence is absent."
-  - from: age review note
-    text: "The relevant formations are Cenomanian; the type locality is not simply a 99-94 Ma point."
 ---
 
 ## Overview
@@ -69,9 +60,15 @@ Oryctodromeus cubicularis was described by David Varricchio, Anthony Martin and 
 
 Partial adult and juvenile skeletons associated inside a fossil burrow; further referred material.
 
+- The original burrow contained an adult-sized individual and two juveniles.
+- Skeletal features are consistent with digging, but it was not as specialised as modern obligate burrowers.
+- Herbivory or omnivory is inferred from thescelosaurid anatomy; direct diet evidence is absent.
+
 ## Where it lived
 
 Late Albian fluvial deposits of Montana where the holotype adult and two juvenile Oryctodromeus specimens were found together in a fossilised burrow structure.
+
+The relevant formations are Cenomanian; the type locality is not simply a 99-94 Ma point.
 
 ## Open questions
 

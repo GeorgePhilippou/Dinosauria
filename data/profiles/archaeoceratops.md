@@ -42,13 +42,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=55575"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: "A. oshimai is represented by multiple partial individuals; A. yujingziensis is a second species described from the same regional unit."
-  - from: record fact
-    text: Broad herbivory is supported by dental anatomy, but exact diet and social behaviour are unknown.
-  - from: age review note
-    text: The Xinminpu Group localities are Aptian-Albian but their individual horizons are not all dated precisely.
 ---
 
 ## Overview
@@ -69,11 +62,16 @@ Archaeoceratops oshimai was described by Dong Zhiming and Yoichi Azuma in 1997 f
 
 Several partial skulls and postcranial skeletons.
 
+- A. oshimai is represented by multiple partial individuals; A. yujingziensis is a second species described from the same regional unit.
+- Broad herbivory is supported by dental anatomy, but exact diet and social behaviour are unknown.
+
 ## Where it lived
 
 The Xinminbao Group of Gansu Province represents arid to semi-arid desert and river environments of Early Cretaceous central Asia. The dinosaur fauna of this region is not fully known, but it appears to have included a variety of small ornithischians and theropods adapted to relatively dry conditions. Archaeoceratops was likely a ground-dwelling browser of low-growing vegetation.
 
 Multiple Archaeoceratops specimens have been recovered from the Early Cretaceous formations of Gansu, providing the primary basis for describing the genus.
+
+The Xinminpu Group localities are Aptian-Albian but their individual horizons are not all dated precisely.
 
 ## Open questions
 

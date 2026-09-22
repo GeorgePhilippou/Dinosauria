@@ -46,13 +46,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=38681"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The type series included vertebrae and limb bones, not a complete skeleton.
-  - from: record fact
-    text: Material from elsewhere in North Africa has been referred historically, but not all referrals can be demonstrated to belong to the type species.
-  - from: age review note
-    text: The type material came from the Cenomanian Bahariya Formation.
 ---
 
 ## Overview
@@ -70,6 +63,13 @@ Because historical material was lost and the taxon is not represented by abundan
 ## Fossil record
 
 A fragmentary, now-destroyed type series of vertebral and appendicular bones.
+
+- The type series included vertebrae and limb bones, not a complete skeleton.
+- Material from elsewhere in North Africa has been referred historically, but not all referrals can be demonstrated to belong to the type species.
+
+## Where it lived
+
+The type material came from the Cenomanian Bahariya Formation.
 
 ## Open questions
 

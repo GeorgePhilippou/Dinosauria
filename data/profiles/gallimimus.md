@@ -70,17 +70,11 @@ parked:
     text: "Gallimimus had long, slender hindlimbs with elongate metatarsals — the same configuration seen in fast-running birds. Trackway evidence and muscle-mass estimates suggest running speeds of 40–50 km/h in adults, making it one of the fastest large dinosaurs known. The tail was stiff and horizontal, acting as a counterbalance during locomotion."
   - from: "article: Diet and behaviour"
     text: The toothless beak and comparatively small head were originally associated with filter-feeding in water. More recent analyses of jaw mechanics and comparisons with modern omnivorous birds suggest a broader diet of insects, small vertebrates, eggs and plant material. Gallimimus may have formed loose foraging groups similar to ostriches.
-  - from: record fact
-    text: The jaws were toothless and covered by a beak.
-  - from: record fact
-    text: Long hindlimbs support efficient running, but a maximum speed cannot be read directly from fossils.
-  - from: record fact
-    text: "Diet remains unresolved; proposed plant, small-animal and filter-feeding components are hypotheses."
-  - from: age review note
-    text: The Nemegt Formation is early Maastrichtian in most current schemes, broadly 70-68 Ma.
 ---
 
 ## Overview
+
+Gallimimus bullatus was a large, long-limbed ornithomimid from the Nemegt Formation of Mongolia. Multiple partial and nearly complete skeletons, including skulls and juveniles, document a toothless, cursorially specialised biped.
 
 Gallimimus bullatus was the largest ornithomimosaur known at the time of its description — up to six metres long — from the Late Cretaceous Nemegt Formation of Mongolia. Its long arms, toothless beak, three-toed feet and overall proportions are remarkably similar to a large flightless bird, and it is one of the first dinosaurs demonstrated by trackways to have run at speeds exceeding 40 km/h.
 
@@ -114,9 +108,15 @@ No feathers, skin or gut contents are known for Gallimimus itself, and some refe
 
 Long limbs, small head and toothless jaws support ostrich-like locomotion and omnivorous/generalist feeding interpretations.
 
+- The jaws were toothless and covered by a beak.
+- Long hindlimbs support efficient running, but a maximum speed cannot be read directly from fossils.
+- Diet remains unresolved; proposed plant, small-animal and filter-feeding components are hypotheses.
+
 ## Where it lived
 
 Late Cretaceous Mongolian floodplain deposits.
+
+The Nemegt Formation is early Maastrichtian in most current schemes, broadly 70-68 Ma.
 
 ## Classification
 

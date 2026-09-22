@@ -40,15 +40,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/lophorhothon.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type individual is immature.
-  - from: record fact
-    text: Its crest and adult skull proportions are not fully known.
-  - from: record fact
-    text: It was a terrestrial herbivore at the hadrosauroid grade.
-  - from: age review note
-    text: The Mooreville Chalk occurrence is early Campanian rather than spanning the whole Late Cretaceous.
 ---
 
 ## Overview
@@ -69,9 +60,15 @@ Lophorhothon atopus was named in 1960 by Wann Langston Jr. based on a disarticul
 
 Incomplete juvenile skull and skeleton plus fragmentary referred material.
 
+- The type individual is immature.
+- Its crest and adult skull proportions are not fully known.
+- It was a terrestrial herbivore at the hadrosauroid grade.
+
 ## Where it lived
 
 The holotype disarticulated skull and partial skeleton of Lophorhothon atopus were recovered from these Santonian-age marine and marginal-marine sediments.
+
+The Mooreville Chalk occurrence is early Campanian rather than spanning the whole Late Cretaceous.
 
 ## Classification
 

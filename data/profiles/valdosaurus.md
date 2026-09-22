@@ -43,13 +43,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/valdosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: African and other historical referrals have largely been excluded.
-  - from: record fact
-    text: The limited type makes precise size and anatomy dependent on referred specimens.
-  - from: age review note
-    text: "Secure Isle of Wight material is Barremian; the numerical bounds use the current International Chronostratigraphic Chart rather than the obsolete 130-125 Ma calibration."
 ---
 
 ## Overview
@@ -70,11 +63,16 @@ Valdosaurus canaliculatus was named by Peter Galton in 1975 from Early Cretaceou
 
 Paired type femora plus limited referred British postcranial material.
 
+- African and other historical referrals have largely been excluded.
+- The limited type makes precise size and anatomy dependent on referred specimens.
+
 ## Where it lived
 
 Valdosaurus lived in the fluvial and lagoonal environments of the Wealden Basin, sharing its habitat with large predators such as Baryonyx and Neovenator, sauropods, and other ornithopods including Iguanodon and Hypsilophodon. As a relatively small herbivore, it likely occupied a different feeding niche from the large iguanodonts, perhaps browsing on lower vegetation along watercourses.
 
 Primary source of Valdosaurus material; the Isle of Wight Wealden is one of England's richest Early Cretaceous dinosaur sites.
+
+Secure Isle of Wight material is Barremian; the numerical bounds use the current International Chronostratigraphic Chart rather than the obsolete 130-125 Ma calibration.
 
 ## Open questions
 

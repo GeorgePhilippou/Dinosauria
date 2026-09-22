@@ -34,13 +34,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/tuojiangosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The famous full plate sequence is a reconstruction from incomplete and disarticulated armour.
-  - from: record fact
-    text: Quadrupedal herbivory is secure, while exact plate count and arrangement remain uncertain.
-  - from: age review note
-    text: "The Upper Shaximiao type is Oxfordian; a range to 155 Ma should not be treated as directly dated."
 ---
 
 ## Overview
@@ -63,9 +56,14 @@ One main partial skeleton with fragmentary skull, postcranium, plates and spikes
 
 Plates and spines along the back and stegosaur skeletal anatomy are well documented in the near-complete specimen.
 
+- The famous full plate sequence is a reconstruction from incomplete and disarticulated armour.
+- Quadrupedal herbivory is secure, while exact plate count and arrangement remain uncertain.
+
 ## Where it lived
 
 Late Jurassic terrestrial ecosystem of the Sichuan Basin alongside giant sauropods and large theropods.
+
+The Upper Shaximiao type is Oxfordian; a range to 155 Ma should not be treated as directly dated.
 
 ## Open questions
 

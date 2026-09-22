@@ -37,15 +37,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Enigmacursor&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The specimen was formerly displayed and discussed under the invalid informal name Nanosaurus rex.
-  - from: record fact
-    text: It is the most complete small-bodied Morrison neornithischian yet described, but it is not a complete skeleton.
-  - from: record fact
-    text: Teeth and close relationships support herbivory, while detailed diet is unknown.
-  - from: age review note
-    text: "The holotype is from the Brushy Basin Member; the numerical range remains formation-level rather than a direct specimen date."
 ---
 
 ## Overview
@@ -66,9 +57,15 @@ Enigmacursor mollyborthwickae was formally described by Maidment and Barrett in 
 
 One associated partial skeleton, mostly postcranial.
 
+- The specimen was formerly displayed and discussed under the invalid informal name Nanosaurus rex.
+- It is the most complete small-bodied Morrison neornithischian yet described, but it is not a complete skeleton.
+- Teeth and close relationships support herbivory, while detailed diet is unknown.
+
 ## Where it lived
 
 The only known locality; an unusually complete skeleton for a small ornithischian, lacking only the skull and certain other elements.
+
+The holotype is from the Brushy Basin Member; the numerical range remains formation-level rather than a direct specimen date.
 
 ## Classification
 

@@ -11,7 +11,8 @@ length_m: null
 mass_kg: null
 diet: Carnivore
 found_in: [Germany]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: Do not reconstruct the skull or claim a precise coelophysoid position as certain.
 classification: [Dinosauria, Saurischia, Theropoda, Neotheropoda incertae sedis]
 summary: Procompsognathus triassicus is based on a small, incomplete skeleton from the Lowenstein Formation of Germany. The specimen is poorly preserved, and parts of the skull may belong to a non-dinosaurian archosaur.
@@ -38,15 +39,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Procompsognathus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The postcranium is broadly consistent with a small neotheropod or coelophysoid.
-  - from: record fact
-    text: Cranial material was historically overinterpreted and may be chimaeric.
-  - from: record fact
-    text: Precise diet, size and relationships cannot be established confidently.
-  - from: age review note
-    text: "The type is Norian Late Triassic; the 221-210 Ma range is broader than its horizon supports."
 ---
 
 ## Overview
@@ -69,9 +61,15 @@ Procompsognathus triassicus was described by Eberhard Fraas in 1913 from a badly
 
 Poorly preserved incomplete skeleton with possibly misassociated cranial pieces.
 
+- The postcranium is broadly consistent with a small neotheropod or coelophysoid.
+- Cranial material was historically overinterpreted and may be chimaeric.
+- Precise diet, size and relationships cannot be established confidently.
+
 ## Where it lived
 
 Late Triassic (Norian) continental redbeds of southwestern Germany yielding the only known Procompsognathus specimen.
+
+The type is Norian Late Triassic; the 221-210 Ma range is broader than its horizon supports.
 
 ## Open questions
 

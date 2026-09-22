@@ -34,15 +34,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Goyocephale"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: The flat skull roof is a genuine feature, though maturity influences pachycephalosaur skull shape.
-  - from: record fact
-    text: Large canine-like teeth do not by themselves prove carnivory.
-  - from: record fact
-    text: "Bipedal locomotion is well supported; detailed diet and head-use behaviour are not."
-  - from: age review note
-    text: "The Baruungoyot Formation is Campanian; its local numerical calibration is approximate."
 ---
 
 ## Overview
@@ -60,6 +51,14 @@ The local PBDB record lacks formation detail, so ecological comparisons should s
 ## Fossil record
 
 One associated partial skull and incomplete postcranial skeleton.
+
+- The flat skull roof is a genuine feature, though maturity influences pachycephalosaur skull shape.
+- Large canine-like teeth do not by themselves prove carnivory.
+- Bipedal locomotion is well supported; detailed diet and head-use behaviour are not.
+
+## Where it lived
+
+The Baruungoyot Formation is Campanian; its local numerical calibration is approximate.
 
 ## Open questions
 

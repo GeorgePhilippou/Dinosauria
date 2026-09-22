@@ -40,13 +40,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=94775"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The long brow horns and low nasal ornament are documented by the holotype skull.
-  - from: record fact
-    text: The genus should not be described as known from a complete skeleton or extensive monospecific bonebed.
-  - from: age review note
-    text: The type locality lies in the middle Campanian Oldman Formation.
 ---
 
 ## Overview
@@ -69,9 +62,14 @@ Albertaceratops nesmoi was described by Michael Ryan in 2007 from a skull found 
 
 One nearly complete diagnostic skull plus limited comparable cranial material.
 
+- The long brow horns and low nasal ornament are documented by the holotype skull.
+- The genus should not be described as known from a complete skeleton or extensive monospecific bonebed.
+
 ## Where it lived
 
 A single well-preserved skull representing the type specimen of Albertaceratops was collected here, providing detailed information about its cranial ornamentation.
+
+The type locality lies in the middle Campanian Oldman Formation.
 
 ## Open questions
 

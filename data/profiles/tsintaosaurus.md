@@ -34,13 +34,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/tsintaosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Modern reconstruction shows a complex crest involving several bones, not a single unicorn-like spike.
-  - from: record fact
-    text: The crest was hollow and connected to nasal passages, but exact sound and soft tissue are unknown.
-  - from: age review note
-    text: The type-bearing Wangshi units are late Campanian, not a single exact 75 Ma date.
 ---
 
 ## Overview
@@ -63,9 +56,14 @@ Multiple skulls and partial skeletons, some historically reconstructed incorrect
 
 The distinctive forward-projecting hollow crest was confirmed by later more complete specimens after initial scepticism.
 
+- Modern reconstruction shows a complex crest involving several bones, not a single unicorn-like spike.
+- The crest was hollow and connected to nasal passages, but exact sound and soft tissue are unknown.
+
 ## Where it lived
 
 Late Cretaceous of eastern China, in fluvial and floodplain settings.
+
+The type-bearing Wangshi units are late Campanian, not a single exact 75 Ma date.
 
 ## Open questions
 

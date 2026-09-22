@@ -38,13 +38,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/unenlagia.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Shoulder anatomy once prompted a bird-like flapping interpretation, but powered flight is not supported for the large animal.
-  - from: record fact
-    text: No secure skull is known for U. comahuensis, limiting diet and head reconstruction.
-  - from: age review note
-    text: The Portezuelo Formation is Turonian-Coniacian, approximately 90-86 Ma.
 ---
 
 ## Overview
@@ -67,9 +60,14 @@ Unenlagia comahuensis was described in 1997 by Fernando Novas and Pablo Puerta f
 
 Two incomplete postcranial type specimens with limited additional referrals.
 
+- Shoulder anatomy once prompted a bird-like flapping interpretation, but powered flight is not supported for the large animal.
+- No secure skull is known for U. comahuensis, limiting diet and head reconstruction.
+
 ## Where it lived
 
 The Patagonian formation from which the postcranial skeleton of Unenlagia was recovered.
+
+The Portezuelo Formation is Turonian-Coniacian, approximately 90-86 Ma.
 
 ## Open questions
 

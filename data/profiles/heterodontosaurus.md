@@ -74,17 +74,11 @@ parked:
     text: "Heterodontosaurus had long forelimbs relative to its body — more so than most ornithopods — suggesting some use of the forelimbs in foraging. The hindlimbs show classic bipedal proportions. A well-preserved skeleton at the South African Museum shows remarkable preservation of the skull and most postcranial elements, allowing detailed study of early ornithischian anatomy."
   - from: "article: Early ornithischian radiation"
     text: "The Elliot Formation yields several other early dinosaurs (prosauropods, small theropods) alongside Heterodontosaurus, providing a snapshot of an Early Jurassic South African community. As a very early ornithischian, Heterodontosaurus shows the clade before it diversified into its major subgroups — its relatively unspecialised body plan and diverse dentition may reflect the ancestral ornithischian condition."
-  - from: record fact
-    text: "The profile Late Triassic age is incorrect; secure material is Early Jurassic."
-  - from: record fact
-    text: Canine-like teeth do not prove a carnivorous diet and may have had display or defence roles.
-  - from: record fact
-    text: Jaw mechanics and tooth wear support effective plant processing, while opportunistic animal matter remains possible but unproven.
-  - from: age review note
-    text: Corrected to Early Jurassic based on upper Elliot Formation stratigraphy.
 ---
 
 ## Overview
+
+Heterodontosaurus tucki was a small bipedal ornithischian from the upper Elliot Formation of South Africa. Several skulls and one nearly complete skeleton document a compact herbivore with a beak, cheek teeth and enlarged canine-like teeth.
 
 Heterodontosaurus tucki was a small, early ornithischian from the Early Jurassic of South Africa (~200–190 Ma), about 1.2 metres long, named for its three different tooth types — a unique feature among dinosaurs. It had large canine-like tusks, small incisiform teeth at the jaw front, and cheek teeth with leaf-shaped crowns for processing vegetation, resembling the dental diversity of heterodont mammals.
 
@@ -118,9 +112,15 @@ The end of the tail is not preserved in any specimen, and no skin, filament or g
 
 Three distinct tooth types in one jaw and a small but complete skeleton make this one of the most informative early ornithischians known.
 
+- The profile Late Triassic age is incorrect; secure material is Early Jurassic.
+- Canine-like teeth do not prove a carnivorous diet and may have had display or defence roles.
+- Jaw mechanics and tooth wear support effective plant processing, while opportunistic animal matter remains possible but unproven.
+
 ## Where it lived
 
 Early Jurassic semi-arid to seasonally wet environments of southern Africa.
+
+Corrected to Early Jurassic based on upper Elliot Formation stratigraphy.
 
 ## Classification
 

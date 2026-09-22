@@ -40,15 +40,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/liaoceratops.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: More than one individual and growth stage is known.
-  - from: record fact
-    text: The frill was small and lacked the enlarged horns of ceratopsids.
-  - from: record fact
-    text: "Beak and tooth anatomy support herbivory; exact plants are unknown."
-  - from: age review note
-    text: Radiometric dating places the Lujiatun beds close to 125 Ma in the early Aptian.
 ---
 
 ## Overview
@@ -69,9 +60,15 @@ Liaoceratops yanzigouensis was described in 2002 by Xu Xing, Peter Makovicky, Wa
 
 Several partial skulls and skeletons across growth stages.
 
+- More than one individual and growth stage is known.
+- The frill was small and lacked the enlarged horns of ceratopsids.
+- Beak and tooth anatomy support herbivory; exact plants are unknown.
+
 ## Where it lived
 
 Two nearly complete skulls of Liaoceratops yanzigouensis were recovered from the famous Early Cretaceous Yixian Formation lagerstätte.
+
+Radiometric dating places the Lujiatun beds close to 125 Ma in the early Aptian.
 
 ## Classification
 

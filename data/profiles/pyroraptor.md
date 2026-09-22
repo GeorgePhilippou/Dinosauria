@@ -44,15 +44,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pyroraptor&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The French type material is extremely fragmentary and does not preserve a full skeleton.
-  - from: record fact
-    text: Some Spanish teeth and bones have been referred, but their genus-level identity is uncertain.
-  - from: record fact
-    text: "Feathering is probable from dromaeosaurid bracketing; swimming ability and exact colour are unsupported."
-  - from: age review note
-    text: The type locality near the Campanian-Maastrichtian boundary supports a much narrower range than 84-71 Ma.
 ---
 
 ## Overview
@@ -75,9 +66,15 @@ Pyroraptor olympius was formally described by Ronan Allain and Philippe Taquet i
 
 Several isolated teeth and limb bones, including a pedal ungual; no articulated skeleton.
 
+- The French type material is extremely fragmentary and does not preserve a full skeleton.
+- Some Spanish teeth and bones have been referred, but their genus-level identity is uncertain.
+- Feathering is probable from dromaeosaurid bracketing; swimming ability and exact colour are unsupported.
+
 ## Where it lived
 
 Late Cretaceous terrestrial deposits of northeastern Spain yielding referred Pyroraptor material.
+
+The type locality near the Campanian-Maastrichtian boundary supports a much narrower range than 84-71 Ma.
 
 ## Open questions
 

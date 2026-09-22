@@ -11,7 +11,8 @@ length_m: 4
 mass_kg: null
 diet: Carnivore
 found_in: [China]
-fossil_record: 1
+fossil_record: null
+specialist_review: pending
 fossil_record_note: "Moderate for a theropod occurrence; low for diagnosis, phylogeny, proportions and ecology."
 classification: [Dinosauria, Saurischia, Theropoda, "Tetanurae?"]
 summary: "Gasosaurus constructus was a medium-sized theropod from the Lower Shaximiao Formation of Sichuan, China. It is based on an incomplete, disarticulated skeleton without a skull; its exact position among ceratosaurs and early tetanurans remains unresolved."
@@ -37,15 +38,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Gasosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: No diagnostic skull is known.
-  - from: record fact
-    text: The principal material includes vertebrae, pelvis and limb bones rather than a complete skeleton.
-  - from: record fact
-    text: Carnivory is likely from theropod identity, but detailed feeding claims are unsupported.
-  - from: age review note
-    text: "The Lower Shaximiao Formation is generally Bathonian-Callovian; specimen-level numerical dating is unavailable."
 ---
 
 ## Overview
@@ -66,11 +58,17 @@ Gasosaurus constructus was described by Dong Zhiming and Tang Zilu in 1985 from 
 
 One incomplete, headless and disarticulated postcranial skeleton.
 
+- No diagnostic skull is known.
+- The principal material includes vertebrae, pelvis and limb bones rather than a complete skeleton.
+- Carnivory is likely from theropod identity, but detailed feeding claims are unsupported.
+
 ## Where it lived
 
 The Lower Shaximiao Formation at Dashanpu preserves a remarkable Middle Jurassic fauna of sauropods, stegosaurs, and small ornithopods, with Gasosaurus as the principal large predator. It shared this environment with the long-necked sauropods Shunosaurus and Omeisaurus, the stegosaur Huayangosaurus, and the small ornithopod Xiaosaurus. The diversity of herbivores suggests an unusually productive Jurassic ecosystem in what is now Sichuan.
 
 The Dashanpu quarry near Zigong is one of the most important Jurassic dinosaur sites in the world; Gasosaurus is the main theropod known from this formation.
+
+The Lower Shaximiao Formation is generally Bathonian-Callovian; specimen-level numerical dating is unavailable.
 
 ## Open questions
 

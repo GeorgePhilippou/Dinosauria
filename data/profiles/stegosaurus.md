@@ -90,21 +90,11 @@ parked:
     text: Stegosaurus lived in the Morrison Formation with large sauropods and theropods. This makes its page useful for cross-linking Jurassic North American dinosaurs later in the wiki.
   - from: "article: Specimens and interpretation"
     text: NHM displays an unusually complete Stegosaurus specimen nicknamed Sophie. Better skeletons have improved the posture and plate arrangement compared with older reconstructions.
-  - from: record fact
-    text: The type species is S. stenops, fixed by the ICZN in 2013 because the original type species S. armatus rested on undiagnostic material.
-  - from: record fact
-    text: The holotype of S. stenops, USNM 4934, is a nearly complete articulated skeleton with plates in place, collected at Garden Park, Colorado, in 1886.
-  - from: record fact
-    text: "NHMUK PV R36730 (\"Sophie\"), described in 2015, is the most complete individual known, with about 85 per cent of the skeleton."
-  - from: record fact
-    text: "Plate and spike positions are directly supported by articulated specimens: two staggered rows of plates and two pairs of tail spikes."
-  - from: record fact
-    text: "Thermoregulation, display and species recognition have all been proposed for plates; no single exclusive function is established."
-  - from: age review note
-    text: "Core species are Kimmeridgian–Tithonian Morrison Formation; species ranges within the formation differ."
 ---
 
 ## Overview
+
+Stegosaurus was a large stegosaur from the Morrison Formation, known from multiple species and many partial to nearly complete skeletons, including articulated plates and tail spikes.
 
 Stegosaurus was a Late Jurassic thyreophoran from western North America. Its two most recognisable features are the alternating plates along the back and the spiked tail used for defence.
 
@@ -138,9 +128,17 @@ The plates were covered in life by a horny sheath that is not preserved, so thei
 
 Back plates, tail spikes and skeletal material support defence/display interpretations and revised posture.
 
+- The type species is S. stenops, fixed by the ICZN in 2013 because the original type species S. armatus rested on undiagnostic material.
+- The holotype of S. stenops, USNM 4934, is a nearly complete articulated skeleton with plates in place, collected at Garden Park, Colorado, in 1886.
+- NHMUK PV R36730 ("Sophie"), described in 2015, is the most complete individual known, with about 85 per cent of the skeleton.
+- Plate and spike positions are directly supported by articulated specimens: two staggered rows of plates and two pairs of tail spikes.
+- Thermoregulation, display and species recognition have all been proposed for plates; no single exclusive function is established.
+
 ## Where it lived
 
 Late Jurassic Morrison floodplains.
+
+Core species are Kimmeridgian–Tithonian Morrison Formation; species ranges within the formation differ.
 
 ## Classification
 

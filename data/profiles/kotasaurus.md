@@ -35,15 +35,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/kotasaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The assemblage is multi-individual, not a complete skeleton.
-  - from: record fact
-    text: Robust limbs support habitual quadrupedal locomotion.
-  - from: record fact
-    text: The age of the Kota Formation and its position near the base of Sauropoda are both actively discussed.
-  - from: age review note
-    text: The lower Kota Formation is usually treated as Early Jurassic and often Toarcian, but radiometric control is limited.
 ---
 
 ## Overview
@@ -64,11 +55,17 @@ Kotasaurus yamanpalliensis was described in 1988 by P. Yadagiri from material co
 
 Disarticulated postcranial remains from at least twelve individuals.
 
+- The assemblage is multi-individual, not a complete skeleton.
+- Robust limbs support habitual quadrupedal locomotion.
+- The age of the Kota Formation and its position near the base of Sauropoda are both actively discussed.
+
 ## Where it lived
 
 The Kota Formation records a freshwater fluvial environment of Early Jurassic Gondwana in what is now southern India. The accumulation of multiple Kotasaurus individuals at a single site may reflect seasonal drought deaths near water sources, consistent with other large sauropod bone assemblages. Associated fauna includes fish and other aquatic vertebrates.
 
 Postcranial material from more than twelve individuals was recovered from this Early Jurassic fluvial deposit near the village of Yamanpalli.
+
+The lower Kota Formation is usually treated as Early Jurassic and often Toarcian, but radiometric control is limited.
 
 ## Open questions
 

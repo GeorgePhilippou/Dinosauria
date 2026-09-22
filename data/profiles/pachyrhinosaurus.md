@@ -77,17 +77,11 @@ parked:
     text: "Pachyrhinosaurus perotorum from the North Slope of Alaska lived above 70° north latitude — within the Arctic Circle. Palaeogeographic reconstructions place this site at approximately the same polar position during the Late Cretaceous. The animals endured months of polar darkness and cool winters, contradicting the notion that non-avian dinosaurs were confined to warm tropical and subtropical environments."
   - from: "article: Boss function"
     text: "The thick flat nasal boss of Pachyrhinosaurus may have been used for intraspecific pushing contests — analogous to musk oxen head-butting — rather than the impaling function of a true nasal horn. The frill bore multiple accessory spikes and hooks that varied between species, serving display and species recognition functions."
-  - from: record fact
-    text: Bonebeds contain many disarticulated individuals and growth stages, not one herd frozen in behaviour.
-  - from: record fact
-    text: Boss and frill ornament changed markedly during growth.
-  - from: record fact
-    text: Migration and horn-covering shape are plausible but not directly demonstrated.
-  - from: age review note
-    text: "The genus-level range spans late Campanian P. lakustai through Maastrichtian P. canadensis and P. perotorum; species ages must not be merged."
 ---
 
 ## Overview
+
+Pachyrhinosaurus was a centrosaurine ceratopsid represented by three named North American species and large bonebeds. The type species P. canadensis was named from the St. Mary River Formation of Alberta, with referred material from the Horseshoe Canyon Formation, and bears a thick nasal boss rather than a conventional nasal horn.
 
 Pachyrhinosaurus ("thick-nosed lizard") was a large centrosaurine ceratopsid from the late Campanian and early Maastrichtian of Alberta and Alaska (~73–69 Ma), unusual for lacking a prominent nasal horn in adults — instead bearing a thick bony boss on the nose and a prominent frontal boss between the eyes. Three species are known, including P. perotorum from Alaska, which lived north of the Arctic Circle.
 
@@ -121,9 +115,15 @@ Because bonebed material is disarticulated, most postcranial bones cannot be tie
 
 Bosses instead of long nose horns and rich bonebeds document centrosaurine diversity.
 
+- Bonebeds contain many disarticulated individuals and growth stages, not one herd frozen in behaviour.
+- Boss and frill ornament changed markedly during growth.
+- Migration and horn-covering shape are plausible but not directly demonstrated.
+
 ## Where it lived
 
 Late Cretaceous northern floodplain environments, including high-latitude ecosystems.
+
+The genus-level range spans late Campanian P. lakustai through Maastrichtian P. canadensis and P. perotorum; species ages must not be merged.
 
 ## Classification
 

@@ -33,15 +33,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Micropachycephalosaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype consists principally of incomplete vertebral, pelvic and hindlimb material.
-  - from: record fact
-    text: Purported skull-roof bones could not be located for the modern revision.
-  - from: record fact
-    text: "The name does not establish a tiny dome-headed dinosaur; its position within Cerapoda is unresolved."
-  - from: age review note
-    text: "The reviewed age follows the Campanian assignment of the Wangshi material; a narrower numerical range is not justified."
 ---
 
 ## Overview
@@ -62,9 +53,15 @@ Micropachycephalosaurus hongtuyanensis was described in 1978 by Dong Zhiming, on
 
 Extremely fragmentary postcranial holotype; reported skull-roof elements unavailable.
 
+- The holotype consists principally of incomplete vertebral, pelvic and hindlimb material.
+- Purported skull-roof bones could not be located for the modern revision.
+- The name does not establish a tiny dome-headed dinosaur; its position within Cerapoda is unresolved.
+
 ## Where it lived
 
 The holotype fragmentary material of Micropachycephalosaurus hongtuyanensis was recovered from Late Cretaceous deposits in Shandong Province.
+
+The reviewed age follows the Campanian assignment of the Wangshi material; a narrower numerical range is not justified.
 
 ## Classification
 

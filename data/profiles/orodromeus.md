@@ -48,15 +48,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Orodromeus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The type and referred material establish a small bipedal herbivorous ornithopod.
-  - from: record fact
-    text: Eggs and nests once assigned to Orodromeus are now attributed chiefly to the troodontid Troodon/Stenonychosaurus complex.
-  - from: record fact
-    text: Burrowing is plausible for close relatives but is not directly demonstrated for Orodromeus by an in-burrow skeleton.
-  - from: age review note
-    text: Two Medicine occurrences are late Campanian, approximately 76-74 Ma.
 ---
 
 ## Overview
@@ -79,9 +70,15 @@ Orodromeus makelai was named by Jack Horner and David Weishampel in 1988 from sp
 
 Several partial skeletons and skulls, including juvenile material.
 
+- The type and referred material establish a small bipedal herbivorous ornithopod.
+- Eggs and nests once assigned to Orodromeus are now attributed chiefly to the troodontid Troodon/Stenonychosaurus complex.
+- Burrowing is plausible for close relatives but is not directly demonstrated for Orodromeus by an in-burrow skeleton.
+
 ## Where it lived
 
 Middle to Late Campanian floodplain deposits of northern Montana, principal source of Orodromeus skeletal material and the famous Egg Mountain nesting locality.
+
+Two Medicine occurrences are late Campanian, approximately 76-74 Ma.
 
 ## Open questions
 

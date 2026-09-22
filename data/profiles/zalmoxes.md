@@ -43,13 +43,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/zalmoxes.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Z. robustus and Z. shqiperorum differ in size and anatomy and should not be merged.
-  - from: record fact
-    text: Island dwarfism has been proposed, but size and growth differ between species and samples.
-  - from: age review note
-    text: "Both species are Maastrichtian Hateg Basin; the single 69 Ma date is overprecise."
 ---
 
 ## Overview
@@ -70,9 +63,14 @@ The material now attributed to Zalmoxes was first described in 1899 by the pione
 
 Many disarticulated cranial and postcranial elements across two species.
 
+- Z. robustus and Z. shqiperorum differ in size and anatomy and should not be merged.
+- Island dwarfism has been proposed, but size and growth differ between species and samples.
+
 ## Where it lived
 
 The primary Maastrichtian deposit of the Hateg Basin from which most Zalmoxes material has been recovered.
+
+Both species are Maastrichtian Hateg Basin; the single 69 Ma date is overprecise.
 
 ## Classification
 

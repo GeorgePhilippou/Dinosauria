@@ -73,17 +73,11 @@ parked:
     text: The enlarged second-toe claw was held raised off the ground during walking and used to pin and puncture prey during an attack. Functional analysis suggests it was most effective as a restraint and wound-opener rather than a slashing weapon. The strong forelimbs with three large-clawed fingers helped grip struggling prey.
   - from: "article: Evolutionary significance"
     text: "Ostrom's comparison of Deinonychus with Archaeopteryx — noticing over a dozen skeletal features shared between them — helped re-establish the dinosaurian origin of birds, a hypothesis first proposed by Thomas Henry Huxley in the 1860s but long neglected. Deinonychus became the keystone taxon in the cladistic arguments for birds as living theropod dinosaurs."
-  - from: record fact
-    text: The enlarged second-toe claw is directly preserved and was held clear of the ground in walking.
-  - from: record fact
-    text: Feathering is strongly supported by close phylogenetic bracketing, even though no direct body-feather impressions are known for Deinonychus.
-  - from: record fact
-    text: Co-occurrence of several individuals and Tenontosaurus does not establish coordinated pack hunting.
-  - from: age review note
-    text: Secure Cloverly occurrences are late Aptian-Albian, broadly 115-108 Ma.
 ---
 
 ## Overview
+
+Deinonychus antirrhopus was a medium-sized predatory dromaeosaurid from the Cloverly Formation and equivalent units of North America. Multiple partial skeletons, skull elements, teeth and growth stages document the animal, although many early reconstructions combined several individuals.
 
 Deinonychus antirrhopus sparked the Dinosaur Renaissance. John Ostrom's 1969 description overturned a century of thinking about dinosaurs as slow, cold-blooded, tail-dragging reptiles by demonstrating that this Early Cretaceous predator was active, agile and held its tail rigid for balance. The "Velociraptors" in Jurassic Park are modelled directly on Deinonychus — roughly twice the size of an actual Velociraptor.
 
@@ -117,9 +111,15 @@ Because the material comes from several individuals of different sizes, any sing
 
 Sickle claws, stiffened tail and grasping forelimbs were central to the Dinosaur Renaissance interpretation of active theropods.
 
+- The enlarged second-toe claw is directly preserved and was held clear of the ground in walking.
+- Feathering is strongly supported by close phylogenetic bracketing, even though no direct body-feather impressions are known for Deinonychus.
+- Co-occurrence of several individuals and Tenontosaurus does not establish coordinated pack hunting.
+
 ## Where it lived
 
 Early Cretaceous North American terrestrial ecosystems.
+
+Secure Cloverly occurrences are late Aptian-Albian, broadly 115-108 Ma.
 
 ## Classification
 

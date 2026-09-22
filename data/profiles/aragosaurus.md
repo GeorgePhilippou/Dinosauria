@@ -36,13 +36,6 @@ sources:
     url: "https://paleobiodb.org/navigator/?taxon_id=70636"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The known skeleton includes vertebrae and limb-girdle elements but no skull.
-  - from: record fact
-    text: Revised stratigraphy moved the type locality from a traditional Barremian assignment to the Tithonian-Berriasian interval.
-  - from: age review note
-    text: The type locality is now placed in the Tithonian-Berriasian Villar del Arzobispo Formation.
 ---
 
 ## Overview
@@ -63,11 +56,16 @@ Aragosaurus ischiadicus was described in 1987 by Jose Luis Sanz and colleagues f
 
 One associated incomplete postcranial skeleton.
 
+- The known skeleton includes vertebrae and limb-girdle elements but no skull.
+- Revised stratigraphy moved the type locality from a traditional Barremian assignment to the Tithonian-Berriasian interval.
+
 ## Where it lived
 
 The Villar del Arzobispo Formation represents a coastal or lagoonal environment at the Jurassic–Cretaceous boundary in what is now northeastern Spain. During this period, the Iberian Peninsula occupied a position between the Tethys Sea to the east and the Atlantic to the west. The formation has yielded sauropods, theropods, and ornithopods, reflecting a diverse dinosaurian fauna in a subtropical coastal setting.
 
 The only known Aragosaurus specimen was recovered from this Late Jurassic to Early Cretaceous formation near Galve, a site that has yielded an important diversity of European dinosaurs.
+
+The type locality is now placed in the Tithonian-Berriasian Villar del Arzobispo Formation.
 
 ## Open questions
 

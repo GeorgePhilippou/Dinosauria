@@ -45,15 +45,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Datousaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The original material includes postcranial remains and a skull associated with one of the partial skeletons.
-  - from: record fact
-    text: Its broad placement among early eusauropods is better supported than any narrow family assignment.
-  - from: record fact
-    text: Published whole-body dimensions are extrapolations because no complete articulated skeleton is known.
-  - from: age review note
-    text: "Restricted to the Middle Jurassic Lower Shaximiao Formation; older broad wiki ranges were not specimen-based."
 ---
 
 ## Overview
@@ -74,9 +65,15 @@ Datousaurus bashanensis was described in 1984 by Dong Zhiming and Tang Zilu from
 
 Incomplete associated skeletons, including skull and postcranial bones.
 
+- The original material includes postcranial remains and a skull associated with one of the partial skeletons.
+- Its broad placement among early eusauropods is better supported than any narrow family assignment.
+- Published whole-body dimensions are extrapolations because no complete articulated skeleton is known.
+
 ## Where it lived
 
 Middle Jurassic fluvial formation at Dashanpu, Zigong, Sichuan, where the primary Datousaurus specimens were recovered.
+
+Restricted to the Middle Jurassic Lower Shaximiao Formation; older broad wiki ranges were not specimen-based.
 
 ## Classification
 

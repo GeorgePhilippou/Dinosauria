@@ -82,17 +82,11 @@ parked:
     text: More than ten species have been assigned to Mamenchisaurus, but many of these assignments have been questioned due to inadequate material or insufficient diagnostic characters. Species such as M. anyuensis, from the Early Cretaceous, push the temporal range of the genus unusually late if correctly assigned, while the geologic age of several Shaximiao Formation species remains debated. Reassessment and revision of Mamenchisaurus taxonomy is ongoing.
   - from: "article: Mamenchisauridae and Asian Sauropod Biogeography"
     text: Mamenchisaurus belongs to Mamenchisauridae, a family of long-necked sauropods largely confined to Asia during the Jurassic. The family's restriction to Asia suggests that mamenchisaurids were part of an endemic Asian sauropod radiation that was partly isolated from the Neosauropoda lineages that dominated elsewhere. Understanding mamenchisaurid relationships helps clarify how Jurassic sauropod diversity was structured across Laurasian and Gondwanan landmasses.
-  - from: record fact
-    text: Several species preserve substantial skeletons, but no single completeness claim applies to the whole genus.
-  - from: record fact
-    text: "The extraordinary neck length is directly supported in some species; the largest whole-body estimates depend on scaling incomplete individuals."
-  - from: record fact
-    text: A 2023 analysis recovered named Mamenchisaurus species in a non-monophyletic series, requiring genus-level revision.
-  - from: age review note
-    text: "The range is restricted to well-supported Middle-Late Jurassic Chinese species; Early Cretaceous and non-Chinese referrals are not used to extend it."
 ---
 
 ## Overview
+
+Mamenchisaurus is a historically broad genus of long-necked Chinese eusauropods. The type species M. constructus is based on a partial skeleton from the Sichuan Basin; other named species differ greatly in completeness and may not form a natural genus.
 
 Mamenchisaurus was a massive herbivorous sauropod dinosaur famous for possessing one of the longest necks relative to body size of any known animal, with the neck comprising nearly half the total body length. It lived during the Late Jurassic, approximately 160–145 million years ago, with some species possibly extending into the Early Cretaceous, in the Sichuan Basin and Yunnan Province of China. Various species ranged from roughly 15 to 26 metres in length, with some fragmentary evidence suggesting individuals potentially approaching 35 metres.
 
@@ -124,9 +118,15 @@ The type species preserves vertebrae, including part of the neck, with ribs, pel
 
 Because the best skull, the best neck and the type material belong to different species, no single individual shows the whole animal, and measurements should not be combined across species.
 
+- Several species preserve substantial skeletons, but no single completeness claim applies to the whole genus.
+- The extraordinary neck length is directly supported in some species; the largest whole-body estimates depend on scaling incomplete individuals.
+- A 2023 analysis recovered named Mamenchisaurus species in a non-monophyletic series, requiring genus-level revision.
+
 ## Where it lived
 
 Multiple species of Mamenchisaurus have been described from this Late Jurassic formation, including the type species M. constructus.
+
+The range is restricted to well-supported Middle-Late Jurassic Chinese species; Early Cretaceous and non-Chinese referrals are not used to extend it.
 
 ## Classification
 

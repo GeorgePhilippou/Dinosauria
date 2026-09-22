@@ -101,21 +101,11 @@ parked:
     text: "A typical adult T. rex weighed around 8,000–9,000 kilograms — the well-studied specimen FMNH PR2081 (Sue) is estimated at ~8,400 kg. Especially large individuals such as Scotty may have exceeded 9,000 kg. Body length was around 12–13 metres. NHM gives an adult top speed estimate of about 22 kilometres per hour."
   - from: "article: Skin, feathers and appearance"
     text: T. rex belongs to Theropoda, a group that includes many feathered dinosaurs, but NHM notes there is currently no direct evidence for feathers in Tyrannosaurus. Preserved skin from T. rex and close relatives shows scales, while feathers remain possible only in areas where skin is not yet known.
-  - from: record fact
-    text: The holotype CM 9380 is a partial skull and skeleton collected by Barnum Brown in 1902 from the Hell Creek Formation of Montana and described by Osborn in 1905.
-  - from: record fact
-    text: "FMNH PR 2081 (\"Sue\") is the most complete and among the largest specimens, preserving about 90 per cent of the skeleton by bone volume."
-  - from: record fact
-    text: Growth, bite force, injuries and skin impressions are directly studied from a large sample, but Carr's 2020 assignment of controversial small specimens to the T. rex growth series is no longer treated as settled.
-  - from: record fact
-    text: "Two independent late-2025 studies supported a mature, distinct Nanotyrannus using a new associated specimen and histology of the holotype; further testing may refine which specimens belong to each genus."
-  - from: record fact
-    text: Adult T. rex scale impressions exist, while the amount of feathering remains unknown.
-  - from: age review note
-    text: Secure T. rex records occupy the final roughly two million years of the Cretaceous, contemporaneous with specimens newly reassigned to Nanotyrannus.
 ---
 
 ## Overview
+
+Tyrannosaurus rex was a giant tyrannosaurine from latest Maastrichtian western North America, known from dozens of skulls and partial to substantial skeletons. The growth series must now be separated from the active dispute over which small-bodied specimens belong to juvenile T. rex versus the distinct contemporary genus Nanotyrannus.
 
 Tyrannosaurus rex was a giant tyrannosaurid theropod from the final two million years of the Cretaceous. It lived in western North America and combined a massive skull, bone-crushing bite, forward-facing vision and a strong sense of smell.
 
@@ -149,9 +139,17 @@ The main gap is at the young end of the growth series: if the Nanotyrannus speci
 
 Skulls, teeth, limb bones, bite marks and bone-filled coprolites support feeding, growth and sensory interpretations.
 
+- The holotype CM 9380 is a partial skull and skeleton collected by Barnum Brown in 1902 from the Hell Creek Formation of Montana and described by Osborn in 1905.
+- FMNH PR 2081 ("Sue") is the most complete and among the largest specimens, preserving about 90 per cent of the skeleton by bone volume.
+- Growth, bite force, injuries and skin impressions are directly studied from a large sample, but Carr's 2020 assignment of controversial small specimens to the T. rex growth series is no longer treated as settled.
+- Two independent late-2025 studies supported a mature, distinct Nanotyrannus using a new associated specimen and histology of the holotype; further testing may refine which specimens belong to each genus.
+- Adult T. rex scale impressions exist, while the amount of feathering remains unknown.
+
 ## Where it lived
 
 Latest Cretaceous western North American floodplains.
+
+Secure T. rex records occupy the final roughly two million years of the Cretaceous, contemporaneous with specimens newly reassigned to Nanotyrannus.
 
 ## Classification
 

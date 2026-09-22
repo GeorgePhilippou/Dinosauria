@@ -47,15 +47,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Gilmoreosaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The hypodigm is a multi-individual assemblage and associations between elements are limited.
-  - from: record fact
-    text: It lies outside Hadrosauridae in most modern analyses.
-  - from: record fact
-    text: "Teeth and jaws support herbivory; specific browse and herd behaviour are unknown."
-  - from: age review note
-    text: The numerical age of the Iren Dabasu Formation remains debated, so the audit retains a broad range.
 ---
 
 ## Overview
@@ -76,11 +67,17 @@ Gilmoreosaurus mongoliensis was formally named in 1979 by Michael Brett-Surman, 
 
 Disarticulated cranial and postcranial remains representing multiple individuals.
 
+- The hypodigm is a multi-individual assemblage and associations between elements are limited.
+- It lies outside Hadrosauridae in most modern analyses.
+- Teeth and jaws support herbivory; specific browse and herd behaviour are unknown.
+
 ## Where it lived
 
 The Iren Dabasu Formation records a semi-arid floodplain environment of the Middle Campanian in what is now Inner Mongolia. Gilmoreosaurus shared this habitat with other dinosaurs including the tyrannosaur Alectrosaurus and the ornithomimosaur Archaeornithomimus, suggesting a diverse Late Cretaceous ecosystem in eastern Asia.
 
 The primary type locality for Gilmoreosaurus mongoliensis, yielding postcranial and dental material dating to the Campanian stage.
+
+The numerical age of the Iren Dabasu Formation remains debated, so the audit retains a broad range.
 
 ## Open questions
 

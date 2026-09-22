@@ -41,15 +41,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/lesothosaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Multiple growth stages are represented.
-  - from: record fact
-    text: Its simple leaf-shaped teeth and beak support plant feeding, though opportunistic animal matter cannot be tested.
-  - from: record fact
-    text: It was a lightly built biped rather than a member of a single natural group called Hypsilophodontidae.
-  - from: age review note
-    text: Upper Elliot occurrences are Early Jurassic, primarily Hettangian-Sinemurian.
 ---
 
 ## Overview
@@ -70,11 +61,17 @@ Lesothosaurus diagnosticus was named in 1978 by Peter Galton based on material f
 
 Numerous skulls and partial skeletons spanning several growth stages.
 
+- Multiple growth stages are represented.
+- Its simple leaf-shaped teeth and beak support plant feeding, though opportunistic animal matter cannot be tested.
+- It was a lightly built biped rather than a member of a single natural group called Hypsilophodontidae.
+
 ## Where it lived
 
 Lesothosaurus inhabited the semi-arid floodplain environments of the Karoo Basin during the Early Jurassic, sharing its world with prosauropod dinosaurs such as Massospondylus and early theropods. The Upper Elliot Formation is one of the most productive Early Jurassic fossil beds in Africa, yielding a diverse fauna that documents the early diversification of dinosaurs after the end-Triassic extinction event.
 
 Multiple partial skeletons of Lesothosaurus diagnosticus have been recovered from Early Jurassic redbeds in this formation.
+
+Upper Elliot occurrences are Early Jurassic, primarily Hettangian-Sinemurian.
 
 ## Open questions
 

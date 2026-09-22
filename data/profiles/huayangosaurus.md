@@ -37,15 +37,6 @@ sources:
     url: "https://en.wikipedia.org/wiki/Huayangosaurus"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Cranial anatomy is unusually well represented for a stegosaur.
-  - from: record fact
-    text: Shoulder spines and dorsal plates are known, while their exact sequence and orientation combine evidence from different specimens.
-  - from: record fact
-    text: It retained several primitive features relative to later stegosaurids.
-  - from: age review note
-    text: "Lower Shaximiao strata are generally Bathonian-Callovian; published numerical correlations still vary."
 ---
 
 ## Overview
@@ -66,11 +57,17 @@ Huayangosaurus taibaii was described in 1982 by Dong Zhiming, Tang Zilu and Zhou
 
 Multiple partial skeletons with skulls, postcrania and dermal armour.
 
+- Cranial anatomy is unusually well represented for a stegosaur.
+- Shoulder spines and dorsal plates are known, while their exact sequence and orientation combine evidence from different specimens.
+- It retained several primitive features relative to later stegosaurids.
+
 ## Where it lived
 
 The Lower Shaximiao Formation records a warm, humid Middle Jurassic landscape of lakes and rivers in what is now Sichuan. Huayangosaurus lived alongside sauropods including Shunosaurus and Datousaurus, the small ornithopod Xiaosaurus, and the predatory theropod Gasosaurus. This fauna represents one of the best-documented Middle Jurassic dinosaur assemblages globally.
 
 The primary source of Huayangosaurus material, a Bajocian-to-Callovian lacustrine and fluvial deposit that has produced diverse Middle Jurassic dinosaurs.
+
+Lower Shaximiao strata are generally Bathonian-Callovian; published numerical correlations still vary.
 
 ## Open questions
 

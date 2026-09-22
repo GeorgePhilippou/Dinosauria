@@ -49,15 +49,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Elaphrosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: The holotype is an associated partial postcranial skeleton, not a complete animal.
-  - from: record fact
-    text: Modern analyses place it among noasaurid ceratosaurs rather than ornithomimosaurs.
-  - from: record fact
-    text: Tooth loss and herbivory evolved in some close relatives, but cannot be demonstrated directly for Elaphrosaurus because its skull is unknown.
-  - from: age review note
-    text: Restricted to the Kimmeridgian Middle Dinosaur Member of Tendaguru.
 ---
 
 ## Overview
@@ -78,11 +69,17 @@ Elaphrosaurus bambergi was described by Werner Janensch in 1920 from a nearly co
 
 Single partial postcranial skeleton lacking skull and hands.
 
+- The holotype is an associated partial postcranial skeleton, not a complete animal.
+- Modern analyses place it among noasaurid ceratosaurs rather than ornithomimosaurs.
+- Tooth loss and herbivory evolved in some close relatives, but cannot be demonstrated directly for Elaphrosaurus because its skull is unknown.
+
 ## Where it lived
 
 Elaphrosaurus inhabited the Tendaguru landscape alongside Brachiosaurus, Giraffatitan, Dicraeosaurus, and stegosaurs, forming part of a diverse Late Jurassic Gondwanan fauna. As a medium-sized theropod it would have occupied a distinct ecological niche, potentially pursuing smaller prey such as juvenile sauropods, lizards, or small ornithischians.
 
 The only confirmed locality; a nearly complete but headless skeleton was recovered during the German Tendaguru expeditions.
+
+Restricted to the Kimmeridgian Middle Dinosaur Member of Tendaguru.
 
 ## Open questions
 

@@ -34,15 +34,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/ouranosaurus.html"
 reviewed: 2026-07-16
 tier: basic
-parked:
-  - from: record fact
-    text: Tall neural spines along the trunk and tail are directly preserved.
-  - from: record fact
-    text: Whether they supported a sail, fatty hump or another soft-tissue profile is unresolved.
-  - from: record fact
-    text: "It had a dental battery and broad herbivorous feeding anatomy; exact diet and habitual gait are not directly observed."
-  - from: age review note
-    text: "The Elrhaz Formation is broadly Aptian-Albian; the single 112 Ma value is illustrative rather than a direct date."
 ---
 
 ## Overview
@@ -65,9 +56,15 @@ Two substantial partial skeletons including skulls and tall-spined axial columns
 
 Tall neural spines, skull and limb material document its sail-backed iguanodontian anatomy.
 
+- Tall neural spines along the trunk and tail are directly preserved.
+- Whether they supported a sail, fatty hump or another soft-tissue profile is unresolved.
+- It had a dental battery and broad herbivorous feeding anatomy; exact diet and habitual gait are not directly observed.
+
 ## Where it lived
 
 Early Cretaceous African river and floodplain deposits.
+
+The Elrhaz Formation is broadly Aptian-Albian; the single 112 Ma value is illustrative rather than a direct date.
 
 ## Open questions
 

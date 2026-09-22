@@ -69,19 +69,11 @@ parked:
     text: Amygdalodon is among the oldest sauropods known from South America and helps establish that large-bodied sauropods had colonised Gondwana by the Pliensbachian–Toarcian stages of the Early to Middle Jurassic. Its fragmentary nature limits detailed anatomical interpretation, but it remains an important datum in the geographic and temporal spread of early sauropods.
   - from: "article: Palaeoenvironment"
     text: The Cerro Carnerero Formation represents fluvial and lacustrine environments of Early to Middle Jurassic Patagonia. This region of southern South America was part of Gondwana during this period, and the broader Patagonian basin has yielded important records of early dinosaur evolution, including some of the oldest known sauropods and theropods.
-  - from: record fact
-    text: Rauhut's 2003 revision showed that the original type material is not a single partial skeleton.
-  - from: record fact
-    text: The assemblage contains sauropod bones from at least two individuals plus one bone from another, indeterminate vertebrate.
-  - from: record fact
-    text: A posterior dorsal vertebra was designated as the lectotype to anchor the name Amygdalodon patagonicus.
-  - from: record fact
-    text: Amygdalodon is important evidence that early sauropods had reached South America by the Early to early Middle Jurassic.
-  - from: age review note
-    text: Updated Museo de La Plata catalogue data report a late Toarcian–early Aalenian age. This crosses the Early–Middle Jurassic boundary, so the catalogue period label is necessarily simplified.
 ---
 
 ## Overview
+
+Amygdalodon patagonicus is an early sauropod from the Cerro Carnerero Formation of Patagonia, dated from the late Toarcian to early Aalenian across the Early–Middle Jurassic boundary. Its type assemblage is fragmentary and mixed: the sauropod bones represent at least two individuals, and one included element belongs to an indeterminate vertebrate. A posterior dorsal vertebra was selected as the lectotype.
 
 Amygdalodon patagonicus was an early sauropod dinosaur from the Middle Jurassic of Patagonia, Argentina, estimated to have lived approximately 193–183 million years ago. Reaching an estimated length of about 15 metres, it is known from a single partial skeleton recovered from the Cerro Carnerero Formation of Chubut Province. It is one of the earliest known South American sauropods, making it significant for understanding the origins of the group in Gondwana.
 
@@ -113,9 +105,16 @@ Several spatulate teeth, a few cervical, dorsal and caudal vertebrae, rib fragme
 
 Because the assemblage is mixed and disarticulated, only features of the lectotype vertebra can be used with confidence to diagnose the genus.
 
+- Rauhut's 2003 revision showed that the original type material is not a single partial skeleton.
+- The assemblage contains sauropod bones from at least two individuals plus one bone from another, indeterminate vertebrate.
+- A posterior dorsal vertebra was designated as the lectotype to anchor the name Amygdalodon patagonicus.
+- Amygdalodon is important evidence that early sauropods had reached South America by the Early to early Middle Jurassic.
+
 ## Where it lived
 
 The only known Amygdalodon specimen — a partial skeleton including vertebrae and other elements — was found here, making this the type locality of the genus.
+
+Updated Museo de La Plata catalogue data report a late Toarcian–early Aalenian age. This crosses the Early–Middle Jurassic boundary, so the catalogue period label is necessarily simplified.
 
 ## Classification
 

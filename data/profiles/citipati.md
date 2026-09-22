@@ -41,13 +41,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Citipati&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Adult specimens preserved over nests support brooding posture, though fine behavioural details remain inferred.
-  - from: record fact
-    text: "The famous specimen called Big Mama is referred to Citipati; not every crest-bearing Djadokhta oviraptorid belongs to this species."
-  - from: age review note
-    text: The Djadokhta Formation is late Campanian, broadly about 75-71 million years old.
 ---
 
 ## Overview
@@ -68,11 +61,16 @@ Citipati osmolskae was described in 2001 by James Clark, Mark Norell, and Rinche
 
 Multiple skulls and partial to near-complete skeletons, embryos, eggs and brooding adults.
 
+- Adult specimens preserved over nests support brooding posture, though fine behavioural details remain inferred.
+- The famous specimen called Big Mama is referred to Citipati; not every crest-bearing Djadokhta oviraptorid belongs to this species.
+
 ## Where it lived
 
 The Djadochta Formation represents a semi-arid dune environment in the Late Cretaceous Gobi Desert. Citipati shared this habitat with protoceratopsids, the small dromaeosaurid Velociraptor, the troodontid Saurornithoides, and the ankylosaur Pinacosaurus. The nesting behaviour of Citipati is interpreted as an adaptation to the variable, possibly unpredictable rainfall conditions of this desert environment.
 
 Campanian sandstone formation in the Gobi Desert yielding the primary Citipati specimens, including brooding individuals on nests.
+
+The Djadokhta Formation is late Campanian, broadly about 75-71 million years old.
 
 ## Open questions
 

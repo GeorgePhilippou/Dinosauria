@@ -78,15 +78,11 @@ parked:
     text: "The Ankylosaurus tail club is the largest known for any ankylosaurid — proportionally massive even compared to Euoplocephalus. Finite element analysis shows the club knobs could withstand impact forces consistent with striking bone without fracturing. Bone injury studies on Tyrannosaurus legs may eventually document direct combat evidence, though no confirmed T. rex injury from an ankylosaur blow has yet been published."
   - from: "article: Hell Creek ecosystem"
     text: Ankylosaurus was one of three major megaherbivores in the Hell Creek ecosystem alongside Triceratops and Edmontosaurus. Its heavy armour, wide body and low centre of gravity suggest it could resist Tyrannosaurus attacks more effectively than the ceratopsids or hadrosaurs. As one of the last surviving non-avian dinosaurs, it was extinguished at the K-Pg boundary 66 million years ago.
-  - from: record fact
-    text: The tail club is known from referred material and was capable of powerful lateral motion.
-  - from: record fact
-    text: Much familiar full-body restoration combines non-overlapping specimens and comparison with relatives.
-  - from: age review note
-    text: Secure specimens are late Maastrichtian, principally from the Hell Creek, Lance and Scollard formations.
 ---
 
 ## Overview
+
+Ankylosaurus magniventris was a very large ankylosaurid from latest Cretaceous rocks of western North America. Several incomplete skeletons and skulls collectively document its broad body, armour and tail club, but no single complete skeleton is known.
 
 Ankylosaurus magniventris was the largest known ankylosaurid, reaching about six to eight metres, from the latest Cretaceous Hell Creek Formation (~68–66 Ma). Its massive bony tail club — formed by two large oval knobs fused to a rigid tail handle — could swing laterally to deliver bone-breaking blows to attacking Tyrannosaurus. Ankylosaurus was one of the last surviving non-avian dinosaurs before the K-Pg mass extinction.
 
@@ -120,9 +116,14 @@ Because the specimens preserve different regions and the osteoderms were found d
 
 Armour plates, skull bones and tail-club elements define the heavily armoured body plan.
 
+- The tail club is known from referred material and was capable of powerful lateral motion.
+- Much familiar full-body restoration combines non-overlapping specimens and comparison with relatives.
+
 ## Where it lived
 
 Latest Cretaceous western North American floodplains.
+
+Secure specimens are late Maastrichtian, principally from the Hell Creek, Lance and Scollard formations.
 
 ## Classification
 

@@ -47,15 +47,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Deltadromeus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: No skull or diagnostic teeth are known for the holotype.
-  - from: record fact
-    text: Commercial Kem Kem teeth cannot be identified as Deltadromeus from the current type material.
-  - from: record fact
-    text: Carnivory is plausible for a theropod but exact feeding ecology and even its closest relationships remain unresolved.
-  - from: age review note
-    text: Restricted to the Cenomanian Kem Kem Group type occurrence.
 ---
 
 ## Overview
@@ -74,11 +65,17 @@ Deltadromeus was described in 1996 by Paul Sereno and a large team of collaborat
 
 One partial, headless postcranial skeleton with disputed referrals.
 
+- No skull or diagnostic teeth are known for the holotype.
+- Commercial Kem Kem teeth cannot be identified as Deltadromeus from the current type material.
+- Carnivory is plausible for a theropod but exact feeding ecology and even its closest relationships remain unresolved.
+
 ## Where it lived
 
 Deltadromeus inhabited the Cenomanian coastline of Gondwana, a landscape characterised by river deltas, shallow seas, and rich fish fauna. It shared its environment with some of the largest predatory dinosaurs known, including Spinosaurus and Carcharodontosaurus, raising questions about ecological partitioning among these co-occurring giants.
 
 Primary locality; yielded the holotype partial skeleton alongside other large theropods such as Spinosaurus and Carcharodontosaurus.
+
+Restricted to the Cenomanian Kem Kem Group type occurrence.
 
 ## Classification
 

@@ -38,15 +38,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Proceratosaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: CT and redescription identified it as a proceratosaurid tyrannosauroid, not a close relative of Ceratosaurus.
-  - from: record fact
-    text: A low crest rises from the nasal region, but its complete shape and function are unknown.
-  - from: record fact
-    text: No secure postcranial skeleton exists, so body size and proportions are inferred from relatives.
-  - from: age review note
-    text: The type horizon is Bathonian Middle Jurassic.
 ---
 
 ## Overview
@@ -69,9 +60,15 @@ The holotype skull of Proceratosaurus bradleyi was described by Arthur Smith Woo
 
 Single partial skull and mandible; no secure associated postcranium.
 
+- CT and redescription identified it as a proceratosaurid tyrannosauroid, not a close relative of Ceratosaurus.
+- A low crest rises from the nasal region, but its complete shape and function are unknown.
+- No secure postcranial skeleton exists, so body size and proportions are inferred from relatives.
+
 ## Where it lived
 
 Bathonian-age limestone beds from which the only known Proceratosaurus skull was recovered.
+
+The type horizon is Bathonian Middle Jurassic.
 
 ## Open questions
 

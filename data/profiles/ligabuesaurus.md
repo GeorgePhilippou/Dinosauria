@@ -46,15 +46,6 @@ sources:
     url: "https://www.nhm.ac.uk/discover/dino-directory/ligabuesaurus.html"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Known material includes vertebral, girdle and limb elements and limited cranial remains.
-  - from: record fact
-    text: No complete neck, tail or articulated body is known.
-  - from: record fact
-    text: Adult length and mass estimates remain extrapolations from incomplete individuals.
-  - from: age review note
-    text: Restricted to the late Aptian-early Albian Lohan Cura Formation.
 ---
 
 ## Overview
@@ -75,9 +66,15 @@ Ligabuesaurus leanzai was described in 2006 by José Bonaparte, Bernardo Gonzál
 
 Incomplete cranial and postcranial remains from a small number of individuals.
 
+- Known material includes vertebral, girdle and limb elements and limited cranial remains.
+- No complete neck, tail or articulated body is known.
+- Adult length and mass estimates remain extrapolations from incomplete individuals.
+
 ## Where it lived
 
 The holotype fragmentary remains of Ligabuesaurus leanzai were recovered from Early Cretaceous continental deposits in this Patagonian formation.
+
+Restricted to the late Aptian-early Albian Lohan Cura Formation.
 
 ## Classification
 

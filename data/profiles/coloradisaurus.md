@@ -42,13 +42,6 @@ sources:
     url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Coloradisaurus&show=loc,time,strat,ident,phylo"
 reviewed: 2026-07-16
 tier: drafted
-parked:
-  - from: record fact
-    text: Detailed skull and postcranial studies support massospondylid affinities.
-  - from: record fact
-    text: Broad herbivory or omnivory is plausible, but exact food and feeding behaviour are not preserved.
-  - from: age review note
-    text: The Los Colorados Formation is Norian-Rhaetian, though its long numerical span is not resolved at every locality.
 ---
 
 ## Overview
@@ -69,9 +62,14 @@ Coloradisaurus brevis was named by José Bonaparte in 1978 from material collect
 
 One substantially complete skull and partial postcranial skeleton, with additional referred remains.
 
+- Detailed skull and postcranial studies support massospondylid affinities.
+- Broad herbivory or omnivory is plausible, but exact food and feeding behaviour are not preserved.
+
 ## Where it lived
 
 Late Triassic red-bed formation in the Ischigualasto-Villa Unión Basin yielding both specimens of Coloradisaurus.
+
+The Los Colorados Formation is Norian-Rhaetian, though its long numerical span is not resolved at every locality.
 
 ## Classification
 
