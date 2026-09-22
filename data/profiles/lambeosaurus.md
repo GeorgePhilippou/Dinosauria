@@ -1,0 +1,139 @@
+---
+name: Lambeosaurus
+species: Lambeosaurus lambei
+meaning: Lambe's lizard
+pronunciation: LAM-bee-oh-SORE-us
+status: valid
+period: Late Cretaceous
+age_ma: [76.7, 74.4]
+age_note: late Campanian, roughly 76.7-74.4 million years ago
+length_m: 9
+mass_kg: 5600
+size_note: "about 7–9 m · roughly 3–4 t"
+diet: Herbivore
+posture: on 2 or 4 legs
+found_in: [Canada, Mexico, USA]
+fossil_record: 3
+fossil_record_note: All skeletal regions are represented across specimens, but complete articulated skeletons are few and the postcranium is less thoroughly described than the skull.
+classification: [Dinosauria, Ornithischia, Ornithopoda, Hadrosauroidea, Hadrosauridae, Lambeosaurinae, Lambeosaurini]
+related:
+  - id: corythosaurus
+    why: Compare with the helmet-crested lambeosaurine found lower in the same formation.
+  - id: hypacrosaurus
+    why: Compare with a younger lambeosaurine with a similar hollow crest and known growth series.
+  - id: parasaurolophus
+    why: Compare with a lambeosaurine whose crest formed a long tube rather than a blade.
+summary: A hollow-crested duck-billed dinosaur from Alberta whose hatchet-shaped headgear grew and changed with age, known from many skulls and several substantial skeletons.
+image:
+  file: Lambeosaurus TD.png
+  alt: Life restoration of Lambeosaurus lambei in side view, showing the hatchet-shaped crest with a backward-pointing spur
+  caption: "Life restoration by TotalDino. Crest shape follows adult skulls of L. lambei; the scale pattern is modelled on related hadrosaurids, and colour is interpretive."
+  credit: "TotalDino · CC BY-SA 4.0"
+specimens:
+  - id: CMN 2869
+    label: holotype of L. lambei
+    where: "Red Deer River · Dinosaur Park Formation · Canadian Museum of Nature"
+    note: A skull from the Red Deer River valley, named by William Parks in 1923 and described in detail by Charles Gilmore in 1924. It shows the hatchet-shaped crest that defines the species.
+  - id: CMN 8705
+    label: holotype of L. magnicristatus
+    where: "Dinosaur Park Formation · Canadian Museum of Nature · revised by Evans and Reisz in 2007"
+    note: "A skull and partial skeleton collected in 1919 and named by Charles M. Sternberg in 1935. Its very tall crest distinguishes the species; part of the crest was lost after collection and is documented from early photographs."
+sites:
+  - name: Red Deer River badlands
+    region: Dinosaur Provincial Park area, Alberta, Canada
+    lat: null
+    lon: null
+    note: Both species come from the Dinosaur Park Formation. Referrals of material from Montana and elsewhere remain debated and are not the basis of the genus.
+  - name: Dinosaur Park Formation
+    region: Alberta, Canada
+    lat: 50.7
+    lon: -111.5
+    note: "Campanian deposits with multiple Lambeosaurus specimens of different sizes; the classic lambeosaurine hadrosaur site."
+formations: Dinosaur Park Formation, Alberta, Canada
+sources:
+  - cite: "Evans & Reisz (2007), Anatomy and relationships of Lambeosaurus magnicristatus"
+    doi: "10.1671/0272-4634(2007)27%5B373:AAROLM%5D2.0.CO;2"
+  - cite: Prieto-Marquez et al. (2013), The phylogeny and biogeography of lambeosaurine hadrosaurids
+    doi: 10.1371/journal.pone.0069835
+  - cite: Paleobiology Database taxon and occurrence context for Lambeosaurus
+    url: "https://paleobiodb.org/navigator/?taxon_id=38763"
+  - cite: Natural History Museum, Lambeosaurus
+    url: "https://www.nhm.ac.uk/discover/dino-directory/lambeosaurus.html"
+  - cite: Evans (2010), Cranial anatomy and systematics of Hypacrosaurus altispinus, and a comparative analysis of skull growth in lambeosaurine hadrosaurids
+    doi: 10.1111/j.1096-3642.2009.00611.x
+  - cite: "TMP 1982.038.0001 skull — Source page, creator details and reuse licence for the skull photograph."
+    url: "https://commons.wikimedia.org/wiki/File:Lambeosaurus_skull_Royal_Tyrrell.jpg"
+reviewed: 2026-09-20
+tier: polished
+parked:
+  - from: "article: Discovery and naming"
+    text: "Named by William Diller Matthew in 1923 in honour of Lawrence Lambe, the Canadian palaeontologist who had described much of the Dinosaur Park Formation fauna. Multiple Lambeosaurus specimens — including different crest shapes — were initially assigned to different species; subsequent work showed many represent ontogenetic and sexual variation within a single or two species."
+  - from: "article: Crest structure"
+    text: "The hatchet-shaped crest is unique to Lambeosaurus. Like Corythosaurus, the crest is hollow, containing looping nasal passages. The anterior (forward) lobe of the crest is the resonating chamber; the posterior solid spike has no clear acoustic function and may have been primarily a display structure. The crest reached maximum development in large adults."
+  - from: "article: Dinosaur Park ecosystem"
+    text: "The Dinosaur Park Formation is the richest Late Cretaceous dinosaur fauna known from North America: multiple ceratopsid species, five or more hadrosaur species, ankylosaurs, pachycephalosaurs and tyrannosaurs coexisted in a coastal lowland environment. Lambeosaurus was a dominant large herbivore alongside Corythosaurus and the ceratopsid Centrosaurus."
+  - from: record fact
+    text: The crest enclosed extended nasal passages and changed shape during growth.
+  - from: record fact
+    text: Acoustic and display functions are plausible and modelled, but exact calls and behaviours are unknown.
+  - from: record fact
+    text: Dental batteries document herbivory and complex plant processing.
+  - from: age review note
+    text: Secure Dinosaur Park Formation occurrences are late Campanian, approximately 76.7-74.4 Ma.
+---
+
+## Overview
+
+Lambeosaurus lambei was a large lambeosaurine hadrosaur from the Campanian of Alberta (~76 Ma), distinguished by a distinctive hatchet-shaped crest consisting of two parts: a forward-projecting hollow crest and a solid posterior spike. At up to nine metres it was among the largest hadrosaurs of the Dinosaur Park Formation. Different crest shapes between specimens reflect sex and age differences rather than different species.
+
+Lambeosaurus and Corythosaurus coexisted in the Dinosaur Park Formation, partitioned by habitat or seasonally segregated despite their overall similarity. Their different crest shapes would have produced distinct low-frequency calls, allowing species recognition without visual contact in dense vegetation — a plausible selective pressure for crest diversity in lambeosaurine hadrosaurs.
+
+## Anatomy & life
+
+Lambeosaurus was a large duck-billed dinosaur of the hollow-crested lambeosaurine group, living on the coastal plains of what is now Alberta in the late Campanian. Adults of the best-known species, L. lambei, reached roughly seven to nine metres in length and moved on either two or four legs.
+
+Its crest was made of the expanded nasal and premaxillary bones and enclosed looping nasal passages. In L. lambei the crest resembles a hatchet blade with a bony spur projecting backwards; in the rarer L. magnicristatus the blade is much taller and the spur reduced. Juvenile crests were small and low, and skulls at different growth stages were once named as separate species.
+
+The genus was named in 1923 for Lawrence Lambe, who had earlier described some of the same material under other names. Together with Corythosaurus, it occurs abundantly in the Dinosaur Park Formation, with Lambeosaurus typically found in the upper part of the section.
+
+- A hatchet-shaped hollow crest with a backward spur in L. lambei, and a much taller blade in L. magnicristatus.
+- The crest housed looping nasal passages whose internal shape is preserved in the bone.
+- Named in honour of Lawrence Lambe, the Canadian palaeontologist who first described crested hadrosaurids from Alberta.
+
+**Feeding: Plant-eater.** A broad toothless beak and dental batteries of closely packed grinding teeth are preserved in many skulls. The specific plants eaten are not directly recorded.
+
+**Movement: Bipedal and quadrupedal.** Limbs and girdles from partial skeletons match the hadrosaurid pattern of switching between two- and four-legged walking; gait details are modelled.
+
+**Appearance: Crest shape well known.** The bony crest and skeleton are well documented, but skin, colour and any soft-tissue extensions of the crest are inferred.
+
+## Fossil record
+
+Lambeosaurus lambei is known from numerous skulls at different growth stages and from several partial to near-complete skeletons in the Dinosaur Park Formation. L. magnicristatus rests on far fewer specimens, and the genus as a whole is defined chiefly by skull anatomy.
+
+Complete and partial skulls with crests, beaks and dental batteries from juveniles to adults, plus vertebral columns, girdles and limbs from several associated skeletons of L. lambei. L. magnicristatus is known from a small number of skulls and one partial skeleton.
+
+Skin impressions have been reported for Alberta lambeosaurines, but the beak keratin, colour and any soft-tissue crest structures are not preserved.
+
+Helmet-like cranial crest and hadrosaur skeletal anatomy support lambeosaurine classification.
+
+## Where it lived
+
+Late Cretaceous western Canadian coastal plain ecosystems.
+
+## Classification
+
+Lambeosaurus is a lambeosaurine hadrosaurid and the name-bearer of the tribe Lambeosaurini, grouping with Corythosaurus and Hypacrosaurus among the helmet- and hatchet-crested duck-bills. Its two Alberta species are treated as distinct.
+
+## Open questions
+
+### How many species are real?
+
+Growth studies have collapsed several names into L. lambei, and L. magnicristatus is accepted as a separate, rarer species. Some Alberta skulls and all Montana referrals remain under discussion.
+
+### What did the crest sound like?
+
+The nasal loop inside the crest could have acted as a resonating chamber, but the vocal soft tissues are unknown and no specific call can be reconstructed as fact.
+
+### Why do crests differ so much?
+
+Crest shape changes with growth and may differ between sexes or individuals; separating these effects from species differences is the central problem in lambeosaurine taxonomy.

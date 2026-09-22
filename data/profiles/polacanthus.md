@@ -1,0 +1,78 @@
+---
+name: Polacanthus
+species: Polacanthus foxii
+meaning: many spines
+pronunciation: pol-ah-KAN-thus
+status: valid
+period: Early Cretaceous
+age_ma: [130, 125]
+age_note: Barremian, about 130-125 million years ago
+length_m: 5
+mass_kg: 1000
+diet: Herbivore
+posture: on 4 legs
+found_in: [United Kingdom]
+fossil_record: 1
+fossil_record_note: Head, tail end and exact armour sequence are reconstructed.
+classification: [Dinosauria, Ornithischia, Thyreophora, Ankylosauria, Nodosauridae sensu lato]
+summary: Polacanthus foxii was an armoured dinosaur from the Wessex Formation of the Isle of Wight, based on an incomplete, disarticulated postcranial skeleton with extensive armour but no skull.
+image:
+  file: Polacanthus foxii.jpg
+sites:
+  - name: Wessex Formation
+    region: Isle of Wight, England, UK
+    lat: 50.6
+    lon: -1.3
+    note: "Barremian fluvial deposits with Polacanthus type material and additional fragments; the most complete British ankylosaur."
+  - name: Lower Wealden Group
+    region: Sussex, England, UK
+    lat: 50.9
+    lon: 0.1
+    note: Hauterivian–Barremian deposits with fragmentary nodosaurid material possibly referable to Polacanthus.
+formations: "Wessex Formation, Isle of Wight, England; possibly also Wadhurst Clay, Sussex"
+sources:
+  - cite: Blows (1987), osteology and systematic position of Polacanthus
+    url: "https://palass.org/publications/palaeontology-journal/archive/30/3/article_pp557-580"
+  - cite: "Natural History Museum Dino Directory: polacanthus"
+    url: "https://www.nhm.ac.uk/discover/dino-directory/polacanthus.html"
+reviewed: 2026-07-16
+tier: basic
+parked:
+  - from: record fact
+    text: The holotype preserves pelvis, hindlimb, vertebral and osteoderm material including a pelvic shield.
+  - from: record fact
+    text: Skull shape and much of the front-body armour are inferred from relatives.
+  - from: record fact
+    text: Whether polacanthines form a distinct family or a basal nodosaurid grade remains debated.
+  - from: age review note
+    text: The Wessex Formation type is Barremian, approximately 130-125 Ma.
+---
+
+## Overview
+
+Polacanthus foxii was a nodosaurid ankylosaur from the Early Cretaceous Wessex Formation of the Isle of Wight, England (~130 Ma), bearing large spines projecting from its shoulders and flanks, a fused sacral shield of fused bony nodules over the hip region, and rows of smaller plates along the tail. It was a contemporary of Iguanodon, Baryonyx and Hypsilophodon in the Early Cretaceous Wessex ecosystem.
+
+The sacral shield of Polacanthus — a fused mosaic of small bony nodules forming a continuous sheet over the hips — is unique among ankylosaurs and has been interpreted as additional protection for the hip region, possibly related to the animal's most vulnerable area during predator attacks. No skull is known from British material, so its head is reconstructed from related nodosaurids.
+
+## Anatomy & life
+
+The fused plate of bony nodules over the sacral region is the most unusual feature of Polacanthus. In other ankylosaurs the armour elements remain separate or in flexible bands; the fused sacral shield is unique to Polacanthus among British material. Whether this represents a true autapomorphy or a polacanthid family character is unclear.
+
+Polacanthus shared the Barremian floodplains of southern England with Iguanodon, Hypsilophodon and the spinosaurid Baryonyx. Its heavy armour would have provided substantial protection against theropods. As a nodosaurid-grade ankylosaur, it lacked the tail club of true ankylosaurids and relied on passive armour defence rather than active weapon use.
+
+## Fossil record
+
+The Polacanthus holotype was found at Barnes High on the Isle of Wight around 1865 and named by Owen (as "Polacanthus foxii") in 1865. The specimen preserves part of the dorsal armour, sacral shield and some limb elements but no skull. Additional material has been collected over subsequent decades, but a complete specimen remains elusive.
+
+Incomplete postcranial skeleton with pelvis, hindlimb, vertebrae and abundant armour; skull absent.
+
+The distinctive lateral blade-like spines and dorsal armour pattern identify it as a basal ankylosaur distinct from the fused-club-bearing ankylosaurids.
+
+## Where it lived
+
+Early Cretaceous deltaic and floodplain environments of southern England.
+
+## Open questions
+
+- The holotype lacks a skull and forequarters.
+- Polacanthine relationships remain unstable.

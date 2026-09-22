@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profile Layout Mockup</title>
+<style>
+:root{
+  --bg:#fbfbf8;--surface:#fff;--surface-2:#f0f1ec;--text:#1b1d19;--text-2:#474c42;--text-3:#61655c;
+  --line:rgba(24,29,21,.12);--accent:#c0622f;--accent-ink:#9a4a1f;--ok:#4f8f6b;--warn:#c98a42;--matte:#f3f1e9;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#141612;--surface:#1c1f1a;--surface-2:#252921;--text:#eceee6;--text-2:#c3c7ba;--text-3:#9da295;
+  --line:rgba(236,238,230,.12);--accent:#e07a45;--accent-ink:#f0a070;}}
+:root[data-theme="dark"]{--bg:#141612;--surface:#1c1f1a;--surface-2:#252921;--text:#eceee6;--text-2:#c3c7ba;--text-3:#9da295;--line:rgba(236,238,230,.12);--accent:#e07a45;--accent-ink:#f0a070;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.switch{position:sticky;top:0;z-index:5;display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:10px 16px;background:var(--surface);border-bottom:1px solid var(--line);font-size:14px}
+.switch b{margin-right:6px;color:var(--text-3);font-weight:500}
+.switch button{font:inherit;border:1px solid var(--line);background:var(--surface-2);color:var(--text);padding:5px 12px;border-radius:99px;cursor:pointer}
+.switch button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+main{max-width:920px;margin:0 auto;padding:28px 16px 80px}
+h1,h2,.facts dd{font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;font-weight:600;letter-spacing:-.01em}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:center}
+@media (max-width:720px){.hero{grid-template-columns:1fr}}
+.hero figure{margin:0;background:var(--matte);border-radius:14px;overflow:hidden;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center}
+.hero img{width:100%;height:100%;object-fit:contain}
+.credit{font-size:12px;color:var(--text-3);margin-top:6px}
+.credit a{color:inherit}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-ink);font-weight:600}
+h1{font-size:clamp(38px,6vw,56px);margin:4px 0 0;line-height:1.05}
+.binom{font-style:italic;color:var(--text-2);margin:4px 0 0}
+.meaning{color:var(--text-3);font-size:14px;margin:2px 0 14px}
+.lead{font-size:18px;color:var(--text-2);margin:0}
+.facts{display:flex;flex-wrap:wrap;gap:22px 0;margin:30px 0 6px;padding:18px 0;border-top:2px solid var(--text);border-bottom:1px solid var(--line)}
+.facts div{flex:1 1 150px;padding:0 20px;border-left:1px solid var(--line)}
+.facts div:first-child{padding-left:0;border-left:0}
+@media (max-width:720px){.facts div{flex-basis:45%;padding:0 12px 0 0;border-left:0}}
+.facts dt{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-ink);font-weight:600}
+.facts dd{margin:4px 0 0;font-size:21px;line-height:1.2}
+.facts dd small{display:block;font:13px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text-3);margin-top:3px}
+.facts dd.na{color:var(--text-3);font-style:italic;font-weight:400}
+.facts .pips{margin-top:8px}
+nav.toc{display:flex;gap:18px;flex-wrap:wrap;font-size:14px;border-bottom:1px solid var(--line);padding:14px 0;margin-bottom:8px}
+nav.toc a{color:var(--text-2);text-decoration:none}
+nav.toc a:hover{color:var(--accent)}
+section{padding:26px 0;border-bottom:1px solid var(--line)}
+h2{font-size:26px;margin:0 0 12px}
+p{margin:0 0 12px}
+.highlights{list-style:none;padding:0;margin:16px 0 0;display:grid;gap:10px}
+.highlights li{padding-left:18px;position:relative;color:var(--text-2)}
+.highlights li:before{content:"";position:absolute;left:0;top:.65em;width:8px;height:8px;border-radius:2px;background:var(--accent)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+.card .k{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--text-3)}
+.card .v{font-weight:600;margin:2px 0 6px}
+.card p{font-size:14px;color:var(--text-2);margin:0}
+.meter{display:flex;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:16px}
+.pips{display:flex;gap:4px}
+.pips i{width:26px;height:8px;border-radius:4px;background:var(--surface-2)}
+.pips i.on{background:var(--ok)}
+.meter b{min-width:90px}
+.meter span{font-size:14px;color:var(--text-2)}
+.specimens{display:grid;gap:10px;margin-top:14px}
+.spec{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.spec code{font:600 13px ui-monospace,Menlo,monospace;color:var(--accent-ink);white-space:nowrap}
+.spec small{grid-column:2;color:var(--text-3)}
+.where{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:720px){.where{grid-template-columns:1fr}}
+.site{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px}
+.site b{display:block}
+.site span{font-size:14px;color:var(--text-2)}
+.path{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:14px;margin-bottom:14px}
+.path span{background:var(--surface-2);padding:3px 10px;border-radius:99px}
+.path span:last-child{background:var(--accent);color:#fff;font-style:italic}
+.path em{color:var(--text-3);font-style:normal}
+.related{display:flex;gap:10px;flex-wrap:wrap}
+.related div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;flex:1 1 220px;font-size:14px}
+.related b{display:block;color:var(--accent-ink)}
+details.q{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px}
+details.q summary{cursor:pointer;font-weight:600}
+details.q p{margin:8px 0 0;color:var(--text-2)}
+ol.src{padding-left:20px;font-size:14px;color:var(--text-2)}
+ol.src li{margin-bottom:6px}
+ol.src a{color:var(--accent-ink)}
+details.about{margin-top:18px;font-size:13px;color:var(--text-3)}
+details.about summary{cursor:pointer}
+.note{background:var(--surface-2);border-radius:10px;padding:10px 14px;font-size:13px;color:var(--text-2);margin:0 0 20px}
+</style>
+</head>
+<body>
+<div class="switch"><b>Mockup · pick a genus</b></div>
+<main id="page"><p>Loading…</p></main>
+<script src="../data/existing-dinosaurs.js"></script>
+<script src="../data/nhm-imported-dinosaurs.js"></script>
+<script>
+const LEGACY=Object.fromEntries([...(window.EXISTING_DINOSAUR_RECORDS||[]),...(window.NHM_IMPORTED_DINOSAUR_RECORDS||[])].map(r=>[r[0],r]));
+const GENERA=[['triceratops','Triceratops (well known, polished)'],['kotasaurus','Kotasaurus (middling)'],['abelisaurus','Abelisaurus (fragmentary)']];
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const thumb=f=>'https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(f.replace(/ /g,'_'))+'?width=900';
+const first=(...v)=>v.find(x=>x!=null&&x!==''&&!(Array.isArray(x)&&!x.length));
+
+/* One normaliser: every field is taken from the best available source exactly once. */
+function normalise(d){
+  const L=LEGACY[d.id]||[];
+  const r=d.review||{},rec=r.record||{},p=r.presentation||{},ev=r.evidence||{},pan=ev.panel||{};
+  const prof=d.richProfile||d.profile||{},fr=d.fossilRecord||{};
+  const qf=Object.fromEntries((p.quickFacts||[]).map(f=>[f.label.toLowerCase(),f.value]));
+  const len='length' in rec?rec.length:L[11],kg='massKg' in rec?rec.massKg:L[12];
+  const size=qf['known size']||[len&&`about ${len} m`,kg&&`about ${kg>=1000?(kg/1000).toFixed(1).replace(/\.0$/,'')+' t':kg+' kg'}`].filter(Boolean).join(' · ');
+  const tax=first(rec.taxonomy,prof.focusedClade?.trunk,[]);
+  const level=pan.coverage?.level??(ev.score>=90?4:ev.score>=70?3:ev.score>=50?2:1);
+  const labels=['','Fragmentary','Partial','Good','Excellent'];
+  const src=[];const seen=new Set();
+  const add=(label,url)=>{const k=url||label;if(!label||seen.has(k))return;seen.add(k);src.push({label,url});};
+  (r.sources||[]).forEach(s=>add(s.citation,s.url));
+  (pan.resources||[]).forEach(s=>add(s.title+(s.description?' — '+s.description:''),s.url));
+  (prof.citations||[]).forEach(s=>add(s.label,s.url));
+  const specimens=(pan.specimenCards||[]).map(s=>({id:s.title,note:s.description,meta:s.meta}))
+    .concat(!pan.specimenCards?(ev.specimens||[]).map(s=>({id:s.id+' · '+s.name,note:s.note,meta:s.institution})):[]);
+  const img=p.heroMedia?{file:p.heroMedia.file,alt:p.heroMedia.alt,credit:p.heroMedia.credit,url:p.heroMedia.sourceUrl}
+    :d.remainsImage?{file:d.remainsImage.file,alt:d.remainsImage.label,credit:'Wikimedia Commons',url:'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(d.remainsImage.file.replace(/ /g,'_'))}:null;
+  // Anatomy & life: polished tier uses its paragraphs; otherwise the profile articles that are NOT about discovery/fossils (those belong in Fossil record).
+  const arts=prof.articles||[];
+  const isFossilArt=a=>/discover|fossil|specimen|naming/i.test(a.title);
+  return{
+    name:d.name,binomial:first(d.binomial,rec.binomial,L[2],''),meaning:first(d.meaning,rec.meaning,L[3]),
+    period:rec.period,age:first(qf.age,[rec.period,rec.mya].filter(Boolean).join(' · ')),
+    size,diet:first(qf.diet,rec.diet,L[9]),place:first(qf.location,(prof.fossilSites||[]).map(s=>s.region.split(',').pop().trim()).join(', ')),
+    lead:first(p.heroLead,rec.description),img,
+    overview:prof.overview||[],
+    anatomy:p.animalParagraphs||arts.filter(a=>!isFossilArt(a)).map(a=>a.body),
+    highlights:p.animalHighlights||[],
+    life:(p.lifeCards||[]).filter(c=>!/size|length|mass/i.test(c.label)).map(c=>({k:c.label,v:c.value,t:c.reason})),
+    evidence:{level,label:pan.coverage?.label||labels[level],basis:first(pan.coverage?.basis,ev.confidenceLimit,fr.completeness)},
+    fossilText:first(pan.standfirst,arts.filter(isFossilArt).map(a=>a.body).join('\n\n'),fr.evidence),
+    material:first(pan.knownRemains?.summary,ev.material,fr.material),
+    specimens,
+    sites:p.locality?[{name:p.locality.name,region:p.locality.region,note:p.locality.note}]:(prof.fossilSites||[]),
+    rock:first(fr.formations,(ev.formations||[]).join('; ')),
+    setting:fr.paleo,
+    trunk:tax,classText:p.classificationSummary,
+    related:(p.related||[]).map(x=>({name:x.id[0].toUpperCase()+x.id.slice(1),why:x.reason})),
+    questions:(p.questions||[]).map(q=>({t:q.title,c:q.copy})).concat(!p.questions?(r.residualUncertainty||[]).map(t=>({t,c:''})):[]),
+    sources:src,
+    about:{reviewed:r.reviewedOn,ageNote:r.ageReviewNote,drafted:prof.provenance==='ai-drafted'}
+  };
+}
+
+function render(g){
+  const fact=(k,v,sub='')=>`<div><dt>${k}</dt><dd class="${v?'':'na'}">${esc(v||'Not estimated')}${sub?`<small>${sub}</small>`:''}</dd></div>`;
+  const ma=(g.age.match(/(\d+(?:\.\d+)?)\s*[-–]\s*(\d+(?:\.\d+)?)/)||[]);
+  const ageSub=ma[1]?`${ma[1]}–${ma[2]} million years ago`:'';
+  const [sz,wt]=(g.size||'').split(' · ');
+  const pips=[1,2,3,4].map(i=>`<i class="${i<=g.evidence.level?'on':''}"></i>`).join('');
+  const secs=[['overview','Overview'],['life','Anatomy &amp; life'],['fossils','Fossil record'],['where','Where it lived'],['class','Classification'],g.questions.length&&['debates','Open questions'],['sources','Sources']].filter(Boolean);
+  return `
+  <div class="hero">
+    <div>
+      <div class="eyebrow">${esc(g.period)}</div>
+      <h1>${esc(g.name)}</h1>
+      ${g.binomial?`<p class="binom">${esc(g.binomial)}</p>`:''}
+      ${g.meaning?`<p class="meaning">“${esc(g.meaning)}”</p>`:'<p class="meaning"></p>'}
+      <p class="lead">${esc(g.lead)}</p>
+    </div>
+    ${g.img?`<div><figure><img src="${thumb(g.img.file)}" alt="${esc(g.img.alt)}"></figure><div class="credit">${esc(g.img.credit)} · <a href="${esc(g.img.url)}" target="_blank" rel="noopener">source</a></div></div>`:''}
+  </div>
+  <dl class="facts">${fact('Lived',g.period,ageSub)}${fact('Size',sz&&sz.replace(/^about /,'~'),wt&&'weight '+esc(wt.replace(/^about /,'~')))}${fact('Diet',g.diet)}${fact('Found in',g.place)}${fact('Fossil record',g.evidence.label,`<span class="pips" style="display:flex">${pips}</span>`)}</dl>
+  <nav class="toc">${secs.map(([id,t])=>`<a href="#${id}">${t}</a>`).join('')}</nav>
+
+  <section id="overview"><h2>Overview</h2>${g.overview.map(p=>`<p>${esc(p)}</p>`).join('')}</section>
+
+  <section id="life"><h2>Anatomy &amp; life</h2>
+    ${g.anatomy.map(p=>`<p>${esc(p)}</p>`).join('')}
+    ${g.highlights.length?`<ul class="highlights">${g.highlights.map(h=>`<li>${esc(h)}</li>`).join('')}</ul>`:''}
+    ${g.life.length?`<div class="cards">${g.life.map(c=>`<div class="card"><div class="k">${esc(c.k)}</div><div class="v">${esc(c.v)}</div><p>${esc(c.t)}</p></div>`).join('')}</div>`:''}
+  </section>
+
+  <section id="fossils"><h2>Fossil record</h2>
+    <div class="meter"><div class="pips" aria-label="${g.evidence.level} of 4">${pips}</div><b>${esc(g.evidence.label)}</b><span>${esc(g.evidence.basis)}</span></div>
+    ${g.fossilText.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')}
+    <p><strong>What has been found:</strong> ${esc(g.material)}</p>
+    ${g.specimens.length?`<div class="specimens">${g.specimens.map(s=>`<div class="spec"><code>${esc(s.id.split(' · ')[0])}</code><div>${esc(s.note)}</div><small>${esc(s.meta)}</small></div>`).join('')}</div>`:''}
+  </section>
+
+  <section id="where"><h2>Where it lived</h2>
+    <div class="where">
+      <div>${g.sites.map(s=>`<div class="site"><b>${esc(s.name)}</b><span>${esc(s.region)}</span>${s.note?`<p style="margin:6px 0 0;font-size:14px;color:var(--text-2)">${esc(s.note)}</p>`:''}</div>`).join('')}</div>
+      <div>${g.rock?`<p><strong>Rock units:</strong> ${esc(g.rock)}</p>`:''}${g.setting&&g.setting!==g.sites[0]?.note?`<p><strong>Environment:</strong> ${esc(g.setting)}</p>`:''}</div>
+    </div>
+  </section>
+
+  <section id="class"><h2>Classification</h2>
+    <div class="path">${g.trunk.map(t=>`<span>${esc(t)}</span>`).join('<em>›</em>')}</div>
+    ${g.classText?`<p>${esc(g.classText)}</p>`:''}
+    ${g.related.length?`<div class="related">${g.related.map(x=>`<div><b>${esc(x.name)}</b>${esc(x.why)}</div>`).join('')}</div>`:''}
+  </section>
+
+  ${g.questions.length?`<section id="debates"><h2>Open questions</h2>${g.questions.map(q=>q.c?`<details class="q"><summary>${esc(q.t)}</summary><p>${esc(q.c)}</p></details>`:`<details class="q"><summary>${esc(q.t)}</summary></details>`).join('')}</section>`:''}
+
+  <section id="sources"><h2>Sources</h2>
+    <ol class="src">${g.sources.map(s=>`<li>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`:esc(s.label)}</li>`).join('')}</ol>
+    <details class="about"><summary>About this profile</summary>
+      <p>Checked against the cited literature${g.about.reviewed?' on '+esc(g.about.reviewed):''}. The fossil-record rating is an editorial summary of how completely the genus is known, not a published measurement.${g.about.ageNote?' '+esc(g.about.ageNote):''}</p>
+    </details>
+  </section>`;
+}
+
+const sw=document.querySelector('.switch');
+async function show(id){
+  sw.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.id===id));
+  const d=await fetch('../data/genera/'+id+'.json').then(r=>r.json());
+  document.getElementById('page').innerHTML=render(normalise(d));
+  window.scrollTo(0,0);
+}
+GENERA.forEach(([id,label])=>{const b=document.createElement('button');b.textContent=label;b.dataset.id=id;b.onclick=()=>show(id);sw.append(b);});
+show('triceratops');
+</script>
+</body>
+</html>

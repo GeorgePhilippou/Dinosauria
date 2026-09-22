@@ -1,0 +1,85 @@
+---
+name: Deinocheirus
+species: Deinocheirus mirificus
+meaning: terrible hand
+pronunciation: DINE-oh-KIRE-us
+status: valid
+period: Late Cretaceous
+age_ma: [71, 68]
+age_note: early Maastrichtian, about 71-68 million years ago
+length_m: 10
+mass_kg: null
+diet: Omnivore
+found_in: [Mongolia]
+fossil_record: 3
+fossil_record_note: "High for body plan; moderate for mass, soft tissues and ecology."
+classification: [Dinosauria, Saurischia, Theropoda, Coelurosauria, Ornithomimosauria, Deinocheiridae]
+summary: Deinocheirus mirificus was a giant, toothless, bipedal deinocheirid from the Nemegt Formation of Mongolia. Two later partial skeletons, together with the arm-dominated holotype, reveal a deep-bodied animal with a long duck-like snout, tall neural spines and broad feet.
+image:
+  file: Deinocheirus mount.jpg
+sites:
+  - name: Nemegt Formation
+    region: Ömnögovi Province, southern Mongolia
+    lat: 43.6
+    lon: 100.5
+    note: "Main source of Deinocheirus material, including the two near-complete skeletons described in 2014; the formation also preserves Tarbosaurus, Therizinosaurus and Saurolophus."
+  - name: Baynshire Formation
+    region: Ömnögovi Province, Mongolia
+    lat: 43.8
+    lon: 102.1
+    note: Older Cretaceous unit (Cenomanian–Santonian) from which fragmentary Deinocheirus-attributed material has been recovered, extending the genus's temporal range.
+formations: "Nemegt Formation, Ömnögovi Province, southern Mongolia; Baynshire Formation, Ömnögovi Province, Mongolia"
+sources:
+  - cite: Lee et al. (2014), Resolving the long-standing enigmas of Deinocheirus mirificus
+    doi: 10.1038/nature13874
+  - cite: "Osmolska & Roniewicz (1970), Deinocheiridae, a new family of theropod dinosaurs"
+    url: "https://www.palaeontologia.pan.pl/Archive/1970-21_5-19_1-5.pdf"
+  - cite: Paleobiology Database taxon and occurrence context for Deinocheirus
+    url: "https://paleobiodb.org/navigator/?taxon_id=38551"
+  - cite: "NHM: Deinocheirus profile"
+    url: "https://www.nhm.ac.uk/discover/dino-directory/deinocheirus.html"
+  - cite: "PBDB: Deinocheirus"
+    url: "https://paleobiodb.org/navigator/?taxon_id=38558"
+  - cite: "Lee et al. 2014 (Nature) — full skeleton description"
+    url: "https://www.nature.com/articles/nature13874"
+reviewed: 2026-07-16
+tier: drafted
+parked:
+  - from: record fact
+    text: The holotype preserves the shoulder girdle, enormous forelimbs and a few axial elements, not a complete body.
+  - from: record fact
+    text: Two additional individuals preserve much of the skull and skeleton, but portions were reconstructed after poached bones were recovered.
+  - from: record fact
+    text: "Stomach-region remains and gastroliths support a mixed, opportunistic diet that included plants and fish; they do not establish a single exclusive diet."
+  - from: age review note
+    text: "The Nemegt Formation is Maastrichtian; the genus should not be extended to the end-Cretaceous boundary without direct stratigraphic evidence."
+---
+
+## Overview
+
+Deinocheirus mirificus was a colossal ornithomimosaur from the Nemegt Formation of Mongolia, dating to the late Maastrichtian (~70–66 Ma). Reaching approximately 11 metres in length and weighing an estimated 6,358 kg, it is the largest known ornithomimosaur by a wide margin — a genuine giant in a group otherwise dominated by ostrich-sized runners. Its name, 'terrible hand', reflects the fact that for nearly half a century after its description by Osmólska and Roniewicz in 1970, only a pair of enormous arms — each over 2.4 metres long — were known to science.
+
+The discovery of two near-complete skeletons in 2006 and 2009 (published by Lee et al. in 2014) transformed understanding of this bizarre animal. Deinocheirus bore a pronounced neural spine hump along its back, a broad toothless duck-like bill, and hoof-like claws on its feet — adaptations for slow wading rather than fast pursuit. Stomach contents revealed over a thousand gastroliths alongside fish remains, confirming it as a megaomnivore that fed on aquatic vegetation and fish in the Nemegt river delta.
+
+## Anatomy & life
+
+Deinocheirus combined features of several different dinosaur groups. Its skull bore a broad, spatulate, toothless rostrum analogous to hadrosaurs, while the neural spines of the dorsal vertebrae formed a pronounced sail or hump reaching nearly 1.7 metres above the back. The forelimbs, though enormous, bore blunt curved claws more suited to hooking vegetation than to predation. Foot bones were unusually broad and hoof-like, consistent with slow movement in wet, marshy ground rather than the cursorial lifestyle typical of smaller ornithomimosaurs.
+
+Deinocheirus is classified as a megaomnivore. Gastroliths (more than 1,000 in the two 2014 specimens) indicate plant processing analogous to large herbivores, while fish bones in the stomach region confirm active fish feeding — probably by wading in the shallow floodplain channels of the Nemegt river delta. Its hump may have served as an energy reserve during seasonal food shortage. In the Nemegt ecosystem it coexisted with Tarbosaurus, the apex predator, which may have targeted subadult Deinocheirus rather than full-grown individuals.
+
+Deinocheirus resolves one of theropod palaeontology's longest-standing enigmas and demonstrates that ornithomimosaurs — a group typically characterised as lightly built cursors — could evolve extreme gigantism and ecological specialisation. It also illustrates the continuing importance of fossil repatriation: the poached specimens, recovered through international cooperation, were essential to understanding one of the most distinctive dinosaurs of the Cretaceous.
+
+## Fossil record
+
+The type specimen, collected during the 1965 Polish–Mongolian expedition, consisted only of a pair of forelimbs with their shoulder girdles — the largest theropod forelimbs known at the time, with hands bearing robust curved claws up to 25 cm long. For 44 years Deinocheirus was one of palaeontology's great mysteries. Two nearly complete skeletons recovered from the Nemegt Formation in 2006 and 2009 were initially poached and sold on the black market before being repatriated to Mongolia; their description by Lee et al. in 2014 finally revealed the full animal.
+
+Three complementary partial skeletons, including skull, axial skeleton and limbs.
+
+## Where it lived
+
+Main source of Deinocheirus material, including the two near-complete skeletons described in 2014; the formation also preserves Tarbosaurus, Therizinosaurus and Saurolophus.
+
+## Open questions
+
+- The exact diet proportions and function of the tall neural spines are unresolved.
+- The known adults remain incomplete and maximum mass is model-dependent.

@@ -1,0 +1,71 @@
+---
+name: Atrociraptor
+species: Atrociraptor marshalli
+meaning: savage robber
+pronunciation: Ah-TROSS-ee-rap-tor
+status: valid
+period: Late Cretaceous
+age_ma: [72, 69]
+length_m: null
+mass_kg: null
+diet: Carnivore
+found_in: [Canada]
+fossil_record: 1
+fossil_record_note: Skull fragments alone cannot fix full-body dimensions or detailed ecology.
+classification: [Dinosauria, Saurischia, Theropoda, Coelurosauria, Maniraptora, Dromaeosauridae]
+summary: "Atrociraptor marshalli was a small dromaeosaurid from the lower Horseshoe Canyon Formation of Alberta. The holotype consists of a partial snout, jaws and teeth; isolated teeth referred later do not provide a complete skeleton."
+image:
+  file: Atrociraptor TMP 95.166.1.jpg
+sites:
+  - name: Horseshoe Canyon Formation (Edmonton Group)
+    region: Alberta, Canada
+    lat: 51.5
+    lon: -112.5
+    note: The jaw fragment and teeth constituting the only known Atrociraptor specimen were discovered here by fossil hunter Wayne Marshall in 1995, providing the sole evidence of this genus.
+formations: Horseshoe Canyon Formation (Edmonton Group), Alberta, Canada
+sources:
+  - cite: Powers et al. (2022), A new hypothesis of eudromaeosaurian evolution
+    doi: 10.1080/02724634.2021.2010087
+  - cite: "Natural History Museum, Dino Directory: atrociraptor"
+    url: "https://www.nhm.ac.uk/discover/dino-directory/atrociraptor.html"
+  - cite: "PBDB: Atrociraptor occurrence data"
+    url: "https://paleobiodb.org/navigator/?taxon_id=132125"
+reviewed: 2026-07-16
+tier: drafted
+parked:
+  - from: record fact
+    text: The short, deep snout is reconstructed from incomplete and somewhat distorted cranial material.
+  - from: record fact
+    text: Bipedal locomotion and carnivory are secure at broad level, but precise prey and hunting behaviour are unknown.
+  - from: age review note
+    text: The type comes from the early Maastrichtian lower Horseshoe Canyon Formation.
+---
+
+## Overview
+
+Atrociraptor marshalli was a small dromaeosaurid theropod dinosaur from the Late Cretaceous of Alberta, Canada, living approximately 69 million years ago during the Maastrichtian stage. Estimated at about 2 metres in length, it is known only from fragments of the front portion of the jaws and some teeth, all recovered from the Horseshoe Canyon Formation. Its name means 'savage robber', reflecting its inferred predatory lifestyle.
+
+Named by Currie and Varricchio in 2004, Atrociraptor is classified within Saurornitholestinae of the family Dromaeosauridae and is notable for its unusually short, deep snout, which differs markedly from the low, elongate skulls typical of most dromaeosaurids. Despite the scarcity of material, the distinctive skull shape suggests Atrociraptor occupied a distinct ecological niche among the dromaeosaurids of Late Cretaceous Alberta.
+
+## Anatomy & life
+
+The partial jaw material of Atrociraptor reveals a skull that was notably taller and shorter than those of most other dromaeosaurids, resembling more the snout proportions of some troodontids. The teeth are serrated and laterally compressed. By analogy with other dromaeosaurids of comparable size, Atrociraptor probably had a sickle claw on each foot and was likely feathered. Its overall size was comparable to a large turkey.
+
+Atrociraptor was a small carnivore in the Horseshoe Canyon ecosystem, which also included larger predators such as Albertosaurus. The short, deep skull morphology may indicate a different prey preference or killing technique compared to other dromaeosaurids with longer, lower jaws. Small dromaeosaurids of this period likely preyed on lizards, small mammals, juvenile dinosaurs, and possibly eggs.
+
+Despite the extreme incompleteness of its remains, Atrociraptor makes a genuine contribution to the known diversity of dromaeosaurids in the latest Cretaceous of North America. Its unusual skull proportions suggest that dromaeosaurid morphological diversity was greater than the better-known members of the family might indicate. Additional material, should it ever be found, would substantially improve understanding of this enigmatic predator.
+
+## Fossil record
+
+Atrociraptor marshalli was described by Philip Currie and David Varricchio in 2004, nine years after the jaw fossil was discovered by Wayne Marshall in 1995 in the Horseshoe Canyon Formation of Alberta. The generic name derives from Latin atrox (savage or cruel) and raptor (thief or plunderer). The species name honours its discoverer. The jaw was the only element found, and it was the distinctive deep, short shape that distinguished it from other dromaeosaurids.
+
+One partial skull and jaws with teeth; isolated referred teeth.
+
+## Where it lived
+
+The jaw fragment and teeth constituting the only known Atrociraptor specimen were discovered here by fossil hunter Wayne Marshall in 1995, providing the sole evidence of this genus.
+
+## Open questions
+
+- Only one diagnostic partial skull is established.
+- Its position within Dromaeosauridae varies among recent analyses.

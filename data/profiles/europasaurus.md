@@ -1,0 +1,78 @@
+---
+name: Europasaurus
+species: Europasaurus holgeri
+meaning: Europe lizard
+pronunciation: yoo-roh-pah-sore-us
+status: valid
+period: Late Jurassic
+age_ma: [154, 154]
+age_note: late Kimmeridgian, about 154 million years ago
+length_m: 6.2
+mass_kg: null
+diet: Herbivore
+found_in: [Germany]
+fossil_record: 3
+fossil_record_note: "High for anatomy, growth and dwarfism; moderate for individual association and fine phylogeny."
+classification: [Dinosauria, Saurischia, Sauropodomorpha, Sauropoda, Neosauropoda, Macronaria, Brachiosauridae]
+summary: "Europasaurus holgeri was a small-bodied brachiosaurid from the Langenberg Quarry in northern Germany. Disarticulated remains from more than a dozen individuals span juvenile to adult growth stages; bone histology supports evolutionary dwarfing in an island environment."
+image:
+  file: Europasaurus holgeri.jpg
+sites:
+  - name: Süntel Formation (Langenberg Quarry)
+    region: Lower Saxony, Germany
+    lat: 52.1
+    lon: 10.1
+    note: "The Langenberg Quarry near Goslar is the primary source of Europasaurus material, preserving dozens of individuals of various ages in Kimmeridgian marine carbonate beds — the bones were transported from an adjacent island platform into a shallow lagoon."
+formations: Süntel Formation (Langenberg Quarry), Lower Saxony, Germany
+sources:
+  - cite: Sander et al. (2006), Bone histology indicates insular dwarfism in a new Late Jurassic sauropod
+    doi: 10.1038/nature04633
+  - cite: "Carballido & Sander (2020), Appendicular skeleton of Europasaurus holgeri"
+    doi: 10.1080/14772019.2019.1683770
+  - cite: Paleobiology Database taxon and occurrence context for Europasaurus
+    url: "https://paleobiodb.org/navigator/?taxon_id=81696"
+  - cite: "NHM: Europasaurus profile"
+    url: "https://www.nhm.ac.uk/discover/dino-directory/europasaurus.html"
+  - cite: "PBDB: Europasaurus"
+    url: "https://paleobiodb.org/navigator/?taxon_id=96547"
+  - cite: "Wikipedia: Europasaurus"
+    url: "https://en.wikipedia.org/wiki/Europasaurus"
+reviewed: 2026-07-16
+tier: drafted
+parked:
+  - from: record fact
+    text: The assemblage is rich but does not contain one complete articulated skeleton.
+  - from: record fact
+    text: Adult status of small individuals is supported by growth marks and slowed growth, not body size alone.
+  - from: record fact
+    text: Skulls, vertebrae and limb bones document much of the anatomy across different individuals.
+  - from: age review note
+    text: The quarry horizon is late Kimmeridgian and commonly placed near 154 Ma.
+---
+
+## Overview
+
+Europasaurus holgeri was a small macronarian sauropod from the Late Jurassic Kimmeridgian beds of northern Germany (~154–151 Ma), reaching approximately 6.2 metres in length — roughly a third of the size of its closest mainland relatives. Named by Sander et al. in 2006, it represents the first unequivocal case of insular dwarfism documented in a non-avian dinosaur. Its fossils come from what was then a shallow-water carbonate island platform within the Late Jurassic European archipelago, isolated enough from continental landmasses to drive significant size reduction over multiple generations.
+
+The case for insular dwarfism rests on bone histology: cortical analysis of femora and tibiae demonstrates that the Europasaurus specimens are skeletally mature adults, not juveniles of a larger species. This distinguishes it decisively from other small sauropod records where small size could simply reflect immaturity. As an island-adapted giant, Europasaurus documents how isolation and resource limitation can rapidly reshape body size even in the most massive of dinosaur lineages.
+
+## Anatomy & life
+
+During the Kimmeridgian, the region that is now northern Germany formed part of a shallow carbonate platform archipelago separated from the main European and Tethyan landmasses. Resource scarcity on island environments consistently drives size reduction in large herbivores — a phenomenon well-documented in Pleistocene island elephants and hippos. Europasaurus is the clearest dinosaurian example: its ancestors were likely normal-sized macronarians that colonised the platform, after which generations of restricted food and space progressively reduced body size. The rate of dwarfing implied by the fossil record suggests it could have occurred within a few hundred thousand years.
+
+Despite its small size, Europasaurus retains the characteristic macronarian body plan: a relatively elongated neck, columnar limbs, and broad barrel-shaped torso. Growth curve analysis from the Langenberg assemblage — which preserves juveniles, subadults, and adults — shows that young Europasaurus grew rapidly before slowing markedly at skeletal maturity, a pattern similar to larger sauropods but compressed into a much smaller adult size. The multi-individual assemblage at Langenberg probably reflects a mass-death event, possibly from a storm surge washing carcasses into the lagoon.
+
+## Fossil record
+
+The Europasaurus fossils were first collected by amateur palaeontologist Holger Lüdtke at the Langenberg Quarry in 1998; the genus was formally described by Sander and colleagues in 2006 in Nature, with the species name holgeri honouring the discoverer. Initial scepticism centred on whether the small bones simply belonged to juvenile individuals of a known large sauropod. Bone histology settled the question: the outer circumferential lamellae and annuli in the cortical bone of large specimens are the hallmarks of skeletal maturity, confirming that 6-metre animals were full-grown adults.
+
+Abundant multi-individual cranial and postcranial remains across an ontogenetic series.
+
+## Where it lived
+
+The Langenberg Quarry near Goslar is the primary source of Europasaurus material, preserving dozens of individuals of various ages in Kimmeridgian marine carbonate beds — the bones were transported from an adjacent island platform into a shallow lagoon.
+
+## Open questions
+
+- Elements are disarticulated and must be associated by size and morphology.
+- The exact number of individuals and fine brachiosaurid position vary by study.

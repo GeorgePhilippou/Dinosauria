@@ -1,0 +1,84 @@
+---
+name: Chubutisaurus
+species: Chubutisaurus insignis
+meaning: "Chubut [Province] lizard"
+pronunciation: choo-boot-i-sore-us
+status: valid
+period: Early Cretaceous
+age_ma: [125, 94]
+age_note: approximately 125-94 million years ago
+length_m: null
+mass_kg: null
+diet: Herbivore
+found_in: [Argentina]
+fossil_record: 1
+fossil_record_note: No skull and incomplete axial series limit body-size, feeding and relationship claims.
+classification: [Dinosauria, Saurischia, Sauropodomorpha, Sauropoda, Neosauropoda, Macronaria, Somphospondyli]
+summary: "Chubutisaurus insignis was a large somphospondylan sauropod from the Cerro Barcino Formation of Patagonia. Its quarry produced a fragmentary postcranial skeleton including vertebrae and limb bones but no skull; older, very narrow age claims are not secure."
+image:
+  file: Chubutisaurus insignis.jpg
+sites:
+  - name: Cerro Barcino Formation / Chubut Group
+    region: Chubut Province, Argentina
+    lat: -43.7
+    lon: -68.5
+    note: Aptian–Albian formation in Patagonia that yielded the primary Chubutisaurus material, including limb bones and vertebrae.
+  - name: Chubut Province (general Cretaceous outcrops)
+    region: Chubut Province, Argentina
+    lat: -44
+    lon: -68
+    note: Broader Patagonian region with extensive Cretaceous-age formations preserving giant sauropod material.
+formations: "Cerro Barcino Formation / Chubut Group, Chubut Province, Argentina; Chubut Province (general Cretaceous outcrops), Chubut Province, Argentina"
+sources:
+  - cite: Carballido et al. (2011), Osteology and phylogenetic relationships of Chubutisaurus insignis
+    doi: 10.1080/02724634.2011.539651
+  - cite: Carballido et al. (2011), Chubutisaurus redescription, author copy
+    url: "https://staff.mef.org.ar/images/investigadores/jose_luis_carballido/Papers/Carballido_et_al._2011_Chubutisaurus.pdf"
+  - cite: "Natural History Museum, Dino Directory: chubutisaurus"
+    url: "https://www.nhm.ac.uk/discover/dino-directory/chubutisaurus.html"
+  - cite: "Wikipedia: Chubutisaurus"
+    url: "https://en.wikipedia.org/wiki/Chubutisaurus"
+  - cite: "PBDB: Chubutisaurus occurrences"
+    url: "https://paleobiodb.org/data1.2/occs/list.json?base_name=Chubutisaurus&show=loc,time,strat,ident,phylo"
+reviewed: 2026-07-16
+tier: drafted
+parked:
+  - from: record fact
+    text: The recovered material provides useful limb and vertebral anatomy but not a complete skeleton.
+  - from: record fact
+    text: "It is usually placed just outside or close to Titanosauria; the precise node varies among analyses."
+  - from: age review note
+    text: The relevant Cerro Barcino beds are broadly late Early to early Late Cretaceous, with member correlation and numerical age still debated.
+---
+
+## Overview
+
+Chubutisaurus was a very large titanosauriform sauropod from the Early to mid-Cretaceous of Argentina, approximately 120–110 million years ago (Aptian to Albian), found in the Cerro Barcino Formation of Chubut Province. Size estimates range from about 18 metres (Paul, 2010) to 23 metres (Holtz, 2012), placing it among the larger sauropods of the Early Cretaceous. Its name means 'Chubut Province lizard', reflecting the Patagonian province where it was discovered.
+
+Described by del Corro in 1974 and formally published in 1975, Chubutisaurus insignis is placed within Somphospondyli (the clade of titanosauriforms that includes titanosaurs and closely related groups). It had a more robust radius than its relative Venenosaurus, suggesting postcranial differences among titanosauriforms. As an Early Cretaceous Gondwanan titanosauriform, it contributes to understanding the early evolution of the lineage that would later include the largest terrestrial animals known.
+
+## Anatomy & life
+
+Chubutisaurus was a large titanosauriform, with length estimates of 18–23 metres depending on the methodology applied. It was characterised by a more robust radius bone compared to some relatives, suggesting variation in forelimb construction among titanosauriforms. Without a complete skeleton, precise reconstructions remain approximate. Its placement in Somphospondyli is supported by pneumatised vertebrae and other derived features.
+
+The Cerro Barcino Formation was deposited in a fluvial and lacustrine setting in Patagonia during the mid-Cretaceous. Patagonia was a hotspot of titanosaur diversity through the Cretaceous, and Chubutisaurus is one of the earlier representatives of this lineage from the region. The fauna of the Cerro Barcino Formation also includes other dinosaurs and reptiles that illuminate the evolution of South American ecosystems.
+
+## Fossil record
+
+Chubutisaurus insignis was described by Guillermo del Corro in 1974 (formally 1975) from limb bones and vertebrae recovered from the Cerro Barcino Formation of Chubut Province. The specific name means 'distinguished' or 'remarkable'. The specimen represents one of the earlier-described large titanosauriforms from Patagonia, predating the discoveries of giants like Argentinosaurus.
+
+One incomplete postcranial skeleton recovered in separate campaigns.
+
+## Where it lived
+
+Aptian–Albian formation in Patagonia that yielded the primary Chubutisaurus material, including limb bones and vertebrae.
+
+## Classification
+
+Modern phylogenetic analyses place Chubutisaurus within Somphospondyli, close to or within Titanosauria. The genus has been compared with Venenosaurus and other mid-Cretaceous titanosauriforms. Its precise position within the titanosaurian radiation is subject to ongoing revision as new South American material is described, but it clearly represents an early member of the lineage that would dominate Gondwana through the Late Cretaceous.
+
+## Open questions
+
+- The exact stratigraphic member and age have been reported inconsistently.
+- Only one principal individual is known.
+- Phylogenetic placement varies.
