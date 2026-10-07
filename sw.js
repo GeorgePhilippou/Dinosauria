@@ -3,7 +3,7 @@
 // so the whole site becomes available offline simply by having visited it,
 // without hand-maintaining a file list that content updates would outdate.
 
-const CACHE_VERSION = 'dinosauria-v4';
+const CACHE_VERSION = 'dinosauria-v6';
 const SHELL_URLS = [
   './',
   './index.html',
@@ -17,7 +17,7 @@ const SHELL_URLS = [
   './data/wiki-enrichment.js',
   './data/genera-index.js',
   './assets/maps/world-base.jpg',
-  './assets/profile.css?v=5',
+  './assets/profile.css?v=7',
   './assets/profile.js?v=5',
   './assets/vendor/js-yaml.min.js',
   // Per-genus files (data/genera/<id>.json) are not precached: index.html

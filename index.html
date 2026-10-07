@@ -919,7 +919,7 @@
   /* Quick-facts bar */
   .quick-facts {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(105px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr));
     gap: 1px;
     margin-top: 10px;
     border: 1px solid var(--line);
@@ -931,8 +931,8 @@
   .qf-item {
     display: flex;
     flex-direction: column;
-    gap: 2px;
-    padding: 7px 10px;
+    gap: 6px;
+    padding: 12px 14px;
     background: var(--surface-2);
     min-width: 0;
   }
@@ -945,12 +945,12 @@
   }
   .qf-value {
     color: var(--text);
-    font-size: clamp(10.5px, 1.45vw, 12px);
+    font-size: var(--fs-sm);
     font-weight: var(--fw-bold);
-    line-height: 1.2;
-    overflow-wrap: anywhere;
-    word-break: break-word;
-    hyphens: auto;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    word-break: normal;
+    hyphens: none;
   }
   .data-gaps {
     margin-top: 10px;
@@ -1398,7 +1398,7 @@
     padding-left: 2px;
   }
   .clado-rel-from em { font-style: italic; }
-  .clado-rel-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+  .clado-rel-chips { display: flex; flex-wrap: wrap; gap: 8px; }
   .clado-rel-chip {
     display: inline-block; padding: 3px 9px;
     border-radius: var(--radius);
@@ -1432,9 +1432,9 @@
     min-width: 0;
     border-radius: var(--radius);
     background: var(--surface-2);
-    padding: 8px 9px;
+    padding: 12px 14px;
   }
-  .taxonomy-label { color: var(--text-3); font-size: var(--fs-xs); margin-bottom: 3px; }
+  .taxonomy-label { color: var(--text-3); font-size: var(--fs-xs); margin-bottom: 6px; }
   .taxonomy-value { color: var(--text); font-size: var(--fs-md); font-weight: var(--fw-bold); line-height: 1.3; overflow-wrap: anywhere; }
   .evidence-grid {
     display: grid;
@@ -1778,15 +1778,18 @@
 
   .related-grid {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 8px;
+    grid-template-columns: minmax(0, 1fr);
+    margin-top: 12px;
+    gap: 16px;
   }
+  .profile-section-card > .related-section { margin-top: 24px; }
+  .related-section > .subsection-title { margin: 0 0 12px; }
   .related-card {
     display: grid;
-    grid-template-columns: 76px 1fr;
-    gap: 10px;
+    grid-template-columns: 76px minmax(0, 1fr);
+    gap: 16px;
     width: 100%;
-    padding: 8px;
+    padding: 14px;
     border: 1px solid color-mix(in srgb, var(--accent) 18%, var(--line));
     border-radius: var(--radius);
     background: var(--surface-2);
@@ -1820,9 +1823,10 @@
     object-fit: contain;
     filter: drop-shadow(0 6px 5px rgba(0,0,0,.13));
   }
-  .related-name { font-size: var(--fs-base); font-weight: var(--fw-bold); line-height: 1.25; }
-  .related-meta { margin-top: 2px; color: var(--text-3); font-size: var(--fs-sm); line-height: 1.35; }
-  .related-reason { margin-top: 6px; color: var(--text-2); font-size: var(--fs-sm); line-height: 1.35; }
+  .related-card > div { min-width: 0; overflow-wrap: break-word; }
+  .related-name { font-size: var(--fs-base); font-weight: var(--fw-bold); line-height: 1.4; }
+  .related-meta { margin-top: 6px; color: var(--text-3); font-size: var(--fs-sm); line-height: 1.35; }
+  .related-reason { margin-top: 10px; color: var(--text-2); font-size: var(--fs-sm); line-height: 1.35; }
 
   @media (max-width: 920px) {
     .toolbar { grid-template-columns: 1fr 1fr; }
@@ -1977,7 +1981,7 @@
     }
     .qf-item {
       min-height: 58px;
-      padding: 9px 10px;
+      padding: 12px 14px;
     }
     .description {
       font-size: var(--fs-lg);
@@ -6455,7 +6459,7 @@
   .profile-preview .quick-facts,
   .profile-dossier-hero .quick-facts {
     margin-top: 0;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .profile-preview-open {
     display: inline-flex;
@@ -6482,6 +6486,12 @@
   .profile-dossier {
     display: none;
   }
+  .profile-dossier p,
+  .profile-preview .profile-lead {
+    text-align: justify;
+    text-align-last: start;
+    hyphens: auto;
+  }
   .side-panel.expanded .profile-preview {
     display: none;
   }
@@ -6500,7 +6510,7 @@
       "sources";
     row-gap: 0;
     align-items: start;
-    width: min(100%, 1180px);
+    width: min(100%, 1200px);
     margin: 0 auto;
   }
   .side-panel.expanded .panel-header {
@@ -6683,7 +6693,7 @@
   }
   .side-panel.expanded .profile-section-card,
   .side-panel.expanded .profile-dossier-hero {
-    width: min(100%, 1080px);
+    width: min(100%, 1200px);
     margin-inline: auto;
   }
   .side-panel.expanded .profile-section-card > .section-title {
@@ -6927,14 +6937,14 @@
     text-transform: uppercase;
   }
   .side-panel.expanded #profile-classification .related-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
   }
   .side-panel.expanded #profile-locality .fossil-summary-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 6px;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+    gap: 16px;
   }
   .side-panel.expanded #profile-locality .fossil-summary-item {
-    padding: 7px 8px;
+    padding: 14px 16px;
   }
   .side-panel.expanded #profile-locality .fossil-summary-value {
     font-size: var(--fs-sm);
@@ -6990,7 +7000,7 @@
       grid-template-columns: minmax(0, 1.1fr) minmax(240px, .9fr);
     }
     .side-panel.expanded #profile-classification .related-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
     }
   }
 
@@ -8590,7 +8600,7 @@
 <script src="data/pbdb-enrichment.js"></script>
 <script src="data/wiki-enrichment.js"></script>
 <script src="data/genera-index.js"></script>
-<link rel="stylesheet" href="assets/profile.css?v=5">
+<link rel="stylesheet" href="assets/profile.css?v=7">
 <script src="assets/vendor/js-yaml.min.js"></script>
 <script src="assets/profile.js?v=5"></script>
 <script>
@@ -14375,6 +14385,7 @@ function relatedDinosaursNode(d, curated = null) {
   if (!related.length) return null;
 
   const section = document.createElement('div');
+  section.className = 'related-section';
   section.innerHTML = `<div class="subsection-title">${curated?.length ? 'Evolutionary comparisons' : 'Related dinosaurs'}</div>`;
   const grid = document.createElement('div');
   grid.className = 'related-grid';
