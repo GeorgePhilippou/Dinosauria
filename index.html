@@ -10458,7 +10458,7 @@ function buildHomeHero() {
       ${MESO_PERIODS.map(period => `<span class="home-period-segment" style="--period-col:${period.col};width:${(counts.get(period.id) / total * 100).toFixed(3)}%"></span>`).join('')}
     </div>
     <div class="home-period-legend">
-      ${MESO_PERIODS.map(period => `<span class="home-period-key"><span class="home-period-swatch" style="--period-col:${period.col}"></span>${period.label} · ${counts.get(period.id)}</span>`).join('')}
+      ${MESO_PERIODS.map(period => `<span class="home-period-key"><span class="home-period-swatch" style="--period-col:${period.col}"></span>${period.label} · ${counts.get(period.id)} ${counts.get(period.id) === 1 ? 'entry' : 'entries'}</span>`).join('')}
     </div>`;
 }
 
