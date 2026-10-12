@@ -5011,26 +5011,6 @@
     line-height: 1;
   }
   .home-quick-label { margin-top: 8px; color: var(--text-3); font-size: var(--fs-sm); line-height: 1.35; }
-  .home-period-snapshot { margin-top: 32px; }
-  .home-period-bar {
-    display: flex;
-    height: 12px;
-    border: 1px solid var(--line);
-    border-radius: var(--radius-pill);
-    overflow: hidden;
-    background: var(--surface-2);
-  }
-  .home-period-segment { min-width: 3px; height: 100%; background: var(--period-col); }
-  .home-period-legend {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 16px;
-    margin-top: 10px;
-    color: var(--text-3);
-    font-size: var(--fs-xs);
-  }
-  .home-period-key { display: inline-flex; align-items: center; gap: 6px; }
-  .home-period-swatch { width: 9px; height: 9px; border-radius: 2px; background: var(--period-col); }
   @media (max-width: 920px) {
     .home-editorial-hero { grid-template-columns: 1fr; }
     .home-editorial-title { max-width: 700px; }
@@ -7751,7 +7731,6 @@
             <h1 class="home-editorial-title">Dinosaurs, <em>evidence,</em> and deep time.</h1>
             <p class="home-editorial-deck" data-dino-count>Dinosauria is an independent, open-access educational project created to make dinosaur palaeontology and evolution easier to explore. It brings together publicly accessible scientific databases, museum resources, primary literature and openly licensed media across 328 catalogue profiles, while keeping sources, uncertainty and the limits of the evidence visible.</p>
             <p class="home-editorial-deck">It is an evolving learning resource—not an official museum publication or a substitute for peer-reviewed scholarship—designed to encourage scientific curiosity and improve public understanding of dinosaurs, evolution and deep time.</p>
-            <div class="home-period-snapshot" id="home-period-snapshot" aria-label="Catalogue profiles by geological period"></div>
           </div>
           <div class="home-quick-grid" id="home-quick-grid" aria-label="Collection quick facts"></div>
         </div>
@@ -10426,8 +10405,7 @@ function buildHomeOverview() {
 
 function buildHomeHero() {
   const facts = document.getElementById('home-quick-grid');
-  const snapshot = document.getElementById('home-period-snapshot');
-  if (!facts || !snapshot) return;
+  if (!facts) return;
 
   const normaliseCountry = country => ({ England: 'United Kingdom', UK: 'United Kingdom' }[country] || country);
   const mappedCountries = new Set(
@@ -10447,19 +10425,6 @@ function buildHomeHero() {
       <div class="home-quick-value">${fact.value}</div>
       <div class="home-quick-label">${fact.label}</div>
     </div>`).join('');
-
-  const counts = new Map(MESO_PERIODS.map(period => [period.id, 0]));
-  DINOS.forEach(d => {
-    if (counts.has(d.period)) counts.set(d.period, counts.get(d.period) + 1);
-  });
-  const total = [...counts.values()].reduce((sum, value) => sum + value, 0) || 1;
-  snapshot.innerHTML = `
-    <div class="home-period-bar" aria-hidden="true">
-      ${MESO_PERIODS.map(period => `<span class="home-period-segment" style="--period-col:${period.col};width:${(counts.get(period.id) / total * 100).toFixed(3)}%"></span>`).join('')}
-    </div>
-    <div class="home-period-legend">
-      ${MESO_PERIODS.map(period => `<span class="home-period-key"><span class="home-period-swatch" style="--period-col:${period.col}"></span>${period.label} · ${counts.get(period.id)} ${counts.get(period.id) === 1 ? 'entry' : 'entries'}</span>`).join('')}
-    </div>`;
 }
 
 let periodViewBuilt = false;
